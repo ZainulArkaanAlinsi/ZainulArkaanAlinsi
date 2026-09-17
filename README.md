@@ -43,7 +43,7 @@ I'm a student at **IDN Boarding School**, a program focused on developing future
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=ZainulArkaanAlinsi&theme=github-dark-blue&hide_border=true" />
-  <img alt="GitHub streak" src="https://streak-stats.demolab.com?user=ZainulArkaanAlinsi&hide_border=true" width="100%" />
+  <img alt="GitHub streak" src="https://streak-stats.demolab.com?user=ZainulArkaanAlinsi&hide_border=true" width="560" />
 </picture>
 
 <br/><br/>
