@@ -16,31 +16,7 @@
 
 <img src="./assets/section-about.svg" width="100%" alt="01 — About me" />
 
-<table>
-<tr>
-<td width="58%" valign="top">
-
-I'm a student at **IDN Boarding School**, a program focused on growing the next generation of tech leaders.
-
-I build **full-stack web applications** with PHP, Laravel, Next.js and Tailwind CSS, and I'm currently going deep into **Flutter** for mobile development.
-
-My north star is simple: write efficient, maintainable code — and ship solutions that create real impact.
-
-</td>
-<td width="42%" valign="top">
-
-```yaml
-role:      Full-Stack Developer
-school:    IDN Boarding School
-web:       Laravel · Next.js · Tailwind
-mobile:    Flutter · React Native
-learning:  Flutter, deeper
-based_in:  Indonesia
-```
-
-</td>
-</tr>
-</table>
+<img src="./assets/about.svg" width="100%" alt="I build full-stack products that turn clean code into real-world impact. Student at IDN Boarding School; Laravel, Next.js, Tailwind CSS, Flutter." />
 
 <br/>
 
@@ -69,12 +45,7 @@ based_in:  Indonesia
 
 <div align="center">
 
-<img src="./profile-summary-card-output/dark/0-profile-details.svg" width="100%" />
-
-<img src="./profile-summary-card-output/dark/1-repos-per-language.svg" width="49%" />
-<img src="./profile-summary-card-output/dark/2-most-commit-language.svg" width="49%" />
-
-<img src="https://streak-stats.demolab.com?user=ZainulArkaanAlinsi&background=0A0A0A&border=262626&ring=FAFAFA&fire=FAFAFA&currStreakNum=FAFAFA&sideNums=FAFAFA&currStreakLabel=FAFAFA&sideLabels=A3A3A3&dates=525252&stroke=262626&border_radius=4" width="100%" />
+<img src="./assets/stats.svg" width="100%" alt="GitHub stats: contributions, streaks, weekly activity and top languages" />
 
 </div>
 

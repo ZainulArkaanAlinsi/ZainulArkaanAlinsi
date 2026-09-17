@@ -71,6 +71,7 @@ MONO_ADV = mono["hmtx"]["zero"][0] / mono["head"].unitsPerEm  # 0.6em
 
 mono_b = load_font(FONTS / "JetBrainsMono[wght].ttf", wght=800)
 FONT_CSS = embed(serif, "Serif") + embed(serif_i, "SerifI") + embed(mono, "Mono")
+(ROOT / "fonts.css").write_text(FONT_CSS, encoding="utf-8")  # shared with gen_cards.py (CI, stdlib only)
 BASE_CSS = f"""{FONT_CSS}
 .m{{font-family:Mono,ui-monospace,Consolas,monospace}}
 .s{{font-family:Serif,Georgia,serif}}
