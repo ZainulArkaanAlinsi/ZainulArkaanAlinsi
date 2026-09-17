@@ -172,7 +172,7 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{
     <stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#000"/>
   </linearGradient>
   <mask id="reveal">
-    <circle cx="{cx:.0f}" cy="{cy:.0f}" r="0" fill="url(#fade)">
+    <circle cx="{cx:.0f}" cy="{cy:.0f}" r="{max(PW, PH):.0f}" fill="url(#fade)">
       <animate attributeName="r" from="0" to="{max(PW, PH):.0f}" dur="1.6s" begin="0s" fill="freeze" calcMode="spline" keySplines=".2 .7 .2 1" keyTimes="0;1"/>
     </circle>
   </mask>
@@ -198,7 +198,7 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{
   @keyframes blink {{ 50% {{ opacity: 0 }} }}
   .pulse {{ animation: pulse 1.6s ease-in-out infinite; }}
   @keyframes pulse {{ 50% {{ opacity: .25 }} }}
-  .in {{ opacity: 0; animation: in .6s ease-out forwards; }}
+  .in {{ animation: in .6s ease-out backwards; }}
   @keyframes in {{ from {{ opacity: 0; transform: translateY(8px) }} to {{ opacity: 1; transform: none }} }}
   .k {{ fill: #67e8f9; font-size: 14px; }}
   .d {{ fill: #334155; font-size: 14px; }}
