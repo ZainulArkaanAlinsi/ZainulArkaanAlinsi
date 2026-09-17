@@ -2,6 +2,8 @@
 
 <img src="./assets/hero.svg" width="100%" alt="Zainul Arkaan Alinsi — Full-Stack Developer" />
 
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3000&pause=1200&color=8D96A0&center=true&vCenter=true&width=640&height=40&lines=Building+full-stack+web+apps+with+Laravel+%26+Next.js;Currently+learning+Flutter;Efficient+code%2C+real+impact" alt="Building full-stack web apps with Laravel and Next.js" />
+
 <br/>
 
 <a href="https://instagram.com/zainarilbre"><img src="https://img.shields.io/badge/Instagram-24292f?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" /></a>
@@ -25,28 +27,36 @@ I'm a student at **IDN Boarding School**, a program focused on developing future
 
 ## Tech stack
 
-**Languages**
+<div align="center">
 
 <img src="https://skillicons.dev/icons?i=php,ts,js,dart,java,html,css&perline=10" alt="PHP, TypeScript, JavaScript, Dart, Java, HTML, CSS" />
-
-**Frameworks & libraries**
-
+<br/><sub>languages</sub><br/><br/>
 <img src="https://skillicons.dev/icons?i=laravel,nextjs,react,vue,tailwind,alpinejs,flutter,nodejs&perline=10" alt="Laravel, Next.js, React, Vue, Tailwind CSS, Alpine.js, Flutter, Node.js" />
-
-**Databases, cloud & tools**
-
+<br/><sub>frameworks &amp; libraries</sub><br/><br/>
 <img src="https://skillicons.dev/icons?i=mysql,sqlite,firebase,vercel,git,github,figma,postman,vscode&perline=10" alt="MySQL, SQLite, Firebase, Vercel, Git, GitHub, Figma, Postman, VS Code" />
+<br/><sub>databases, cloud &amp; tools</sub>
+
+</div>
 
 <br/>
 
 ## GitHub activity
 
 <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/contributions-3d-dark.svg" />
+  <img alt="3D isometric contribution calendar" src="./assets/contributions-3d-light.svg" width="100%" />
+</picture>
+
+<div align="center">
+
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=ZainulArkaanAlinsi&theme=github-dark-blue&hide_border=true" />
   <img alt="GitHub streak" src="https://streak-stats.demolab.com?user=ZainulArkaanAlinsi&hide_border=true" width="560" />
 </picture>
 
-<br/><br/>
+</div>
+
+<br/>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg" />
