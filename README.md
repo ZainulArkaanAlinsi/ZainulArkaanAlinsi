@@ -1,45 +1,20 @@
 <div align="center">
 
-<img src="./assets/hero.svg" width="100%" alt="Zainul Arkaan Alinsi — Full-Stack Developer" />
+<img src="./assets/cover.svg" width="100%" alt="Zainul Arkaan Alinsi — a tiny zine. Full-stack developer and student at IDN Boarding School, building with Laravel, Next.js and Tailwind CSS, learning Flutter." />
 
-<br/>
+<a href="https://instagram.com/zainarilbre"><img src="./assets/social-instagram.svg" width="23%" alt="Instagram" /></a>
+<a href="https://linkedin.com/in/zainul-arkaan-3bb51731a"><img src="./assets/social-linkedin.svg" width="23%" alt="LinkedIn" /></a>
+<a href="https://www.youtube.com/@zainarilbre"><img src="./assets/social-youtube.svg" width="23%" alt="YouTube" /></a>
+<a href="mailto:zainaril13@gmail.com"><img src="./assets/social-gmail.svg" width="23%" alt="Email" /></a>
 
-<a href="https://instagram.com/zainarilbre"><img src="https://img.shields.io/badge/Instagram-0a0a0a?style=for-the-badge&logo=instagram&logoColor=c8f169" alt="Instagram" /></a>
-<a href="https://linkedin.com/in/zainul-arkaan-3bb51731a"><img src="https://img.shields.io/badge/LinkedIn-0a0a0a?style=for-the-badge&logo=linkedin&logoColor=b8a6ff" alt="LinkedIn" /></a>
-<a href="https://www.youtube.com/@zainarilbre"><img src="https://img.shields.io/badge/YouTube-0a0a0a?style=for-the-badge&logo=youtube&logoColor=ff906e" alt="YouTube" /></a>
-<a href="mailto:zainaril13@gmail.com"><img src="https://img.shields.io/badge/Email-0a0a0a?style=for-the-badge&logo=gmail&logoColor=7ccbff" alt="Email" /></a>
-<img src="https://komarev.com/ghpvc/?username=ZainulArkaanAlinsi&style=for-the-badge&color=c8f169&label=VISITORS" alt="visitors" />
+<img src="./assets/about.svg" width="100%" alt="About me: a student at IDN Boarding School who builds full-stack web apps with Laravel, Next.js and Tailwind CSS, currently going deep into Flutter." />
 
-</div>
+<img src="./assets/toolkit.svg" width="100%" alt="My toolkit: Laravel, Next.js, PHP, TypeScript, Tailwind, JavaScript, React, Dart, Flutter, Vue, Node.js, MySQL, Firebase, Git, GitHub, Figma, Postman, Vercel and more." />
 
-<br/>
+<img src="./assets/report.svg" width="100%" alt="GitHub report card: contributions, streaks, weekly activity and language breakdown, refreshed daily." />
 
-<img src="./assets/section-about.svg" width="100%" alt="01 — About me" />
+<img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg" width="100%" alt="Contribution snake" />
 
-<img src="./assets/about.svg" width="100%" alt="I build full-stack products that turn clean code into real-world impact. Student at IDN Boarding School; Laravel, Next.js, Tailwind CSS, Flutter." />
-
-<br/>
-
-<img src="./assets/section-stack.svg" width="100%" alt="02 — Tech stack" />
-
-<img src="./assets/stack.svg" width="100%" alt="Tech stack: PHP, TypeScript, JavaScript, Dart, Java, Laravel, Next.js, React, Vue, Tailwind, Flutter, Node.js, MySQL, Firebase, Git and more" />
-
-<br/>
-
-<img src="./assets/section-activity.svg" width="100%" alt="03 — GitHub activity" />
-
-<div align="center">
-
-<img src="./assets/stats.svg" width="100%" alt="GitHub stats: contributions, streaks, weekly activity and top languages" />
+<img src="./assets/footer.svg" width="100%" alt="Thanks for reading my zine!" />
 
 </div>
-
-<br/>
-
-<img src="./assets/section-snake.svg" width="100%" alt="04 — Contribution graph" />
-
-<img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg" width="100%" alt="contribution snake" />
-
-<br/>
-
-<img src="./assets/footer.svg" width="100%" alt="Thanks for visiting" />
