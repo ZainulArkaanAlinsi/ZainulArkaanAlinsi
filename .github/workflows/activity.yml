@@ -1,4 +1,4 @@
-name: 3d contributions
+name: github activity
 
 on:
   schedule:
@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: iso-calendar
+  group: activity-panel
   cancel-in-progress: true
 
 jobs:
@@ -23,8 +23,8 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Render isometric calendar
-        run: python scripts/build_iso.py assets
+      - name: Render activity panel
+        run: python scripts/build_activity.py assets
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -32,5 +32,5 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/contributions-3d-*.svg
-          git diff --cached --quiet || (git commit -m "chore: refresh 3d contributions" && git push)
+          git add assets/activity-*.svg
+          git diff --cached --quiet || (git commit -m "chore: refresh activity panel" && git push)

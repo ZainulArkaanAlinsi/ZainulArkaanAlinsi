@@ -43,18 +43,9 @@ I'm a student at **IDN Boarding School**, a program focused on developing future
 ## GitHub activity
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/contributions-3d-dark.svg" />
-  <img alt="3D isometric contribution calendar" src="./assets/contributions-3d-light.svg" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg" />
+  <img alt="GitHub activity: contribution stats and a 3D isometric contribution calendar" src="./assets/activity-light.svg" width="100%" />
 </picture>
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=ZainulArkaanAlinsi&theme=github-dark-blue&hide_border=true" />
-  <img alt="GitHub streak" src="https://streak-stats.demolab.com?user=ZainulArkaanAlinsi&hide_border=true" width="560" />
-</picture>
-
-</div>
 
 <br/>
 
