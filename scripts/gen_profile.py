@@ -28,6 +28,7 @@ FONTS = Path(sys.argv[3]) if len(sys.argv) > 3 else ROOT / "fonts"
 OUT.mkdir(parents=True, exist_ok=True)
 
 BG, INK, MUTED, DIM, LINE = "#0a0a0a", "#fafafa", "#a3a3a3", "#525252", "#262626"
+LIME = "#c8f169"  # hero accent; the portrait itself stays black & white
 CHARSET = "".join(chr(c) for c in range(32, 127)) + "—·•×№°’“”"
 
 
@@ -198,9 +199,10 @@ def hero():
 
     ring_text = "OPEN FOR COLLABORATION · 2026 · "
     ticker_items = ["PHP", "LARAVEL", "NEXT.JS", "TAILWIND CSS", "FLUTTER", "TYPESCRIPT", "REACT", "DART", "MYSQL", "FIREBASE"]
-    ticker = "   ·   ".join(ticker_items) + "   ·   "
+    ticker = "".join(t + "   *   " for t in ticker_items)
     tick_w = measure(mono, ticker, 12) + len(ticker) * 2.2  # includes letter-spacing
-    tick_line = f'<text class="m" font-size="12" letter-spacing="2.2" fill="{MUTED}" style="white-space:pre">{escape(ticker * 3)}</text>'
+    tick_spans = "".join(f'<tspan fill="{MUTED}">{escape(t)}</tspan><tspan fill="{LIME}">   *   </tspan>' for t in ticker_items)
+    tick_line = f'<text class="m" font-size="12" letter-spacing="2.2" style="white-space:pre">{tick_spans * 3}</text>'
 
     glitch_defs, glitch_use = [], []
     for i, (fy, hrows, cls) in enumerate([(0.30, 9, "g1"), (0.62, 7, "g2")]):
@@ -217,7 +219,10 @@ def hero():
 .draw{{stroke-dasharray:120 400;animation:draw 5s cubic-bezier(.6,0,.3,1) infinite}}
 @keyframes draw{{from{{stroke-dashoffset:520}}to{{stroke-dashoffset:0}}}}
 .shine{{animation:shine 6s ease-in-out infinite}}
-@keyframes shine{{0%,100%{{fill:#fafafa}}50%{{fill:#8a8a8a}}}}
+@keyframes shine{{0%,100%{{opacity:1}}50%{{opacity:.35}}}}
+.blink{{animation:blink 4s steps(1) infinite}}.blink2{{animation:blink2 4s steps(1) infinite}}
+@keyframes blink{{0%,90%{{opacity:1}}92%,100%{{opacity:0}}}}@keyframes blink2{{0%,90%{{opacity:0}}92%,100%{{opacity:1}}}}
+.bob{{animation:bob 1.6s ease-in-out infinite}}@keyframes bob{{50%{{transform:translateY(5px)}}}}
 .sweep{{animation:sweep 7s cubic-bezier(.45,0,.2,1) infinite}}
 @keyframes sweep{{0%{{transform:translateY(-260px)}}60%,100%{{transform:translateY({CARD_H + 260}px)}}}}
 .g1{{animation:gl 7s steps(1) 3s infinite}}.g2{{animation:gl 9s steps(1) 5.4s infinite}}
@@ -257,18 +262,18 @@ def hero():
   </g>
   <rect class="sweep" x="{CARD_X}" y="{CARD_Y}" width="{CARD_W}" height="200" fill="url(#band)" opacity=".08"/>
   <rect x="{CARD_X}" y="{CARD_Y}" width="{CARD_W}" height="{CARD_H}" fill="url(#vig)"/>
-  <rect x="{CARD_X}" y="{CARD_Y}" width="{CARD_W}" height="1.5" fill="{INK}" opacity=".3" class="sweep line"/>
+  <rect x="{CARD_X}" y="{CARD_Y}" width="{CARD_W}" height="1.5" fill="{LIME}" opacity=".5" class="sweep line"/>
 </g>
-<g stroke="{INK}" stroke-width="1.2" fill="none">
+<g stroke="{LIME}" stroke-width="1.4" fill="none">
   <path d="M{CARD_X - 12},{CARD_Y} h8 M{CARD_X},{CARD_Y - 12} v8"/>
   <path d="M{CARD_X + CARD_W + 12},{CARD_Y} h-8 M{CARD_X + CARD_W},{CARD_Y - 12} v8"/>
   <path d="M{CARD_X - 12},{CARD_Y + CARD_H} h8 M{CARD_X},{CARD_Y + CARD_H + 12} v-8"/>
   <path d="M{CARD_X + CARD_W + 12},{CARD_Y + CARD_H} h-8 M{CARD_X + CARD_W},{CARD_Y + CARD_H + 12} v-8"/>
 </g>
-<text x="{CARD_X + 18}" y="{CARD_Y + 28}" class="cap" fill="{INK}">FIG. 01</text>
+<text x="{CARD_X + 18}" y="{CARD_Y + 28}" class="cap" fill="{LIME}">FIG. 01</text>
 <text x="{CARD_X + CARD_W - 18}" y="{CARD_Y + 28}" class="cap" text-anchor="end">ASCII · B/W · {COLS}×{ROWS}</text>
 <g transform="translate({CARD_X + 18},{CARD_Y + CARD_H - 22})">
-  <circle cx="4" cy="-4" r="3.5" fill="{INK}" class="pulse"/>
+  <circle cx="4" cy="-4" r="3.5" fill="{LIME}" class="pulse"/>
   <text x="16" y="0" class="cap" fill="{INK}">LIVE RENDER</text>
 </g>
 <text x="{CARD_X + CARD_W - 18}" y="{CARD_Y + CARD_H - 22}" class="cap" text-anchor="end">ZAINUL / 2026</text>
@@ -279,16 +284,16 @@ def hero():
   <text x="{RX + 330}" y="66" class="cap">N° 001</text>
 </g>
 <line x1="{RX}" y1="88" x2="{RX + 400}" y2="88" stroke="{LINE}"/>
-<line x1="{RX}" y1="88" x2="{RX + 400}" y2="88" stroke="{INK}" class="draw"/>
+<line x1="{RX}" y1="88" x2="{RX + 400}" y2="88" stroke="{LIME}" stroke-width="2" class="draw"/>
 
 <g >
   <circle cx="1106" cy="70" r="52" fill="{BG}" stroke="{LINE}"/>
-  <g class="spin"><text class="m" font-size="7.4" letter-spacing="1.25" fill="{MUTED}"><textPath href="#ring" xlink:href="#ring">{ring_text}</textPath></text></g>
+  <g class="spin"><text class="m" font-size="7.4" letter-spacing="1.25" fill="{LIME}"><textPath href="#ring" xlink:href="#ring">{ring_text}</textPath></text></g>
   <text x="1106" y="80" text-anchor="middle" class="si" font-size="28" fill="{INK}">za</text>
 </g>
 
 <g clip-path="url(#n1)"><text x="{RX - 4}" y="{name1_y}" class="s" font-size="{s1}" fill="{INK}" letter-spacing="-1.5">Zainul Arkaan</text></g>
-<g clip-path="url(#n2)"><text x="{RX - 2}" y="{name2_y:.0f}" class="si" font-size="{s1}" fill="{INK}" letter-spacing="-1">Alinsi<tspan fill="{DIM}" class="shine">.</tspan></text></g>
+<g clip-path="url(#n2)"><text x="{RX - 2}" y="{name2_y:.0f}" class="si" font-size="{s1}" fill="{INK}" letter-spacing="-1">Alinsi<tspan fill="{LIME}" class="shine">.</tspan></text></g>
 
 <g >
   <text x="{RX}" y="378" class="m" font-size="13" letter-spacing="3" fill="{INK}">FULL-STACK DEVELOPER</text>
@@ -298,6 +303,15 @@ def hero():
 <line x1="{RX}" y1="522" x2="{RX + RW}" y2="522" stroke="{LINE}"/>
 {grid}
 
+<!-- ============ mascot: cat on the ticker rail ============ -->
+<g transform="translate(1030,{H - 104})">
+  <text x="-18" y="-2" class="cap" text-anchor="end" fill="{LIME}">SCROLL DOWN</text>
+  <text x="-18" y="18" class="m bob" font-size="14" text-anchor="end" fill="{LIME}">v v v</text>
+  <text x="0" y="0" class="m" font-size="17" fill="{INK}" style="white-space:pre"> /\_/\ </text>
+  <text x="0" y="19" class="m blink" font-size="17" fill="{INK}" style="white-space:pre">( o.o )</text>
+  <text x="0" y="19" class="m blink2" font-size="17" fill="{INK}" style="white-space:pre">( -.- )</text>
+  <text x="0" y="38" class="m" font-size="17" fill="{LIME}" style="white-space:pre"> &gt; ^ &lt; </text>
+</g>
 <!-- ============ ticker ============ -->
 <line x1="0" y1="{H - 52}" x2="{W}" y2="{H - 52}" stroke="{LINE}"/>
 <g clip-path="url(#tk)"><g transform="translate(0,{H - 21})"><g class="tick">{tick_line}</g></g></g>
@@ -353,11 +367,7 @@ def footer():
 
 if __name__ == "__main__":
     hero()
-    section("about", "01 / 04", "About", "me", "WHO I AM")
-    section("stack", "02 / 04", "Tech", "stack", "TOOLS I BUILD WITH")
-    section("activity", "03 / 04", "GitHub", "activity", "STATS · STREAK · LANGUAGES")
-    section("snake", "04 / 04", "Contribution", "graph", "EVERY COMMIT COUNTS")
-    footer()
+    # section headers, about, stack, stats and footer live in gen_cards.py
     for p in sorted(OUT.glob("*.svg")):
         print(f"{p.name}: {p.stat().st_size / 1024:.1f} KB")
     print(f"grid {COLS}x{ROWS}")

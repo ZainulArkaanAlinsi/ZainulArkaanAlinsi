@@ -4,11 +4,11 @@
 
 <br/>
 
-<a href="https://instagram.com/zainarilbre"><img src="https://img.shields.io/badge/Instagram-0a0a0a?style=for-the-badge&logo=instagram&logoColor=fafafa" alt="Instagram" /></a>
-<a href="https://linkedin.com/in/zainul-arkaan-3bb51731a"><img src="https://img.shields.io/badge/LinkedIn-0a0a0a?style=for-the-badge&logo=linkedin&logoColor=fafafa" alt="LinkedIn" /></a>
-<a href="https://www.youtube.com/@zainarilbre"><img src="https://img.shields.io/badge/YouTube-0a0a0a?style=for-the-badge&logo=youtube&logoColor=fafafa" alt="YouTube" /></a>
-<a href="mailto:zainaril13@gmail.com"><img src="https://img.shields.io/badge/Email-0a0a0a?style=for-the-badge&logo=gmail&logoColor=fafafa" alt="Email" /></a>
-<img src="https://komarev.com/ghpvc/?username=ZainulArkaanAlinsi&style=for-the-badge&color=262626&label=VISITORS" alt="visitors" />
+<a href="https://instagram.com/zainarilbre"><img src="https://img.shields.io/badge/Instagram-0a0a0a?style=for-the-badge&logo=instagram&logoColor=c8f169" alt="Instagram" /></a>
+<a href="https://linkedin.com/in/zainul-arkaan-3bb51731a"><img src="https://img.shields.io/badge/LinkedIn-0a0a0a?style=for-the-badge&logo=linkedin&logoColor=b8a6ff" alt="LinkedIn" /></a>
+<a href="https://www.youtube.com/@zainarilbre"><img src="https://img.shields.io/badge/YouTube-0a0a0a?style=for-the-badge&logo=youtube&logoColor=ff906e" alt="YouTube" /></a>
+<a href="mailto:zainaril13@gmail.com"><img src="https://img.shields.io/badge/Email-0a0a0a?style=for-the-badge&logo=gmail&logoColor=7ccbff" alt="Email" /></a>
+<img src="https://komarev.com/ghpvc/?username=ZainulArkaanAlinsi&style=for-the-badge&color=c8f169&label=VISITORS" alt="visitors" />
 
 </div>
 
@@ -22,22 +22,7 @@
 
 <img src="./assets/section-stack.svg" width="100%" alt="02 — Tech stack" />
 
-<div align="center">
-
-<sub><code>LANGUAGES</code></sub><br/>
-<img src="https://skillicons.dev/icons?i=php,ts,js,dart,java,html,css,powershell&theme=dark" /><br/><br/>
-<sub><code>FRAMEWORKS</code></sub><br/>
-<img src="https://skillicons.dev/icons?i=laravel,nextjs,react,vue,tailwind,alpinejs,flutter,nodejs&theme=dark" /><br/><br/>
-<sub><code>DATA · CLOUD · TOOLS</code></sub><br/>
-<img src="https://skillicons.dev/icons?i=mysql,sqlite,firebase,vercel,git,github,figma,postman,gradle,vscode&theme=dark" /><br/><br/>
-<img src="https://img.shields.io/badge/React_Native-0a0a0a?style=flat-square&logo=react&logoColor=fafafa" />
-<img src="https://img.shields.io/badge/Canva-0a0a0a?style=flat-square&logo=canva&logoColor=fafafa" />
-<img src="https://img.shields.io/badge/Jira-0a0a0a?style=flat-square&logo=jira&logoColor=fafafa" />
-<img src="https://img.shields.io/badge/Steam-0a0a0a?style=flat-square&logo=steam&logoColor=fafafa" />
-<img src="https://img.shields.io/badge/Epic_Games-0a0a0a?style=flat-square&logo=epicgames&logoColor=fafafa" />
-<img src="https://img.shields.io/badge/EA-0a0a0a?style=flat-square&logo=ea&logoColor=fafafa" />
-
-</div>
+<img src="./assets/stack.svg" width="100%" alt="Tech stack: PHP, TypeScript, JavaScript, Dart, Java, Laravel, Next.js, React, Vue, Tailwind, Flutter, Node.js, MySQL, Firebase, Git and more" />
 
 <br/>
 
