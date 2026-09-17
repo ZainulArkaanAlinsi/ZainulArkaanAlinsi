@@ -1,27 +1,101 @@
-# 💫 About Me:
-I am a student at IDN Boarding School, focused on developing future tech<br>leaders. I build full-stack web applications using PHP, Laravel, Next.js, and<br>Tailwind CSS. I am also learning Flutter for mobile app development and plan to<br>deepen my skills in this area. My goal is to create efficient code and deliver<br>impactful solutions through technology.
+<div align="center">
 
+<img src="./assets/hero.svg" width="100%" alt="Zainul Arkaan Alinsi — animated ASCII portrait" />
 
-## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/@zainarilbre) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://linkedin.com/in/linkedin.com/in/zainul-arkaan-3bb51731a) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@https://www.youtube.com/@zainarilbre) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:zainaril13@gmail.com) 
+<a href="https://github.com/ZainulArkaanAlinsi">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=900&color=67E8F9&center=true&vCenter=true&width=620&lines=Full-stack+web+dev+%E2%80%94+Laravel+%C2%B7+Next.js+%C2%B7+Tailwind;Learning+Flutter+for+mobile+apps;Student+%40+IDN+Boarding+School;Writing+efficient+code+%E2%9A%A1+shipping+real+impact" alt="typing" />
+</a>
 
-# 💻 Tech Stack:
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Alpine.js](https://img.shields.io/badge/alpinejs-white.svg?style=for-the-badge&logo=alpinedotjs&logoColor=%238BC0D0) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Vue.js](https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![EA](https://img.shields.io/badge/ea-%23000000.svg?style=for-the-badge&logo=ea&logoColor=white) ![Epic Games](https://img.shields.io/badge/epicgames-%23313131.svg?style=for-the-badge&logo=epicgames&logoColor=white) ![Steam](https://img.shields.io/badge/steam-%23000000.svg?style=for-the-badge&logo=steam&logoColor=white) ![Uber](https://img.shields.io/badge/Uber-%23000000.svg?style=for-the-badge&logo=Uber&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Gradle](https://img.shields.io/badge/Gradle-02303A.svg?style=for-the-badge&logo=Gradle&logoColor=white) ![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white)
-#  GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=ZainulArkaanAlinsi&theme=rose&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=ZainulArkaanAlinsi&theme=rose&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=ZainulArkaanAlinsi&theme=rose&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+<p>
+  <a href="https://instagram.com/zainarilbre"><img src="https://img.shields.io/badge/instagram-0d1117?style=for-the-badge&logo=instagram&logoColor=E4405F" /></a>
+  <a href="https://linkedin.com/in/zainul-arkaan-3bb51731a"><img src="https://img.shields.io/badge/linkedin-0d1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2" /></a>
+  <a href="https://www.youtube.com/@zainarilbre"><img src="https://img.shields.io/badge/youtube-0d1117?style=for-the-badge&logo=youtube&logoColor=FF0000" /></a>
+  <a href="mailto:zainaril13@gmail.com"><img src="https://img.shields.io/badge/email-0d1117?style=for-the-badge&logo=gmail&logoColor=67E8F9" /></a>
+  <img src="https://komarev.com/ghpvc/?username=ZainulArkaanAlinsi&style=for-the-badge&color=818cf8&label=PROFILE+VIEWS" />
+</p>
 
-##  GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=ZainulArkaanAlinsi&theme=rose&no-frame=false&no-bg=false&margin-w=4)
+</div>
 
-###   Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+<br/>
 
-###   Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=ZainulArkaanAlinsi&limit=5&theme=dark&combine_all_yearly_contributions=true)
+### `❯ cat about.ts`
 
----
-[![](https://visitcount.itsvg.in/api?id=ZainulArkaanAlinsi&icon=0&color=5)](https://visitcount.itsvg.in)
+```ts
+const zainul = {
+  role:      "Full-Stack Developer",
+  school:    "IDN Boarding School — growing future tech leaders",
+  web:       ["PHP", "Laravel", "Next.js", "Tailwind CSS"],
+  mobile:    ["Flutter (deep-diving)", "React Native"],
+  mindset:   "efficient code → impactful solutions",
+  currently: "building, breaking, and learning in public",
+} as const;
+```
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+<br/>
+
+### `❯ ls ./stack`
+
+<table>
+  <tr>
+    <td width="120"><code>languages</code></td>
+    <td><img src="https://skillicons.dev/icons?i=php,ts,js,dart,java,html,css,powershell&theme=dark&perline=8" /></td>
+  </tr>
+  <tr>
+    <td><code>frameworks</code></td>
+    <td><img src="https://skillicons.dev/icons?i=laravel,nextjs,react,vue,tailwind,alpinejs,flutter,nodejs&theme=dark&perline=8" /></td>
+  </tr>
+  <tr>
+    <td><code>data & cloud</code></td>
+    <td><img src="https://skillicons.dev/icons?i=mysql,sqlite,firebase,vercel&theme=dark&perline=8" /></td>
+  </tr>
+  <tr>
+    <td><code>tools</code></td>
+    <td><img src="https://skillicons.dev/icons?i=git,github,figma,postman,gradle,vscode&theme=dark&perline=8" /></td>
+  </tr>
+  <tr>
+    <td><code>also</code></td>
+    <td>
+      <img src="https://img.shields.io/badge/react_native-0d1117?style=flat-square&logo=react&logoColor=61DAFB" />
+      <img src="https://img.shields.io/badge/canva-0d1117?style=flat-square&logo=canva&logoColor=00C4CC" />
+      <img src="https://img.shields.io/badge/jira-0d1117?style=flat-square&logo=jira&logoColor=2684FF" />
+      <img src="https://img.shields.io/badge/steam-0d1117?style=flat-square&logo=steam&logoColor=white" />
+      <img src="https://img.shields.io/badge/epic_games-0d1117?style=flat-square&logo=epicgames&logoColor=white" />
+      <img src="https://img.shields.io/badge/ea-0d1117?style=flat-square&logo=ea&logoColor=white" />
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+### `❯ git log --stats`
+
+<div align="center">
+
+<img src="./profile-summary-card-output/github_dark/0-profile-details.svg" width="100%" />
+
+<img src="./profile-summary-card-output/github_dark/1-repos-per-language.svg" width="49%" />
+<img src="./profile-summary-card-output/github_dark/2-most-commit-language.svg" width="49%" />
+
+<img src="https://streak-stats.demolab.com?user=ZainulArkaanAlinsi&background=07090D&border=1E293B&ring=818CF8&fire=67E8F9&currStreakNum=E2E8F0&sideNums=E2E8F0&currStreakLabel=67E8F9&sideLabels=94A3B8&dates=64748B&stroke=1E293B&border_radius=14" width="100%" />
+
+</div>
+
+<br/>
+
+### `❯ ./snake --eat contributions`
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg" />
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg" width="100%" />
+</picture>
+
+<br/>
+
+<div align="center">
+
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&border=true" />
+
+<sub><code>// rendered in ASCII · generated with love from Indonesia 🇮🇩</code></sub>
+
+</div>
