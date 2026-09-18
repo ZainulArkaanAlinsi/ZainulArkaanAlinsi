@@ -8,8 +8,8 @@ import os
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from theme import (ASSETS, PULSE_CSS, THEMES, glass, line, pixel_text, pixel_width,
-                   rect, slot, svg_doc, text, ticks)
+from theme import (ACCENTS, ASSETS, PULSE_CSS, THEMES, glass, grass_block, line, mix,
+                   pixel_text, pixel_width, rect, slot, svg_doc, text, ticks)
 
 W, PAD = 1200, 34
 ICONS = json.loads((ASSETS.parent / "scripts" / "icons.json").read_text())
@@ -76,83 +76,101 @@ BIO = [
     ("dot", "Learning Flutter for mobile development"),
     ("dot", "Efficient code, real-world impact \u2014 that is the whole brief"),
 ]
-CHIPS = [("ROLE", "Full-stack developer", "blue"),
-         ("SCHOOL", "IDN Boarding School", "violet"),
-         ("NOW", "Learning Flutter", "green")]
+FACTS = [("ROLE", "Full-stack developer"),
+         ("SCHOOL", "IDN Boarding School"),
+         ("STACK", "Laravel \u00b7 Next.js \u00b7 Tailwind"),
+         ("LEARNING", "Flutter \u00b7 Dart"),
+         ("EDITOR", "VS Code"),
+         ("TIMEZONE", "WIB \u00b7 UTC+7")]
 
 PROMPT, PSIZE = "zainul@github", 12
+CARD_W = 392
+
+
+def terminal(t, x, y):
+    """The left column: a session you could have typed yourself."""
+    out = []
+    for kind, line in BIO:
+        if kind == "gap":
+            y += 12
+            continue
+        if kind == "cmd":
+            out.append(text(x, y, PROMPT, PSIZE, t["green"], weight=600))
+            out.append(text(x + mono_w(PROMPT, PSIZE), y, ":~$", PSIZE, t["muted"]))
+            out.append(text(x + mono_w(PROMPT + ":~$ ", PSIZE), y, line, PSIZE, t["ink"]))
+            y += 29
+        else:
+            if kind == "dot":
+                out.append(rect(x + 2, y - 7, 6, 6, fill=t["blue"]))
+            out.append(text(x + (16 if kind == "dot" else 0), y, line, 12.5,
+                            t["muted" if kind == "muted" else "ink"]))
+            y += 24
+    y += 6
+    out.append(text(x, y, PROMPT, PSIZE, t["green"], weight=600))
+    out.append(text(x + mono_w(PROMPT, PSIZE), y, ":~$", PSIZE, t["muted"]))
+    out.append(f'<rect class="bob" x="{x + mono_w(PROMPT + ":~$ ", PSIZE):.1f}" y="{y - 10:.0f}"'
+               f' width="8" height="13" fill="{t["ink"]}"/>')
+    return "".join(out), y + 8
+
+
+def id_card(t, x, y, h):
+    """The right column: neofetch, basically. Rows stretch to fill the height."""
+    out = [glass("idcard", x, y, CARD_W, h, t, r=14, glows=[(.85, .10, CARD_W * .55, "violet")])]
+    out.append(grass_block(x + 44, y + 40, 20, 15, t["green"], mix(t["bg"], t["amber"], .46)))
+    out.append(text(x + 80, y + 34, PROMPT, 13, t["green"], weight=600))
+    out.append(text(x + 80, y + 51, "profile \u2014 the short version", 10.5, t["muted"]))
+    out.append(line(x + 22, y + 70, x + CARD_W - 22, y + 70, t["line"], 1, .9))
+
+    top, bottom = y + 94, y + h - 20
+    step = min(30, (bottom - top) / max(1, len(FACTS) - 1))
+    for i, (k, v) in enumerate(FACTS):
+        ry = top + step * i
+        out.append(rect(x + 22, ry - 8, 2, 9, fill=t[ACCENTS[i % len(ACCENTS)]]))
+        out.append(text(x + 32, ry, k, 9.5, t["muted"], weight=600, ls="1.2"))
+        out.append(text(x + 126, ry, v, 12, t["ink"]))
+    return "".join(out)
 
 
 def about(t):
-    x, y0 = PAD + 28, PAD + 104
-    y = y0
-    lines = []
-    for kind, s in BIO:
-        if kind == "gap":
-            y += 10
-            continue
-        if kind == "cmd":
-            lines.append(text(x, y, PROMPT, PSIZE, t["green"], weight=600))
-            lines.append(text(x + mono_w(PROMPT, PSIZE), y, ":~$", PSIZE, t["muted"]))
-            lines.append(text(x + mono_w(PROMPT + ":~$ ", PSIZE), y, s, PSIZE, t["ink"]))
-            y += 28
-        else:
-            if kind == "dot":
-                lines.append(rect(x + 2, y - 7, 6, 6, fill=t["blue"]))
-            lines.append(text(x + (16 if kind == "dot" else 0), y, s, 12.5,
-                              t["muted" if kind == "muted" else "ink"]))
-            y += 23
-    lines.append(text(x, y + 8, PROMPT, PSIZE, t["green"], weight=600))
-    lines.append(text(x + mono_w(PROMPT, PSIZE), y + 8, ":~$", PSIZE, t["muted"]))
-    lines.append(f'<rect class="bob" x="{x + mono_w(PROMPT + ":~$ ", PSIZE):.1f}" y="{y - 2:.0f}"'
-                 f' width="8" height="13" fill="{t["ink"]}"/>')
-
-    h = int(y + 36 - PAD)
+    x0, y0 = PAD + 28, PAD + 106
+    term, term_end = terminal(t, x0, y0)
+    h = int(max(term_end, y0 + 232) + 30 - PAD)
     body = [rect(0, 0, W, h + PAD * 2, fill=t["bg"]),
             chrome(t, PAD, PAD, W - PAD * 2, h, "zainul@github: ~/about", "bash \u2014 80x24", "blue", "about"),
-            heading(t, "ABOUT ME", x, PAD + 52, px=3), "".join(lines)]
-
-    cw = 300
-    cx = W - PAD - 28 - cw
-    cy0 = y0 - 30 + max(0, (y - y0 - 3 * 56) / 2)
-    for i, (k, v, accent) in enumerate(CHIPS):
-        cy = cy0 + i * 56
-        body.append(glass(f"chip{i}", cx, cy, cw, 46, t, r=12, glows=[(.12, .5, 70, accent)]))
-        body.append(rect(cx + 14, cy + 14, 3, 18, fill=t[accent]))
-        body.append(text(cx + 26, cy + 20, k, 9.5, t["muted"], weight=600, ls="1.3"))
-        body.append(text(cx + 26, cy + 35, v, 12.5, t["ink"], weight=500))
+            heading(t, "ABOUT ME", x0, PAD + 52, px=3),
+            term,
+            id_card(t, W - PAD - 28 - CARD_W, y0 - 26, PAD + h - (y0 - 26) - 22)]
     return svg_doc(W, h + PAD * 2, "".join(body), label="About Zainul Arkaan Alinsi", css=PULSE_CSS)
 
 
 # ------------------------------------------------------------ stack inventory
-COLS = 9           # a Minecraft hotbar is nine slots wide; short rows stay empty
+CELL_H, ICON = 96, 40      # one height for every row, so the rhythm stays even
 
 
 def stack_panel(t):
+    """Every row is flush left and right: a row holds exactly what it holds, so
+    there are no empty slots pretending to be items."""
     x0 = PAD + 28
     grid_w = W - PAD * 2 - 56
-    gap = 14
-    cell = (grid_w - (COLS - 1) * gap) / COLS
+    gap = 13
     y = PAD + 104
     parts = []
     for name, items in STACK.items():
         accent = ROW_ACCENT[name]
+        cell = (grid_w - (len(items) - 1) * gap) / len(items)   # width fills the row exactly
         parts.append(rect(x0, y + 4, 3, 12, fill=t[accent]))
         parts.append(text(x0 + 12, y + 14, name.upper(), 10, t["muted"], weight=600, ls="1.6"))
-        parts.append(line(x0 + 26 + len(name) * 7.6, y + 9, x0 + grid_w, y + 9, t["line"], 1, .8))
+        parts.append(text(x0 + grid_w, y + 14, f"{len(items)}", 10, t["muted"], anchor="end", ls="1.2"))
+        parts.append(line(x0 + 26 + len(name) * 7.6, y + 9, x0 + grid_w - 18, y + 9, t["line"], 1, .8))
         y += 26
-        for i in range(COLS):
+        for i, (sl, lab) in enumerate(items):
             sx = x0 + i * (cell + gap)
-            parts.append(slot(sx, y, cell, cell, t, depth=3))
-            if i >= len(items):
-                continue
-            sl, lab = items[i]
-            size = cell * .44
-            parts.append(icon(sl, sx + (cell - size) / 2, y + cell * .20, size, t[accent]))
-            parts.append(text(sx + cell / 2, y + cell - 15, lab, 9.5, t["muted"], anchor="middle"))
-        y += cell + 20
+            parts.append(slot(sx, y, cell, CELL_H, t, depth=3))
+            parts.append(icon(sl, sx + (cell - ICON) / 2, y + 20, ICON, t[accent]))
+            parts.append(text(sx + cell / 2, y + CELL_H - 15, lab, 10, t["muted"], anchor="middle"))
+        y += CELL_H + 22
 
-    h = int(y - PAD + 16)
+    h = int(y - PAD)
     body = [rect(0, 0, W, h + PAD * 2, fill=t["bg"]),
             chrome(t, PAD, PAD, W - PAD * 2, h, "~/stack \u2014 inventory",
                    f"{sum(len(v) for v in STACK.values())} items", "violet", "stack"),

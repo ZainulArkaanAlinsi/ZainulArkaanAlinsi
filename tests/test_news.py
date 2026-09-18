@@ -11,26 +11,36 @@ import build_news as N
 RSS = b"""<?xml version="1.0"?>
 <rss version="2.0"><channel><title>Laravel News</title>
 <item><title>Laravel 12 ships queue batching</title><link>https://laravel-news.com/a</link>
+<description>&lt;p&gt;Batches can now be chained without a custom dispatcher, and failures
+report per job instead of collapsing the whole batch.&lt;/p&gt;</description>
 <pubDate>Tue, 16 Sep 2025 09:00:00 +0000</pubDate></item>
 <item><title>Ancient post</title><link>https://laravel-news.com/old</link>
+<description>Comments</description>
 <pubDate>Tue, 01 Jan 2019 09:00:00 +0000</pubDate></item>
 </channel></rss>"""
 
 ATOM = b"""<?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Next.js</title>
 <entry><title>Next.js 16</title><link href="https://nextjs.org/blog/next-16"/>
+<summary>Turbopack is the default bundler, caching moves behind an explicit API,
+and the middleware contract changes for the first time since 13.</summary>
 <published>2025-09-15T10:30:00Z</published></entry></feed>"""
 
 HN = json.dumps({"hits": [
     {"title": "Show HN: a tiny SQLite clone", "url": "https://example.com/sqlite",
-     "created_at": "2025-09-16T12:00:00.000Z", "objectID": "1"},
+     "created_at": "2025-09-16T12:00:00.000Z", "objectID": "1",
+     "points": 412, "num_comments": 189},
     {"title": "Ask HN: how do you review code?", "url": None,
-     "created_at": "2025-09-16T11:00:00.000Z", "objectID": "42"},
+     "created_at": "2025-09-16T11:00:00.000Z", "objectID": "42",
+     "story_text": "I keep bouncing between leaving a pile of nits and rubber-stamping. "
+                   "What does your team actually do on a normal pull request?"},
 ]}).encode()
 
 DEVTO = json.dumps([
     {"title": "Tailwind tips &amp; tricks", "url": "https://dev.to/x",
-     "published_at": "2025-09-16T08:00:00Z"},
+     "published_at": "2025-09-16T08:00:00Z",
+     "description": "Arbitrary values, container queries and the handful of plugins that "
+                    "are worth the install on a real project."},
 ]).encode()
 
 
@@ -41,21 +51,33 @@ class Parsers(unittest.TestCase):
         self.assertEqual(items[0][0], "Laravel 12 ships queue batching")
         self.assertEqual(items[0][1], "https://laravel-news.com/a")
         self.assertEqual(items[0][2].year, 2025)
+        self.assertIn("Batches can now be chained", N.clean(items[0][3]))
 
-    def test_atom_uses_href(self):
-        title, link, stamp = N.feed_items(ATOM)[0]
+    def test_atom_uses_href_and_summary(self):
+        title, link, stamp, summary = N.feed_items(ATOM)[0]
         self.assertEqual(title, "Next.js 16")
         self.assertEqual(link, "https://nextjs.org/blog/next-16")
         self.assertIsNotNone(stamp.tzinfo)
+        self.assertIn("Turbopack", summary)
 
     def test_hn_falls_back_to_the_discussion(self):
         items = N.hn_items(HN)
         self.assertEqual(items[1][1], "https://news.ycombinator.com/item?id=42")
 
+    def test_hn_link_post_gets_a_stats_blurb(self):
+        summary = N.hn_items(HN)[0][3]
+        self.assertIn("412 points", summary)
+        self.assertIn("189 comments", summary)
+        self.assertIn("example.com", summary)
+
+    def test_hn_text_post_keeps_its_own_text(self):
+        self.assertIn("rubber-stamping", N.hn_items(HN)[1][3])
+
     def test_devto(self):
-        title, url, stamp = N.devto_items(DEVTO)[0]
+        title, url, stamp, summary = N.devto_items(DEVTO)[0]
         self.assertEqual(url, "https://dev.to/x")
         self.assertEqual(N.clean(title), "Tailwind tips & tricks")
+        self.assertIn("container queries", summary)
 
     def test_malformed_xml_raises_not_hangs(self):
         with self.assertRaises(Exception):
@@ -66,8 +88,20 @@ class Text(unittest.TestCase):
     def test_clean_strips_markup_and_entities(self):
         self.assertEqual(N.clean("<b>Go</b> 1.25 &amp;   friends"), "Go 1.25 & friends")
 
-    def test_md_escape_neutralises_link_breakers(self):
-        self.assertEqual(N.md_escape("[x] *y* _z_ `c`"), r"\[x\] \*y\* \_z\_ \`c\`")
+    def test_h_escapes_for_html_not_markdown(self):
+        self.assertEqual(N.h('a & b <c> "d"'), "a &amp; b &lt;c&gt; &quot;d&quot;")
+
+    def test_trim_cuts_on_a_word_boundary(self):
+        out = N.trim("the quick brown fox jumps over the lazy dog", 20)
+        self.assertTrue(out.endswith("\u2026"))
+        self.assertLessEqual(len(out), 21)
+        self.assertNotIn("jum\u2026", out)
+
+    def test_blurb_rejects_boilerplate_and_echoes(self):
+        self.assertEqual(N.blurb("Comments", "Some headline"), "")
+        self.assertEqual(N.blurb("Next.js 16 is out", "Next.js 16 is out!"), "")
+        good = "A real summary that runs long enough to actually tell you what the story says."
+        self.assertEqual(N.blurb(good, "Unrelated headline"), good)
 
     def test_ago(self):
         now = dt.datetime(2025, 9, 16, 12, tzinfo=dt.timezone.utc)
@@ -78,6 +112,41 @@ class Text(unittest.TestCase):
 
     def test_key_dedupes_across_punctuation(self):
         self.assertEqual(N.key("Next.js 16!"), N.key("next js 16"))
+
+
+class Cards(unittest.TestCase):
+    def setUp(self):
+        self.now = dt.datetime(2025, 9, 16, 12, tzinfo=dt.timezone.utc)
+        self.item = {"tag": "DEV", "url": "https://dev.to/x?a=1&b=2", "at": self.now - dt.timedelta(hours=2),
+                     "title": "Tailwind tips & tricks", "blurb": "Arbitrary values and container queries."}
+
+    def test_cell_carries_source_age_link_and_blurb(self):
+        out = N.card(self.item, self.now)
+        self.assertIn("<code>DEV</code>", out)
+        self.assertIn("2h ago", out)
+        self.assertIn('href="https://dev.to/x?a=1&amp;b=2"', out)
+        self.assertIn("Tailwind tips &amp; tricks", out)
+        self.assertIn("Arbitrary values and container queries.", out)
+
+    def test_hostile_title_cannot_break_out_of_the_cell(self):
+        evil = dict(self.item, title='"><script>alert(1)</script>', blurb='</td></tr></table><img src=x>')
+        out = N.card(evil, self.now)
+        self.assertNotIn("<script>", out)
+        self.assertNotIn("<img", out)
+        self.assertEqual(out.count("</td>"), 1)
+
+    def test_missing_blurb_still_renders_a_cell(self):
+        out = N.card(dict(self.item, blurb=""), self.now)
+        self.assertIn("No summary", out)
+        self.assertTrue(out.endswith("</td>"))
+
+    def test_grid_pairs_rows_and_pads_an_odd_tail(self):
+        items = [dict(self.item, title=f"t{i}") for i in range(5)]
+        out = N.markdown(items, ["dev.to"], "now")
+        self.assertEqual(out.count("<tr>"), 3)
+        self.assertEqual(out.count("<td"), 6)          # 5 cards + 1 spacer
+        self.assertIn('<td width="50%"></td>', out)
+        self.assertTrue(out.startswith("<table>"))
 
 
 class Splice(unittest.TestCase):

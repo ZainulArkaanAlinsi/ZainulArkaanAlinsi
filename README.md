@@ -12,13 +12,13 @@
 </div>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/about-dark.svg?v=a02b84ced2" />
-  <img src="./assets/about-light.svg?v=875437ed5a" width="100%" alt="About me — Zainul Arkaan Alinsi, full-stack developer and student at IDN Boarding School. Builds full-stack web apps with PHP, Laravel, Next.js and Tailwind CSS, and is learning Flutter for mobile." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/about-dark.svg?v=1993b6b34c" />
+  <img src="./assets/about-light.svg?v=079acb3ea4" width="100%" alt="About me — Zainul Arkaan Alinsi, full-stack developer and student at IDN Boarding School. Builds full-stack web apps with PHP, Laravel, Next.js and Tailwind CSS, and is learning Flutter for mobile." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-dark.svg?v=ad559567dc" />
-  <img src="./assets/stack-light.svg?v=3b3931a38f" width="100%" alt="Tech stack — languages: PHP, TypeScript, JavaScript, Dart, Java, HTML5, CSS. Frameworks: Laravel, Next.js, React, Vue, Tailwind, Alpine, Flutter, Node.js. Tools: MySQL, SQLite, Firebase, Vercel, Git, GitHub, Figma, Postman." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-dark.svg?v=130d227c9a" />
+  <img src="./assets/stack-light.svg?v=8ac903f7f1" width="100%" alt="Tech stack — languages: PHP, TypeScript, JavaScript, Dart, Java, HTML5, CSS. Frameworks: Laravel, Next.js, React, Vue, Tailwind, Alpine, Flutter, Node.js. Tools: MySQL, SQLite, Firebase, Vercel, Git, GitHub, Figma, Postman." />
 </picture>
 
 <picture>
@@ -56,6 +56,6 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/footer-dark.svg?v=8022717126" />
-  <img src="./assets/footer-light.svg?v=ac677c477e" width="100%" alt="Thanks for stopping by" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/footer-dark.svg?v=55ddad77bb" />
+  <img src="./assets/footer-light.svg?v=1983f4e815" width="100%" alt="Thanks for stopping by" />
 </picture>

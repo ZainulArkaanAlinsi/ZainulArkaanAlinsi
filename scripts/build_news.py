@@ -13,6 +13,7 @@ import json
 import os
 import re
 import sys
+import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 from email.utils import parsedate_to_datetime
@@ -27,7 +28,9 @@ TZ = dt.timezone(dt.timedelta(hours=7))  # WIB
 UA = "ZainulArkaanAlinsi-profile-readme/1.0 (+https://github.com/ZainulArkaanAlinsi)"
 
 LIMIT = 12          # stories shown
-PER_SOURCE = 3      # most any single feed may contribute
+PER_SOURCE = 2      # most any single feed may contribute
+SUMMARY_MIN = 55    # shorter than this is boilerplate ("Comments", "Read more")
+SUMMARY_MAX = 190
 MIN_OK = 4          # below this we keep whatever is already in the README
 MAX_AGE_DAYS = 21
 
@@ -41,6 +44,10 @@ SOURCES = [
     {"tag": "NEXT.JS", "name": "Next.js", "kind": "feed", "url": "https://nextjs.org/feed.xml"},
     {"tag": "FLUTTER", "name": "Flutter", "kind": "feed", "url": "https://medium.com/feed/flutter"},
     {"tag": "LOBSTERS", "name": "Lobsters", "kind": "feed", "url": "https://lobste.rs/rss"},
+    {"tag": "FREECODECAMP", "name": "freeCodeCamp", "kind": "feed",
+     "url": "https://www.freecodecamp.org/news/rss/"},
+    {"tag": "STACKOVERFLOW", "name": "Stack Overflow Blog", "kind": "feed",
+     "url": "https://stackoverflow.blog/feed/"},
 ]
 
 
@@ -72,6 +79,9 @@ def tag_of(el):
     return el.tag.rsplit("}", 1)[-1]
 
 
+SUMMARY_TAGS = ("description", "summary", "subtitle", "encoded", "content")
+
+
 def feed_items(blob):
     """RSS 2.0 and Atom, namespace-agnostic."""
     root = ET.fromstring(blob)
@@ -79,6 +89,7 @@ def feed_items(blob):
     out = []
     for node in nodes:
         title = link = stamp = None
+        blurbs = {}
         for child in node:
             name = tag_of(child)
             if name == "title" and not title:
@@ -87,24 +98,35 @@ def feed_items(blob):
                 link = (child.get("href") or child.text or "").strip()
             elif name in ("pubDate", "published", "updated", "date") and not stamp:
                 stamp = child.text
+            elif name in SUMMARY_TAGS and name not in blurbs:
+                blurbs[name] = "".join(child.itertext())
         if title and link:
-            out.append((title, link, when(stamp)))
+            # Prefer the short blurb; fall back to the body only if there is no blurb.
+            summary = next((blurbs[k] for k in SUMMARY_TAGS if blurbs.get(k)), "")
+            out.append((title, link, when(stamp), summary))
     return out
 
 
 def hn_items(blob):
+    """Link posts carry no text, so fall back to the numbers that make HN useful."""
     out = []
     for hit in json.loads(blob).get("hits", []):
         title = hit.get("title") or hit.get("story_title")
         if not title:
             continue
         url = hit.get("url") or f"https://news.ycombinator.com/item?id={hit.get('objectID')}"
-        out.append((title, url, when(hit.get("created_at"))))
+        summary = hit.get("story_text") or hit.get("comment_text") or ""
+        if not summary:
+            pts, com = hit.get("points") or 0, hit.get("num_comments") or 0
+            host = re.sub(r"^www\.", "", urllib.parse.urlparse(url).netloc)
+            summary = (f"{pts} points and {com} comments on the Hacker News front page"
+                       + (f" \u00b7 {host}" if host and "ycombinator" not in host else "")) if pts or com else ""
+        out.append((title, url, when(hit.get("created_at")), summary))
     return out
 
 
 def devto_items(blob):
-    return [(a["title"], a["url"], when(a.get("published_at")))
+    return [(a["title"], a["url"], when(a.get("published_at")), a.get("description") or "")
             for a in json.loads(blob) if a.get("title") and a.get("url")]
 
 
@@ -121,8 +143,26 @@ def clean(s):
     return re.sub(r"\s+", " ", s).strip()
 
 
-def md_escape(s):
-    return re.sub(r"([\\`*_\[\]<>|])", r"\\\1", s)
+def h(s):
+    """The cards are raw HTML, so escape for HTML rather than for Markdown."""
+    return (str(s).replace("&", "&amp;").replace("<", "&lt;")
+            .replace(">", "&gt;").replace('"', "&quot;"))
+
+
+def trim(s, limit):
+    s = clean(s)
+    if len(s) <= limit:
+        return s
+    cut = s[:limit].rsplit(" ", 1)[0].rstrip(" ,.;:\u2013\u2014-")
+    return cut + "\u2026"
+
+
+def blurb(summary, title):
+    """A summary worth printing: not boilerplate, not just the headline again."""
+    s = trim(summary, SUMMARY_MAX)
+    if len(s) < SUMMARY_MIN or key(s)[:40] == key(title)[:40]:
+        return ""
+    return s
 
 
 def key(title):
@@ -151,10 +191,10 @@ def collect():
             errors.append(f"{src['tag']}: {type(exc).__name__}")
             continue
         taken = 0
-        raw = [(clean(t), u, d) for t, u, d in raw]
+        raw = [(clean(t), u, d, b) for t, u, d, b in raw]
         raw = [r for r in raw if r[0] and r[1].startswith(("http://", "https://"))]
         raw.sort(key=lambda r: r[2] or floor, reverse=True)
-        for title, url, stamp in raw:
+        for title, url, stamp, summary in raw:
             if taken >= PER_SOURCE:
                 break
             if stamp and stamp < floor:
@@ -164,7 +204,7 @@ def collect():
                 continue
             seen.add(k)
             pool.append({"tag": src["tag"], "name": src["name"], "title": title,
-                         "url": url, "at": stamp or now})
+                         "url": url, "at": stamp or now, "blurb": blurb(summary, title)})
             taken += 1
         if taken:
             live.append(src["name"])
@@ -173,23 +213,38 @@ def collect():
 
 
 # ------------------------------------------------------------------- rendering
+def card(item, now):
+    """One story as a table cell: source, age, headline, and enough of the story
+    to be worth reading without opening anything."""
+    body = h(item["blurb"]) or "<i>No summary in this feed \u2014 open the link for the full story.</i>"
+    return ('<td width="50%" valign="top">\n'
+            f'<sub><code>{h(item["tag"])}</code>&nbsp; {ago(item["at"], now)}</sub><br>\n'
+            f'<a href="{h(item["url"])}"><b>{h(trim(item["title"], 96))}</b></a>\n'
+            f'<br><br>\n{body}\n'
+            '</td>')
+
+
 def markdown(items, live, stamp):
     now = dt.datetime.now(dt.timezone.utc)
-    rows = []
-    for i in items:
-        title = md_escape(i["title"])
-        if len(title) > 108:
-            title = title[:105].rstrip() + "…"
-        rows.append(f"- `{i['tag']}` &nbsp;[{title}]({i['url']}) &nbsp;<sub>{ago(i['at'], now)}</sub>")
-    sources = " · ".join(live) if live else "—"
+    rows = ["<table>"]
+    for a in range(0, len(items), 2):
+        pair = items[a:a + 2]
+        rows.append("<tr>")
+        rows.extend(card(i, now) for i in pair)
+        if len(pair) == 1:
+            rows.append('<td width="50%"></td>')
+        rows.append("</tr>")
+    rows.append("</table>")
+    sources = " \u00b7 ".join(live) if live else "\u2014"
     rows.append("")
-    rows.append(f"<sub>Sources: {sources}. Refreshed automatically — last run {stamp}.</sub>")
+    rows.append(f"<sub>Sources: {sources}. Refreshed automatically \u2014 last run {stamp}.</sub>")
     return "\n".join(rows)
 
 
-EMPTY = ("- _No stories yet — the feed fills itself the first time the "
-         "`profile` workflow runs._\n\n<sub>Sources: Hacker News · GitHub Blog · dev.to · "
-         "Laravel News · Next.js · Flutter · Lobsters.</sub>")
+EMPTY = ("_No stories yet \u2014 the cards fill themselves the first time the `profile` "
+         "workflow runs._\n\n<sub>Sources: Hacker News \u00b7 GitHub Blog \u00b7 dev.to \u00b7 "
+         "Laravel News \u00b7 Next.js \u00b7 Flutter \u00b7 Lobsters \u00b7 freeCodeCamp \u00b7 "
+         "Stack Overflow Blog.</sub>")
 
 
 def splice(text, block):
