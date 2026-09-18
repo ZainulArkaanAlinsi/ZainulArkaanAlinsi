@@ -144,39 +144,56 @@ def about(t):
 
 
 # ------------------------------------------------------------ stack inventory
-CELL_H, ICON = 96, 40      # one height for every row, so the rhythm stays even
+SLOT, ICON_S, ROW_H = 38, 23, 44   # an item is a slot plus its name, not a box with air in it
+
+# The four the bio names as what gets built with, plus the one it names as being
+# learned. Marked, not invented — the same list the about panel prints.
+CORE = {"php", "laravel", "nextdotjs", "tailwindcss", "flutter"}
+
+
+def chest(t, x, y, w, h, name, items, accent, uid):
+    """One category as its own container: header, rule, then a row per item."""
+    out = [glass(uid, x, y, w, h, t, r=14),
+           rect(x + 18, y + 20, 3, 12, fill=t[accent]),
+           text(x + 30, y + 30, name.upper(), 10, t["muted"], weight=600, ls="1.6"),
+           text(x + w - 18, y + 30, str(len(items)), 11, t["muted"], anchor="end", weight=600),
+           line(x + 18, y + 44, x + w - 18, y + 44, t["line"], 1, .9)]
+    ry = y + 58
+    for i, (slug, label) in enumerate(items):
+        if i:
+            out.append(line(x + 18, ry - 4, x + w - 18, ry - 4, t["line"], 1, .45))
+        out.append(slot(x + 18, ry, SLOT, SLOT, t, depth=2, fill=mix(t["bg"], t[accent], .09)))
+        out.append(icon(slug, x + 18 + (SLOT - ICON_S) / 2, ry + (SLOT - ICON_S) / 2, ICON_S, t[accent]))
+        out.append(text(x + 18 + SLOT + 14, ry + 24, label, 13, t["ink"]))
+        if slug in CORE:
+            out.append(rect(x + w - 27, ry + 16, 6, 6, fill=t[accent], op=.95))
+        ry += ROW_H
+    return "".join(out)
 
 
 def stack_panel(t):
-    """Every row is flush left and right: a row holds exactly what it holds, so
-    there are no empty slots pretending to be items."""
     x0 = PAD + 28
-    grid_w = W - PAD * 2 - 56
-    gap = 13
-    y = PAD + 104
-    parts = []
-    for name, items in STACK.items():
-        accent = ROW_ACCENT[name]
-        cell = (grid_w - (len(items) - 1) * gap) / len(items)   # width fills the row exactly
-        parts.append(rect(x0, y + 4, 3, 12, fill=t[accent]))
-        parts.append(text(x0 + 12, y + 14, name.upper(), 10, t["muted"], weight=600, ls="1.6"))
-        parts.append(text(x0 + grid_w, y + 14, f"{len(items)}", 10, t["muted"], anchor="end", ls="1.2"))
-        parts.append(line(x0 + 26 + len(name) * 7.6, y + 9, x0 + grid_w - 18, y + 9, t["line"], 1, .8))
-        y += 26
-        for i, (sl, lab) in enumerate(items):
-            sx = x0 + i * (cell + gap)
-            parts.append(slot(sx, y, cell, CELL_H, t, depth=3))
-            parts.append(icon(sl, sx + (cell - ICON) / 2, y + 20, ICON, t[accent]))
-            parts.append(text(sx + cell / 2, y + CELL_H - 15, lab, 10, t["muted"], anchor="middle"))
-        y += CELL_H + 22
+    inner = W - PAD * 2 - 56
+    gap = 22
+    col = (inner - gap * 2) / 3
+    tallest = max(len(v) for v in STACK.values())
+    ch = 58 + tallest * ROW_H + 12
+    top = PAD + 108
 
-    h = int(y - PAD)
+    cols = "".join(
+        chest(t, x0 + i * (col + gap), top, col, ch, name, items, ROW_ACCENT[name], f"chest{i}")
+        for i, (name, items) in enumerate(STACK.items()))
+
+    h = int(top + ch + 56 - PAD)
+    key_y = top + ch + 30
     body = [rect(0, 0, W, h + PAD * 2, fill=t["bg"]),
             chrome(t, PAD, PAD, W - PAD * 2, h, "~/stack \u2014 inventory",
                    f"{sum(len(v) for v in STACK.values())} items", "violet", "stack"),
-            heading(t, "TECH STACK", x0, PAD + 52, px=3),
-            text(W - PAD - 28, PAD + 70, "what I actually ship with", 11.5, t["muted"], anchor="end"),
-            "".join(parts)]
+            heading(t, "TECH STACK", x0, PAD + 52,
+                    sub="three chests \u00b7 one row per item \u00b7 no empty slots", px=3),
+            cols,
+            rect(x0, key_y - 5, 6, 6, fill=t["ink"], op=.55),
+            text(x0 + 14, key_y, "marked items are the ones the bio up top names", 11, t["muted"])]
     return svg_doc(W, h + PAD * 2, "".join(body), label="Tech stack: " + ", ".join(
         lab for items in STACK.values() for _, lab in items))
 
