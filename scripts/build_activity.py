@@ -1,44 +1,43 @@
-"""GitHub activity panel: stat row + isometric 3D contribution calendar (light/dark).
+"""GitHub activity panel: glass stat cards + an isometric voxel contribution world.
 
-Stdlib only, refreshed daily by .github/workflows/activity.yml:
-    GITHUB_TOKEN=... python scripts/build_activity.py assets
+Every contribution day is a tower of blocks — dirt below, a grass cap on top whose
+green step comes from GitHub's own contribution level. Today's column gets a beacon.
+
+    GITHUB_TOKEN=... python scripts/build_activity.py
 """
 import datetime as dt
 import json
 import os
 import sys
 import urllib.request
-from html import escape
-from pathlib import Path
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from theme import (ASSETS, PULSE_CSS, THEMES, glass, line, mix, pixel_text, poly, ramp, rect,
+                   shade, slot, svg_doc, text, ticks)
 
 LOGIN = os.environ.get("PROFILE_LOGIN", "ZainulArkaanAlinsi")
-OUT = Path(sys.argv[1]) if len(sys.argv) > 1 else Path(__file__).parent.parent / "assets"
 TZ = dt.timezone(dt.timedelta(hours=7))  # WIB
-
 LEVELS = ["NONE", "FIRST_QUARTILE", "SECOND_QUARTILE", "THIRD_QUARTILE", "FOURTH_QUARTILE"]
-THEMES = {
-    "light": {"cells": ["#ebedf0", "#9be9a8", "#40c463", "#30a14e", "#216e39"], "text": "#1f2328", "muted": "#656d76",
-              "border": "#d0d7de", "side": .82, "front": .7},
-    "dark": {"cells": ["#1c222b", "#0e4429", "#006d32", "#26a641", "#39d353"], "text": "#e6edf3", "muted": "#8d96a0",
-             "border": "#30363d", "side": .7, "front": .56},
-}
-FONT = "-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif"
 
 W = 1200
-S = 20
-WEEK = (S * .98, S * .2)     # weeks run right, gently down
-DAY = (-S * .42, S * .6)     # weekdays run toward the viewer
-MAX_H = 150
+PAD = 34
+S = 19.0                      # cell size
+WEEK = (S * .94, S * .155)    # weeks run right, drifting gently down
+DAY = (-S * .44, S * .640)    # weekdays run toward the viewer
+BLOCK = S * .60               # one voxel of height
+MAX_BLOCKS = 6
 
-CAL = "contributionCalendar{ totalContributions weeks{ contributionDays{ date weekday contributionCount contributionLevel } } }"
+CAL = ("contributionCalendar{ totalContributions weeks{ contributionDays{"
+       " date weekday contributionCount contributionLevel } } }")
 
 
-# ------------------------------------------------------------------ data
+# ------------------------------------------------------------------------ data
 def gql(query, **variables):
     req = urllib.request.Request(
         "https://api.github.com/graphql",
         data=json.dumps({"query": query, "variables": variables}).encode(),
-        headers={"Authorization": f"bearer {os.environ['GITHUB_TOKEN']}", "Content-Type": "application/json"},
+        headers={"Authorization": f"bearer {os.environ['GITHUB_TOKEN']}",
+                 "Content-Type": "application/json", "User-Agent": "profile-activity"},
     )
     with urllib.request.urlopen(req, timeout=30) as r:
         payload = json.load(r)
@@ -48,11 +47,13 @@ def gql(query, **variables):
 
 
 def fetch():
-    user = gql(f"query($login:String!){{ user(login:$login){{ createdAt contributionsCollection{{ contributionYears {CAL} }} }} }}", login=LOGIN)
+    user = gql("query($login:String!){ user(login:$login){ createdAt contributionsCollection{"
+               " contributionYears " + CAL + " } } }", login=LOGIN)
     recent = user["contributionsCollection"]["contributionCalendar"]
     all_days = {}
     for year in user["contributionsCollection"]["contributionYears"]:
-        cal = gql(f"query($login:String!,$from:DateTime!,$to:DateTime!){{ user(login:$login){{ contributionsCollection(from:$from,to:$to){{ {CAL} }} }} }}",
+        cal = gql("query($login:String!,$from:DateTime!,$to:DateTime!){ user(login:$login){"
+                  " contributionsCollection(from:$from,to:$to){ " + CAL + " } } }",
                   login=LOGIN, **{"from": f"{year}-01-01T00:00:00Z", "to": f"{year}-12-31T23:59:59Z"})
         for week in cal["contributionsCollection"]["contributionCalendar"]["weeks"]:
             for d in week["contributionDays"]:
@@ -84,103 +85,219 @@ def short(d):
     return f"{d.strftime('%b')} {d.day}" if d else ""
 
 
-# ------------------------------------------------------------------ drawing
-def shade(hex_color, k):
-    r, g, b = (int(hex_color[i:i + 2], 16) for i in (1, 3, 5))
-    return "#%02x%02x%02x" % tuple(max(0, min(255, round(c * k))) for c in (r, g, b))
-
-
+# -------------------------------------------------------------------- geometry
 def pt(w, d, ox, oy, h=0.0):
     return ox + w * WEEK[0] + d * DAY[0], oy + w * WEEK[1] + d * DAY[1] - h
 
 
-def poly(points, fill, extra=""):
-    return f'<polygon points="{" ".join(f"{x:.1f},{y:.1f}" for x, y in points)}" fill="{fill}"{extra}/>'
+def tower(w, d, ox, oy, n_blocks, grass, dirt, t, gap=.06):
+    """One column: extruded prism + per-block seams + a grass rim on the cap."""
+    a, b, c, e = w + gap, d + gap, w + 1 - gap, d + 1 - gap
+    h = n_blocks * BLOCK
+    left = shade(dirt, .70)
+    right = shade(dirt, .50)
+    parts = [
+        poly([pt(a, e, ox, oy), pt(c, e, ox, oy), pt(c, e, ox, oy, h), pt(a, e, ox, oy, h)], left),
+        poly([pt(c, b, ox, oy), pt(c, e, ox, oy), pt(c, e, ox, oy, h), pt(c, b, ox, oy, h)], right),
+    ]
+    # grass rim: the cap block's soil is green on the sides too
+    rim = min(BLOCK * .34, h)
+    parts += [
+        poly([pt(a, e, ox, oy, h - rim), pt(c, e, ox, oy, h - rim), pt(c, e, ox, oy, h), pt(a, e, ox, oy, h)],
+             shade(grass, .72)),
+        poly([pt(c, b, ox, oy, h - rim), pt(c, e, ox, oy, h - rim), pt(c, e, ox, oy, h), pt(c, b, ox, oy, h)],
+             shade(grass, .52)),
+    ]
+    # seams between stacked blocks, one path for the whole column
+    if n_blocks > 1:
+        seg = []
+        for i in range(1, n_blocks):
+            z = i * BLOCK
+            p0, p1, p2 = pt(a, e, ox, oy, z), pt(c, e, ox, oy, z), pt(c, b, ox, oy, z)
+            seg.append(f"M{p0[0]:.1f} {p0[1]:.1f}L{p1[0]:.1f} {p1[1]:.1f}L{p2[0]:.1f} {p2[1]:.1f}")
+        parts.append(f'<path d="{"".join(seg)}" stroke="{t["shadow"]}" stroke-width=".7"'
+                     f' opacity=".30" fill="none"/>')
+    parts.append(poly([pt(a, b, ox, oy, h), pt(c, b, ox, oy, h), pt(c, e, ox, oy, h), pt(a, e, ox, oy, h)], grass))
+    # two pixel flecks on the cap, deterministic — grass texture, not noise
+    seed = (int(w) * 7 + int(d) * 13) % 5
+    for k, (fu, fv) in enumerate(((.24, .30), (.62, .66), (.44, .18), (.70, .34), (.30, .62))[seed:seed + 2]):
+        u0, v0 = a + (c - a) * fu, b + (e - b) * fv
+        u1, v1 = u0 + (c - a) * .17, v0 + (e - b) * .17
+        parts.append(poly([pt(u0, v0, ox, oy, h), pt(u1, v0, ox, oy, h), pt(u1, v1, ox, oy, h), pt(u0, v1, ox, oy, h)],
+                          shade(grass, 1.16 if k else .84)))
+    return "".join(parts)
 
 
-def label(x, y, s, size, fill, anchor="start", weight=400):
-    return f'<text x="{x:.1f}" y="{y:.1f}" font-family="{FONT}" font-size="{size}" font-weight="{weight}" fill="{fill}" text-anchor="{anchor}">{escape(s)}</text>'
+def plate(w, d, ox, oy, fill, gap=.06):
+    a, b, c, e = w + gap, d + gap, w + 1 - gap, d + 1 - gap
+    return poly([pt(a, b, ox, oy), pt(c, b, ox, oy), pt(c, e, ox, oy), pt(a, e, ox, oy)], fill)
 
 
-def render(theme, created, recent, all_days):
+# --------------------------------------------------------------------- drawing
+def stat_cards(t, stats, y, accents):
+    cw = (W - PAD * 2 - 12 * (len(stats) - 1)) / len(stats)
+    ch = 104
+    out = []
+    for i, (value, name, sub) in enumerate(stats):
+        x = PAD + (cw + 12) * i
+        col = accents[i % len(accents)]
+        out.append(glass(f"stat{i}", x, y, cw, ch, t, r=14,
+                         glows=[(.16, .12, cw * .52, col)]))
+        out.append(rect(x + 14, y + 15, 3, 13, fill=t[col]))
+        out.append(text(x + 24, y + 26, name.upper(), 10.5, t["muted"], weight=600, ls="1.4"))
+        out.append(pixel_text(value, x + 15, y + 40, 4, t["ink"], shadow=t["shadow"], shadow_op=t["px_shadow"]))
+        out.append(text(x + 15, y + 90, sub, 11.5, t["muted"]))
+    return "".join(out), ch
+
+
+def window_chrome(t, x, y, w, h, title, right, accent):
+    out = [glass("world", x, y, w, h, t, r=16,
+                 glows=[(.10, .18, w * .30, accent), (.86, .78, w * .26, "blue")])]
+    out.append(line(x, y + 30, x + w, y + 30, t["line"], 1, .9))
+    for i, c in enumerate((t["red"], t["amber"], t["green"])):
+        out.append(rect(x + 14 + i * 13, y + 12, 7, 7, fill=c, op=.85))
+    out.append(text(x + 62, y + 20, title, 11.5, t["muted"]))
+    out.append(text(x + w - 14, y + 20, right, 11.5, t["muted"], anchor="end"))
+    out.append(ticks(x + 7, y + 37, w - 14, h - 50, t["ink"], 8, 1, .18))
+    return "".join(out)
+
+
+def render(theme, created, recent, all_days, stamp):
     t = THEMES[theme]
+    cells = ramp(t, "green")
+    dirt = mix(t["bg"], t["amber"], .46)
+    stone = [mix(t["bg"], t["ink"], k) for k in (.085, .17, .25)]
     today = dt.datetime.now(TZ).date()
     cur, cur_range, longest, best_range = streaks(all_days, today)
     weeks = recent["weeks"]
+    n = len(weeks)
     days = [(w, d["weekday"], d) for w, wk in enumerate(weeks) for d in wk["contributionDays"]]
     peak = max(days, key=lambda x: x[2]["contributionCount"])
     top = max(1, peak[2]["contributionCount"])
+    latest = max(d["date"] for _, _, d in days)
+    active = sum(1 for _, _, d in days if d["contributionCount"])
 
+    y = PAD
     stats = [
-        (f"{sum(all_days.values()):,}", "Total contributions", f"since {dt.date.fromisoformat(created[:10]).strftime('%b %Y')}"),
-        (f"{recent['totalContributions']:,}", "Last 12 months", f"{sum(1 for _, _, d in days if d['contributionCount'])} active days"),
-        (f"{cur}", "Current streak", f"{short(cur_range[0])} – {short(cur_range[1])}" if cur else "start one today"),
-        (f"{longest}", "Longest streak", f"{short(best_range[0])} – {short(best_range[1])}"),
+        (f"{sum(all_days.values()):,}", "Total", f"since {dt.date.fromisoformat(created[:10]).strftime('%b %Y')}"),
+        (f"{recent['totalContributions']:,}", "Last 12 months", f"{active} active days"),
+        (f"{cur}", "Current streak", f"{short(cur_range[0])} - {short(cur_range[1])}" if cur else "start one today"),
+        (f"{longest}", "Longest streak", f"{short(best_range[0])} - {short(best_range[1])}"),
         (f"{top}", "Best day", short(peak[2]["date"])),
     ]
-    pad, col = 36, (W - 72) / len(stats)
-    row = []
-    for i, (value, name, sub) in enumerate(stats):
-        cx = pad + col * i + col / 2
-        if i:
-            row.append(f'<line x1="{pad + col * i:.0f}" y1="44" x2="{pad + col * i:.0f}" y2="132" stroke="{t["border"]}"/>')
-        row.append(label(cx, 88, value, 38, t["text"], "middle", 600)
-                   + label(cx, 114, name, 15, t["text"], "middle", 500)
-                   + label(cx, 136, sub, 13, t["muted"], "middle"))
-    top_block = "".join(row) + f'<line x1="{pad}" y1="170" x2="{W - pad}" y2="170" stroke="{t["border"]}"/>'
+    cards, ch = stat_cards(t, stats, y, ACCENT_ORDER)
+    y += ch + 16
 
-    ox, oy = 150, 300
-    gap = .12
-    latest_date = max(d["date"] for _, _, d in days)
-    cubes = []
+    # ---- the world -------------------------------------------------------
+    # Reserve exactly enough sky for the header band: no tower may reach into it.
+    def stack(cnt):
+        return 1 + round((cnt / top) ** .55 * (MAX_BLOCKS - 1)) if cnt else 0
+
+    sky = y + 58 + 52                       # heading + subtitle + best-day callout
+    ox = PAD + 120
+    oy = max(y + 120, sky + max(stack(d["contributionCount"]) * BLOCK - (w * WEEK[1] + wd * DAY[1])
+                                for w, wd, d in days))
+    w0, w1, d0, d1 = -.55, n + .55, -.55, 7.55
+    plinth = 13                                   # the world sits on a slab, not on the panel floor
+    month_base = pt(n - 3.5, d1, ox, oy)[1] + plinth + 15
+    win_h = int(max(pt(w1, d1, ox, oy)[1] + plinth, month_base) - y + 26)
+    H = int(y + win_h + PAD)
+
+    body = [rect(0, 0, W, H, fill=t["bg"]), cards]
+    body.append(window_chrome(t, PAD, y, W - PAD * 2, win_h,
+                              "~/contributions --last 12mo --render iso", f"synced {stamp}", "green"))
+
+    head_y = y + 58
+    body.append(pixel_text("CONTRIBUTION WORLD", PAD + 22, head_y - 10, 3, t["ink"],
+                           shadow=t["shadow"], shadow_op=t["px_shadow"]))
+    body.append(text(PAD + 22, head_y + 22, f"{recent['totalContributions']:,} contributions \u00b7 "
+                                            f"{active} active days \u00b7 taller stack = busier day",
+                     11.5, t["muted"]))
+
+    lx = W - PAD - 190
+    body.append(text(lx - 12, head_y + 6, "less", 11, t["muted"], anchor="end"))
+    for i, c in enumerate(cells):
+        body.append(slot(lx + i * 26, head_y - 8, 20, 20, t, depth=2, fill=c))
+    body.append(text(lx + len(cells) * 26 + 4, head_y + 6, "more", 11, t["muted"]))
+
+    # ---- plinth: a slab of stone with the calendar grid scored into the top
+    body.append(poly([pt(w0, d0, ox, oy), pt(w1, d0, ox, oy), pt(w1, d1, ox, oy), pt(w0, d1, ox, oy)], stone[0]))
+    grid = []
+    for w in range(0, n + 1, 4):
+        a, b = pt(w, d0, ox, oy), pt(w, d1, ox, oy)
+        grid.append(f"M{a[0]:.1f} {a[1]:.1f}L{b[0]:.1f} {b[1]:.1f}")
+    for d in range(8):
+        a, b = pt(w0, d, ox, oy), pt(w1, d, ox, oy)
+        grid.append(f"M{a[0]:.1f} {a[1]:.1f}L{b[0]:.1f} {b[1]:.1f}")
+    body.append(f'<path d="{"".join(grid)}" stroke="{t["ink"]}" stroke-width=".6"'
+                f' opacity="{t["grid"] * 1.5:.3f}" fill="none"/>')
+    for pts, col in ((((w0, d1), (w1, d1)), stone[1]), (((w1, d0), (w1, d1)), stone[2])):
+        (ua, va), (ub, vb) = pts
+        a, b = pt(ua, va, ox, oy), pt(ub, vb, ox, oy)
+        body.append(poly([a, b, (b[0], b[1] + plinth), (a[0], a[1] + plinth)], col))
+
+    # ---- towers, painter's order: far to near
+    beacon = peak_top = None
     for w, wd, day in sorted(days, key=lambda x: (x[0] + x[1], x[1])):
-        n = day["contributionCount"]
-        h = 4 + (n / top) ** .55 * MAX_H if n else 4
-        base = t["cells"][LEVELS.index(day["contributionLevel"])]
-        a, b, c, e = w + gap, wd + gap, w + 1 - gap, wd + 1 - gap
-        side = [pt(c, b, ox, oy), pt(c, e, ox, oy), pt(c, e, ox, oy, h), pt(c, b, ox, oy, h)]
-        front = [pt(a, e, ox, oy), pt(c, e, ox, oy), pt(c, e, ox, oy, h), pt(a, e, ox, oy, h)]
-        roof = [pt(a, b, ox, oy, h), pt(c, b, ox, oy, h), pt(c, e, ox, oy, h), pt(a, e, ox, oy, h)]
-        today_cls = ' class="today"' if day["date"] == latest_date else ""
-        cubes.append(poly(side, shade(base, t["side"])) + poly(front, shade(base, t["front"])) + poly(roof, base, today_cls))
+        cnt = day["contributionCount"]
+        if not cnt:
+            body.append(plate(w, wd, ox, oy, cells[0]))
+            continue
+        blocks = stack(cnt)
+        body.append(tower(w, wd, ox, oy, blocks, cells[LEVELS.index(day["contributionLevel"])], dirt, t))
+        if day["date"] == latest:
+            beacon = (w, wd, blocks)
+        if day["date"] == peak[2]["date"]:
+            peak_top = pt(w + .5, wd + .5, ox, oy, blocks * BLOCK)
 
-    months, last = [], None
+    if beacon:
+        w, wd, blocks = beacon
+        bx, by = pt(w + .5, wd + .5, ox, oy, blocks * BLOCK)
+        body.append(f'<g class="bob"><rect x="{bx - 2.5:.1f}" y="{by - 44:.1f}" width="5" height="44"'
+                    f' fill="{t["green"]}" opacity=".5"/>'
+                    f'<rect x="{bx - 5:.1f}" y="{by - 56:.1f}" width="10" height="10" fill="{t["green"]}"/></g>')
+        body.append(text(bx, by - 64, "today", 10.5, t["green"], anchor="middle", weight=600))
+
+    if peak_top:
+        px, py = peak_top
+        ly = max(head_y + 44, py - 44)                 # never climb into the window header
+        if ly < py - 14:
+            body.append(line(px, py - 6, px, ly + 10, t["muted"], 1.1, .8))
+            body.append(rect(px - 3, ly + 5, 6, 6, fill=t["amber"]))
+        px = min(max(px, PAD + 130), W - PAD - 130)
+        body.append(text(px, ly, f"best day \u00b7 {top} on {short(peak[2]['date'])}", 11.5, t["ink"],
+                         anchor="middle", weight=600))
+
+    # ---- axis labels, hugging the slab
+    last = None
     for w, wk in enumerate(weeks):
         first = dt.date.fromisoformat(wk["contributionDays"][0]["date"])
-        if first.month != last and w < len(weeks) - 2:
-            x, y = pt(w + .5, 7.9, ox, oy)
-            months.append(label(x, y + 14, first.strftime("%b"), 13, t["muted"], "middle"))
+        if first.month != last and w < n - 2:
+            x, yy = pt(w + .5, d1, ox, oy)
+            body.append(text(x, yy + plinth + 15, first.strftime("%b").upper(), 10, t["muted"],
+                             anchor="middle", ls=".6"))
             last = first.month
-    weekdays = ""
-    for d, name in ((1, "Mon"), (3, "Wed"), (5, "Fri")):
-        x, y = pt(0, d + .5, ox, oy)
-        weekdays += label(x - 22, y + 5, name, 12, t["muted"], "end")
+    for d, name in ((1, "MON"), (3, "WED"), (5, "FRI")):
+        x, yy = pt(w0, d + .5, ox, oy)
+        body.append(text(x - 10, yy + 4, name, 10, t["muted"], anchor="end", ls=".6"))
 
-    px, py = pt(peak[0] + .5, peak[1] + .5, ox, oy, 4 + MAX_H)
-    callout = (f'<line x1="{px:.1f}" y1="{py - 8:.1f}" x2="{px:.1f}" y2="{py - 34:.1f}" stroke="{t["muted"]}" stroke-width="1.2"/>'
-               + label(px, py - 42, f"{top} contributions · {short(peak[2]['date'])}", 13, t["text"], "middle", 500))
+    # ---- world plaque, in the slab's shadow
+    plq_y = y + win_h - 54
+    for i, (k, v) in enumerate((("SEED", LOGIN.lower()), ("BIOME", f"commits \u00b7 {n}w x 7d"))):
+        body.append(text(PAD + 22, plq_y + i * 16, k, 9.5, t["muted"], weight=600, ls="1.2"))
+        body.append(text(PAD + 74, plq_y + i * 16, v, 10.5, t["ink"]))
+    return svg_doc(W, H, "".join(body),
+                   label=(f"GitHub activity: {sum(all_days.values()):,} contributions, "
+                          f"current streak {cur} days, longest {longest} days, synced {stamp}"),
+                   css=PULSE_CSS)
 
-    legend_x = W - pad - 170
-    legend = (label(legend_x - 10, 212, "Less", 13, t["muted"], "end")
-              + "".join(f'<rect x="{legend_x + i * 24}" y="200" width="16" height="16" rx="3" fill="{c}"/>' for i, c in enumerate(t["cells"]))
-              + label(legend_x + 5 * 24 + 4, 212, "More", 13, t["muted"]))
-    header = label(pad, 212, "Contribution calendar · last 12 months", 15, t["text"], weight=500) + legend
 
-    H = int(pt(len(weeks), 7, ox, oy)[1] + 56)
-    css = (".today{animation:today 2.4s ease-in-out infinite}"
-           "@keyframes today{50%{opacity:.45}}"
-           "@media (prefers-reduced-motion:reduce){.today{animation:none}}")
-    svg = (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" '
-           f'aria-label="GitHub activity: {sum(all_days.values()):,} contributions, current streak {cur} days, longest streak {longest} days">'
-           f'<title>GitHub activity</title><style>{css}</style>'
-           f'<rect x="1" y="1" width="{W - 2}" height="{H - 2}" rx="14" fill="none" stroke="{t["border"]}"/>'
-           f'{top_block}{header}{"".join(cubes)}{"".join(months)}{weekdays}{callout}</svg>')
-    (OUT / f"activity-{theme}.svg").write_text(svg, encoding="utf-8")
-    return H
-
+ACCENT_ORDER = ("green", "blue", "amber", "violet", "red")
 
 if __name__ == "__main__":
-    OUT.mkdir(parents=True, exist_ok=True)
+    ASSETS.mkdir(parents=True, exist_ok=True)
     created, recent, all_days = fetch()
+    stamp = dt.datetime.now(TZ).strftime("%d %b %Y %H:%M WIB")
     for name in THEMES:
-        print(name, "height", render(name, created, recent, all_days))
+        (ASSETS / f"activity-{name}.svg").write_text(render(name, created, recent, all_days, stamp), encoding="utf-8")
+        print("wrote", f"activity-{name}.svg")
