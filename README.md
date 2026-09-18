@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=5cba0930a2" />
-  <img src="./assets/activity-light.svg?v=9bbc3c2bb8" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=7081360c77" />
+  <img src="./assets/activity-light.svg?v=5c27a3d633" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=659da7d4bb" />
-  <img src="./assets/news-light.svg?v=12cd0333ec" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=e4075bf7eb" />
+  <img src="./assets/news-light.svg?v=27370119f7" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,16 +36,16 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 56m ago</sub><br>
+<sub><code>HN</code>&nbsp; 1h ago</sub><br>
 <a href="https://linguisticdiscovery.com/posts/pre-greek/"><b>Pre-Greek: The lost language hidden within Ancient Greek</b></a>
 <br><br>
-3 points and 0 comments on the Hacker News front page · linguisticdiscovery.com
+5 points and 0 comments on the Hacker News front page · linguisticdiscovery.com
 </td>
 <td width="50%" valign="top">
 <sub><code>HN</code>&nbsp; 1h ago</sub><br>
 <a href="https://devin.ai/blog/introducing-code-scans"><b>Code Scans</b></a>
 <br><br>
-3 points and 0 comments on the Hacker News front page · devin.ai
+6 points and 0 comments on the Hacker News front page · devin.ai
 </td>
 </tr>
 <tr>
@@ -120,7 +120,7 @@ If you can write down how you do your work, you can automate it. Here's what I d
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 18 Sep 2026 11:00 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 18 Sep 2026 11:09 WIB.</sub>
 
 <!-- NEWS:END -->
 
