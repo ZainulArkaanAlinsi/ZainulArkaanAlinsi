@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=412638a26b" />
-  <img src="./assets/activity-light.svg?v=5636b69f1b" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=5cba0930a2" />
+  <img src="./assets/activity-light.svg?v=9bbc3c2bb8" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=8d8bb386e9" />
-  <img src="./assets/news-light.svg?v=8f2ff70101" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=659da7d4bb" />
+  <img src="./assets/news-light.svg?v=12cd0333ec" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,16 +36,16 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 49m ago</sub><br>
-<a href="https://www.hacktron.ai/blog/hacking-openai"><b>Hacking OpenAI</b></a>
+<sub><code>HN</code>&nbsp; 56m ago</sub><br>
+<a href="https://linguisticdiscovery.com/posts/pre-greek/"><b>Pre-Greek: The lost language hidden within Ancient Greek</b></a>
 <br><br>
-7 points and 1 comment on the Hacker News front page · hacktron.ai
+3 points and 0 comments on the Hacker News front page · linguisticdiscovery.com
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 2h ago</sub><br>
-<a href="https://askamonk.online"><b>Ask A Monk – A digital wilderness for thoughts with no immediate answer</b></a>
+<sub><code>HN</code>&nbsp; 1h ago</sub><br>
+<a href="https://devin.ai/blog/introducing-code-scans"><b>Code Scans</b></a>
 <br><br>
-9 points and 2 comments on the Hacker News front page · askamonk.online
+3 points and 0 comments on the Hacker News front page · devin.ai
 </td>
 </tr>
 <tr>
@@ -64,7 +64,7 @@ The results are in for our DEV Weekend Challenge: Dog Days Edition! Thank you fo
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 9h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 10h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/hands-on-evolution-of-deep-learning-geoffrey-hinton-s-ai-legacy/"><b>Hands-On Evolution of Deep Learning – Geoffrey Hinton’s AI Legacy</b></a>
 <br><br>
 Geoffrey Hinton is known as the &quot;the Godfather of AI&quot;. We just published a course on the freeCodeCamp.org YouTube channel that will help you master modern neural networks by recreating the…
@@ -120,7 +120,7 @@ If you can write down how you do your work, you can automate it. Here's what I d
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 18 Sep 2026 10:36 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 18 Sep 2026 11:00 WIB.</sub>
 
 <!-- NEWS:END -->
 
