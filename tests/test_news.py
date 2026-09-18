@@ -88,6 +88,19 @@ class Text(unittest.TestCase):
     def test_clean_strips_markup_and_entities(self):
         self.assertEqual(N.clean("<b>Go</b> 1.25 &amp;   friends"), "Go 1.25 & friends")
 
+    def test_clean_decodes_numeric_entities_rather_than_dropping_them(self):
+        self.assertEqual(N.clean("We&#8217;ve shipped"), "We\u2019ve shipped")
+        self.assertEqual(N.clean("caf&#xe9; &#38; bar"), "caf\u00e9 & bar")
+
+    def test_clean_unwraps_double_escaped_markup(self):
+        self.assertEqual(N.clean("&lt;p&gt;A &amp;amp; B&lt;/p&gt;"), "A & B")
+
+    def test_boilerplate_footers_are_cut(self):
+        body = "A real sentence that carries the actual news and runs past the minimum length."
+        for tail in ("The post Some Title appeared first on Laravel News.",
+                     "Continue reading on Medium.", "Read more.", "[\u2026]"):
+            self.assertEqual(N.strip_boilerplate(f"{body} {tail}"), body)
+
     def test_h_escapes_for_html_not_markdown(self):
         self.assertEqual(N.h('a & b <c> "d"'), "a &amp; b &lt;c&gt; &quot;d&quot;")
 
@@ -193,6 +206,22 @@ class Collect(unittest.TestCase):
         for src in {i["tag"] for i in items}:
             self.assertLessEqual(sum(1 for i in items if i["tag"] == src), N.PER_SOURCE)
         self.assertEqual(items, sorted(items, key=lambda i: i["at"], reverse=True))
+
+    def test_stories_with_a_summary_win_the_slots(self):
+        full = N.collect()[0]
+        blurbless = [i for i in full if not i["blurb"]]
+        self.assertTrue(blurbless, "fixture set needs one summary-less story for this to mean anything")
+        N.LIMIT = len(full) - 1
+        try:
+            kept = N.collect()[0]
+        finally:
+            N.LIMIT = 12
+        self.assertNotIn(blurbless[0]["url"], [i["url"] for i in kept])
+        self.assertTrue(all(i["blurb"] for i in kept))
+
+    def test_listed_sources_match_the_cards_shown(self):
+        items, shown, _ = N.collect()
+        self.assertEqual(sorted(shown), sorted({i["name"] for i in items}))
 
     def test_only_http_urls_survive(self):
         for i in N.collect()[0]:

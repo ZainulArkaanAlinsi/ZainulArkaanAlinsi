@@ -9,6 +9,7 @@ one, and nothing here ever invents a headline.
     python scripts/build_news.py --print    # just show what it would write
 """
 import datetime as dt
+import html
 import json
 import os
 import re
@@ -119,7 +120,8 @@ def hn_items(blob):
         if not summary:
             pts, com = hit.get("points") or 0, hit.get("num_comments") or 0
             host = re.sub(r"^www\.", "", urllib.parse.urlparse(url).netloc)
-            summary = (f"{pts} points and {com} comments on the Hacker News front page"
+            plural = lambda n, w: f"{n} {w}" if n == 1 else f"{n} {w}s"
+            summary = (f"{plural(pts, 'point')} and {plural(com, 'comment')} on the Hacker News front page"
                        + (f" \u00b7 {host}" if host and "ycombinator" not in host else "")) if pts or com else ""
         out.append((title, url, when(hit.get("created_at")), summary))
     return out
@@ -135,12 +137,28 @@ READERS = {"hn": hn_items, "devto": devto_items, "feed": feed_items}
 
 # ------------------------------------------------------------------- normalise
 def clean(s):
-    s = re.sub(r"<[^>]+>", "", s or "")
-    for a, b in (("&amp;", "&"), ("&quot;", '"'), ("&#39;", "'"), ("&apos;", "'"),
-                 ("&lt;", "<"), ("&gt;", ">"), ("&nbsp;", " "), ("&hellip;", "…")):
-        s = s.replace(a, b)
-    s = re.sub(r"&#x?[0-9a-fA-F]+;", "", s)
+    """Feed text is markup, sometimes escaped twice. Unwrap it rather than
+    stripping the entities out, which silently ate apostrophes."""
+    s = s or ""
+    for _ in range(2):
+        s = re.sub(r"<[^>]+>", " ", s)
+        s = html.unescape(s)
+    s = re.sub(r"<[^>]+>", " ", s)
     return re.sub(r"\s+", " ", s).strip()
+
+
+BOILERPLATE = (
+    re.compile(r"\s*The post\b.*?appeared first on.*$", re.I | re.S),   # WordPress footer
+    re.compile(r"\s*Continue reading\b.*$", re.I | re.S),
+    re.compile(r"\s*(Read|Learn) more\b[^.]*\.?\s*$", re.I),
+    re.compile(r"\s*\[(\u2026|\.\.\.)\]\s*$"),
+)
+
+
+def strip_boilerplate(s):
+    for pattern in BOILERPLATE:
+        s = pattern.sub("", s)
+    return s.strip()
 
 
 def h(s):
@@ -159,7 +177,7 @@ def trim(s, limit):
 
 def blurb(summary, title):
     """A summary worth printing: not boilerplate, not just the headline again."""
-    s = trim(summary, SUMMARY_MAX)
+    s = trim(strip_boilerplate(clean(summary)), SUMMARY_MAX)
     if len(s) < SUMMARY_MIN or key(s)[:40] == key(title)[:40]:
         return ""
     return s
@@ -208,8 +226,13 @@ def collect():
             taken += 1
         if taken:
             live.append(src["name"])
+    # The point of a card is to be readable in place, so a story that brought a
+    # summary wins a slot over one that did not. Display order stays newest first.
     pool.sort(key=lambda i: i["at"], reverse=True)
-    return pool[:LIMIT], live, errors
+    chosen = ([i for i in pool if i["blurb"]] + [i for i in pool if not i["blurb"]])[:LIMIT]
+    chosen.sort(key=lambda i: i["at"], reverse=True)
+    shown = [n for n in live if any(i["name"] == n for i in chosen)]
+    return chosen, shown, errors
 
 
 # ------------------------------------------------------------------- rendering
