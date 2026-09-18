@@ -53,11 +53,10 @@ def run(script, *args):
 
 def main():
     now = dt.datetime.now(TZ)
-    built = now.strftime("%d %b %Y %H:%M WIB")
     failures = []
 
     from build_panels import build as build_panels
-    build_panels(f"rebuilt {built}")
+    build_panels()
     print(f"panels: {len(list(ASSETS.glob('*.svg')))} assets on disk")
 
     if "--skip-activity" not in sys.argv:

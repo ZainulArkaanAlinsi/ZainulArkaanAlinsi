@@ -130,6 +130,6 @@ Weve learned a lot in the last three months since launching Stack Overflow for A
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/footer-dark.svg?v=2f9cba6aa5" />
-  <img src="./assets/footer-light.svg?v=afcce11f15" width="100%" alt="Thanks for stopping by" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/footer-dark.svg?v=91632fdb8c" />
+  <img src="./assets/footer-light.svg?v=d3b14912ed" width="100%" alt="Thanks for stopping by" />
 </picture>
