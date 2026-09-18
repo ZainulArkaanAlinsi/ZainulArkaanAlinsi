@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=7081360c77" />
-  <img src="./assets/activity-light.svg?v=5c27a3d633" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=9f96c930ab" />
+  <img src="./assets/activity-light.svg?v=ef8dd2eee4" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=e4075bf7eb" />
-  <img src="./assets/news-light.svg?v=27370119f7" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=7fe7748511" />
+  <img src="./assets/news-light.svg?v=ea4f877873" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -37,37 +37,51 @@
 <tr>
 <td width="50%" valign="top">
 <sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://linguisticdiscovery.com/posts/pre-greek/"><b>Pre-Greek: The lost language hidden within Ancient Greek</b></a>
+<a href="https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/"><b>Microsoft exec called AI scraping 'the largest theft of labor in human history'</b></a>
 <br><br>
-5 points and 0 comments on the Hacker News front page · linguisticdiscovery.com
+124 points and 65 comments on the Hacker News front page · techcrunch.com
 </td>
 <td width="50%" valign="top">
 <sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://devin.ai/blog/introducing-code-scans"><b>Code Scans</b></a>
+<a href="https://openjev.com/"><b>OpenJev</b></a>
 <br><br>
-6 points and 0 comments on the Hacker News front page · devin.ai
+110 points and 53 comments on the Hacker News front page · openjev.com
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 6h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 11h ago</sub><br>
+<a href="https://www.freecodecamp.org/news/migrate-legacy-monolith-incrementally/"><b>How to Migrate a Legacy Monolith Incrementally Without a Big-Bang Rewrite</b></a>
+<br><br>
+Large legacy migrations often fail long before the final cutover. The failure usually starts when the migration is framed as a single event. Move the application. Move the database. Move…
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 13h ago</sub><br>
 <a href="https://dev.to/gde/serving-gemma-4-on-an-amd-mi300x-what-199-an-hour-buys-52h9"><b>Serving Gemma 4 on an AMD MI300X: What $1.99 an Hour Buys</b></a>
 <br><br>
 A step by step deployment of Gemma 4 E2B to a single AMD Instinct MI300X on AMD Developer Cloud, driven by Python MCP tools, and the throughput a 191.7 GiB card returns for its hourly rate.
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 7h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 14h ago</sub><br>
 <a href="https://dev.to/devteam/congrats-to-the-dev-weekend-challenge-dog-days-edition-winners-300g"><b>Congrats to the DEV Weekend Challenge: Dog Days Edition Winners!</b></a>
 <br><br>
 The results are in for our DEV Weekend Challenge: Dog Days Edition! Thank you for your patience while...
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 10h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 17h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/hands-on-evolution-of-deep-learning-geoffrey-hinton-s-ai-legacy/"><b>Hands-On Evolution of Deep Learning – Geoffrey Hinton’s AI Legacy</b></a>
 <br><br>
 Geoffrey Hinton is known as the &quot;the Godfather of AI&quot;. We just published a course on the freeCodeCamp.org YouTube channel that will help you master modern neural networks by recreating the…
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>STACKOVERFLOW</code>&nbsp; 1d ago</sub><br>
+<a href="https://stackoverflow.blog/2026/09/17/the-ai-magic-words/"><b>The AI magic words</b></a>
+<br><br>
+Ryan sits down with Tim O'Reilly, founder and CEO at O'Reilly Media, to talk about the role of books as user interfaces to knowledge, the power of &quot;magic words&quot; to extract better outputs…
 </td>
 <td width="50%" valign="top">
 <sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
@@ -92,24 +106,10 @@ A rewrite this size wasn't affordable before agents. Here's what porting the Cop
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
-<a href="https://www.freecodecamp.org/news/learn-how-to-deploy-secure-and-automate-full-stack-web-apps/"><b>Learn How to Deploy, Secure, and Automate Full-Stack Web Apps</b></a>
-<br><br>
-Taking a web application from local development to a live, secure production environment can be daunting if you've never looked under the hood. We just published a comprehensive course on…
-</td>
-<td width="50%" valign="top">
 <sub><code>STACKOVERFLOW</code>&nbsp; 2d ago</sub><br>
 <a href="https://stackoverflow.blog/2026/09/15/here-s-what-s-new-on-stack-overflow-for-agents/"><b>From better privacy to our new ChatGPT plugin, here's what's new on Stack Overflow for Agents</b></a>
 <br><br>
 We've learned a lot in the last three months since launching Stack Overflow for Agents, our API-first knowledge exchange for agents. Here's a few of our findings, what's new on the platform…
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 2d ago</sub><br>
-<a href="https://stackoverflow.blog/2026/09/15/ai-jd-and-other-letters-of-the-law/"><b>AI, JD, and other letters of the law</b></a>
-<br><br>
-Ryan chats with Kevin Frazier, director of the AI Innovation and Law program at the University of Texas School of Law, about the legal and social impacts of data centers, the realities of…
 </td>
 <td width="50%" valign="top">
 <sub><code>GITHUB</code>&nbsp; 6d ago</sub><br>
@@ -120,7 +120,7 @@ If you can write down how you do your work, you can automate it. Here's what I d
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 18 Sep 2026 11:09 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 18 Sep 2026 18:11 WIB.</sub>
 
 <!-- NEWS:END -->
 
