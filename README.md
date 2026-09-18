@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=94abe7dcac" />
-  <img src="./assets/activity-light.svg?v=6828805608" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=d2733c1cc7" />
+  <img src="./assets/activity-light.svg?v=1f6d639c95" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=e26855575c" />
-  <img src="./assets/news-light.svg?v=c12105ea89" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=99405f2d1e" />
+  <img src="./assets/news-light.svg?v=dd04a9870c" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,58 +36,58 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 32m ago</sub><br>
-<a href="https://wolfstreet.com/2026/09/17/treasuries-have-become-badly-unappetizing-for-foreign-central-banks-governments/"><b>US Treasuries Have Become Unappetizing for Foreign Central Banks and Governments</b></a>
+<sub><code>HN</code>&nbsp; 50m ago</sub><br>
+<a href="https://www.koreajoongangdaily.com/business/korea-raises-data-breach-fines-to-10-of-revenue/12869899"><b>Korea raises data breach fines to 10% of revenue</b></a>
 <br><br>
-19 points and 3 comments on the Hacker News front page · wolfstreet.com
+97 points and 20 comments on the Hacker News front page · koreajoongangdaily.com
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://www.thebignewsletter.com/p/ai-is-an-elite-crime-spree"><b>AI is an elite crime spree</b></a>
+<sub><code>DEV</code>&nbsp; 55m ago</sub><br>
+<a href="https://dev.to/amandamayfield/the-beauty-and-terror-of-negative-feedback-2g4d"><b>The beauty and terror of negative feedback</b></a>
 <br><br>
-32 points and 4 comments on the Hacker News front page · thebignewsletter.com
+Giving my first conference talk recently was an absolute thrill. I was excited, not overly nervous,...
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 1h ago</sub><br>
+<sub><code>HN</code>&nbsp; 1h ago</sub><br>
+<a href="https://grapheneos.social/@GrapheneOS/117282080803799576"><b>Android 17 is the first since 3.x to add new APIs without releasing to the AOSP</b></a>
+<br><br>
+206 points and 95 comments on the Hacker News front page · grapheneos.social
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 4h ago</sub><br>
+<a href="https://dev.to/devengers/dev-opportunity-radar-17-138k-amazon-hackathon-stanfords-code-in-place-x-and-dev3pack-4imm"><b>Dev Opportunity Radar #17: $138K Amazon Hackathon, Stanford's Code in Place X, and Dev3Pack…</b></a>
+<br><br>
+TL;DR Welcome back to Dev Opportunity Radar. This is a weekly series where I share opportunities,...
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>FREECODECAMP</code>&nbsp; 4h ago</sub><br>
+<a href="https://www.freecodecamp.org/news/how-to-prevent-poisoned-github-actions-dependencies/"><b>How to Prevent Poisoned GitHub Actions Dependencies</b></a>
+<br><br>
+Your workflow uses actions/checkout@v4. Today, that tag points to a vetted release. Tomorrow, a compromised maintainer or attacker moves the tag to malicious code. Your pipeline runs it…
+</td>
+<td width="50%" valign="top">
+<sub><code>FREECODECAMP</code>&nbsp; 5h ago</sub><br>
+<a href="https://www.freecodecamp.org/news/how-to-build-a-bulk-image-compressor-tool-with-html-css-and-javascript/"><b>How to Build a Bulk Image Compressor Tool with HTML, CSS, and JavaScript</b></a>
+<br><br>
+High-resolution images look great, but they can significantly slow down page load times and consume massive amounts of storage. While backend compression tools are common, building a…
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>GITHUB</code>&nbsp; 5h ago</sub><br>
 <a href="https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp/"><b>Should you read the code, is RAG dead, and did Skills kill MCP?</b></a>
 <br><br>
 We dive into these questions and other AI hot takes on the latest episode of the GitHub Podcast.
 </td>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 3h ago</sub><br>
-<a href="https://dev.to/peter/gmail-please-let-me-hide-delegated-accounts-on-my-iphone-30e"><b>GMail, please let me hide delegated accounts on my iPhone</b></a>
-<br><br>
-Gmail's delegated accounts have started showing up in the app on my iPhone, and I find this...
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 3h ago</sub><br>
-<a href="https://dev.to/devteam/what-was-your-win-this-week-2hcb"><b>What was your win this week?!</b></a>
-<br><br>
-👋👋👋👋 Looking back on your week -- what was something you're proud of? All wins count -- big or small...
-</td>
-<td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 13h ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 17h ago</sub><br>
 <a href="https://laravel-news.com/fresh-package-laravel-package-skeleton?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Fresh Package: Laravel Package Skeleton with Testbench, CI, and Boost Integration</b></a>
 <br><br>
 Fresh Package scaffolds a Laravel package with PHPUnit, Larastan, a Testbench workbench app, GitHub Actions, and an optional Vue frontend or AI skills.
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 16h ago</sub><br>
-<a href="https://www.freecodecamp.org/news/migrate-legacy-monolith-incrementally/"><b>How to Migrate a Legacy Monolith Incrementally Without a Big-Bang Rewrite</b></a>
-<br><br>
-Large legacy migrations often fail long before the final cutover. The failure usually starts when the migration is framed as a single event. Move the application. Move the database. Move…
-</td>
-<td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 22h ago</sub><br>
-<a href="https://www.freecodecamp.org/news/hands-on-evolution-of-deep-learning-geoffrey-hinton-s-ai-legacy/"><b>Hands-On Evolution of Deep Learning – Geoffrey Hinton’s AI Legacy</b></a>
-<br><br>
-Geoffrey Hinton is known as the &quot;the Godfather of AI&quot;. We just published a course on the freeCodeCamp.org YouTube channel that will help you master modern neural networks by recreating the…
 </td>
 </tr>
 <tr>
@@ -112,7 +112,7 @@ Inertia DevTools, the panel for inspecting Inertia.js visits and props, is now o
 A rewrite this size wasn't affordable before agents. Here's what porting the Copilot agent runtime to 800,000 lines of production Rust actually took.
 </td>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 2d ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 3d ago</sub><br>
 <a href="https://stackoverflow.blog/2026/09/15/here-s-what-s-new-on-stack-overflow-for-agents/"><b>From better privacy to our new ChatGPT plugin, here's what's new on Stack Overflow for Agents</b></a>
 <br><br>
 We've learned a lot in the last three months since launching Stack Overflow for Agents, our API-first knowledge exchange for agents. Here's a few of our findings, what's new on the platform…
@@ -120,13 +120,13 @@ We've learned a lot in the last three months since launching Stack Overflow for 
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 18 Sep 2026 23:22 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 19 Sep 2026 03:53 WIB.</sub>
 
 <!-- NEWS:END -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20260918" />
-  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20260918" width="100%" alt="A snake eating this year's contribution squares" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20260919" />
+  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20260919" width="100%" alt="A snake eating this year's contribution squares" />
 </picture>
 
 <picture>
