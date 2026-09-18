@@ -131,6 +131,27 @@ def slot(x, y, w, h, t, depth=3, sunken=True, fill=None):
     ])
 
 
+def grass_block(cx, cy, s, depth, grass, dirt):
+    """A single isometric grass block: lit top, grass rim, dirt sides."""
+    hw, hh = s, s * .5
+    n, e, w_, so = (cx, cy - hh), (cx + hw, cy), (cx - hw, cy), (cx, cy + hh)
+    down = lambda p, d: (p[0], p[1] + d)
+    rim = max(2.0, depth * .30)
+    out = [
+        poly([w_, so, down(so, depth), down(w_, depth)], shade(dirt, .70)),
+        poly([so, e, down(e, depth), down(so, depth)], shade(dirt, .50)),
+        poly([w_, so, down(so, rim), down(w_, rim)], shade(grass, .72)),
+        poly([so, e, down(e, rim), down(so, rim)], shade(grass, .52)),
+        poly([n, e, so, w_], grass),
+    ]
+    for fu, fv in ((-.30, -.10), (.26, .18), (.04, -.34)):
+        px, py = cx + fu * s, cy + fv * s
+        q = s * .17
+        out.append(poly([(px, py - q * .5), (px + q, py), (px, py + q * .5), (px - q, py)],
+                        shade(grass, 1.14)))
+    return "".join(out)
+
+
 def ticks(x, y, w, h, colour, size=9, sw=1.2, op=.55):
     """Corner registration marks — the hero's motif, carried down the page."""
     d = (f"M{x} {y + size}V{y}H{x + size} M{x + w - size} {y}H{x + w}V{y + size} "
