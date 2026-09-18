@@ -23,12 +23,14 @@ THEMES = {
         "blue": "#6E9BE8", "green": "#5BC98D", "amber": "#DFA94A", "red": "#DE6B7C", "violet": "#A88AE4",
         "glass": "#FFFFFF", "shadow": "#000000", "pane": "#FFFFFF", "pane_op": .045,
         "glass_rim": .10, "spec": .26, "glow": .12, "grid": .05, "px_shadow": .45,
+        "ramp": (.45, 1.00),
     },
     "light": {
         "bg": "#FFFFFF", "line": "#D9DEE5", "ink": "#1B1F24", "muted": "#5A626E",
         "blue": "#3A6ED0", "green": "#1F9E63", "amber": "#B37D14", "red": "#C94357", "violet": "#7A52C7",
         "glass": "#FFFFFF", "shadow": "#1B1F24", "pane": "#1B1F24", "pane_op": .035,
         "glass_rim": .55, "spec": .95, "glow": .10, "grid": .06, "px_shadow": .16,
+        "ramp": (.80, 1.55),
     },
 }
 ACCENTS = ("blue", "green", "amber", "red", "violet")
@@ -55,10 +57,22 @@ def shade(c, k):
     return hexa([v * k for v in rgb(c)])
 
 
-def ramp(t, key="green", steps=4):
-    """Contribution ladder: one accent stepped toward the canvas. Not new colours."""
+def step(t, key, k):
+    """k below 1 mixes the accent toward the canvas; above 1 pushes past it, away
+    from the canvas. One hue either way, so the ladder stays sequential."""
     base, bg = t[key], t["bg"]
-    return [mix(bg, t["line"], .55)] + [mix(bg, base, .30 + .70 * (i / (steps - 1)) ** .85) for i in range(steps)]
+    if k <= 1:
+        return mix(bg, base, k)
+    away = "#FFFFFF" if sum(rgb(bg)) < 384 else "#000000"     # push away from the canvas
+    return mix(base, away, (k - 1) * .55)
+
+
+def ramp(t, key="green", steps=4):
+    """Contribution ladder: one accent, monotone lightness, and a faint end that
+    still clears 2:1 on the surface it sits on — checked, not eyeballed."""
+    lo, hi = t["ramp"]
+    return [mix(t["bg"], t["line"], .55)] + [
+        step(t, key, lo + (hi - lo) * (i / (steps - 1))) for i in range(steps)]
 
 
 # ------------------------------------------------------------------ primitives

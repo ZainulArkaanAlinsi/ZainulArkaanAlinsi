@@ -7,6 +7,7 @@ green step comes from GitHub's own contribution level. Today's column gets a bea
 """
 import datetime as dt
 import json
+import math
 import os
 import sys
 import urllib.request
@@ -24,8 +25,8 @@ PAD = 34
 S = 19.0                      # cell size
 WEEK = (S * .94, S * .155)    # weeks run right, drifting gently down
 DAY = (-S * .44, S * .640)    # weekdays run toward the viewer
-BLOCK = S * .60               # one voxel of height
-MAX_BLOCKS = 6
+BLOCK = S * .52               # one voxel of height
+MAX_BLOCKS = 7
 
 CAL = ("contributionCalendar{ totalContributions weeks{ contributionDays{"
        " date weekday contributionCount contributionLevel } } }")
@@ -128,9 +129,22 @@ def tower(w, d, ox, oy, n_blocks, grass, dirt, t, gap=.06):
     return "".join(parts)
 
 
-def plate(w, d, ox, oy, fill, gap=.06):
+def chip(cx, y, label, t, fg, size=11.5):
+    """A label that has to stay readable over whatever towers are behind it."""
+    w = len(label) * size * .601 + 18
+    return ("".join([
+        rect(cx - w / 2, y - size - 3, w, size + 11, fill=t["bg"], r=5, op=.82),
+        rect(cx - w / 2 + .5, y - size - 2.5, w - 1, size + 10, r=5, stroke=t["line"], op=.85),
+        text(cx, y, label, size, fg, anchor="middle", weight=600),
+    ]))
+
+
+def shadow(w, d, ox, oy, t, gap=.06):
+    """A footprint cast down-right, so the towers sit on the ground instead of
+    floating above it."""
     a, b, c, e = w + gap, d + gap, w + 1 - gap, d + 1 - gap
-    return poly([pt(a, b, ox, oy), pt(c, b, ox, oy), pt(c, e, ox, oy), pt(a, e, ox, oy)], fill)
+    pts = [pt(a, b, ox, oy), pt(c, b, ox, oy), pt(c, e, ox, oy), pt(a, e, ox, oy)]
+    return poly([(x + 5.5, y + 4) for x, y in pts], t["shadow"], ' opacity=".26"')
 
 
 # --------------------------------------------------------------------- drawing
@@ -189,9 +203,17 @@ def render(theme, created, recent, all_days, stamp):
     y += ch + 16
 
     # ---- the world -------------------------------------------------------
-    # Reserve exactly enough sky for the header band: no tower may reach into it.
+    # One 137-commit day against a median of four made every other tower a stub, so
+    # height is a log scale normalised to the 90th percentile rather than the peak.
+    busy = sorted(d["contributionCount"] for _, _, d in days if d["contributionCount"])
+    ref = max(3, busy[int(len(busy) * .9)] if busy else 3)
+
     def stack(cnt):
-        return 1 + round((cnt / top) ** .55 * (MAX_BLOCKS - 1)) if cnt else 0
+        if not cnt:
+            return 0
+        return 1 + round(min(1.0, math.log1p(cnt) / math.log1p(ref)) * (MAX_BLOCKS - 1))
+
+    # Reserve exactly enough sky for the header band: no tower may reach into it.
 
     sky = y + 58 + 52                       # heading + subtitle + best-day callout
     ox = PAD + 120
@@ -216,21 +238,27 @@ def render(theme, created, recent, all_days, stamp):
 
     lx = W - PAD - 190
     body.append(text(lx - 12, head_y + 6, "less", 11, t["muted"], anchor="end"))
-    for i, c in enumerate(cells):
+    for i, c in enumerate([stone[0]] + cells[1:]):      # first swatch is the bare ground
         body.append(slot(lx + i * 26, head_y - 8, 20, 20, t, depth=2, fill=c))
     body.append(text(lx + len(cells) * 26 + 4, head_y + 6, "more", 11, t["muted"]))
 
     # ---- plinth: a slab of stone with the calendar grid scored into the top
     body.append(poly([pt(w0, d0, ox, oy), pt(w1, d0, ox, oy), pt(w1, d1, ox, oy), pt(w0, d1, ox, oy)], stone[0]))
-    grid = []
-    for w in range(0, n + 1, 4):
+    weekly, monthly, last = [], [], None
+    for w in range(n + 1):
         a, b = pt(w, d0, ox, oy), pt(w, d1, ox, oy)
-        grid.append(f"M{a[0]:.1f} {a[1]:.1f}L{b[0]:.1f} {b[1]:.1f}")
+        seg = f"M{a[0]:.1f} {a[1]:.1f}L{b[0]:.1f} {b[1]:.1f}"
+        month = dt.date.fromisoformat(weeks[min(w, n - 1)]["contributionDays"][0]["date"]).month
+        (monthly if month != last and w < n else weekly).append(seg)
+        if w < n:
+            last = month
     for d in range(8):
         a, b = pt(w0, d, ox, oy), pt(w1, d, ox, oy)
-        grid.append(f"M{a[0]:.1f} {a[1]:.1f}L{b[0]:.1f} {b[1]:.1f}")
-    body.append(f'<path d="{"".join(grid)}" stroke="{t["ink"]}" stroke-width=".6"'
-                f' opacity="{t["grid"] * 1.5:.3f}" fill="none"/>')
+        weekly.append(f"M{a[0]:.1f} {a[1]:.1f}L{b[0]:.1f} {b[1]:.1f}")
+    body.append(f'<path d="{"".join(weekly)}" stroke="{t["ink"]}" stroke-width=".5"'
+                f' opacity="{t["grid"] * 1.1:.3f}" fill="none"/>')
+    body.append(f'<path d="{"".join(monthly)}" stroke="{t["ink"]}" stroke-width=".8"'
+                f' opacity="{t["grid"] * 2.6:.3f}" fill="none"/>')
     for pts, col in ((((w0, d1), (w1, d1)), stone[1]), (((w1, d0), (w1, d1)), stone[2])):
         (ua, va), (ub, vb) = pts
         a, b = pt(ua, va, ox, oy), pt(ub, vb, ox, oy)
@@ -241,32 +269,32 @@ def render(theme, created, recent, all_days, stamp):
     for w, wd, day in sorted(days, key=lambda x: (x[0] + x[1], x[1])):
         cnt = day["contributionCount"]
         if not cnt:
-            body.append(plate(w, wd, ox, oy, cells[0]))
-            continue
+            continue                       # a quiet day is bare ground, not a dark tile
         blocks = stack(cnt)
+        body.append(shadow(w, wd, ox, oy, t))
         body.append(tower(w, wd, ox, oy, blocks, cells[LEVELS.index(day["contributionLevel"])], dirt, t))
         if day["date"] == latest:
             beacon = (w, wd, blocks)
         if day["date"] == peak[2]["date"]:
             peak_top = pt(w + .5, wd + .5, ox, oy, blocks * BLOCK)
 
+    # Markers go on last, above every tower, each on its own backing plate.
     if beacon:
         w, wd, blocks = beacon
         bx, by = pt(w + .5, wd + .5, ox, oy, blocks * BLOCK)
-        body.append(f'<g class="bob"><rect x="{bx - 2.5:.1f}" y="{by - 44:.1f}" width="5" height="44"'
-                    f' fill="{t["green"]}" opacity=".5"/>'
-                    f'<rect x="{bx - 5:.1f}" y="{by - 56:.1f}" width="10" height="10" fill="{t["green"]}"/></g>')
-        body.append(text(bx, by - 64, "today", 10.5, t["green"], anchor="middle", weight=600))
+        beam = max(52, by - (sky + 34))
+        body.append(f'<g class="bob"><rect x="{bx - 2.5:.1f}" y="{by - beam:.1f}" width="5" height="{beam:.1f}"'
+                    f' fill="{t["green"]}" opacity=".45"/>'
+                    f'<rect x="{bx - 5:.1f}" y="{by - beam - 11:.1f}" width="10" height="10" fill="{t["green"]}"/></g>')
+        body.append(chip(min(max(bx, PAD + 60), W - PAD - 60), by - beam - 20, "today", t, t["green"], 10.5))
 
     if peak_top:
         px, py = peak_top
-        ly = max(head_y + 44, py - 44)                 # never climb into the window header
-        if ly < py - 14:
-            body.append(line(px, py - 6, px, ly + 10, t["muted"], 1.1, .8))
-            body.append(rect(px - 3, ly + 5, 6, 6, fill=t["amber"]))
-        px = min(max(px, PAD + 130), W - PAD - 130)
-        body.append(text(px, ly, f"best day \u00b7 {top} on {short(peak[2]['date'])}", 11.5, t["ink"],
-                         anchor="middle", weight=600))
+        ly = max(sky + 12, py - 46)                    # never climb into the window header
+        if ly < py - 18:
+            body.append(line(px, py - 8, px, ly + 8, t["muted"], 1.1, .7))
+        body.append(chip(min(max(px, PAD + 150), W - PAD - 150), ly,
+                         f"best day \u00b7 {top} on {short(peak[2]['date'])}", t, t["ink"]))
 
     # ---- axis labels, hugging the slab
     last = None
