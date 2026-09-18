@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=fe454635c0" />
-  <img src="./assets/activity-light.svg?v=02e6e99dbf" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=412638a26b" />
+  <img src="./assets/activity-light.svg?v=5636b69f1b" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=7b09e7726a" />
-  <img src="./assets/news-light.svg?v=42267d06b8" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=8d8bb386e9" />
+  <img src="./assets/news-light.svg?v=8f2ff70101" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,35 +36,21 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://askamonk.online"><b>Ask A Monk – A digital wilderness for thoughts with no immediate answer</b></a>
+<sub><code>HN</code>&nbsp; 49m ago</sub><br>
+<a href="https://www.hacktron.ai/blog/hacking-openai"><b>Hacking OpenAI</b></a>
 <br><br>
-8 points and 1 comments on the Hacker News front page · askamonk.online
+7 points and 1 comment on the Hacker News front page · hacktron.ai
 </td>
 <td width="50%" valign="top">
 <sub><code>HN</code>&nbsp; 2h ago</sub><br>
-<a href="https://www.netnod.se/blog/telstra-outage-night-network-decided-year-was-2006"><b>Telstra outage: The night a network decided the year was 2006</b></a>
+<a href="https://askamonk.online"><b>Ask A Monk – A digital wilderness for thoughts with no immediate answer</b></a>
 <br><br>
-19 points and 7 comments on the Hacker News front page · netnod.se
+9 points and 2 comments on the Hacker News front page · askamonk.online
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>LOBSTERS</code>&nbsp; 3h ago</sub><br>
-<a href="https://typesafe.ai/blog/introducing-system-one-models-and-jev"><b>Introducing System One Models &amp; Jev</b></a>
-<br><br>
-<i>No summary in this feed — open the link for the full story.</i>
-</td>
-<td width="50%" valign="top">
-<sub><code>LOBSTERS</code>&nbsp; 3h ago</sub><br>
-<a href="https://www.mcsweeneys.net/articles/we-must-create-the-shit-machine"><b>We Must Create the Shit Machine</b></a>
-<br><br>
-<i>No summary in this feed — open the link for the full story.</i>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 5h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 6h ago</sub><br>
 <a href="https://dev.to/gde/serving-gemma-4-on-an-amd-mi300x-what-199-an-hour-buys-52h9"><b>Serving Gemma 4 on an AMD MI300X: What $1.99 an Hour Buys</b></a>
 <br><br>
 A step by step deployment of Gemma 4 E2B to a single AMD Instinct MI300X on AMD Developer Cloud, driven by Python MCP tools, and the throughput a 191.7 GiB card returns for its hourly rate.
@@ -87,7 +73,7 @@ Geoffrey Hinton is known as the &quot;the Godfather of AI&quot;. We just publish
 <sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
 <a href="https://laravel-news.com/inertia-devtools-firefox?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Inertia DevTools Now Available for Firefox</b></a>
 <br><br>
-Inertia DevTools, the panel for inspecting Inertia.js visits and props, is now on Firefox with the same features as the Chrome extension. The post Inertia DevTools Now Available for Firefox…
+Inertia DevTools, the panel for inspecting Inertia.js visits and props, is now on Firefox with the same features as the Chrome extension.
 </td>
 </tr>
 <tr>
@@ -95,13 +81,13 @@ Inertia DevTools, the panel for inspecting Inertia.js visits and props, is now o
 <sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
 <a href="https://laravel-news.com/laravel-scalpel?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Laravel Scalpel Scans for Filesystem Intrusion Evidence</b></a>
 <br><br>
-Laravel Scalpel scans Laravel filesystems for rogue PHP files, obfuscated backdoors, altered directives, environment issues, and file changes. The post Laravel Scalpel Scans for Filesystem…
+Laravel Scalpel scans Laravel filesystems for rogue PHP files, obfuscated backdoors, altered directives, environment issues, and file changes.
 </td>
 <td width="50%" valign="top">
 <sub><code>GITHUB</code>&nbsp; 1d ago</sub><br>
 <a href="https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/"><b>Migrating the GitHub Copilot runtime to Rust, using Copilot</b></a>
 <br><br>
-A rewrite this size wasn't affordable before agents. Here's what porting the Copilot agent runtime to 800,000 lines of production Rust actually took. The post Migrating the GitHub Copilot…
+A rewrite this size wasn't affordable before agents. Here's what porting the Copilot agent runtime to 800,000 lines of production Rust actually took.
 </td>
 </tr>
 <tr>
@@ -115,12 +101,26 @@ Taking a web application from local development to a live, secure production env
 <sub><code>STACKOVERFLOW</code>&nbsp; 2d ago</sub><br>
 <a href="https://stackoverflow.blog/2026/09/15/here-s-what-s-new-on-stack-overflow-for-agents/"><b>From better privacy to our new ChatGPT plugin, here's what's new on Stack Overflow for Agents</b></a>
 <br><br>
-Weve learned a lot in the last three months since launching Stack Overflow for Agents, our API-first knowledge exchange for agents. Heres a few of our findings, whats new on the platform…
+We've learned a lot in the last three months since launching Stack Overflow for Agents, our API-first knowledge exchange for agents. Here's a few of our findings, what's new on the platform…
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>STACKOVERFLOW</code>&nbsp; 2d ago</sub><br>
+<a href="https://stackoverflow.blog/2026/09/15/ai-jd-and-other-letters-of-the-law/"><b>AI, JD, and other letters of the law</b></a>
+<br><br>
+Ryan chats with Kevin Frazier, director of the AI Innovation and Law program at the University of Texas School of Law, about the legal and social impacts of data centers, the realities of…
+</td>
+<td width="50%" valign="top">
+<sub><code>GITHUB</code>&nbsp; 6d ago</sub><br>
+<a href="https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github/"><b>Marketing ops as code: Automating events from planning to follow-up on GitHub</b></a>
+<br><br>
+If you can write down how you do your work, you can automate it. Here's what I did to support GitHub's APAC marketing team.
 </td>
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · Lobsters · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 18 Sep 2026 10:32 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 18 Sep 2026 10:36 WIB.</sub>
 
 <!-- NEWS:END -->
 
