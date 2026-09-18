@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=9f96c930ab" />
-  <img src="./assets/activity-light.svg?v=ef8dd2eee4" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=94abe7dcac" />
+  <img src="./assets/activity-light.svg?v=6828805608" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=7fe7748511" />
-  <img src="./assets/news-light.svg?v=ea4f877873" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=e26855575c" />
+  <img src="./assets/news-light.svg?v=c12105ea89" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,41 +36,55 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/"><b>Microsoft exec called AI scraping 'the largest theft of labor in human history'</b></a>
+<sub><code>HN</code>&nbsp; 32m ago</sub><br>
+<a href="https://wolfstreet.com/2026/09/17/treasuries-have-become-badly-unappetizing-for-foreign-central-banks-governments/"><b>US Treasuries Have Become Unappetizing for Foreign Central Banks and Governments</b></a>
 <br><br>
-124 points and 65 comments on the Hacker News front page · techcrunch.com
+19 points and 3 comments on the Hacker News front page · wolfstreet.com
 </td>
 <td width="50%" valign="top">
 <sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://openjev.com/"><b>OpenJev</b></a>
+<a href="https://www.thebignewsletter.com/p/ai-is-an-elite-crime-spree"><b>AI is an elite crime spree</b></a>
 <br><br>
-110 points and 53 comments on the Hacker News front page · openjev.com
+32 points and 4 comments on the Hacker News front page · thebignewsletter.com
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 11h ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 1h ago</sub><br>
+<a href="https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp/"><b>Should you read the code, is RAG dead, and did Skills kill MCP?</b></a>
+<br><br>
+We dive into these questions and other AI hot takes on the latest episode of the GitHub Podcast.
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 3h ago</sub><br>
+<a href="https://dev.to/peter/gmail-please-let-me-hide-delegated-accounts-on-my-iphone-30e"><b>GMail, please let me hide delegated accounts on my iPhone</b></a>
+<br><br>
+Gmail's delegated accounts have started showing up in the app on my iPhone, and I find this...
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 3h ago</sub><br>
+<a href="https://dev.to/devteam/what-was-your-win-this-week-2hcb"><b>What was your win this week?!</b></a>
+<br><br>
+👋👋👋👋 Looking back on your week -- what was something you're proud of? All wins count -- big or small...
+</td>
+<td width="50%" valign="top">
+<sub><code>LARAVEL</code>&nbsp; 13h ago</sub><br>
+<a href="https://laravel-news.com/fresh-package-laravel-package-skeleton?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Fresh Package: Laravel Package Skeleton with Testbench, CI, and Boost Integration</b></a>
+<br><br>
+Fresh Package scaffolds a Laravel package with PHPUnit, Larastan, a Testbench workbench app, GitHub Actions, and an optional Vue frontend or AI skills.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>FREECODECAMP</code>&nbsp; 16h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/migrate-legacy-monolith-incrementally/"><b>How to Migrate a Legacy Monolith Incrementally Without a Big-Bang Rewrite</b></a>
 <br><br>
 Large legacy migrations often fail long before the final cutover. The failure usually starts when the migration is framed as a single event. Move the application. Move the database. Move…
 </td>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 13h ago</sub><br>
-<a href="https://dev.to/gde/serving-gemma-4-on-an-amd-mi300x-what-199-an-hour-buys-52h9"><b>Serving Gemma 4 on an AMD MI300X: What $1.99 an Hour Buys</b></a>
-<br><br>
-A step by step deployment of Gemma 4 E2B to a single AMD Instinct MI300X on AMD Developer Cloud, driven by Python MCP tools, and the throughput a 191.7 GiB card returns for its hourly rate.
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 14h ago</sub><br>
-<a href="https://dev.to/devteam/congrats-to-the-dev-weekend-challenge-dog-days-edition-winners-300g"><b>Congrats to the DEV Weekend Challenge: Dog Days Edition Winners!</b></a>
-<br><br>
-The results are in for our DEV Weekend Challenge: Dog Days Edition! Thank you for your patience while...
-</td>
-<td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 17h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 22h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/hands-on-evolution-of-deep-learning-geoffrey-hinton-s-ai-legacy/"><b>Hands-On Evolution of Deep Learning – Geoffrey Hinton’s AI Legacy</b></a>
 <br><br>
 Geoffrey Hinton is known as the &quot;the Godfather of AI&quot;. We just published a course on the freeCodeCamp.org YouTube channel that will help you master modern neural networks by recreating the…
@@ -92,35 +106,21 @@ Inertia DevTools, the panel for inspecting Inertia.js visits and props, is now o
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
-<a href="https://laravel-news.com/laravel-scalpel?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Laravel Scalpel Scans for Filesystem Intrusion Evidence</b></a>
-<br><br>
-Laravel Scalpel scans Laravel filesystems for rogue PHP files, obfuscated backdoors, altered directives, environment issues, and file changes.
-</td>
-<td width="50%" valign="top">
 <sub><code>GITHUB</code>&nbsp; 1d ago</sub><br>
 <a href="https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/"><b>Migrating the GitHub Copilot runtime to Rust, using Copilot</b></a>
 <br><br>
 A rewrite this size wasn't affordable before agents. Here's what porting the Copilot agent runtime to 800,000 lines of production Rust actually took.
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <sub><code>STACKOVERFLOW</code>&nbsp; 2d ago</sub><br>
 <a href="https://stackoverflow.blog/2026/09/15/here-s-what-s-new-on-stack-overflow-for-agents/"><b>From better privacy to our new ChatGPT plugin, here's what's new on Stack Overflow for Agents</b></a>
 <br><br>
 We've learned a lot in the last three months since launching Stack Overflow for Agents, our API-first knowledge exchange for agents. Here's a few of our findings, what's new on the platform…
 </td>
-<td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 6d ago</sub><br>
-<a href="https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github/"><b>Marketing ops as code: Automating events from planning to follow-up on GitHub</b></a>
-<br><br>
-If you can write down how you do your work, you can automate it. Here's what I did to support GitHub's APAC marketing team.
-</td>
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 18 Sep 2026 18:11 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 18 Sep 2026 23:22 WIB.</sub>
 
 <!-- NEWS:END -->
 
