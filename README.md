@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=bc4290f88f" />
-  <img src="./assets/activity-light.svg?v=0319d8885f" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=155e43ba8e" />
+  <img src="./assets/activity-light.svg?v=c1cbdb031c" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=c35b032fcb" />
-  <img src="./assets/news-light.svg?v=31a34b5371" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=6f8dd09632" />
+  <img src="./assets/news-light.svg?v=31ae338759" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -37,40 +37,40 @@
 <tr>
 <td width="50%" valign="top">
 <sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://john.hartnup.uk/2026/06/07/ai-event-posters.html"><b>AI-generated posters don’t have to be horrible</b></a>
+<a href="https://theconversation.com/learning-another-language-may-be-one-of-the-best-ways-to-keep-your-brain-healthy-as-you-age-291951"><b>Learning Another Language May Be One of the Best Ways to Keep Your Brain Healthy</b></a>
 <br><br>
-126 points and 75 comments on the Hacker News front page · john.hartnup.uk
+30 points and 21 comments on the Hacker News front page · theconversation.com
 </td>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 3h ago</sub><br>
+<sub><code>HN</code>&nbsp; 1h ago</sub><br>
+<a href="https://github.com/mindbox77/zxdesk"><b>A graphical desktop for the ZX Spectrum</b></a>
+<br><br>
+40 points and 18 comments on the Hacker News front page · github.com
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 7h ago</sub><br>
 <a href="https://dev.to/infoinlet1/i-got-rejected-for-using-ai-in-an-interview-then-i-watched-the-interviewer-do-it-31d0"><b>I got rejected for using AI in an interview. Then I watched the interviewer do it.</b></a>
 <br><br>
 I got the rejection email on a Tuesday. I've been rejected before — everyone has. This one broke...
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 4h ago</sub><br>
-<a href="https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio"><b>GPT-6 Astra Solves a WWI German Radio Cipher</b></a>
+<sub><code>DEV</code>&nbsp; 9h ago</sub><br>
+<a href="https://dev.to/debashish_ghosal/what-do-you-do-while-ai-codes-i-make-mine-argue-with-itself-2gl7"><b>What Do You Do While AI Codes? I Make Mine Argue With Itself.</b></a>
 <br><br>
-128 points and 62 comments on the Hacker News front page · prinzai.com
-</td>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 6h ago</sub><br>
-<a href="https://dev.to/wiseai/frozendict-state-of-the-art-immutable-hashmap-for-python-and-node-js-284o"><b>Frozendict 🧊: State of the Art Immutable Hashmap for Python and Node JS.</b></a>
-<br><br>
-Hello 👋! So there I was, staring at Python's frozenset, feeling that specific special rage that...
+Be honest: what do you actually do while the agent types? I used to just watch. Not read, watch....
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 13h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 18h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-to-turn-a-recist-line-into-a-3d-tumor-segmentation-mask/"><b>How to Turn a RECIST Line into a 3D Tumor Segmentation Mask</b></a>
 <br><br>
 A radiologist can mark a tumor on a CT scan by drawing a straight line across it. Creating a complete 3D segmentation requires outlining the tumor across the slices where it appears, which…
 </td>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 13h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 18h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-ai-coding-assistants-can-help-you-debug-without-writing-the-code-for-you/"><b>How AI Coding Assistants Can Help You Debug Without Writing the Code for You</b></a>
 <br><br>
 AI coding assistants have become really good at fixing code. Paste an error into an AI tool and, within seconds, you'll get a corrected implementation. That's useful when you simply want to…
@@ -78,7 +78,7 @@ AI coding assistants have become really good at fixing code. Paste an error into
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 19h ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 1d ago</sub><br>
 <a href="https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp/"><b>Should you read the code, is RAG dead, and did Skills kill MCP?</b></a>
 <br><br>
 We dive into these questions and other AI hot takes on the latest episode of the GitHub Podcast.
@@ -120,7 +120,7 @@ We've learned a lot in the last three months since launching Stack Overflow for 
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 19 Sep 2026 17:56 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 19 Sep 2026 22:52 WIB.</sub>
 
 <!-- NEWS:END -->
 
