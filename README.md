@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=699ec412ee" />
-  <img src="./assets/activity-light.svg?v=7222e513c5" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=bc4290f88f" />
+  <img src="./assets/activity-light.svg?v=0319d8885f" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=641c435f0a" />
-  <img src="./assets/news-light.svg?v=5b2c9667fc" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=c35b032fcb" />
+  <img src="./assets/news-light.svg?v=31a34b5371" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -37,48 +37,48 @@
 <tr>
 <td width="50%" valign="top">
 <sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://www.wired.com/story/flock-is-offering-voluntary-buyouts-to-employees/"><b>Flock Offers Employees Buyouts as Customers Flee</b></a>
+<a href="https://john.hartnup.uk/2026/06/07/ai-event-posters.html"><b>AI-generated posters don’t have to be horrible</b></a>
 <br><br>
-16 points and 0 comments on the Hacker News front page · wired.com
+126 points and 75 comments on the Hacker News front page · john.hartnup.uk
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 2h ago</sub><br>
-<a href="https://sdcc.sourceforge.net/"><b>SDCC – Small Device C Compiler</b></a>
+<sub><code>DEV</code>&nbsp; 3h ago</sub><br>
+<a href="https://dev.to/infoinlet1/i-got-rejected-for-using-ai-in-an-interview-then-i-watched-the-interviewer-do-it-31d0"><b>I got rejected for using AI in an interview. Then I watched the interviewer do it.</b></a>
 <br><br>
-24 points and 4 comments on the Hacker News front page · sdcc.sourceforge.net
+I got the rejection email on a Tuesday. I've been rejected before — everyone has. This one broke...
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 6h ago</sub><br>
-<a href="https://dev.to/xbill/its-got-what-content-craves-sanity-built-for-the-people-of-idiocracy-4k84"><b>It's Got What Content Craves: Sanity, Built for the People of Idiocracy</b></a>
+<sub><code>HN</code>&nbsp; 4h ago</sub><br>
+<a href="https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio"><b>GPT-6 Astra Solves a WWI German Radio Cipher</b></a>
 <br><br>
-An agent proposes watering the crops, a human Cabinet approves in a picture-button Studio, and Sanity Workflows waters and harvests. Plus a stopwatch on three ways to edit the same data.
+128 points and 62 comments on the Hacker News front page · prinzai.com
 </td>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 7h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 6h ago</sub><br>
+<a href="https://dev.to/wiseai/frozendict-state-of-the-art-immutable-hashmap-for-python-and-node-js-284o"><b>Frozendict 🧊: State of the Art Immutable Hashmap for Python and Node JS.</b></a>
+<br><br>
+Hello 👋! So there I was, staring at Python's frozenset, feeling that specific special rage that...
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>FREECODECAMP</code>&nbsp; 13h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-to-turn-a-recist-line-into-a-3d-tumor-segmentation-mask/"><b>How to Turn a RECIST Line into a 3D Tumor Segmentation Mask</b></a>
 <br><br>
 A radiologist can mark a tumor on a CT scan by drawing a straight line across it. Creating a complete 3D segmentation requires outlining the tumor across the slices where it appears, which…
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 7h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 13h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-ai-coding-assistants-can-help-you-debug-without-writing-the-code-for-you/"><b>How AI Coding Assistants Can Help You Debug Without Writing the Code for You</b></a>
 <br><br>
 AI coding assistants have become really good at fixing code. Paste an error into an AI tool and, within seconds, you'll get a corrected implementation. That's useful when you simply want to…
 </td>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 8h ago</sub><br>
-<a href="https://dev.to/amandamayfield/the-beauty-and-terror-of-negative-feedback-2g4d"><b>The beauty and terror of negative feedback</b></a>
-<br><br>
-Giving my first conference talk recently was an absolute thrill. I was excited, not overly nervous,...
-</td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 13h ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 19h ago</sub><br>
 <a href="https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp/"><b>Should you read the code, is RAG dead, and did Skills kill MCP?</b></a>
 <br><br>
 We dive into these questions and other AI hot takes on the latest episode of the GitHub Podcast.
@@ -92,7 +92,7 @@ Fresh Package scaffolds a Laravel package with PHPUnit, Larastan, a Testbench wo
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 1d ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 2d ago</sub><br>
 <a href="https://stackoverflow.blog/2026/09/17/the-ai-magic-words/"><b>The AI magic words</b></a>
 <br><br>
 Ryan sits down with Tim O'Reilly, founder and CEO at O'Reilly Media, to talk about the role of books as user interfaces to knowledge, the power of &quot;magic words&quot; to extract better outputs…
@@ -120,7 +120,7 @@ We've learned a lot in the last three months since launching Stack Overflow for 
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 19 Sep 2026 11:35 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 19 Sep 2026 17:56 WIB.</sub>
 
 <!-- NEWS:END -->
 
