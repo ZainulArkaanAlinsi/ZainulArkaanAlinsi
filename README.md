@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=155e43ba8e" />
-  <img src="./assets/activity-light.svg?v=c1cbdb031c" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=be4902952e" />
+  <img src="./assets/activity-light.svg?v=27858256ea" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=6f8dd09632" />
-  <img src="./assets/news-light.svg?v=31ae338759" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=b08e7d463b" />
+  <img src="./assets/news-light.svg?v=a01f20fd96" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,41 +36,41 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://theconversation.com/learning-another-language-may-be-one-of-the-best-ways-to-keep-your-brain-healthy-as-you-age-291951"><b>Learning Another Language May Be One of the Best Ways to Keep Your Brain Healthy</b></a>
+<sub><code>HN</code>&nbsp; 37m ago</sub><br>
+<a href="https://ooni.org/install"><b>Measure internet censorship. Contribute to the largest open dataset</b></a>
 <br><br>
-30 points and 21 comments on the Hacker News front page · theconversation.com
+7 points and 0 comments on the Hacker News front page · ooni.org
 </td>
 <td width="50%" valign="top">
 <sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://github.com/mindbox77/zxdesk"><b>A graphical desktop for the ZX Spectrum</b></a>
+<a href="https://eprint.iacr.org/2026/2039"><b>ZK-JPEG: Zero-Knowledge Image Editing and Compression</b></a>
 <br><br>
-40 points and 18 comments on the Hacker News front page · github.com
+9 points and 0 comments on the Hacker News front page · eprint.iacr.org
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 7h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 4h ago</sub><br>
+<a href="https://dev.to/codenameone/what-go-taught-us-about-java-garbage-collection-25ha"><b>What Go Taught Us About Java Garbage Collection</b></a>
+<br><br>
+A Go performance comparison led us from stack allocation to GC pacing, parallel marking, and image caches. ParparVM can explore those choices while keeping ordinary Java APIs.
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 12h ago</sub><br>
 <a href="https://dev.to/infoinlet1/i-got-rejected-for-using-ai-in-an-interview-then-i-watched-the-interviewer-do-it-31d0"><b>I got rejected for using AI in an interview. Then I watched the interviewer do it.</b></a>
 <br><br>
 I got the rejection email on a Tuesday. I've been rejected before — everyone has. This one broke...
 </td>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 9h ago</sub><br>
-<a href="https://dev.to/debashish_ghosal/what-do-you-do-while-ai-codes-i-make-mine-argue-with-itself-2gl7"><b>What Do You Do While AI Codes? I Make Mine Argue With Itself.</b></a>
-<br><br>
-Be honest: what do you actually do while the agent types? I used to just watch. Not read, watch....
-</td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 18h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 23h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-to-turn-a-recist-line-into-a-3d-tumor-segmentation-mask/"><b>How to Turn a RECIST Line into a 3D Tumor Segmentation Mask</b></a>
 <br><br>
 A radiologist can mark a tumor on a CT scan by drawing a straight line across it. Creating a complete 3D segmentation requires outlining the tumor across the slices where it appears, which…
 </td>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 18h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 23h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-ai-coding-assistants-can-help-you-debug-without-writing-the-code-for-you/"><b>How AI Coding Assistants Can Help You Debug Without Writing the Code for You</b></a>
 <br><br>
 AI coding assistants have become really good at fixing code. Paste an error into an AI tool and, within seconds, you'll get a corrected implementation. That's useful when you simply want to…
@@ -112,7 +112,7 @@ Inertia DevTools, the panel for inspecting Inertia.js visits and props, is now o
 A rewrite this size wasn't affordable before agents. Here's what porting the Copilot agent runtime to 800,000 lines of production Rust actually took.
 </td>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 3d ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 4d ago</sub><br>
 <a href="https://stackoverflow.blog/2026/09/15/here-s-what-s-new-on-stack-overflow-for-agents/"><b>From better privacy to our new ChatGPT plugin, here's what's new on Stack Overflow for Agents</b></a>
 <br><br>
 We've learned a lot in the last three months since launching Stack Overflow for Agents, our API-first knowledge exchange for agents. Here's a few of our findings, what's new on the platform…
@@ -120,13 +120,13 @@ We've learned a lot in the last three months since launching Stack Overflow for 
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 19 Sep 2026 22:52 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 20 Sep 2026 03:38 WIB.</sub>
 
 <!-- NEWS:END -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20260919" />
-  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20260919" width="100%" alt="A snake eating this year's contribution squares" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20260920" />
+  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20260920" width="100%" alt="A snake eating this year's contribution squares" />
 </picture>
 
 <picture>
