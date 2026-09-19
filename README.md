@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=d2733c1cc7" />
-  <img src="./assets/activity-light.svg?v=1f6d639c95" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=699ec412ee" />
+  <img src="./assets/activity-light.svg?v=7222e513c5" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=99405f2d1e" />
-  <img src="./assets/news-light.svg?v=dd04a9870c" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=641c435f0a" />
+  <img src="./assets/news-light.svg?v=5b2c9667fc" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,13 +36,41 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 50m ago</sub><br>
-<a href="https://www.koreajoongangdaily.com/business/korea-raises-data-breach-fines-to-10-of-revenue/12869899"><b>Korea raises data breach fines to 10% of revenue</b></a>
+<sub><code>HN</code>&nbsp; 1h ago</sub><br>
+<a href="https://www.wired.com/story/flock-is-offering-voluntary-buyouts-to-employees/"><b>Flock Offers Employees Buyouts as Customers Flee</b></a>
 <br><br>
-97 points and 20 comments on the Hacker News front page · koreajoongangdaily.com
+16 points and 0 comments on the Hacker News front page · wired.com
 </td>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 55m ago</sub><br>
+<sub><code>HN</code>&nbsp; 2h ago</sub><br>
+<a href="https://sdcc.sourceforge.net/"><b>SDCC – Small Device C Compiler</b></a>
+<br><br>
+24 points and 4 comments on the Hacker News front page · sdcc.sourceforge.net
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 6h ago</sub><br>
+<a href="https://dev.to/xbill/its-got-what-content-craves-sanity-built-for-the-people-of-idiocracy-4k84"><b>It's Got What Content Craves: Sanity, Built for the People of Idiocracy</b></a>
+<br><br>
+An agent proposes watering the crops, a human Cabinet approves in a picture-button Studio, and Sanity Workflows waters and harvests. Plus a stopwatch on three ways to edit the same data.
+</td>
+<td width="50%" valign="top">
+<sub><code>FREECODECAMP</code>&nbsp; 7h ago</sub><br>
+<a href="https://www.freecodecamp.org/news/how-to-turn-a-recist-line-into-a-3d-tumor-segmentation-mask/"><b>How to Turn a RECIST Line into a 3D Tumor Segmentation Mask</b></a>
+<br><br>
+A radiologist can mark a tumor on a CT scan by drawing a straight line across it. Creating a complete 3D segmentation requires outlining the tumor across the slices where it appears, which…
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>FREECODECAMP</code>&nbsp; 7h ago</sub><br>
+<a href="https://www.freecodecamp.org/news/how-ai-coding-assistants-can-help-you-debug-without-writing-the-code-for-you/"><b>How AI Coding Assistants Can Help You Debug Without Writing the Code for You</b></a>
+<br><br>
+AI coding assistants have become really good at fixing code. Paste an error into an AI tool and, within seconds, you'll get a corrected implementation. That's useful when you simply want to…
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 8h ago</sub><br>
 <a href="https://dev.to/amandamayfield/the-beauty-and-terror-of-negative-feedback-2g4d"><b>The beauty and terror of negative feedback</b></a>
 <br><br>
 Giving my first conference talk recently was an absolute thrill. I was excited, not overly nervous,...
@@ -50,41 +78,13 @@ Giving my first conference talk recently was an absolute thrill. I was excited, 
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://grapheneos.social/@GrapheneOS/117282080803799576"><b>Android 17 is the first since 3.x to add new APIs without releasing to the AOSP</b></a>
-<br><br>
-206 points and 95 comments on the Hacker News front page · grapheneos.social
-</td>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 4h ago</sub><br>
-<a href="https://dev.to/devengers/dev-opportunity-radar-17-138k-amazon-hackathon-stanfords-code-in-place-x-and-dev3pack-4imm"><b>Dev Opportunity Radar #17: $138K Amazon Hackathon, Stanford's Code in Place X, and Dev3Pack…</b></a>
-<br><br>
-TL;DR Welcome back to Dev Opportunity Radar. This is a weekly series where I share opportunities,...
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 4h ago</sub><br>
-<a href="https://www.freecodecamp.org/news/how-to-prevent-poisoned-github-actions-dependencies/"><b>How to Prevent Poisoned GitHub Actions Dependencies</b></a>
-<br><br>
-Your workflow uses actions/checkout@v4. Today, that tag points to a vetted release. Tomorrow, a compromised maintainer or attacker moves the tag to malicious code. Your pipeline runs it…
-</td>
-<td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 5h ago</sub><br>
-<a href="https://www.freecodecamp.org/news/how-to-build-a-bulk-image-compressor-tool-with-html-css-and-javascript/"><b>How to Build a Bulk Image Compressor Tool with HTML, CSS, and JavaScript</b></a>
-<br><br>
-High-resolution images look great, but they can significantly slow down page load times and consume massive amounts of storage. While backend compression tools are common, building a…
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 5h ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 13h ago</sub><br>
 <a href="https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp/"><b>Should you read the code, is RAG dead, and did Skills kill MCP?</b></a>
 <br><br>
 We dive into these questions and other AI hot takes on the latest episode of the GitHub Podcast.
 </td>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 17h ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
 <a href="https://laravel-news.com/fresh-package-laravel-package-skeleton?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Fresh Package: Laravel Package Skeleton with Testbench, CI, and Boost Integration</b></a>
 <br><br>
 Fresh Package scaffolds a Laravel package with PHPUnit, Larastan, a Testbench workbench app, GitHub Actions, and an optional Vue frontend or AI skills.
@@ -98,7 +98,7 @@ Fresh Package scaffolds a Laravel package with PHPUnit, Larastan, a Testbench wo
 Ryan sits down with Tim O'Reilly, founder and CEO at O'Reilly Media, to talk about the role of books as user interfaces to knowledge, the power of &quot;magic words&quot; to extract better outputs…
 </td>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 2d ago</sub><br>
 <a href="https://laravel-news.com/inertia-devtools-firefox?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Inertia DevTools Now Available for Firefox</b></a>
 <br><br>
 Inertia DevTools, the panel for inspecting Inertia.js visits and props, is now on Firefox with the same features as the Chrome extension.
@@ -106,7 +106,7 @@ Inertia DevTools, the panel for inspecting Inertia.js visits and props, is now o
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 1d ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 2d ago</sub><br>
 <a href="https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/"><b>Migrating the GitHub Copilot runtime to Rust, using Copilot</b></a>
 <br><br>
 A rewrite this size wasn't affordable before agents. Here's what porting the Copilot agent runtime to 800,000 lines of production Rust actually took.
@@ -120,7 +120,7 @@ We've learned a lot in the last three months since launching Stack Overflow for 
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 19 Sep 2026 03:53 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 19 Sep 2026 11:35 WIB.</sub>
 
 <!-- NEWS:END -->
 
