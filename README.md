@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=fee959f50f" />
-  <img src="./assets/activity-light.svg?v=8cfe6cfab4" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=ad902560d4" />
+  <img src="./assets/activity-light.svg?v=09bee07b0c" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=338a0f4d48" />
-  <img src="./assets/news-light.svg?v=9b60606159" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=709d488c57" />
+  <img src="./assets/news-light.svg?v=38a94aac3c" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,41 +36,41 @@
 <table>
 <tr>
 <td width="50%" valign="top">
+<sub><code>HN</code>&nbsp; 35m ago</sub><br>
+<a href="https://en.wikipedia.org/wiki/One-electron_universe"><b>One-Electron Universe</b></a>
+<br><br>
+11 points and 4 comments on the Hacker News front page · en.wikipedia.org
+</td>
+<td width="50%" valign="top">
+<sub><code>HN</code>&nbsp; 45m ago</sub><br>
+<a href="https://www.gadgetreview.com/singapore-is-paying-people-to-put-down-their-phones-and-read-books"><b>Singapore Is Paying People to Put Down Their Phones and Read Books</b></a>
+<br><br>
+23 points and 1 comment on the Hacker News front page · gadgetreview.com
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 <sub><code>DEV</code>&nbsp; 2h ago</sub><br>
-<a href="https://dev.to/wiseai/i-resurrected-a-dead-crc-crate-and-it-suddenly-went-viral-3894"><b>I Resurrected a Dead CRC Crate and It Suddenly Went Viral</b></a>
+<a href="https://dev.to/gde/architecting-a-resilient-devsecops-pipeline-for-enterprise-ai-agents-on4"><b>Architecting a Resilient DevSecOps Pipeline for Enterprise AI Agents</b></a>
 <br><br>
-Bonjour 👋! So there I was, browsing crates.io at an hour that most reasonable people would...
+A four-stage DevSecOps CI/CD architecture for securing enterprise AI agents with GitHub Actions, secret scanning, AI-assisted review, Veracode SCA, and Pipeline SAST.
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 2h ago</sub><br>
-<a href="https://davidlattimore.github.io/posts/2026/09/18/benchmarking-wild-vs-mold.html"><b>Benchmarking Wild vs. Mold</b></a>
+<sub><code>DEV</code>&nbsp; 4h ago</sub><br>
+<a href="https://dev.to/mikachu/i-built-a-green-blob-that-lives-on-my-desktop-and-now-it-has-feelings-4pjd"><b>i built a green blob that lives on my desktop. now it has feelings.</b></a>
 <br><br>
-18 points and 0 comments on the Hacker News front page · davidlattimore.github.io
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 2h ago</sub><br>
-<a href="https://www.theregister.com/devops/2026/09/18/microsoft-agentically-ports-copilot-runtime-to-rust-for-120k/5297549"><b>Microsoft agentically ports Copilot runtime to Rust for $120K</b></a>
-<br><br>
-22 points and 14 comments on the Hacker News front page · theregister.com
-</td>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 14h ago</sub><br>
-<a href="https://dev.to/iggredible/how-to-make-your-own-vim-operator-4d4k"><b>How to make your own Vim operator</b></a>
-<br><br>
-Create your own Vim operator with g@ and operatorfunc. A step-by-step Vimscript example that works with any motion or text object.
+A quick disclaimer before we dive in: when I say &quot;feelings,&quot; I mean state machines, bond...
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 17h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 22h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-to-build-a-graphrag-system-with-python-neo4j-and-servicenow/"><b>How to Build a GraphRAG System with Python, Neo4j and ServiceNow</b></a>
 <br><br>
 Somewhere in your company's ServiceNow instance is the answer to the question an engineer asks at two in the morning: if this is broken, what else is about to break? Every fact needed to…
 </td>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 17h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 22h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-to-detect-hidden-target-leakage-in-public-datasets-with-python-and-a-dependency-graph/"><b>How to Detect Hidden Target Leakage in Public Datasets with Python and a Dependency Graph</b></a>
 <br><br>
 Some time ago, I gave a machine learning model five columns from a public CDC dataset and asked it to predict a sixth column from the same file. The model scored an R² of 0.998, which is…
@@ -78,7 +78,7 @@ Some time ago, I gave a machine learning model five columns from a public CDC da
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 1d ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 2d ago</sub><br>
 <a href="https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp/"><b>Should you read the code, is RAG dead, and did Skills kill MCP?</b></a>
 <br><br>
 We dive into these questions and other AI hot takes on the latest episode of the GitHub Podcast.
@@ -120,7 +120,7 @@ We've learned a lot in the last three months since launching Stack Overflow for 
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 20 Sep 2026 18:21 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 20 Sep 2026 23:03 WIB.</sub>
 
 <!-- NEWS:END -->
 
