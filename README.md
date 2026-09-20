@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=ad902560d4" />
-  <img src="./assets/activity-light.svg?v=09bee07b0c" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=46dc72f287" />
+  <img src="./assets/activity-light.svg?v=9e5959303c" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=709d488c57" />
-  <img src="./assets/news-light.svg?v=38a94aac3c" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=df42d35883" />
+  <img src="./assets/news-light.svg?v=7346a8de65" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,41 +36,41 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 35m ago</sub><br>
-<a href="https://en.wikipedia.org/wiki/One-electron_universe"><b>One-Electron Universe</b></a>
+<sub><code>HN</code>&nbsp; 52m ago</sub><br>
+<a href="https://deadneurons.substack.com/p/frontier-labs-are-selling-garbage"><b>Frontier Labs Are Selling Garbage to Fools in Washington</b></a>
 <br><br>
-11 points and 4 comments on the Hacker News front page · en.wikipedia.org
+21 points and 4 comments on the Hacker News front page · deadneurons.substack.com
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 45m ago</sub><br>
-<a href="https://www.gadgetreview.com/singapore-is-paying-people-to-put-down-their-phones-and-read-books"><b>Singapore Is Paying People to Put Down Their Phones and Read Books</b></a>
+<sub><code>DEV</code>&nbsp; 58m ago</sub><br>
+<a href="https://dev.to/gde/stop-paying-the-buildrunner-tax-why-i-refuse-to-use-mockito-in-modern-dart-4cif"><b>Stop Paying the build_runner Tax: Why I Refuse to Use Mockito in Modern Dart</b></a>
 <br><br>
-23 points and 1 comment on the Hacker News front page · gadgetreview.com
+Why code-generated mocks ruin developer velocity in modern Dart and Flutter, and how switching to mocktail restores true zero-friction TDD.
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 2h ago</sub><br>
+<sub><code>HN</code>&nbsp; 1h ago</sub><br>
+<a href="https://gregorygundersen.com/blog/2026/09/20/hierarchy-of-money/"><b>The Hierarchy of Money</b></a>
+<br><br>
+18 points and 3 comments on the Hacker News front page · gregorygundersen.com
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 7h ago</sub><br>
 <a href="https://dev.to/gde/architecting-a-resilient-devsecops-pipeline-for-enterprise-ai-agents-on4"><b>Architecting a Resilient DevSecOps Pipeline for Enterprise AI Agents</b></a>
 <br><br>
 A four-stage DevSecOps CI/CD architecture for securing enterprise AI agents with GitHub Actions, secret scanning, AI-assisted review, Veracode SCA, and Pipeline SAST.
 </td>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 4h ago</sub><br>
-<a href="https://dev.to/mikachu/i-built-a-green-blob-that-lives-on-my-desktop-and-now-it-has-feelings-4pjd"><b>i built a green blob that lives on my desktop. now it has feelings.</b></a>
-<br><br>
-A quick disclaimer before we dive in: when I say &quot;feelings,&quot; I mean state machines, bond...
-</td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 22h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-to-build-a-graphrag-system-with-python-neo4j-and-servicenow/"><b>How to Build a GraphRAG System with Python, Neo4j and ServiceNow</b></a>
 <br><br>
 Somewhere in your company's ServiceNow instance is the answer to the question an engineer asks at two in the morning: if this is broken, what else is about to break? Every fact needed to…
 </td>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 22h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-to-detect-hidden-target-leakage-in-public-datasets-with-python-and-a-dependency-graph/"><b>How to Detect Hidden Target Leakage in Public Datasets with Python and a Dependency Graph</b></a>
 <br><br>
 Some time ago, I gave a machine learning model five columns from a public CDC dataset and asked it to predict a sixth column from the same file. The model scored an R² of 0.998, which is…
@@ -112,7 +112,7 @@ Inertia DevTools, the panel for inspecting Inertia.js visits and props, is now o
 A rewrite this size wasn't affordable before agents. Here's what porting the Copilot agent runtime to 800,000 lines of production Rust actually took.
 </td>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 4d ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 5d ago</sub><br>
 <a href="https://stackoverflow.blog/2026/09/15/here-s-what-s-new-on-stack-overflow-for-agents/"><b>From better privacy to our new ChatGPT plugin, here's what's new on Stack Overflow for Agents</b></a>
 <br><br>
 We've learned a lot in the last three months since launching Stack Overflow for Agents, our API-first knowledge exchange for agents. Here's a few of our findings, what's new on the platform…
@@ -120,13 +120,13 @@ We've learned a lot in the last three months since launching Stack Overflow for 
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 20 Sep 2026 23:03 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 21 Sep 2026 03:47 WIB.</sub>
 
 <!-- NEWS:END -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20260920" />
-  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20260920" width="100%" alt="A snake eating this year's contribution squares" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20260921" />
+  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20260921" width="100%" alt="A snake eating this year's contribution squares" />
 </picture>
 
 <picture>
