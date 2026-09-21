@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=6357c36699" />
-  <img src="./assets/activity-light.svg?v=49064120ee" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=69223d303e" />
+  <img src="./assets/activity-light.svg?v=35f7c2d849" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=f6e560a814" />
-  <img src="./assets/news-light.svg?v=075f6e2966" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=d97d84cb1f" />
+  <img src="./assets/news-light.svg?v=e3b98947fe" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,55 +36,69 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>LOBSTERS</code>&nbsp; 15m ago</sub><br>
-<a href="https://lobste.rs/s/fyngrv/what_are_you_doing_this_week"><b>What are you doing this week?</b></a>
+<sub><code>HN</code>&nbsp; 59m ago</sub><br>
+<a href="https://www.personalimportation.org/advocacy"><b>CBP suspends all personal prescription importation Oct 22</b></a>
 <br><br>
-What are you doing this week? Feel free to share! Keep in mind it’s OK to do nothing at all, too.
+40 points and 3 comments on the Hacker News front page · personalimportation.org
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 2h ago</sub><br>
-<a href="https://zuckoff.app/"><b>ZuckOff Know when a camera is in the room</b></a>
+<sub><code>HN</code>&nbsp; 1h ago</sub><br>
+<a href="https://mimo.xiaomi.com/mimo-v2-6"><b>Xiaomi MiMo v2.6</b></a>
 <br><br>
-339 points and 130 comments on the Hacker News front page · zuckoff.app
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 2h ago</sub><br>
-<a href="https://www.wired.me/story/meta-smart-glasses-detector-app-zuckoff"><b>ZuckOff Is a Free App That Sees Meta Glasses Before They See You</b></a>
-<br><br>
-184 points and 13 comments on the Hacker News front page · wired.me
-</td>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 3h ago</sub><br>
-<a href="https://dev.to/elsie-rainee/i-thought-i-knew-wordpress-theme-development-until-my-first-project-1c94"><b>I Thought I Knew WordPress Theme Development Until My First Project</b></a>
-<br><br>
-I thought I understood WordPress theme development because I knew HTML, CSS, PHP, templates, and the...
+255 points and 112 comments on the Hacker News front page · mimo.xiaomi.com
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 5h ago</sub><br>
-<a href="https://dev.to/sylwia-lask/what-if-your-ai-agent-never-had-to-leave-the-browser-demo--5g"><b>What If Your AI Agent Never Had to Leave the Browser? (Demo 🚀)</b></a>
+<sub><code>NEXT.JS</code>&nbsp; 1h ago</sub><br>
+<a href="https://nextjs.org/blog/upcoming-nextjs-security-release-september-22-2026"><b>Upcoming Next.js Security Update for a Critical Upstream Issue</b></a>
 <br><br>
-I haven't written anything lately because, honestly, I just didn't have the headspace for it. There...
+Next.js 16.3.6 and 15.5.26 are planned for a critical out-of-band security update on September 22, 2026.
 </td>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
-<a href="https://www.freecodecamp.org/news/how-to-build-a-graphrag-system-with-python-neo4j-and-servicenow/"><b>How to Build a GraphRAG System with Python, Neo4j and ServiceNow</b></a>
+<sub><code>DEV</code>&nbsp; 6h ago</sub><br>
+<a href="https://dev.to/shubhradev/react-19s-usetransition-looked-simple-then-i-found-a-second-bug-hiding-inside-the-first-one-35dk"><b>React 19's useTransition Looked Simple. Then I Found a Second Bug Hiding Inside the First One</b></a>
+<br><br>
+Every hook in this series so far has been a passenger. useActionState rides inside a Transition and...
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 6h ago</sub><br>
+<a href="https://dev.to/jarvisscript/what-are-your-goals-for-the-week-197-2a91"><b>What are your goals for the week? #197</b></a>
+<br><br>
+I'm on the phone all morning, setting appointments and filling out forms. Not building stuff. ...
+</td>
+<td width="50%" valign="top">
+<sub><code>LARAVEL</code>&nbsp; 8h ago</sub><br>
+<a href="https://laravel-news.com/laravel-14?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>What We Know About Laravel 14</b></a>
+<br><br>
+Laravel 14 is the next major release of the Laravel framework, expected in Q1 2027. Here is what we know about new features, PHP 8.4, and breaking changes.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>FREECODECAMP</code>&nbsp; 9h ago</sub><br>
+<a href="https://www.freecodecamp.org/news/why-you-should-never-embed-your-gemini-api-key-in-client-code-and-how-firebase-ai-logic-fixes-it/"><b>Why You Should Never Embed Your Gemini API Key in Client Code (And How Firebase AI Logic Fixes…</b></a>
+<br><br>
+The explosion of generative AI has pushed thousands of web developers to add intelligent features to their apps. The first instinct is usually to call the Gemini API's SDK directly from the…
+</td>
+<td width="50%" valign="top">
+<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
+<a href="https://laravel-news.com/difflock-migration-linter?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Difflock: Lint Laravel Migrations and Diff Your Schema</b></a>
+<br><br>
+Difflock is a Laravel package that checks pending migrations for risky changes, records schema baselines, and can block them in CI.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>FREECODECAMP</code>&nbsp; 2d ago</sub><br>
+<a href="https://www.freecodecamp.org/news/how-to-build-a-graphrag-system-with-python-neo4j-and-servicenow/"><b>How to Build a GraphRAG System with Python, Neo4j and ServiceNow [Full Book]</b></a>
 <br><br>
 Somewhere in your company's ServiceNow instance is the answer to the question an engineer asks at two in the morning: if this is broken, what else is about to break? Every fact needed to…
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
-<a href="https://www.freecodecamp.org/news/how-to-detect-hidden-target-leakage-in-public-datasets-with-python-and-a-dependency-graph/"><b>How to Detect Hidden Target Leakage in Public Datasets with Python and a Dependency Graph</b></a>
-<br><br>
-Some time ago, I gave a machine learning model five columns from a public CDC dataset and asked it to predict a sixth column from the same file. The model scored an R² of 0.998, which is…
-</td>
-<td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 2d ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 3d ago</sub><br>
 <a href="https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp/"><b>Should you read the code, is RAG dead, and did Skills kill MCP?</b></a>
 <br><br>
 We dive into these questions and other AI hot takes on the latest episode of the GitHub Podcast.
@@ -92,24 +106,10 @@ We dive into these questions and other AI hot takes on the latest episode of the
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 3d ago</sub><br>
-<a href="https://laravel-news.com/fresh-package-laravel-package-skeleton?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Fresh Package: Laravel Package Skeleton with Testbench, CI, and Boost Integration</b></a>
-<br><br>
-Fresh Package scaffolds a Laravel package with PHPUnit, Larastan, a Testbench workbench app, GitHub Actions, and an optional Vue frontend or AI skills.
-</td>
-<td width="50%" valign="top">
 <sub><code>STACKOVERFLOW</code>&nbsp; 4d ago</sub><br>
 <a href="https://stackoverflow.blog/2026/09/17/the-ai-magic-words/"><b>The AI magic words</b></a>
 <br><br>
 Ryan sits down with Tim O'Reilly, founder and CEO at O'Reilly Media, to talk about the role of books as user interfaces to knowledge, the power of &quot;magic words&quot; to extract better outputs…
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 4d ago</sub><br>
-<a href="https://laravel-news.com/inertia-devtools-firefox?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Inertia DevTools Now Available for Firefox</b></a>
-<br><br>
-Inertia DevTools, the panel for inspecting Inertia.js visits and props, is now on Firefox with the same features as the Chrome extension.
 </td>
 <td width="50%" valign="top">
 <sub><code>GITHUB</code>&nbsp; 4d ago</sub><br>
@@ -120,13 +120,13 @@ A rewrite this size wasn't affordable before agents. Here's what porting the Cop
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Lobsters · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 21 Sep 2026 19:46 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 22 Sep 2026 04:57 WIB.</sub>
 
 <!-- NEWS:END -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20260921" />
-  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20260921" width="100%" alt="A snake eating this year's contribution squares" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20260922" />
+  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20260922" width="100%" alt="A snake eating this year's contribution squares" />
 </picture>
 
 <picture>
