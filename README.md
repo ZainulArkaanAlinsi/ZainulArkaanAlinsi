@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=46dc72f287" />
-  <img src="./assets/activity-light.svg?v=9e5959303c" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=8a57717a54" />
+  <img src="./assets/activity-light.svg?v=13a0294417" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=df42d35883" />
-  <img src="./assets/news-light.svg?v=7346a8de65" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=98fff06116" />
+  <img src="./assets/news-light.svg?v=43fc624f8d" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,30 +36,30 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 52m ago</sub><br>
-<a href="https://deadneurons.substack.com/p/frontier-labs-are-selling-garbage"><b>Frontier Labs Are Selling Garbage to Fools in Washington</b></a>
+<sub><code>HN</code>&nbsp; 24m ago</sub><br>
+<a href="https://www.ft.com/content/c0cd359d-df84-4208-a789-ffa864b43666"><b>AI chatbots give wrong answers to financial queries 'most of the time'</b></a>
 <br><br>
-21 points and 4 comments on the Hacker News front page · deadneurons.substack.com
+8 points and 0 comments on the Hacker News front page · ft.com
 </td>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 58m ago</sub><br>
-<a href="https://dev.to/gde/stop-paying-the-buildrunner-tax-why-i-refuse-to-use-mockito-in-modern-dart-4cif"><b>Stop Paying the build_runner Tax: Why I Refuse to Use Mockito in Modern Dart</b></a>
+<sub><code>HN</code>&nbsp; 2h ago</sub><br>
+<a href="https://paramrathour.github.io/blog/coding-theory/"><b>Coding Theory: A Playful Introduction</b></a>
 <br><br>
-Why code-generated mocks ruin developer velocity in modern Dart and Flutter, and how switching to mocktail restores true zero-friction TDD.
+5 points and 0 comments on the Hacker News front page · paramrathour.github.io
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://gregorygundersen.com/blog/2026/09/20/hierarchy-of-money/"><b>The Hierarchy of Money</b></a>
+<sub><code>DEV</code>&nbsp; 8h ago</sub><br>
+<a href="https://dev.to/gde/share-state-across-dart-isolates-without-losing-your-mind-enter-sharedmap-221b"><b>Share State Across Dart Isolates Without Losing Your Mind: Enter shared_map</b></a>
 <br><br>
-18 points and 3 comments on the Hacker News front page · gregorygundersen.com
+How to bypass tedious SendPort/ReceivePort plumbing and share synchronized in-memory state across Dart Isolates using the zero-dependency shared_map package.
 </td>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 7h ago</sub><br>
-<a href="https://dev.to/gde/architecting-a-resilient-devsecops-pipeline-for-enterprise-ai-agents-on4"><b>Architecting a Resilient DevSecOps Pipeline for Enterprise AI Agents</b></a>
+<sub><code>DEV</code>&nbsp; 8h ago</sub><br>
+<a href="https://dev.to/gde/dart-enhanced-enums-are-secretly-factories-unlocking-constructor-tearoffs-54n9"><b>Dart Enhanced Enums Are Secretly Factories: Unlocking Constructor Tearoffs</b></a>
 <br><br>
-A four-stage DevSecOps CI/CD architecture for securing enterprise AI agents with GitHub Actions, secret scanning, AI-assisted review, Veracode SCA, and Pipeline SAST.
+How combining Dart's Enhanced Enums with constructor tearoffs turns simple enum values into self-instantiating, type-safe polymorphic factories.
 </td>
 </tr>
 <tr>
@@ -84,7 +84,7 @@ Some time ago, I gave a machine learning model five columns from a public CDC da
 We dive into these questions and other AI hot takes on the latest episode of the GitHub Podcast.
 </td>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 2d ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 3d ago</sub><br>
 <a href="https://laravel-news.com/fresh-package-laravel-package-skeleton?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Fresh Package: Laravel Package Skeleton with Testbench, CI, and Boost Integration</b></a>
 <br><br>
 Fresh Package scaffolds a Laravel package with PHPUnit, Larastan, a Testbench workbench app, GitHub Actions, and an optional Vue frontend or AI skills.
@@ -98,7 +98,7 @@ Fresh Package scaffolds a Laravel package with PHPUnit, Larastan, a Testbench wo
 Ryan sits down with Tim O'Reilly, founder and CEO at O'Reilly Media, to talk about the role of books as user interfaces to knowledge, the power of &quot;magic words&quot; to extract better outputs…
 </td>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 3d ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 4d ago</sub><br>
 <a href="https://laravel-news.com/inertia-devtools-firefox?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Inertia DevTools Now Available for Firefox</b></a>
 <br><br>
 Inertia DevTools, the panel for inspecting Inertia.js visits and props, is now on Firefox with the same features as the Chrome extension.
@@ -106,7 +106,7 @@ Inertia DevTools, the panel for inspecting Inertia.js visits and props, is now o
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 3d ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 4d ago</sub><br>
 <a href="https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/"><b>Migrating the GitHub Copilot runtime to Rust, using Copilot</b></a>
 <br><br>
 A rewrite this size wasn't affordable before agents. Here's what porting the Copilot agent runtime to 800,000 lines of production Rust actually took.
@@ -120,7 +120,7 @@ We've learned a lot in the last three months since launching Stack Overflow for 
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 21 Sep 2026 03:47 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 21 Sep 2026 11:53 WIB.</sub>
 
 <!-- NEWS:END -->
 
