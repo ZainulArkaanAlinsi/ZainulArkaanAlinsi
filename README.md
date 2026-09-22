@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=69223d303e" />
-  <img src="./assets/activity-light.svg?v=35f7c2d849" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=558875fcd3" />
+  <img src="./assets/activity-light.svg?v=47551c8237" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=d97d84cb1f" />
-  <img src="./assets/news-light.svg?v=e3b98947fe" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=ed84e6aafa" />
+  <img src="./assets/news-light.svg?v=9c66ef59d9" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,41 +36,55 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 59m ago</sub><br>
-<a href="https://www.personalimportation.org/advocacy"><b>CBP suspends all personal prescription importation Oct 22</b></a>
+<sub><code>STACKOVERFLOW</code>&nbsp; just now</sub><br>
+<a href="https://stackoverflow.blog/2026/09/22/haters-think-ai-can-t-gpu-code-this-ll-rocm/"><b>Haters think AI agents can't write GPU code? This'll ROCm</b></a>
 <br><br>
-40 points and 3 comments on the Hacker News front page · personalimportation.org
+Ryan chats with Anush Elangovan, VP of Software at AMD, about ROCm's open-source unified toolchain for GPUs, how agentic AI is drastically lowering the barrier to entry for low-level…
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://mimo.xiaomi.com/mimo-v2-6"><b>Xiaomi MiMo v2.6</b></a>
+<sub><code>HN</code>&nbsp; 3h ago</sub><br>
+<a href="https://status.claude.com/incidents/7g1qpkyz5gxh"><b>Claude Status – Elevated errors for multiple models</b></a>
 <br><br>
-255 points and 112 comments on the Hacker News front page · mimo.xiaomi.com
+82 points and 61 comments on the Hacker News front page · status.claude.com
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>NEXT.JS</code>&nbsp; 1h ago</sub><br>
+<sub><code>HN</code>&nbsp; 4h ago</sub><br>
+<a href="https://wondermark.com/socrates-vs-writing/"><b>Socrates vs. the Written Word (2011)</b></a>
+<br><br>
+24 points and 7 comments on the Hacker News front page · wondermark.com
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 5h ago</sub><br>
+<a href="https://dev.to/danielhe4rt/youre-not-an-impostor-you-just-started-from-a-different-line-2lph"><b>You're not an impostor, you just started from a different line</b></a>
+<br><br>
+If you've ever felt like a fraud in an interview in English, this is probably what you need to...
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>FREECODECAMP</code>&nbsp; 7h ago</sub><br>
+<a href="https://www.freecodecamp.org/news/how-to-build-a-reading-focused-blog-with-python-markdown-and-github-pages-for-free/"><b>How to Port a Jekyll Blog Theme to Python: Lessons From Actually Doing It</b></a>
+<br><br>
+I've been following a tufte-jekyll styled blog for a couple of years and that led me to discover Edward Tufte's book layout. Edward Tufte is renowned for his work on data visualization and…
+</td>
+<td width="50%" valign="top">
+<sub><code>NEXT.JS</code>&nbsp; 8h ago</sub><br>
 <a href="https://nextjs.org/blog/upcoming-nextjs-security-release-september-22-2026"><b>Upcoming Next.js Security Update for a Critical Upstream Issue</b></a>
 <br><br>
 Next.js 16.3.6 and 15.5.26 are planned for a critical out-of-band security update on September 22, 2026.
 </td>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 6h ago</sub><br>
-<a href="https://dev.to/shubhradev/react-19s-usetransition-looked-simple-then-i-found-a-second-bug-hiding-inside-the-first-one-35dk"><b>React 19's useTransition Looked Simple. Then I Found a Second Bug Hiding Inside the First One</b></a>
-<br><br>
-Every hook in this series so far has been a passenger. useActionState rides inside a Transition and...
-</td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 6h ago</sub><br>
-<a href="https://dev.to/jarvisscript/what-are-your-goals-for-the-week-197-2a91"><b>What are your goals for the week? #197</b></a>
+<sub><code>DEV</code>&nbsp; 10h ago</sub><br>
+<a href="https://dev.to/georgekobaidze/clean-code-is-not-the-same-as-clear-code-comments-were-never-the-problem-42n"><b>Clean Code Is Not the Same as Clear Code: Comments Were Never the Problem</b></a>
 <br><br>
-I'm on the phone all morning, setting appointments and filling out forms. Not building stuff. ...
+Table of Contents A Line That Does Nothing... Except Keep Production Alive Some Code...
 </td>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 8h ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 14h ago</sub><br>
 <a href="https://laravel-news.com/laravel-14?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>What We Know About Laravel 14</b></a>
 <br><br>
 Laravel 14 is the next major release of the Laravel framework, expected in Q1 2027. Here is what we know about new features, PHP 8.4, and breaking changes.
@@ -78,7 +92,7 @@ Laravel 14 is the next major release of the Laravel framework, expected in Q1 20
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 9h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 16h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/why-you-should-never-embed-your-gemini-api-key-in-client-code-and-how-firebase-ai-logic-fixes-it/"><b>Why You Should Never Embed Your Gemini API Key in Client Code (And How Firebase AI Logic Fixes…</b></a>
 <br><br>
 The explosion of generative AI has pushed thousands of web developers to add intelligent features to their apps. The first instinct is usually to call the Gemini API's SDK directly from the…
@@ -92,35 +106,21 @@ Difflock is a Laravel package that checks pending migrations for risky changes, 
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 2d ago</sub><br>
-<a href="https://www.freecodecamp.org/news/how-to-build-a-graphrag-system-with-python-neo4j-and-servicenow/"><b>How to Build a GraphRAG System with Python, Neo4j and ServiceNow [Full Book]</b></a>
-<br><br>
-Somewhere in your company's ServiceNow instance is the answer to the question an engineer asks at two in the morning: if this is broken, what else is about to break? Every fact needed to…
-</td>
-<td width="50%" valign="top">
 <sub><code>GITHUB</code>&nbsp; 3d ago</sub><br>
 <a href="https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp/"><b>Should you read the code, is RAG dead, and did Skills kill MCP?</b></a>
 <br><br>
 We dive into these questions and other AI hot takes on the latest episode of the GitHub Podcast.
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <sub><code>STACKOVERFLOW</code>&nbsp; 4d ago</sub><br>
 <a href="https://stackoverflow.blog/2026/09/17/the-ai-magic-words/"><b>The AI magic words</b></a>
 <br><br>
 Ryan sits down with Tim O'Reilly, founder and CEO at O'Reilly Media, to talk about the role of books as user interfaces to knowledge, the power of &quot;magic words&quot; to extract better outputs…
 </td>
-<td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 4d ago</sub><br>
-<a href="https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/"><b>Migrating the GitHub Copilot runtime to Rust, using Copilot</b></a>
-<br><br>
-A rewrite this size wasn't affordable before agents. Here's what porting the Copilot agent runtime to 800,000 lines of production Rust actually took.
-</td>
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 22 Sep 2026 04:57 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 22 Sep 2026 11:53 WIB.</sub>
 
 <!-- NEWS:END -->
 
