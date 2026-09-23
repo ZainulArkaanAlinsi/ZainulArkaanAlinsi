@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=74dc193ae1" />
-  <img src="./assets/activity-light.svg?v=edc322a838" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=cb25623053" />
+  <img src="./assets/activity-light.svg?v=0f02614678" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=f4478c83ea" />
-  <img src="./assets/news-light.svg?v=3495890e72" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=95561c66f7" />
+  <img src="./assets/news-light.svg?v=f10f65835c" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,91 +36,91 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 54m ago</sub><br>
-<a href="https://www.usenix.org/publications/loginonline/data-only-attacks-are-easier-you-think"><b>Data-Only Attacks Are Easier Than You Think</b></a>
+<sub><code>HN</code>&nbsp; 31m ago</sub><br>
+<a href="https://www.technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype/"><b>The Download: why AI's latest breakthroughs and fears may be more hype than rea</b></a>
 <br><br>
-6 points and 0 comments on the Hacker News front page · usenix.org
+10 points and 0 comments on the Hacker News front page · technologyreview.com
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://waymo.com/blog/2026/09/transit-rewards/"><b>Transit rewards (Waymo pays you to take the train)</b></a>
+<sub><code>HN</code>&nbsp; 38m ago</sub><br>
+<a href="https://drericlevi.pages.dev/the-darker-side-of-being-a-doctor/"><b>The darker side of being a doctor</b></a>
 <br><br>
-34 points and 15 comments on the Hacker News front page · waymo.com
+56 points and 13 comments on the Hacker News front page · drericlevi.pages.dev
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 9h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 5h ago</sub><br>
+<a href="https://dev.to/james_anderson_h/something-about-coding-stopped-feeling-good-and-it-took-me-a-while-to-figure-out-what-2op2"><b>Something About Coding Stopped Feeling Good — and It Took Me a While to Figure Out What</b></a>
+<br><br>
+Let me tell you about a project that wasn't impressive. Back in university, I built a small .NET...
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 5h ago</sub><br>
+<a href="https://dev.to/infoinlet1/stop-building-side-projects-nobody-cares-and-heres-the-uncomfortable-math-1eoc"><b>Stop building side projects. Nobody cares — and here's the uncomfortable math.</b></a>
+<br><br>
+Open your GitHub. Go on. Count the repositories that have a README, a clean commit that says initial...
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>STACKOVERFLOW</code>&nbsp; 6h ago</sub><br>
+<a href="https://stackoverflow.blog/2026/09/23/multiplayer-ai-why-your-team-and-its-agents-need-a-group-chat/"><b>Multiplayer AI: Why your team (and its agents) need a group chat</b></a>
+<br><br>
+Ryan chats with the GM of Slack, Rob Seaman, about how their new Code Channels feature is bringing multiplayer AI to your team chats.
+</td>
+<td width="50%" valign="top">
+<sub><code>LARAVEL</code>&nbsp; 16h ago</sub><br>
 <a href="https://laravel-news.com/social-network-php-48-hours?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Live Stream: Building a Social Network in PHP in 48 Hours</b></a>
 <br><br>
 Nuno Maduro, Brent Roose, and Matthieu Napoli spent two days at the JetBrains office building a full social network in PHP, and recorded all of it.
 </td>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 9h ago</sub><br>
-<a href="https://dev.to/hiper2d/the-swarm-that-kept-coming-back-7ie"><b>The swarm that kept coming back</b></a>
-<br><br>
-The more I watch and read about the Hugging Face incident, the more it fascinates me. 1,200 agents...
-</td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>NEXT.JS</code>&nbsp; 10h ago</sub><br>
+<sub><code>NEXT.JS</code>&nbsp; 17h ago</sub><br>
 <a href="https://nextjs.org/blog/nextjs-security-update-september-22-2026"><b>Next.js Security Update for a Critical Upstream Issue</b></a>
 <br><br>
 The September 22, 2026 out-of-band security update for Next.js is now available
 </td>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 12h ago</sub><br>
-<a href="https://dev.to/playfulprogramming/the-grand-unifying-architecture-of-frontend-bhk"><b>The Grand Unifying Architecture of Frontend</b></a>
-<br><br>
-I used to joke that the history of frontend development could be retraced by following the argument...
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>NEXT.JS</code>&nbsp; 13h ago</sub><br>
+<sub><code>NEXT.JS</code>&nbsp; 20h ago</sub><br>
 <a href="https://nextjs.org/blog/upcoming-nextjs-security-release-september-22-2026"><b>Upcoming Next.js Security Update for a Critical Upstream Issue</b></a>
 <br><br>
 Next.js 16.3.6 and 15.5.26 are planned for a critical out-of-band security update on September 22, 2026.
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 21h ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 1d ago</sub><br>
 <a href="https://stackoverflow.blog/2026/09/22/haters-think-ai-can-t-gpu-code-this-ll-rocm/"><b>Haters think AI agents can't write GPU code? This'll ROCm</b></a>
 <br><br>
 Ryan chats with Anush Elangovan, VP of Software at AMD, about ROCm's open-source unified toolchain for GPUs, how agentic AI is drastically lowering the barrier to entry for low-level…
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-to-build-a-reading-focused-blog-with-python-markdown-and-github-pages-for-free/"><b>How to Port a Jekyll Blog Theme to Python: Lessons From Actually Doing It</b></a>
 <br><br>
 I've been following a tufte-jekyll styled blog for a couple of years and that led me to discover Edward Tufte's book layout. Edward Tufte is renowned for his work on data visualization and…
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
 <a href="https://laravel-news.com/laravel-14?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>What We Know About Laravel 14</b></a>
 <br><br>
 Laravel 14 is the next major release of the Laravel framework, expected in Q1 2027. Here is what we know about new features, PHP 8.4, and breaking changes.
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/why-you-should-never-embed-your-gemini-api-key-in-client-code-and-how-firebase-ai-logic-fixes-it/"><b>Why You Should Never Embed Your Gemini API Key in Client Code (And How Firebase AI Logic Fixes…</b></a>
 <br><br>
 The explosion of generative AI has pushed thousands of web developers to add intelligent features to their apps. The first instinct is usually to call the Gemini API's SDK directly from the…
 </td>
-<td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 4d ago</sub><br>
-<a href="https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp/"><b>Should you read the code, is RAG dead, and did Skills kill MCP?</b></a>
-<br><br>
-We dive into these questions and other AI hot takes on the latest episode of the GitHub Podcast.
-</td>
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 23 Sep 2026 11:44 WIB.</sub>
+<sub>Sources: Hacker News · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 23 Sep 2026 18:33 WIB.</sub>
 
 <!-- NEWS:END -->
 
