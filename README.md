@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=cb25623053" />
-  <img src="./assets/activity-light.svg?v=0f02614678" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=f92ae8bc13" />
+  <img src="./assets/activity-light.svg?v=fc2525b823" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=95561c66f7" />
-  <img src="./assets/news-light.svg?v=f10f65835c" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=f945255db4" />
+  <img src="./assets/news-light.svg?v=e2ffbba25c" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,55 +36,69 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 31m ago</sub><br>
-<a href="https://www.technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype/"><b>The Download: why AI's latest breakthroughs and fears may be more hype than rea</b></a>
+<sub><code>HN</code>&nbsp; 1h ago</sub><br>
+<a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/"><b>Gemini 3.8 text-to-speech says hello</b></a>
 <br><br>
-10 points and 0 comments on the Hacker News front page · technologyreview.com
+52 points and 23 comments on the Hacker News front page · blog.google
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 38m ago</sub><br>
-<a href="https://drericlevi.pages.dev/the-darker-side-of-being-a-doctor/"><b>The darker side of being a doctor</b></a>
+<sub><code>HN</code>&nbsp; 1h ago</sub><br>
+<a href="https://radicle.dev/2026/09/23/disclosure-of-vulnerability-in-network-protocol"><b>Radicle: Disclosure of Vulnerability in the Network Protocol</b></a>
 <br><br>
-56 points and 13 comments on the Hacker News front page · drericlevi.pages.dev
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 5h ago</sub><br>
-<a href="https://dev.to/james_anderson_h/something-about-coding-stopped-feeling-good-and-it-took-me-a-while-to-figure-out-what-2op2"><b>Something About Coding Stopped Feeling Good — and It Took Me a While to Figure Out What</b></a>
-<br><br>
-Let me tell you about a project that wasn't impressive. Back in university, I built a small .NET...
-</td>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 5h ago</sub><br>
-<a href="https://dev.to/infoinlet1/stop-building-side-projects-nobody-cares-and-heres-the-uncomfortable-math-1eoc"><b>Stop building side projects. Nobody cares — and here's the uncomfortable math.</b></a>
-<br><br>
-Open your GitHub. Go on. Count the repositories that have a README, a clean commit that says initial...
+27 points and 8 comments on the Hacker News front page · radicle.dev
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 6h ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 2h ago</sub><br>
+<a href="https://laravel-news.com/laravel-ai-sdk-1-0?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Laravel AI SDK 1.0 Adds Classification and Tool Approvals</b></a>
+<br><br>
+Laravel AI SDK 1.0 is out with Jev classification, Vercel Chat and AG-UI streaming, approvable tool calls, and per-step agent middleware.
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 2h ago</sub><br>
+<a href="https://dev.to/nyaomaru/your-type-guard-can-silently-drift-from-your-typescript-type-o57"><b>Your Type Guard Can Silently Drift from Your TypeScript Type 🔧</b></a>
+<br><br>
+Hoi hoi! 👋 I'm @nyaomaru, a frontend engineer just back from a short vacation on Texel, a small...
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>GITHUB</code>&nbsp; 3h ago</sub><br>
+<a href="https://github.blog/news-insights/research/developers-want-more-efficient-software-heres-what-over-1000-github-users-told-us-they-need/"><b>Developers want more efficient software. Here’s what over 1000 GitHub users told us they need.</b></a>
+<br><br>
+New research from GitHub and Yale Program on Climate Change Communication finds strong demand for tools, measurement, and practical guidance that can help developers reduce wasted compute.
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 5h ago</sub><br>
+<a href="https://dev.to/mikachu/i-turned-devto-into-a-walkable-3d-library-debugging-it-has-been-a-nightmare-4lkd"><b>I Turned DEV.to Into a Walkable 3D Library — Debugging It Has Been a Nightmare</b></a>
+<br><br>
+DEV Library is my idea of first-person 3D reimagining of DEV.to. Not a themed scene with some...
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>STACKOVERFLOW</code>&nbsp; 12h ago</sub><br>
 <a href="https://stackoverflow.blog/2026/09/23/multiplayer-ai-why-your-team-and-its-agents-need-a-group-chat/"><b>Multiplayer AI: Why your team (and its agents) need a group chat</b></a>
 <br><br>
 Ryan chats with the GM of Slack, Rob Seaman, about how their new Code Channels feature is bringing multiplayer AI to your team chats.
 </td>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 16h ago</sub><br>
-<a href="https://laravel-news.com/social-network-php-48-hours?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Live Stream: Building a Social Network in PHP in 48 Hours</b></a>
+<sub><code>LARAVEL</code>&nbsp; 18h ago</sub><br>
+<a href="https://laravel-news.com/laravel-13-33-0?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Tagged Memoized Cache and Model Refreshes in Laravel 13.33</b></a>
 <br><br>
-Nuno Maduro, Brent Roose, and Matthieu Napoli spent two days at the JetBrains office building a full social network in PHP, and recorded all of it.
+Laravel 13.33 adds tags to Cache::memo(), a Refreshes attribute for generated columns, AsCollection::nullable(), inplace() index migrations, and more.
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>NEXT.JS</code>&nbsp; 17h ago</sub><br>
+<sub><code>NEXT.JS</code>&nbsp; 22h ago</sub><br>
 <a href="https://nextjs.org/blog/nextjs-security-update-september-22-2026"><b>Next.js Security Update for a Critical Upstream Issue</b></a>
 <br><br>
 The September 22, 2026 out-of-band security update for Next.js is now available
 </td>
 <td width="50%" valign="top">
-<sub><code>NEXT.JS</code>&nbsp; 20h ago</sub><br>
+<sub><code>NEXT.JS</code>&nbsp; 1d ago</sub><br>
 <a href="https://nextjs.org/blog/upcoming-nextjs-security-release-september-22-2026"><b>Upcoming Next.js Security Update for a Critical Upstream Issue</b></a>
 <br><br>
 Next.js 16.3.6 and 15.5.26 are planned for a critical out-of-band security update on September 22, 2026.
@@ -104,23 +118,9 @@ Ryan chats with Anush Elangovan, VP of Software at AMD, about ROCm's open-source
 I've been following a tufte-jekyll styled blog for a couple of years and that led me to discover Edward Tufte's book layout. Edward Tufte is renowned for his work on data visualization and…
 </td>
 </tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
-<a href="https://laravel-news.com/laravel-14?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>What We Know About Laravel 14</b></a>
-<br><br>
-Laravel 14 is the next major release of the Laravel framework, expected in Q1 2027. Here is what we know about new features, PHP 8.4, and breaking changes.
-</td>
-<td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
-<a href="https://www.freecodecamp.org/news/why-you-should-never-embed-your-gemini-api-key-in-client-code-and-how-firebase-ai-logic-fixes-it/"><b>Why You Should Never Embed Your Gemini API Key in Client Code (And How Firebase AI Logic Fixes…</b></a>
-<br><br>
-The explosion of generative AI has pushed thousands of web developers to add intelligent features to their apps. The first instinct is usually to call the Gemini API's SDK directly from the…
-</td>
-</tr>
 </table>
 
-<sub>Sources: Hacker News · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 23 Sep 2026 18:33 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 23 Sep 2026 23:56 WIB.</sub>
 
 <!-- NEWS:END -->
 
