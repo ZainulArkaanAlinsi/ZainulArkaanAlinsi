@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/hero.svg?v=b6762a700d" width="100%" alt="Zainul Arkaan Alinsi — full-stack developer, student at IDN Boarding School" />
+<img src="./assets/hero.svg?v=091aa73c46" width="100%" alt="Zainul Arkaan Alinsi — full-stack developer, student at IDN Boarding School" />
 
 <br/>
 
@@ -12,13 +12,13 @@
 </div>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/about-dark.svg?v=1993b6b34c" />
-  <img src="./assets/about-light.svg?v=079acb3ea4" width="100%" alt="About me — Zainul Arkaan Alinsi, full-stack developer and student at IDN Boarding School. Builds full-stack web apps with PHP, Laravel, Next.js and Tailwind CSS, and is learning Flutter for mobile." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/about-dark.svg?v=42bd279aaf" />
+  <img src="./assets/about-light.svg?v=a0924dba3b" width="100%" alt="About me — Zainul Arkaan Alinsi, full-stack developer and student at IDN Boarding School. Builds full-stack web apps with PHP, Laravel, Next.js and Tailwind CSS, and is learning Flutter for mobile." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-dark.svg?v=5b08bc8230" />
-  <img src="./assets/stack-light.svg?v=36972c3ab0" width="100%" alt="Tech stack — languages: PHP, TypeScript, JavaScript, Dart, Java, HTML5, CSS. Frameworks: Laravel, Next.js, React, Vue, Tailwind, Alpine, Flutter, Node.js. Tools: MySQL, SQLite, Firebase, Vercel, Git, GitHub, Figma, Postman." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-dark.svg?v=7279cd1380" />
+  <img src="./assets/stack-light.svg?v=170cdacea4" width="100%" alt="Tech stack — languages: PHP, TypeScript, JavaScript, Dart, Java, HTML5, CSS. Frameworks: Laravel, Next.js, React, Vue, Tailwind, Alpine, Flutter, Node.js. Tools: MySQL, SQLite, Firebase, Vercel, Git, GitHub, Figma, Postman." />
 </picture>
 
 <picture>

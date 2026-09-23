@@ -8,8 +8,8 @@ import os
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from theme import (ACCENTS, ASSETS, PULSE_CSS, THEMES, glass, grass_block, line, mix,
-                   pixel_text, pixel_width, rect, slot, svg_doc, text, ticks)
+from theme import (ACCENTS, ASSETS, THEMES, Iso, glass, line, mix, pixel_text, pixel_width,
+                   poly, rect, shade, svg_doc, text, ticks)
 
 W, PAD = 1200, 34
 ICONS = json.loads((ASSETS.parent / "scripts" / "icons.json").read_text())
@@ -68,133 +68,241 @@ def mono_w(s, size):
 
 BIO = [
     ("cmd", "whoami"),
-    ("ink", "Zainul Arkaan Alinsi \u2014 full-stack developer"),
+    ("ink", "Zainul Arkaan Alinsi — full-stack developer"),
     ("muted", "student @ IDN Boarding School, a program for future tech leaders"),
     ("gap", ""),
     ("cmd", "cat focus.txt"),
     ("dot", "Full-stack web apps with PHP, Laravel, Next.js and Tailwind CSS"),
     ("dot", "Learning Flutter for mobile development"),
-    ("dot", "Efficient code, real-world impact \u2014 that is the whole brief"),
+    ("dot", "Efficient code, real-world impact — that is the whole brief"),
+    ("gap", ""),
+    ("cmd", "echo $STATUS"),
+    ("ok", "open to collaborate · shipping something every week"),
 ]
-FACTS = [("ROLE", "Full-stack developer"),
-         ("SCHOOL", "IDN Boarding School"),
-         ("STACK", "Laravel \u00b7 Next.js \u00b7 Tailwind"),
-         ("LEARNING", "Flutter \u00b7 Dart"),
-         ("EDITOR", "VS Code"),
-         ("TIMEZONE", "WIB \u00b7 UTC+7")]
+FACTS = [("role", "Full-stack developer"),
+         ("school", "IDN Boarding School"),
+         ("stack", "Laravel · Next.js · Tailwind"),
+         ("learning", "Flutter · Dart"),
+         ("editor", "VS Code"),
+         ("timezone", "WIB · UTC+7")]
 
 PROMPT, PSIZE = "zainul@github", 12
-CARD_W = 392
+CARD_W = 500
+
+ABOUT_CSS = (
+    "@keyframes bob{0%,100%{opacity:1}50%{opacity:.35}}"
+    "@keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}"
+    "@keyframes sh{0%,100%{transform:scale(1)}50%{transform:scale(.86)}}"
+    ".bob{animation:bob 1.1s steps(1) infinite}"
+    ".fl{animation:fl 4.2s ease-in-out infinite}"
+    ".sh{animation:sh 4.2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}"
+    "@media (prefers-reduced-motion:reduce){.bob,.fl,.sh{animation:none}}")
 
 
 def terminal(t, x, y):
-    """The left column: a session you could have typed yourself."""
+    """The left column: a session you could have typed yourself. Nothing here
+    animates in: a renderer that skips CSS must still show every line."""
     out = []
-    for kind, line in BIO:
+    reveal = str
+
+    def prompt(y, cmd=""):
+        return (text(x, y, PROMPT, PSIZE, t["green"], weight=600)
+                + text(x + mono_w(PROMPT, PSIZE), y, ":~$", PSIZE, t["muted"])
+                + (text(x + mono_w(PROMPT + ":~$ ", PSIZE), y, cmd, PSIZE, t["ink"]) if cmd else ""))
+
+    for kind, ln in BIO:
         if kind == "gap":
-            y += 12
+            y += 10
             continue
         if kind == "cmd":
-            out.append(text(x, y, PROMPT, PSIZE, t["green"], weight=600))
-            out.append(text(x + mono_w(PROMPT, PSIZE), y, ":~$", PSIZE, t["muted"]))
-            out.append(text(x + mono_w(PROMPT + ":~$ ", PSIZE), y, line, PSIZE, t["ink"]))
-            y += 29
-        else:
-            if kind == "dot":
-                out.append(rect(x + 2, y - 7, 6, 6, fill=t["blue"]))
-            out.append(text(x + (16 if kind == "dot" else 0), y, line, 12.5,
-                            t["muted" if kind == "muted" else "ink"]))
-            y += 24
-    y += 6
-    out.append(text(x, y, PROMPT, PSIZE, t["green"], weight=600))
-    out.append(text(x + mono_w(PROMPT, PSIZE), y, ":~$", PSIZE, t["muted"]))
-    out.append(f'<rect class="bob" x="{x + mono_w(PROMPT + ":~$ ", PSIZE):.1f}" y="{y - 10:.0f}"'
-               f' width="8" height="13" fill="{t["ink"]}"/>')
+            out.append(reveal(prompt(y, ln)))
+            y += 28
+            continue
+        lead = ""
+        if kind == "dot":
+            lead = rect(x + 2, y - 7, 6, 6, fill=t["blue"])
+        elif kind == "ok":
+            lead = (f'<circle cx="{x + 5:.1f}" cy="{y - 4:.1f}" r="7" fill="{t["green"]}" opacity=".18"/>'
+                    f'<circle cx="{x + 5:.1f}" cy="{y - 4:.1f}" r="3.2" fill="{t["green"]}"/>')
+        colour = {"muted": t["muted"], "ok": t["green"]}.get(kind, t["ink"])
+        out.append(reveal(lead + text(x + (16 if kind in ("dot", "ok") else 0), y, ln, 12.5, colour)))
+        y += 23
+    y += 8
+    out.append(reveal(prompt(y) + f'<rect class="bob" x="{x + mono_w(PROMPT + ":~$ ", PSIZE):.1f}"'
+                                  f' y="{y - 10:.0f}" width="8" height="13" fill="{t["ink"]}"/>'))
     return "".join(out), y + 8
 
 
-def id_card(t, x, y, h):
-    """The right column: neofetch, basically. Rows stretch to fill the height."""
-    out = [glass("idcard", x, y, CARD_W, h, t, r=14, glows=[(.85, .10, CARD_W * .55, "violet")])]
-    out.append(grass_block(x + 44, y + 40, 20, 15, t["green"], mix(t["bg"], t["amber"], .46)))
-    out.append(text(x + 80, y + 34, PROMPT, 13, t["green"], weight=600))
-    out.append(text(x + 80, y + 51, "profile \u2014 the short version", 10.5, t["muted"]))
-    out.append(line(x + 22, y + 70, x + CARD_W - 22, y + 70, t["line"], 1, .9))
+def island(t, cx, cy, k):
+    """A floating voxel island with a desk setup on it: the neofetch logo, if
+    neofetch drew in 3D. Painter's order, far to near."""
+    iso = Iso(cx, cy, k)
+    grass, leaf = t["green"], mix(t["green"], t["bg"], .18)
+    dirt = mix(t["bg"], t["amber"], .52)
+    stone = mix(t["bg"], t["ink"], .30)
+    wood = mix(t["bg"], t["amber"], .78)
+    metal = mix(t["bg"], t["ink"], .22)
+    out = []
+    # the underside tapers, as if it was scooped out of the ground
+    out.append(iso.box(.7, .7, -2.1, 1.6, 1.6, .9, stone))
+    out.append(iso.box(.3, .3, -1.2, 2.4, 2.4, .8, dirt))
+    out.append(iso.box(0, 0, -.4, 3, 3, .4, dirt, top=grass))
+    out.append(poly([iso.p(0, 3, 0), iso.p(3, 3, 0), iso.p(3, 3, -.14), iso.p(0, 3, -.14)], shade(grass, .72)))
+    out.append(poly([iso.p(3, 0, 0), iso.p(3, 3, 0), iso.p(3, 3, -.14), iso.p(3, 0, -.14)], shade(grass, .52)))
+    for (u, v) in ((.3, .4), (2.5, 2.3), (.4, 2.4), (1.5, 2.65), (2.65, 1.5)):
+        out.append(poly([iso.p(u, v), iso.p(u + .2, v), iso.p(u + .2, v + .2), iso.p(u, v + .2)],
+                        shade(grass, 1.15)))
+    # tree, back right
+    out.append(iso.box(2.3, .4, 0, .3, .3, 1.1, wood))
+    out.append(iso.box(1.9, 0, 1.0, 1.1, 1.1, .9, leaf))
+    out.append(iso.box(2.1, .2, 1.9, .7, .7, .45, shade(leaf, 1.08)))
+    # desk
+    for u, v in ((.35, 1.05), (1.95, 1.05), (.35, 1.9), (1.95, 1.9)):
+        out.append(iso.box(u, v, 0, .14, .14, .62, wood))
+    out.append(iso.box(.25, .95, .62, 1.95, 1.15, .12, wood))
+    # monitor: stand, then the panel, facing the viewer on its +v face
+    out.append(iso.box(1.0, 1.15, .74, .42, .3, .06, metal))
+    out.append(iso.box(1.14, 1.22, .8, .14, .1, .36, metal))
+    out.append(iso.box(.45, 1.1, 1.08, 1.55, .12, .95, metal))
+    m = iso.face_matrix("left", .45, 1.1, 1.08, 1.55, .12, .95)
+    code = [(.10, .16, .28, "violet"), (.42, .16, .22, "ink"), (.16, .31, .40, "blue"),
+            (.16, .46, .24, "green"), (.44, .46, .30, "amber"), (.10, .61, .20, "violet"),
+            (.16, .76, .42, "muted")]
+    lines = "".join(f'<rect x="{x:.2f}" y="{y:.2f}" width="{w:.2f}" height=".07" fill="{t[c]}"/>'
+                    for x, y, w, c in code)
+    out.append(f'<g transform="{m}"><rect x=".05" y=".07" width=".9" height=".86" fill="#0B0F14"/>{lines}'
+               f'<rect class="bob" x=".62" y=".74" width=".04" height=".11" fill="{t["green"]}"/></g>')
+    # keyboard and a mug, nearest to the camera
+    out.append(iso.box(.6, 1.55, .74, 1.0, .32, .05, mix(t["bg"], t["ink"], .40)))
+    out.append(iso.box(1.75, 1.62, .74, .24, .24, .24, t["red"]))
+    return "".join(out)
 
-    top, bottom = y + 94, y + h - 20
-    step = min(30, (bottom - top) / max(1, len(FACTS) - 1))
+
+def id_card(t, x, y, h):
+    """The right column: neofetch — logo on the left, key/value pairs, colour row."""
+    out = [glass("idcard", x, y, CARD_W, h, t, r=14,
+                 glows=[(.20, .35, CARD_W * .42, "green"), (.95, .10, CARD_W * .45, "violet")])]
+    # the island floats; its shadow on the card breathes with it
+    out.append(f'<ellipse class="sh" cx="{x + 104:.1f}" cy="{y + h - 26:.1f}" rx="66" ry="9"'
+               f' fill="{t["shadow"]}" opacity="{.3 if t["px_shadow"] > .3 else .12}"/>')
+    out.append(f'<g class="fl">{island(t, x + 108, y + 52, 23)}</g>')
+
+    fx = x + 232
+    out.append(text(fx, y + 42, PROMPT, 13, t["green"], weight=700))
+    out.append(line(fx, y + 53, fx + mono_w(PROMPT, 13), y + 53, t["muted"], 1, .6))
+    top = y + 80
     for i, (k, v) in enumerate(FACTS):
-        ry = top + step * i
-        out.append(rect(x + 22, ry - 8, 2, 9, fill=t[ACCENTS[i % len(ACCENTS)]]))
-        out.append(text(x + 32, ry, k, 9.5, t["muted"], weight=600, ls="1.2"))
-        out.append(text(x + 126, ry, v, 12, t["ink"]))
+        ry = top + 25 * i
+        out.append(text(fx, ry, k, 11.5, t[ACCENTS[i % len(ACCENTS)]], weight=700))
+        out.append(text(fx + 76, ry, v, 11.5, t["ink"]))
+    sy = top + 25 * len(FACTS) - 6
+    for i, c in enumerate(("red", "amber", "green", "blue", "violet")):
+        out.append(rect(fx + i * 22, sy, 18, 10, fill=t[c]))
+        out.append(rect(fx + i * 22, sy + 10, 18, 3, fill=shade(t[c], .6)))
     return "".join(out)
 
 
 def about(t):
-    x0, y0 = PAD + 28, PAD + 106
+    x0, y0 = PAD + 28, PAD + 104
     term, term_end = terminal(t, x0, y0)
-    h = int(max(term_end, y0 + 232) + 30 - PAD)
+    card_top, card_h = PAD + 48, 282
+    h = int(max(term_end, card_top + card_h) + 24 - PAD)
     body = [rect(0, 0, W, h + PAD * 2, fill=t["bg"]),
-            chrome(t, PAD, PAD, W - PAD * 2, h, "zainul@github: ~/about", "bash \u2014 80x24", "blue", "about"),
+            chrome(t, PAD, PAD, W - PAD * 2, h, "zainul@github: ~/about", "bash — 80x24", "blue", "about"),
             heading(t, "ABOUT ME", x0, PAD + 52, px=3),
             term,
-            id_card(t, W - PAD - 28 - CARD_W, y0 - 26, PAD + h - (y0 - 26) - 22)]
-    return svg_doc(W, h + PAD * 2, "".join(body), label="About Zainul Arkaan Alinsi", css=PULSE_CSS)
+            id_card(t, W - PAD - 24 - CARD_W, card_top, card_h)]
+    return svg_doc(W, h + PAD * 2, "".join(body), label="About Zainul Arkaan Alinsi", css=ABOUT_CSS)
 
 
 # ------------------------------------------------------------ stack inventory
-SLOT, ICON_S, ROW_H = 38, 23, 44   # an item is a slot plus its name, not a box with air in it
-
 # The four the bio names as what gets built with, plus the one it names as being
 # learned. Marked, not invented — the same list the about panel prints.
 CORE = {"php", "laravel", "nextdotjs", "tailwindcss", "flutter"}
+CELL, K = 108, 28            # horizontal pitch per block, iso unit
+
+STACK_CSS = (
+    "@keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}"
+    "@keyframes sh{0%,100%{opacity:.34}50%{opacity:.14}}"
+    "@keyframes gl{0%,100%{opacity:.15}50%{opacity:.6}}"
+    ".fl{animation:fl 3.6s ease-in-out infinite}"
+    ".sh{animation:sh 3.6s ease-in-out infinite}"
+    ".gl{animation:gl 3.6s ease-in-out infinite}"
+    "@media (prefers-reduced-motion:reduce){.fl,.sh,.gl{animation:none}}")
 
 
-def chest(t, x, y, w, h, name, items, accent, uid):
-    """One category as its own container: header, rule, then a row per item."""
-    out = [glass(uid, x, y, w, h, t, r=14),
-           rect(x + 18, y + 20, 3, 12, fill=t[accent]),
-           text(x + 30, y + 30, name.upper(), 10, t["muted"], weight=600, ls="1.6"),
-           text(x + w - 18, y + 30, str(len(items)), 11, t["muted"], anchor="end", weight=600),
-           line(x + 18, y + 44, x + w - 18, y + 44, t["line"], 1, .9)]
-    ry = y + 58
-    for i, (slug, label) in enumerate(items):
-        if i:
-            out.append(line(x + 18, ry - 4, x + w - 18, ry - 4, t["line"], 1, .45))
-        out.append(slot(x + 18, ry, SLOT, SLOT, t, depth=2, fill=mix(t["bg"], t[accent], .09)))
-        out.append(icon(slug, x + 18 + (SLOT - ICON_S) / 2, ry + (SLOT - ICON_S) / 2, ICON_S, t[accent]))
-        out.append(text(x + 18 + SLOT + 14, ry + 24, label, 13, t["ink"]))
-        if slug in CORE:
-            out.append(rect(x + w - 27, ry + 16, 6, 6, fill=t[accent], op=.95))
-        ry += ROW_H
+def block(t, cx, gy, slug, label, accent, delay, core):
+    """One tool as a floating voxel block: logo stamped on the lit top face,
+    name on the ground under it."""
+    iso = Iso(cx, gy, K)
+    col = t[accent]
+    out = []
+    # the tile it hovers over, and a shadow that thins out as it rises
+    tile = [iso.p(-.62, -.62), iso.p(.62, -.62), iso.p(.62, .62), iso.p(-.62, .62)]
+    out.append(poly(tile, mix(t["bg"], col, .07), f' stroke="{col}" stroke-opacity=".30" stroke-width="1"'))
+    out.append(poly([iso.p(-.42, -.42), iso.p(.42, -.42), iso.p(.42, .42), iso.p(-.42, .42)], t["shadow"],
+                    f' class="sh" style="animation-delay:{delay:.2f}s" opacity=".3"'))
+    lift = .55
+    cube = []
+    if core:
+        c0 = iso.p(0, 0, lift + .5)
+        cube.append(f'<ellipse class="gl" style="animation-delay:{delay:.2f}s" cx="{c0[0]:.1f}"'
+                    f' cy="{c0[1]:.1f}" rx="{K * 1.35:.1f}" ry="{K * 1.2:.1f}" fill="{col}" opacity=".3"'
+                    f' filter="url(#soft)"/>')
+    dark = t["bg"] == THEMES["dark"]["bg"]
+    # dark canvas: a smoky block with lit edges; light canvas: a solid coloured one
+    sides = mix(t["bg"], col, .30) if dark else mix(col, "#FFFFFF", .12)
+    cube.append(iso.box(-.5, -.5, lift, 1, 1, 1, sides, top=mix(t["bg"], col, .44 if dark else .30)))
+    # lit edges: the three that face the light pick up the accent
+    a, b, c, d = iso.p(-.5, .5, lift + 1), iso.p(.5, .5, lift + 1), iso.p(.5, -.5, lift + 1), iso.p(.5, .5, lift)
+    cube.append(f'<path d="M{a[0]:.1f} {a[1]:.1f}L{b[0]:.1f} {b[1]:.1f}L{c[0]:.1f} {c[1]:.1f}'
+                f'M{b[0]:.1f} {b[1]:.1f}L{d[0]:.1f} {d[1]:.1f}" stroke="{col}" stroke-width="1.3"'
+                f' stroke-linecap="round" fill="none" opacity=".9"/>')
+    m = iso.face_matrix("top", -.5, -.5, lift, 1, 1, 1)
+    cube.append(f'<g transform="{m}"><g transform="translate(.11,.11) scale({.78 / 24:.5f})"'
+                f' fill="{t["ink"]}"><path d="{PATHS[slug]}"/></g></g>')
+    # the front faces carry a few accent pixels, the way a textured block would
+    ml = iso.face_matrix("left", -.5, -.5, lift, 1, 1, 1)
+    cube.append(f'<g transform="{ml}" fill="{col}"><rect x=".12" y=".70" width=".16" height=".14" opacity=".7"/>'
+                f'<rect x=".34" y=".70" width=".16" height=".14" opacity=".35"/></g>')
+    out.append(f'<g class="fl" style="animation-delay:{delay:.2f}s">{"".join(cube)}</g>')
+    ly = iso.p(.62, .62)[1] + 20
+    out.append(text(cx, ly, label, 12.5, t["ink"], anchor="middle", weight=500))
+    if core:
+        out.append(rect(cx - 3, ly + 8, 6, 6, fill=col))
     return "".join(out)
 
 
 def stack_panel(t):
     x0 = PAD + 28
-    inner = W - PAD * 2 - 56
-    gap = 22
-    col = (inner - gap * 2) / 3
-    tallest = max(len(v) for v in STACK.values())
-    ch = 58 + tallest * ROW_H + 12
-    top = PAD + 108
-
-    cols = "".join(
-        chest(t, x0 + i * (col + gap), top, col, ch, name, items, ROW_ACCENT[name], f"chest{i}")
-        for i, (name, items) in enumerate(STACK.items()))
-
-    h = int(top + ch + 56 - PAD)
-    key_y = top + ch + 30
+    top = PAD + 112
+    row_h = 160
+    out = []
+    for r, (name, items) in enumerate(STACK.items()):
+        accent = ROW_ACCENT[name]
+        ry = top + r * row_h
+        if r:
+            out.append(line(x0, ry - 8, W - PAD - 28, ry - 8, t["line"], 1, .8))
+        # the row's label: a coloured rail, the name, the count in pixel type
+        out.append(rect(x0, ry + 30, 3, 66, fill=t[accent]))
+        out.append(text(x0 + 16, ry + 44, name.upper(), 11, t["muted"], weight=700, ls="1.8"))
+        out.append(pixel_text(f"{len(items):02d}", x0 + 16, ry + 56, 4, t[accent],
+                              shadow=t["shadow"], shadow_op=t["px_shadow"]))
+        out.append(text(x0 + 16, ry + 100, "blocks", 10.5, t["muted"]))
+        gx = x0 + 214
+        for i, (slug, label) in enumerate(items):
+            out.append(block(t, gx + i * CELL, ry + 84, slug, label, accent,
+                             -(r * .9 + i * .45), slug in CORE))
+    h = int(top + row_h * len(STACK) - PAD)
     body = [rect(0, 0, W, h + PAD * 2, fill=t["bg"]),
-            chrome(t, PAD, PAD, W - PAD * 2, h, "~/stack \u2014 inventory",
-                   f"{sum(len(v) for v in STACK.values())} items", "violet", "stack"),
+            chrome(t, PAD, PAD, W - PAD * 2, h, "~/stack — inventory",
+                   f"{sum(len(v) for v in STACK.values())} items", "violet", "stack",
+                   glows=[(.10, .30, 320, "blue"), (.55, .60, 300, "violet"), (.95, .85, 300, "amber")]),
             heading(t, "TECH STACK", x0, PAD + 52,
-                    sub="three chests \u00b7 one row per item \u00b7 no empty slots", px=3),
-            cols,
-            rect(x0, key_y - 5, 6, 6, fill=t["ink"], op=.55),
-            text(x0 + 14, key_y, "marked items are the ones the bio up top names", 11, t["muted"])]
-    return svg_doc(W, h + PAD * 2, "".join(body), label="Tech stack: " + ", ".join(
+                    sub="every tool as a block · the glowing ones are what I build with daily", px=3),
+            "".join(out)]
+    defs = '<filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="8"/></filter>'
+    return svg_doc(W, h + PAD * 2, "".join(body), defs=defs, css=STACK_CSS, label="Tech stack: " + ", ".join(
         lab for items in STACK.values() for _, lab in items))
 
 

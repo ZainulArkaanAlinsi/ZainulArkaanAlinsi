@@ -130,42 +130,7 @@ def glass(uid, x, y, w, h, t, r=16, glows=(), rim=True):
 BLUR_DEF = '<filter id="blur" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="62"/></filter>'
 
 
-# ------------------------------------------------------------ Minecraft bevels
-def slot(x, y, w, h, t, depth=3, sunken=True, fill=None):
-    """Inventory slot. Flat fill, 3px light edge one way, dark edge the other."""
-    hi, lo = (t["shadow"], t["glass"]) if sunken else (t["glass"], t["shadow"])
-    hop, lop = (.30, .12) if sunken else (.16, .34)
-    body = fill or mix(t["bg"], t["ink"], .06)
-    return "".join([
-        rect(x, y, w, h, fill=body),
-        poly([(x, y), (x + w, y), (x + w - depth, y + depth), (x + depth, y + depth),
-              (x + depth, y + h - depth), (x, y + h)], hi, f' opacity="{hop}"'),
-        poly([(x + w, y), (x + w, y + h), (x, y + h), (x + depth, y + h - depth),
-              (x + w - depth, y + h - depth), (x + w - depth, y + depth)], lo, f' opacity="{lop}"'),
-    ])
-
-
-def grass_block(cx, cy, s, depth, grass, dirt):
-    """A single isometric grass block: lit top, grass rim, dirt sides."""
-    hw, hh = s, s * .5
-    n, e, w_, so = (cx, cy - hh), (cx + hw, cy), (cx - hw, cy), (cx, cy + hh)
-    down = lambda p, d: (p[0], p[1] + d)
-    rim = max(2.0, depth * .30)
-    out = [
-        poly([w_, so, down(so, depth), down(w_, depth)], shade(dirt, .70)),
-        poly([so, e, down(e, depth), down(so, depth)], shade(dirt, .50)),
-        poly([w_, so, down(so, rim), down(w_, rim)], shade(grass, .72)),
-        poly([so, e, down(e, rim), down(so, rim)], shade(grass, .52)),
-        poly([n, e, so, w_], grass),
-    ]
-    for fu, fv in ((-.30, -.10), (.26, .18), (.04, -.34)):
-        px, py = cx + fu * s, cy + fv * s
-        q = s * .17
-        out.append(poly([(px, py - q * .5), (px + q, py), (px, py + q * .5), (px - q, py)],
-                        shade(grass, 1.14)))
-    return "".join(out)
-
-
+# ------------------------------------------------------------------ registration
 def ticks(x, y, w, h, colour, size=9, sw=1.2, op=.55):
     """Corner registration marks — the hero's motif, carried down the page."""
     d = (f"M{x} {y + size}V{y}H{x + size} M{x + w - size} {y}H{x + w}V{y + size} "
@@ -275,11 +240,6 @@ def svg_doc(w, h, body, defs="", label="", css=""):
             + body + "</svg>")
 
 
-PULSE_CSS = ("@keyframes bob{0%,100%{opacity:1}50%{opacity:.35}}"
-             ".bob{animation:bob 2.6s ease-in-out infinite}"
-             "@media (prefers-reduced-motion:reduce){.bob{animation:none}}")
-
-
 # ---------------------------------------------------------------------- output
 def write(name, dark_body, light_body=None):
     ASSETS.mkdir(parents=True, exist_ok=True)
@@ -291,3 +251,48 @@ def write(name, dark_body, light_body=None):
 def each_theme(fn):
     """Render fn(theme_name, tokens) once per colour scheme and write both files."""
     return {name: fn(name, tokens) for name, tokens in THEMES.items()}
+
+
+# ------------------------------------------------------------------ isometric
+class Iso:
+    """2:1 isometric camera. u runs down-right, v runs down-left, z runs up.
+
+    Everything 3D on the page — the about scene, the stack blocks, the
+    contribution world — goes through one of these, so the light is the same
+    everywhere: top faces lit, the left (+v) face in half shade, the right (+u)
+    face darkest.
+    """
+    LIT = (1.0, .74, .54)
+
+    def __init__(self, ox, oy, unit):
+        self.ox, self.oy, self.k = ox, oy, unit
+
+    def p(self, u, v, z=0.0):
+        return (self.ox + (u - v) * self.k, self.oy + (u + v) * self.k * .5 - z * self.k)
+
+    def box(self, u, v, z, du, dv, dz, colour, seams=None, sides=None, top=None):
+        """Top, left and right faces of an axis-aligned box, flat-shaded."""
+        P = self.p
+        tc, lc, rc = (top or colour), shade(sides or colour, self.LIT[1]), shade(sides or colour, self.LIT[2])
+        out = [
+            poly([P(u, v + dv, z), P(u + du, v + dv, z), P(u + du, v + dv, z + dz), P(u, v + dv, z + dz)], lc),
+            poly([P(u + du, v, z), P(u + du, v + dv, z), P(u + du, v + dv, z + dz), P(u + du, v, z + dz)], rc),
+            poly([P(u, v, z + dz), P(u + du, v, z + dz), P(u + du, v + dv, z + dz), P(u, v + dv, z + dz)], tc),
+        ]
+        if seams:
+            out.append(poly([P(u, v, z + dz), P(u + du, v, z + dz), P(u + du, v + dv, z + dz), P(u, v + dv, z + dz)],
+                            "none", f' stroke="{seams}" stroke-width=".8" stroke-opacity=".35" stroke-linejoin="round"'))
+        return "".join(out)
+
+    def face_matrix(self, face, u, v, z, du, dv, dz):
+        """SVG matrix mapping a unit square (x right, y down) onto one face."""
+        P = self.p
+        if face == "top":          # x along +u, y along +v, origin at the far corner
+            o, ex, ey = P(u, v, z + dz), P(u + du, v, z + dz), P(u, v + dv, z + dz)
+        elif face == "left":       # the +v face, read left to right, top to bottom
+            o, ex, ey = P(u, v + dv, z + dz), P(u + du, v + dv, z + dz), P(u, v + dv, z)
+        else:                      # the +u face
+            o, ex, ey = P(u + du, v + dv, z + dz), P(u + du, v, z + dz), P(u + du, v + dv, z)
+        a, b = ex[0] - o[0], ex[1] - o[1]
+        c, d = ey[0] - o[0], ey[1] - o[1]
+        return f"matrix({a:.3f},{b:.3f},{c:.3f},{d:.3f},{o[0]:.2f},{o[1]:.2f})"
