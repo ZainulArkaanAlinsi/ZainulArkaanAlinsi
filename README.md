@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/hero.svg?v=091aa73c46" width="100%" alt="Zainul Arkaan Alinsi — full-stack developer, student at IDN Boarding School" />
+<img src="./assets/hero.svg?v=b6762a700d" width="100%" alt="Zainul Arkaan Alinsi — full-stack developer, student at IDN Boarding School" />
 
 <br/>
 
@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=516a590789" />
-  <img src="./assets/activity-light.svg?v=3d19a1ab51" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=0a612a7495" />
+  <img src="./assets/activity-light.svg?v=98737230ac" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=805a720080" />
-  <img src="./assets/news-light.svg?v=6b776746fa" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=9eeeacb4bd" />
+  <img src="./assets/news-light.svg?v=2518c9ab82" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,27 +36,27 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://www.bbc.com/news/articles/cqj3dgy8x3vro"><b>US criticises Australia's proposed algorithm opt-out laws as 'censorship'</b></a>
+<sub><code>HN</code>&nbsp; 27m ago</sub><br>
+<a href="https://www.usenix.org/publications/loginonline/data-only-attacks-are-easier-you-think"><b>Data-Only Attacks Are Easier Than You Think</b></a>
 <br><br>
-24 points and 15 comments on the Hacker News front page · bbc.com
+4 points and 0 comments on the Hacker News front page · usenix.org
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 5h ago</sub><br>
-<a href="https://www.interconnects.ai/p/the-current-balance-of-power-in-open"><b>The current balance of power in open models</b></a>
+<sub><code>HN</code>&nbsp; 1h ago</sub><br>
+<a href="https://waymo.com/blog/2026/09/transit-rewards/"><b>Transit rewards (Waymo pays you to take the train)</b></a>
 <br><br>
-55 points and 19 comments on the Hacker News front page · interconnects.ai
+20 points and 3 comments on the Hacker News front page · waymo.com
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>LOBSTERS</code>&nbsp; 5h ago</sub><br>
+<sub><code>LOBSTERS</code>&nbsp; 6h ago</sub><br>
 <a href="https://buttondown.com/maiht3k/archive/how-to-talk-about-ai-without-adding-to-the/"><b>How to talk about &quot;AI&quot; without adding to the anthropomorphization</b></a>
 <br><br>
 Very good to use for documentation of systems and tasks Comments
 </td>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 8h ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 9h ago</sub><br>
 <a href="https://laravel-news.com/social-network-php-48-hours?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Live Stream: Building a Social Network in PHP in 48 Hours</b></a>
 <br><br>
 Nuno Maduro, Brent Roose, and Matthieu Napoli spent two days at the JetBrains office building a full social network in PHP, and recorded all of it.
@@ -64,13 +64,13 @@ Nuno Maduro, Brent Roose, and Matthieu Napoli spent two days at the JetBrains of
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 8h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 9h ago</sub><br>
 <a href="https://dev.to/hiper2d/the-swarm-that-kept-coming-back-7ie"><b>The swarm that kept coming back</b></a>
 <br><br>
 The more I watch and read about the Hugging Face incident, the more it fascinates me. 1,200 agents...
 </td>
 <td width="50%" valign="top">
-<sub><code>NEXT.JS</code>&nbsp; 9h ago</sub><br>
+<sub><code>NEXT.JS</code>&nbsp; 10h ago</sub><br>
 <a href="https://nextjs.org/blog/nextjs-security-update-september-22-2026"><b>Next.js Security Update for a Critical Upstream Issue</b></a>
 <br><br>
 The September 22, 2026 out-of-band security update for Next.js is now available
@@ -78,13 +78,13 @@ The September 22, 2026 out-of-band security update for Next.js is now available
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 10h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 11h ago</sub><br>
 <a href="https://dev.to/playfulprogramming/the-grand-unifying-architecture-of-frontend-bhk"><b>The Grand Unifying Architecture of Frontend</b></a>
 <br><br>
 I used to joke that the history of frontend development could be retraced by following the argument...
 </td>
 <td width="50%" valign="top">
-<sub><code>NEXT.JS</code>&nbsp; 12h ago</sub><br>
+<sub><code>NEXT.JS</code>&nbsp; 13h ago</sub><br>
 <a href="https://nextjs.org/blog/upcoming-nextjs-security-release-september-22-2026"><b>Upcoming Next.js Security Update for a Critical Upstream Issue</b></a>
 <br><br>
 Next.js 16.3.6 and 15.5.26 are planned for a critical out-of-band security update on September 22, 2026.
@@ -92,7 +92,7 @@ Next.js 16.3.6 and 15.5.26 are planned for a critical out-of-band security updat
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 19h ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 20h ago</sub><br>
 <a href="https://stackoverflow.blog/2026/09/22/haters-think-ai-can-t-gpu-code-this-ll-rocm/"><b>Haters think AI agents can't write GPU code? This'll ROCm</b></a>
 <br><br>
 Ryan chats with Anush Elangovan, VP of Software at AMD, about ROCm's open-source unified toolchain for GPUs, how agentic AI is drastically lowering the barrier to entry for low-level…
@@ -120,7 +120,7 @@ The explosion of generative AI has pushed thousands of web developers to add int
 </tr>
 </table>
 
-<sub>Sources: Hacker News · dev.to · Laravel News · Next.js · Lobsters · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 23 Sep 2026 10:23 WIB.</sub>
+<sub>Sources: Hacker News · dev.to · Laravel News · Next.js · Lobsters · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 23 Sep 2026 11:16 WIB.</sub>
 
 <!-- NEWS:END -->
 
