@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=e54b9216d4" />
-  <img src="./assets/activity-light.svg?v=a8bc0bf207" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=640b8a0a19" />
+  <img src="./assets/activity-light.svg?v=407c386ddb" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=e56d36fcd5" />
-  <img src="./assets/news-light.svg?v=9961428b06" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=2d5e38e946" />
+  <img src="./assets/news-light.svg?v=792633f005" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,80 +36,80 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 53m ago</sub><br>
-<a href="https://www.texastribune.org/2026/09/22/texas-prison-air-conditioning-lawsuit-ruling/"><b>Federal judge orders Texas to air condition all prisons by the end of 2029</b></a>
+<sub><code>HN</code>&nbsp; 36m ago</sub><br>
+<a href="https://grantland.com/features/diplomacy-the-board-game-of-the-alpha-nerds/"><b>The Board Game of the Alpha Nerds (2014)</b></a>
 <br><br>
-23 points and 1 comment on the Hacker News front page · texastribune.org
+11 points and 7 comments on the Hacker News front page · grantland.com
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://therecord.media/linkedin-wins-court-order-blocking-mass-scraping"><b>LinkedIn wins court order blocking mass scraping of user data</b></a>
+<sub><code>HN</code>&nbsp; 47m ago</sub><br>
+<a href="https://rackcrunch.com/security-headers-2026"><b>Security headers on 4,688 small-business websites: 49.7% met none of 7 criteria</b></a>
 <br><br>
-31 points and 19 comments on the Hacker News front page · therecord.media
+9 points and 1 comment on the Hacker News front page · rackcrunch.com
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 3h ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 1h ago</sub><br>
+<a href="https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui/"><b>When chat is the wrong UI</b></a>
+<br><br>
+What is a developer to do when they need something more tangible than a chat box? Enter canvases.
+</td>
+<td width="50%" valign="top">
+<sub><code>GITHUB</code>&nbsp; 3h ago</sub><br>
+<a href="https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent/"><b>AI-powered fuzzing with the GitHub Security Lab Taskflow Agent</b></a>
+<br><br>
+In this blog post, I explain how to use the new fuzzing taskflow based on the GitHub Security Lab Taskflow Agent AI framework.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>FREECODECAMP</code>&nbsp; 5h ago</sub><br>
+<a href="https://www.freecodecamp.org/news/executable-operational-specifications-software-automation/"><b>How Executable Operational Specifications Can Make Software Automation Verifiable</b></a>
+<br><br>
+Modern software systems are increasingly automated. We automate deployments, infrastructure changes, scaling, incident response, and data pipelines. And now, with AI agents, we are starting…
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 7h ago</sub><br>
 <a href="https://dev.to/kenwalger/i-pulled-nine-years-of-my-own-devto-data-the-numbers-were-not-what-i-expected-37ac"><b>I Pulled Nine Years of My Own Dev.to Data. The Numbers Were Not What I Expected.</b></a>
 <br><br>
 There is an API. It will tell you things about your writing that the dashboard will not. I have been...
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 6h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 10h ago</sub><br>
 <a href="https://dev.to/mikachu/devlog-i-built-a-3d-library-in-threejs-without-a-level-editor-so-i-made-my-own-500i"><b>Devlog: I Built a 3D Library in Three.js Without a Level Editor — So I Made My Own</b></a>
 <br><br>
 Updated 3D Environment for Library Reading DEV Articles A lot of you...
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 15h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 19h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/timescaledb-course-postgresql-for-time-series-data/"><b>TimescaleDB Course – PostgreSQL for Time-Series Data</b></a>
 <br><br>
 Managing massive, rapidly growing datasets efficiently is a critical skill for modern developers. Whether you are tracking API request logs, monitoring IoT fleet telemetry, or building…
 </td>
-<td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 15h ago</sub><br>
-<a href="https://www.freecodecamp.org/news/unlock-the-power-of-ai-agents-with-the-new-claude-certified-developer-foundations-course/"><b>Unlock the Power of AI Agents with the New Claude Certified Developer Foundations Course</b></a>
-<br><br>
-Are you a software engineer looking to master building production-ready AI applications and agentic workflows? We've just published a brand new, comprehensive course on the freeCodeCamp.org…
-</td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 17h ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 22h ago</sub><br>
 <a href="https://laravel-news.com/eloquent-refreshes-attribute?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Eloquent Refreshes: Load Generated Columns After Save</b></a>
 <br><br>
 Laravel's new Refreshes attribute reloads storedAs and virtualAs columns after create() and update(), so the model has the database value without refresh().
 </td>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 22h ago</sub><br>
-<a href="https://github.blog/engineering/user-experience/rendering-huge-pull-requests-in-the-github-copilot-app/"><b>Rendering huge pull requests in the GitHub Copilot app</b></a>
-<br><br>
-How we rebuilt the diff surface in the GitHub Copilot app to open a million-line pull request with hundreds of inline review comments.
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>NEXT.JS</code>&nbsp; 23h ago</sub><br>
+<sub><code>NEXT.JS</code>&nbsp; 1d ago</sub><br>
 <a href="https://nextjs.org/blog/upcoming-nextjs-security-release-september-2026"><b>Upcoming Next.js September Security Release</b></a>
 <br><br>
 Next.js is preparing a scheduled September security release for September 30, 2026.
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
 <a href="https://laravel-news.com/laravel-ai-sdk-1-0?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Laravel AI SDK 1.0 Adds Classification and Tool Approvals</b></a>
 <br><br>
 Laravel AI SDK 1.0 is out with Jev classification, Vercel Chat and AG-UI streaming, approvable tool calls, and per-step agent middleware.
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 1d ago</sub><br>
-<a href="https://github.blog/news-insights/research/developers-want-more-efficient-software-heres-what-over-1000-github-users-told-us-they-need/"><b>Developers want more efficient software. Here’s what over 1000 GitHub users told us they need.</b></a>
-<br><br>
-New research from GitHub and Yale Program on Climate Change Communication finds strong demand for tools, measurement, and practical guidance that can help developers reduce wasted compute.
 </td>
 <td width="50%" valign="top">
 <sub><code>STACKOVERFLOW</code>&nbsp; 1d ago</sub><br>
@@ -120,7 +120,7 @@ Ryan chats with the GM of Slack, Rob Seaman, about how their new Code Channels f
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 25 Sep 2026 00:09 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 25 Sep 2026 04:29 WIB.</sub>
 
 <!-- NEWS:END -->
 
