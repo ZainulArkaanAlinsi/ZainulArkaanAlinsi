@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=dc7984ecbd" />
-  <img src="./assets/activity-light.svg?v=ba38274304" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=7cf342b296" />
+  <img src="./assets/activity-light.svg?v=976b5fdf95" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=365508820d" />
-  <img src="./assets/news-light.svg?v=b01a16b158" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=ae6b7bbbf8" />
+  <img src="./assets/news-light.svg?v=6c5ea2780f" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,41 +36,41 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://github.com/Avinash-jetwani/jevmem"><b>Jevmem – automatic project memory for Claude Code, built on Jev</b></a>
+<sub><code>HN</code>&nbsp; 55m ago</sub><br>
+<a href="https://www.tai-dr.com/"><b>Too AI; Didn't Read</b></a>
 <br><br>
-33 points and 25 comments on the Hacker News front page · github.com
+33 points and 24 comments on the Hacker News front page · tai-dr.com
 </td>
 <td width="50%" valign="top">
 <sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://www.quantamagazine.org/gravity-seems-holographic-what-does-that-mean-for-reality-20260925/"><b>Gravity Seems Holographic. What Does That Mean for Reality?</b></a>
+<a href="https://www.reuters.com/business/environment/rising-sea-destroys-homes-erases-beaches-california-is-worse-come-2026-09-25/"><b>Rising sea destroys homes, erases beaches in California</b></a>
 <br><br>
-18 points and 26 comments on the Hacker News front page · quantamagazine.org
+28 points and 21 comments on the Hacker News front page · reuters.com
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 2h ago</sub><br>
-<a href="https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css/"><b>Improving site performance by shipping more CSS</b></a>
+<sub><code>DEV</code>&nbsp; 3h ago</sub><br>
+<a href="https://dev.to/soumyadeepdey/the-impostor-was-never-dealt-so-we-made-the-deal-provable-56nk"><b>The Impostor Was Never Dealt. So We Made the Deal Provable.</b></a>
 <br><br>
-A look at how a design system shipped major changes without breaking the world.
+Retrofitting zero knowledge anti-cheat onto an open-source Among Us clone with Midnight's Compact, with a former rival on the team.
 </td>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 2h ago</sub><br>
-<a href="https://dev.to/aws-builders/i-followed-the-n8n-aws-docs-and-it-broke-at-the-first-command-4e1k"><b>I Followed the n8n AWS Docs and It Broke at the First Command</b></a>
+<sub><code>GITHUB</code>&nbsp; 3h ago</sub><br>
+<a href="https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/"><b>GitHub Copilot app for Beginners: How to build custom workflows with canvases</b></a>
 <br><br>
-The one command that breaks n8n self-hosting on Amazon Linux 2023, why it happens, and the full paste-ready Docker Compose setup that gets you from a bare EC2 box to your first login.
+Describe the interface you need in plain English, then let the agent build a live surface you can both use and update—so you spend less time adapting to tools and more time getting work…
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 <sub><code>DEV</code>&nbsp; 4h ago</sub><br>
-<a href="https://dev.to/devteam/what-was-your-win-this-week-odj"><b>What was your win this week!?</b></a>
+<a href="https://dev.to/cseeman/did-i-miss-anything-rails-world-fomo-and-what-i-actually-want-from-a-conference-4o0n"><b>Did I Miss Anything? Rails World FOMO and What I Actually Want From a Conference</b></a>
 <br><br>
-👋👋👋👋 Looking back on your week -- what was something you're proud of? All wins count -- big or small...
+Rails World happened this week in Austin, and I wasn't there. So did I miss anything? A look at big-conference FOMO, what small conferences give you, and what I want from a technical…
 </td>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 7h ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 11h ago</sub><br>
 <a href="https://laravel-news.com/decide-with-jev-laravel-ai-that-answers-with-a-probability?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Decide with Jev: Laravel AI That Answers with a Probability</b></a>
 <br><br>
 Decide with Jev is a new mini course where we build an app that checks if a draft does what its brief asked for. It uses Jev, an AI model from TypeSafe that answers with a number instead of…
@@ -78,13 +78,13 @@ Decide with Jev is a new mini course where we build an app that checks if a draf
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 9h ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 13h ago</sub><br>
 <a href="https://stackoverflow.blog/2026/09/25/professional-skepticism-is-a-dev-s-best-skill/"><b>Professional skepticism is a dev’s best skill</b></a>
 <br><br>
 Ryan chats with David Burns, Head of Developer Advocacy and Open Source at BrowserStack, about the value of professional skepticism in an AI-driven world, applying test-driven development…
 </td>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 14h ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 19h ago</sub><br>
 <a href="https://laravel-news.com/laravel-tagged-memoized-cache?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Memoize Tagged Cache Reads in Laravel</b></a>
 <br><br>
 Use Cache::memo()-&gt;tags() in Laravel to read tagged cache values once per request and serve repeat lookups from memory, with writes and flushes kept in sync.
@@ -92,35 +92,35 @@ Use Cache::memo()-&gt;tags() in Laravel to read tagged cache values once per req
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 21h ago</sub><br>
-<a href="https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui/"><b>When chat is the wrong UI</b></a>
-<br><br>
-What is a developer to do when they need something more tangible than a chat box? Enter canvases.
-</td>
-<td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 22h ago</sub><br>
-<a href="https://www.freecodecamp.org/news/inside-seahack-24-hours-to-build-an-ai-startup/"><b>Inside SeaHack: 24 Hours to Build an AI Startup</b></a>
+<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
+<a href="https://www.freecodecamp.org/news/inside-seahack-24-hours-to-build-an-ai-startup/"><b>Inside a Hong Kong Hackathon [Full freeCodeCamp Documentary]</b></a>
 <br><br>
 We just published a new documentary-style video on the freeCodeCamp channel that takes you behind the scenes of a high-energy 24-hour hackathon. Quincy Larson traveled to Hong Kong to serve…
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/executable-operational-specifications-software-automation/"><b>How Executable Operational Specifications Can Make Software Automation Verifiable</b></a>
 <br><br>
 Modern software systems are increasingly automated. We automate deployments, infrastructure changes, scaling, incident response, and data pipelines. And now, with AI agents, we are starting…
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
-<sub><code>NEXT.JS</code>&nbsp; 1d ago</sub><br>
+<sub><code>NEXT.JS</code>&nbsp; 2d ago</sub><br>
 <a href="https://nextjs.org/blog/upcoming-nextjs-security-release-september-2026"><b>Upcoming Next.js September Security Release</b></a>
 <br><br>
 Next.js is preparing a scheduled September security release for September 30, 2026.
 </td>
+<td width="50%" valign="top">
+<sub><code>STACKOVERFLOW</code>&nbsp; 2d ago</sub><br>
+<a href="https://stackoverflow.blog/2026/09/23/multiplayer-ai-why-your-team-and-its-agents-need-a-group-chat/"><b>Multiplayer AI: Why your team (and its agents) need a group chat</b></a>
+<br><br>
+Ryan chats with the GM of Slack, Rob Seaman, about how their new Code Channels feature is bringing multiplayer AI to your team chats.
+</td>
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 26 Sep 2026 00:09 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 26 Sep 2026 04:33 WIB.</sub>
 
 <!-- NEWS:END -->
 
