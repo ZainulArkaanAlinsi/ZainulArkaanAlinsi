@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=fbb8db3b7e" />
-  <img src="./assets/activity-light.svg?v=fe6f82c36e" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=82edf42d3d" />
+  <img src="./assets/activity-light.svg?v=f1826d827d" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=4d2f30b8d5" />
-  <img src="./assets/news-light.svg?v=905d5468c5" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=7c2a86eaef" />
+  <img src="./assets/news-light.svg?v=c6d7151666" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,35 +36,35 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html"><b>One Month Without AI</b></a>
+<sub><code>HN</code>&nbsp; 42m ago</sub><br>
+<a href="https://techcrunch.com/2026/09/25/automattic-has-a-new-board-after-failed-attempt-to-put-ceo-on-leave/"><b>Automattic has a new board after failed attempt to put CEO on leave</b></a>
 <br><br>
-13 points and 4 comments on the Hacker News front page · blog.bustikiller.com
+13 points and 10 comments on the Hacker News front page · techcrunch.com
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 2h ago</sub><br>
-<a href="https://lexontech.org/fifteen-years-later-the-apple-cards-origin-story"><b>Fifteen years later, the Apple Cards origin story</b></a>
+<sub><code>HN</code>&nbsp; 47m ago</sub><br>
+<a href="https://github.com/brumar/chess-postmortem-skills"><b>Show HN: A Claude Code skill to analyze your chess games</b></a>
 <br><br>
-57 points and 2 comments on the Hacker News front page · lexontech.org
+Hello HN, It started as an experiment: can Claude play chess properly if it uses vision instead of PGN notation? Somehow it can. The next experiment was to see whether Claude + Stockfish…
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 6h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 5h ago</sub><br>
+<a href="https://dev.to/mikachu/i-built-a-better-codex-pet-than-openai-did-eib"><b>I Built a Better Codex Pet Than OpenAI Did</b></a>
+<br><br>
+Sometimes you just have to let the agent cook. Mika vs. a multi-billion-dollar...
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 11h ago</sub><br>
 <a href="https://dev.to/infoinlet1/everyones-learning-to-prompt-better-thats-the-wrong-skill-544o"><b>Everyone's learning to prompt better. That's the wrong skill.</b></a>
 <br><br>
 I have a bookmark folder called prompting. Forty-one tabs in it. &quot;The 12 prompts that 10x your...
 </td>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 7h ago</sub><br>
-<a href="https://dev.to/robertadam987_/if-ai-writes-the-code-and-ai-reviews-the-code-what-exactly-is-the-developer-verifying-b5h"><b>If AI Writes the Code and AI Reviews the Code, What Exactly Is the Developer Verifying?</b></a>
-<br><br>
-AI can now write the feature. Then AI can write the tests. Then AI can open the pull request. Then...
-</td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 17h ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 22h ago</sub><br>
 <a href="https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/"><b>GitHub Copilot app for Beginners: How to build custom workflows with canvases</b></a>
 <br><br>
 Describe the interface you need in plain English, then let the agent build a live surface you can both use and update—so you spend less time adapting to tools and more time getting work…
@@ -98,7 +98,7 @@ Use Cache::memo()-&gt;tags() in Laravel to read tagged cache values once per req
 We just published a new documentary-style video on the freeCodeCamp channel that takes you behind the scenes of a high-energy 24-hour hackathon. Quincy Larson traveled to Hong Kong to serve…
 </td>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 2d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/executable-operational-specifications-software-automation/"><b>How Executable Operational Specifications Can Make Software Automation Verifiable</b></a>
 <br><br>
 Modern software systems are increasingly automated. We automate deployments, infrastructure changes, scaling, incident response, and data pipelines. And now, with AI agents, we are starting…
@@ -120,7 +120,7 @@ Ryan chats with the GM of Slack, Rob Seaman, about how their new Code Channels f
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 26 Sep 2026 18:22 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 26 Sep 2026 23:22 WIB.</sub>
 
 <!-- NEWS:END -->
 
