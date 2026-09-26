@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=82edf42d3d" />
-  <img src="./assets/activity-light.svg?v=f1826d827d" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=543806b1d9" />
+  <img src="./assets/activity-light.svg?v=8d1de69997" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=7c2a86eaef" />
-  <img src="./assets/news-light.svg?v=c6d7151666" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=6bcff80f00" />
+  <img src="./assets/news-light.svg?v=fb48e73c69" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,35 +36,35 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 42m ago</sub><br>
-<a href="https://techcrunch.com/2026/09/25/automattic-has-a-new-board-after-failed-attempt-to-put-ceo-on-leave/"><b>Automattic has a new board after failed attempt to put CEO on leave</b></a>
+<sub><code>HN</code>&nbsp; 59m ago</sub><br>
+<a href="https://www.lightspeedmagazine.com/fiction/welcome-to-the-medical-clinic-at-the-interplanetary-relay-station/"><b>Welcome to the Medical Clinic at the Interplanetary Relay Station</b></a>
 <br><br>
-13 points and 10 comments on the Hacker News front page · techcrunch.com
+4 points and 0 comments on the Hacker News front page · lightspeedmagazine.com
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 47m ago</sub><br>
-<a href="https://github.com/brumar/chess-postmortem-skills"><b>Show HN: A Claude Code skill to analyze your chess games</b></a>
+<sub><code>HN</code>&nbsp; 2h ago</sub><br>
+<a href="https://arxiv.org/abs/2609.22978"><b>DeepSeek Elastic Compute (DSec)</b></a>
 <br><br>
-Hello HN, It started as an experiment: can Claude play chess properly if it uses vision instead of PGN notation? Somehow it can. The next experiment was to see whether Claude + Stockfish…
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 5h ago</sub><br>
-<a href="https://dev.to/mikachu/i-built-a-better-codex-pet-than-openai-did-eib"><b>I Built a Better Codex Pet Than OpenAI Did</b></a>
-<br><br>
-Sometimes you just have to let the agent cook. Mika vs. a multi-billion-dollar...
-</td>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 11h ago</sub><br>
-<a href="https://dev.to/infoinlet1/everyones-learning-to-prompt-better-thats-the-wrong-skill-544o"><b>Everyone's learning to prompt better. That's the wrong skill.</b></a>
-<br><br>
-I have a bookmark folder called prompting. Forty-one tabs in it. &quot;The 12 prompts that 10x your...
+40 points and 10 comments on the Hacker News front page · arxiv.org
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 22h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 7h ago</sub><br>
+<a href="https://dev.to/maame-codes/someone-already-built-that-is-the-favourite-excuse-of-broke-developers-44o6"><b>'Someone Already Built That' is the Favourite Excuse of Broke Developers</b></a>
+<br><br>
+Let me tell you a quick story about a developer named Sam. Sam is incredibly smart. For a whole...
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 8h ago</sub><br>
+<a href="https://dev.to/sheships/how-i-actually-learn-new-skills-no-tutorial-required-3iia"><b>How I Actually Learn New Skills (No Tutorial Required)</b></a>
+<br><br>
+I used to think learning meant reading, watching, absorbing. Now I think learning mostly means...
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>GITHUB</code>&nbsp; 1d ago</sub><br>
 <a href="https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/"><b>GitHub Copilot app for Beginners: How to build custom workflows with canvases</b></a>
 <br><br>
 Describe the interface you need in plain English, then let the agent build a live surface you can both use and update—so you spend less time adapting to tools and more time getting work…
@@ -92,7 +92,7 @@ Use Cache::memo()-&gt;tags() in Laravel to read tagged cache values once per req
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 2d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/inside-seahack-24-hours-to-build-an-ai-startup/"><b>Inside a Hong Kong Hackathon [Full freeCodeCamp Documentary]</b></a>
 <br><br>
 We just published a new documentary-style video on the freeCodeCamp channel that takes you behind the scenes of a high-energy 24-hour hackathon. Quincy Larson traveled to Hong Kong to serve…
@@ -106,7 +106,7 @@ Modern software systems are increasingly automated. We automate deployments, inf
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>NEXT.JS</code>&nbsp; 2d ago</sub><br>
+<sub><code>NEXT.JS</code>&nbsp; 3d ago</sub><br>
 <a href="https://nextjs.org/blog/upcoming-nextjs-security-release-september-2026"><b>Upcoming Next.js September Security Release</b></a>
 <br><br>
 Next.js is preparing a scheduled September security release for September 30, 2026.
@@ -120,13 +120,13 @@ Ryan chats with the GM of Slack, Rob Seaman, about how their new Code Channels f
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 26 Sep 2026 23:22 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 27 Sep 2026 04:08 WIB.</sub>
 
 <!-- NEWS:END -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20260926" />
-  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20260926" width="100%" alt="A snake eating this year's contribution squares" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20260927" />
+  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20260927" width="100%" alt="A snake eating this year's contribution squares" />
 </picture>
 
 <picture>
