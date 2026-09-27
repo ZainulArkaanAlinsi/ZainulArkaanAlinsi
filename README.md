@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=29fb11a277" />
-  <img src="./assets/activity-light.svg?v=3291dda845" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=98149600ea" />
+  <img src="./assets/activity-light.svg?v=d9a087db46" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=23d3344cf2" />
-  <img src="./assets/news-light.svg?v=62a0637e54" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=b0c0ebe225" />
+  <img src="./assets/news-light.svg?v=4e16fb3039" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -37,29 +37,29 @@
 <tr>
 <td width="50%" valign="top">
 <sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://blog.codinghorror.com/if-we-do-not-stop-to-help-each-other-what-do-we-become/"><b>If we do not stop to help each other, what do we become?</b></a>
+<a href="https://arxiv.org/abs/2609.25021"><b>&quot;As a Language Model&quot;: Chat Template Switches LLM Self-Referential Voice</b></a>
 <br><br>
-90 points and 22 comments on the Hacker News front page · blog.codinghorror.com
+36 points and 24 comments on the Hacker News front page · arxiv.org
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 2h ago</sub><br>
-<a href="https://theborys.substack.com/p/what-is-the-size-of-yemen"><b>What is the size of Yemen? (2024)</b></a>
+<sub><code>DEV</code>&nbsp; 2h ago</sub><br>
+<a href="https://dev.to/alexgeorgiev17/containerd-22s-mount-manager-panics-on-a-one-mount-mkfs-chain-545n"><b>containerd 2.2's mount manager panics on a one-mount mkfs chain</b></a>
 <br><br>
-66 points and 11 comments on the Hacker News front page · theborys.substack.com
+I measured containerd 2.2's new mount manager against doing the same loopback ext4 setup by hand: 24ms manual versus 30-47ms through the API, then found a reproducible index-out-of-range…
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 6h ago</sub><br>
-<a href="https://dev.to/mikachu/i-got-rejected-2-minutes-after-applying-so-much-for-skills-based-hiring-4315"><b>I Got Rejected 2 Minutes After Applying. So Much for 'Skills-Based Hiring.'</b></a>
+<sub><code>HN</code>&nbsp; 2h ago</sub><br>
+<a href="https://www.light-cloud.com/"><b>Show HN: LightCloud – A cloud console organised like file system</b></a>
 <br><br>
-I applied for a Junior Solutions Engineer role today. Not a senior role. Not a staff role. Not some...
+Hi HN, Light Cloud is a hosting platform where the unit of organisation is a folder. A folder holds everything project needs: frontend, API, database, env variables, preview per branch.
 </td>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 15h ago</sub><br>
-<a href="https://dev.to/maame-codes/someone-already-built-that-is-the-favourite-excuse-of-broke-developers-44o6"><b>'Someone Already Built That' is the Favourite Excuse of Broke Developers</b></a>
+<sub><code>DEV</code>&nbsp; 4h ago</sub><br>
+<a href="https://dev.to/dj29/chain-of-thought-faithfulness-toggling-reasoning-mode-made-one-model-5x-more-likely-to-follow-39b3"><b>Chain-of-Thought Faithfulness: Toggling 'Reasoning Mode' Made One Model 5x More Likely to…</b></a>
 <br><br>
-Let me tell you a quick story about a developer named Sam. Sam is incredibly smart. For a whole...
+This is a submission for the Kaggle Benchmarking Challenge What I Benchmarked A while...
 </td>
 </tr>
 <tr>
@@ -70,7 +70,7 @@ Let me tell you a quick story about a developer named Sam. Sam is incredibly sma
 Describe the interface you need in plain English, then let the agent build a live surface you can both use and update—so you spend less time adapting to tools and more time getting work…
 </td>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 2d ago</sub><br>
 <a href="https://laravel-news.com/decide-with-jev-laravel-ai-that-answers-with-a-probability?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Decide with Jev: Laravel AI That Answers with a Probability</b></a>
 <br><br>
 Decide with Jev is a new mini course where we build an app that checks if a draft does what its brief asked for. It uses Jev, an AI model from TypeSafe that answers with a number instead of…
@@ -78,7 +78,7 @@ Decide with Jev is a new mini course where we build an app that checks if a draf
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 1d ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 2d ago</sub><br>
 <a href="https://stackoverflow.blog/2026/09/25/professional-skepticism-is-a-dev-s-best-skill/"><b>Professional skepticism is a dev’s best skill</b></a>
 <br><br>
 Ryan chats with David Burns, Head of Developer Advocacy and Open Source at BrowserStack, about the value of professional skepticism in an AI-driven world, applying test-driven development…
@@ -120,7 +120,7 @@ Ryan chats with the GM of Slack, Rob Seaman, about how their new Code Channels f
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 27 Sep 2026 12:16 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 27 Sep 2026 19:00 WIB.</sub>
 
 <!-- NEWS:END -->
 
