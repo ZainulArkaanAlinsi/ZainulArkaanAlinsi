@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=543806b1d9" />
-  <img src="./assets/activity-light.svg?v=8d1de69997" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=29fb11a277" />
+  <img src="./assets/activity-light.svg?v=3291dda845" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=6bcff80f00" />
-  <img src="./assets/news-light.svg?v=fb48e73c69" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=23d3344cf2" />
+  <img src="./assets/news-light.svg?v=62a0637e54" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,30 +36,30 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 59m ago</sub><br>
-<a href="https://www.lightspeedmagazine.com/fiction/welcome-to-the-medical-clinic-at-the-interplanetary-relay-station/"><b>Welcome to the Medical Clinic at the Interplanetary Relay Station</b></a>
+<sub><code>HN</code>&nbsp; 1h ago</sub><br>
+<a href="https://blog.codinghorror.com/if-we-do-not-stop-to-help-each-other-what-do-we-become/"><b>If we do not stop to help each other, what do we become?</b></a>
 <br><br>
-4 points and 0 comments on the Hacker News front page · lightspeedmagazine.com
+90 points and 22 comments on the Hacker News front page · blog.codinghorror.com
 </td>
 <td width="50%" valign="top">
 <sub><code>HN</code>&nbsp; 2h ago</sub><br>
-<a href="https://arxiv.org/abs/2609.22978"><b>DeepSeek Elastic Compute (DSec)</b></a>
+<a href="https://theborys.substack.com/p/what-is-the-size-of-yemen"><b>What is the size of Yemen? (2024)</b></a>
 <br><br>
-40 points and 10 comments on the Hacker News front page · arxiv.org
+66 points and 11 comments on the Hacker News front page · theborys.substack.com
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 7h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 6h ago</sub><br>
+<a href="https://dev.to/mikachu/i-got-rejected-2-minutes-after-applying-so-much-for-skills-based-hiring-4315"><b>I Got Rejected 2 Minutes After Applying. So Much for 'Skills-Based Hiring.'</b></a>
+<br><br>
+I applied for a Junior Solutions Engineer role today. Not a senior role. Not a staff role. Not some...
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 15h ago</sub><br>
 <a href="https://dev.to/maame-codes/someone-already-built-that-is-the-favourite-excuse-of-broke-developers-44o6"><b>'Someone Already Built That' is the Favourite Excuse of Broke Developers</b></a>
 <br><br>
 Let me tell you a quick story about a developer named Sam. Sam is incredibly smart. For a whole...
-</td>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 8h ago</sub><br>
-<a href="https://dev.to/sheships/how-i-actually-learn-new-skills-no-tutorial-required-3iia"><b>How I Actually Learn New Skills (No Tutorial Required)</b></a>
-<br><br>
-I used to think learning meant reading, watching, absorbing. Now I think learning mostly means...
 </td>
 </tr>
 <tr>
@@ -84,7 +84,7 @@ Decide with Jev is a new mini course where we build an app that checks if a draf
 Ryan chats with David Burns, Head of Developer Advocacy and Open Source at BrowserStack, about the value of professional skepticism in an AI-driven world, applying test-driven development…
 </td>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 2d ago</sub><br>
 <a href="https://laravel-news.com/laravel-tagged-memoized-cache?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Memoize Tagged Cache Reads in Laravel</b></a>
 <br><br>
 Use Cache::memo()-&gt;tags() in Laravel to read tagged cache values once per request and serve repeat lookups from memory, with writes and flushes kept in sync.
@@ -112,7 +112,7 @@ Modern software systems are increasingly automated. We automate deployments, inf
 Next.js is preparing a scheduled September security release for September 30, 2026.
 </td>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 3d ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 4d ago</sub><br>
 <a href="https://stackoverflow.blog/2026/09/23/multiplayer-ai-why-your-team-and-its-agents-need-a-group-chat/"><b>Multiplayer AI: Why your team (and its agents) need a group chat</b></a>
 <br><br>
 Ryan chats with the GM of Slack, Rob Seaman, about how their new Code Channels feature is bringing multiplayer AI to your team chats.
@@ -120,7 +120,7 @@ Ryan chats with the GM of Slack, Rob Seaman, about how their new Code Channels f
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 27 Sep 2026 04:08 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 27 Sep 2026 12:16 WIB.</sub>
 
 <!-- NEWS:END -->
 
