@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=bd42edc54e" />
-  <img src="./assets/activity-light.svg?v=22af0317bf" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=1e6a54f94c" />
+  <img src="./assets/activity-light.svg?v=fcbfe41ab4" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=48a1787a22" />
-  <img src="./assets/news-light.svg?v=470843b369" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=192b30e902" />
+  <img src="./assets/news-light.svg?v=17800c26a0" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,41 +36,41 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 27m ago</sub><br>
-<a href="https://www.theguardian.com/technology/2026/sep/27/openai-halts-training-of-latest-models-as-reports-mount-of-ai-agents-going-rogue"><b>OpenAI halts training of latest models as reports mount of AI agents going rogue</b></a>
+<sub><code>HN</code>&nbsp; 13m ago</sub><br>
+<a href="https://notes.secretsauce.net/notes/2026/09/27_lunar-terminator-paradox.html"><b>Lunar Terminator Paradox</b></a>
 <br><br>
-3 points and 1 comment on the Hacker News front page · theguardian.com
+6 points and 0 comments on the Hacker News front page · notes.secretsauce.net
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 37m ago</sub><br>
-<a href="https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents"><b>There are no &quot;rogue&quot; AI agents</b></a>
+<sub><code>HN</code>&nbsp; 1h ago</sub><br>
+<a href="https://globalnews.ca/news/12073854/quebec-election-u-s-interference/"><b>Allegations of US interference in Quebec election</b></a>
 <br><br>
-14 points and 2 comments on the Hacker News front page · eoinhiggins.substack.com
+21 points and 9 comments on the Hacker News front page · globalnews.ca
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 <sub><code>DEV</code>&nbsp; 3h ago</sub><br>
-<a href="https://dev.to/mikachu/i-tried-to-prompt-a-3d-dev-library-into-existence-then-i-had-to-build-my-own-level-editor-37gf"><b>I Tried to Prompt a 3D DEV Library Into Existence. Then I Had to Build My Own Level Editor.</b></a>
+<a href="https://dev.to/codenameone/one-vault-from-your-phone-to-the-browser-1p84"><b>One Vault, from Your Phone to the Browser</b></a>
 <br><br>
-This is a submission for the Sanity Challenge, Path Two: Vibe-Code Something Strange. I started...
+Use Codename One's Vault API to encrypt synchronized records, keep operational keys opaque, and choose password, remembered-device, or passkey unlock.
 </td>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 4h ago</sub><br>
-<a href="https://dev.to/marcosomma/what-an-anthill-can-teach-us-about-orchestrating-agents-e2a"><b>What an anthill can teach us about orchestrating agents.</b></a>
+<sub><code>DEV</code>&nbsp; 6h ago</sub><br>
+<a href="https://dev.to/mikachu/they-invited-me-to-apply-two-days-later-they-rejected-me-4mmf"><b>They Invited Me to Apply. Two Days Later, They Rejected Me.</b></a>
 <br><br>
-Findings from ant-sim, a colony simulator I wrote in 2021 and reworked in 2026. Every number below...
+Job Search Diaries, Part 2 Last time, I got rejected 2 minutes after applying to a job I found...
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 8h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 13h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-to-level-up-your-portfolio-in-the-ai-era-from-technical-writer-to-developer-educator/"><b>How to Level Up Your Portfolio in the AI Era: From Technical Writer to Developer Educator</b></a>
 <br><br>
 Until recently, building a technical writing portfolio could be as simple as creating a website, adding a list of articles, describing your writing experience, and linking to your social…
 </td>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 1d ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 2d ago</sub><br>
 <a href="https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/"><b>GitHub Copilot app for Beginners: How to build custom workflows with canvases</b></a>
 <br><br>
 Describe the interface you need in plain English, then let the agent build a live surface you can both use and update—so you spend less time adapting to tools and more time getting work…
@@ -98,7 +98,7 @@ Ryan chats with David Burns, Head of Developer Advocacy and Open Source at Brows
 Use Cache::memo()-&gt;tags() in Laravel to read tagged cache values once per request and serve repeat lookups from memory, with writes and flushes kept in sync.
 </td>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 2d ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 3d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/inside-seahack-24-hours-to-build-an-ai-startup/"><b>Inside a Hong Kong Hackathon [Full freeCodeCamp Documentary]</b></a>
 <br><br>
 We just published a new documentary-style video on the freeCodeCamp channel that takes you behind the scenes of a high-energy 24-hour hackathon. Quincy Larson traveled to Hong Kong to serve…
@@ -106,7 +106,7 @@ We just published a new documentary-style video on the freeCodeCamp channel that
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>NEXT.JS</code>&nbsp; 3d ago</sub><br>
+<sub><code>NEXT.JS</code>&nbsp; 4d ago</sub><br>
 <a href="https://nextjs.org/blog/upcoming-nextjs-security-release-september-2026"><b>Upcoming Next.js September Security Release</b></a>
 <br><br>
 Next.js is preparing a scheduled September security release for September 30, 2026.
@@ -120,13 +120,13 @@ Ryan chats with the GM of Slack, Rob Seaman, about how their new Code Channels f
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 27 Sep 2026 23:56 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 28 Sep 2026 04:19 WIB.</sub>
 
 <!-- NEWS:END -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20260927" />
-  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20260927" width="100%" alt="A snake eating this year's contribution squares" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20260928" />
+  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20260928" width="100%" alt="A snake eating this year's contribution squares" />
 </picture>
 
 <picture>
