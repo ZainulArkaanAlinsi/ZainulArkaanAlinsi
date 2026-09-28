@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=0795c508b2" />
-  <img src="./assets/activity-light.svg?v=c346ce951e" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=71b3ea4dac" />
+  <img src="./assets/activity-light.svg?v=ce6585cbdf" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=3a10b2cd68" />
-  <img src="./assets/news-light.svg?v=a1c1a5290e" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=b4c5a58197" />
+  <img src="./assets/news-light.svg?v=a42352ea02" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,35 +36,49 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://arxiv.org/abs/2110.01834"><b>Thinking Fast and Slow in AI: The Role of Metacognition</b></a>
+<sub><code>HN</code>&nbsp; 20m ago</sub><br>
+<a href="https://www.petervijeh.com/projects/reddit-astroturf"><b>Does Reddit have an astroturfing problem? What the data suggests</b></a>
 <br><br>
-31 points and 2 comments on the Hacker News front page · arxiv.org
+14 points and 4 comments on the Hacker News front page · petervijeh.com
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 2h ago</sub><br>
-<a href="https://www.tomshardware.com/tablets/microsoft-surface/microsoft-quietly-drops-copilot-branding-from-its-new-laptops-surface-cvp-confirms-new-devices-meet-hardware-requirements-but-lack-controversial-branding"><b>Microsoft drops Copilot+ branding from its new laptops</b></a>
+<sub><code>LOBSTERS</code>&nbsp; 1h ago</sub><br>
+<a href="https://lobste.rs/s/hgmgp2/what_are_you_doing_this_week"><b>What are you doing this week?</b></a>
 <br><br>
-33 points and 15 comments on the Hacker News front page · tomshardware.com
+What are you doing this week? Feel free to share! Keep in mind it’s OK to do nothing at all, too.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>HN</code>&nbsp; 1h ago</sub><br>
+<a href="https://github.com/ahmd-sh/hntui"><b>Show HN: Hntui – A TUI for Hacker News</b></a>
+<br><br>
+hi there! i'd like you to try out a tui i made for browsing hackernews. it's built using opentui and also effect (learning experiment). i really like it and i think you will too!
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 6h ago</sub><br>
+<a href="https://dev.to/cyclopt_dimitrisk/half-the-ai-agents-in-production-are-if-statements-with-a-gpu-bill-4934"><b>Half the AI agents in production are if-statements with a GPU bill</b></a>
+<br><br>
+There's a new kind of technical debt, and it doesn't come from cutting corners. It comes from...
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 <sub><code>DEV</code>&nbsp; 6h ago</sub><br>
-<a href="https://dev.to/tom_jones_230c4659491adcd/implementation-is-where-judgements-go-to-become-invisible-4p1h"><b>Implementation is where judgements go to become invisible</b></a>
+<a href="https://dev.to/himanshu_748/tooltrap-tool-results-are-data-wasnt-enough-25oh"><b>ToolTrap: “tool results are data” wasn’t enough</b></a>
 <br><br>
-One question, three answers I have a small tool that finds people waiting for a reply from...
+Prepared for the Kaggle Benchmarking Challenge. What I Benchmarked I build agents for...
 </td>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 10h ago</sub><br>
-<a href="https://dev.to/nishikantaray/i-gave-8-llms-my-analytics-products-ai-job-the-cheap-ones-either-invent-a-reason-or-shrug-3f41"><b>8 LLMs, 480 Questions, 1 Kaggle Benchmark: Who Can Explain a Traffic Drop?</b></a>
+<sub><code>LARAVEL</code>&nbsp; 13h ago</sub><br>
+<a href="https://laravel-news.com/tashil-laravel-subscriptions?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Tashil: Laravel Subscription Plans and Feature Usage Limits</b></a>
 <br><br>
-This is a submission for the Kaggle Benchmarking Challenge What I Benchmarked ...
+Tashil is a Laravel package for subscription plans, feature limits, and usage tracking. It creates invoices and records payments from any gateway.
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 21h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-to-level-up-your-portfolio-in-the-ai-era-from-technical-writer-to-developer-educator/"><b>How to Level Up Your Portfolio in the AI Era: From Technical Writer to Developer Educator</b></a>
 <br><br>
 Until recently, building a technical writing portfolio could be as simple as creating a website, adding a list of articles, describing your writing experience, and linking to your social…
@@ -78,13 +92,13 @@ Describe the interface you need in plain English, then let the agent build a liv
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 2d ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 3d ago</sub><br>
 <a href="https://laravel-news.com/decide-with-jev-laravel-ai-that-answers-with-a-probability?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Decide with Jev: Laravel AI That Answers with a Probability</b></a>
 <br><br>
 Decide with Jev is a new mini course where we build an app that checks if a draft does what its brief asked for. It uses Jev, an AI model from TypeSafe that answers with a number instead of…
 </td>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 2d ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 3d ago</sub><br>
 <a href="https://stackoverflow.blog/2026/09/25/professional-skepticism-is-a-dev-s-best-skill/"><b>Professional skepticism is a dev’s best skill</b></a>
 <br><br>
 Ryan chats with David Burns, Head of Developer Advocacy and Open Source at BrowserStack, about the value of professional skepticism in an AI-driven world, applying test-driven development…
@@ -92,35 +106,21 @@ Ryan chats with David Burns, Head of Developer Advocacy and Open Source at Brows
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 3d ago</sub><br>
-<a href="https://laravel-news.com/laravel-tagged-memoized-cache?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Memoize Tagged Cache Reads in Laravel</b></a>
-<br><br>
-Use Cache::memo()-&gt;tags() in Laravel to read tagged cache values once per request and serve repeat lookups from memory, with writes and flushes kept in sync.
-</td>
-<td width="50%" valign="top">
 <sub><code>FREECODECAMP</code>&nbsp; 3d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/inside-seahack-24-hours-to-build-an-ai-startup/"><b>Inside a Hong Kong Hackathon [Full freeCodeCamp Documentary]</b></a>
 <br><br>
 We just published a new documentary-style video on the freeCodeCamp channel that takes you behind the scenes of a high-energy 24-hour hackathon. Quincy Larson traveled to Hong Kong to serve…
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <sub><code>NEXT.JS</code>&nbsp; 4d ago</sub><br>
 <a href="https://nextjs.org/blog/upcoming-nextjs-security-release-september-2026"><b>Upcoming Next.js September Security Release</b></a>
 <br><br>
 Next.js is preparing a scheduled September security release for September 30, 2026.
 </td>
-<td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 5d ago</sub><br>
-<a href="https://stackoverflow.blog/2026/09/23/multiplayer-ai-why-your-team-and-its-agents-need-a-group-chat/"><b>Multiplayer AI: Why your team (and its agents) need a group chat</b></a>
-<br><br>
-Ryan chats with the GM of Slack, Rob Seaman, about how their new Code Channels feature is bringing multiplayer AI to your team chats.
-</td>
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 28 Sep 2026 12:21 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · Lobsters · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 28 Sep 2026 20:51 WIB.</sub>
 
 <!-- NEWS:END -->
 
