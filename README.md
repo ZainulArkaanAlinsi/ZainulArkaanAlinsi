@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=1e6a54f94c" />
-  <img src="./assets/activity-light.svg?v=fcbfe41ab4" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=0795c508b2" />
+  <img src="./assets/activity-light.svg?v=c346ce951e" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=192b30e902" />
-  <img src="./assets/news-light.svg?v=17800c26a0" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=3a10b2cd68" />
+  <img src="./assets/news-light.svg?v=a1c1a5290e" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,35 +36,35 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 13m ago</sub><br>
-<a href="https://notes.secretsauce.net/notes/2026/09/27_lunar-terminator-paradox.html"><b>Lunar Terminator Paradox</b></a>
+<sub><code>HN</code>&nbsp; 1h ago</sub><br>
+<a href="https://arxiv.org/abs/2110.01834"><b>Thinking Fast and Slow in AI: The Role of Metacognition</b></a>
 <br><br>
-6 points and 0 comments on the Hacker News front page · notes.secretsauce.net
+31 points and 2 comments on the Hacker News front page · arxiv.org
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://globalnews.ca/news/12073854/quebec-election-u-s-interference/"><b>Allegations of US interference in Quebec election</b></a>
+<sub><code>HN</code>&nbsp; 2h ago</sub><br>
+<a href="https://www.tomshardware.com/tablets/microsoft-surface/microsoft-quietly-drops-copilot-branding-from-its-new-laptops-surface-cvp-confirms-new-devices-meet-hardware-requirements-but-lack-controversial-branding"><b>Microsoft drops Copilot+ branding from its new laptops</b></a>
 <br><br>
-21 points and 9 comments on the Hacker News front page · globalnews.ca
+33 points and 15 comments on the Hacker News front page · tomshardware.com
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 3h ago</sub><br>
-<a href="https://dev.to/codenameone/one-vault-from-your-phone-to-the-browser-1p84"><b>One Vault, from Your Phone to the Browser</b></a>
-<br><br>
-Use Codename One's Vault API to encrypt synchronized records, keep operational keys opaque, and choose password, remembered-device, or passkey unlock.
-</td>
 <td width="50%" valign="top">
 <sub><code>DEV</code>&nbsp; 6h ago</sub><br>
-<a href="https://dev.to/mikachu/they-invited-me-to-apply-two-days-later-they-rejected-me-4mmf"><b>They Invited Me to Apply. Two Days Later, They Rejected Me.</b></a>
+<a href="https://dev.to/tom_jones_230c4659491adcd/implementation-is-where-judgements-go-to-become-invisible-4p1h"><b>Implementation is where judgements go to become invisible</b></a>
 <br><br>
-Job Search Diaries, Part 2 Last time, I got rejected 2 minutes after applying to a job I found...
+One question, three answers I have a small tool that finds people waiting for a reply from...
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 10h ago</sub><br>
+<a href="https://dev.to/nishikantaray/i-gave-8-llms-my-analytics-products-ai-job-the-cheap-ones-either-invent-a-reason-or-shrug-3f41"><b>8 LLMs, 480 Questions, 1 Kaggle Benchmark: Who Can Explain a Traffic Drop?</b></a>
+<br><br>
+This is a submission for the Kaggle Benchmarking Challenge What I Benchmarked ...
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 13h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 21h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-to-level-up-your-portfolio-in-the-ai-era-from-technical-writer-to-developer-educator/"><b>How to Level Up Your Portfolio in the AI Era: From Technical Writer to Developer Educator</b></a>
 <br><br>
 Until recently, building a technical writing portfolio could be as simple as creating a website, adding a list of articles, describing your writing experience, and linking to your social…
@@ -92,7 +92,7 @@ Ryan chats with David Burns, Head of Developer Advocacy and Open Source at Brows
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 2d ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 3d ago</sub><br>
 <a href="https://laravel-news.com/laravel-tagged-memoized-cache?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Memoize Tagged Cache Reads in Laravel</b></a>
 <br><br>
 Use Cache::memo()-&gt;tags() in Laravel to read tagged cache values once per request and serve repeat lookups from memory, with writes and flushes kept in sync.
@@ -112,7 +112,7 @@ We just published a new documentary-style video on the freeCodeCamp channel that
 Next.js is preparing a scheduled September security release for September 30, 2026.
 </td>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 4d ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 5d ago</sub><br>
 <a href="https://stackoverflow.blog/2026/09/23/multiplayer-ai-why-your-team-and-its-agents-need-a-group-chat/"><b>Multiplayer AI: Why your team (and its agents) need a group chat</b></a>
 <br><br>
 Ryan chats with the GM of Slack, Rob Seaman, about how their new Code Channels feature is bringing multiplayer AI to your team chats.
@@ -120,7 +120,7 @@ Ryan chats with the GM of Slack, Rob Seaman, about how their new Code Channels f
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 28 Sep 2026 04:19 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 28 Sep 2026 12:21 WIB.</sub>
 
 <!-- NEWS:END -->
 
