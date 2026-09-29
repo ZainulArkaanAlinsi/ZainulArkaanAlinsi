@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=a86f447947" />
-  <img src="./assets/activity-light.svg?v=ea24f72cc3" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=132cba89f5" />
+  <img src="./assets/activity-light.svg?v=945a7798e3" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=a457469eec" />
-  <img src="./assets/news-light.svg?v=e2f93ddb03" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=c6fa984039" />
+  <img src="./assets/news-light.svg?v=8542efe3dc" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,41 +36,55 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 6m ago</sub><br>
-<a href="https://spectrum.ieee.org/delhi-electricity-loss"><b>Delhi Cut Electricity Loss from 50 to 5 Percent</b></a>
+<sub><code>HN</code>&nbsp; 2h ago</sub><br>
+<a href="https://postalemployeenetwork.com/news/2026/09/26/u-s-postal-inspectors-shut-down-website-selling-millions-of-counterfeit-postage-labels/"><b>U.S. postal inspectors shut down website selling counterfeit postage labels</b></a>
 <br><br>
-5 points and 0 comments on the Hacker News front page · spectrum.ieee.org
+97 points and 47 comments on the Hacker News front page · postalemployeenetwork.com
 </td>
 <td width="50%" valign="top">
-<sub><code>LOBSTERS</code>&nbsp; 34m ago</sub><br>
-<a href="https://lobste.rs/s/s7rwne/anubis_currerntly_breaking_commenting"><b>Anubis currerntly breaking commenting</b></a>
+<sub><code>HN</code>&nbsp; 2h ago</sub><br>
+<a href="https://icm.museum/blog/?p=698"><b>Galaxy Game – Interim Computer Museum</b></a>
 <br><br>
-When I go to post a comment, the comment text box doesn't show up anymore. Instead the page content becomes corrupt and the Anubis HTML gets plopped into the page HTML somewhere, and then…
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://www.tomshardware.com/software/the-netherlands-is-rolling-alternative-nixos-based-software-ecosystem-after-u-s-sanctions-on-icc-took-microsoft-off-the-table-trial-programs-running-now-first-release-expected-at-end-of-2027"><b>US sanctions force The Netherlands off Microsoft and toward alternative NixOS</b></a>
-<br><br>
-74 points and 31 comments on the Hacker News front page · tomshardware.com
-</td>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 3h ago</sub><br>
-<a href="https://dev.to/james_anderson_h/whos-accountable-when-the-ai-was-just-following-instructions-1efl"><b>Who's Accountable When the AI Was Just Following Instructions?</b></a>
-<br><br>
-Earlier this year, a company's AI agent quietly leaked internal data for three weeks before anyone...
+8 points and 0 comments on the Hacker News front page · icm.museum
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 4h ago</sub><br>
-<a href="https://dev.to/shubhradev/react-19-useformstatus-returning-false-i-built-a-submitbutton-that-fixes-it-4o0j"><b>React 19 useFormStatus Returning False? I Built a SubmitButton That Fixes It</b></a>
+<sub><code>DEV</code>&nbsp; 5h ago</sub><br>
+<a href="https://dev.to/ale3oula/confident-isnt-accurate-how-ai-hallucinations-actually-work-4djo"><b>Confident Isn't Accurate: How AI Hallucinations Actually Work</b></a>
 <br><br>
-A few weeks back I wrote about the useFormStatus bug that got me the hardest, the one where pending...
+AI is moving relatively fast, despite being slow down. Yes, it feels like there's a new concept to...
 </td>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 5h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 6h ago</sub><br>
+<a href="https://dev.to/hemapriya_kanagala/i-built-my-first-ai-agent-with-aws-agentcore-and-the-hardest-part-wasnt-the-ai-54lf"><b>I Built My First AI Agent With AWS AgentCore, and the Hardest Part Wasn't the AI</b></a>
+<br><br>
+TL;DR I recently completed another project from Udacity's Future AWS Agent Engineer Nanodegree...
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>LARAVEL</code>&nbsp; 7h ago</sub><br>
+<a href="https://laravel-news.com/laravel-releases?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Laravel Release Cycle: Versions, Support Policy, and Dates</b></a>
+<br><br>
+How Laravel releases work: one major version a year, weekly minor releases, 18 months of bug fixes, and support dates for Laravel 10 through 14.
+</td>
+<td width="50%" valign="top">
+<sub><code>FREECODECAMP</code>&nbsp; 7h ago</sub><br>
+<a href="https://www.freecodecamp.org/news/python-algorithmic-trading-with-snaptrade-massive-alpaca/"><b>Python Algorithmic Trading with SnapTrade, Massive, Alpaca</b></a>
+<br><br>
+We just published a comprehensive, hands-on video course on the freeCodeCamp.org YouTube channel that will teach you how to build an automated, end-to-end algorithmic trading system from…
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>FREECODECAMP</code>&nbsp; 8h ago</sub><br>
+<a href="https://www.freecodecamp.org/news/how-to-build-a-reliable-ai-assistant-with-the-claude-api/"><b>How to Build a Reliable AI Assistant with the Claude API</b></a>
+<br><br>
+Large language models can answer questions, summarise documents, write code, and interact with external systems. But building a reliable AI application requires more than sending a prompt…
+</td>
+<td width="50%" valign="top">
+<sub><code>STACKOVERFLOW</code>&nbsp; 14h ago</sub><br>
 <a href="https://stackoverflow.blog/2026/09/29/your-phone-is-ai-s-newest-hardware/"><b>Your phone is AI’s newest hardware</b></a>
 <br><br>
 Ryan sits down with Div Garg, CEO at AGI Inc., to talk about running AI agents entirely on mobile devices, optimizing models for edge computing chips, and building safety mechanisms into…
@@ -78,55 +92,41 @@ Ryan sits down with Div Garg, CEO at AGI Inc., to talk about running AI agents e
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 17h ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 18h ago</sub><br>
+<a href="https://laravel-news.com/elastic-bridge?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Elastic Bridge: Eloquent-Style Queries for Elasticsearch and OpenSearch</b></a>
+<br><br>
+Elastic Bridge brings fluent Elasticsearch and OpenSearch queries to Laravel, with model-style documents, aggregations, pagination, and testing fakes.
+</td>
+<td width="50%" valign="top">
+<sub><code>GITHUB</code>&nbsp; 1d ago</sub><br>
 <a href="https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/"><b>How we found 24 Android vulnerabilities using our open source AI security agent</b></a>
 <br><br>
 A look at the targeted AI taskflows behind these findings, the critical Android bugs they uncovered, and how to run the same open-source agent on your own app.
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 18h ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 1d ago</sub><br>
 <a href="https://stackoverflow.blog/2026/09/28/why-model-versioning-is-not-enough-for-production-ai/"><b>Why model versioning is not enough for production AI</b></a>
 <br><br>
 An MLOps workflow for evaluating deploying and rolling back AI applications
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 19h ago</sub><br>
-<a href="https://github.blog/open-source/git/highlights-from-git-2-56/"><b>Highlights from Git 2.56</b></a>
+<sub><code>NEXT.JS</code>&nbsp; 6d ago</sub><br>
+<a href="https://nextjs.org/blog/upcoming-nextjs-security-release-september-2026"><b>Upcoming Next.js September Security Release</b></a>
 <br><br>
-The open source Git project just released Git 2.56. Here is GitHub's look at some of the most interesting features and changes introduced since last time.
-</td>
-<td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 21h ago</sub><br>
-<a href="https://laravel-news.com/unlearndev-goes-free-for-a-weekend-october-10-and-11?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Unlearn.dev goes free for a weekend, October 10 and 11</b></a>
-<br><br>
-Unlearn is free on October 10 and 11. Bring your Laravel app and a ticket from your backlog, then spec, build and review it with AI. Grab your weekend pass.
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
-<a href="https://laravel-news.com/tashil-laravel-subscriptions?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Tashil: Laravel Subscription Plans and Feature Usage Limits</b></a>
-<br><br>
-Tashil is a Laravel package for subscription plans, feature limits, and usage tracking. It creates invoices and records payments from any gateway.
-</td>
-<td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 2d ago</sub><br>
-<a href="https://www.freecodecamp.org/news/how-to-level-up-your-portfolio-in-the-ai-era-from-technical-writer-to-developer-educator/"><b>How to Level Up Your Portfolio in the AI Era: From Technical Writer to Developer Educator</b></a>
-<br><br>
-Until recently, building a technical writing portfolio could be as simple as creating a website, adding a list of articles, describing your writing experience, and linking to your social…
+Next.js is preparing a scheduled September security release for September 30, 2026.
 </td>
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Lobsters · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 29 Sep 2026 19:50 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 30 Sep 2026 05:13 WIB.</sub>
 
 <!-- NEWS:END -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20260929" />
-  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20260929" width="100%" alt="A snake eating this year's contribution squares" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20260930" />
+  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20260930" width="100%" alt="A snake eating this year's contribution squares" />
 </picture>
 
 <picture>
