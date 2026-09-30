@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=9d743466ad" />
-  <img src="./assets/activity-light.svg?v=b0ce370d8f" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=af4cfc0247" />
+  <img src="./assets/activity-light.svg?v=1213c5bf5f" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=4956e6f146" />
-  <img src="./assets/news-light.svg?v=c2cfa7bab0" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=b49968f296" />
+  <img src="./assets/news-light.svg?v=a6bfb96b73" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,97 +36,97 @@
 <table>
 <tr>
 <td width="50%" valign="top">
+<sub><code>HN</code>&nbsp; 11m ago</sub><br>
+<a href="https://www.thespacereview.com/article/4951/1"><b>The top secret URSALA, RAQUEL, and FARRAH satellites</b></a>
+<br><br>
+12 points and 0 comments on the Hacker News front page · thespacereview.com
+</td>
+<td width="50%" valign="top">
 <sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://nltimes.nl/2026/09/30/data-centers-refusing-say-much-water-electricity-use"><b>Most data centers refusing to say how much water, electricity they use</b></a>
+<a href="https://artificialanalysis.ai/models/gemini-4-argon"><b>Gemini 4 Argon (High): Intelligence, Performance and Price Analysis</b></a>
 <br><br>
-43 points and 10 comments on the Hacker News front page · nltimes.nl
-</td>
-<td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 2h ago</sub><br>
-<a href="https://earendil.com/posts/you-said-no-mcp/"><b>Pi.dev: You Said No MCP</b></a>
-<br><br>
-178 points and 77 comments on the Hacker News front page · earendil.com
+43 points and 21 comments on the Hacker News front page · artificialanalysis.ai
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 3h ago</sub><br>
-<a href="https://dev.to/james_anderson_h/slopsquatting-your-ai-invented-a-package-and-an-attacker-was-waiting-1g67"><b>1 in 5 Packages Your AI Suggests Don't Exist. Attackers Know Which Ones.</b></a>
+<sub><code>DEV</code>&nbsp; 1h ago</sub><br>
+<a href="https://dev.to/erikch/are-frontend-developers-cooked-is-frontend-design-safe-nn8"><b>Are Frontend Developers Cooked? Is Frontend design safe?</b></a>
 <br><br>
-You ask your AI assistant how to do something. It gives you clean, confident code, with an install...
+I recently put out a video arguing that frontend development is changing. I don't think the work is...
 </td>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 11h ago</sub><br>
-<a href="https://dev.to/annavi11arrea1/social-ferris-wheel-sanity-is-the-hub-2m7j"><b>🎡 Social Ferris Wheel: Sanity is the Hub</b></a>
+<sub><code>DEV</code>&nbsp; 2h ago</sub><br>
+<a href="https://dev.to/cloudinary/building-an-offline-arduino-uno-q-cyberdeck-that-identifies-birdsong-and-draws-vintage-field-notes-1cjg"><b>Building an Offline Arduino UNO Q Cyberdeck That Identifies Birdsong and Draws Vintage Field…</b></a>
 <br><br>
-This is a submission for the Sanity Challenge, Path Two: Vibe-Code Something Strange What...
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 21h ago</sub><br>
-<a href="https://laravel-news.com/laravel-releases?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Laravel Release Cycle: Versions, Support Policy, and Dates</b></a>
-<br><br>
-How Laravel releases work: one major version a year, weekly minor releases, 18 months of bug fixes, and support dates for Laravel 10 through 14.
-</td>
-<td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 22h ago</sub><br>
-<a href="https://www.freecodecamp.org/news/python-algorithmic-trading-with-snaptrade-massive-alpaca/"><b>Python Algorithmic Trading with SnapTrade, Massive, Alpaca</b></a>
-<br><br>
-We just published a comprehensive, hands-on video course on the freeCodeCamp.org YouTube channel that will teach you how to build an automated, end-to-end algorithmic trading system from…
+In this post, I walk through B.L.O.O.M. (Bridging Local Observations, Openly Mapped), an offline...
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 22h ago</sub><br>
-<a href="https://www.freecodecamp.org/news/how-to-build-a-reliable-ai-assistant-with-the-claude-api/"><b>How to Build a Reliable AI Assistant with the Claude API</b></a>
+<sub><code>NEXT.JS</code>&nbsp; 4h ago</sub><br>
+<a href="https://nextjs.org/blog/september-2026-security-release"><b>September 2026 Security Release</b></a>
 <br><br>
-Large language models can answer questions, summarise documents, write code, and interact with external systems. But building a reliable AI application requires more than sending a prompt…
+The September 2026 security release for Next.js is now available
 </td>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 1d ago</sub><br>
-<a href="https://stackoverflow.blog/2026/09/29/your-phone-is-ai-s-newest-hardware/"><b>Your phone is AI’s newest hardware</b></a>
+<sub><code>LARAVEL</code>&nbsp; 5h ago</sub><br>
+<a href="https://laravel-news.com/laravel-ai-mcp-security-advisories?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Laravel AI SDK and Laravel MCP Security Fixes: Update Now</b></a>
 <br><br>
-Ryan sits down with Div Garg, CEO at AGI Inc., to talk about running AI agents entirely on mobile devices, optimizing models for edge computing chips, and building safety mechanisms into…
+Security advisories for the Laravel AI SDK and Laravel MCP fix an SSRF bug and an OAuth redirect issue. Here are the affected versions and how to update.
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
-<a href="https://laravel-news.com/elastic-bridge?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Elastic Bridge: Eloquent-Style Queries for Elasticsearch and OpenSearch</b></a>
+<sub><code>STACKOVERFLOW</code>&nbsp; 5h ago</sub><br>
+<a href="https://stackoverflow.blog/2026/09/30/organizations-need-decision-grade-knowledge-ai-makes-it-urgent/"><b>Organizations need decision-grade knowledge. AI makes it urgent.</b></a>
 <br><br>
-Elastic Bridge brings fluent Elasticsearch and OpenSearch queries to Laravel, with model-style documents, aggregations, pagination, and testing fakes.
+AI can make the first part remarkably fast. It can find the page, the discussion and the person who might know. The harder work begins when those sources disagree, or when they become stale.
 </td>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 1d ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 6h ago</sub><br>
+<a href="https://stackoverflow.blog/2026/09/30/anyone-can-start-building-verified-knowledge-with-stack-internal/"><b>Anyone can start building verified knowledge with Stack Internal</b></a>
+<br><br>
+Stack Internal transforms your daily work into a living memory that’s shared with the rest of your team. Now anyone can create and share their knowledge in a Stack Internal workspace for…
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>FREECODECAMP</code>&nbsp; 16h ago</sub><br>
+<a href="https://www.freecodecamp.org/news/how-to-build-a-real-time-word-counter-tool-with-html-css-and-javascript/"><b>How to Build a Real-Time Word Counter Tool with HTML, CSS, and JavaScript</b></a>
+<br><br>
+Whether you're writing an essay, a tweet, or a blog post, keeping track of your word and character count is very important. In this tutorial, you'll build a fully functional, real-time Word…
+</td>
+<td width="50%" valign="top">
+<sub><code>FREECODECAMP</code>&nbsp; 16h ago</sub><br>
+<a href="https://www.freecodecamp.org/news/how-to-diagnose-and-fix-ai-inference-latency-on-kubernetes/"><b>How to Diagnose and Fix AI Inference Latency on Kubernetes</b></a>
+<br><br>
+It's Thursday, around quarter past two. Your team shipped an internal assistant two weeks ago. The demo went well enough that someone in finance asked whether it could read contracts. Word…
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>LARAVEL</code>&nbsp; 19h ago</sub><br>
+<a href="https://laravel-news.com/laravel-13-34-0?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Count Worker Crashes as Job Exceptions in Laravel 13.34</b></a>
+<br><br>
+Laravel 13.34 counts worker crashes toward maxExceptions, notifies interruptible jobs before a timeout, adds job durations to JobProcessed, and more.
+</td>
+<td width="50%" valign="top">
+<sub><code>GITHUB</code>&nbsp; 2d ago</sub><br>
 <a href="https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/"><b>How we found 24 Android vulnerabilities using our open source AI security agent</b></a>
 <br><br>
 A look at the targeted AI taskflows behind these findings, the critical Android bugs they uncovered, and how to run the same open-source agent on your own app.
 </td>
 </tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 1d ago</sub><br>
-<a href="https://stackoverflow.blog/2026/09/28/why-model-versioning-is-not-enough-for-production-ai/"><b>Why model versioning is not enough for production AI</b></a>
-<br><br>
-An MLOps workflow for evaluating deploying and rolling back AI applications
-</td>
-<td width="50%" valign="top">
-<sub><code>NEXT.JS</code>&nbsp; 6d ago</sub><br>
-<a href="https://nextjs.org/blog/upcoming-nextjs-security-release-september-2026"><b>Upcoming Next.js September Security Release</b></a>
-<br><br>
-Next.js is preparing a scheduled September security release for September 30, 2026.
-</td>
-</tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 30 Sep 2026 19:32 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 01 Oct 2026 05:14 WIB.</sub>
 
 <!-- NEWS:END -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20260930" />
-  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20260930" width="100%" alt="A snake eating this year's contribution squares" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20261001" />
+  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261001" width="100%" alt="A snake eating this year's contribution squares" />
 </picture>
 
 <picture>
