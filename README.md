@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=132cba89f5" />
-  <img src="./assets/activity-light.svg?v=945a7798e3" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=f5191d7446" />
+  <img src="./assets/activity-light.svg?v=60b6968b59" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=c6fa984039" />
-  <img src="./assets/news-light.svg?v=8542efe3dc" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=724769451f" />
+  <img src="./assets/news-light.svg?v=b22a656a48" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,41 +36,41 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 2h ago</sub><br>
-<a href="https://postalemployeenetwork.com/news/2026/09/26/u-s-postal-inspectors-shut-down-website-selling-millions-of-counterfeit-postage-labels/"><b>U.S. postal inspectors shut down website selling counterfeit postage labels</b></a>
+<sub><code>HN</code>&nbsp; 53m ago</sub><br>
+<a href="https://electrek.co/2026/09/29/tesla-takes-on-30-billion-in-credit-as-it-approaches-unprofitability/"><b>Tesla takes on $30B in credit as it approaches unprofitability</b></a>
 <br><br>
-97 points and 47 comments on the Hacker News front page · postalemployeenetwork.com
+15 points and 3 comments on the Hacker News front page · electrek.co
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 2h ago</sub><br>
-<a href="https://icm.museum/blog/?p=698"><b>Galaxy Game – Interim Computer Museum</b></a>
+<sub><code>HN</code>&nbsp; 1h ago</sub><br>
+<a href="https://hereticpleb.vercel.app/blog/linkedin-larpmaxxing/"><b>LinkedIn Larpmaxxing</b></a>
 <br><br>
-8 points and 0 comments on the Hacker News front page · icm.museum
+22 points and 15 comments on the Hacker News front page · hereticpleb.vercel.app
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 5h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 12h ago</sub><br>
 <a href="https://dev.to/ale3oula/confident-isnt-accurate-how-ai-hallucinations-actually-work-4djo"><b>Confident Isn't Accurate: How AI Hallucinations Actually Work</b></a>
 <br><br>
 AI is moving relatively fast, despite being slow down. Yes, it feels like there's a new concept to...
 </td>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 6h ago</sub><br>
-<a href="https://dev.to/hemapriya_kanagala/i-built-my-first-ai-agent-with-aws-agentcore-and-the-hardest-part-wasnt-the-ai-54lf"><b>I Built My First AI Agent With AWS AgentCore, and the Hardest Part Wasn't the AI</b></a>
+<sub><code>DEV</code>&nbsp; 13h ago</sub><br>
+<a href="https://dev.to/mikachu/ai-is-making-me-faster-i-dont-want-it-to-make-me-worse-3lc3"><b>AI Is Making Me Faster. I Don’t Want It to Make Me Worse.</b></a>
 <br><br>
-TL;DR I recently completed another project from Udacity's Future AWS Agent Engineer Nanodegree...
+I use AI constantly when I code and when I write. I use it to research ideas, plan code, debug,...
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 7h ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 14h ago</sub><br>
 <a href="https://laravel-news.com/laravel-releases?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Laravel Release Cycle: Versions, Support Policy, and Dates</b></a>
 <br><br>
 How Laravel releases work: one major version a year, weekly minor releases, 18 months of bug fixes, and support dates for Laravel 10 through 14.
 </td>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 7h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 15h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/python-algorithmic-trading-with-snaptrade-massive-alpaca/"><b>Python Algorithmic Trading with SnapTrade, Massive, Alpaca</b></a>
 <br><br>
 We just published a comprehensive, hands-on video course on the freeCodeCamp.org YouTube channel that will teach you how to build an automated, end-to-end algorithmic trading system from…
@@ -78,13 +78,13 @@ We just published a comprehensive, hands-on video course on the freeCodeCamp.org
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 8h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 15h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-to-build-a-reliable-ai-assistant-with-the-claude-api/"><b>How to Build a Reliable AI Assistant with the Claude API</b></a>
 <br><br>
 Large language models can answer questions, summarise documents, write code, and interact with external systems. But building a reliable AI application requires more than sending a prompt…
 </td>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 14h ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 21h ago</sub><br>
 <a href="https://stackoverflow.blog/2026/09/29/your-phone-is-ai-s-newest-hardware/"><b>Your phone is AI’s newest hardware</b></a>
 <br><br>
 Ryan sits down with Div Garg, CEO at AGI Inc., to talk about running AI agents entirely on mobile devices, optimizing models for edge computing chips, and building safety mechanisms into…
@@ -92,7 +92,7 @@ Ryan sits down with Div Garg, CEO at AGI Inc., to talk about running AI agents e
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 18h ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
 <a href="https://laravel-news.com/elastic-bridge?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Elastic Bridge: Eloquent-Style Queries for Elasticsearch and OpenSearch</b></a>
 <br><br>
 Elastic Bridge brings fluent Elasticsearch and OpenSearch queries to Laravel, with model-style documents, aggregations, pagination, and testing fakes.
@@ -120,7 +120,7 @@ Next.js is preparing a scheduled September security release for September 30, 20
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 30 Sep 2026 05:13 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 30 Sep 2026 12:30 WIB.</sub>
 
 <!-- NEWS:END -->
 
