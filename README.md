@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=7de994169d" />
-  <img src="./assets/activity-light.svg?v=e8e143b267" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=cf8d19e812" />
+  <img src="./assets/activity-light.svg?v=6f8ef2b98d" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=2348f41eda" />
-  <img src="./assets/news-light.svg?v=70525a15d8" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=7184c42cba" />
+  <img src="./assets/news-light.svg?v=ff244e9ebf" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,41 +36,41 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 2h ago</sub><br>
-<a href="https://blog.cryptographyengineering.com/2026/09/30/is-sandboxing-sufficient-to-contain-rogue-agents/"><b>Is sandboxing sufficient to contain rogue agents?</b></a>
+<sub><code>HN</code>&nbsp; 10m ago</sub><br>
+<a href="https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html"><b>FTC is investigating OpenAI, Anthropic and other AI companies over product risks</b></a>
 <br><br>
-4 points and 0 comments on the Hacker News front page · blog.cryptographyengineering.com
+5 points and 0 comments on the Hacker News front page · cnbc.com
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 3h ago</sub><br>
-<a href="https://github.com/TantrixAuto/yantra"><b>Show HN: Yantra – an LALR(1) parser generator for C++</b></a>
+<sub><code>HN</code>&nbsp; 15m ago</sub><br>
+<a href="https://www.osnews.com/story/146052/google-breaks-promise-to-provide-10-years-of-updates-to-chromebooks/"><b>Google breaks promise to provide 10 years of updates to Chromebooks</b></a>
 <br><br>
-Yantra is a C++ parser generator: lexer, parser, and AST walker all generated from one tool. It builds the whole AST first, then walks it. Most LALR parser generators (Yacc, Bison, Lemon)…
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 9h ago</sub><br>
-<a href="https://dev.to/erikch/are-frontend-developers-cooked-is-frontend-design-safe-nn8"><b>Are Frontend Developers Cooked? Is Frontend design safe?</b></a>
-<br><br>
-I recently put out a video arguing that frontend development is changing. I don't think the work is...
-</td>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 10h ago</sub><br>
-<a href="https://dev.to/cloudinary/building-an-offline-arduino-uno-q-cyberdeck-that-identifies-birdsong-and-draws-vintage-field-notes-1cjg"><b>Building an Offline Arduino UNO Q Cyberdeck That Identifies Birdsong and Draws Vintage Field…</b></a>
-<br><br>
-In this post, I walk through B.L.O.O.M. (Bridging Local Observations, Openly Mapped), an offline...
+20 points and 7 comments on the Hacker News front page · osnews.com
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>NEXT.JS</code>&nbsp; 11h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 2h ago</sub><br>
+<a href="https://dev.to/smtahosin/structs-arent-on-the-stack-how-c-actually-manages-memory-128p"><b>Structs Aren't on the Stack. How C# Actually Manages Memory.</b></a>
+<br><br>
+The biggest myth in C# is that structs live on the stack and classes live on the heap. Here is what the CLR actually does with your data.
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 15h ago</sub><br>
+<a href="https://dev.to/annavi11arrea1/burnout-i-wrote-a-song-bleeding-knuckles-43fp"><b>🎵 Burnout: I wrote a song - &quot;Bleeding Knuckles&quot;</b></a>
+<br><br>
+I was seeing a lot of people writing about burnout on here recently. I feel for you. I was in a mood...
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>NEXT.JS</code>&nbsp; 19h ago</sub><br>
 <a href="https://nextjs.org/blog/september-2026-security-release"><b>September 2026 Security Release</b></a>
 <br><br>
 The September 2026 security release for Next.js is now available
 </td>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 12h ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 19h ago</sub><br>
 <a href="https://laravel-news.com/laravel-ai-mcp-security-advisories?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Laravel AI SDK and Laravel MCP Security Fixes: Update Now</b></a>
 <br><br>
 Security advisories for the Laravel AI SDK and Laravel MCP fix an SSRF bug and an OAuth redirect issue. Here are the affected versions and how to update.
@@ -78,13 +78,13 @@ Security advisories for the Laravel AI SDK and Laravel MCP fix an SSRF bug and a
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 12h ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 20h ago</sub><br>
 <a href="https://stackoverflow.blog/2026/09/30/organizations-need-decision-grade-knowledge-ai-makes-it-urgent/"><b>Organizations need decision-grade knowledge. AI makes it urgent.</b></a>
 <br><br>
 AI can make the first part remarkably fast. It can find the page, the discussion and the person who might know. The harder work begins when those sources disagree, or when they become stale.
 </td>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 13h ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 21h ago</sub><br>
 <a href="https://stackoverflow.blog/2026/09/30/anyone-can-start-building-verified-knowledge-with-stack-internal/"><b>Anyone can start building verified knowledge with Stack Internal</b></a>
 <br><br>
 Stack Internal transforms your daily work into a living memory that’s shared with the rest of your team. Now anyone can create and share their knowledge in a Stack Internal workspace for…
@@ -92,7 +92,7 @@ Stack Internal transforms your daily work into a living memory that’s shared w
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 23h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-to-build-a-real-time-word-counter-tool-with-html-css-and-javascript/"><b>How to Build a Real-Time Word Counter Tool with HTML, CSS, and JavaScript</b></a>
 <br><br>
 Whether you're writing an essay, a tweet, or a blog post, keeping track of your word and character count is very important. In this tutorial, you'll build a fully functional, real-time Word…
@@ -120,7 +120,7 @@ A look at the targeted AI taskflows behind these findings, the critical Android 
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 01 Oct 2026 12:49 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 01 Oct 2026 20:10 WIB.</sub>
 
 <!-- NEWS:END -->
 
