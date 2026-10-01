@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=cf8d19e812" />
-  <img src="./assets/activity-light.svg?v=6f8ef2b98d" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=0b9bbbd1d8" />
+  <img src="./assets/activity-light.svg?v=43e9203880" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=7184c42cba" />
-  <img src="./assets/news-light.svg?v=ff244e9ebf" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=82352b952c" />
+  <img src="./assets/news-light.svg?v=a643d1c1b1" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,41 +36,69 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 10m ago</sub><br>
-<a href="https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html"><b>FTC is investigating OpenAI, Anthropic and other AI companies over product risks</b></a>
+<sub><code>HN</code>&nbsp; 6m ago</sub><br>
+<a href="https://locaterodeo.net/"><b>2026 International Utility Locate Rodeo</b></a>
 <br><br>
-5 points and 0 comments on the Hacker News front page · cnbc.com
+3 points and 0 comments on the Hacker News front page · locaterodeo.net
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 15m ago</sub><br>
-<a href="https://www.osnews.com/story/146052/google-breaks-promise-to-provide-10-years-of-updates-to-chromebooks/"><b>Google breaks promise to provide 10 years of updates to Chromebooks</b></a>
+<sub><code>DEV</code>&nbsp; 55m ago</sub><br>
+<a href="https://dev.to/devteam/congrats-to-the-dev-weekend-challenge-generosity-edition-winners-2mmg"><b>Congrats to the DEV Weekend Challenge: Generosity Edition Winners!</b></a>
 <br><br>
-20 points and 7 comments on the Hacker News front page · osnews.com
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 2h ago</sub><br>
-<a href="https://dev.to/smtahosin/structs-arent-on-the-stack-how-c-actually-manages-memory-128p"><b>Structs Aren't on the Stack. How C# Actually Manages Memory.</b></a>
-<br><br>
-The biggest myth in C# is that structs live on the stack and classes live on the heap. Here is what the CLR actually does with your data.
-</td>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 15h ago</sub><br>
-<a href="https://dev.to/annavi11arrea1/burnout-i-wrote-a-song-bleeding-knuckles-43fp"><b>🎵 Burnout: I wrote a song - &quot;Bleeding Knuckles&quot;</b></a>
-<br><br>
-I was seeing a lot of people writing about burnout on here recently. I feel for you. I was in a mood...
+We are excited to announce the winners of our DEV Weekend Challenge: Generosity Edition! We asked...
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>NEXT.JS</code>&nbsp; 19h ago</sub><br>
+<sub><code>HN</code>&nbsp; 1h ago</sub><br>
+<a href="https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/"><b>Don't Be Fooled by this Summer of AI Hype</b></a>
+<br><br>
+19 points and 4 comments on the Hacker News front page · technologyreview.com
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 3h ago</sub><br>
+<a href="https://dev.to/kenwalger/views-measure-views-4co7"><b>Views Measure Views</b></a>
+<br><br>
+Nine years in, I finally worked out what else to count. A writer I follow, Sylwia Laskowska,...
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>FREECODECAMP</code>&nbsp; 7h ago</sub><br>
+<a href="https://www.freecodecamp.org/news/build-and-publish-a-full-stack-mobile-app-with-ai/"><b>Build and Publish a Full-Stack Mobile App with AI</b></a>
+<br><br>
+Building a production-ready mobile application used to require a dedicated team of frontend, backend, and DevOps engineers. With modern AI tools, an individual developer can take an idea…
+</td>
+<td width="50%" valign="top">
+<sub><code>GITHUB</code>&nbsp; 7h ago</sub><br>
+<a href="https://github.blog/news-insights/company-news/10-technical-talks-im-excited-about-at-github-universe-2026/"><b>10 technical talks I’m excited about at GitHub Universe 2026</b></a>
+<br><br>
+From verifying AI-written code to securing npm dependencies, these are the sessions I’m building my Universe agenda around.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>STACKOVERFLOW</code>&nbsp; 7h ago</sub><br>
+<a href="https://stackoverflow.blog/2026/10/01/a-look-back-before-we-look-forward-a-developer-survey-retrospective/"><b>A look back before we look forward: A Developer Survey retrospective</b></a>
+<br><br>
+This analysis compares the 2024 and 2025 Developer Survey data across three connected stories: the evolution of AI, humans at work, and demographics and community.
+</td>
+<td width="50%" valign="top">
+<sub><code>FREECODECAMP</code>&nbsp; 8h ago</sub><br>
+<a href="https://www.freecodecamp.org/news/how-to-stop-your-android-app-from-draining-the-battery-with-wake-locks/"><b>How to Stop Your Android App from Draining the Battery with Wake Locks</b></a>
+<br><br>
+A wake lock is one of the simplest APIs in Android and one of the easiest to misuse. Acquiring one takes a single line of code. Forgetting to release it can keep a phone's CPU awake for…
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>NEXT.JS</code>&nbsp; 1d ago</sub><br>
 <a href="https://nextjs.org/blog/september-2026-security-release"><b>September 2026 Security Release</b></a>
 <br><br>
 The September 2026 security release for Next.js is now available
 </td>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 19h ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
 <a href="https://laravel-news.com/laravel-ai-mcp-security-advisories?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Laravel AI SDK and Laravel MCP Security Fixes: Update Now</b></a>
 <br><br>
 Security advisories for the Laravel AI SDK and Laravel MCP fix an SSRF bug and an OAuth redirect issue. Here are the affected versions and how to update.
@@ -78,55 +106,27 @@ Security advisories for the Laravel AI SDK and Laravel MCP fix an SSRF bug and a
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 20h ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 1d ago</sub><br>
 <a href="https://stackoverflow.blog/2026/09/30/organizations-need-decision-grade-knowledge-ai-makes-it-urgent/"><b>Organizations need decision-grade knowledge. AI makes it urgent.</b></a>
 <br><br>
 AI can make the first part remarkably fast. It can find the page, the discussion and the person who might know. The harder work begins when those sources disagree, or when they become stale.
 </td>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 21h ago</sub><br>
-<a href="https://stackoverflow.blog/2026/09/30/anyone-can-start-building-verified-knowledge-with-stack-internal/"><b>Anyone can start building verified knowledge with Stack Internal</b></a>
+<sub><code>NEXT.JS</code>&nbsp; 8d ago</sub><br>
+<a href="https://nextjs.org/blog/upcoming-nextjs-security-release-september-2026"><b>Upcoming Next.js September Security Release</b></a>
 <br><br>
-Stack Internal transforms your daily work into a living memory that’s shared with the rest of your team. Now anyone can create and share their knowledge in a Stack Internal workspace for…
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
-<a href="https://www.freecodecamp.org/news/how-to-build-a-real-time-word-counter-tool-with-html-css-and-javascript/"><b>How to Build a Real-Time Word Counter Tool with HTML, CSS, and JavaScript</b></a>
-<br><br>
-Whether you're writing an essay, a tweet, or a blog post, keeping track of your word and character count is very important. In this tutorial, you'll build a fully functional, real-time Word…
-</td>
-<td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
-<a href="https://www.freecodecamp.org/news/how-to-diagnose-and-fix-ai-inference-latency-on-kubernetes/"><b>How to Diagnose and Fix AI Inference Latency on Kubernetes</b></a>
-<br><br>
-It's Thursday, around quarter past two. Your team shipped an internal assistant two weeks ago. The demo went well enough that someone in finance asked whether it could read contracts. Word…
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
-<a href="https://laravel-news.com/laravel-13-34-0?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Count Worker Crashes as Job Exceptions in Laravel 13.34</b></a>
-<br><br>
-Laravel 13.34 counts worker crashes toward maxExceptions, notifies interruptible jobs before a timeout, adds job durations to JobProcessed, and more.
-</td>
-<td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 2d ago</sub><br>
-<a href="https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/"><b>How we found 24 Android vulnerabilities using our open source AI security agent</b></a>
-<br><br>
-A look at the targeted AI taskflows behind these findings, the critical Android bugs they uncovered, and how to run the same open-source agent on your own app.
+Next.js is preparing a scheduled September security release for September 30, 2026.
 </td>
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 01 Oct 2026 20:10 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 02 Oct 2026 05:40 WIB.</sub>
 
 <!-- NEWS:END -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20261001" />
-  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261001" width="100%" alt="A snake eating this year's contribution squares" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20261002" />
+  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261002" width="100%" alt="A snake eating this year's contribution squares" />
 </picture>
 
 <picture>
