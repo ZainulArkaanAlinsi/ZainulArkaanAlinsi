@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=efa1abf563" />
-  <img src="./assets/activity-light.svg?v=bd61988452" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=e6eaeb7c00" />
+  <img src="./assets/activity-light.svg?v=a9e0eb3428" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=495f4c561e" />
-  <img src="./assets/news-light.svg?v=387661cab6" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=57eeb6e710" />
+  <img src="./assets/news-light.svg?v=698c0a9ded" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,66 +36,66 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; just now</sub><br>
+<sub><code>HN</code>&nbsp; 19m ago</sub><br>
+<a href="https://www.reddit.com/r/Physics/comments/1wvin77/harvard_particle_physicist_matthew_schwartz_drops/"><b>Harvard particle physicist Matthew Schwartz drops 36 papers authored with Claude</b></a>
+<br><br>
+5 points and 1 comment on the Hacker News front page · reddit.com
+</td>
+<td width="50%" valign="top">
+<sub><code>HN</code>&nbsp; 51m ago</sub><br>
+<a href="https://www.rte.ie/news/business/2026/1001/1593639-european-payments-group/"><b>European payments groups join forces to challenge US dominance</b></a>
+<br><br>
+10 points and 1 comment on the Hacker News front page · rte.ie
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 2h ago</sub><br>
+<a href="https://dev.to/mikachu/how-one-generate-draft-button-changed-the-design-of-my-writing-tool-1jc0"><b>How One &quot;Generate Draft&quot; Button Changed the Design of My Writing Tool</b></a>
+<br><br>
+Here is the line that changed my project: Next · Generate draft Enter fullscreen mode ...
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 2h ago</sub><br>
+<a href="https://dev.to/dj29/hacktoberfest-is-coming-to-nadiad-gujarat-official-mlh-meetup-at-ddu-15-oct-1dc4"><b>Hacktoberfest Is Coming to Nadiad, Gujarat 🚀 Official MLH Meetup at DDU, 15 Oct</b></a>
+<br><br>
+Most students hear about hackathons, open source and developer communities in their third or fourth...
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>STACKOVERFLOW</code>&nbsp; 4h ago</sub><br>
 <a href="https://stackoverflow.blog/2026/10/02/constraints-that-make-developers-faster/"><b>Constraints that make developers faster</b></a>
 <br><br>
 Ryan chats with Julien Verlaguet, CEO at Skip Labs, about finding the balance between human tolerance and tooling constraints, the spectrum of typed programming languages, and building…
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 21m ago</sub><br>
-<a href="https://inrng.com/2026/10/shimano-bicycle-museum/"><b>Shimano Bicycle Museum Review</b></a>
+<sub><code>FREECODECAMP</code>&nbsp; 6h ago</sub><br>
+<a href="https://www.freecodecamp.org/news/how-to-add-shadcn-ui-charts-to-nextjs/"><b>How to Add shadcn Charts to a Next.js App Without Writing Recharts Boilerplate</b></a>
 <br><br>
-3 points and 0 comments on the Hacker News front page · inrng.com
+Charts look like a small task on a ticket. Then you open the Recharts docs and remember how much setup every chart needs: a config object for labels and colors, axes, a tooltip, a legend…
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 38m ago</sub><br>
-<a href="https://sigh.dev/posts/metas-muse-is-fantastic-for-web-scraping/"><b>Meta's Muse is fantastic for web scraping</b></a>
-<br><br>
-11 points and 3 comments on the Hacker News front page · sigh.dev
-</td>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 7h ago</sub><br>
-<a href="https://dev.to/devteam/congrats-to-the-dev-weekend-challenge-generosity-edition-winners-2mmg"><b>Congrats to the DEV Weekend Challenge: Generosity Edition Winners!</b></a>
-<br><br>
-We are excited to announce the winners of our DEV Weekend Challenge: Generosity Edition! We asked...
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 8h ago</sub><br>
-<a href="https://dev.to/sarvar_04/which-aws-limit-is-actually-current-an-agent-that-proves-it-32-vs-5-vs-16-6i4"><b>Which AWS limit is actually current? An agent that proves it, 32 vs 5 vs 16</b></a>
-<br><br>
-This is a submission for the Sanity Challenge, Path One: Ship an Agent That Queries Real Content ...
-</td>
-<td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 14h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 21h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/build-and-publish-a-full-stack-mobile-app-with-ai/"><b>Build and Publish a Full-Stack Mobile App with AI</b></a>
 <br><br>
 Building a production-ready mobile application used to require a dedicated team of frontend, backend, and DevOps engineers. With modern AI tools, an individual developer can take an idea…
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 14h ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 21h ago</sub><br>
 <a href="https://github.blog/news-insights/company-news/10-technical-talks-im-excited-about-at-github-universe-2026/"><b>10 technical talks I’m excited about at GitHub Universe 2026</b></a>
 <br><br>
 From verifying AI-written code to securing npm dependencies, these are the sessions I’m building my Universe agenda around.
 </td>
-<td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 14h ago</sub><br>
-<a href="https://stackoverflow.blog/2026/10/01/a-look-back-before-we-look-forward-a-developer-survey-retrospective/"><b>A look back before we look forward: A Developer Survey retrospective</b></a>
-<br><br>
-This analysis compares the 2024 and 2025 Developer Survey data across three connected stories: the evolution of AI, humans at work, and demographics and community.
-</td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 15h ago</sub><br>
-<a href="https://www.freecodecamp.org/news/how-to-stop-your-android-app-from-draining-the-battery-with-wake-locks/"><b>How to Stop Your Android App from Draining the Battery with Wake Locks</b></a>
+<sub><code>STACKOVERFLOW</code>&nbsp; 21h ago</sub><br>
+<a href="https://stackoverflow.blog/2026/10/01/a-look-back-before-we-look-forward-a-developer-survey-retrospective/"><b>A look back before we look forward: A Developer Survey retrospective</b></a>
 <br><br>
-A wake lock is one of the simplest APIs in Android and one of the easiest to misuse. Acquiring one takes a single line of code. Forgetting to release it can keep a phone's CPU awake for…
+This analysis compares the 2024 and 2025 Developer Survey data across three connected stories: the evolution of AI, humans at work, and demographics and community.
 </td>
 <td width="50%" valign="top">
 <sub><code>NEXT.JS</code>&nbsp; 1d ago</sub><br>
@@ -120,7 +120,7 @@ Next.js is preparing a scheduled September security release for September 30, 20
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 02 Oct 2026 12:34 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 02 Oct 2026 19:31 WIB.</sub>
 
 <!-- NEWS:END -->
 
