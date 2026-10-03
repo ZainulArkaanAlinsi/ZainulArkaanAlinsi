@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=78971fb47e" />
-  <img src="./assets/activity-light.svg?v=d11a575409" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=10f37fee08" />
+  <img src="./assets/activity-light.svg?v=935ffd593d" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=57c4e42a81" />
-  <img src="./assets/news-light.svg?v=cab7c0ff73" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=9b8cbb2f5a" />
+  <img src="./assets/news-light.svg?v=c79e43ce32" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -37,40 +37,40 @@
 <tr>
 <td width="50%" valign="top">
 <sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://github.blog/changelog/2026-10-01-new-dashboard-experience-now-the-default/"><b>GitHub's new dashboard experience now the default</b></a>
+<a href="https://ftl-os.org/"><b>FTL: A new operating system for clouds</b></a>
 <br><br>
-20 points and 18 comments on the Hacker News front page · github.blog
+17 points and 8 comments on the Hacker News front page · ftl-os.org
 </td>
 <td width="50%" valign="top">
 <sub><code>HN</code>&nbsp; 2h ago</sub><br>
-<a href="https://www.reddit.com/r/GeminiAI/comments/1wwalmc/wtf_google_getting_rid_of_free_gemini_flash_and/"><b>Gemini ending free use of Flash and Pro models</b></a>
+<a href="https://www.bbc.com/news/articles/cwgkvygg5nzvo"><b>US killer's sentence quashed because of AI video of victim shown in court</b></a>
 <br><br>
-30 points and 18 comments on the Hacker News front page · reddit.com
+28 points and 5 comments on the Hacker News front page · bbc.com
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 10h ago</sub><br>
-<a href="https://dev.to/gde/a-cubit-or-bloc-is-just-a-container-holding-a-signal-how-much-bloc-vs-signals-do-you-actually-koj"><b>A Cubit or Bloc Is Just a Container Holding a Signal: How Much BLoC vs. Signals Do You Actually…</b></a>
+<sub><code>DEV</code>&nbsp; 4h ago</sub><br>
+<a href="https://dev.to/mikachu/i-made-866-commits-in-5-weeks-my-understanding-didnt-keep-up-cmo"><b>I Made 866 Commits in 5 Weeks. My Understanding Didn't Keep Up.</b></a>
 <br><br>
-Demystifying BlocSignal through one irreducible mental model: keeping declarative intent and concurrency boundaries on the front, while letting reactive signal graphs power 0ms reads on the…
+AI has made me dramatically faster at building software. You can see it on my GitHub: a sudden surge...
 </td>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 15h ago</sub><br>
-<a href="https://dev.to/gde/write-markdown-once-publish-it-everywhere-devto-medium-aws-builder-center-and-linkedin-np4"><b>Write Markdown Once, Publish It Everywhere: dev.to, Medium, AWS Builder Center and LinkedIn</b></a>
+<sub><code>DEV</code>&nbsp; 5h ago</sub><br>
+<a href="https://dev.to/g00ds0ul/i-was-overwhelmed-so-i-turned-my-github-profile-into-a-roguelike-dungeon-17a8"><b>I Was Overwhelmed, So I Turned My GitHub Profile Into a Roguelike Dungeon</b></a>
 <br><br>
-Markdown is easy to write and hard to publish. Every destination renders it differently, two have no API, and the failures show up only after you hit Publish. A step by step walk-through of…
+It was a late afternoon. I came in tired and a bit down, with a long list of tasks and a pile of...
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 20h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/learn-modern-kotlin/"><b>Learn Modern Kotlin</b></a>
 <br><br>
 We just published a comprehensive, free Kotlin course on the freeCodeCamp.org YouTube channel. Whether you're targeting Android development, scalable backend services, or cross-platform…
 </td>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 20h ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 1d ago</sub><br>
 <a href="https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out/"><b>AI is changing developer work. Here are three skills to strengthen.</b></a>
 <br><br>
 Learn to direct AI agents, critically review their output, and keep technical judgment at the center of your workflow.
@@ -78,7 +78,7 @@ Learn to direct AI agents, critically review their output, and keep technical ju
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 20h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/build-an-ai-support-system-that-automatically-routes-bugs-to-github/"><b>How to Build an AI Support System That Automatically Routes Bugs to GitHub with Next.js and Jev</b></a>
 <br><br>
 Every website gets feedback, and most of it ends up somewhere awkward. A visitor finds a broken button and emails you. Someone else leaves a comment on social media about a page that won't…
@@ -106,13 +106,13 @@ Postcodes for Laravel adds typed GB postcode lookups, validation, geography data
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 1d ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 2d ago</sub><br>
 <a href="https://github.blog/news-insights/company-news/10-technical-talks-im-excited-about-at-github-universe-2026/"><b>10 technical talks I’m excited about at GitHub Universe 2026</b></a>
 <br><br>
 From verifying AI-written code to securing npm dependencies, these are the sessions I’m building my Universe agenda around.
 </td>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 1d ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 2d ago</sub><br>
 <a href="https://stackoverflow.blog/2026/10/01/a-look-back-before-we-look-forward-a-developer-survey-retrospective/"><b>A look back before we look forward: A Developer Survey retrospective</b></a>
 <br><br>
 This analysis compares the 2024 and 2025 Developer Survey data across three connected stories: the evolution of AI, humans at work, and demographics and community.
@@ -120,7 +120,7 @@ This analysis compares the 2024 and 2025 Developer Survey data across three conn
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 03 Oct 2026 18:37 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 03 Oct 2026 23:16 WIB.</sub>
 
 <!-- NEWS:END -->
 
