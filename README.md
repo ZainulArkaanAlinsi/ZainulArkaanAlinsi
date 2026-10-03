@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=aa98f89708" />
-  <img src="./assets/activity-light.svg?v=6405a42333" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=78971fb47e" />
+  <img src="./assets/activity-light.svg?v=d11a575409" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=807bb376fb" />
-  <img src="./assets/news-light.svg?v=0aeee49d5e" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=57c4e42a81" />
+  <img src="./assets/news-light.svg?v=cab7c0ff73" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -37,40 +37,40 @@
 <tr>
 <td width="50%" valign="top">
 <sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://www.extrabigassintelligence.com/"><b>Extra Big Ass Intelligence</b></a>
+<a href="https://github.blog/changelog/2026-10-01-new-dashboard-experience-now-the-default/"><b>GitHub's new dashboard experience now the default</b></a>
 <br><br>
-37 points and 5 comments on the Hacker News front page · extrabigassintelligence.com
+20 points and 18 comments on the Hacker News front page · github.blog
 </td>
 <td width="50%" valign="top">
 <sub><code>HN</code>&nbsp; 2h ago</sub><br>
-<a href="https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/"><b>Cloudflare OHTTP gateway</b></a>
+<a href="https://www.reddit.com/r/GeminiAI/comments/1wwalmc/wtf_google_getting_rid_of_free_gemini_flash_and/"><b>Gemini ending free use of Flash and Pro models</b></a>
 <br><br>
-22 points and 5 comments on the Hacker News front page · blog.cloudflare.com
+30 points and 18 comments on the Hacker News front page · reddit.com
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 8h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 10h ago</sub><br>
+<a href="https://dev.to/gde/a-cubit-or-bloc-is-just-a-container-holding-a-signal-how-much-bloc-vs-signals-do-you-actually-koj"><b>A Cubit or Bloc Is Just a Container Holding a Signal: How Much BLoC vs. Signals Do You Actually…</b></a>
+<br><br>
+Demystifying BlocSignal through one irreducible mental model: keeping declarative intent and concurrency boundaries on the front, while letting reactive signal graphs power 0ms reads on the…
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 15h ago</sub><br>
 <a href="https://dev.to/gde/write-markdown-once-publish-it-everywhere-devto-medium-aws-builder-center-and-linkedin-np4"><b>Write Markdown Once, Publish It Everywhere: dev.to, Medium, AWS Builder Center and LinkedIn</b></a>
 <br><br>
 Markdown is easy to write and hard to publish. Every destination renders it differently, two have no API, and the failures show up only after you hit Publish. A step by step walk-through of…
 </td>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 9h ago</sub><br>
-<a href="https://dev.to/alexgeorgiev17/i-couldnt-legally-use-the-repair-manual-so-i-built-my-friend-something-better-84"><b>The BMW manual was off-limits, so I built my friend something better</b></a>
-<br><br>
-This is a submission for the Hacktoberfest Weekend Challenge: Build for a Friend What I...
-</td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 13h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 20h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/learn-modern-kotlin/"><b>Learn Modern Kotlin</b></a>
 <br><br>
 We just published a comprehensive, free Kotlin course on the freeCodeCamp.org YouTube channel. Whether you're targeting Android development, scalable backend services, or cross-platform…
 </td>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 14h ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 20h ago</sub><br>
 <a href="https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out/"><b>AI is changing developer work. Here are three skills to strengthen.</b></a>
 <br><br>
 Learn to direct AI agents, critically review their output, and keep technical judgment at the center of your workflow.
@@ -78,13 +78,13 @@ Learn to direct AI agents, critically review their output, and keep technical ju
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 14h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 20h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/build-an-ai-support-system-that-automatically-routes-bugs-to-github/"><b>How to Build an AI Support System That Automatically Routes Bugs to GitHub with Next.js and Jev</b></a>
 <br><br>
 Every website gets feedback, and most of it ends up somewhere awkward. A visitor finds a broken button and emails you. Someone else leaves a comment on social media about a page that won't…
 </td>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 21h ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 1d ago</sub><br>
 <a href="https://stackoverflow.blog/2026/10/02/constraints-that-make-developers-faster/"><b>Constraints that make developers faster</b></a>
 <br><br>
 Ryan chats with Julien Verlaguet, CEO at Skip Labs, about finding the balance between human tolerance and tooling constraints, the spectrum of typed programming languages, and building…
@@ -120,7 +120,7 @@ This analysis compares the 2024 and 2025 Developer Survey data across three conn
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 03 Oct 2026 12:16 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 03 Oct 2026 18:37 WIB.</sub>
 
 <!-- NEWS:END -->
 
