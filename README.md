@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=10f37fee08" />
-  <img src="./assets/activity-light.svg?v=935ffd593d" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=06a811e842" />
+  <img src="./assets/activity-light.svg?v=f36587c46e" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=9b8cbb2f5a" />
-  <img src="./assets/news-light.svg?v=c79e43ce32" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=7107e4ef14" />
+  <img src="./assets/news-light.svg?v=10049260ae" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,97 +36,97 @@
 <table>
 <tr>
 <td width="50%" valign="top">
+<sub><code>LOBSTERS</code>&nbsp; 13m ago</sub><br>
+<a href="https://dl.acm.org/doi/epdf/10.1145/74818.74831"><b>Customization: Optimizing Compiler Technology for SELF, a Dynamically-Typed Object-Oriented…</b></a>
+<br><br>
+Dynamically-typed object-oriented languages please programmers, but their lack of static type information penalizes performance. Our new implementation techniques extract static type…
+</td>
+<td width="50%" valign="top">
 <sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://ftl-os.org/"><b>FTL: A new operating system for clouds</b></a>
+<a href="https://blog.cloudflare.com/next-git-platform-on-cloudflare/"><b>We want you to build the next Git platform on Cloudflare</b></a>
 <br><br>
-17 points and 8 comments on the Hacker News front page · ftl-os.org
-</td>
-<td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 2h ago</sub><br>
-<a href="https://www.bbc.com/news/articles/cwgkvygg5nzvo"><b>US killer's sentence quashed because of AI video of victim shown in court</b></a>
-<br><br>
-28 points and 5 comments on the Hacker News front page · bbc.com
+32 points and 23 comments on the Hacker News front page · blog.cloudflare.com
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 4h ago</sub><br>
-<a href="https://dev.to/mikachu/i-made-866-commits-in-5-weeks-my-understanding-didnt-keep-up-cmo"><b>I Made 866 Commits in 5 Weeks. My Understanding Didn't Keep Up.</b></a>
+<sub><code>HN</code>&nbsp; 1h ago</sub><br>
+<a href="https://www.telegraph.co.uk/business/2026/10/02/anthropic-lobbied-pope-to-argue-ai-conscious-being/"><b>Anthropic tried to persuade Pope that AI could be conscious being</b></a>
 <br><br>
-AI has made me dramatically faster at building software. You can see it on my GitHub: a sudden surge...
+23 points and 18 comments on the Hacker News front page · telegraph.co.uk
 </td>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 5h ago</sub><br>
-<a href="https://dev.to/g00ds0ul/i-was-overwhelmed-so-i-turned-my-github-profile-into-a-roguelike-dungeon-17a8"><b>I Was Overwhelmed, So I Turned My GitHub Profile Into a Roguelike Dungeon</b></a>
+<sub><code>DEV</code>&nbsp; 2h ago</sub><br>
+<a href="https://dev.to/gde/nudging-with-questions-why-telling-your-ai-what-to-fix-triggers-an-apology-death-spiral-and-how-5gm4"><b>Nudging with Questions: Why Telling Your AI What to Fix Triggers an Apology Death Spiral (And…</b></a>
 <br><br>
-It was a late afternoon. I came in tired and a bit down, with a long list of tasks and a pile of...
+What I learned mentoring juniors for four decades seems to apply to today's agentic coding: why barking code fixes triggers sycophantic panic, and how Socratic questions yield 95%+…
 </td>
 </tr>
 <tr>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 2h ago</sub><br>
+<a href="https://dev.to/sizzlebop/turn-your-github-contribution-graph-into-an-ascii-city-ic5"><b>Turn Your GitHub Contribution Graph Into an ASCII City</b></a>
+<br><br>
+I decided that a normal GitHub contribution graph is not enough. So I turned mine into a city. And...
+</td>
 <td width="50%" valign="top">
 <sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/learn-modern-kotlin/"><b>Learn Modern Kotlin</b></a>
 <br><br>
 We just published a comprehensive, free Kotlin course on the freeCodeCamp.org YouTube channel. Whether you're targeting Android development, scalable backend services, or cross-platform…
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <sub><code>GITHUB</code>&nbsp; 1d ago</sub><br>
 <a href="https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out/"><b>AI is changing developer work. Here are three skills to strengthen.</b></a>
 <br><br>
 Learn to direct AI agents, critically review their output, and keep technical judgment at the center of your workflow.
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/build-an-ai-support-system-that-automatically-routes-bugs-to-github/"><b>How to Build an AI Support System That Automatically Routes Bugs to GitHub with Next.js and Jev</b></a>
 <br><br>
 Every website gets feedback, and most of it ends up somewhere awkward. A visitor finds a broken button and emails you. Someone else leaves a comment on social media about a page that won't…
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <sub><code>STACKOVERFLOW</code>&nbsp; 1d ago</sub><br>
 <a href="https://stackoverflow.blog/2026/10/02/constraints-that-make-developers-faster/"><b>Constraints that make developers faster</b></a>
 <br><br>
 Ryan chats with Julien Verlaguet, CEO at Skip Labs, about finding the balance between human tolerance and tooling constraints, the spectrum of typed programming languages, and building…
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
 <a href="https://laravel-news.com/inertia-3-8-0?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>WhenMounted and BigInt Props in Inertia.js v3.8</b></a>
 <br><br>
 Inertia.js v3.8 adds a WhenMounted component for browser-only code under SSR, BigInt support for large integer props, Form callback fixes, and more.
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 2d ago</sub><br>
 <a href="https://laravel-news.com/postcodes-for-laravel?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Postcodes for Laravel: GB Postcode Lookup and Geography Data</b></a>
 <br><br>
 Postcodes for Laravel adds typed GB postcode lookups, validation, geography data, distance searches, and test fakes through the GB Postcodes API.
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <sub><code>GITHUB</code>&nbsp; 2d ago</sub><br>
 <a href="https://github.blog/news-insights/company-news/10-technical-talks-im-excited-about-at-github-universe-2026/"><b>10 technical talks I’m excited about at GitHub Universe 2026</b></a>
 <br><br>
 From verifying AI-written code to securing npm dependencies, these are the sessions I’m building my Universe agenda around.
 </td>
-<td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 2d ago</sub><br>
-<a href="https://stackoverflow.blog/2026/10/01/a-look-back-before-we-look-forward-a-developer-survey-retrospective/"><b>A look back before we look forward: A Developer Survey retrospective</b></a>
-<br><br>
-This analysis compares the 2024 and 2025 Developer Survey data across three connected stories: the evolution of AI, humans at work, and demographics and community.
-</td>
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 03 Oct 2026 23:16 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Lobsters · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 04 Oct 2026 04:12 WIB.</sub>
 
 <!-- NEWS:END -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20261003" />
-  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261003" width="100%" alt="A snake eating this year's contribution squares" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20261004" />
+  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261004" width="100%" alt="A snake eating this year's contribution squares" />
 </picture>
 
 <picture>
