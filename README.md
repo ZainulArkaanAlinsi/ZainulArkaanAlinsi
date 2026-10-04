@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=2f4f519e47" />
-  <img src="./assets/activity-light.svg?v=403119fcdb" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=98b4815d9e" />
+  <img src="./assets/activity-light.svg?v=94a4fc1f6b" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=7228a80ede" />
-  <img src="./assets/news-light.svg?v=b52b5cf708" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=1793c3793e" />
+  <img src="./assets/news-light.svg?v=b3b473d827" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,30 +36,30 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://nolanlawson.com/2026/10/03/why-dont-more-developers-use-the-platform/"><b>Why don't more developers &quot;use the platform&quot;?</b></a>
+<sub><code>HN</code>&nbsp; 2h ago</sub><br>
+<a href="https://github.com/allenv0/SCM"><b>Show HN: AI search for every photo and every frame of video on macOS</b></a>
 <br><br>
-45 points and 22 comments on the Hacker News front page · nolanlawson.com
+6 points and 1 comment on the Hacker News front page · github.com
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 4h ago</sub><br>
-<a href="https://play.runescape.com/4"><b>We're working on a new RuneScape MMO</b></a>
+<sub><code>HN</code>&nbsp; 3h ago</sub><br>
+<a href="https://gamehistory.org/5k-magazines/"><b>VGHF Digital Archive passes 5000 magazines. Here's what's next</b></a>
 <br><br>
-15 points and 5 comments on the Hacker News front page · play.runescape.com
+38 points and 3 comments on the Hacker News front page · gamehistory.org
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 <sub><code>DEV</code>&nbsp; 7h ago</sub><br>
+<a href="https://dev.to/sizzlebop/i-built-my-husband-a-vim-trainer-with-a-gemma-coach-that-runs-in-the-browser-5fmh"><b>I built my husband a vim trainer with a Gemma coach that runs in the browser</b></a>
+<br><br>
+This is a submission for the Hacktoberfest Weekend Challenge: Build for a Friend What I...
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 14h ago</sub><br>
 <a href="https://dev.to/anthonymax/embedcatalog-is-participating-in-hacktoberfest-2026-7f4"><b>EmbedCatalog is participating in Hacktoberfest 2026</b></a>
 <br><br>
 Hi everyone! A little late, perhaps, but in this article, I’d like to share that my new project is...
-</td>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 11h ago</sub><br>
-<a href="https://dev.to/gde/nudging-with-questions-why-telling-your-ai-what-to-fix-triggers-an-apology-death-spiral-and-how-5gm4"><b>Nudging with Questions: Why Telling Your AI What to Fix Triggers an Apology Death Spiral (And…</b></a>
-<br><br>
-What I learned mentoring juniors for four decades seems to apply to today's agentic coding: why barking code fixes triggers sycophantic panic, and how Socratic questions yield 95%+…
 </td>
 </tr>
 <tr>
@@ -84,7 +84,7 @@ Learn to direct AI agents, critically review their output, and keep technical ju
 Every website gets feedback, and most of it ends up somewhere awkward. A visitor finds a broken button and emails you. Someone else leaves a comment on social media about a page that won't…
 </td>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 1d ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 2d ago</sub><br>
 <a href="https://stackoverflow.blog/2026/10/02/constraints-that-make-developers-faster/"><b>Constraints that make developers faster</b></a>
 <br><br>
 Ryan chats with Julien Verlaguet, CEO at Skip Labs, about finding the balance between human tolerance and tooling constraints, the spectrum of typed programming languages, and building…
@@ -120,7 +120,7 @@ This analysis compares the 2024 and 2025 Developer Survey data across three conn
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 04 Oct 2026 12:50 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 04 Oct 2026 19:19 WIB.</sub>
 
 <!-- NEWS:END -->
 
