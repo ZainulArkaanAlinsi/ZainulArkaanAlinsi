@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=98b4815d9e" />
-  <img src="./assets/activity-light.svg?v=94a4fc1f6b" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=3d010f958c" />
+  <img src="./assets/activity-light.svg?v=36b39d1555" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=1793c3793e" />
-  <img src="./assets/news-light.svg?v=b3b473d827" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=a59f6a3329" />
+  <img src="./assets/news-light.svg?v=d0222b2727" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,52 +36,52 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 2h ago</sub><br>
-<a href="https://github.com/allenv0/SCM"><b>Show HN: AI search for every photo and every frame of video on macOS</b></a>
+<sub><code>HN</code>&nbsp; 1h ago</sub><br>
+<a href="https://island-three.gruberbuilds.workers.dev/"><b>I asked Claude build a physically accurate O'Neill cylinder you can walk around</b></a>
 <br><br>
-6 points and 1 comment on the Hacker News front page · github.com
+16 points and 13 comments on the Hacker News front page · island-three.gruberbuilds.workers.dev
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 3h ago</sub><br>
-<a href="https://gamehistory.org/5k-magazines/"><b>VGHF Digital Archive passes 5000 magazines. Here's what's next</b></a>
+<sub><code>HN</code>&nbsp; 1h ago</sub><br>
+<a href="https://github.com/omlahore/RemoveMacAI"><b>Turn off Apple Intelligence on macOS 27 and get its disk space back</b></a>
 <br><br>
-38 points and 3 comments on the Hacker News front page · gamehistory.org
+121 points and 54 comments on the Hacker News front page · github.com
 </td>
 </tr>
 <tr>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 2h ago</sub><br>
+<a href="https://dev.to/soumyadeepdey/i-played-out-a-broke-students-month-500-times-on-a-budget-i3-laptop-with-the-wi-fi-off-it-warned-22dl"><b>I Played Out a Broke Student's Month 500 Times on a Budget i3 Laptop With the Wi-Fi Off. It…</b></a>
+<br><br>
+This is a submission for the Hacktoberfest Weekend Challenge: Build for a Friend Subarna is my...
+</td>
 <td width="50%" valign="top">
 <sub><code>DEV</code>&nbsp; 7h ago</sub><br>
-<a href="https://dev.to/sizzlebop/i-built-my-husband-a-vim-trainer-with-a-gemma-coach-that-runs-in-the-browser-5fmh"><b>I built my husband a vim trainer with a Gemma coach that runs in the browser</b></a>
+<a href="https://dev.to/dj29/origintrace-protecting-the-dev-community-from-content-theft-using-sanity-context-mcp-j5c"><b>OriginTrace: Protecting the DEV Community from Content Theft using Sanity Context MCP</b></a>
 <br><br>
-This is a submission for the Hacktoberfest Weekend Challenge: Build for a Friend What I...
-</td>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 14h ago</sub><br>
-<a href="https://dev.to/anthonymax/embedcatalog-is-participating-in-hacktoberfest-2026-7f4"><b>EmbedCatalog is participating in Hacktoberfest 2026</b></a>
-<br><br>
-Hi everyone! A little late, perhaps, but in this article, I’d like to share that my new project is...
+This is a submission for the Sanity Challenge, Path One: Ship an Agent That Queries Real Content ...
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
-<a href="https://www.freecodecamp.org/news/learn-modern-kotlin/"><b>Learn Modern Kotlin</b></a>
+<sub><code>FREECODECAMP</code>&nbsp; 9h ago</sub><br>
+<a href="https://www.freecodecamp.org/news/how-to-avoid-jni-crashes-by-managing-local-and-global-references-correctly/"><b>How to Avoid JNI Crashes by Managing Local and Global References Correctly</b></a>
 <br><br>
-We just published a comprehensive, free Kotlin course on the freeCodeCamp.org YouTube channel. Whether you're targeting Android development, scalable backend services, or cross-platform…
+Most JNI crashes don't come from complicated logic. They come from a small set of mistakes around object references: holding on to a reference after it has become invalid, creating…
 </td>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 1d ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 9h ago</sub><br>
+<a href="https://www.freecodecamp.org/news/how-to-submit-a-quarterly-update-to-hmrc-making-tax-digital-api/"><b>How to Submit a Quarterly Update to HMRC's Making Tax Digital API</b></a>
+<br><br>
+Four times a year, every sole trader and landlord in Making Tax Digital (MTD) for Income Tax has to send HMRC a summary of their income and expenses. The first deadline of the 2026-27 tax…
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>GITHUB</code>&nbsp; 2d ago</sub><br>
 <a href="https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out/"><b>AI is changing developer work. Here are three skills to strengthen.</b></a>
 <br><br>
 Learn to direct AI agents, critically review their output, and keep technical judgment at the center of your workflow.
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
-<a href="https://www.freecodecamp.org/news/build-an-ai-support-system-that-automatically-routes-bugs-to-github/"><b>How to Build an AI Support System That Automatically Routes Bugs to GitHub with Next.js and Jev</b></a>
-<br><br>
-Every website gets feedback, and most of it ends up somewhere awkward. A visitor finds a broken button and emails you. Someone else leaves a comment on social media about a page that won't…
 </td>
 <td width="50%" valign="top">
 <sub><code>STACKOVERFLOW</code>&nbsp; 2d ago</sub><br>
@@ -98,7 +98,7 @@ Ryan chats with Julien Verlaguet, CEO at Skip Labs, about finding the balance be
 Inertia.js v3.8 adds a WhenMounted component for browser-only code under SSR, BigInt support for large integer props, Form callback fixes, and more.
 </td>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 2d ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 3d ago</sub><br>
 <a href="https://laravel-news.com/postcodes-for-laravel?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Postcodes for Laravel: GB Postcode Lookup and Geography Data</b></a>
 <br><br>
 Postcodes for Laravel adds typed GB postcode lookups, validation, geography data, distance searches, and test fakes through the GB Postcodes API.
@@ -106,13 +106,13 @@ Postcodes for Laravel adds typed GB postcode lookups, validation, geography data
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 2d ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 3d ago</sub><br>
 <a href="https://github.blog/news-insights/company-news/10-technical-talks-im-excited-about-at-github-universe-2026/"><b>10 technical talks I’m excited about at GitHub Universe 2026</b></a>
 <br><br>
 From verifying AI-written code to securing npm dependencies, these are the sessions I’m building my Universe agenda around.
 </td>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 2d ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 3d ago</sub><br>
 <a href="https://stackoverflow.blog/2026/10/01/a-look-back-before-we-look-forward-a-developer-survey-retrospective/"><b>A look back before we look forward: A Developer Survey retrospective</b></a>
 <br><br>
 This analysis compares the 2024 and 2025 Developer Survey data across three connected stories: the evolution of AI, humans at work, and demographics and community.
@@ -120,13 +120,13 @@ This analysis compares the 2024 and 2025 Developer Survey data across three conn
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 04 Oct 2026 19:19 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 05 Oct 2026 04:22 WIB.</sub>
 
 <!-- NEWS:END -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20261004" />
-  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261004" width="100%" alt="A snake eating this year's contribution squares" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20261005" />
+  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261005" width="100%" alt="A snake eating this year's contribution squares" />
 </picture>
 
 <picture>
