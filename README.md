@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=cc8a3a0c8f" />
-  <img src="./assets/activity-light.svg?v=ca6cb6b151" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=7d96071817" />
+  <img src="./assets/activity-light.svg?v=b59cd8e733" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=54a7aff10a" />
-  <img src="./assets/news-light.svg?v=08c1e0db3d" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=731bd53c99" />
+  <img src="./assets/news-light.svg?v=296beda9ea" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,41 +36,41 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://linuxiac.com/kagi-ends-orion-browser-development-for-linux-will-open-source-it/"><b>Kagi Ends Orion Browser Development for Linux, Will Open-Source It</b></a>
-<br><br>
-8 points and 0 comments on the Hacker News front page · linuxiac.com
-</td>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 2h ago</sub><br>
-<a href="https://dev.to/annavi11arrea1/dad-complains-about-electric-bill-so-i-built-him-an-energy-dashboard-and-found-the-panels-lied-3jhg"><b>⚡ Dad Complains About Electric Bill, So I Built Him an Energy Dashboard and Found the Panels…</b></a>
+<sub><code>DEV</code>&nbsp; 40m ago</sub><br>
+<a href="https://dev.to/yashksaini/i-built-my-friend-a-mock-interviewer-that-read-his-rust-code-1gif"><b>I Built My Friend a Mock Interviewer That Read His Rust Code</b></a>
 <br><br>
 This is a submission for the Hacktoberfest Weekend Challenge: Build for a Friend What I...
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 2h ago</sub><br>
-<a href="https://dev.to/emmasofia/broadcast-and-get-hit-go-dark-and-void-65m-i-built-navi-sanction-with-sanity-to-break-the-p32"><b>Broadcast and Get Hit, Go Dark and Void $65M: I Built NAVI-SANCTION with Sanity to Break the…</b></a>
+<sub><code>HN</code>&nbsp; 1h ago</sub><br>
+<a href="https://www.wsj.com/tech/personal-tech/ai-token-spending-businesses-431ee94a"><b>Spending on AI Is Becoming Almost Impossible for Businesses to Budget</b></a>
 <br><br>
-How we built NAVI-SANCTION, an autonomous maritime war-risk arbitration engine using Sanity Content Lake and relational GROQ to resolve the lethal contradiction between SOLAS treaties…
-</td>
-<td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 3h ago</sub><br>
-<a href="https://www.themoscowtimes.com/2026/10/02/nearly-200-people-under-observation-after-irkutsk-lab-worker-dies-from-plague-a93857"><b>Nearly 200 people under observation after Irkutsk lab worker dies from plague</b></a>
-<br><br>
-142 points and 96 comments on the Hacker News front page · themoscowtimes.com
+23 points and 15 comments on the Hacker News front page · wsj.com
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 17h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 1h ago</sub><br>
+<a href="https://dev.to/ben/meme-monday-3ib7"><b>Meme Monday</b></a>
+<br><br>
+Meme Monday! Today's cover image comes from the last thread. DEV is an inclusive space! Humor in...
+</td>
+<td width="50%" valign="top">
+<sub><code>HN</code>&nbsp; 1h ago</sub><br>
+<a href="https://discuss.grapheneos.org/d/41564-pixel-11-doesnt-yet-meet-the-grapheneos-security-standards-and-may-be-skipped"><b>Pixel 11 doesn't yet meet the GrapheneOS security standards and may be skipped</b></a>
+<br><br>
+96 points and 61 comments on the Hacker News front page · discuss.grapheneos.org
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-to-avoid-jni-crashes-by-managing-local-and-global-references-correctly/"><b>How to Avoid JNI Crashes by Managing Local and Global References Correctly</b></a>
 <br><br>
 Most JNI crashes don't come from complicated logic. They come from a small set of mistakes around object references: holding on to a reference after it has become invalid, creating…
 </td>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 17h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-to-submit-a-quarterly-update-to-hmrc-making-tax-digital-api/"><b>How to Submit a Quarterly Update to HMRC's Making Tax Digital API</b></a>
 <br><br>
 Four times a year, every sole trader and landlord in Making Tax Digital (MTD) for Income Tax has to send HMRC a summary of their income and expenses. The first deadline of the 2026-27 tax…
@@ -84,7 +84,7 @@ Four times a year, every sole trader and landlord in Making Tax Digital (MTD) fo
 Learn to direct AI agents, critically review their output, and keep technical judgment at the center of your workflow.
 </td>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 2d ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 3d ago</sub><br>
 <a href="https://stackoverflow.blog/2026/10/02/constraints-that-make-developers-faster/"><b>Constraints that make developers faster</b></a>
 <br><br>
 Ryan chats with Julien Verlaguet, CEO at Skip Labs, about finding the balance between human tolerance and tooling constraints, the spectrum of typed programming languages, and building…
@@ -120,7 +120,7 @@ This analysis compares the 2024 and 2025 Developer Survey data across three conn
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 05 Oct 2026 12:36 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 05 Oct 2026 21:34 WIB.</sub>
 
 <!-- NEWS:END -->
 
