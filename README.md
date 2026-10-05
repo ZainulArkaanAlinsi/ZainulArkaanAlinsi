@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=3d010f958c" />
-  <img src="./assets/activity-light.svg?v=36b39d1555" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=cc8a3a0c8f" />
+  <img src="./assets/activity-light.svg?v=ca6cb6b151" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=a59f6a3329" />
-  <img src="./assets/news-light.svg?v=d0222b2727" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=54a7aff10a" />
+  <img src="./assets/news-light.svg?v=08c1e0db3d" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -37,40 +37,40 @@
 <tr>
 <td width="50%" valign="top">
 <sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://island-three.gruberbuilds.workers.dev/"><b>I asked Claude build a physically accurate O'Neill cylinder you can walk around</b></a>
+<a href="https://linuxiac.com/kagi-ends-orion-browser-development-for-linux-will-open-source-it/"><b>Kagi Ends Orion Browser Development for Linux, Will Open-Source It</b></a>
 <br><br>
-16 points and 13 comments on the Hacker News front page · island-three.gruberbuilds.workers.dev
+8 points and 0 comments on the Hacker News front page · linuxiac.com
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://github.com/omlahore/RemoveMacAI"><b>Turn off Apple Intelligence on macOS 27 and get its disk space back</b></a>
+<sub><code>DEV</code>&nbsp; 2h ago</sub><br>
+<a href="https://dev.to/annavi11arrea1/dad-complains-about-electric-bill-so-i-built-him-an-energy-dashboard-and-found-the-panels-lied-3jhg"><b>⚡ Dad Complains About Electric Bill, So I Built Him an Energy Dashboard and Found the Panels…</b></a>
 <br><br>
-121 points and 54 comments on the Hacker News front page · github.com
+This is a submission for the Hacktoberfest Weekend Challenge: Build for a Friend What I...
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 <sub><code>DEV</code>&nbsp; 2h ago</sub><br>
-<a href="https://dev.to/soumyadeepdey/i-played-out-a-broke-students-month-500-times-on-a-budget-i3-laptop-with-the-wi-fi-off-it-warned-22dl"><b>I Played Out a Broke Student's Month 500 Times on a Budget i3 Laptop With the Wi-Fi Off. It…</b></a>
+<a href="https://dev.to/emmasofia/broadcast-and-get-hit-go-dark-and-void-65m-i-built-navi-sanction-with-sanity-to-break-the-p32"><b>Broadcast and Get Hit, Go Dark and Void $65M: I Built NAVI-SANCTION with Sanity to Break the…</b></a>
 <br><br>
-This is a submission for the Hacktoberfest Weekend Challenge: Build for a Friend Subarna is my...
+How we built NAVI-SANCTION, an autonomous maritime war-risk arbitration engine using Sanity Content Lake and relational GROQ to resolve the lethal contradiction between SOLAS treaties…
 </td>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 7h ago</sub><br>
-<a href="https://dev.to/dj29/origintrace-protecting-the-dev-community-from-content-theft-using-sanity-context-mcp-j5c"><b>OriginTrace: Protecting the DEV Community from Content Theft using Sanity Context MCP</b></a>
+<sub><code>HN</code>&nbsp; 3h ago</sub><br>
+<a href="https://www.themoscowtimes.com/2026/10/02/nearly-200-people-under-observation-after-irkutsk-lab-worker-dies-from-plague-a93857"><b>Nearly 200 people under observation after Irkutsk lab worker dies from plague</b></a>
 <br><br>
-This is a submission for the Sanity Challenge, Path One: Ship an Agent That Queries Real Content ...
+142 points and 96 comments on the Hacker News front page · themoscowtimes.com
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 9h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 17h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-to-avoid-jni-crashes-by-managing-local-and-global-references-correctly/"><b>How to Avoid JNI Crashes by Managing Local and Global References Correctly</b></a>
 <br><br>
 Most JNI crashes don't come from complicated logic. They come from a small set of mistakes around object references: holding on to a reference after it has become invalid, creating…
 </td>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 9h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 17h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-to-submit-a-quarterly-update-to-hmrc-making-tax-digital-api/"><b>How to Submit a Quarterly Update to HMRC's Making Tax Digital API</b></a>
 <br><br>
 Four times a year, every sole trader and landlord in Making Tax Digital (MTD) for Income Tax has to send HMRC a summary of their income and expenses. The first deadline of the 2026-27 tax…
@@ -92,7 +92,7 @@ Ryan chats with Julien Verlaguet, CEO at Skip Labs, about finding the balance be
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 2d ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 3d ago</sub><br>
 <a href="https://laravel-news.com/inertia-3-8-0?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>WhenMounted and BigInt Props in Inertia.js v3.8</b></a>
 <br><br>
 Inertia.js v3.8 adds a WhenMounted component for browser-only code under SSR, BigInt support for large integer props, Form callback fixes, and more.
@@ -120,7 +120,7 @@ This analysis compares the 2024 and 2025 Developer Survey data across three conn
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 05 Oct 2026 04:22 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 05 Oct 2026 12:36 WIB.</sub>
 
 <!-- NEWS:END -->
 
