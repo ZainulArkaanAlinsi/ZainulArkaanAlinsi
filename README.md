@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=7d96071817" />
-  <img src="./assets/activity-light.svg?v=b59cd8e733" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=c0089dada3" />
+  <img src="./assets/activity-light.svg?v=9b5d7569b6" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=731bd53c99" />
-  <img src="./assets/news-light.svg?v=296beda9ea" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=821331befb" />
+  <img src="./assets/news-light.svg?v=900a9f500f" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,83 +36,83 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 40m ago</sub><br>
-<a href="https://dev.to/yashksaini/i-built-my-friend-a-mock-interviewer-that-read-his-rust-code-1gif"><b>I Built My Friend a Mock Interviewer That Read His Rust Code</b></a>
+<sub><code>HN</code>&nbsp; 55m ago</sub><br>
+<a href="https://lemire.me/blog/2026/10/05/ephemeral-testing/"><b>Ephemeral Testing</b></a>
 <br><br>
-This is a submission for the Hacktoberfest Weekend Challenge: Build for a Friend What I...
+10 points and 0 comments on the Hacker News front page · lemire.me
 </td>
 <td width="50%" valign="top">
 <sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://www.wsj.com/tech/personal-tech/ai-token-spending-businesses-431ee94a"><b>Spending on AI Is Becoming Almost Impossible for Businesses to Budget</b></a>
+<a href="https://armstr.ng/writing/worth-building"><b>Worth Building</b></a>
 <br><br>
-23 points and 15 comments on the Hacker News front page · wsj.com
+20 points and 5 comments on the Hacker News front page · armstr.ng
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 1h ago</sub><br>
-<a href="https://dev.to/ben/meme-monday-3ib7"><b>Meme Monday</b></a>
+<sub><code>DEV</code>&nbsp; 6h ago</sub><br>
+<a href="https://dev.to/gde/publishing-markdown-to-substack-from-an-agent-skill-258f"><b>Publishing Markdown to Substack from an Agent Skill</b></a>
 <br><br>
-Meme Monday! Today's cover image comes from the last thread. DEV is an inclusive space! Humor in...
+Substack has no publishing API, its editor has no tables, and a link around inline code is dropped on paste. A step by step walk-through of the Substack destination in publishing-kit: what…
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://discuss.grapheneos.org/d/41564-pixel-11-doesnt-yet-meet-the-grapheneos-security-standards-and-may-be-skipped"><b>Pixel 11 doesn't yet meet the GrapheneOS security standards and may be skipped</b></a>
+<sub><code>GITHUB</code>&nbsp; 8h ago</sub><br>
+<a href="https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/"><b>ReviewBench: An open benchmark for AI code review</b></a>
 <br><br>
-96 points and 61 comments on the Hacker News front page · discuss.grapheneos.org
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
-<a href="https://www.freecodecamp.org/news/how-to-avoid-jni-crashes-by-managing-local-and-global-references-correctly/"><b>How to Avoid JNI Crashes by Managing Local and Global References Correctly</b></a>
-<br><br>
-Most JNI crashes don't come from complicated logic. They come from a small set of mistakes around object references: holding on to a reference after it has become invalid, creating…
-</td>
-<td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
-<a href="https://www.freecodecamp.org/news/how-to-submit-a-quarterly-update-to-hmrc-making-tax-digital-api/"><b>How to Submit a Quarterly Update to HMRC's Making Tax Digital API</b></a>
-<br><br>
-Four times a year, every sole trader and landlord in Making Tax Digital (MTD) for Income Tax has to send HMRC a summary of their income and expenses. The first deadline of the 2026-27 tax…
+We’re launching ReviewBench, a benchmark for code review agents built on representative GitHub pull requests, multi-source ground truth, calibrated evaluation, and production-aligned…
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 2d ago</sub><br>
+<sub><code>DEV</code>&nbsp; 8h ago</sub><br>
+<a href="https://dev.to/hemapriya_kanagala/the-parts-of-a-job-search-we-dont-see-3a6"><b>The Parts of a Job Search We Don't See</b></a>
+<br><br>
+TL;DR We usually see a job search as applying, interviewing, and hopefully getting an offer. But...
+</td>
+<td width="50%" valign="top">
+<sub><code>FREECODECAMP</code>&nbsp; 9h ago</sub><br>
+<a href="https://www.freecodecamp.org/news/api-authentication-authorization-mechanisms-trade-offs-and-failure-modes/"><b>API Authentication &amp; Authorization: An Engineering Deep Dive into Mechanisms, Trade-offs, and…</b></a>
+<br><br>
+Every API has some form of authentication. But having authentication and getting it right are two completely different things. I've reviewed production systems where JWTs had no expiry…
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>LARAVEL</code>&nbsp; 10h ago</sub><br>
+<a href="https://laravel-news.com/securing-filament-plugins-with-plumb?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Securing Filament plugins with Plumb</b></a>
+<br><br>
+If you keep up with Filament news, you've likely heard that there are now over 1,000 community plugins in the Filament plugins directory. So with these 1,000 plugins and growing, it's time…
+</td>
+<td width="50%" valign="top">
+<sub><code>FREECODECAMP</code>&nbsp; 12h ago</sub><br>
+<a href="https://www.freecodecamp.org/news/how-to-break-the-ai-coding-agent-fix-loop/"><b>How to Break the AI Coding Agent Fix Loop</b></a>
+<br><br>
+You've likely seen this movie before: something breaks in an app you built with an AI coding agent. You ask the agent to fix it. It &quot;fixes&quot; it. But the bug is still there, or a second bug…
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>LARAVEL</code>&nbsp; 23h ago</sub><br>
+<a href="https://laravel-news.com/laya-php-self-hosted-classification?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>LayaPHP: Self-Hosted Text Classification for PHP and Laravel</b></a>
+<br><br>
+LayaPHP sends text to a self-hosted model and returns typed classifications with confidence values for PHP and Laravel applications.
+</td>
+<td width="50%" valign="top">
+<sub><code>GITHUB</code>&nbsp; 3d ago</sub><br>
 <a href="https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out/"><b>AI is changing developer work. Here are three skills to strengthen.</b></a>
 <br><br>
 Learn to direct AI agents, critically review their output, and keep technical judgment at the center of your workflow.
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <sub><code>STACKOVERFLOW</code>&nbsp; 3d ago</sub><br>
 <a href="https://stackoverflow.blog/2026/10/02/constraints-that-make-developers-faster/"><b>Constraints that make developers faster</b></a>
 <br><br>
 Ryan chats with Julien Verlaguet, CEO at Skip Labs, about finding the balance between human tolerance and tooling constraints, the spectrum of typed programming languages, and building…
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 3d ago</sub><br>
-<a href="https://laravel-news.com/inertia-3-8-0?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>WhenMounted and BigInt Props in Inertia.js v3.8</b></a>
-<br><br>
-Inertia.js v3.8 adds a WhenMounted component for browser-only code under SSR, BigInt support for large integer props, Form callback fixes, and more.
-</td>
-<td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 3d ago</sub><br>
-<a href="https://laravel-news.com/postcodes-for-laravel?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Postcodes for Laravel: GB Postcode Lookup and Geography Data</b></a>
-<br><br>
-Postcodes for Laravel adds typed GB postcode lookups, validation, geography data, distance searches, and test fakes through the GB Postcodes API.
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 3d ago</sub><br>
-<a href="https://github.blog/news-insights/company-news/10-technical-talks-im-excited-about-at-github-universe-2026/"><b>10 technical talks I’m excited about at GitHub Universe 2026</b></a>
-<br><br>
-From verifying AI-written code to securing npm dependencies, these are the sessions I’m building my Universe agenda around.
-</td>
-<td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 3d ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 4d ago</sub><br>
 <a href="https://stackoverflow.blog/2026/10/01/a-look-back-before-we-look-forward-a-developer-survey-retrospective/"><b>A look back before we look forward: A Developer Survey retrospective</b></a>
 <br><br>
 This analysis compares the 2024 and 2025 Developer Survey data across three connected stories: the evolution of AI, humans at work, and demographics and community.
@@ -120,13 +120,13 @@ This analysis compares the 2024 and 2025 Developer Survey data across three conn
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 05 Oct 2026 21:34 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 06 Oct 2026 07:02 WIB.</sub>
 
 <!-- NEWS:END -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20261005" />
-  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261005" width="100%" alt="A snake eating this year's contribution squares" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20261006" />
+  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261006" width="100%" alt="A snake eating this year's contribution squares" />
 </picture>
 
 <picture>
