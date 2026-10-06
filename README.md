@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=c0089dada3" />
-  <img src="./assets/activity-light.svg?v=9b5d7569b6" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=ab17ed6012" />
+  <img src="./assets/activity-light.svg?v=c362017c3d" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=821331befb" />
-  <img src="./assets/news-light.svg?v=900a9f500f" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=100a610da4" />
+  <img src="./assets/news-light.svg?v=0c9790a730" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,41 +36,41 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 55m ago</sub><br>
-<a href="https://lemire.me/blog/2026/10/05/ephemeral-testing/"><b>Ephemeral Testing</b></a>
+<sub><code>DEV</code>&nbsp; 2h ago</sub><br>
+<a href="https://dev.to/cseeman/ontological-shock-at-altitude-2jp2"><b>Ontological Shock at Altitude</b></a>
 <br><br>
-10 points and 0 comments on the Hacker News front page · lemire.me
+Rocky Mountain Ruby 2026 in Boulder was two days, one track, and a lot of AI. Nearly every talk still found its way back to the people doing the work.
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://armstr.ng/writing/worth-building"><b>Worth Building</b></a>
+<sub><code>HN</code>&nbsp; 2h ago</sub><br>
+<a href="https://blog.pipetogrep.org/2026/09/11/resurrecting-ichat-audio-and-video-conferencing/"><b>Resurrecting iChat Audio and Video Conferencing</b></a>
 <br><br>
-20 points and 5 comments on the Hacker News front page · armstr.ng
+22 points and 5 comments on the Hacker News front page · blog.pipetogrep.org
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 6h ago</sub><br>
-<a href="https://dev.to/gde/publishing-markdown-to-substack-from-an-agent-skill-258f"><b>Publishing Markdown to Substack from an Agent Skill</b></a>
+<sub><code>HN</code>&nbsp; 3h ago</sub><br>
+<a href="https://www.vivienhenz.com/common-lisp"><b>Why Common Lisp is now the best programming language</b></a>
 <br><br>
-Substack has no publishing API, its editor has no tables, and a link around inline code is dropped on paste. A step by step walk-through of the Substack destination in publishing-kit: what…
+102 points and 128 comments on the Hacker News front page · vivienhenz.com
 </td>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 8h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 5h ago</sub><br>
+<a href="https://dev.to/heraistudio/build-a-tiny-virtual-pet-on-arduino-in-60-minutes-2cf"><b>Build a Tiny Virtual Pet on Arduino in 60 Minutes 🐾</b></a>
+<br><br>
+Turn an Arduino Uno Q into Kiku, a Tamagotchi-style virtual pet with an animated LED face, moods, and keyboard controls.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>GITHUB</code>&nbsp; 14h ago</sub><br>
 <a href="https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/"><b>ReviewBench: An open benchmark for AI code review</b></a>
 <br><br>
 We’re launching ReviewBench, a benchmark for code review agents built on representative GitHub pull requests, multi-source ground truth, calibrated evaluation, and production-aligned…
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 8h ago</sub><br>
-<a href="https://dev.to/hemapriya_kanagala/the-parts-of-a-job-search-we-dont-see-3a6"><b>The Parts of a Job Search We Don't See</b></a>
-<br><br>
-TL;DR We usually see a job search as applying, interviewing, and hopefully getting an offer. But...
-</td>
-<td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 9h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 15h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/api-authentication-authorization-mechanisms-trade-offs-and-failure-modes/"><b>API Authentication &amp; Authorization: An Engineering Deep Dive into Mechanisms, Trade-offs, and…</b></a>
 <br><br>
 Every API has some form of authentication. But having authentication and getting it right are two completely different things. I've reviewed production systems where JWTs had no expiry…
@@ -78,13 +78,13 @@ Every API has some form of authentication. But having authentication and getting
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 10h ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 17h ago</sub><br>
 <a href="https://laravel-news.com/securing-filament-plugins-with-plumb?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Securing Filament plugins with Plumb</b></a>
 <br><br>
 If you keep up with Filament news, you've likely heard that there are now over 1,000 community plugins in the Filament plugins directory. So with these 1,000 plugins and growing, it's time…
 </td>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 12h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 18h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-to-break-the-ai-coding-agent-fix-loop/"><b>How to Break the AI Coding Agent Fix Loop</b></a>
 <br><br>
 You've likely seen this movie before: something breaks in an app you built with an AI coding agent. You ask the agent to fix it. It &quot;fixes&quot; it. But the bug is still there, or a second bug…
@@ -92,7 +92,7 @@ You've likely seen this movie before: something breaks in an app you built with 
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 23h ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
 <a href="https://laravel-news.com/laya-php-self-hosted-classification?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>LayaPHP: Self-Hosted Text Classification for PHP and Laravel</b></a>
 <br><br>
 LayaPHP sends text to a self-hosted model and returns typed classifications with confidence values for PHP and Laravel applications.
@@ -120,7 +120,7 @@ This analysis compares the 2024 and 2025 Developer Survey data across three conn
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 06 Oct 2026 07:02 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 06 Oct 2026 13:18 WIB.</sub>
 
 <!-- NEWS:END -->
 
