@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=a465a61dd2" />
-  <img src="./assets/activity-light.svg?v=0c52480408" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=2fa559e075" />
+  <img src="./assets/activity-light.svg?v=3de2aef68c" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=c76ba11b8d" />
-  <img src="./assets/news-light.svg?v=d40e047076" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=c5f6e27004" />
+  <img src="./assets/news-light.svg?v=5f76e21450" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,41 +36,55 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>LOBSTERS</code>&nbsp; 8m ago</sub><br>
-<a href="https://www.usenix.org/system/files/fast23-lu.pdf"><b>Perseus: A Fail-Slow Detection Framework for Cloud Storage Systems (2023)</b></a>
+<sub><code>HN</code>&nbsp; 1h ago</sub><br>
+<a href="https://arstechnica.com/security/2026/10/hackers-obtain-counterfeit-tls-certificates-for-google-and-other-large-services/"><b>Hackers obtain counterfeit TLS certificates for Google and other large services</b></a>
 <br><br>
-Abstract: The newly-emerging “fail-slow” failures plague both software and hardware where the victim components are still functioning yet with degraded performance. To address this problem…
+12 points and 0 comments on the Hacker News front page · arstechnica.com
 </td>
 <td width="50%" valign="top">
 <sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://github.com/storytold/photocraft"><b>Adobe Creative Suite Cleanroom Port to Rust</b></a>
+<a href="https://sysadmin1138.net/mt/blog/2026/10/calling-it-quits-on-serverfault.shtml"><b>Calling It Quits on ServerFault</b></a>
 <br><br>
-51 points and 18 comments on the Hacker News front page · github.com
+41 points and 14 comments on the Hacker News front page · sysadmin1138.net
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://www.thedrive.com/news/heres-how-california-closed-the-montana-license-plate-loophole"><b>California Closed the Montana License Plate Loophole</b></a>
+<sub><code>DEV</code>&nbsp; 8h ago</sub><br>
+<a href="https://dev.to/marceli/curiosity-over-comfort-5cki"><b>Curiosity Over Comfort</b></a>
 <br><br>
-7 points and 1 comment on the Hacker News front page · thedrive.com
+I’m More Interested in Why Things Break Than Why They Work I don’t think I became...
 </td>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 1h ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 8h ago</sub><br>
+<a href="https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development/"><b>Building Git infrastructure for agent-scale development</b></a>
+<br><br>
+We're rebuilding GitHub's Git infrastructure while GitHub keeps running, creating a foundation for agent-scale software development.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>NEXT.JS</code>&nbsp; 9h ago</sub><br>
+<a href="https://nextjs.org/blog/next-16-4"><b>Next.js 16.4</b></a>
+<br><br>
+Next.js 16.4 introduces lazy compilation, smaller Turbopack output, React 19.3 features, Cache Components improvements, and new developer tooling.
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 11h ago</sub><br>
+<a href="https://dev.to/extinctsion/ai-nature-quest-i-built-an-ai-that-wants-you-to-stop-using-it-56g6"><b>🌿 AI Nature Quest: I Built an AI That Wants You to Stop Using It</b></a>
+<br><br>
+This is a submission for the Hacktoberfest Open-Source AI Challenge Week 1: Touch Grass What if the...
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>STACKOVERFLOW</code>&nbsp; 12h ago</sub><br>
 <a href="https://stackoverflow.blog/2026/10/06/tales-from-the-2026-developer-survey-results/"><b>Tales from the 2026 Developer Survey results</b></a>
 <br><br>
 Ryan chats with Erin Yepis, Senior Analyst at Stack Overflow, about the results from this year’s Annual Developer Survey, including the overwhelming daily usage of AI coding assistants…
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 2h ago</sub><br>
-<a href="https://dev.to/smtahosin/why-your-typescript-code-still-crashes-in-production-2bf4"><b>Why Your TypeScript Code Still Crashes in Production</b></a>
-<br><br>
-A practical visual guide to the TypeScript mental model. Discover why types vanish at runtime, how structural typing works, and how to write clean, type-safe code that never crashes in…
-</td>
-<td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 2h ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 14h ago</sub><br>
 <a href="https://laravel-news.com/vmpal-ai-agent-virtual-machine?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>VMPal: Give Your AI Agent a Whole Computer</b></a>
 <br><br>
 VMPal gives your AI agent its own macOS, Windows, or Linux VM on Apple silicon, so Claude Code or Codex can work without you approving every prompt.
@@ -78,49 +92,35 @@ VMPal gives your AI agent its own macOS, Windows, or Linux VM on Apple silicon, 
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 4h ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 15h ago</sub><br>
 <a href="https://stackoverflow.blog/2026/10/06/the-results-of-the-2026-developer-survey-are-here/"><b>The results of the 2026 Developer Survey are here!</b></a>
 <br><br>
 Below, we’ll highlight some of the results we found interesting about what's going in the life of technologists, their technologies, AI usage, and more.
 </td>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 7h ago</sub><br>
-<a href="https://dev.to/akhourianmolkumar/your-github-readme-isnt-a-profile-its-a-storefront-here-are-the-5-rules-i-used-57jm"><b>Your GitHub README Isn't a Profile. It's a Storefront. (Here Are the 5 Rules I Used</b></a>
-<br><br>
-Description: &quot;I stopped decorating my GitHub profile and started shipping it like a product page....
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 12h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 23h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/claude-code-in-a-docker-sandbox/"><b>What Claude Code Can and Can't Do with Full Access Inside a Docker Sandbox</b></a>
 <br><br>
 Claude Code can do more than suggest a fix. It can edit files, install dependencies, run tests, and start your application. But letting it finish a task on its own raises a practical…
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 13h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-to-encrypt-pii-in-data-pipelines-while-keeping-it-searchable/"><b>How to Encrypt PII in Data Pipelines While Keeping It Searchable</b></a>
 <br><br>
 At Intuit, my team built a data pipeline that processed TurboTax e-filing data. This data needed to be made available for dashboards, analytics, and other downstream use cases. One of the…
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 15h ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
 <a href="https://laravel-news.com/synapse-laravel-ai-agents?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Synapse: A Dev Dashboard for Laravel AI SDK Agents</b></a>
 <br><br>
 Synapse from Redberry lists your Laravel AI SDK agents, lets you chat with them in the browser, and shows their tool calls and token usage.
 </td>
-<td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 1d ago</sub><br>
-<a href="https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/"><b>ReviewBench: An open benchmark for AI code review</b></a>
-<br><br>
-We’re launching ReviewBench, a benchmark for code review agents built on representative GitHub pull requests, multi-source ground truth, calibrated evaluation, and production-aligned…
-</td>
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Lobsters · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 07 Oct 2026 01:20 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 07 Oct 2026 12:56 WIB.</sub>
 
 <!-- NEWS:END -->
 
