@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=2fa559e075" />
-  <img src="./assets/activity-light.svg?v=3de2aef68c" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=53455243df" />
+  <img src="./assets/activity-light.svg?v=f9527f59b0" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=c5f6e27004" />
-  <img src="./assets/news-light.svg?v=5f76e21450" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=3f61b36445" />
+  <img src="./assets/news-light.svg?v=e0106669a7" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,55 +36,55 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://arstechnica.com/security/2026/10/hackers-obtain-counterfeit-tls-certificates-for-google-and-other-large-services/"><b>Hackers obtain counterfeit TLS certificates for Google and other large services</b></a>
+<sub><code>HN</code>&nbsp; 23m ago</sub><br>
+<a href="https://www.readingchronicle.co.uk/news/26612080.house-15m-underground-tunnels-sale-300k/"><b>House with 15M underground tunnels for sale for 300k</b></a>
 <br><br>
-12 points and 0 comments on the Hacker News front page · arstechnica.com
+10 points and 3 comments on the Hacker News front page · readingchronicle.co.uk
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://sysadmin1138.net/mt/blog/2026/10/calling-it-quits-on-serverfault.shtml"><b>Calling It Quits on ServerFault</b></a>
+<sub><code>HN</code>&nbsp; 51m ago</sub><br>
+<a href="https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/"><b>Google Playground: Create and play custom games</b></a>
 <br><br>
-41 points and 14 comments on the Hacker News front page · sysadmin1138.net
+5 points and 0 comments on the Hacker News front page · blog.google
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 8h ago</sub><br>
-<a href="https://dev.to/marceli/curiosity-over-comfort-5cki"><b>Curiosity Over Comfort</b></a>
+<sub><code>DEV</code>&nbsp; 6h ago</sub><br>
+<a href="https://dev.to/james_anderson_h/i-think-were-forgetting-how-to-be-bored-3pe5"><b>I Think We're Forgetting How to Be Bored</b></a>
 <br><br>
-I’m More Interested in Why Things Break Than Why They Work I don’t think I became...
+You know the moment. You're waiting for the kettle, or the elevator, or a page to load, or a friend...
 </td>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 8h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 12h ago</sub><br>
+<a href="https://dev.to/annavi11arrea1/proprietary-rj50-cable-reveals-the-truth-5dlc"><b>⚡ Proprietary RJ50 Cable Reveals the Truth ⚡</b></a>
+<br><br>
+Follow-up Post Previously I wrote about my experience where I built an app for my dad to...
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>GITHUB</code>&nbsp; 16h ago</sub><br>
 <a href="https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development/"><b>Building Git infrastructure for agent-scale development</b></a>
 <br><br>
 We're rebuilding GitHub's Git infrastructure while GitHub keeps running, creating a foundation for agent-scale software development.
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
-<sub><code>NEXT.JS</code>&nbsp; 9h ago</sub><br>
+<sub><code>NEXT.JS</code>&nbsp; 17h ago</sub><br>
 <a href="https://nextjs.org/blog/next-16-4"><b>Next.js 16.4</b></a>
 <br><br>
 Next.js 16.4 introduces lazy compilation, smaller Turbopack output, React 19.3 features, Cache Components improvements, and new developer tooling.
 </td>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 11h ago</sub><br>
-<a href="https://dev.to/extinctsion/ai-nature-quest-i-built-an-ai-that-wants-you-to-stop-using-it-56g6"><b>🌿 AI Nature Quest: I Built an AI That Wants You to Stop Using It</b></a>
-<br><br>
-This is a submission for the Hacktoberfest Open-Source AI Challenge Week 1: Touch Grass What if the...
-</td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 12h ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 20h ago</sub><br>
 <a href="https://stackoverflow.blog/2026/10/06/tales-from-the-2026-developer-survey-results/"><b>Tales from the 2026 Developer Survey results</b></a>
 <br><br>
 Ryan chats with Erin Yepis, Senior Analyst at Stack Overflow, about the results from this year’s Annual Developer Survey, including the overwhelming daily usage of AI coding assistants…
 </td>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 14h ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 21h ago</sub><br>
 <a href="https://laravel-news.com/vmpal-ai-agent-virtual-machine?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>VMPal: Give Your AI Agent a Whole Computer</b></a>
 <br><br>
 VMPal gives your AI agent its own macOS, Windows, or Linux VM on Apple silicon, so Claude Code or Codex can work without you approving every prompt.
@@ -92,13 +92,13 @@ VMPal gives your AI agent its own macOS, Windows, or Linux VM on Apple silicon, 
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 15h ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 23h ago</sub><br>
 <a href="https://stackoverflow.blog/2026/10/06/the-results-of-the-2026-developer-survey-are-here/"><b>The results of the 2026 Developer Survey are here!</b></a>
 <br><br>
 Below, we’ll highlight some of the results we found interesting about what's going in the life of technologists, their technologies, AI usage, and more.
 </td>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 23h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/claude-code-in-a-docker-sandbox/"><b>What Claude Code Can and Can't Do with Full Access Inside a Docker Sandbox</b></a>
 <br><br>
 Claude Code can do more than suggest a fix. It can edit files, install dependencies, run tests, and start your application. But letting it finish a task on its own raises a practical…
@@ -120,7 +120,7 @@ Synapse from Redberry lists your Laravel AI SDK agents, lets you chat with them 
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 07 Oct 2026 12:56 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 07 Oct 2026 20:20 WIB.</sub>
 
 <!-- NEWS:END -->
 
