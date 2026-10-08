@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=72c33b8a27" />
-  <img src="./assets/activity-light.svg?v=9494f81e25" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=66c5fb63fe" />
+  <img src="./assets/activity-light.svg?v=dbdcaef24a" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=7f707e5aac" />
-  <img src="./assets/news-light.svg?v=460e52ef6d" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=000057d62c" />
+  <img src="./assets/news-light.svg?v=23ba485ee3" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,97 +36,97 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 57m ago</sub><br>
-<a href="https://www.telnetbbsguide.com/"><b>Telnet BBS Guide</b></a>
+<sub><code>HN</code>&nbsp; 2h ago</sub><br>
+<a href="https://github.com/thesnarkitecht/rembrandt"><b>Show HN: Free open source Adobe Lightroom alternative, completely local with AI</b></a>
 <br><br>
-15 points and 3 comments on the Hacker News front page · telnetbbsguide.com
+35 points and 30 comments on the Hacker News front page · github.com
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://quesma.com/blog/invisible-cities-one-shot/"><b>I gave Opus 5.5 one prompt and six hours to visualize Invisible Cities</b></a>
+<sub><code>HN</code>&nbsp; 2h ago</sub><br>
+<a href="https://biohub.org/news/virtual-biology-initiative-expansion/"><b>AI-ready biological data: $1.8B global commitment</b></a>
 <br><br>
-62 points and 22 comments on the Hacker News front page · quesma.com
+42 points and 1 comment on the Hacker News front page · biohub.org
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 4h ago</sub><br>
-<a href="https://dev.to/smtahosin/how-react-actually-works-under-the-hood-and-why-your-mental-model-might-be-wrong-12b8"><b>How React Actually Works Under the Hood (And Why Your Mental Model Might Be Wrong)</b></a>
+<sub><code>STACKOVERFLOW</code>&nbsp; 3h ago</sub><br>
+<a href="https://stackoverflow.blog/2026/10/08/part-5-operating-an-llm-system-observability-cost-routing-and-the-platform-underneath/"><b>Part 5: Operating an LLM system: observability, cost, routing, and the platform underneath</b></a>
 <br><br>
-Have you ever written a line of React code, looked at the output in your browser, and thought:...
+Your service can be 100% up and still quietly approving the wrong things, burning its budget, or failing over into untested quality. Level 5 is the infrastructure that lets you see your…
 </td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 3h ago</sub><br>
+<a href="https://dev.to/theycallmeswift/i-got-jev-to-zero-mistakes-im-still-using-flash-lite-2mo7"><b>I got Jev to zero mistakes. I'm still using Flash-Lite.</b></a>
+<br><br>
+Jev is a brilliant decision model. Gemini Flash-Lite is the model nobody talks about, and it’s fast,...
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>NEXT.JS</code>&nbsp; 5h ago</sub><br>
+<a href="https://nextjs.org/blog/upcoming-nextjs-security-update-october-2026"><b>Upcoming Next.js Security Update for Upstream Vulnerabilities</b></a>
+<br><br>
+Next.js plans to publish an out-of-band security update next Wednesday, October 14, 2026, addressing two Critical and one High severity vulnerabilities in upstream dependencies.
+</td>
+<td width="50%" valign="top">
+<sub><code>GITHUB</code>&nbsp; 6h ago</sub><br>
+<a href="https://github.blog/security/how-one-bug-bounty-researcher-chooses-the-features-they-investigate/"><b>How one bug bounty researcher chooses the features they investigate</b></a>
+<br><br>
+As we kick off Cybersecurity Awareness Month, the GitHub Bug Bounty team spotlights @vaib25vicky, exploring their methodology, techniques, and experiences hacking on GitHub.
+</td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <sub><code>DEV</code>&nbsp; 6h ago</sub><br>
-<a href="https://dev.to/gramli/to-retry-or-not-to-retry-that-is-the-question-1j2l"><b>To Retry or Not to Retry? That Is the Question.</b></a>
+<a href="https://dev.to/aidiveyt/the-september-cut-took-17-of-my-claude-code-week-subagents-were-taking-48-98n"><b>The September cut took 17% of my Claude Code week. Subagents were taking 48%.</b></a>
 <br><br>
-This is a submission for the Kaggle Benchmarking Challenge Those who read my articles know that a...
+My Claude Code week started ending on Wednesday. I blamed the September 14 cut, like everyone on...
+</td>
+<td width="50%" valign="top">
+<sub><code>FREECODECAMP</code>&nbsp; 7h ago</sub><br>
+<a href="https://www.freecodecamp.org/news/master-modern-react-routing-tanstack-router-crash-course/"><b>Master Modern React Routing: TanStack Router Crash Course</b></a>
+<br><br>
+Routing in modern web applications has evolved far beyond simply rendering a component based on a URL path. Developers today want end-to-end type safety, automated code splitting, seamless…
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 11h ago</sub><br>
-<a href="https://www.freecodecamp.org/news/build-and-train-a-25m-parameter-llm-from-scratch-on-your-cpu/"><b>Build and Train a 25M Parameter LLM From Scratch on Your CPU</b></a>
+<sub><code>STACKOVERFLOW</code>&nbsp; 9h ago</sub><br>
+<a href="https://stackoverflow.blog/2026/10/08/a-green-exit-code-is-not-evidence-that-the-work-happened/"><b>A green exit code is not evidence that the work happened</b></a>
 <br><br>
-You don't need a massive GPU cluster to learn how modern frontier AI works. In our new video on the freeCodeCamp.org YouTube channel, you will build, pre-train, and fine-tune a working…
+Agents don't build trust for another reason, structurally worse than the first. It isn't only that the tool keeps changing shape. It's that the feedback loop you would need in order to…
 </td>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 19h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 11h ago</sub><br>
+<a href="https://www.freecodecamp.org/news/how-to-create-system-design-diagrams-using-python/"><b>How to Create System Design Diagrams using Python</b></a>
+<br><br>
+Creating system architecture design diagrams is an important part of technical documentation. As system complexity grows, clarity within teams becomes even more important. But creating…
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
+<a href="https://laravel-news.com/laravel-fake-assertion-property-arrays?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Laravel Fake Assertions Now Accept Property Arrays</b></a>
+<br><br>
+Laravel 13.35 lets assertPushed(), assertDispatched(), and assertSentTo() take an array of expected properties in place of a callback.
+</td>
+<td width="50%" valign="top">
+<sub><code>GITHUB</code>&nbsp; 1d ago</sub><br>
 <a href="https://github.blog/ai-and-ml/github-copilot/secret-protection-must-scale-with-software/"><b>Secret protection must scale with software</b></a>
 <br><br>
 Developers aren’t becoming more careless; they’re being outpaced. The tools that let developers create more software should also take on more of the work of protecting it.
 </td>
 </tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
-<a href="https://laravel-news.com/laravel-13-35-0?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Route::query() and Model defaults() in Laravel 13.35</b></a>
-<br><br>
-Laravel 13.35 adds Route::query(), an opt-in defaults() method for models, property arrays in fake assertions, percentage worker memory limits, and more.
-</td>
-<td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
-<a href="https://laravel-news.com/laravel-ai-sdk-1-1?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Laravel AI SDK 1.1 Adds Agent Skills and Cohere Chat</b></a>
-<br><br>
-Laravel AI SDK 1.1 adds Agent Skills support, Cohere text generation, approval for built-in tools, and failover that skips provider tools a provider lacks.
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 1d ago</sub><br>
-<a href="https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development/"><b>Building Git infrastructure for agent-scale development</b></a>
-<br><br>
-We're rebuilding GitHub's Git infrastructure while GitHub keeps running, creating a foundation for agent-scale software development.
-</td>
-<td width="50%" valign="top">
-<sub><code>NEXT.JS</code>&nbsp; 1d ago</sub><br>
-<a href="https://nextjs.org/blog/next-16-4"><b>Next.js 16.4</b></a>
-<br><br>
-Next.js 16.4 introduces lazy compilation, smaller Turbopack output, React 19.3 features, Cache Components improvements, and new developer tooling.
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 2d ago</sub><br>
-<a href="https://www.freecodecamp.org/news/claude-code-in-a-docker-sandbox/"><b>What Claude Code Can and Can't Do with Full Access Inside a Docker Sandbox</b></a>
-<br><br>
-Claude Code can do more than suggest a fix. It can edit files, install dependencies, run tests, and start your application. But letting it finish a task on its own raises a practical…
-</td>
-<td width="50%" valign="top">
-<sub><code>NEXT.JS</code>&nbsp; 7d ago</sub><br>
-<a href="https://nextjs.org/blog/september-2026-security-release"><b>September 2026 Security Release</b></a>
-<br><br>
-The September 2026 security release for Next.js is now available
-</td>
-</tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp. Refreshed automatically — last run 08 Oct 2026 20:26 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 09 Oct 2026 06:19 WIB.</sub>
 
 <!-- NEWS:END -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20261008" />
-  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261008" width="100%" alt="A snake eating this year's contribution squares" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20261009" />
+  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261009" width="100%" alt="A snake eating this year's contribution squares" />
 </picture>
 
 <picture>
