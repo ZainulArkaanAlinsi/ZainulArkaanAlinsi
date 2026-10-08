@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=87a0829436" />
-  <img src="./assets/activity-light.svg?v=c823bff0f6" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=d6430efb11" />
+  <img src="./assets/activity-light.svg?v=9d95c48572" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=8b0b33ade6" />
-  <img src="./assets/news-light.svg?v=eea9654861" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=0d8ec0a5cf" />
+  <img src="./assets/news-light.svg?v=42d9713bee" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,80 +36,80 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 37m ago</sub><br>
-<a href="https://heatherburns.tech/2026/10/01/im-in-love-with-a-german-film-star/"><b>I'm in love with a German film star</b></a>
+<sub><code>HN</code>&nbsp; 47m ago</sub><br>
+<a href="https://mathstodon.xyz/@tao/117395269325940185"><b>Terence Tao Responds to the OpenAI Math Drop</b></a>
 <br><br>
-14 points and 0 comments on the Hacker News front page · heatherburns.tech
+68 points and 28 comments on the Hacker News front page · mathstodon.xyz
 </td>
 <td width="50%" valign="top">
-<sub><code>LOBSTERS</code>&nbsp; 1h ago</sub><br>
-<a href="https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007"><b>Margaret Hamilton, computing pioneer who led software development for the Apollo program, dies…</b></a>
+<sub><code>HN</code>&nbsp; 2h ago</sub><br>
+<a href="https://github.com/zerobrewhq/zerobrew"><b>A 100x faster* alternative to homebrew</b></a>
 <br><br>
-<i>No summary in this feed — open the link for the full story.</i>
+30 points and 17 comments on the Hacker News front page · github.com
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007"><b>Margaret Hamilton, who led software development for the Apollo program, has died</b></a>
+<sub><code>LOBSTERS</code>&nbsp; 2h ago</sub><br>
+<a href="https://ninashamsi.com/writing/i-am-a-bad-writer.html"><b>On using AI as a writing assistant</b></a>
 <br><br>
-218 points and 18 comments on the Hacker News front page · news.mit.edu
+Some people are using AI for writing assistance, but not everyone is using it the same way. If you were always bad at something, I don't think AI makes you better at it; in fact, it may…
 </td>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 4h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 3h ago</sub><br>
+<a href="https://www.freecodecamp.org/news/build-and-train-a-25m-parameter-llm-from-scratch-on-your-cpu/"><b>Build and Train a 25M Parameter LLM From Scratch on Your CPU</b></a>
+<br><br>
+You don't need a massive GPU cluster to learn how modern frontier AI works. In our new video on the freeCodeCamp.org YouTube channel, you will build, pre-train, and fine-tune a working…
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 11h ago</sub><br>
 <a href="https://dev.to/gde/touch-grass-pack-your-docs-an-offline-coding-agent-on-a-4-gb-laptop-gpu-4lf1"><b>Touch Grass, Pack Your Docs: An Offline Coding Agent on a 4 GB Laptop GPU</b></a>
 <br><br>
 Gemma 4 E4B, llama.cpp and opencode on a GTX 1650 Ti with the network off. Thinking, a tuned agent profile and a reference doc attached to the request take the same task from zero passes to…
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 5h ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 12h ago</sub><br>
 <a href="https://github.blog/ai-and-ml/github-copilot/secret-protection-must-scale-with-software/"><b>Secret protection must scale with software</b></a>
 <br><br>
 Developers aren’t becoming more careless; they’re being outpaced. The tools that let developers create more software should also take on more of the work of protecting it.
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 20h ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
 <a href="https://laravel-news.com/laravel-13-35-0?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Route::query() and Model defaults() in Laravel 13.35</b></a>
 <br><br>
 Laravel 13.35 adds Route::query(), an opt-in defaults() method for models, property arrays in fake assertions, percentage worker memory limits, and more.
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 23h ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
 <a href="https://laravel-news.com/laravel-ai-sdk-1-1?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Laravel AI SDK 1.1 Adds Agent Skills and Cohere Chat</b></a>
 <br><br>
 Laravel AI SDK 1.1 adds Agent Skills support, Cohere text generation, approval for built-in tools, and failover that skips provider tools a provider lacks.
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <sub><code>GITHUB</code>&nbsp; 1d ago</sub><br>
 <a href="https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development/"><b>Building Git infrastructure for agent-scale development</b></a>
 <br><br>
 We're rebuilding GitHub's Git infrastructure while GitHub keeps running, creating a foundation for agent-scale software development.
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <sub><code>NEXT.JS</code>&nbsp; 1d ago</sub><br>
 <a href="https://nextjs.org/blog/next-16-4"><b>Next.js 16.4</b></a>
 <br><br>
 Next.js 16.4 introduces lazy compilation, smaller Turbopack output, React 19.3 features, Cache Components improvements, and new developer tooling.
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/claude-code-in-a-docker-sandbox/"><b>What Claude Code Can and Can't Do with Full Access Inside a Docker Sandbox</b></a>
 <br><br>
 Claude Code can do more than suggest a fix. It can edit files, install dependencies, run tests, and start your application. But letting it finish a task on its own raises a practical…
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
-<a href="https://www.freecodecamp.org/news/how-to-encrypt-pii-in-data-pipelines-while-keeping-it-searchable/"><b>How to Encrypt PII in Data Pipelines While Keeping It Searchable</b></a>
-<br><br>
-At Intuit, my team built a data pipeline that processed TurboTax e-filing data. This data needed to be made available for dashboards, analytics, and other downstream use cases. One of the…
 </td>
 <td width="50%" valign="top">
 <sub><code>NEXT.JS</code>&nbsp; 7d ago</sub><br>
@@ -120,7 +120,7 @@ The September 2026 security release for Next.js is now available
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · Lobsters · freeCodeCamp. Refreshed automatically — last run 08 Oct 2026 06:04 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · Lobsters · freeCodeCamp. Refreshed automatically — last run 08 Oct 2026 13:01 WIB.</sub>
 
 <!-- NEWS:END -->
 
