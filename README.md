@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=d6430efb11" />
-  <img src="./assets/activity-light.svg?v=9d95c48572" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=72c33b8a27" />
+  <img src="./assets/activity-light.svg?v=9494f81e25" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=0d8ec0a5cf" />
-  <img src="./assets/news-light.svg?v=42d9713bee" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=7f707e5aac" />
+  <img src="./assets/news-light.svg?v=460e52ef6d" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,41 +36,41 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 47m ago</sub><br>
-<a href="https://mathstodon.xyz/@tao/117395269325940185"><b>Terence Tao Responds to the OpenAI Math Drop</b></a>
+<sub><code>HN</code>&nbsp; 57m ago</sub><br>
+<a href="https://www.telnetbbsguide.com/"><b>Telnet BBS Guide</b></a>
 <br><br>
-68 points and 28 comments on the Hacker News front page · mathstodon.xyz
+15 points and 3 comments on the Hacker News front page · telnetbbsguide.com
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 2h ago</sub><br>
-<a href="https://github.com/zerobrewhq/zerobrew"><b>A 100x faster* alternative to homebrew</b></a>
+<sub><code>HN</code>&nbsp; 1h ago</sub><br>
+<a href="https://quesma.com/blog/invisible-cities-one-shot/"><b>I gave Opus 5.5 one prompt and six hours to visualize Invisible Cities</b></a>
 <br><br>
-30 points and 17 comments on the Hacker News front page · github.com
+62 points and 22 comments on the Hacker News front page · quesma.com
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>LOBSTERS</code>&nbsp; 2h ago</sub><br>
-<a href="https://ninashamsi.com/writing/i-am-a-bad-writer.html"><b>On using AI as a writing assistant</b></a>
+<sub><code>DEV</code>&nbsp; 4h ago</sub><br>
+<a href="https://dev.to/smtahosin/how-react-actually-works-under-the-hood-and-why-your-mental-model-might-be-wrong-12b8"><b>How React Actually Works Under the Hood (And Why Your Mental Model Might Be Wrong)</b></a>
 <br><br>
-Some people are using AI for writing assistance, but not everyone is using it the same way. If you were always bad at something, I don't think AI makes you better at it; in fact, it may…
+Have you ever written a line of React code, looked at the output in your browser, and thought:...
 </td>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 3h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 6h ago</sub><br>
+<a href="https://dev.to/gramli/to-retry-or-not-to-retry-that-is-the-question-1j2l"><b>To Retry or Not to Retry? That Is the Question.</b></a>
+<br><br>
+This is a submission for the Kaggle Benchmarking Challenge Those who read my articles know that a...
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>FREECODECAMP</code>&nbsp; 11h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/build-and-train-a-25m-parameter-llm-from-scratch-on-your-cpu/"><b>Build and Train a 25M Parameter LLM From Scratch on Your CPU</b></a>
 <br><br>
 You don't need a massive GPU cluster to learn how modern frontier AI works. In our new video on the freeCodeCamp.org YouTube channel, you will build, pre-train, and fine-tune a working…
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 11h ago</sub><br>
-<a href="https://dev.to/gde/touch-grass-pack-your-docs-an-offline-coding-agent-on-a-4-gb-laptop-gpu-4lf1"><b>Touch Grass, Pack Your Docs: An Offline Coding Agent on a 4 GB Laptop GPU</b></a>
-<br><br>
-Gemma 4 E4B, llama.cpp and opencode on a GTX 1650 Ti with the network off. Thinking, a tuned agent profile and a reference doc attached to the request take the same task from zero passes to…
-</td>
-<td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 12h ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 19h ago</sub><br>
 <a href="https://github.blog/ai-and-ml/github-copilot/secret-protection-must-scale-with-software/"><b>Secret protection must scale with software</b></a>
 <br><br>
 Developers aren’t becoming more careless; they’re being outpaced. The tools that let developers create more software should also take on more of the work of protecting it.
@@ -106,7 +106,7 @@ Next.js 16.4 introduces lazy compilation, smaller Turbopack output, React 19.3 f
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 2d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/claude-code-in-a-docker-sandbox/"><b>What Claude Code Can and Can't Do with Full Access Inside a Docker Sandbox</b></a>
 <br><br>
 Claude Code can do more than suggest a fix. It can edit files, install dependencies, run tests, and start your application. But letting it finish a task on its own raises a practical…
@@ -120,7 +120,7 @@ The September 2026 security release for Next.js is now available
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · Lobsters · freeCodeCamp. Refreshed automatically — last run 08 Oct 2026 13:01 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp. Refreshed automatically — last run 08 Oct 2026 20:26 WIB.</sub>
 
 <!-- NEWS:END -->
 
