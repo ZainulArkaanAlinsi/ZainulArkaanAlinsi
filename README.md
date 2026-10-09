@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=8e05cdc1b3" />
-  <img src="./assets/activity-light.svg?v=839afe6506" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=ff18ca947f" />
+  <img src="./assets/activity-light.svg?v=879f099f73" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=06235776f2" />
-  <img src="./assets/news-light.svg?v=56eb7ee107" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=3c76368fbf" />
+  <img src="./assets/news-light.svg?v=32fc445086" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,55 +36,69 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 43m ago</sub><br>
-<a href="https://quake-srp.pages.dev/"><b>Show HN: Quake ported to safe Rust, playable in browser</b></a>
+<sub><code>DEV</code>&nbsp; 29m ago</sub><br>
+<a href="https://dev.to/sarvar_04/i-built-an-offline-ai-that-knows-your-last-frost-date-no-internet-no-api-3b8e"><b>I built an offline AI that knows your last frost date, no internet, no API</b></a>
 <br><br>
-48 points and 18 comments on the Hacker News front page · quake-srp.pages.dev
+An open-weight tabular model forecasts your last spring frost and a local Gemma writes the planting advice. Fully offline, no account, $0 to run.
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 4h ago</sub><br>
-<a href="https://lwn.net/Articles/1095811/"><b>Reducing undefined behavior in the C language</b></a>
+<sub><code>HN</code>&nbsp; 53m ago</sub><br>
+<a href="https://www.hetzner.com/blog/the-hetzner-cloud-network-stack-history-and-technical-overview/"><b>The Hetzner Cloud network stack – history and technical overview</b></a>
 <br><br>
-80 points and 47 comments on the Hacker News front page · lwn.net
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 9h ago</sub><br>
-<a href="https://stackoverflow.blog/2026/10/08/part-5-operating-an-llm-system-observability-cost-routing-and-the-platform-underneath/"><b>Part 5: Operating an LLM system: observability, cost, routing, and the platform underneath</b></a>
-<br><br>
-Your service can be 100% up and still quietly approving the wrong things, burning its budget, or failing over into untested quality. Level 5 is the infrastructure that lets you see your…
-</td>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 10h ago</sub><br>
-<a href="https://dev.to/theycallmeswift/i-got-jev-to-zero-mistakes-im-still-using-flash-lite-2mo7"><b>I got Jev to zero mistakes. I'm still using Flash-Lite.</b></a>
-<br><br>
-Jev is a brilliant decision model. Gemini Flash-Lite is the model nobody talks about, and it’s fast,...
+19 points and 2 comments on the Hacker News front page · hetzner.com
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>NEXT.JS</code>&nbsp; 12h ago</sub><br>
+<sub><code>HN</code>&nbsp; 1h ago</sub><br>
+<a href="https://www.nature.com/articles/d41586-026-02921-7"><b>US proposes $100k charge for international students to do post-graduate work</b></a>
+<br><br>
+41 points and 40 comments on the Hacker News front page · nature.com
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 5h ago</sub><br>
+<a href="https://dev.to/the_nortern_dev/ai-got-better-while-i-was-away-software-didnt-4b2b"><b>AI Got Better While I Was Away. Software Didn't.</b></a>
+<br><br>
+I haven't written here in a while. Not because I ran out of opinions. That would be concerning. I...
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>STACKOVERFLOW</code>&nbsp; 5h ago</sub><br>
+<a href="https://stackoverflow.blog/2026/10/09/taking-a-look-under-your-agent-s-hood/"><b>Taking a look under your agent’s hood</b></a>
+<br><br>
+Ryan is joined by Yanbing Li, Chief Product Officer at Datadog, to talk about applying observability to non-deterministic AI agents, blurring the boundaries between software development and…
+</td>
+<td width="50%" valign="top">
+<sub><code>LARAVEL</code>&nbsp; 15h ago</sub><br>
+<a href="https://laravel-news.com/laravel-scheduler-multiple-servers?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Running Laravel's Scheduler on Multiple Servers</b></a>
+<br><br>
+Laravel 13.35 adds Schedule::alwaysOnOneServer() to run every task once across servers, and a way for long scheduled commands to stop during a deploy.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>STACKOVERFLOW</code>&nbsp; 16h ago</sub><br>
+<a href="https://stackoverflow.blog/2026/10/08/production-grade-llms-and-agents-a-field-guide/"><b>Production-grade LLMs and agents: a field guide</b></a>
+<br><br>
+A maturity model for taking agents from an impressive demo to a system people can depend on — with a self-assessment and the map to a deep-dive on each layer.
+</td>
+<td width="50%" valign="top">
+<sub><code>NEXT.JS</code>&nbsp; 19h ago</sub><br>
 <a href="https://nextjs.org/blog/upcoming-nextjs-security-update-october-2026"><b>Upcoming Next.js Security Update for Upstream Vulnerabilities</b></a>
 <br><br>
 Next.js plans to publish an out-of-band security update next Wednesday, October 14, 2026, addressing two Critical and one High severity vulnerabilities in upstream dependencies.
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 13h ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 20h ago</sub><br>
 <a href="https://github.blog/security/how-one-bug-bounty-researcher-chooses-the-features-they-investigate/"><b>How one bug bounty researcher chooses the features they investigate</b></a>
 <br><br>
 As we kick off Cybersecurity Awareness Month, the GitHub Bug Bounty team spotlights @vaib25vicky, exploring their methodology, techniques, and experiences hacking on GitHub.
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 13h ago</sub><br>
-<a href="https://dev.to/aidiveyt/the-september-cut-took-17-of-my-claude-code-week-subagents-were-taking-48-98n"><b>The September cut took 17% of my Claude Code week. Subagents were taking 48%.</b></a>
-<br><br>
-My Claude Code week started ending on Wednesday. I blamed the September 14 cut, like everyone on...
-</td>
-<td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 14h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 21h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/master-modern-react-routing-tanstack-router-crash-course/"><b>Master Modern React Routing: TanStack Router Crash Course</b></a>
 <br><br>
 Routing in modern web applications has evolved far beyond simply rendering a component based on a URL path. Developers today want end-to-end type safety, automated code splitting, seamless…
@@ -92,35 +106,21 @@ Routing in modern web applications has evolved far beyond simply rendering a com
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 16h ago</sub><br>
-<a href="https://stackoverflow.blog/2026/10/08/a-green-exit-code-is-not-evidence-that-the-work-happened/"><b>A green exit code is not evidence that the work happened</b></a>
-<br><br>
-Agents don't build trust for another reason, structurally worse than the first. It isn't only that the tool keeps changing shape. It's that the feedback loop you would need in order to…
-</td>
-<td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 17h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-to-create-system-design-diagrams-using-python/"><b>How to Create System Design Diagrams using Python</b></a>
 <br><br>
 Creating system architecture design diagrams is an important part of technical documentation. As system complexity grows, clarity within teams becomes even more important. But creating…
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
 <a href="https://laravel-news.com/laravel-fake-assertion-property-arrays?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Laravel Fake Assertions Now Accept Property Arrays</b></a>
 <br><br>
 Laravel 13.35 lets assertPushed(), assertDispatched(), and assertSentTo() take an array of expected properties in place of a callback.
 </td>
-<td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 1d ago</sub><br>
-<a href="https://github.blog/ai-and-ml/github-copilot/secret-protection-must-scale-with-software/"><b>Secret protection must scale with software</b></a>
-<br><br>
-Developers aren’t becoming more careless; they’re being outpaced. The tools that let developers create more software should also take on more of the work of protecting it.
-</td>
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 09 Oct 2026 13:06 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 09 Oct 2026 20:14 WIB.</sub>
 
 <!-- NEWS:END -->
 
