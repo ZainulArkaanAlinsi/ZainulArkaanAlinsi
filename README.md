@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=66c5fb63fe" />
-  <img src="./assets/activity-light.svg?v=dbdcaef24a" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=8e05cdc1b3" />
+  <img src="./assets/activity-light.svg?v=839afe6506" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=000057d62c" />
-  <img src="./assets/news-light.svg?v=23ba485ee3" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=06235776f2" />
+  <img src="./assets/news-light.svg?v=56eb7ee107" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,27 +36,27 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 2h ago</sub><br>
-<a href="https://github.com/thesnarkitecht/rembrandt"><b>Show HN: Free open source Adobe Lightroom alternative, completely local with AI</b></a>
+<sub><code>HN</code>&nbsp; 43m ago</sub><br>
+<a href="https://quake-srp.pages.dev/"><b>Show HN: Quake ported to safe Rust, playable in browser</b></a>
 <br><br>
-35 points and 30 comments on the Hacker News front page · github.com
+48 points and 18 comments on the Hacker News front page · quake-srp.pages.dev
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 2h ago</sub><br>
-<a href="https://biohub.org/news/virtual-biology-initiative-expansion/"><b>AI-ready biological data: $1.8B global commitment</b></a>
+<sub><code>HN</code>&nbsp; 4h ago</sub><br>
+<a href="https://lwn.net/Articles/1095811/"><b>Reducing undefined behavior in the C language</b></a>
 <br><br>
-42 points and 1 comment on the Hacker News front page · biohub.org
+80 points and 47 comments on the Hacker News front page · lwn.net
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 3h ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 9h ago</sub><br>
 <a href="https://stackoverflow.blog/2026/10/08/part-5-operating-an-llm-system-observability-cost-routing-and-the-platform-underneath/"><b>Part 5: Operating an LLM system: observability, cost, routing, and the platform underneath</b></a>
 <br><br>
 Your service can be 100% up and still quietly approving the wrong things, burning its budget, or failing over into untested quality. Level 5 is the infrastructure that lets you see your…
 </td>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 3h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 10h ago</sub><br>
 <a href="https://dev.to/theycallmeswift/i-got-jev-to-zero-mistakes-im-still-using-flash-lite-2mo7"><b>I got Jev to zero mistakes. I'm still using Flash-Lite.</b></a>
 <br><br>
 Jev is a brilliant decision model. Gemini Flash-Lite is the model nobody talks about, and it’s fast,...
@@ -64,13 +64,13 @@ Jev is a brilliant decision model. Gemini Flash-Lite is the model nobody talks a
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>NEXT.JS</code>&nbsp; 5h ago</sub><br>
+<sub><code>NEXT.JS</code>&nbsp; 12h ago</sub><br>
 <a href="https://nextjs.org/blog/upcoming-nextjs-security-update-october-2026"><b>Upcoming Next.js Security Update for Upstream Vulnerabilities</b></a>
 <br><br>
 Next.js plans to publish an out-of-band security update next Wednesday, October 14, 2026, addressing two Critical and one High severity vulnerabilities in upstream dependencies.
 </td>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 6h ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 13h ago</sub><br>
 <a href="https://github.blog/security/how-one-bug-bounty-researcher-chooses-the-features-they-investigate/"><b>How one bug bounty researcher chooses the features they investigate</b></a>
 <br><br>
 As we kick off Cybersecurity Awareness Month, the GitHub Bug Bounty team spotlights @vaib25vicky, exploring their methodology, techniques, and experiences hacking on GitHub.
@@ -78,13 +78,13 @@ As we kick off Cybersecurity Awareness Month, the GitHub Bug Bounty team spotlig
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 6h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 13h ago</sub><br>
 <a href="https://dev.to/aidiveyt/the-september-cut-took-17-of-my-claude-code-week-subagents-were-taking-48-98n"><b>The September cut took 17% of my Claude Code week. Subagents were taking 48%.</b></a>
 <br><br>
 My Claude Code week started ending on Wednesday. I blamed the September 14 cut, like everyone on...
 </td>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 7h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 14h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/master-modern-react-routing-tanstack-router-crash-course/"><b>Master Modern React Routing: TanStack Router Crash Course</b></a>
 <br><br>
 Routing in modern web applications has evolved far beyond simply rendering a component based on a URL path. Developers today want end-to-end type safety, automated code splitting, seamless…
@@ -92,13 +92,13 @@ Routing in modern web applications has evolved far beyond simply rendering a com
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 9h ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 16h ago</sub><br>
 <a href="https://stackoverflow.blog/2026/10/08/a-green-exit-code-is-not-evidence-that-the-work-happened/"><b>A green exit code is not evidence that the work happened</b></a>
 <br><br>
 Agents don't build trust for another reason, structurally worse than the first. It isn't only that the tool keeps changing shape. It's that the feedback loop you would need in order to…
 </td>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 11h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 17h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-to-create-system-design-diagrams-using-python/"><b>How to Create System Design Diagrams using Python</b></a>
 <br><br>
 Creating system architecture design diagrams is an important part of technical documentation. As system complexity grows, clarity within teams becomes even more important. But creating…
@@ -120,7 +120,7 @@ Developers aren’t becoming more careless; they’re being outpaced. The tools 
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 09 Oct 2026 06:19 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 09 Oct 2026 13:06 WIB.</sub>
 
 <!-- NEWS:END -->
 
