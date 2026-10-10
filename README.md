@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=7a2ebfa159" />
-  <img src="./assets/activity-light.svg?v=932f291a89" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=6a72635115" />
+  <img src="./assets/activity-light.svg?v=341dfc3faa" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=87f679f2a0" />
-  <img src="./assets/news-light.svg?v=5c085b52df" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=ff5b09027d" />
+  <img src="./assets/news-light.svg?v=a3e157b95d" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,41 +36,41 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 58m ago</sub><br>
-<a href="https://www.groundlevel-ai.com/p/anthropic-ai-consciousness-new-york-times-rabbi"><b>If AI is conscient, then we are making slaves</b></a>
+<sub><code>HN</code>&nbsp; 25m ago</sub><br>
+<a href="https://deadsimpletech.com/blog/llms-arent-inevitable"><b>LLMs Aren't Inevitable</b></a>
 <br><br>
-10 points and 12 comments on the Hacker News front page · groundlevel-ai.com
+5 points and 0 comments on the Hacker News front page · deadsimpletech.com
 </td>
 <td width="50%" valign="top">
 <sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://geohot.github.io//blog/jekyll/update/2026/10/10/lobbying.html"><b>Lobbying</b></a>
+<a href="https://www.opengroup.org//openbrand/register/"><b>Apple/macOS silently removed from official Unix registry</b></a>
 <br><br>
-142 points and 44 comments on the Hacker News front page · geohot.github.io
+33 points and 14 comments on the Hacker News front page · opengroup.org
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 4h ago</sub><br>
-<a href="https://dev.to/gde/surviving-the-200k-token-lobotomy-how-unix-initd-and-memento-made-my-ai-coding-agent-immune-to-2f74"><b>Surviving the 200k-Token Lobotomy: How Unix init.d and 'Memento' Made My AI Coding Agent Immune…</b></a>
+<sub><code>DEV</code>&nbsp; 3h ago</sub><br>
+<a href="https://dev.to/xulingfeng/what-do-you-drink-while-you-work-17bm"><b>What Do You Drink While You Work?</b></a>
 <br><br>
-Why host auto-compaction silently lobotomizes long-running AI coding sessions, and how 1983 SysV init.d runlevel files, Memento tattoos, and fork/wait subagents let our orchestrator survive…
+I wrote a fiction series with six characters. Each one drinks a different coffee. I didn't plan it...
 </td>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 4h ago</sub><br>
-<a href="https://dev.to/gde/gemma-4-e2b-in-pure-jax-on-a-colab-tpu-googles-4-bit-export-against-an-exact-repack-4dle"><b>Gemma 4 E2B in Pure JAX on a Colab TPU: Google's 4-Bit Export Against an Exact Repack</b></a>
+<sub><code>DEV</code>&nbsp; 5h ago</sub><br>
+<a href="https://dev.to/dj29/wildproof-go-outside-with-a-question-come-back-with-evidence-574e"><b>WildProof: Go Outside With a Question, Come Back With Evidence</b></a>
 <br><br>
-A Colab notebook for the AI GDE Marathon that loads three Gemma 4 E2B checkpoints into a pure-JAX engine on one TPU v5e chip and measures, on the reader's own chip, how far each 4-bit build…
+This is a submission for the Hacktoberfest Open-Source AI Challenge Week 1: Touch Grass ...
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 12h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 19h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/create-scalable-ai-automations-with-n8n/"><b>Create Scalable AI Automations with n8n</b></a>
 <br><br>
 Most automation tutorials show you how to connect two simple apps and call it a day. But building workflows that companies can actually run in production requires an entirely different…
 </td>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 13h ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 20h ago</sub><br>
 <a href="https://github.blog/developer-skills/career-growth/hack-the-world-why-hackathons-are-still-the-best-place-to-learn-to-build/"><b>Hack the World: Why hackathons are still the best place to learn to build</b></a>
 <br><br>
 The barriers to building software have collapsed. Today, anyone can build. Hackathons are a great place to start learning.
@@ -78,7 +78,7 @@ The barriers to building software have collapsed. Today, anyone can build. Hacka
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 22h ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 1d ago</sub><br>
 <a href="https://stackoverflow.blog/2026/10/09/taking-a-look-under-your-agent-s-hood/"><b>Taking a look under your agent’s hood</b></a>
 <br><br>
 Ryan is joined by Yanbing Li, Chief Product Officer at Datadog, to talk about applying observability to non-deterministic AI agents, blurring the boundaries between software development and…
@@ -120,7 +120,7 @@ Laravel 13.35 lets assertPushed(), assertDispatched(), and assertSentTo() take a
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 10 Oct 2026 12:49 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 10 Oct 2026 19:29 WIB.</sub>
 
 <!-- NEWS:END -->
 
