@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=6a72635115" />
-  <img src="./assets/activity-light.svg?v=341dfc3faa" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=d3a9b7a882" />
+  <img src="./assets/activity-light.svg?v=ce06c48e86" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=ff5b09027d" />
-  <img src="./assets/news-light.svg?v=a3e157b95d" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=e70ab95237" />
+  <img src="./assets/news-light.svg?v=ceb58160dc" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,41 +36,41 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 25m ago</sub><br>
-<a href="https://deadsimpletech.com/blog/llms-arent-inevitable"><b>LLMs Aren't Inevitable</b></a>
+<sub><code>HN</code>&nbsp; 22m ago</sub><br>
+<a href="https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks/"><b>Hackers abuse Google Ads, Bing redirects to push Claude ClickFix attacks</b></a>
 <br><br>
-5 points and 0 comments on the Hacker News front page · deadsimpletech.com
+5 points and 2 comments on the Hacker News front page · bleepingcomputer.com
 </td>
 <td width="50%" valign="top">
 <sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://www.opengroup.org//openbrand/register/"><b>Apple/macOS silently removed from official Unix registry</b></a>
+<a href="https://housing.over.pizza/"><b>A city-building game in which the city would prefer you didn't</b></a>
 <br><br>
-33 points and 14 comments on the Hacker News front page · opengroup.org
+4 points and 0 comments on the Hacker News front page · housing.over.pizza
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 3h ago</sub><br>
-<a href="https://dev.to/xulingfeng/what-do-you-drink-while-you-work-17bm"><b>What Do You Drink While You Work?</b></a>
+<sub><code>DEV</code>&nbsp; 4h ago</sub><br>
+<a href="https://dev.to/smtahosin/git-isnt-a-diff-tracker-how-blobs-trees-dag-commits-and-the-index-actually-work-under-the-hood-19eo"><b>Git Isn't a Diff Tracker: How Blobs, Trees, DAG Commits, and the Index Actually Work Under the…</b></a>
 <br><br>
-I wrote a fiction series with six characters. Each one drinks a different coffee. I didn't plan it...
+A visual, 10-minute deep dive into Git internal architecture. Learn how content-addressed storage works, why Git never stores diffs, how the index prepares tree objects, and how to recover…
 </td>
 <td width="50%" valign="top">
 <sub><code>DEV</code>&nbsp; 5h ago</sub><br>
-<a href="https://dev.to/dj29/wildproof-go-outside-with-a-question-come-back-with-evidence-574e"><b>WildProof: Go Outside With a Question, Come Back With Evidence</b></a>
+<a href="https://dev.to/nyaomaru/how-do-we-extract-the-why-from-a-pr-into-a-changelog-with-jev-52pk"><b>How Do We Extract the “Why” from a PR into a CHANGELOG with Jev? 🤔</b></a>
 <br><br>
-This is a submission for the Hacktoberfest Open-Source AI Challenge Week 1: Touch Grass ...
+Hoi hoi! 👋 I'm @nyaomaru, a frontend engineer currently building an AI-assisted CHANGELOG generator...
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 19h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/create-scalable-ai-automations-with-n8n/"><b>Create Scalable AI Automations with n8n</b></a>
 <br><br>
 Most automation tutorials show you how to connect two simple apps and call it a day. But building workflows that companies can actually run in production requires an entirely different…
 </td>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 20h ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 1d ago</sub><br>
 <a href="https://github.blog/developer-skills/career-growth/hack-the-world-why-hackathons-are-still-the-best-place-to-learn-to-build/"><b>Hack the World: Why hackathons are still the best place to learn to build</b></a>
 <br><br>
 The barriers to building software have collapsed. Today, anyone can build. Hackathons are a great place to start learning.
@@ -92,13 +92,13 @@ Laravel 13.35 adds Schedule::alwaysOnOneServer() to run every task once across s
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>NEXT.JS</code>&nbsp; 1d ago</sub><br>
+<sub><code>NEXT.JS</code>&nbsp; 2d ago</sub><br>
 <a href="https://nextjs.org/blog/upcoming-nextjs-security-update-october-2026"><b>Upcoming Next.js Security Update for Upstream Vulnerabilities</b></a>
 <br><br>
 Next.js plans to publish an out-of-band security update next Wednesday, October 14, 2026, addressing two Critical and one High severity vulnerabilities in upstream dependencies.
 </td>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 1d ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 2d ago</sub><br>
 <a href="https://github.blog/security/how-one-bug-bounty-researcher-chooses-the-features-they-investigate/"><b>How one bug bounty researcher chooses the features they investigate</b></a>
 <br><br>
 As we kick off Cybersecurity Awareness Month, the GitHub Bug Bounty team spotlights @vaib25vicky, exploring their methodology, techniques, and experiences hacking on GitHub.
@@ -106,13 +106,13 @@ As we kick off Cybersecurity Awareness Month, the GitHub Bug Bounty team spotlig
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 2d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/master-modern-react-routing-tanstack-router-crash-course/"><b>Master Modern React Routing: TanStack Router Crash Course</b></a>
 <br><br>
 Routing in modern web applications has evolved far beyond simply rendering a component based on a URL path. Developers today want end-to-end type safety, automated code splitting, seamless…
 </td>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 2d ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 3d ago</sub><br>
 <a href="https://laravel-news.com/laravel-fake-assertion-property-arrays?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Laravel Fake Assertions Now Accept Property Arrays</b></a>
 <br><br>
 Laravel 13.35 lets assertPushed(), assertDispatched(), and assertSentTo() take an array of expected properties in place of a callback.
@@ -120,13 +120,13 @@ Laravel 13.35 lets assertPushed(), assertDispatched(), and assertSentTo() take a
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 10 Oct 2026 19:29 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 11 Oct 2026 04:41 WIB.</sub>
 
 <!-- NEWS:END -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20261010" />
-  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261010" width="100%" alt="A snake eating this year's contribution squares" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20261011" />
+  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261011" width="100%" alt="A snake eating this year's contribution squares" />
 </picture>
 
 <picture>
