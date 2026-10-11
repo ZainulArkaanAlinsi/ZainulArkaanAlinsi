@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=d3a9b7a882" />
-  <img src="./assets/activity-light.svg?v=ce06c48e86" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=8ebd67d5c3" />
+  <img src="./assets/activity-light.svg?v=0584969beb" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=e70ab95237" />
-  <img src="./assets/news-light.svg?v=ceb58160dc" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=a4262e34ed" />
+  <img src="./assets/news-light.svg?v=cbcea08073" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,30 +36,30 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 22m ago</sub><br>
-<a href="https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks/"><b>Hackers abuse Google Ads, Bing redirects to push Claude ClickFix attacks</b></a>
+<sub><code>HN</code>&nbsp; 2h ago</sub><br>
+<a href="https://atoll92.github.io/agent-standup/"><b>AI agents in a stand-up call</b></a>
 <br><br>
-5 points and 2 comments on the Hacker News front page · bleepingcomputer.com
+12 points and 3 comments on the Hacker News front page · atoll92.github.io
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://housing.over.pizza/"><b>A city-building game in which the city would prefer you didn't</b></a>
+<sub><code>HN</code>&nbsp; 2h ago</sub><br>
+<a href="https://www.youtube.com/watch?v=XiZmM6hwwAU"><b>GameBoy on E-Paper ESP32 at 30FPS [video]</b></a>
 <br><br>
-4 points and 0 comments on the Hacker News front page · housing.over.pizza
+24 points and 5 comments on the Hacker News front page · youtube.com
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 <sub><code>DEV</code>&nbsp; 4h ago</sub><br>
+<a href="https://dev.to/anchildress1/side-quests-grow-on-trees-leave-them-where-they-grow-84e"><b>Side Quests Grow on Trees (Leave Them Where They Grow) 🌿</b></a>
+<br><br>
+A kids' plant treasure hunt for Android with on-device BioCLIP and TinyCLIP, Gemma 4 hints built locally, and 0 of 267 toxic test photos passing as a match.
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 12h ago</sub><br>
 <a href="https://dev.to/smtahosin/git-isnt-a-diff-tracker-how-blobs-trees-dag-commits-and-the-index-actually-work-under-the-hood-19eo"><b>Git Isn't a Diff Tracker: How Blobs, Trees, DAG Commits, and the Index Actually Work Under the…</b></a>
 <br><br>
 A visual, 10-minute deep dive into Git internal architecture. Learn how content-addressed storage works, why Git never stores diffs, how the index prepares tree objects, and how to recover…
-</td>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 5h ago</sub><br>
-<a href="https://dev.to/nyaomaru/how-do-we-extract-the-why-from-a-pr-into-a-changelog-with-jev-52pk"><b>How Do We Extract the “Why” from a PR into a CHANGELOG with Jev? 🤔</b></a>
-<br><br>
-Hoi hoi! 👋 I'm @nyaomaru, a frontend engineer currently building an AI-assisted CHANGELOG generator...
 </td>
 </tr>
 <tr>
@@ -84,7 +84,7 @@ The barriers to building software have collapsed. Today, anyone can build. Hacka
 Ryan is joined by Yanbing Li, Chief Product Officer at Datadog, to talk about applying observability to non-deterministic AI agents, blurring the boundaries between software development and…
 </td>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 2d ago</sub><br>
 <a href="https://laravel-news.com/laravel-scheduler-multiple-servers?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Running Laravel's Scheduler on Multiple Servers</b></a>
 <br><br>
 Laravel 13.35 adds Schedule::alwaysOnOneServer() to run every task once across servers, and a way for long scheduled commands to stop during a deploy.
@@ -120,7 +120,7 @@ Laravel 13.35 lets assertPushed(), assertDispatched(), and assertSentTo() take a
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 11 Oct 2026 04:41 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 11 Oct 2026 12:43 WIB.</sub>
 
 <!-- NEWS:END -->
 
