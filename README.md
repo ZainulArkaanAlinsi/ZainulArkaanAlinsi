@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=bf626439bb" />
-  <img src="./assets/activity-light.svg?v=893562fbd4" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=b707b6437f" />
+  <img src="./assets/activity-light.svg?v=bc6b92d565" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=3fd132cc44" />
-  <img src="./assets/news-light.svg?v=49e93ee065" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=25b294fd0c" />
+  <img src="./assets/news-light.svg?v=bf843ea022" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,91 +36,91 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 52m ago</sub><br>
-<a href="https://lalinsky.com/2026/10/11/type-safe-html-templating-in-zig.html"><b>Type-safe HTML templating in Zig</b></a>
+<sub><code>HN</code>&nbsp; 27m ago</sub><br>
+<a href="https://mortoray.com/why-arent-ai-companies-being-charged-for-hacking/"><b>Why aren't AI companies being charged for hacking?</b></a>
 <br><br>
-25 points and 4 comments on the Hacker News front page · lalinsky.com
+137 points and 83 comments on the Hacker News front page · mortoray.com
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://radar.cloudflare.com/bots/as13238?dateRange=7d#bot-traffic"><b>Yandex bot traffic down 99% after data center attack</b></a>
+<sub><code>HN</code>&nbsp; 46m ago</sub><br>
+<a href="https://animationobsessive.substack.com/p/an-unmade-film-shaped-hayao-miyazaki"><b>An Unmade Film Shaped Hayao Miyazaki</b></a>
 <br><br>
-77 points and 15 comments on the Hacker News front page · radar.cloudflare.com
+9 points and 0 comments on the Hacker News front page · animationobsessive.substack.com
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>STACKOVERFLOW</code>&nbsp; 1h ago</sub><br>
+<a href="https://stackoverflow.blog/2026/10/12/beyond-the-ai-noise-how-stack-overflow-is-rethinking-tech-hiring/"><b>Beyond the AI noise: How Stack Overflow is rethinking tech hiring</b></a>
+<br><br>
+It’s gotten exponentially harder to identify talent that we feel is a good fit for our teams at the top of the application funnel.
+</td>
+<td width="50%" valign="top">
+<sub><code>LARAVEL</code>&nbsp; 3h ago</sub><br>
+<a href="https://laravel-news.com/puzzleparty?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Look What You Helped Me Build</b></a>
+<br><br>
+Puzzle Party isn't a game. It's a place to play the games you're already playing --- Wordle, Connections, Strands, crosswords, and other daily puzzles --- with people you already know.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>FREECODECAMP</code>&nbsp; 8h ago</sub><br>
+<a href="https://www.freecodecamp.org/news/the-state-of-ai-and-software-engineering-book/"><b>The State of AI and Software Engineering: Code is Cheaper but Expertise are More Valuable [Full…</b></a>
+<br><br>
+A report on AI productivity, human capability, software economics, SaaS defensibility, and the future of engineering work. Between 2024 and 2026, the marginal cost of producing a line of…
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 9h ago</sub><br>
+<a href="https://dev.to/smtahosin/step-away-from-the-terminal-i-built-breakpoint-with-entire-to-disconnect-burned-out-developers-in-37n4"><b>Step Away From the Terminal: I Built BreakPoint with Entire to Disconnect Burned-Out Developers…</b></a>
+<br><br>
+A 15-second screenless cognitive reset dispatcher combining deterministic NOAA solar ephemeris, 432Hz Web Audio synthesis, 1080p canvas field cards, and Entire AI provenance.
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 <sub><code>DEV</code>&nbsp; 10h ago</sub><br>
-<a href="https://dev.to/georgekobaidze/georgian-language-benchmark-two-biggest-ai-labs-clash-in-a-language-that-doesnt-play-by-anyones-5b22"><b>Georgian Language Benchmark: Two Biggest AI Labs Clash in a Language That Doesn't Play by…</b></a>
+<a href="https://dev.to/gde/if-you-never-do-anything-else-to-fix-your-prompts-do-this-one-thing-3069"><b>If You Never Do Anything Else to Fix Your Prompts, Do This One Thing</b></a>
 <br><br>
-This is a submission for the Kaggle Benchmarking Challenge Table of Contents One Eye,...
+Why do LLMs confidently invent APIs that have never existed in the history of the universe? It is not a memory defect. Agents hallucinated because they were committed to the prompt—and…
 </td>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 11h ago</sub><br>
-<a href="https://dev.to/emmasofia/cold-kills-batteries-screen-glare-destroys-night-vision-i-built-hushhike-with-render-elevenlabs-26n6"><b>Cold Kills Batteries, Screen Glare Destroys Night Vision: I Built HushHike with Render…</b></a>
+<sub><code>LARAVEL</code>&nbsp; 16h ago</sub><br>
+<a href="https://laravel-news.com/bashbox-sandboxed-bash-php?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>BashBox: A Sandboxed Bash Interpreter for AI Agents in PHP</b></a>
 <br><br>
-A screenless wilderness dispatcher combining solar ephemeris, Tobler pace kinematics, an indestructible 3x5 index card studio, hands-free ElevenLabs audio dispatch, and Mastra agentic…
+BashBox runs AI-generated bash scripts in pure PHP, with a virtual filesystem, execution limits, and opt-in network access. No exec or proc_open calls.
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 15h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/what-to-do-when-your-constants-are-someone-else-s-law/"><b>What to Do When Your Constants Are Someone Else's Law</b></a>
 <br><br>
 A colleague once asked me why a number in my code had a comment three lines long. The number was 18. The comment said which rule it came from, which section notified it, and that it could…
 </td>
-<td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 20h ago</sub><br>
-<a href="https://www.freecodecamp.org/news/measure-conformance-operational-specification-execution/"><b>How to Measure Conformance Between an Operational Specification and Its Execution</b></a>
-<br><br>
-In my previous article, I explored executor independence: the idea that different execution mechanisms should be able to satisfy the same operational specification. By executor…
-</td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <sub><code>GITHUB</code>&nbsp; 2d ago</sub><br>
 <a href="https://github.blog/developer-skills/career-growth/hack-the-world-why-hackathons-are-still-the-best-place-to-learn-to-build/"><b>Hack the World: Why hackathons are still the best place to learn to build</b></a>
 <br><br>
 The barriers to building software have collapsed. Today, anyone can build. Hackathons are a great place to start learning.
 </td>
-<td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 2d ago</sub><br>
-<a href="https://stackoverflow.blog/2026/10/09/taking-a-look-under-your-agent-s-hood/"><b>Taking a look under your agent’s hood</b></a>
-<br><br>
-Ryan is joined by Yanbing Li, Chief Product Officer at Datadog, to talk about applying observability to non-deterministic AI agents, blurring the boundaries between software development and…
-</td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 3d ago</sub><br>
-<a href="https://laravel-news.com/laravel-scheduler-multiple-servers?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Running Laravel's Scheduler on Multiple Servers</b></a>
-<br><br>
-Laravel 13.35 adds Schedule::alwaysOnOneServer() to run every task once across servers, and a way for long scheduled commands to stop during a deploy.
-</td>
 <td width="50%" valign="top">
 <sub><code>NEXT.JS</code>&nbsp; 3d ago</sub><br>
 <a href="https://nextjs.org/blog/upcoming-nextjs-security-update-october-2026"><b>Upcoming Next.js Security Update for Upstream Vulnerabilities</b></a>
 <br><br>
 Next.js plans to publish an out-of-band security update next Wednesday, October 14, 2026, addressing two Critical and one High severity vulnerabilities in upstream dependencies.
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <sub><code>GITHUB</code>&nbsp; 3d ago</sub><br>
 <a href="https://github.blog/security/how-one-bug-bounty-researcher-chooses-the-features-they-investigate/"><b>How one bug bounty researcher chooses the features they investigate</b></a>
 <br><br>
 As we kick off Cybersecurity Awareness Month, the GitHub Bug Bounty team spotlights @vaib25vicky, exploring their methodology, techniques, and experiences hacking on GitHub.
 </td>
-<td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 4d ago</sub><br>
-<a href="https://laravel-news.com/laravel-fake-assertion-property-arrays?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Laravel Fake Assertions Now Accept Property Arrays</b></a>
-<br><br>
-Laravel 13.35 lets assertPushed(), assertDispatched(), and assertSentTo() take an array of expected properties in place of a callback.
-</td>
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 12 Oct 2026 12:54 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 12 Oct 2026 22:20 WIB.</sub>
 
 <!-- NEWS:END -->
 
