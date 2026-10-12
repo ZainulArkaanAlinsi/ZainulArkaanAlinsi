@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=a72a19ff4d" />
-  <img src="./assets/activity-light.svg?v=da47270162" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=bf626439bb" />
+  <img src="./assets/activity-light.svg?v=893562fbd4" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=4d0e2f2dc7" />
-  <img src="./assets/news-light.svg?v=18fb246f73" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=3fd132cc44" />
+  <img src="./assets/news-light.svg?v=49e93ee065" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,41 +36,41 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 49m ago</sub><br>
-<a href="https://www.inc.com/chloe-rosenberg/a-remote-employee-refused-160-webcam-photos-a-day-her-employer-fired-her/91415963"><b>A Remote Employee Refused 160 Webcam Photos a Day. Her Employer Fired Her</b></a>
+<sub><code>HN</code>&nbsp; 52m ago</sub><br>
+<a href="https://lalinsky.com/2026/10/11/type-safe-html-templating-in-zig.html"><b>Type-safe HTML templating in Zig</b></a>
 <br><br>
-35 points and 9 comments on the Hacker News front page · inc.com
+25 points and 4 comments on the Hacker News front page · lalinsky.com
 </td>
 <td width="50%" valign="top">
 <sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://twitter.com/karpathy/status/2109361546505966046"><b>The gap in shared understanding of LLM capability is widening</b></a>
+<a href="https://radar.cloudflare.com/bots/as13238?dateRange=7d#bot-traffic"><b>Yandex bot traffic down 99% after data center attack</b></a>
 <br><br>
-37 points and 14 comments on the Hacker News front page · twitter.com
+77 points and 15 comments on the Hacker News front page · radar.cloudflare.com
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 5h ago</sub><br>
-<a href="https://dev.to/trickell/shutterhunt-a-photographic-quest-that-gets-you-outside-1ahb"><b>ShutterHunt : A Photographic Quest That Gets You Outside</b></a>
+<sub><code>DEV</code>&nbsp; 10h ago</sub><br>
+<a href="https://dev.to/georgekobaidze/georgian-language-benchmark-two-biggest-ai-labs-clash-in-a-language-that-doesnt-play-by-anyones-5b22"><b>Georgian Language Benchmark: Two Biggest AI Labs Clash in a Language That Doesn't Play by…</b></a>
 <br><br>
-This is a submission for the Hacktoberfest Open-Source AI Challenge Week 1: Touch Grass ...
+This is a submission for the Kaggle Benchmarking Challenge Table of Contents One Eye,...
 </td>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 7h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 11h ago</sub><br>
+<a href="https://dev.to/emmasofia/cold-kills-batteries-screen-glare-destroys-night-vision-i-built-hushhike-with-render-elevenlabs-26n6"><b>Cold Kills Batteries, Screen Glare Destroys Night Vision: I Built HushHike with Render…</b></a>
+<br><br>
+A screenless wilderness dispatcher combining solar ephemeris, Tobler pace kinematics, an indestructible 3x5 index card studio, hands-free ElevenLabs audio dispatch, and Mastra agentic…
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>FREECODECAMP</code>&nbsp; 15h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/what-to-do-when-your-constants-are-someone-else-s-law/"><b>What to Do When Your Constants Are Someone Else's Law</b></a>
 <br><br>
 A colleague once asked me why a number in my code had a comment three lines long. The number was 18. The comment said which rule it came from, which section notified it, and that it could…
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 8h ago</sub><br>
-<a href="https://dev.to/hemapriya_kanagala/dev-pet-corner-1-show-us-your-pets-39n6"><b>🐾 DEV Pet Corner #1: Show Us Your Pets!</b></a>
-<br><br>
-TL;DR Welcome to DEV Pet Corner, a new weekly series where we take a little break from tech and...
-</td>
-<td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 12h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 20h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/measure-conformance-operational-specification-execution/"><b>How to Measure Conformance Between an Operational Specification and Its Execution</b></a>
 <br><br>
 In my previous article, I explored executor independence: the idea that different execution mechanisms should be able to satisfy the same operational specification. By executor…
@@ -92,7 +92,7 @@ Ryan is joined by Yanbing Li, Chief Product Officer at Datadog, to talk about ap
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 2d ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 3d ago</sub><br>
 <a href="https://laravel-news.com/laravel-scheduler-multiple-servers?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Running Laravel's Scheduler on Multiple Servers</b></a>
 <br><br>
 Laravel 13.35 adds Schedule::alwaysOnOneServer() to run every task once across servers, and a way for long scheduled commands to stop during a deploy.
@@ -120,7 +120,7 @@ Laravel 13.35 lets assertPushed(), assertDispatched(), and assertSentTo() take a
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 12 Oct 2026 04:56 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 12 Oct 2026 12:54 WIB.</sub>
 
 <!-- NEWS:END -->
 
