@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=b707b6437f" />
-  <img src="./assets/activity-light.svg?v=bc6b92d565" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=5f6d989fa1" />
+  <img src="./assets/activity-light.svg?v=9c3f5bbd95" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=25b294fd0c" />
-  <img src="./assets/news-light.svg?v=bf843ea022" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=1d09455a38" />
+  <img src="./assets/news-light.svg?v=9e83652812" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,97 +36,97 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 27m ago</sub><br>
-<a href="https://mortoray.com/why-arent-ai-companies-being-charged-for-hacking/"><b>Why aren't AI companies being charged for hacking?</b></a>
+<sub><code>HN</code>&nbsp; 28m ago</sub><br>
+<a href="https://github.com/mikolalysenko/instant-factory"><b>Instant Software Factories</b></a>
 <br><br>
-137 points and 83 comments on the Hacker News front page · mortoray.com
+8 points and 3 comments on the Hacker News front page · github.com
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 46m ago</sub><br>
-<a href="https://animationobsessive.substack.com/p/an-unmade-film-shaped-hayao-miyazaki"><b>An Unmade Film Shaped Hayao Miyazaki</b></a>
+<sub><code>HN</code>&nbsp; 1h ago</sub><br>
+<a href="https://doi.org/10.1111/acel.70751"><b>Blood cells from 80-year-old donor become stem cells with molecular age under 20</b></a>
 <br><br>
-9 points and 0 comments on the Hacker News front page · animationobsessive.substack.com
+46 points and 17 comments on the Hacker News front page · doi.org
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 1h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 3h ago</sub><br>
+<a href="https://dev.to/dr5t/solodesk-ai-lpe"><b>Solodesk-Ai</b></a>
+<br><br>
+What I Built SoloDesk AI is a privacy-first, zero-marginal-cost financial copilot and invoice...
+</td>
+<td width="50%" valign="top">
+<sub><code>GITHUB</code>&nbsp; 6h ago</sub><br>
+<a href="https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/"><b>GitHub Copilot app for Beginners: How to teach Copilot about your codebase</b></a>
+<br><br>
+Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>STACKOVERFLOW</code>&nbsp; 10h ago</sub><br>
 <a href="https://stackoverflow.blog/2026/10/12/beyond-the-ai-noise-how-stack-overflow-is-rethinking-tech-hiring/"><b>Beyond the AI noise: How Stack Overflow is rethinking tech hiring</b></a>
 <br><br>
 It’s gotten exponentially harder to identify talent that we feel is a good fit for our teams at the top of the application funnel.
 </td>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 3h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 11h ago</sub><br>
+<a href="https://dev.to/hadil/youre-a-real-python-developer-only-if-94e"><b>You’re a Real Python Developer Only If...</b></a>
+<br><br>
+A few months ago, I published You're a Real JavaScript Developer Only If... It was supposed to be a...
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>LARAVEL</code>&nbsp; 12h ago</sub><br>
 <a href="https://laravel-news.com/puzzleparty?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Look What You Helped Me Build</b></a>
 <br><br>
 Puzzle Party isn't a game. It's a place to play the games you're already playing --- Wordle, Connections, Strands, crosswords, and other daily puzzles --- with people you already know.
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 8h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 17h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/the-state-of-ai-and-software-engineering-book/"><b>The State of AI and Software Engineering: Code is Cheaper but Expertise are More Valuable [Full…</b></a>
 <br><br>
 A report on AI productivity, human capability, software economics, SaaS defensibility, and the future of engineering work. Between 2024 and 2026, the marginal cost of producing a line of…
 </td>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 9h ago</sub><br>
-<a href="https://dev.to/smtahosin/step-away-from-the-terminal-i-built-breakpoint-with-entire-to-disconnect-burned-out-developers-in-37n4"><b>Step Away From the Terminal: I Built BreakPoint with Entire to Disconnect Burned-Out Developers…</b></a>
-<br><br>
-A 15-second screenless cognitive reset dispatcher combining deterministic NOAA solar ephemeris, 432Hz Web Audio synthesis, 1080p canvas field cards, and Entire AI provenance.
-</td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 10h ago</sub><br>
-<a href="https://dev.to/gde/if-you-never-do-anything-else-to-fix-your-prompts-do-this-one-thing-3069"><b>If You Never Do Anything Else to Fix Your Prompts, Do This One Thing</b></a>
-<br><br>
-Why do LLMs confidently invent APIs that have never existed in the history of the universe? It is not a memory defect. Agents hallucinated because they were committed to the prompt—and…
-</td>
-<td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 16h ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
 <a href="https://laravel-news.com/bashbox-sandboxed-bash-php?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>BashBox: A Sandboxed Bash Interpreter for AI Agents in PHP</b></a>
 <br><br>
 BashBox runs AI-generated bash scripts in pure PHP, with a virtual filesystem, execution limits, and opt-in network access. No exec or proc_open calls.
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/what-to-do-when-your-constants-are-someone-else-s-law/"><b>What to Do When Your Constants Are Someone Else's Law</b></a>
 <br><br>
 A colleague once asked me why a number in my code had a comment three lines long. The number was 18. The comment said which rule it came from, which section notified it, and that it could…
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 2d ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 3d ago</sub><br>
 <a href="https://github.blog/developer-skills/career-growth/hack-the-world-why-hackathons-are-still-the-best-place-to-learn-to-build/"><b>Hack the World: Why hackathons are still the best place to learn to build</b></a>
 <br><br>
 The barriers to building software have collapsed. Today, anyone can build. Hackathons are a great place to start learning.
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
-<sub><code>NEXT.JS</code>&nbsp; 3d ago</sub><br>
+<sub><code>NEXT.JS</code>&nbsp; 4d ago</sub><br>
 <a href="https://nextjs.org/blog/upcoming-nextjs-security-update-october-2026"><b>Upcoming Next.js Security Update for Upstream Vulnerabilities</b></a>
 <br><br>
 Next.js plans to publish an out-of-band security update next Wednesday, October 14, 2026, addressing two Critical and one High severity vulnerabilities in upstream dependencies.
 </td>
-<td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 3d ago</sub><br>
-<a href="https://github.blog/security/how-one-bug-bounty-researcher-chooses-the-features-they-investigate/"><b>How one bug bounty researcher chooses the features they investigate</b></a>
-<br><br>
-As we kick off Cybersecurity Awareness Month, the GitHub Bug Bounty team spotlights @vaib25vicky, exploring their methodology, techniques, and experiences hacking on GitHub.
-</td>
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 12 Oct 2026 22:20 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 13 Oct 2026 07:37 WIB.</sub>
 
 <!-- NEWS:END -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20261012" />
-  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261012" width="100%" alt="A snake eating this year's contribution squares" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20261013" />
+  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261013" width="100%" alt="A snake eating this year's contribution squares" />
 </picture>
 
 <picture>
