@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=5f6d989fa1" />
-  <img src="./assets/activity-light.svg?v=9c3f5bbd95" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=efe7e82e93" />
+  <img src="./assets/activity-light.svg?v=65ada1f834" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=1d09455a38" />
-  <img src="./assets/news-light.svg?v=9e83652812" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=5dabfd6d58" />
+  <img src="./assets/news-light.svg?v=ec110397a7" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,55 +36,69 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 28m ago</sub><br>
-<a href="https://github.com/mikolalysenko/instant-factory"><b>Instant Software Factories</b></a>
+<sub><code>HN</code>&nbsp; 1h ago</sub><br>
+<a href="https://www.apple.com/apple-homeview/"><b>Apple HomeView</b></a>
 <br><br>
-8 points and 3 comments on the Hacker News front page · github.com
+126 points and 144 comments on the Hacker News front page · apple.com
 </td>
 <td width="50%" valign="top">
 <sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://doi.org/10.1111/acel.70751"><b>Blood cells from 80-year-old donor become stem cells with molecular age under 20</b></a>
+<a href="https://machinelearning.apple.com/research/distributed-gpu-cloud"><b>Apple's Minions: A virtual GPU cloud built from idle Apple Silicon Macs</b></a>
 <br><br>
-46 points and 17 comments on the Hacker News front page · doi.org
+70 points and 28 comments on the Hacker News front page · machinelearning.apple.com
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 3h ago</sub><br>
-<a href="https://dev.to/dr5t/solodesk-ai-lpe"><b>Solodesk-Ai</b></a>
+<sub><code>DEV</code>&nbsp; 5h ago</sub><br>
+<a href="https://dev.to/smtahosin/github-isnt-just-a-remote-git-server-how-spoke-clusters-fork-alternates-and-actions-runner-25ij"><b>GitHub Isn't Just a Remote Git Server: How Spoke Clusters, Fork Alternates, and Actions Runner…</b></a>
 <br><br>
-What I Built SoloDesk AI is a privacy-first, zero-marginal-cost financial copilot and invoice...
+A visual, 10-minute deep dive into GitHub distributed architecture. Learn how Spoke clusters replicate Git objects, how fork networks share terabytes via alternates, how secret refs/pull/…
 </td>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 6h ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 6h ago</sub><br>
+<a href="https://stackoverflow.blog/2026/10/13/keep-calm-and-call-clone-with-rust/"><b>Keep calm and call clone with Rust</b></a>
+<br><br>
+Ryan sits down with Josh Triplett, member of the Rust Leadership Team at the Rust Project, to chat about how the borrow checker delivers compile-time memory safety without garbage…
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 6h ago</sub><br>
+<a href="https://dev.to/james_anderson_h/people-are-vibe-coding-clones-of-every-paid-app-what-actually-survives-38ak"><b>People Are Vibe-Coding Clones of Every Paid App. What Actually Survives?</b></a>
+<br><br>
+Earlier this month, a developer in Atlanta got fed up with Adobe's cancellation fees. So he used...
+</td>
+<td width="50%" valign="top">
+<sub><code>LARAVEL</code>&nbsp; 14h ago</sub><br>
+<a href="https://laravel-news.com/inertia-3-9-0?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Pause Polling in Background Tabs in Inertia.js v3.9</b></a>
+<br><br>
+Inertia.js v3.9 adds a background option to pause polling in hidden tabs, a navigate event type for history restores, and fixes for back navigation.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>GITHUB</code>&nbsp; 20h ago</sub><br>
 <a href="https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/"><b>GitHub Copilot app for Beginners: How to teach Copilot about your codebase</b></a>
 <br><br>
 Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright.
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 10h ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 1d ago</sub><br>
 <a href="https://stackoverflow.blog/2026/10/12/beyond-the-ai-noise-how-stack-overflow-is-rethinking-tech-hiring/"><b>Beyond the AI noise: How Stack Overflow is rethinking tech hiring</b></a>
 <br><br>
 It’s gotten exponentially harder to identify talent that we feel is a good fit for our teams at the top of the application funnel.
 </td>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 11h ago</sub><br>
-<a href="https://dev.to/hadil/youre-a-real-python-developer-only-if-94e"><b>You’re a Real Python Developer Only If...</b></a>
-<br><br>
-A few months ago, I published You're a Real JavaScript Developer Only If... It was supposed to be a...
-</td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 12h ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
 <a href="https://laravel-news.com/puzzleparty?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Look What You Helped Me Build</b></a>
 <br><br>
 Puzzle Party isn't a game. It's a place to play the games you're already playing --- Wordle, Connections, Strands, crosswords, and other daily puzzles --- with people you already know.
 </td>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 17h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/the-state-of-ai-and-software-engineering-book/"><b>The State of AI and Software Engineering: Code is Cheaper but Expertise are More Valuable [Full…</b></a>
 <br><br>
 A report on AI productivity, human capability, software economics, SaaS defensibility, and the future of engineering work. Between 2024 and 2026, the marginal cost of producing a line of…
@@ -92,35 +106,21 @@ A report on AI productivity, human capability, software economics, SaaS defensib
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
-<a href="https://laravel-news.com/bashbox-sandboxed-bash-php?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>BashBox: A Sandboxed Bash Interpreter for AI Agents in PHP</b></a>
-<br><br>
-BashBox runs AI-generated bash scripts in pure PHP, with a virtual filesystem, execution limits, and opt-in network access. No exec or proc_open calls.
-</td>
-<td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 2d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/what-to-do-when-your-constants-are-someone-else-s-law/"><b>What to Do When Your Constants Are Someone Else's Law</b></a>
 <br><br>
 A colleague once asked me why a number in my code had a comment three lines long. The number was 18. The comment said which rule it came from, which section notified it, and that it could…
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <sub><code>GITHUB</code>&nbsp; 3d ago</sub><br>
 <a href="https://github.blog/developer-skills/career-growth/hack-the-world-why-hackathons-are-still-the-best-place-to-learn-to-build/"><b>Hack the World: Why hackathons are still the best place to learn to build</b></a>
 <br><br>
 The barriers to building software have collapsed. Today, anyone can build. Hackathons are a great place to start learning.
 </td>
-<td width="50%" valign="top">
-<sub><code>NEXT.JS</code>&nbsp; 4d ago</sub><br>
-<a href="https://nextjs.org/blog/upcoming-nextjs-security-update-october-2026"><b>Upcoming Next.js Security Update for Upstream Vulnerabilities</b></a>
-<br><br>
-Next.js plans to publish an out-of-band security update next Wednesday, October 14, 2026, addressing two Critical and one High severity vulnerabilities in upstream dependencies.
-</td>
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 13 Oct 2026 07:37 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 13 Oct 2026 21:09 WIB.</sub>
 
 <!-- NEWS:END -->
 
