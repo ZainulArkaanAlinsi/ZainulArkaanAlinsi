@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=3a06380737" />
-  <img src="./assets/activity-light.svg?v=a4eb8c6f1c" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=707bcf5796" />
+  <img src="./assets/activity-light.svg?v=485ef542bd" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=8d419bb0a0" />
-  <img src="./assets/news-light.svg?v=db1e006426" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=bc7820efc1" />
+  <img src="./assets/news-light.svg?v=2e550c973b" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,41 +36,41 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 11m ago</sub><br>
-<a href="https://meshapplied.com"><b>Running Qwen3.8 at 255 tok/s on a single 5090</b></a>
+<sub><code>HN</code>&nbsp; 1h ago</sub><br>
+<a href="https://www.quantamagazine.org/is-attention-the-essence-of-intelligence-20261012/"><b>Is 'Attention' the Essence of Intelligence?</b></a>
 <br><br>
-7 points and 0 comments on the Hacker News front page · meshapplied.com
+21 points and 5 comments on the Hacker News front page · quantamagazine.org
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 48m ago</sub><br>
-<a href="https://nexus-q.link/"><b>Nexus-Q: un motor open source de Rust para PQC</b></a>
+<sub><code>HN</code>&nbsp; 3h ago</sub><br>
+<a href="https://blumify.io/people"><b>I built a tool to track what AI leaders say and how their views change on video</b></a>
 <br><br>
-3 points and 0 comments on the Hacker News front page · nexus-q.link
+47 points and 27 comments on the Hacker News front page · blumify.io
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 4h ago</sub><br>
-<a href="https://dev.to/peter/someone-hacked-the-freezers-at-400-french-supermarkets-5flm"><b>Someone hacked the freezers at 400 French supermarkets</b></a>
+<sub><code>DEV</code>&nbsp; 6h ago</sub><br>
+<a href="https://dev.to/thomasbnt/integrating-seo-components-into-discord-2d8g"><b>Integrating SEO Components into Discord</b></a>
 <br><br>
-Friends ask me some version of this a lot: how would a bad actor with super powerful AI actually hurt...
+If you paste a link to your website in a Discord channel, a small card appears automatically: title,...
 </td>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 4h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 9h ago</sub><br>
+<a href="https://dev.to/maame-codes/localhost-is-a-lie-everything-uni-missed-about-real-world-tech-66n"><b>'Localhost' is a Lie: Everything Uni Missed About Real-World Tech</b></a>
+<br><br>
+Every CS student knows the drill. You get an assignment, write your code on your laptop using...
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>GITHUB</code>&nbsp; 10h ago</sub><br>
 <a href="https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/"><b>GitHub’s model for secret detection: Finding more secrets with less noise</b></a>
 <br><br>
 GitHub’s context-aware secret classifier improves detection quality, raises weighted acceptance by 11.5%, and reduces median scan execution time by 86%.
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 4h ago</sub><br>
-<a href="https://dev.to/christopher_jakob_acda8fa/you-blank-in-technical-interviews-even-when-you-know-the-answer-lets-fix-that-27p9"><b>You blank in technical interviews even when you know the answer. Let's fix that.</b></a>
-<br><br>
-I'm Christopher. Nine years in the Marine Corps, then software and data engineering, including edge...
-</td>
-<td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 6h ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 12h ago</sub><br>
 <a href="https://stackoverflow.blog/2026/10/13/why-your-sandbox-never-quite-matches-production-and-why-that-s-fine/"><b>Why Your Sandbox Never Quite Matches Production (And Why That's Fine)</b></a>
 <br><br>
 Sandbox testing works best when you stop chasing production parity. Learn what environment drift actually costs and which parts are worth fixing.
@@ -78,13 +78,13 @@ Sandbox testing works best when you stop chasing production parity. Learn what e
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 8h ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 15h ago</sub><br>
 <a href="https://laravel-news.com/php-news?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>PHP News: A New Site for PHP Releases, RFCs, and Packages</b></a>
 <br><br>
 PHP News is a new site from Eric Barnes and Matt Stauffer covering PHP core, RFCs, releases, packages, and events, plus a free weekly PHP newsletter.
 </td>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 15h ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 21h ago</sub><br>
 <a href="https://stackoverflow.blog/2026/10/13/keep-calm-and-call-clone-with-rust/"><b>Keep calm and call clone with Rust</b></a>
 <br><br>
 Ryan sits down with Josh Triplett, member of the Rust Leadership Team at the Rust Project, to chat about how the borrow checker delivers compile-time memory safety without garbage…
@@ -92,7 +92,7 @@ Ryan sits down with Josh Triplett, member of the Rust Leadership Team at the Rus
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 22h ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
 <a href="https://laravel-news.com/inertia-3-9-0?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Pause Polling in Background Tabs in Inertia.js v3.9</b></a>
 <br><br>
 Inertia.js v3.9 adds a background option to pause polling in hidden tabs, a navigate event type for history restores, and fixes for back navigation.
@@ -120,7 +120,7 @@ A colleague once asked me why a number in my code had a comment three lines long
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 14 Oct 2026 05:42 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 14 Oct 2026 11:50 WIB.</sub>
 
 <!-- NEWS:END -->
 
