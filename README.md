@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=cc7e54f3d6" />
-  <img src="./assets/activity-light.svg?v=d971c4c402" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=f922f72919" />
+  <img src="./assets/activity-light.svg?v=a22f617978" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=7eacbef6a6" />
-  <img src="./assets/news-light.svg?v=8d508bc2eb" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=c38937a2cd" />
+  <img src="./assets/news-light.svg?v=4384257ab3" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,13 +36,41 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 4h ago</sub><br>
-<a href="https://github.com/awslabs/aidlc-workflows"><b>Aidlc: Adaptive workflow steering rules for AI coding agents</b></a>
+<sub><code>STACKOVERFLOW</code>&nbsp; just now</sub><br>
+<a href="https://stackoverflow.blog/2026/10/15/your-team-shouldnt-build-an-ai-context-layer/"><b>Why your platform team shouldn't build an AI context layer (even though they probably could)</b></a>
 <br><br>
-10 points and 12 comments on the Hacker News front page · github.com
+Most engineering teams capable of building an internal AI knowledge system think they should. But six months later, it's a platform team's full-time job. Building an in-house AI context…
 </td>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 6h ago</sub><br>
+<sub><code>HN</code>&nbsp; 32m ago</sub><br>
+<a href="https://sygal.app"><b>Show HN: Sygal – Convert PDFs, scans and web pages to Markdown, locally</b></a>
+<br><br>
+6 points and 0 comments on the Hacker News front page · sygal.app
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>HN</code>&nbsp; 41m ago</sub><br>
+<a href="https://www.reuters.com/business/finance/market-selloff-rising-rates-test-ai-data-centre-deal-boom-2026-10-15/"><b>Market selloff, rising rates test AI data centre deal boom</b></a>
+<br><br>
+13 points and 5 comments on the Hacker News front page · reuters.com
+</td>
+<td width="50%" valign="top">
+<sub><code>FREECODECAMP</code>&nbsp; 3h ago</sub><br>
+<a href="https://www.freecodecamp.org/news/build-ephemeral-pr-preview-environments-on-gke-with-github-actions-ingress-automatic-tls/"><b>How to Build Ephemeral PR Preview Environments on GKE with GitHub Actions, Ingress, and…</b></a>
+<br><br>
+Every team that ships software eventually builds a staging environment. And every team that builds a staging environment eventually discovers the same problem. Staging is shared. One…
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 9h ago</sub><br>
+<a href="https://dev.to/gramli/i-vibe-coded-my-way-out-of-angular-upgrades-4fkh"><b>I Vibe-Coded My Way Out of Angular Upgrades</b></a>
+<br><br>
+Do you also hate upgrading Angular versions? Because I do. I maintain a few open-source projects, and...
+</td>
+<td width="50%" valign="top">
+<sub><code>FREECODECAMP</code>&nbsp; 11h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-to-give-ai-agent-safe-access-internal-api-mcp/"><b>How to Give an AI Agent Safe Access to an Internal API with MCP</b></a>
 <br><br>
 Our on-call team keeps a small internal notes API. The web app in front of it shows who's holding the pager, which days are frozen for deploys, and where the runbooks live. A developer on…
@@ -50,41 +78,27 @@ Our on-call team keeps a small internal notes API. The web app in front of it sh
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 6h ago</sub><br>
-<a href="https://www.freecodecamp.org/news/secure-by-design-engineer-security-into-architecture-before-writing-code/"><b>Secure by Design: How to Engineer Security into Architecture Before Writing Any Code</b></a>
+<sub><code>LARAVEL</code>&nbsp; 17h ago</sub><br>
+<a href="https://laravel-news.com/laravel-url-ai-transformer?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Laravel URL AI Transformer: Extract Structured Data From URLs</b></a>
 <br><br>
-There's a conversation that happens in most engineering teams,maybe usually too late. Think of this, a feature ships to production. A security review happens afterwards, or a penetration…
+Spatie's Laravel URL AI Transformer fetches web pages, runs them through Laravel AI agents, and stores JSON-LD, summaries, or schema-validated data.
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 7h ago</sub><br>
-<a href="https://github.com/andunieee/flipflop"><b>Show HN: Flipflop, Iroh-powered persistent tunnels for filesharing</b></a>
-<br><br>
-This is a project that spun from my frustrations of using LocalSend and DashBeam to transfer stuff between devices, and with the extra goal of being fast, trying out the Slint framework…
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 12h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 17h ago</sub><br>
 <a href="https://dev.to/thetylern/how-i-built-an-action-game-with-godot-during-a-global-teen-hackathon-with-prizes-4db0"><b>How I Built an Action Game with Godot During a Global Teen Hackathon with Prizes</b></a>
 <br><br>
 I had just recently completed a couple of medium-sized projects for Stardance, a global teen...
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 15h ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 20h ago</sub><br>
 <a href="https://github.blog/news-insights/company-news/github-availability-report-september-2026/"><b>GitHub availability report: September 2026</b></a>
 <br><br>
 In September, we experienced two incidents that resulted in degraded performance across GitHub services.
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 15h ago</sub><br>
-<a href="https://dev.to/gde/requests-promises-assertions-and-declarations-rewriting-our-ai-agent-workflow-as-a-1986-4k4c"><b>Requests, Promises, Assertions, and Declarations: Rewriting Our AI Agent Workflow as a 1986…</b></a>
-<br><br>
-Why do 200-line agent prompts, Asimov's Three Laws, and sequential pre-landing checklists all fail the same way? How Fernando Flores's 1986 Committed Speech, Nuel Belnap's 1977 4-Valued…
-</td>
-<td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 16h ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 21h ago</sub><br>
 <a href="https://github.blog/engineering/architecture-optimization/from-2500-requests-to-24-rebuilding-star-history-without-the-stargazers/"><b>From 2,500 requests to 24: Rebuilding star history without the stargazers</b></a>
 <br><br>
 Our new repo star history API now provides trends without returning individual identities or requiring unbounded database work. These are the engineering tradeoffs we made.
@@ -92,35 +106,21 @@ Our new repo star history API now provides trends without returning individual i
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>NEXT.JS</code>&nbsp; 17h ago</sub><br>
+<sub><code>NEXT.JS</code>&nbsp; 22h ago</sub><br>
 <a href="https://nextjs.org/blog/nextjs-security-update-october-14-2026"><b>Next.js Security Update for Upstream Vulnerabilities</b></a>
 <br><br>
 The October 14, 2026 out-of-band security update for Next.js is now available
 </td>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 18h ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 23h ago</sub><br>
 <a href="https://stackoverflow.blog/2026/10/14/your-next-job-doesn-t-have-a-title-yet-emerging-role-skills-q-and-a-with-corey-hymel-of-andela/"><b>Your next job doesn’t have a title yet: Emerging role skills Q&amp;A with Corey Hymel of Andela</b></a>
 <br><br>
 While the whispers say that everyone is becoming a generalist, that's not where headcount is going.
 </td>
 </tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
-<a href="https://laravel-news.com/laravel-13-36-0?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Rule Builders for Every Validation Rule in Laravel 13.36</b></a>
-<br><br>
-Laravel 13.36 adds Rule:: builders for the remaining validation rules, DB::olap() for PlanetScale, and an option to reset sticky connections between queue jobs.
-</td>
-<td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 1d ago</sub><br>
-<a href="https://stackoverflow.blog/2026/10/13/why-your-sandbox-never-quite-matches-production-and-why-that-s-fine/"><b>Why Your Sandbox Never Quite Matches Production (And Why That's Fine)</b></a>
-<br><br>
-Sandbox testing works best when you stop chasing production parity. Learn what environment drift actually costs and which parts are worth fixing.
-</td>
-</tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 15 Oct 2026 18:25 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 15 Oct 2026 23:59 WIB.</sub>
 
 <!-- NEWS:END -->
 
