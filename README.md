@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=a1c1c52248" />
-  <img src="./assets/activity-light.svg?v=2ee950091d" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=d14b28ee20" />
+  <img src="./assets/activity-light.svg?v=c1e088e71a" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=c4a2d06f4d" />
-  <img src="./assets/news-light.svg?v=441f3229ce" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=e037c8a1ba" />
+  <img src="./assets/news-light.svg?v=80f5a27e47" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,97 +36,97 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 25m ago</sub><br>
-<a href="https://jakearchibald.com/2026/jpeg-xl-vs-avif/"><b>JPEG XL vs. AVIF for web use-cases</b></a>
+<sub><code>HN</code>&nbsp; 1h ago</sub><br>
+<a href="https://bfl.ai/blog/flux-3-image-klein"><b>Flux 3 Image Klein: open weights, 5.6B parameters</b></a>
 <br><br>
-3 points and 0 comments on the Hacker News front page · jakearchibald.com
+24 points and 5 comments on the Hacker News front page · bfl.ai
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 34m ago</sub><br>
-<a href="https://ritchietorres.house.gov/posts/rep-torres-announces-power-to-the-players-act-legislation-to-ensure-gamers-own-their-games"><b>US Rep Announces Congressional Legislation to Protect Video Game Ownership</b></a>
+<sub><code>HN</code>&nbsp; 1h ago</sub><br>
+<a href="https://www.themarshallproject.org/2026/10/16/911-book-policing-mental-health"><b>The Fatal Flaw of 911</b></a>
 <br><br>
-23 points and 5 comments on the Hacker News front page · ritchietorres.house.gov
+27 points and 31 comments on the Hacker News front page · themarshallproject.org
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 1h ago</sub><br>
-<a href="https://dev.to/gde/dont-assume-your-cloud-t4-runs-at-spec-gemma-4-decode-falls-7-as-the-card-warms-3fd3"><b>Don't Assume Your Cloud T4 Runs at Spec: Gemma 4 Decode Falls 7% as the Card Warms</b></a>
+<sub><code>DEV</code>&nbsp; 3h ago</sub><br>
+<a href="https://dev.to/devengers/dev-opportunity-radar-21-500k-y-combinator-funding-bolt-builders-week-and-ai-safety-research-12b8"><b>Dev Opportunity Radar #21: $500K Y Combinator Funding, Bolt Builders Week, and AI Safety…</b></a>
 <br><br>
-The same Tesla T4 on the same Google Cloud VM decoded Gemma 4 E2B at 115 tokens/s at 45 °C and 107 at 77 °C. The card sits at its 70 W limit, a hotter chip draws more power at the same…
+TL;DR Welcome back to Dev Opportunity Radar! This is a weekly series where I share opportunities,...
 </td>
 <td width="50%" valign="top">
-<sub><code>NEXT.JS</code>&nbsp; 1h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 3h ago</sub><br>
+<a href="https://dev.to/gde/do-drafters-work-on-small-models-gemma-4-e2b-and-e4b-on-two-small-gpus-1b4g"><b>Do Drafters Work on Small Models? Gemma 4 E2B and E4B on Two Small GPUs</b></a>
+<br><br>
+Yes. Speculative decoding with Google's 59 MB QAT multi-token prediction (MTP) drafters speeds up Gemma 4 E4B 1.72x and E2B 1.40x on an 8 GB RTX 3050, and 1.49x and 1.18x on a 4 GB laptop…
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>FREECODECAMP</code>&nbsp; 5h ago</sub><br>
+<a href="https://www.freecodecamp.org/news/how-to-migrate-an-application-from-aws-to-gke-full-book/"><b>How to Migrate an Application from AWS to GKE [Full Book]</b></a>
+<br><br>
+This guided lab walks you through migrating a small payments app, with a React UI and Express API running on a single AWS EC2 instance, while PostgreSQL stays on AWS. You’ll move the UI and…
+</td>
+<td width="50%" valign="top">
+<sub><code>FREECODECAMP</code>&nbsp; 5h ago</sub><br>
+<a href="https://www.freecodecamp.org/news/agentic-ai-reliability-book-build-a-testing-harness/"><b>Agentic AI Reliability: Build a Testing Harness for Tool Use, Guardrails, Loops, &amp; Workflow…</b></a>
+<br><br>
+A good final answer doesn't prove that an agentic AI workflow was correct. This book develops a code-backed method for verifying execution and business outcomes from authoritative state and…
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>NEXT.JS</code>&nbsp; 6h ago</sub><br>
 <a href="https://nextjs.org/blog/improving-navigation-experience-in-v0-with-nextjs-16-4"><b>Improving navigation experience in v0 with Next.js 16.4</b></a>
 <br><br>
 How we used Partial Prefetching and a coding agent to improve navigation across v0 with Next.js 16.4.
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 1h ago</sub><br>
-<a href="https://dev.to/gde/ai-in-practice-upgrading-from-gemini-3536-to-gemini-4-argon-migration-notes-and-pitfalls-for-hli"><b>[AI in Practice] Upgrading from Gemini 3.5/3.6 to Gemini 4 Argon: Migration Notes and Pitfalls…</b></a>
-<br><br>
-Background I have a LINE Bot that I use every day, linebot-helper-python. I use it daily...
-</td>
-<td width="50%" valign="top">
-<sub><code>LOBSTERS</code>&nbsp; 3h ago</sub><br>
-<a href="https://github.com/stepchowfun/mull"><b>Mull: note-taking with a language server / vscode extension</b></a>
-<br><br>
-I've been writing notes as plain text files since forever, and it occurred to me that note-taking could benefit from the typical features that a language server provides: clickable links…
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 4h ago</sub><br>
-<a href="https://www.freecodecamp.org/news/the-anatomy-of-an-ai-data-center/"><b>The Anatomy of an AI Data Center</b></a>
-<br><br>
-Artificial intelligence models like GPT-4 and Claude require massive, highly complex physical infrastructure. We just published a new full-length course on the freeCodeCamp.org YouTube…
-</td>
-<td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 5h ago</sub><br>
-<a href="https://www.freecodecamp.org/news/learn-how-to-design-software-systems-like-a-senior-engineer-in-our-new-course/"><b>Learn How to Design Software Systems Like a Senior Engineer in Our New Course</b></a>
-<br><br>
-System design is one of the most important skills for software engineers today. Whether you're applying for senior or staff-level positions or just looking to level up your architectural…
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 8h ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 13h ago</sub><br>
 <a href="https://stackoverflow.blog/2026/10/16/formal-methods-say-you-re-wrong/"><b>AI says you’re right, formal methods say you’re wrong</b></a>
 <br><br>
 Ryan is joined by Gabriela Moreira, CEO at Quint, about why formal specification languages like TLA+ are essential for catching system design flaws before writing code, how Quint brings…
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 14h ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 19h ago</sub><br>
 <a href="https://laravel-news.com/laravel-validation-rule-builders?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Fluent Rule Builders for All Laravel Validation Rules</b></a>
 <br><br>
 Laravel 13.36 adds Rule:: methods for required_with, accepted_if, url, uuid, distinct, and the other string-only validation rules, with IDE autocompletion.
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 20h ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 1d ago</sub><br>
 <a href="https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence/"><b>The next developer interface is ambient intelligence</b></a>
 <br><br>
 AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building.
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 22h ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 1d ago</sub><br>
 <a href="https://github.blog/engineering/platform-security/staying-evergreen-how-we-automated-secure-access-and-repo-hygiene-in-a-shared-org/"><b>Staying Evergreen: How we automated secure access and repo hygiene in a shared org</b></a>
 <br><br>
 Put native GitHub features to work to review outside collaborator access and archive stale repositories.
 </td>
+<td width="50%" valign="top">
+<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
+<a href="https://laravel-news.com/laravel-url-ai-transformer?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Laravel URL AI Transformer: Extract Structured Data From URLs</b></a>
+<br><br>
+Spatie's Laravel URL AI Transformer fetches web pages, runs them through Laravel AI agents, and stores JSON-LD, summaries, or schema-validated data.
+</td>
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · Lobsters · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 16 Oct 2026 23:37 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 17 Oct 2026 04:05 WIB.</sub>
 
 <!-- NEWS:END -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20261016" />
-  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261016" width="100%" alt="A snake eating this year's contribution squares" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20261017" />
+  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261017" width="100%" alt="A snake eating this year's contribution squares" />
 </picture>
 
 <picture>
