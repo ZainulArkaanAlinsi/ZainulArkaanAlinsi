@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=ddd5d24c52" />
-  <img src="./assets/activity-light.svg?v=0e9fb9f53a" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=dfea4ab760" />
+  <img src="./assets/activity-light.svg?v=f8a5e39972" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=8e0736833f" />
-  <img src="./assets/news-light.svg?v=bf1652c78e" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=e833dabeb8" />
+  <img src="./assets/news-light.svg?v=704378e4df" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,41 +36,41 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://contextetech.com/en/articles/mcp-protocol-smart-decentralised-search"><b>Is MCP becoming the common foundation of smart, decentralised search?</b></a>
+<sub><code>HN</code>&nbsp; 14m ago</sub><br>
+<a href="https://pluralistic.net/2026/10/17/mercenary-spyware/#discover-tech"><b>Ad-tech company was a delivery system for &quot;mercenary spyware&quot;</b></a>
 <br><br>
-12 points and 9 comments on the Hacker News front page · contextetech.com
+13 points and 1 comment on the Hacker News front page · pluralistic.net
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 2h ago</sub><br>
-<a href="https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017"><b>DeepSeek: DeepSeek v4.1 Flash 1017</b></a>
+<sub><code>HN</code>&nbsp; 1h ago</sub><br>
+<a href="https://www.pv-magazine.com/2026/09/29/solar-surpasses-nuclear-power-globally-for-first-time/"><b>Solar surpasses nuclear power globally for first time – pv magazine Global</b></a>
 <br><br>
-149 points and 20 comments on the Hacker News front page · openrouter.ai
+123 points and 50 comments on the Hacker News front page · pv-magazine.com
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 4h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 5h ago</sub><br>
+<a href="https://dev.to/alexgeorgiev17/docker-compose-56s-jobs-type-only-starts-through-docker-compose-run-4c1a"><b>Docker Compose 5.6's jobs type only starts through docker compose run</b></a>
+<br><br>
+Docker Compose 5.6 added a jobs: section for one-off tasks. up, create and start all refuse to touch one, a scheduled trigger makes up fail outright, and only docker compose run actually…
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 9h ago</sub><br>
 <a href="https://dev.to/james_anderson_h/ai-made-your-easy-work-free-that-made-you-more-valuable-413f"><b>AI Made Your Easy Work Free. That Made You More Valuable.</b></a>
 <br><br>
 Let's start by admitting the scary part is true, because the whole argument falls apart if I pretend...
 </td>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 7h ago</sub><br>
-<a href="https://dev.to/dj29/10-prompting-techniques-my-deep-learning-exam-taught-me-that-i-actually-use-now-43h0"><b>10 Prompting Techniques My Deep Learning Exam Taught Me (That I Actually Use Now)</b></a>
-<br><br>
-You already use prompting every day. You just don't know the names of what you're doing. Every time...
-</td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 19h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 23h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-to-migrate-an-application-from-aws-to-gke-full-book/"><b>How to Migrate an Application from AWS to GKE [Full Book]</b></a>
 <br><br>
 This guided lab walks you through migrating a small payments app, with a React UI and Express API running on a single AWS EC2 instance, while PostgreSQL stays on AWS. You’ll move the UI and…
 </td>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 19h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/agentic-ai-reliability-book-build-a-testing-harness/"><b>Agentic AI Reliability: Build a Testing Harness for Tool Use, Guardrails, Loops, &amp; Workflow…</b></a>
 <br><br>
 A good final answer doesn't prove that an agentic AI workflow was correct. This book develops a code-backed method for verifying execution and business outcomes from authoritative state and…
@@ -78,7 +78,7 @@ A good final answer doesn't prove that an agentic AI workflow was correct. This 
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>NEXT.JS</code>&nbsp; 19h ago</sub><br>
+<sub><code>NEXT.JS</code>&nbsp; 1d ago</sub><br>
 <a href="https://nextjs.org/blog/improving-navigation-experience-in-v0-with-nextjs-16-4"><b>Improving navigation experience in v0 with Next.js 16.4</b></a>
 <br><br>
 How we used Partial Prefetching and a coding agent to improve navigation across v0 with Next.js 16.4.
@@ -120,7 +120,7 @@ Spatie's Laravel URL AI Transformer fetches web pages, runs them through Laravel
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 17 Oct 2026 17:41 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 17 Oct 2026 22:32 WIB.</sub>
 
 <!-- NEWS:END -->
 
