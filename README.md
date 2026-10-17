@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=d14b28ee20" />
-  <img src="./assets/activity-light.svg?v=c1e088e71a" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=700ac25798" />
+  <img src="./assets/activity-light.svg?v=0f47a752d8" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=e037c8a1ba" />
-  <img src="./assets/news-light.svg?v=80f5a27e47" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=29c2ee0d55" />
+  <img src="./assets/news-light.svg?v=32cdff8ddb" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,41 +36,41 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://bfl.ai/blog/flux-3-image-klein"><b>Flux 3 Image Klein: open weights, 5.6B parameters</b></a>
+<sub><code>DEV</code>&nbsp; 43m ago</sub><br>
+<a href="https://dev.to/dj29/10-prompting-techniques-my-deep-learning-exam-taught-me-that-i-actually-use-now-43h0"><b>10 Prompting Techniques My Deep Learning Exam Taught Me (That I Actually Use Now)</b></a>
 <br><br>
-24 points and 5 comments on the Hacker News front page · bfl.ai
+You already use prompting every day. You just don't know the names of what you're doing. Every time...
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://www.themarshallproject.org/2026/10/16/911-book-policing-mental-health"><b>The Fatal Flaw of 911</b></a>
+<sub><code>HN</code>&nbsp; 2h ago</sub><br>
+<a href="https://dune.fandom.com/wiki/Butlerian_Jihad"><b>Butlerian Jihad</b></a>
 <br><br>
-27 points and 31 comments on the Hacker News front page · themarshallproject.org
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 3h ago</sub><br>
-<a href="https://dev.to/devengers/dev-opportunity-radar-21-500k-y-combinator-funding-bolt-builders-week-and-ai-safety-research-12b8"><b>Dev Opportunity Radar #21: $500K Y Combinator Funding, Bolt Builders Week, and AI Safety…</b></a>
-<br><br>
-TL;DR Welcome back to Dev Opportunity Radar! This is a weekly series where I share opportunities,...
-</td>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 3h ago</sub><br>
-<a href="https://dev.to/gde/do-drafters-work-on-small-models-gemma-4-e2b-and-e4b-on-two-small-gpus-1b4g"><b>Do Drafters Work on Small Models? Gemma 4 E2B and E4B on Two Small GPUs</b></a>
-<br><br>
-Yes. Speculative decoding with Google's 59 MB QAT multi-token prediction (MTP) drafters speeds up Gemma 4 E4B 1.72x and E2B 1.40x on an 8 GB RTX 3050, and 1.49x and 1.18x on a 4 GB laptop…
+113 points and 54 comments on the Hacker News front page · dune.fandom.com
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 5h ago</sub><br>
+<sub><code>LOBSTERS</code>&nbsp; 4h ago</sub><br>
+<a href="https://lobste.rs/s/miwcai/do_you_let_llms_write_both_your_tests_your"><b>Do you let LLMs write both your tests and your code?</b></a>
+<br><br>
+I'm curious what stance others have taken? Or what they've experienced with this? I'm toying with adding a rule to our values.md that the LLM can only significantly generate one or the…
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 7h ago</sub><br>
+<a href="https://dev.to/pengeszikra/singularity-news-0010-nhn"><b>Singularity News :: 0010</b></a>
+<br><br>
+Bartender R2D66 explained the next step in evolution. Whisky made it sound reasonable. Welcome to...
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>FREECODECAMP</code>&nbsp; 12h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-to-migrate-an-application-from-aws-to-gke-full-book/"><b>How to Migrate an Application from AWS to GKE [Full Book]</b></a>
 <br><br>
 This guided lab walks you through migrating a small payments app, with a React UI and Express API running on a single AWS EC2 instance, while PostgreSQL stays on AWS. You’ll move the UI and…
 </td>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 5h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 13h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/agentic-ai-reliability-book-build-a-testing-harness/"><b>Agentic AI Reliability: Build a Testing Harness for Tool Use, Guardrails, Loops, &amp; Workflow…</b></a>
 <br><br>
 A good final answer doesn't prove that an agentic AI workflow was correct. This book develops a code-backed method for verifying execution and business outcomes from authoritative state and…
@@ -78,13 +78,13 @@ A good final answer doesn't prove that an agentic AI workflow was correct. This 
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>NEXT.JS</code>&nbsp; 6h ago</sub><br>
+<sub><code>NEXT.JS</code>&nbsp; 13h ago</sub><br>
 <a href="https://nextjs.org/blog/improving-navigation-experience-in-v0-with-nextjs-16-4"><b>Improving navigation experience in v0 with Next.js 16.4</b></a>
 <br><br>
 How we used Partial Prefetching and a coding agent to improve navigation across v0 with Next.js 16.4.
 </td>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 13h ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 20h ago</sub><br>
 <a href="https://stackoverflow.blog/2026/10/16/formal-methods-say-you-re-wrong/"><b>AI says you’re right, formal methods say you’re wrong</b></a>
 <br><br>
 Ryan is joined by Gabriela Moreira, CEO at Quint, about why formal specification languages like TLA+ are essential for catching system design flaws before writing code, how Quint brings…
@@ -92,7 +92,7 @@ Ryan is joined by Gabriela Moreira, CEO at Quint, about why formal specification
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 19h ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
 <a href="https://laravel-news.com/laravel-validation-rule-builders?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Fluent Rule Builders for All Laravel Validation Rules</b></a>
 <br><br>
 Laravel 13.36 adds Rule:: methods for required_with, accepted_if, url, uuid, distinct, and the other string-only validation rules, with IDE autocompletion.
@@ -112,7 +112,7 @@ AI, agents, voice, and physical controls are shifting software development from 
 Put native GitHub features to work to review outside collaborator access and archive stale repositories.
 </td>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 2d ago</sub><br>
 <a href="https://laravel-news.com/laravel-url-ai-transformer?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Laravel URL AI Transformer: Extract Structured Data From URLs</b></a>
 <br><br>
 Spatie's Laravel URL AI Transformer fetches web pages, runs them through Laravel AI agents, and stores JSON-LD, summaries, or schema-validated data.
@@ -120,7 +120,7 @@ Spatie's Laravel URL AI Transformer fetches web pages, runs them through Laravel
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 17 Oct 2026 04:05 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · Lobsters · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 17 Oct 2026 11:23 WIB.</sub>
 
 <!-- NEWS:END -->
 
