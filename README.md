@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=700ac25798" />
-  <img src="./assets/activity-light.svg?v=0f47a752d8" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=ddd5d24c52" />
+  <img src="./assets/activity-light.svg?v=0e9fb9f53a" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=29c2ee0d55" />
-  <img src="./assets/news-light.svg?v=32cdff8ddb" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=8e0736833f" />
+  <img src="./assets/news-light.svg?v=bf1652c78e" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,41 +36,41 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 43m ago</sub><br>
+<sub><code>HN</code>&nbsp; 1h ago</sub><br>
+<a href="https://contextetech.com/en/articles/mcp-protocol-smart-decentralised-search"><b>Is MCP becoming the common foundation of smart, decentralised search?</b></a>
+<br><br>
+12 points and 9 comments on the Hacker News front page · contextetech.com
+</td>
+<td width="50%" valign="top">
+<sub><code>HN</code>&nbsp; 2h ago</sub><br>
+<a href="https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017"><b>DeepSeek: DeepSeek v4.1 Flash 1017</b></a>
+<br><br>
+149 points and 20 comments on the Hacker News front page · openrouter.ai
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 4h ago</sub><br>
+<a href="https://dev.to/james_anderson_h/ai-made-your-easy-work-free-that-made-you-more-valuable-413f"><b>AI Made Your Easy Work Free. That Made You More Valuable.</b></a>
+<br><br>
+Let's start by admitting the scary part is true, because the whole argument falls apart if I pretend...
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 7h ago</sub><br>
 <a href="https://dev.to/dj29/10-prompting-techniques-my-deep-learning-exam-taught-me-that-i-actually-use-now-43h0"><b>10 Prompting Techniques My Deep Learning Exam Taught Me (That I Actually Use Now)</b></a>
 <br><br>
 You already use prompting every day. You just don't know the names of what you're doing. Every time...
 </td>
-<td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 2h ago</sub><br>
-<a href="https://dune.fandom.com/wiki/Butlerian_Jihad"><b>Butlerian Jihad</b></a>
-<br><br>
-113 points and 54 comments on the Hacker News front page · dune.fandom.com
-</td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>LOBSTERS</code>&nbsp; 4h ago</sub><br>
-<a href="https://lobste.rs/s/miwcai/do_you_let_llms_write_both_your_tests_your"><b>Do you let LLMs write both your tests and your code?</b></a>
-<br><br>
-I'm curious what stance others have taken? Or what they've experienced with this? I'm toying with adding a rule to our values.md that the LLM can only significantly generate one or the…
-</td>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 7h ago</sub><br>
-<a href="https://dev.to/pengeszikra/singularity-news-0010-nhn"><b>Singularity News :: 0010</b></a>
-<br><br>
-Bartender R2D66 explained the next step in evolution. Whisky made it sound reasonable. Welcome to...
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 12h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 19h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-to-migrate-an-application-from-aws-to-gke-full-book/"><b>How to Migrate an Application from AWS to GKE [Full Book]</b></a>
 <br><br>
 This guided lab walks you through migrating a small payments app, with a React UI and Express API running on a single AWS EC2 instance, while PostgreSQL stays on AWS. You’ll move the UI and…
 </td>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 13h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 19h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/agentic-ai-reliability-book-build-a-testing-harness/"><b>Agentic AI Reliability: Build a Testing Harness for Tool Use, Guardrails, Loops, &amp; Workflow…</b></a>
 <br><br>
 A good final answer doesn't prove that an agentic AI workflow was correct. This book develops a code-backed method for verifying execution and business outcomes from authoritative state and…
@@ -78,13 +78,13 @@ A good final answer doesn't prove that an agentic AI workflow was correct. This 
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>NEXT.JS</code>&nbsp; 13h ago</sub><br>
+<sub><code>NEXT.JS</code>&nbsp; 19h ago</sub><br>
 <a href="https://nextjs.org/blog/improving-navigation-experience-in-v0-with-nextjs-16-4"><b>Improving navigation experience in v0 with Next.js 16.4</b></a>
 <br><br>
 How we used Partial Prefetching and a coding agent to improve navigation across v0 with Next.js 16.4.
 </td>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 20h ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 1d ago</sub><br>
 <a href="https://stackoverflow.blog/2026/10/16/formal-methods-say-you-re-wrong/"><b>AI says you’re right, formal methods say you’re wrong</b></a>
 <br><br>
 Ryan is joined by Gabriela Moreira, CEO at Quint, about why formal specification languages like TLA+ are essential for catching system design flaws before writing code, how Quint brings…
@@ -120,7 +120,7 @@ Spatie's Laravel URL AI Transformer fetches web pages, runs them through Laravel
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · Lobsters · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 17 Oct 2026 11:23 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 17 Oct 2026 17:41 WIB.</sub>
 
 <!-- NEWS:END -->
 
