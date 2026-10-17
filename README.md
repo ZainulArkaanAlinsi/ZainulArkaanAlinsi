@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=dfea4ab760" />
-  <img src="./assets/activity-light.svg?v=f8a5e39972" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=5008e01e8b" />
+  <img src="./assets/activity-light.svg?v=d266293144" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=e833dabeb8" />
-  <img src="./assets/news-light.svg?v=704378e4df" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=43afa6e914" />
+  <img src="./assets/news-light.svg?v=a0c34e6088" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,35 +36,35 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 14m ago</sub><br>
-<a href="https://pluralistic.net/2026/10/17/mercenary-spyware/#discover-tech"><b>Ad-tech company was a delivery system for &quot;mercenary spyware&quot;</b></a>
+<sub><code>HN</code>&nbsp; 27m ago</sub><br>
+<a href="https://doctor-seo.net/en/blog/news/chrome-edge-removing-xslt/"><b>Chrome and Edge are removing XSLT: what breaks and what does not</b></a>
 <br><br>
-13 points and 1 comment on the Hacker News front page · pluralistic.net
+3 points and 0 comments on the Hacker News front page · doctor-seo.net
 </td>
 <td width="50%" valign="top">
 <sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://www.pv-magazine.com/2026/09/29/solar-surpasses-nuclear-power-globally-for-first-time/"><b>Solar surpasses nuclear power globally for first time – pv magazine Global</b></a>
+<a href="https://www.cs.cmu.edu/news/2026/microsoft-cmu-praise"><b>Microsoft and CMU Team Up to Train Early Career Software Engineers</b></a>
 <br><br>
-123 points and 50 comments on the Hacker News front page · pv-magazine.com
+13 points and 5 comments on the Hacker News front page · cs.cmu.edu
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 5h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 6h ago</sub><br>
+<a href="https://dev.to/lewisawe/deja-vu-but-billable-4jhl"><b>Déjà vu, but billable</b></a>
+<br><br>
+This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle ...
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 10h ago</sub><br>
 <a href="https://dev.to/alexgeorgiev17/docker-compose-56s-jobs-type-only-starts-through-docker-compose-run-4c1a"><b>Docker Compose 5.6's jobs type only starts through docker compose run</b></a>
 <br><br>
 Docker Compose 5.6 added a jobs: section for one-off tasks. up, create and start all refuse to touch one, a scheduled trigger makes up fail outright, and only docker compose run actually…
 </td>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 9h ago</sub><br>
-<a href="https://dev.to/james_anderson_h/ai-made-your-easy-work-free-that-made-you-more-valuable-413f"><b>AI Made Your Easy Work Free. That Made You More Valuable.</b></a>
-<br><br>
-Let's start by admitting the scary part is true, because the whole argument falls apart if I pretend...
-</td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 23h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-to-migrate-an-application-from-aws-to-gke-full-book/"><b>How to Migrate an Application from AWS to GKE [Full Book]</b></a>
 <br><br>
 This guided lab walks you through migrating a small payments app, with a React UI and Express API running on a single AWS EC2 instance, while PostgreSQL stays on AWS. You’ll move the UI and…
@@ -98,7 +98,7 @@ Ryan is joined by Gabriela Moreira, CEO at Quint, about why formal specification
 Laravel 13.36 adds Rule:: methods for required_with, accepted_if, url, uuid, distinct, and the other string-only validation rules, with IDE autocompletion.
 </td>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 1d ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 2d ago</sub><br>
 <a href="https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence/"><b>The next developer interface is ambient intelligence</b></a>
 <br><br>
 AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building.
@@ -106,7 +106,7 @@ AI, agents, voice, and physical controls are shifting software development from 
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 1d ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 2d ago</sub><br>
 <a href="https://github.blog/engineering/platform-security/staying-evergreen-how-we-automated-secure-access-and-repo-hygiene-in-a-shared-org/"><b>Staying Evergreen: How we automated secure access and repo hygiene in a shared org</b></a>
 <br><br>
 Put native GitHub features to work to review outside collaborator access and archive stale repositories.
@@ -120,13 +120,13 @@ Spatie's Laravel URL AI Transformer fetches web pages, runs them through Laravel
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 17 Oct 2026 22:32 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 18 Oct 2026 03:34 WIB.</sub>
 
 <!-- NEWS:END -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20261017" />
-  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261017" width="100%" alt="A snake eating this year's contribution squares" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20261018" />
+  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261018" width="100%" alt="A snake eating this year's contribution squares" />
 </picture>
 
 <picture>
