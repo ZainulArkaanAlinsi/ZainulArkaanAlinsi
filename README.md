@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=1a7c6292d8" />
-  <img src="./assets/activity-light.svg?v=b6c072f226" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=3ea10978ca" />
+  <img src="./assets/activity-light.svg?v=b88a98bed4" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=3a1f68b1a5" />
-  <img src="./assets/news-light.svg?v=3a63716132" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=e40f924866" />
+  <img src="./assets/news-light.svg?v=ebb36c76ad" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,41 +36,41 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 5m ago</sub><br>
+<sub><code>HN</code>&nbsp; 50m ago</sub><br>
+<a href="https://terrytao.wordpress.com/2026/10/18/will-it-be-a-golden-age-or-a-dark-age-for-mathematics-and-science/"><b>Will it be a golden age or a dark age for mathematics (and science)?</b></a>
+<br><br>
+30 points and 24 comments on the Hacker News front page · terrytao.wordpress.com
+</td>
+<td width="50%" valign="top">
+<sub><code>HN</code>&nbsp; 52m ago</sub><br>
+<a href="https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web"><b>Websites are closing their doors to AI agents</b></a>
+<br><br>
+36 points and 27 comments on the Hacker News front page · theverge.com
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 2h ago</sub><br>
+<a href="https://dev.to/hemapriya_kanagala/dev-pet-corner-2-show-us-your-pets-37nj"><b>🐾 DEV Pet Corner #2: Show Us Your Pets!</b></a>
+<br><br>
+TL;DR DEV Pet Corner is back for another Sunday! It's a weekly series where we take a little break...
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 4h ago</sub><br>
 <a href="https://dev.to/georgekobaidze/promise-delivered-welcome-to-the-dev-hall-of-fame-65-authors-65-masterpieces-15fa"><b>Promise Delivered: Welcome to the DEV Hall of Fame (65 Authors, 65 Masterpieces)</b></a>
 <br><br>
 Status: Promise delivered ✅ The Doors Are Open A little over a month ago, I published...
 </td>
-<td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 46m ago</sub><br>
-<a href="https://alinush.github.io//tee"><b>It's time to talk about TEEs</b></a>
-<br><br>
-3 points and 0 comments on the Hacker News front page · alinush.github.io
-</td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 2h ago</sub><br>
-<a href="https://t3.at/blog/2026-10-17-parser-combinators/"><b>Parser Combinators</b></a>
-<br><br>
-22 points and 8 comments on the Hacker News front page · t3.at
-</td>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 5h ago</sub><br>
-<a href="https://dev.to/lovestaco/one-rust-unicode-bug-three-coding-models-a-reproducible-comparison-48ae"><b>One Rust Unicode Bug, Three Coding Models: A Reproducible Comparison</b></a>
-<br><br>
-Coding-model leaderboards reveal little about how a model handles a real bug. A Rust function can...
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 2d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-to-migrate-an-application-from-aws-to-gke-full-book/"><b>How to Migrate an Application from AWS to GKE [Full Book]</b></a>
 <br><br>
 This guided lab walks you through migrating a small payments app, with a React UI and Express API running on a single AWS EC2 instance, while PostgreSQL stays on AWS. You’ll move the UI and…
 </td>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 2d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/agentic-ai-reliability-book-build-a-testing-harness/"><b>Agentic AI Reliability: Build a Testing Harness for Tool Use, Guardrails, Loops, &amp; Workflow…</b></a>
 <br><br>
 A good final answer doesn't prove that an agentic AI workflow was correct. This book develops a code-backed method for verifying execution and business outcomes from authoritative state and…
@@ -78,7 +78,7 @@ A good final answer doesn't prove that an agentic AI workflow was correct. This 
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>NEXT.JS</code>&nbsp; 1d ago</sub><br>
+<sub><code>NEXT.JS</code>&nbsp; 2d ago</sub><br>
 <a href="https://nextjs.org/blog/improving-navigation-experience-in-v0-with-nextjs-16-4"><b>Improving navigation experience in v0 with Next.js 16.4</b></a>
 <br><br>
 How we used Partial Prefetching and a coding agent to improve navigation across v0 with Next.js 16.4.
@@ -120,7 +120,7 @@ Spatie's Laravel URL AI Transformer fetches web pages, runs them through Laravel
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 18 Oct 2026 18:01 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 18 Oct 2026 22:50 WIB.</sub>
 
 <!-- NEWS:END -->
 
