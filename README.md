@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=5008e01e8b" />
-  <img src="./assets/activity-light.svg?v=d266293144" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=d67bb72f5e" />
+  <img src="./assets/activity-light.svg?v=4d3ca99f01" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=43afa6e914" />
-  <img src="./assets/news-light.svg?v=a0c34e6088" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=89661c3642" />
+  <img src="./assets/news-light.svg?v=331560a9fd" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,30 +36,30 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 27m ago</sub><br>
-<a href="https://doctor-seo.net/en/blog/news/chrome-edge-removing-xslt/"><b>Chrome and Edge are removing XSLT: what breaks and what does not</b></a>
+<sub><code>HN</code>&nbsp; 4h ago</sub><br>
+<a href="https://www.tomshardware.com/video-games/new-york-rep-announces-game-ownership-bill-that-would-require-consumer-ownership-rather-than-sale-of-licenses-would-also-require-publishers-to-keep-the-game-functional-after-support-ends"><b>NY announces game ownership bill requiring ownership rather than licensing</b></a>
 <br><br>
-3 points and 0 comments on the Hacker News front page · doctor-seo.net
+149 points and 37 comments on the Hacker News front page · tomshardware.com
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://www.cs.cmu.edu/news/2026/microsoft-cmu-praise"><b>Microsoft and CMU Team Up to Train Early Career Software Engineers</b></a>
+<sub><code>DEV</code>&nbsp; 7h ago</sub><br>
+<a href="https://dev.to/earlgreyhot1701d/ai-took-me-to-three-stages-i-still-dont-like-public-speaking-1g38"><b>AI Took Me to Three Stages. I Still Don't Like Public Speaking.</b></a>
 <br><br>
-13 points and 5 comments on the Hacker News front page · cs.cmu.edu
+A year of building with AI put me on three stages. I liked the message more than the...
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 6h ago</sub><br>
+<sub><code>HN</code>&nbsp; 8h ago</sub><br>
+<a href="https://doctor-seo.net/en/blog/news/chrome-edge-removing-xslt/"><b>Chrome and Edge are removing XSLT: what breaks and what does not</b></a>
+<br><br>
+103 points and 112 comments on the Hacker News front page · doctor-seo.net
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 14h ago</sub><br>
 <a href="https://dev.to/lewisawe/deja-vu-but-billable-4jhl"><b>Déjà vu, but billable</b></a>
 <br><br>
 This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle ...
-</td>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 10h ago</sub><br>
-<a href="https://dev.to/alexgeorgiev17/docker-compose-56s-jobs-type-only-starts-through-docker-compose-run-4c1a"><b>Docker Compose 5.6's jobs type only starts through docker compose run</b></a>
-<br><br>
-Docker Compose 5.6 added a jobs: section for one-off tasks. up, create and start all refuse to touch one, a scheduled trigger makes up fail outright, and only docker compose run actually…
 </td>
 </tr>
 <tr>
@@ -92,7 +92,7 @@ Ryan is joined by Gabriela Moreira, CEO at Quint, about why formal specification
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 2d ago</sub><br>
 <a href="https://laravel-news.com/laravel-validation-rule-builders?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Fluent Rule Builders for All Laravel Validation Rules</b></a>
 <br><br>
 Laravel 13.36 adds Rule:: methods for required_with, accepted_if, url, uuid, distinct, and the other string-only validation rules, with IDE autocompletion.
@@ -112,7 +112,7 @@ AI, agents, voice, and physical controls are shifting software development from 
 Put native GitHub features to work to review outside collaborator access and archive stale repositories.
 </td>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 2d ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 3d ago</sub><br>
 <a href="https://laravel-news.com/laravel-url-ai-transformer?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Laravel URL AI Transformer: Extract Structured Data From URLs</b></a>
 <br><br>
 Spatie's Laravel URL AI Transformer fetches web pages, runs them through Laravel AI agents, and stores JSON-LD, summaries, or schema-validated data.
@@ -120,7 +120,7 @@ Spatie's Laravel URL AI Transformer fetches web pages, runs them through Laravel
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 18 Oct 2026 03:34 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 18 Oct 2026 11:30 WIB.</sub>
 
 <!-- NEWS:END -->
 
