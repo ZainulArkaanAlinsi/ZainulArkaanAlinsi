@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=d67bb72f5e" />
-  <img src="./assets/activity-light.svg?v=4d3ca99f01" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=1a7c6292d8" />
+  <img src="./assets/activity-light.svg?v=b6c072f226" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=89661c3642" />
-  <img src="./assets/news-light.svg?v=331560a9fd" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=3a1f68b1a5" />
+  <img src="./assets/news-light.svg?v=3a63716132" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,30 +36,30 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 4h ago</sub><br>
-<a href="https://www.tomshardware.com/video-games/new-york-rep-announces-game-ownership-bill-that-would-require-consumer-ownership-rather-than-sale-of-licenses-would-also-require-publishers-to-keep-the-game-functional-after-support-ends"><b>NY announces game ownership bill requiring ownership rather than licensing</b></a>
+<sub><code>DEV</code>&nbsp; 5m ago</sub><br>
+<a href="https://dev.to/georgekobaidze/promise-delivered-welcome-to-the-dev-hall-of-fame-65-authors-65-masterpieces-15fa"><b>Promise Delivered: Welcome to the DEV Hall of Fame (65 Authors, 65 Masterpieces)</b></a>
 <br><br>
-149 points and 37 comments on the Hacker News front page · tomshardware.com
+Status: Promise delivered ✅ The Doors Are Open A little over a month ago, I published...
 </td>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 7h ago</sub><br>
-<a href="https://dev.to/earlgreyhot1701d/ai-took-me-to-three-stages-i-still-dont-like-public-speaking-1g38"><b>AI Took Me to Three Stages. I Still Don't Like Public Speaking.</b></a>
+<sub><code>HN</code>&nbsp; 46m ago</sub><br>
+<a href="https://alinush.github.io//tee"><b>It's time to talk about TEEs</b></a>
 <br><br>
-A year of building with AI put me on three stages. I liked the message more than the...
+3 points and 0 comments on the Hacker News front page · alinush.github.io
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 8h ago</sub><br>
-<a href="https://doctor-seo.net/en/blog/news/chrome-edge-removing-xslt/"><b>Chrome and Edge are removing XSLT: what breaks and what does not</b></a>
+<sub><code>HN</code>&nbsp; 2h ago</sub><br>
+<a href="https://t3.at/blog/2026-10-17-parser-combinators/"><b>Parser Combinators</b></a>
 <br><br>
-103 points and 112 comments on the Hacker News front page · doctor-seo.net
+22 points and 8 comments on the Hacker News front page · t3.at
 </td>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 14h ago</sub><br>
-<a href="https://dev.to/lewisawe/deja-vu-but-billable-4jhl"><b>Déjà vu, but billable</b></a>
+<sub><code>DEV</code>&nbsp; 5h ago</sub><br>
+<a href="https://dev.to/lovestaco/one-rust-unicode-bug-three-coding-models-a-reproducible-comparison-48ae"><b>One Rust Unicode Bug, Three Coding Models: A Reproducible Comparison</b></a>
 <br><br>
-This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle ...
+Coding-model leaderboards reveal little about how a model handles a real bug. A Rust function can...
 </td>
 </tr>
 <tr>
@@ -84,7 +84,7 @@ A good final answer doesn't prove that an agentic AI workflow was correct. This 
 How we used Partial Prefetching and a coding agent to improve navigation across v0 with Next.js 16.4.
 </td>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 1d ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 2d ago</sub><br>
 <a href="https://stackoverflow.blog/2026/10/16/formal-methods-say-you-re-wrong/"><b>AI says you’re right, formal methods say you’re wrong</b></a>
 <br><br>
 Ryan is joined by Gabriela Moreira, CEO at Quint, about why formal specification languages like TLA+ are essential for catching system design flaws before writing code, how Quint brings…
@@ -120,7 +120,7 @@ Spatie's Laravel URL AI Transformer fetches web pages, runs them through Laravel
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 18 Oct 2026 11:30 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 18 Oct 2026 18:01 WIB.</sub>
 
 <!-- NEWS:END -->
 
