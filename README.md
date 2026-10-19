@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=2bf13fb450" />
-  <img src="./assets/activity-light.svg?v=29ab31b54f" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=d016ba588b" />
+  <img src="./assets/activity-light.svg?v=8e63a36c6a" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=b915a66150" />
-  <img src="./assets/news-light.svg?v=df28ca3279" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=1681d21e23" />
+  <img src="./assets/news-light.svg?v=e02bd4cb8d" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,27 +36,27 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>LOBSTERS</code>&nbsp; 54m ago</sub><br>
-<a href="https://www.youtube.com/watch?v=-0D0rFdU6HY"><b>Real-time Software On Linux: How Hard Can It Be?</b></a>
+<sub><code>HN</code>&nbsp; 2h ago</sub><br>
+<a href="https://contextfirst.blog/superlite-hand-an-agent-a-spec/"><b>Superlite: A Faster Alternatie to Superpowers</b></a>
 <br><br>
-Presentation by Jeff Pele at Software You Can Love Vancouver 2026 Comments
+25 points and 11 comments on the Hacker News front page · contextfirst.blog
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://store.steampowered.com/app/5426130/Tiny_Brutalism/"><b>Tiny Brutalism – Thanks to HN it's on Steam</b></a>
+<sub><code>HN</code>&nbsp; 2h ago</sub><br>
+<a href="https://www.404media.co/watch-footage-of-the-flock-search-a-judge-ruled-unconstitutional/"><b>Footage of the Flock search that a judge ruled was uncosntitutional</b></a>
 <br><br>
-27 points and 3 comments on the Hacker News front page · store.steampowered.com
+56 points and 15 comments on the Hacker News front page · 404media.co
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://www.getlazarus.org/dynamic/"><b>Free Pascal compiler now supports dynamic packages</b></a>
+<sub><code>DEV</code>&nbsp; 4h ago</sub><br>
+<a href="https://dev.to/sizzlebop/the-terminal-made-me-a-better-developer-and-not-for-the-reasons-i-expected-nn6"><b>The Terminal Made Me a Better Developer (And Not for the Reasons I Expected)</b></a>
 <br><br>
-44 points and 11 comments on the Hacker News front page · getlazarus.org
+When I first started using the terminal, sure, it was useful. I could navigate around directories,...
 </td>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 3h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 11h ago</sub><br>
 <a href="https://dev.to/sizzlebop/i-built-a-new-tab-extension-for-dev-4kmm"><b>I Built a New Tab Extension for DEV</b></a>
 <br><br>
 I spend a lot of time on DEV these days. Reading posts, finding interesting projects, participating...
@@ -64,63 +64,63 @@ I spend a lot of time on DEV these days. Reading posts, finding interesting proj
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 6h ago</sub><br>
-<a href="https://dev.to/hemapriya_kanagala/dev-pet-corner-2-show-us-your-pets-37nj"><b>🐾 DEV Pet Corner #2: Show Us Your Pets!</b></a>
-<br><br>
-TL;DR DEV Pet Corner is back for another Sunday! It's a weekly series where we take a little break...
-</td>
-<td width="50%" valign="top">
 <sub><code>FREECODECAMP</code>&nbsp; 2d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-to-migrate-an-application-from-aws-to-gke-full-book/"><b>How to Migrate an Application from AWS to GKE [Full Book]</b></a>
 <br><br>
 This guided lab walks you through migrating a small payments app, with a React UI and Express API running on a single AWS EC2 instance, while PostgreSQL stays on AWS. You’ll move the UI and…
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <sub><code>FREECODECAMP</code>&nbsp; 2d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/agentic-ai-reliability-book-build-a-testing-harness/"><b>Agentic AI Reliability: Build a Testing Harness for Tool Use, Guardrails, Loops, &amp; Workflow…</b></a>
 <br><br>
 A good final answer doesn't prove that an agentic AI workflow was correct. This book develops a code-backed method for verifying execution and business outcomes from authoritative state and…
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <sub><code>NEXT.JS</code>&nbsp; 2d ago</sub><br>
 <a href="https://nextjs.org/blog/improving-navigation-experience-in-v0-with-nextjs-16-4"><b>Improving navigation experience in v0 with Next.js 16.4</b></a>
 <br><br>
 How we used Partial Prefetching and a coding agent to improve navigation across v0 with Next.js 16.4.
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <sub><code>STACKOVERFLOW</code>&nbsp; 2d ago</sub><br>
 <a href="https://stackoverflow.blog/2026/10/16/formal-methods-say-you-re-wrong/"><b>AI says you’re right, formal methods say you’re wrong</b></a>
 <br><br>
 Ryan is joined by Gabriela Moreira, CEO at Quint, about why formal specification languages like TLA+ are essential for catching system design flaws before writing code, how Quint brings…
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 2d ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 3d ago</sub><br>
 <a href="https://laravel-news.com/laravel-validation-rule-builders?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Fluent Rule Builders for All Laravel Validation Rules</b></a>
 <br><br>
 Laravel 13.36 adds Rule:: methods for required_with, accepted_if, url, uuid, distinct, and the other string-only validation rules, with IDE autocompletion.
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <sub><code>GITHUB</code>&nbsp; 3d ago</sub><br>
 <a href="https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence/"><b>The next developer interface is ambient intelligence</b></a>
 <br><br>
 AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building.
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <sub><code>GITHUB</code>&nbsp; 3d ago</sub><br>
 <a href="https://github.blog/engineering/platform-security/staying-evergreen-how-we-automated-secure-access-and-repo-hygiene-in-a-shared-org/"><b>Staying Evergreen: How we automated secure access and repo hygiene in a shared org</b></a>
 <br><br>
 Put native GitHub features to work to review outside collaborator access and archive stale repositories.
 </td>
+<td width="50%" valign="top">
+<sub><code>LARAVEL</code>&nbsp; 4d ago</sub><br>
+<a href="https://laravel-news.com/laravel-url-ai-transformer?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Laravel URL AI Transformer: Extract Structured Data From URLs</b></a>
+<br><br>
+Spatie's Laravel URL AI Transformer fetches web pages, runs them through Laravel AI agents, and stores JSON-LD, summaries, or schema-validated data.
+</td>
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · Lobsters · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 19 Oct 2026 03:40 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 19 Oct 2026 11:38 WIB.</sub>
 
 <!-- NEWS:END -->
 
