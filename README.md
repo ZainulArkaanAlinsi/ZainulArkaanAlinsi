@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=d956a20056" />
-  <img src="./assets/activity-light.svg?v=dd7f849bfb" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=5f92e13776" />
+  <img src="./assets/activity-light.svg?v=aaf7d49dc7" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=2cd7afa38c" />
-  <img src="./assets/news-light.svg?v=a2466893b7" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=04fd8a0ce5" />
+  <img src="./assets/news-light.svg?v=b73d269d28" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,41 +36,55 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 10m ago</sub><br>
-<a href="https://dev.to/gde/stress-testing-gemini-4-argon-building-a-3d-flutter-kart-game-in-15-prompts-with-zero-assets-55ha"><b>Stress-Testing Gemini 4 Argon: Building a 3D Flutter Kart Game in 15 Prompts with Zero Assets</b></a>
+<sub><code>HN</code>&nbsp; 1h ago</sub><br>
+<a href="https://bsd.network/@brynet/117407035545900963"><b>OpenBSD 8.0 release will have inteldrm/radeondrm/amdgpu drivers from Linux 6.18</b></a>
 <br><br>
-Most AI coding benchmarks test standard web apps or CRUD dashboards. Frontier models can already...
+26 points and 3 comments on the Hacker News front page · bsd.network
 </td>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 37m ago</sub><br>
-<a href="https://dev.to/smtahosin/rails-magic-isnt-magic-how-a-request-actually-travels-through-rails-5gc5"><b>&quot;Rails Magic&quot; Isn't Magic. How a Request Actually Travels Through Rails.</b></a>
+<sub><code>HN</code>&nbsp; 1h ago</sub><br>
+<a href="https://d2survivors.lol/"><b>Diablo 2 Survivors</b></a>
 <br><br>
-A visual, 10-minute deep dive into how Ruby on Rails actually runs under the hood. From Rack middlewares and Zeitwerk autoloading to ActiveRecord schema reflection and the view_assigns…
+12 points and 0 comments on the Hacker News front page · d2survivors.lol
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>LOBSTERS</code>&nbsp; 1h ago</sub><br>
-<a href="https://lobste.rs/s/vyfegx/what_are_you_doing_this_week"><b>What are you doing this week?</b></a>
+<sub><code>GITHUB</code>&nbsp; 3h ago</sub><br>
+<a href="https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code/"><b>How to continue a GitHub Copilot app session in VS Code</b></a>
 <br><br>
-What are you doing this week? Feel free to share! Keep in mind it’s OK to do nothing at all, too.
+Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context.
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://github.com/IsuruMaduranga/harness-engineering-101"><b>Harness Engineering 101: The LLM is the brain, the harness is the body</b></a>
+<sub><code>DEV</code>&nbsp; 4h ago</sub><br>
+<a href="https://dev.to/gde/can-a-26b-moe-run-on-an-8-gb-gpu-gemma-4-26b-a4b-on-an-rtx-3050-2efn"><b>Can a 26B MoE Run on an 8 GB GPU? Gemma 4 26B A4B on an RTX 3050</b></a>
 <br><br>
-39 points and 17 comments on the Hacker News front page · github.com
+Gemma 4 26B A4B, a 14.4 GB mixture-of-experts model, serves from an 8 GB RTX 3050 with most of its experts in system RAM: 131,072 tokens of context, 28 to 34 tok/s empty, and GSM8K and BFCL…
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://spectrum.ieee.org/esa-hera-dimorphos-rendezvous"><b>ESA's Hera Will View Asteroid Scars from DART's Strike</b></a>
+<sub><code>STACKOVERFLOW</code>&nbsp; 6h ago</sub><br>
+<a href="https://stackoverflow.blog/2026/10/19/production-grade-llms-and-agents-a-field-guide/"><b>Production-grade LLMs and agents: a field guide</b></a>
 <br><br>
-21 points and 0 comments on the Hacker News front page · spectrum.ieee.org
+A maturity model for taking agents from an impressive demo to a system people can depend on — with a self-assessment and the map to a deep-dive on each layer.
 </td>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 6h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 6h ago</sub><br>
+<a href="https://dev.to/maximsaplin/persistent-agent-teams-recreating-the-grok-bot-experience-with-herdr-claude-code-and-pi-2aea"><b>Persistent Agent Teams: Recreating the Grok Bot Experience with Herdr, Claude Code and Pi</b></a>
+<br><br>
+Persistent agents and agent teams truly caught my attention when I tried Grok Bot. Publicly, Grok...
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>FREECODECAMP</code>&nbsp; 9h ago</sub><br>
+<a href="https://www.freecodecamp.org/news/build-publish-native-android-app-from-jetpack-compose-to-google-play-store-handbook/"><b>How to Build and Publish a Native Android App in 2026: From Jetpack Compose to the Google Play…</b></a>
+<br><br>
+Most Android tutorials stop at &quot;it runs on the emulator.&quot; But getting an app from a blank project to a listing that real people can install from Google Play involves a second half that's…
+</td>
+<td width="50%" valign="top">
+<sub><code>FREECODECAMP</code>&nbsp; 15h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/detect-operational-drift-before-incident/"><b>How to Detect Operational Drift Before It Becomes an Incident</b></a>
 <br><br>
 In my previous article, I explored operational conformance: how to evaluate whether observed evidence satisfies an operational specification. That gives us a useful point-in-time question…
@@ -78,13 +92,13 @@ In my previous article, I explored operational conformance: how to evaluate whet
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 6h ago</sub><br>
-<a href="https://www.freecodecamp.org/news/how-to-build-a-website-user-interface-faster-using-ai-prompts/"><b>How to Build a Website User Interface Faster Using AI Prompts</b></a>
+<sub><code>LARAVEL</code>&nbsp; 19h ago</sub><br>
+<a href="https://laravel-news.com/laravel-planetscale-olap?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Run Large PlanetScale Queries in Laravel With DB::olap()</b></a>
 <br><br>
-A website user interface (UI) used to take hours of writing HTML, CSS, and component code by hand. Now you can describe a page in plain words and let an AI coding tool write the first…
+Laravel's new DB::olap() method runs PlanetScale and Vitess queries in OLAP mode to get past the 100,000 row limit, then switches the connection back.
 </td>
 <td width="50%" valign="top">
-<sub><code>NEXT.JS</code>&nbsp; 2d ago</sub><br>
+<sub><code>NEXT.JS</code>&nbsp; 3d ago</sub><br>
 <a href="https://nextjs.org/blog/improving-navigation-experience-in-v0-with-nextjs-16-4"><b>Improving navigation experience in v0 with Next.js 16.4</b></a>
 <br><br>
 How we used Partial Prefetching and a coding agent to improve navigation across v0 with Next.js 16.4.
@@ -104,29 +118,15 @@ Ryan is joined by Gabriela Moreira, CEO at Quint, about why formal specification
 Laravel 13.36 adds Rule:: methods for required_with, accepted_if, url, uuid, distinct, and the other string-only validation rules, with IDE autocompletion.
 </td>
 </tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 3d ago</sub><br>
-<a href="https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence/"><b>The next developer interface is ambient intelligence</b></a>
-<br><br>
-AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building.
-</td>
-<td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 3d ago</sub><br>
-<a href="https://github.blog/engineering/platform-security/staying-evergreen-how-we-automated-secure-access-and-repo-hygiene-in-a-shared-org/"><b>Staying Evergreen: How we automated secure access and repo hygiene in a shared org</b></a>
-<br><br>
-Put native GitHub features to work to review outside collaborator access and archive stale repositories.
-</td>
-</tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · Lobsters · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 19 Oct 2026 20:10 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 20 Oct 2026 05:19 WIB.</sub>
 
 <!-- NEWS:END -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20261019" />
-  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261019" width="100%" alt="A snake eating this year's contribution squares" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20261020" />
+  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261020" width="100%" alt="A snake eating this year's contribution squares" />
 </picture>
 
 <picture>
