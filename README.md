@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=6022c99bfd" />
-  <img src="./assets/activity-light.svg?v=d702c5d128" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=3bf35e5cab" />
+  <img src="./assets/activity-light.svg?v=5e579789e3" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=78521dd567" />
-  <img src="./assets/news-light.svg?v=0f5c7c4a2a" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=6f4fd3f7a5" />
+  <img src="./assets/news-light.svg?v=e43f26024a" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,97 +36,97 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://www.neowin.net/news/google-cloud-outage-takes-down-hsbc-revolut-bank-of-scotland-llyods-equifax-more/"><b>Google cloud outage takes down banks</b></a>
+<sub><code>HN</code>&nbsp; 20m ago</sub><br>
+<a href="https://github.com/google-pytorch/torch_tpu"><b>Google open-sources TorchTPU, a native PyTorch back end for TPUs</b></a>
 <br><br>
-31 points and 9 comments on the Hacker News front page · neowin.net
+19 points and 4 comments on the Hacker News front page · github.com
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://www.bbc.com/news/articles/cxdd8mm6qy4mo"><b>Revolut down as users report app not working</b></a>
+<sub><code>GITHUB</code>&nbsp; 56m ago</sub><br>
+<a href="https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/"><b>How 3 Java Champions are using GitHub Copilot for increased productivity</b></a>
 <br><br>
-53 points and 24 comments on the Hacker News front page · bbc.com
+Three Java Champions share how they use GitHub Copilot to solve problems, accelerate development, and keep humans responsible for the results.
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 3h ago</sub><br>
+<sub><code>HN</code>&nbsp; 59m ago</sub><br>
+<a href="https://mistral.ai/news/voxtral-3/"><b>Voxtral 3</b></a>
+<br><br>
+83 points and 18 comments on the Hacker News front page · mistral.ai
+</td>
+<td width="50%" valign="top">
+<sub><code>FREECODECAMP</code>&nbsp; 7h ago</sub><br>
+<a href="https://www.freecodecamp.org/news/how-to-build-an-ai-agent-harness-from-scratch-in-typescript/"><b>How to Build an AI Agent Harness from Scratch in TypeScript</b></a>
+<br><br>
+Many AI agent tutorials start with a language model, give it a few tools, and run a loop until it produces an answer. That's enough to demonstrate tool calling, but it leaves the…
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>FREECODECAMP</code>&nbsp; 7h ago</sub><br>
+<a href="https://www.freecodecamp.org/news/how-to-make-your-coding-agent-check-its-work-in-the-browser/"><b>How to Make Your Coding Agent Check Its Work in the Browser</b></a>
+<br><br>
+I got tired of coding agents telling me the frontend work was done when nobody had opened the frontend. You've probably seen the routine. The agent changes some code, runs the formatter…
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 7h ago</sub><br>
+<a href="https://dev.to/yassersoliman/stop-shipping-marketing-pages-like-product-features-374d"><b>Stop Shipping Marketing Pages Like Product Features</b></a>
+<br><br>
+A marketing page workflow should help your team launch campaigns, update messaging, and improve...
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>STACKOVERFLOW</code>&nbsp; 9h ago</sub><br>
 <a href="https://stackoverflow.blog/2026/10/20/don-t-forget-about-the-ui-for-ai/"><b>Don't forget about the UI for AI</b></a>
 <br><br>
 Recorded at OpenAI Dev Day 2026, Ryan sits down with Andrew Ambrosino, member of the technical staff at OpenAI, for a conversation on OpenAI's strategy for merging ChatGPT and Codex into a…
 </td>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 5h ago</sub><br>
-<a href="https://dev.to/james_anderson_h/somewhere-coding-stopped-being-allowed-to-be-fun-14pe"><b>Somewhere, Coding Stopped Being Allowed to Be Fun</b></a>
+<sub><code>LARAVEL</code>&nbsp; 16h ago</sub><br>
+<a href="https://laravel-news.com/laravel-token-guard-auth-bypass?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Critical Token Guard Auth Bypass Fixed in Laravel 13.29 and 12.68</b></a>
 <br><br>
-Somewhere in the last couple of years, a strange feeling crept in, and I don't think I'm the only one...
+A critical auth bypass in Laravel's token API guard let attackers log in as other users on MySQL and MariaDB. Update to 12.68.0 or 13.29.0.
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 6h ago</sub><br>
-<a href="https://dev.to/gde/generative-ui-without-the-async-tax-introducing-blocsignalsgenui-10-3gge"><b>Generative UI Without the Async Tax: Introducing bloc_signals_genui 1.0</b></a>
-<br><br>
-Why we built a pure-Dart, 0ms synchronous Generative UI state machine on top of Google's official A2UI protocol—supporting two-way reactive forms, Riverpod/BLoC interop, Flutter Material 3…
-</td>
-<td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 16h ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 22h ago</sub><br>
 <a href="https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code/"><b>How to continue a GitHub Copilot app session in VS Code</b></a>
 <br><br>
 Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context.
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 20h ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 1d ago</sub><br>
 <a href="https://stackoverflow.blog/2026/10/19/production-grade-llms-and-agents-a-field-guide/"><b>Production-grade LLMs and agents: a field guide</b></a>
 <br><br>
 A maturity model for taking agents from an impressive demo to a system people can depend on — with a self-assessment and the map to a deep-dive on each layer.
 </td>
-<td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 22h ago</sub><br>
-<a href="https://www.freecodecamp.org/news/build-publish-native-android-app-from-jetpack-compose-to-google-play-store-handbook/"><b>How to Build and Publish a Native Android App in 2026: From Jetpack Compose to the Google Play…</b></a>
-<br><br>
-Most Android tutorials stop at &quot;it runs on the emulator.&quot; But getting an app from a blank project to a listing that real people can install from Google Play involves a second half that's…
-</td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
-<a href="https://www.freecodecamp.org/news/detect-operational-drift-before-incident/"><b>How to Detect Operational Drift Before It Becomes an Incident</b></a>
-<br><br>
-In my previous article, I explored operational conformance: how to evaluate whether observed evidence satisfies an operational specification. That gives us a useful point-in-time question…
-</td>
 <td width="50%" valign="top">
 <sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
 <a href="https://laravel-news.com/laravel-planetscale-olap?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Run Large PlanetScale Queries in Laravel With DB::olap()</b></a>
 <br><br>
 Laravel's new DB::olap() method runs PlanetScale and Vitess queries in OLAP mode to get past the 100,000 row limit, then switches the connection back.
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
-<sub><code>NEXT.JS</code>&nbsp; 3d ago</sub><br>
+<sub><code>NEXT.JS</code>&nbsp; 4d ago</sub><br>
 <a href="https://nextjs.org/blog/improving-navigation-experience-in-v0-with-nextjs-16-4"><b>Improving navigation experience in v0 with Next.js 16.4</b></a>
 <br><br>
 How we used Partial Prefetching and a coding agent to improve navigation across v0 with Next.js 16.4.
 </td>
-<td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 4d ago</sub><br>
-<a href="https://laravel-news.com/laravel-validation-rule-builders?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Fluent Rule Builders for All Laravel Validation Rules</b></a>
-<br><br>
-Laravel 13.36 adds Rule:: methods for required_with, accepted_if, url, uuid, distinct, and the other string-only validation rules, with IDE autocompletion.
-</td>
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 20 Oct 2026 18:33 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 21 Oct 2026 00:01 WIB.</sub>
 
 <!-- NEWS:END -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20261020" />
-  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261020" width="100%" alt="A snake eating this year's contribution squares" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20261021" />
+  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261021" width="100%" alt="A snake eating this year's contribution squares" />
 </picture>
 
 <picture>
