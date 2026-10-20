@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=3bf35e5cab" />
-  <img src="./assets/activity-light.svg?v=5e579789e3" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=b21e68374f" />
+  <img src="./assets/activity-light.svg?v=8672099036" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=6f4fd3f7a5" />
-  <img src="./assets/news-light.svg?v=e43f26024a" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=1693096e2a" />
+  <img src="./assets/news-light.svg?v=dbc92dc882" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,13 +36,27 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 20m ago</sub><br>
-<a href="https://github.com/google-pytorch/torch_tpu"><b>Google open-sources TorchTPU, a native PyTorch back end for TPUs</b></a>
+<sub><code>HN</code>&nbsp; 1h ago</sub><br>
+<a href="https://www.bolkunov.com/p/on-ai-writing"><b>On AI writing</b></a>
 <br><br>
-19 points and 4 comments on the Hacker News front page · github.com
+44 points and 11 comments on the Hacker News front page · bolkunov.com
 </td>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 56m ago</sub><br>
+<sub><code>HN</code>&nbsp; 2h ago</sub><br>
+<a href="https://blogs.lse.ac.uk/impactofsocialsciences/2026/10/19/academics-have-a-duty-to-defend-open-knowledge-systems-like-wikipedia/"><b>Academics have a duty to defend open knowledge systems like Wikipedia</b></a>
+<br><br>
+18 points and 0 comments on the Hacker News front page · blogs.lse.ac.uk
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>FREECODECAMP</code>&nbsp; 4h ago</sub><br>
+<a href="https://www.freecodecamp.org/news/how-neural-networks-work-why-straight-lines-aren-t-enough/"><b>How Neural Networks Work: Why Straight Lines Aren't Enough</b></a>
+<br><br>
+A straight line equation is a good place to start understanding how a neural network works. It's what we explored in my previous article, How Neural Networks Work – Explained Using the…
+</td>
+<td width="50%" valign="top">
+<sub><code>GITHUB</code>&nbsp; 5h ago</sub><br>
 <a href="https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/"><b>How 3 Java Champions are using GitHub Copilot for increased productivity</b></a>
 <br><br>
 Three Java Champions share how they use GitHub Copilot to solve problems, accelerate development, and keep humans responsible for the results.
@@ -50,41 +64,27 @@ Three Java Champions share how they use GitHub Copilot to solve problems, accele
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 59m ago</sub><br>
-<a href="https://mistral.ai/news/voxtral-3/"><b>Voxtral 3</b></a>
+<sub><code>FREECODECAMP</code>&nbsp; 6h ago</sub><br>
+<a href="https://www.freecodecamp.org/news/how-wearables-can-adapt-when-pregnancy-changes-a-user-s-regular-baseline/"><b>How Wearables Can Adapt When Pregnancy Changes a User's Regular Baseline</b></a>
 <br><br>
-83 points and 18 comments on the Hacker News front page · mistral.ai
+Your smart ring or watch has many useful jobs, including learning your usual physiological patterns and showing you when they change. Resting heart rate, heart rate variability (HRV)…
 </td>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 7h ago</sub><br>
-<a href="https://www.freecodecamp.org/news/how-to-build-an-ai-agent-harness-from-scratch-in-typescript/"><b>How to Build an AI Agent Harness from Scratch in TypeScript</b></a>
+<sub><code>DEV</code>&nbsp; 10h ago</sub><br>
+<a href="https://dev.to/deepu105/qwen38-flash-next-vs-claude-opus-55-six-way-benchmark-on-a-real-rust-feature-1n98"><b>Qwen3.8-Flash-Next vs Claude Opus 5.5: Six-way benchmark on a real Rust feature</b></a>
 <br><br>
-Many AI agent tutorials start with a language model, give it a few tools, and run a loop until it produces an answer. That's enough to demonstrate tool calling, but it leaves the…
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 7h ago</sub><br>
-<a href="https://www.freecodecamp.org/news/how-to-make-your-coding-agent-check-its-work-in-the-browser/"><b>How to Make Your Coding Agent Check Its Work in the Browser</b></a>
-<br><br>
-I got tired of coding agents telling me the frontend work was done when nobody had opened the frontend. You've probably seen the routine. The agent changes some code, runs the formatter…
-</td>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 7h ago</sub><br>
-<a href="https://dev.to/yassersoliman/stop-shipping-marketing-pages-like-product-features-374d"><b>Stop Shipping Marketing Pages Like Product Features</b></a>
-<br><br>
-A marketing page workflow should help your team launch campaigns, update messaging, and improve...
+A controlled comparison of Qwen3.8-Flash-Next and Claude Opus 5.5 on one LlamaStash feature, across Claude Code and Pi, at medium and xhigh effort
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 9h ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 13h ago</sub><br>
 <a href="https://stackoverflow.blog/2026/10/20/don-t-forget-about-the-ui-for-ai/"><b>Don't forget about the UI for AI</b></a>
 <br><br>
 Recorded at OpenAI Dev Day 2026, Ryan sits down with Andrew Ambrosino, member of the technical staff at OpenAI, for a conversation on OpenAI's strategy for merging ChatGPT and Codex into a…
 </td>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 16h ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 21h ago</sub><br>
 <a href="https://laravel-news.com/laravel-token-guard-auth-bypass?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Critical Token Guard Auth Bypass Fixed in Laravel 13.29 and 12.68</b></a>
 <br><br>
 A critical auth bypass in Laravel's token API guard let attackers log in as other users on MySQL and MariaDB. Update to 12.68.0 or 13.29.0.
@@ -92,7 +92,7 @@ A critical auth bypass in Laravel's token API guard let attackers log in as othe
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 22h ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 1d ago</sub><br>
 <a href="https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code/"><b>How to continue a GitHub Copilot app session in VS Code</b></a>
 <br><br>
 Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context.
@@ -120,7 +120,7 @@ How we used Partial Prefetching and a coding agent to improve navigation across 
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 21 Oct 2026 00:01 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 21 Oct 2026 04:35 WIB.</sub>
 
 <!-- NEWS:END -->
 
