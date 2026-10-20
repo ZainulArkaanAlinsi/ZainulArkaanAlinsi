@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=afe264a19e" />
-  <img src="./assets/activity-light.svg?v=2acea2812a" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=6022c99bfd" />
+  <img src="./assets/activity-light.svg?v=d702c5d128" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=0e8c3ac368" />
-  <img src="./assets/news-light.svg?v=3e4c77ffbe" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=78521dd567" />
+  <img src="./assets/news-light.svg?v=0f5c7c4a2a" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,80 +36,80 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 54m ago</sub><br>
-<a href="https://dev.to/earlgreyhot1701d/an-app-built-for-one-why-a-devpost-skill-pack-made-me-spec-it-anyway-knh"><b>An App Built for One: Why a Devpost Skill Pack Made Me Spec It Anyway</b></a>
+<sub><code>HN</code>&nbsp; 1h ago</sub><br>
+<a href="https://www.neowin.net/news/google-cloud-outage-takes-down-hsbc-revolut-bank-of-scotland-llyods-equifax-more/"><b>Google cloud outage takes down banks</b></a>
 <br><br>
-My wife lost her yellow book. So I built her an app. TL;DR: Cuenta is a small app for my wife's...
+31 points and 9 comments on the Hacker News front page · neowin.net
 </td>
 <td width="50%" valign="top">
 <sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://github.com/golang/go/issues/82345"><b>Go will reject certificate chains containing eight distrusted SPKIs</b></a>
+<a href="https://www.bbc.com/news/articles/cxdd8mm6qy4mo"><b>Revolut down as users report app not working</b></a>
 <br><br>
-27 points and 6 comments on the Hacker News front page · github.com
+53 points and 24 comments on the Hacker News front page · bbc.com
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 2h ago</sub><br>
-<a href="https://www.openbsd.org/80.html"><b>OpenBSD 8.0</b></a>
+<sub><code>STACKOVERFLOW</code>&nbsp; 3h ago</sub><br>
+<a href="https://stackoverflow.blog/2026/10/20/don-t-forget-about-the-ui-for-ai/"><b>Don't forget about the UI for AI</b></a>
 <br><br>
-75 points and 19 comments on the Hacker News front page · openbsd.org
+Recorded at OpenAI Dev Day 2026, Ryan sits down with Andrew Ambrosino, member of the technical staff at OpenAI, for a conversation on OpenAI's strategy for merging ChatGPT and Codex into a…
 </td>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 7h ago</sub><br>
-<a href="https://dev.to/maame-codes/i-fixed-the-bug-then-my-pipeline-refused-to-run-4c7i"><b>I Fixed The Bug. Then My Pipeline Refused to Run.</b></a>
+<sub><code>DEV</code>&nbsp; 5h ago</sub><br>
+<a href="https://dev.to/james_anderson_h/somewhere-coding-stopped-being-allowed-to-be-fun-14pe"><b>Somewhere, Coding Stopped Being Allowed to Be Fun</b></a>
 <br><br>
-Every engineer knows the feeling. You finally fix the bug that's been blocking your ticket, you push...
+Somewhere in the last couple of years, a strange feeling crept in, and I don't think I'm the only one...
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 10h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 6h ago</sub><br>
+<a href="https://dev.to/gde/generative-ui-without-the-async-tax-introducing-blocsignalsgenui-10-3gge"><b>Generative UI Without the Async Tax: Introducing bloc_signals_genui 1.0</b></a>
+<br><br>
+Why we built a pure-Dart, 0ms synchronous Generative UI state machine on top of Google's official A2UI protocol—supporting two-way reactive forms, Riverpod/BLoC interop, Flutter Material 3…
+</td>
+<td width="50%" valign="top">
+<sub><code>GITHUB</code>&nbsp; 16h ago</sub><br>
 <a href="https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code/"><b>How to continue a GitHub Copilot app session in VS Code</b></a>
 <br><br>
 Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context.
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 13h ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 20h ago</sub><br>
 <a href="https://stackoverflow.blog/2026/10/19/production-grade-llms-and-agents-a-field-guide/"><b>Production-grade LLMs and agents: a field guide</b></a>
 <br><br>
 A maturity model for taking agents from an impressive demo to a system people can depend on — with a self-assessment and the map to a deep-dive on each layer.
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 15h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 22h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/build-publish-native-android-app-from-jetpack-compose-to-google-play-store-handbook/"><b>How to Build and Publish a Native Android App in 2026: From Jetpack Compose to the Google Play…</b></a>
 <br><br>
 Most Android tutorials stop at &quot;it runs on the emulator.&quot; But getting an app from a blank project to a listing that real people can install from Google Play involves a second half that's…
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 21h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/detect-operational-drift-before-incident/"><b>How to Detect Operational Drift Before It Becomes an Incident</b></a>
 <br><br>
 In my previous article, I explored operational conformance: how to evaluate whether observed evidence satisfies an operational specification. That gives us a useful point-in-time question…
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
 <a href="https://laravel-news.com/laravel-planetscale-olap?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Run Large PlanetScale Queries in Laravel With DB::olap()</b></a>
 <br><br>
 Laravel's new DB::olap() method runs PlanetScale and Vitess queries in OLAP mode to get past the 100,000 row limit, then switches the connection back.
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <sub><code>NEXT.JS</code>&nbsp; 3d ago</sub><br>
 <a href="https://nextjs.org/blog/improving-navigation-experience-in-v0-with-nextjs-16-4"><b>Improving navigation experience in v0 with Next.js 16.4</b></a>
 <br><br>
 How we used Partial Prefetching and a coding agent to improve navigation across v0 with Next.js 16.4.
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 3d ago</sub><br>
-<a href="https://stackoverflow.blog/2026/10/16/formal-methods-say-you-re-wrong/"><b>AI says you’re right, formal methods say you’re wrong</b></a>
-<br><br>
-Ryan is joined by Gabriela Moreira, CEO at Quint, about why formal specification languages like TLA+ are essential for catching system design flaws before writing code, how Quint brings…
 </td>
 <td width="50%" valign="top">
 <sub><code>LARAVEL</code>&nbsp; 4d ago</sub><br>
@@ -120,7 +120,7 @@ Laravel 13.36 adds Rule:: methods for required_with, accepted_if, url, uuid, dis
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 20 Oct 2026 11:47 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 20 Oct 2026 18:33 WIB.</sub>
 
 <!-- NEWS:END -->
 
