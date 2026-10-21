@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=e7258b92f2" />
-  <img src="./assets/activity-light.svg?v=f015aa51af" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=ae26b445c0" />
+  <img src="./assets/activity-light.svg?v=ac127978bc" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=e2ed2ab04a" />
-  <img src="./assets/news-light.svg?v=a57f1712d9" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=0e1136186a" />
+  <img src="./assets/news-light.svg?v=52826415e5" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,41 +36,41 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 2h ago</sub><br>
-<a href="https://www.quantamagazine.org/in-hilbert-space-all-things-are-quantumly-possible-20260826/"><b>In Hilbert space, all things are quantumly possible</b></a>
+<sub><code>HN</code>&nbsp; 1h ago</sub><br>
+<a href="https://practical.engineering/blog/2026/10/20/whatever-happened-to-fire-escapes"><b>Whatever Happened to Fire Escapes</b></a>
 <br><br>
-41 points and 16 comments on the Hacker News front page · quantamagazine.org
+28 points and 7 comments on the Hacker News front page · practical.engineering
 </td>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 2h ago</sub><br>
+<sub><code>HN</code>&nbsp; 1h ago</sub><br>
+<a href="https://github.com/blue-idea/linkit"><b>Show HN: Linkit – AI bookmark manager, 100% free and open source</b></a>
+<br><br>
+7 points and 1 comment on the Hacker News front page · github.com
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 3h ago</sub><br>
+<a href="https://dev.to/sylwia-lask/how-to-become-a-tech-conference-speaker-and-why-you-might-regret-it-2ink"><b>How to Become a Tech Conference Speaker (And Why You Might Regret It)</b></a>
+<br><br>
+So you want to be a conference speaker? Are you sure? Recently, a few people have asked me what...
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 4h ago</sub><br>
+<a href="https://dev.to/julies1/how-to-publish-posts-via-the-devto-api-2fkd"><b>How to publish posts via the dev.to API</b></a>
+<br><br>
+Every time I copied a post into the dev.to editor, added tags and cleaned up the formatting, I'd...
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>LARAVEL</code>&nbsp; 9h ago</sub><br>
 <a href="https://laravel-news.com/php-critical-security-release?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Critical PHP Security Release Coming Tomorrow (October 21)</b></a>
 <br><br>
 The PHP security team will ship a release on October 21, 2026 at 14:00 UTC that fixes two critical vulnerabilities, both rated CVSS 9.2. Plan your upgrade now.
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 2h ago</sub><br>
-<a href="https://www.joshwcomeau.com/css/interop-2027/"><b>The Future of CSS</b></a>
-<br><br>
-110 points and 35 comments on the Hacker News front page · joshwcomeau.com
-</td>
-<td width="50%" valign="top">
-<sub><code>LOBSTERS</code>&nbsp; 3h ago</sub><br>
-<a href="https://lobste.rs/s/73ozwc/lobsters_nyc_meetup_on_28th_october"><b>Lobsters NYC Meetup on the 28th of October</b></a>
-<br><br>
-I previously arranged (by PMing everyone who mentioned it) a 5 Lobster meetup in Mexico. I'll be in NYC next week and think this could be nice. There will be cross contamination from Array…
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 10h ago</sub><br>
-<a href="https://dev.to/erikch/2-agent-skills-every-frontend-developer-should-try-16pl"><b>2 Agent Skills Every Frontend Developer Should Try</b></a>
-<br><br>
-I love to try out new agent skills. Anything that can help me be more productive I'm all for. Today I...
-</td>
-<td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 12h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 19h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-neural-networks-work-why-straight-lines-aren-t-enough/"><b>How Neural Networks Work: Why Straight Lines Aren't Enough</b></a>
 <br><br>
 A straight line equation is a good place to start understanding how a neural network works. It's what we explored in my previous article, How Neural Networks Work – Explained Using the…
@@ -78,13 +78,13 @@ A straight line equation is a good place to start understanding how a neural net
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 12h ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 19h ago</sub><br>
 <a href="https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/"><b>How 3 Java Champions are using GitHub Copilot for increased productivity</b></a>
 <br><br>
 Three Java Champions share how they use GitHub Copilot to solve problems, accelerate development, and keep humans responsible for the results.
 </td>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 13h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 20h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-wearables-can-adapt-when-pregnancy-changes-a-user-s-regular-baseline/"><b>How Wearables Can Adapt When Pregnancy Changes a User's Regular Baseline</b></a>
 <br><br>
 Your smart ring or watch has many useful jobs, including learning your usual physiological patterns and showing you when they change. Resting heart rate, heart rate variability (HRV)…
@@ -92,7 +92,7 @@ Your smart ring or watch has many useful jobs, including learning your usual phy
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 21h ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 1d ago</sub><br>
 <a href="https://stackoverflow.blog/2026/10/20/don-t-forget-about-the-ui-for-ai/"><b>Don't forget about the UI for AI</b></a>
 <br><br>
 Recorded at OpenAI Dev Day 2026, Ryan sits down with Andrew Ambrosino, member of the technical staff at OpenAI, for a conversation on OpenAI's strategy for merging ChatGPT and Codex into a…
@@ -120,7 +120,7 @@ A maturity model for taking agents from an impressive demo to a system people ca
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Lobsters · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 21 Oct 2026 11:43 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 21 Oct 2026 18:46 WIB.</sub>
 
 <!-- NEWS:END -->
 
