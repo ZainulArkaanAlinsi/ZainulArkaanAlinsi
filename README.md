@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=7b95dfc981" />
-  <img src="./assets/activity-light.svg?v=5fb99a318c" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=27b7d97cb3" />
+  <img src="./assets/activity-light.svg?v=772bf76492" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=0bcd6bcebf" />
-  <img src="./assets/news-light.svg?v=dbe0ba1447" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=843ca1ff70" />
+  <img src="./assets/news-light.svg?v=2cfa131853" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,41 +36,55 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 35m ago</sub><br>
-<a href="https://rustoffrails.org/"><b>Rust off Rails: The opinionated web stack for the AI era</b></a>
+<sub><code>HN</code>&nbsp; 28m ago</sub><br>
+<a href="https://github.com/amazonlinux/amazon-linux-2023/issues/1148"><b>AWS rates PHP RCE as Important so Amazon Linux 2023 patch may take 20 days</b></a>
 <br><br>
-15 points and 8 comments on the Hacker News front page · rustoffrails.org
+9 points and 1 comment on the Hacker News front page · github.com
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 49m ago</sub><br>
-<a href="https://www.oist.jp/news-center/news/2026/9/18/new-form-plastic-pollution-discovered-shores-vulnerable-coral-reefs"><b>New plastic pollution discovered: 'Plasticorals' coral rubble fused with plastic</b></a>
+<sub><code>HN</code>&nbsp; 2h ago</sub><br>
+<a href="https://claude.com/resources/articles/claude-duet"><b>Claude Duet</b></a>
 <br><br>
-4 points and 0 comments on the Hacker News front page · oist.jp
+24 points and 6 comments on the Hacker News front page · claude.com
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 1h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 4h ago</sub><br>
+<a href="https://dev.to/pahorton/i-got-tired-of-coming-into-my-lab-to-check-the-pressure-of-my-cryocooler-so-i-built-a-tool-to-do-it-4ob7"><b>I Got Tired of Coming into my Lab to Check the Pressure of my Cryocooler so I Built a Tool to…</b></a>
+<br><br>
+This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady ...
+</td>
+<td width="50%" valign="top">
+<sub><code>FREECODECAMP</code>&nbsp; 5h ago</sub><br>
+<a href="https://www.freecodecamp.org/news/diagnose-vite-not-found-npm-ci-container-build/"><b>How to Diagnose vite: not found After npm ci in a Container Build</b></a>
+<br><br>
+I recently worked on a project where a Node.js application used Vite to compile its frontend. It worked in a browser-hosted development environment, but its image build failed after the…
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>GITHUB</code>&nbsp; 5h ago</sub><br>
 <a href="https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/"><b>The bridge to agent-scale Git infrastructure</b></a>
 <br><br>
 We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently.
 </td>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 2h ago</sub><br>
-<a href="https://dev.to/nyaomaru/is-kit-reached-100-stars-heres-what-changed-since-50-49pf"><b>is-kit Reached 100 Stars ⭐🎉 Here’s What Changed Since 50</b></a>
+<sub><code>DEV</code>&nbsp; 6h ago</sub><br>
+<a href="https://dev.to/gde/slothsre-napops-an-overnight-gemma-4-adk-agent-that-compresses-418-lines-of-3-am-alerts-into-a-1pk6"><b>SlothSRE (NapOps): An Overnight Gemma 4 &amp; ADK Agent That Compresses 418 Lines of 3 AM Alerts…</b></a>
 <br><br>
-Hoi hoi! YAY! is-kit just reached 100 GitHub stars⭐ 🎉🎉🎉 When it reached 50 stars, I wrote about how...
+How I built a local-first open-weights Gemma 4, Google ADK, and Sentry Agent Tracing pipeline that deduplicates overnight stack traces, verifies git patches in a local pytest sandbox, and…
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 3h ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 7h ago</sub><br>
 <a href="https://laravel-news.com/php-critical-security-release?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Critical PHP Security Release Coming Tomorrow (October 21)</b></a>
 <br><br>
 The PHP security team will ship a release on October 21, 2026 at 14:00 UTC that fixes two critical vulnerabilities, both rated CVSS 9.2. Plan your upgrade now.
 </td>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 3h ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 7h ago</sub><br>
 <a href="https://stackoverflow.blog/2026/10/21/survey-says-you-ll-swap-the-model-but-everything-you-build-around-it-is-staying-put/"><b>Survey Says: You'll swap the model, but everything you build around it is staying put</b></a>
 <br><br>
 Earlier this month, my team at Stacklok surveyed 520 technical leaders to understand whether they were concerned about being locked into frontier labs. The data says they’re already…
@@ -78,30 +92,16 @@ Earlier this month, my team at Stacklok surveyed 520 technical leaders to unders
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 3h ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 7h ago</sub><br>
 <a href="https://laravel-news.com/php-critical-rce-security-releases?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>PHP Security Releases Fix Two Critical RCE Vulnerabilities</b></a>
 <br><br>
 PHP 8.5.12, 8.4.27, 8.3.36, and 8.2.35 fix two critical vulnerabilities that allow unauthenticated remote code execution. Here's who's at risk and how to update.
 </td>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 3h ago</sub><br>
-<a href="https://dev.to/reporails/state-of-ai-instruction-quality-coding-agent-comparison-1e5n"><b>State of AI Instruction Quality: Coding Agent Comparison</b></a>
-<br><br>
-Claude Code, Codex, Copilot, Cursor and Gemini are the five coding agents in the Q3 report. We...
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 5h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 9h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/build-a-hybrid-search-engine-in-postgresql-bm25-vector-retrieval/"><b>Build a Hybrid Search Engine in PostgreSQL: BM25 + Vector Retrieval</b></a>
 <br><br>
 Most application search setups force a trade-off: settle for simple text filters, or manage a separate search cluster like Elasticsearch with complex synchronization pipelines. In a new…
-</td>
-<td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
-<a href="https://www.freecodecamp.org/news/how-neural-networks-work-why-straight-lines-aren-t-enough/"><b>How Neural Networks Work: Why Straight Lines Aren't Enough</b></a>
-<br><br>
-A straight line equation is a good place to start understanding how a neural network works. It's what we explored in my previous article, How Neural Networks Work – Explained Using the…
 </td>
 </tr>
 <tr>
@@ -120,7 +120,7 @@ How we used Partial Prefetching and a coding agent to improve navigation across 
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 22 Oct 2026 00:09 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 22 Oct 2026 04:41 WIB.</sub>
 
 <!-- NEWS:END -->
 
