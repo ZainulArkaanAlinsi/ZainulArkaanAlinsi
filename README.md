@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=ae26b445c0" />
-  <img src="./assets/activity-light.svg?v=ac127978bc" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=7b95dfc981" />
+  <img src="./assets/activity-light.svg?v=5fb99a318c" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=0e1136186a" />
-  <img src="./assets/news-light.svg?v=52826415e5" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=0bcd6bcebf" />
+  <img src="./assets/news-light.svg?v=dbe0ba1447" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,41 +36,69 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://practical.engineering/blog/2026/10/20/whatever-happened-to-fire-escapes"><b>Whatever Happened to Fire Escapes</b></a>
+<sub><code>HN</code>&nbsp; 35m ago</sub><br>
+<a href="https://rustoffrails.org/"><b>Rust off Rails: The opinionated web stack for the AI era</b></a>
 <br><br>
-28 points and 7 comments on the Hacker News front page · practical.engineering
+15 points and 8 comments on the Hacker News front page · rustoffrails.org
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://github.com/blue-idea/linkit"><b>Show HN: Linkit – AI bookmark manager, 100% free and open source</b></a>
+<sub><code>HN</code>&nbsp; 49m ago</sub><br>
+<a href="https://www.oist.jp/news-center/news/2026/9/18/new-form-plastic-pollution-discovered-shores-vulnerable-coral-reefs"><b>New plastic pollution discovered: 'Plasticorals' coral rubble fused with plastic</b></a>
 <br><br>
-7 points and 1 comment on the Hacker News front page · github.com
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 3h ago</sub><br>
-<a href="https://dev.to/sylwia-lask/how-to-become-a-tech-conference-speaker-and-why-you-might-regret-it-2ink"><b>How to Become a Tech Conference Speaker (And Why You Might Regret It)</b></a>
-<br><br>
-So you want to be a conference speaker? Are you sure? Recently, a few people have asked me what...
-</td>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 4h ago</sub><br>
-<a href="https://dev.to/julies1/how-to-publish-posts-via-the-devto-api-2fkd"><b>How to publish posts via the dev.to API</b></a>
-<br><br>
-Every time I copied a post into the dev.to editor, added tags and cleaned up the formatting, I'd...
+4 points and 0 comments on the Hacker News front page · oist.jp
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 9h ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 1h ago</sub><br>
+<a href="https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/"><b>The bridge to agent-scale Git infrastructure</b></a>
+<br><br>
+We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently.
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 2h ago</sub><br>
+<a href="https://dev.to/nyaomaru/is-kit-reached-100-stars-heres-what-changed-since-50-49pf"><b>is-kit Reached 100 Stars ⭐🎉 Here’s What Changed Since 50</b></a>
+<br><br>
+Hoi hoi! YAY! is-kit just reached 100 GitHub stars⭐ 🎉🎉🎉 When it reached 50 stars, I wrote about how...
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>LARAVEL</code>&nbsp; 3h ago</sub><br>
 <a href="https://laravel-news.com/php-critical-security-release?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Critical PHP Security Release Coming Tomorrow (October 21)</b></a>
 <br><br>
 The PHP security team will ship a release on October 21, 2026 at 14:00 UTC that fixes two critical vulnerabilities, both rated CVSS 9.2. Plan your upgrade now.
 </td>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 19h ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 3h ago</sub><br>
+<a href="https://stackoverflow.blog/2026/10/21/survey-says-you-ll-swap-the-model-but-everything-you-build-around-it-is-staying-put/"><b>Survey Says: You'll swap the model, but everything you build around it is staying put</b></a>
+<br><br>
+Earlier this month, my team at Stacklok surveyed 520 technical leaders to understand whether they were concerned about being locked into frontier labs. The data says they’re already…
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>LARAVEL</code>&nbsp; 3h ago</sub><br>
+<a href="https://laravel-news.com/php-critical-rce-security-releases?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>PHP Security Releases Fix Two Critical RCE Vulnerabilities</b></a>
+<br><br>
+PHP 8.5.12, 8.4.27, 8.3.36, and 8.2.35 fix two critical vulnerabilities that allow unauthenticated remote code execution. Here's who's at risk and how to update.
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 3h ago</sub><br>
+<a href="https://dev.to/reporails/state-of-ai-instruction-quality-coding-agent-comparison-1e5n"><b>State of AI Instruction Quality: Coding Agent Comparison</b></a>
+<br><br>
+Claude Code, Codex, Copilot, Cursor and Gemini are the five coding agents in the Q3 report. We...
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>FREECODECAMP</code>&nbsp; 5h ago</sub><br>
+<a href="https://www.freecodecamp.org/news/build-a-hybrid-search-engine-in-postgresql-bm25-vector-retrieval/"><b>Build a Hybrid Search Engine in PostgreSQL: BM25 + Vector Retrieval</b></a>
+<br><br>
+Most application search setups force a trade-off: settle for simple text filters, or manage a separate search cluster like Elasticsearch with complex synchronization pipelines. In a new…
+</td>
+<td width="50%" valign="top">
+<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-neural-networks-work-why-straight-lines-aren-t-enough/"><b>How Neural Networks Work: Why Straight Lines Aren't Enough</b></a>
 <br><br>
 A straight line equation is a good place to start understanding how a neural network works. It's what we explored in my previous article, How Neural Networks Work – Explained Using the…
@@ -78,55 +106,27 @@ A straight line equation is a good place to start understanding how a neural net
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 19h ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 1d ago</sub><br>
 <a href="https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/"><b>How 3 Java Champions are using GitHub Copilot for increased productivity</b></a>
 <br><br>
 Three Java Champions share how they use GitHub Copilot to solve problems, accelerate development, and keep humans responsible for the results.
 </td>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 20h ago</sub><br>
-<a href="https://www.freecodecamp.org/news/how-wearables-can-adapt-when-pregnancy-changes-a-user-s-regular-baseline/"><b>How Wearables Can Adapt When Pregnancy Changes a User's Regular Baseline</b></a>
+<sub><code>NEXT.JS</code>&nbsp; 5d ago</sub><br>
+<a href="https://nextjs.org/blog/improving-navigation-experience-in-v0-with-nextjs-16-4"><b>Improving navigation experience in v0 with Next.js 16.4</b></a>
 <br><br>
-Your smart ring or watch has many useful jobs, including learning your usual physiological patterns and showing you when they change. Resting heart rate, heart rate variability (HRV)…
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 1d ago</sub><br>
-<a href="https://stackoverflow.blog/2026/10/20/don-t-forget-about-the-ui-for-ai/"><b>Don't forget about the UI for AI</b></a>
-<br><br>
-Recorded at OpenAI Dev Day 2026, Ryan sits down with Andrew Ambrosino, member of the technical staff at OpenAI, for a conversation on OpenAI's strategy for merging ChatGPT and Codex into a…
-</td>
-<td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
-<a href="https://laravel-news.com/laravel-token-guard-auth-bypass?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Critical Token Guard Auth Bypass Fixed in Laravel 13.29 and 12.68</b></a>
-<br><br>
-A critical auth bypass in Laravel's token API guard let attackers log in as other users on MySQL and MariaDB. Update to 12.68.0 or 13.29.0.
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 1d ago</sub><br>
-<a href="https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code/"><b>How to continue a GitHub Copilot app session in VS Code</b></a>
-<br><br>
-Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context.
-</td>
-<td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 1d ago</sub><br>
-<a href="https://stackoverflow.blog/2026/10/19/production-grade-llms-and-agents-a-field-guide/"><b>Production-grade LLMs and agents: a field guide</b></a>
-<br><br>
-A maturity model for taking agents from an impressive demo to a system people can depend on — with a self-assessment and the map to a deep-dive on each layer.
+How we used Partial Prefetching and a coding agent to improve navigation across v0 with Next.js 16.4.
 </td>
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 21 Oct 2026 18:46 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 22 Oct 2026 00:09 WIB.</sub>
 
 <!-- NEWS:END -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20261021" />
-  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261021" width="100%" alt="A snake eating this year's contribution squares" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20261022" />
+  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261022" width="100%" alt="A snake eating this year's contribution squares" />
 </picture>
 
 <picture>
