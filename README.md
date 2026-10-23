@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=37e6a468f6" />
-  <img src="./assets/activity-light.svg?v=80b91583b1" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=3faff39824" />
+  <img src="./assets/activity-light.svg?v=e751d83ec5" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=ca2cf63ba1" />
-  <img src="./assets/news-light.svg?v=47418aa8de" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=38abf6f450" />
+  <img src="./assets/news-light.svg?v=081c26f41b" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,91 +36,91 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://news.ycombinator.com/item?id=50204125"><b>Median product &quot;lifespan&quot; has fallen from ~4y down to ~1.5y</b></a>
+<sub><code>HN</code>&nbsp; 31m ago</sub><br>
+<a href="https://drew.silcock.dev/blog/is-this-the-new-cyber-normal/"><b>Is this the new cyber normal?</b></a>
 <br><br>
-The &quot;product graveyard&quot; of SaaSHub has been tracking the status (and lifespan) of hundreds of thousands of products. It's been hovering around 4y for quite some time. However, there's a…
+6 points and 0 comments on the Hacker News front page · drew.silcock.dev
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 2h ago</sub><br>
-<a href="https://www.awakin.org/v2/read/view.php?tid=468"><b>This I Believe</b></a>
+<sub><code>HN</code>&nbsp; 54m ago</sub><br>
+<a href="https://twitter.com/jaredkushner/status/2113376217415958767"><b>Dutch government had hacked into Jared Kushner's phone</b></a>
 <br><br>
-11 points and 1 comment on the Hacker News front page · awakin.org
+36 points and 8 comments on the Hacker News front page · twitter.com
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 2h ago</sub><br>
+<sub><code>LOBSTERS</code>&nbsp; 2h ago</sub><br>
+<a href="https://lobste.rs/s/crqz1g/what_are_you_doing_this_weekend"><b>What are you doing this weekend?</b></a>
+<br><br>
+Feel free to tell what you plan on doing this weekend and even ask for help or feedback. Please keep in mind it’s more than OK to do nothing at all too!
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 6h ago</sub><br>
+<a href="https://dev.to/james_anderson_h/ai-is-winning-literary-awards-the-data-says-thats-not-whats-happening-179d"><b>AI Is Winning Literary Awards. The Data Says That's Not What's Happening.</b></a>
+<br><br>
+The headlines have been impossible to miss. An AI-assisted novel takes a major prize in Japan. AI...
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 7h ago</sub><br>
+<a href="https://dev.to/gulajavaministudio/why-an-80-year-old-math-book-fixed-my-ai-coding-agent-517b"><b>Why an 80-Year-Old Math Book Fixed My AI Coding Agent</b></a>
+<br><br>
+Here is a scenario almost every developer reading this has lived through over the past year. It is...
+</td>
+<td width="50%" valign="top">
+<sub><code>FREECODECAMP</code>&nbsp; 9h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/learn-model-context-protocol-mcp-security/"><b>Learn Model Context Protocol (MCP) Security</b></a>
 <br><br>
 MCP bridges the gap between your AI agents and your external tools, allowing them to send Discord messages, read your emails, and interact with your environment. But this massive leap in…
 </td>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 8h ago</sub><br>
-<a href="https://dev.to/lovestaco/php2shell-your-code-was-fine-the-engine-was-not-gc2"><b>PHP2Shell: Your Code Was Fine, The Engine Was Not</b></a>
-<br><br>
-Hello, I'm Maneshwar, and I'm building LiveReview — a blast-radius aware AI code review built for...
-</td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 11h ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 18h ago</sub><br>
 <a href="https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/"><b>How bug bounty sharpens one researcher’s security skills</b></a>
 <br><br>
 As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers.
 </td>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 12h ago</sub><br>
-<a href="https://dev.to/googlecloud/scaling-stateful-gemini-4-argon-agent-sessions-on-gke-connection-draining-startup-boost-and-13ln"><b>Scaling stateful Gemini 4 Argon agent sessions on GKE: Connection draining, startup boost, and…</b></a>
-<br><br>
-Architect GKE for long-running Gemini 4 Argon agent sessions using VPA CPU startup boost, GCPBackendPolicy connection draining, and session checkpointing.
-</td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
 <a href="https://laravel-news.com/php-critical-rce-security-releases?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>PHP Security Releases Fix Two Critical RCE Vulnerabilities</b></a>
 <br><br>
 PHP 8.5.12, 8.4.27, 8.3.36, and 8.2.35 fix two critical vulnerabilities that allow unauthenticated remote code execution. Here's who's at risk and how to update.
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
 <a href="https://laravel-news.com/laravel-queue-sticky-database-connections?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Reset Sticky Database Connections Between Laravel Queue Jobs</b></a>
 <br><br>
 Laravel 13.36 adds Worker::$flushStickyConnections so queue jobs go back to your read replicas after an earlier job writes to the database.
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/what-is-model-distillation-a-guide-for-developers/"><b>What Is Model Distillation? A Guide for Developers</b></a>
 <br><br>
 Over time, knowledge has been passed down in various forms. Before writing was invented in ancient Mesopotamia (modern-day Iraq), laws, history, myths, songs, and other information were all…
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <sub><code>GITHUB</code>&nbsp; 1d ago</sub><br>
 <a href="https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/"><b>The bridge to agent-scale Git infrastructure</b></a>
 <br><br>
 We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently.
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <sub><code>NEXT.JS</code>&nbsp; 6d ago</sub><br>
 <a href="https://nextjs.org/blog/improving-navigation-experience-in-v0-with-nextjs-16-4"><b>Improving navigation experience in v0 with Next.js 16.4</b></a>
 <br><br>
 How we used Partial Prefetching and a coding agent to improve navigation across v0 with Next.js 16.4.
 </td>
-<td width="50%" valign="top">
-<sub><code>NEXT.JS</code>&nbsp; 8d ago</sub><br>
-<a href="https://nextjs.org/blog/nextjs-security-update-october-14-2026"><b>Next.js Security Update for Upstream Vulnerabilities</b></a>
-<br><br>
-The October 14, 2026 out-of-band security update for Next.js is now available
-</td>
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp. Refreshed automatically — last run 23 Oct 2026 11:46 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · Lobsters · freeCodeCamp. Refreshed automatically — last run 23 Oct 2026 18:36 WIB.</sub>
 
 <!-- NEWS:END -->
 
