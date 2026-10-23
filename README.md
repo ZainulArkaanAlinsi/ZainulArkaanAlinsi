@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=3faff39824" />
-  <img src="./assets/activity-light.svg?v=e751d83ec5" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=ccb7e313bc" />
+  <img src="./assets/activity-light.svg?v=ea2651259e" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=38abf6f450" />
-  <img src="./assets/news-light.svg?v=081c26f41b" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=3e69582504" />
+  <img src="./assets/news-light.svg?v=2127a3d0db" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,66 +36,66 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 31m ago</sub><br>
-<a href="https://drew.silcock.dev/blog/is-this-the-new-cyber-normal/"><b>Is this the new cyber normal?</b></a>
+<sub><code>HN</code>&nbsp; 41m ago</sub><br>
+<a href="https://www.theideasletter.org/essay/total-historian/"><b>Total Historian</b></a>
 <br><br>
-6 points and 0 comments on the Hacker News front page · drew.silcock.dev
+4 points and 0 comments on the Hacker News front page · theideasletter.org
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 54m ago</sub><br>
-<a href="https://twitter.com/jaredkushner/status/2113376217415958767"><b>Dutch government had hacked into Jared Kushner's phone</b></a>
+<sub><code>HN</code>&nbsp; 42m ago</sub><br>
+<a href="https://blog.calif.io/p/iphone"><b>Today, we hacked what we'd set out to hack: the iPhone</b></a>
 <br><br>
-36 points and 8 comments on the Hacker News front page · twitter.com
+181 points and 70 comments on the Hacker News front page · blog.calif.io
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>LOBSTERS</code>&nbsp; 2h ago</sub><br>
-<a href="https://lobste.rs/s/crqz1g/what_are_you_doing_this_weekend"><b>What are you doing this weekend?</b></a>
+<sub><code>DEV</code>&nbsp; 2h ago</sub><br>
+<a href="https://dev.to/alexi_be3/the-json-numbers-javascript-quietly-corrupts-m2k"><b>🔢 The JSON Numbers JavaScript Quietly Corrupts</b></a>
 <br><br>
-Feel free to tell what you plan on doing this weekend and even ask for help or feedback. Please keep in mind it’s more than OK to do nothing at all too!
+JSON.parse changes your data and never says so. Three distinct failure modes, only one of which is the famous one about large integers.
 </td>
 <td width="50%" valign="top">
 <sub><code>DEV</code>&nbsp; 6h ago</sub><br>
-<a href="https://dev.to/james_anderson_h/ai-is-winning-literary-awards-the-data-says-thats-not-whats-happening-179d"><b>AI Is Winning Literary Awards. The Data Says That's Not What's Happening.</b></a>
+<a href="https://dev.to/sanidhya_at_mlh/5-steps-on-how-to-not-loose-at-a-hackathon-3hd1"><b>5 Steps on How to not loose at a hackathon?</b></a>
 <br><br>
-The headlines have been impossible to miss. An AI-assisted novel takes a major prize in Japan. AI...
+In 1999, ten developers gathered to work on cryptographic frameworks, IPv6, and IPsec for OpenBSD, in...
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 7h ago</sub><br>
-<a href="https://dev.to/gulajavaministudio/why-an-80-year-old-math-book-fixed-my-ai-coding-agent-517b"><b>Why an 80-Year-Old Math Book Fixed My AI Coding Agent</b></a>
+<sub><code>LARAVEL</code>&nbsp; 7h ago</sub><br>
+<a href="https://laravel-news.com/decide-with-jev-turn-ai-answers-into-decisions-with-php-rules?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Decide with Jev: Turn AI Answers into Decisions with PHP Rules</b></a>
 <br><br>
-Here is a scenario almost every developer reading this has lived through over the past year. It is...
+Jev can answer three questions about a draft, but the model should not decide what happens next. In episode 3 of Decide with Jev, we write a small PHP class that turns those answers into…
 </td>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 9h ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 9h ago</sub><br>
+<a href="https://stackoverflow.blog/2026/10/23/rumors-of-the-saas-demise-are-greatly-exaggerated/"><b>Rumors of the SaaS demise are greatly exaggerated</b></a>
+<br><br>
+Recorded on the floor of LDX3, Ryan chats with Nivia Henry, an engineering leader most recently at Netflix, about the reality of the supposed SaaS apocalypse, the complex calculus of the…
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>FREECODECAMP</code>&nbsp; 15h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/learn-model-context-protocol-mcp-security/"><b>Learn Model Context Protocol (MCP) Security</b></a>
 <br><br>
 MCP bridges the gap between your AI agents and your external tools, allowing them to send Discord messages, read your emails, and interact with your environment. But this massive leap in…
 </td>
+<td width="50%" valign="top">
+<sub><code>LARAVEL</code>&nbsp; 17h ago</sub><br>
+<a href="https://laravel-news.com/laravel-prevent-stale-database-reads?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Laravel Read Replicas: Prevent Stale Reads After a Write</b></a>
+<br><br>
+Laravel's PreventStaleDatabaseReads middleware keeps a user's reads on the write database after they save, so read replica lag doesn't show them old data.
+</td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 18h ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 23h ago</sub><br>
 <a href="https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/"><b>How bug bounty sharpens one researcher’s security skills</b></a>
 <br><br>
 As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers.
-</td>
-<td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
-<a href="https://laravel-news.com/php-critical-rce-security-releases?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>PHP Security Releases Fix Two Critical RCE Vulnerabilities</b></a>
-<br><br>
-PHP 8.5.12, 8.4.27, 8.3.36, and 8.2.35 fix two critical vulnerabilities that allow unauthenticated remote code execution. Here's who's at risk and how to update.
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
-<a href="https://laravel-news.com/laravel-queue-sticky-database-connections?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Reset Sticky Database Connections Between Laravel Queue Jobs</b></a>
-<br><br>
-Laravel 13.36 adds Worker::$flushStickyConnections so queue jobs go back to your read replicas after an earlier job writes to the database.
 </td>
 <td width="50%" valign="top">
 <sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
@@ -106,13 +106,13 @@ Over time, knowledge has been passed down in various forms. Before writing was i
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 1d ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 2d ago</sub><br>
 <a href="https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/"><b>The bridge to agent-scale Git infrastructure</b></a>
 <br><br>
 We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently.
 </td>
 <td width="50%" valign="top">
-<sub><code>NEXT.JS</code>&nbsp; 6d ago</sub><br>
+<sub><code>NEXT.JS</code>&nbsp; 7d ago</sub><br>
 <a href="https://nextjs.org/blog/improving-navigation-experience-in-v0-with-nextjs-16-4"><b>Improving navigation experience in v0 with Next.js 16.4</b></a>
 <br><br>
 How we used Partial Prefetching and a coding agent to improve navigation across v0 with Next.js 16.4.
@@ -120,13 +120,13 @@ How we used Partial Prefetching and a coding agent to improve navigation across 
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · Lobsters · freeCodeCamp. Refreshed automatically — last run 23 Oct 2026 18:36 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 24 Oct 2026 00:04 WIB.</sub>
 
 <!-- NEWS:END -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20261023" />
-  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261023" width="100%" alt="A snake eating this year's contribution squares" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20261024" />
+  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261024" width="100%" alt="A snake eating this year's contribution squares" />
 </picture>
 
 <picture>
