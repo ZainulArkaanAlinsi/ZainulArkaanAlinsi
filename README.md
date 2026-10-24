@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=9b979ad8c4" />
-  <img src="./assets/activity-light.svg?v=3c43666431" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=97177fd8d7" />
+  <img src="./assets/activity-light.svg?v=7911863f11" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=ea5a57c376" />
-  <img src="./assets/news-light.svg?v=16531e2566" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=b5d41be727" />
+  <img src="./assets/news-light.svg?v=18e5ac5abb" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,35 +36,35 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://www.southampton.ac.uk/~doug/quantum_physics/index.html"><b>I Don't Understand Quantum Physics</b></a>
+<sub><code>HN</code>&nbsp; 35m ago</sub><br>
+<a href="https://freedns.afraid.org/"><b>FreeDNS</b></a>
 <br><br>
-57 points and 23 comments on the Hacker News front page · southampton.ac.uk
+17 points and 1 comment on the Hacker News front page · freedns.afraid.org
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 2h ago</sub><br>
-<a href="https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497"><b>Node2Shell evolves to HTTP2Shell, blast radius affects many HTTP libs and apps</b></a>
+<sub><code>HN</code>&nbsp; 1h ago</sub><br>
+<a href="https://nypost.com/2026/10/24/business/google-illegally-tore-down-250k-trees-for-finland-data-center-infuriating-locals-report/"><b>Google illegally cut down 250K trees in Finland for data center</b></a>
 <br><br>
-12 points and 1 comment on the Hacker News front page · aikido.dev
+217 points and 120 comments on the Hacker News front page · nypost.com
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 5h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 8h ago</sub><br>
+<a href="https://dev.to/sbis04/sloth-reads-an-open-model-reads-my-read-later-pile-overnight-then-reads-me-the-good-ones-3o14"><b>Sloth Reads: an open model reads my read-later pile overnight, then reads me the good ones</b></a>
+<br><br>
+This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady ...
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 10h ago</sub><br>
 <a href="https://dev.to/james_anderson_h/security-changed-with-ai-and-small-teams-are-falling-behind-5ebg"><b>Hours, Not Weeks: How AI Rewrote the Clock of Software Security</b></a>
 <br><br>
 The third week of October 2026 was a rough one for anyone who runs software on the internet. Two...
 </td>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 7h ago</sub><br>
-<a href="https://dev.to/gde/pytorch-on-tpu-hands-on-with-colab-5b5g"><b>PyTorch on TPU: Hands On With Colab</b></a>
-<br><br>
-Five Colab notebooks take Gemma 4 E2B on one v5e chip from 5 tokens per second under Hugging Face generate to 50 with one compiled decode step, and to the full 131,072-token context with a…
-</td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 19h ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
 <a href="https://laravel-news.com/volker-dusch-php-rce-disclosure?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Volker Dusch on the PHP RCE Vulnerabilities and Disclosure</b></a>
 <br><br>
 Volker Dusch of the PHP Foundation explains how the two critical PHP RCE vulnerabilities were found, fixed, and disclosed, plus the leak and the broken embargo.
@@ -112,7 +112,7 @@ Over time, knowledge has been passed down in various forms. Before writing was i
 We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently.
 </td>
 <td width="50%" valign="top">
-<sub><code>NEXT.JS</code>&nbsp; 7d ago</sub><br>
+<sub><code>NEXT.JS</code>&nbsp; 8d ago</sub><br>
 <a href="https://nextjs.org/blog/improving-navigation-experience-in-v0-with-nextjs-16-4"><b>Improving navigation experience in v0 with Next.js 16.4</b></a>
 <br><br>
 How we used Partial Prefetching and a coding agent to improve navigation across v0 with Next.js 16.4.
@@ -120,7 +120,7 @@ How we used Partial Prefetching and a coding agent to improve navigation across 
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 24 Oct 2026 17:56 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 24 Oct 2026 22:55 WIB.</sub>
 
 <!-- NEWS:END -->
 
