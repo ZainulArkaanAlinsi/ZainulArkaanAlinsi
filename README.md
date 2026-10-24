@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=18fa737d21" />
-  <img src="./assets/activity-light.svg?v=6bfb4b5929" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=2cbe940455" />
+  <img src="./assets/activity-light.svg?v=418f28a5a3" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=900a3adfcc" />
-  <img src="./assets/news-light.svg?v=9edf65fe93" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=af47e1e42f" />
+  <img src="./assets/news-light.svg?v=f499560a7b" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,27 +36,27 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://www.techpowerup.com/354081/sony-retires-its-last-4k-blu-ray-player-in-japan-ps5-is-all-thats-left"><b>Sony Retires Its Last 4K Blu-ray Player in Japan, PS5 Is All That's Left</b></a>
+<sub><code>HN</code>&nbsp; 2h ago</sub><br>
+<a href="https://www.sciencedaily.com/releases/2026/10/261018084421.htm"><b>Alzheimer's breakthrough: 2 hrs of sleep restored without clearing brain plaques</b></a>
 <br><br>
-16 points and 6 comments on the Hacker News front page · techpowerup.com
+45 points and 12 comments on the Hacker News front page · sciencedaily.com
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://openai.com/index/securing-our-frontier-model-training-environment/"><b>OpenAI: Securing our frontier model training environment</b></a>
+<sub><code>HN</code>&nbsp; 3h ago</sub><br>
+<a href="https://philipotoole.com/twelve-years-of-distributed-sqlite/"><b>Twelve years of distributed SQLite</b></a>
 <br><br>
-7 points and 0 comments on the Hacker News front page · openai.com
+65 points and 6 comments on the Hacker News front page · philipotoole.com
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 2h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 10h ago</sub><br>
 <a href="https://dev.to/devengers/dev-opportunity-radar-22-50k-basis-fellowship-perplexity-ai-research-fellowship-and-fc-4806"><b>Dev Opportunity Radar #22: $50K Basis Fellowship, Perplexity AI Research Fellowship, and FC…</b></a>
 <br><br>
 TL;DR Welcome back to Dev Opportunity Radar! This is a weekly series where I share opportunities,...
 </td>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 4h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 11h ago</sub><br>
 <a href="https://dev.to/t-rexbytes/breach-week-dropped-10-patch-now-posts-a-local-gemma-boiled-them-down-to-2-lines-and-code-53n6"><b>Breach Week Dropped 10 'Patch Now' Posts. A Local Gemma Boiled Them Down to 2 Lines, and Code…</b></a>
 <br><br>
 This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady On Oct...
@@ -64,13 +64,13 @@ This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 5h ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 12h ago</sub><br>
 <a href="https://laravel-news.com/volker-dusch-php-rce-disclosure?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Volker Dusch on the PHP RCE Vulnerabilities and Disclosure</b></a>
 <br><br>
 Volker Dusch of the PHP Foundation explains how the two critical PHP RCE vulnerabilities were found, fixed, and disclosed, plus the leak and the broken embargo.
 </td>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 12h ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 19h ago</sub><br>
 <a href="https://laravel-news.com/decide-with-jev-turn-ai-answers-into-decisions-with-php-rules?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Decide with Jev: Turn AI Answers into Decisions with PHP Rules</b></a>
 <br><br>
 Jev can answer three questions about a draft, but the model should not decide what happens next. In episode 3 of Decide with Jev, we write a small PHP class that turns those answers into…
@@ -78,13 +78,13 @@ Jev can answer three questions about a draft, but the model should not decide wh
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 13h ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 20h ago</sub><br>
 <a href="https://stackoverflow.blog/2026/10/23/rumors-of-the-saas-demise-are-greatly-exaggerated/"><b>Rumors of the SaaS demise are greatly exaggerated</b></a>
 <br><br>
 Recorded on the floor of LDX3, Ryan chats with Nivia Henry, an engineering leader most recently at Netflix, about the reality of the supposed SaaS apocalypse, the complex calculus of the…
 </td>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 19h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/learn-model-context-protocol-mcp-security/"><b>Learn Model Context Protocol (MCP) Security</b></a>
 <br><br>
 MCP bridges the gap between your AI agents and your external tools, allowing them to send Discord messages, read your emails, and interact with your environment. But this massive leap in…
@@ -120,7 +120,7 @@ How we used Partial Prefetching and a coding agent to improve navigation across 
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 24 Oct 2026 04:23 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 24 Oct 2026 11:33 WIB.</sub>
 
 <!-- NEWS:END -->
 
