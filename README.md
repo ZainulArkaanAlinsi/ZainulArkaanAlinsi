@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=f95a5594a5" />
-  <img src="./assets/activity-light.svg?v=5d3c52dd68" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=1a308c58b6" />
+  <img src="./assets/activity-light.svg?v=cfadc4e98d" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=c93e39d8c4" />
-  <img src="./assets/news-light.svg?v=ec9e979463" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=fe8d7765be" />
+  <img src="./assets/news-light.svg?v=ac0e6f26e2" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -37,29 +37,29 @@
 <tr>
 <td width="50%" valign="top">
 <sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://bigwhalehunting.com/workforce/"><b>Show HN: I put employees inside S&amp;P 500 market-cap bubbles</b></a>
+<a href="https://armincat.com/articles/eunice-is-almost-here"><b>Eunice is almost here (William Gibson, Agency)</b></a>
 <br><br>
-56 points and 16 comments on the Hacker News front page · bigwhalehunting.com
+20 points and 14 comments on the Hacker News front page · armincat.com
 </td>
 <td width="50%" valign="top">
 <sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://www.tylerhogge.com/blog/a-few-thoughts-on-intensity/"><b>A few thoughts on intensity</b></a>
+<a href="https://arstechnica.com/health/2026/10/personalized-mrna-cancer-vaccine-cut-melanoma-death-recurrence-by-42/"><b>Moderna and Merck say their mRNA cancer vaccine cut death, recurrence by 42%</b></a>
 <br><br>
-19 points and 4 comments on the Hacker News front page · tylerhogge.com
+59 points and 10 comments on the Hacker News front page · arstechnica.com
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 4h ago</sub><br>
-<a href="https://dev.to/gde/postmortem-the-tuesday-our-ai-bill-had-no-owner-34pd"><b>Postmortem: The Tuesday Our AI Bill Had No Owner</b></a>
+<sub><code>DEV</code>&nbsp; 2h ago</sub><br>
+<a href="https://dev.to/hemapriya_kanagala/dev-pet-corner-3-show-us-your-pets-35n"><b>🐾 DEV Pet Corner #3: Show Us Your Pets!</b></a>
 <br><br>
-I've read a lot of postmortems. The best ones aren't about blame. They're about the gap between what...
+TL;DR DEV Pet Corner is back for another Sunday! It's a weekly series where we take a little break...
 </td>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 9h ago</sub><br>
-<a href="https://dev.to/georgekobaidze/i-earned-a-seat-at-github-universe-itll-stay-empty-and-thats-not-fair-3d7k"><b>I Earned a Seat at GitHub Universe. It'll Stay Empty, and That's Not Fair</b></a>
+<sub><code>DEV</code>&nbsp; 4h ago</sub><br>
+<a href="https://dev.to/advikdivekar/a-small-not-so-smart-model-went-from-10-to-996-at-reading-property-deeds-for-115-and-it-says-490k"><b>A small, not-so-smart model went from 10% to 99.6% at reading property deeds for $1.15, and it…</b></a>
 <br><br>
-Why Am I Writing This? I'm writing this to show how unfair the world we live in can be,...
+This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady N 86°29'...
 </td>
 </tr>
 <tr>
@@ -92,13 +92,13 @@ MCP bridges the gap between your AI agents and your external tools, allowing the
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 2d ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 3d ago</sub><br>
 <a href="https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/"><b>How bug bounty sharpens one researcher’s security skills</b></a>
 <br><br>
 As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers.
 </td>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 3d ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 4d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/what-is-model-distillation-a-guide-for-developers/"><b>What Is Model Distillation? A Guide for Developers</b></a>
 <br><br>
 Over time, knowledge has been passed down in various forms. Before writing was invented in ancient Mesopotamia (modern-day Iraq), laws, history, myths, songs, and other information were all…
@@ -120,13 +120,13 @@ How we used Partial Prefetching and a coding agent to improve navigation across 
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 25 Oct 2026 23:15 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 26 Oct 2026 03:49 WIB.</sub>
 
 <!-- NEWS:END -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20261025" />
-  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261025" width="100%" alt="A snake eating this year's contribution squares" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20261026" />
+  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261026" width="100%" alt="A snake eating this year's contribution squares" />
 </picture>
 
 <picture>
