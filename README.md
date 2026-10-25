@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=7b5e7a67ad" />
-  <img src="./assets/activity-light.svg?v=7b149b9532" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=74b9fe4edd" />
+  <img src="./assets/activity-light.svg?v=0211677645" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=37819068a4" />
-  <img src="./assets/news-light.svg?v=de11d03443" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=b5aacd1907" />
+  <img src="./assets/news-light.svg?v=5d534a03a5" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -37,29 +37,29 @@
 <tr>
 <td width="50%" valign="top">
 <sub><code>HN</code>&nbsp; 42m ago</sub><br>
-<a href="https://github.com/slee-persis/GVS5H"><b>Five Qwen3.8-27B models outperform Fable 5 Using GVS5H Harness</b></a>
+<a href="https://twitter.com/mike64_t/status/2114150399406202896"><b>Samsung running a TensorFlow lite model on 960x540 image to track you</b></a>
 <br><br>
-19 points and 1 comment on the Hacker News front page · github.com
+7 points and 1 comment on the Hacker News front page · twitter.com
 </td>
 <td width="50%" valign="top">
 <sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://www.darkhorizons.com/xbox-turns-down-netflix-500-million-offer/"><b>Xbox Turns Down Netflix $500M Offer</b></a>
+<a href="https://www.blast-info.fr/articles/2026/information-exclusive-blast-le-premier-ministre-a-prepare-la-coupure-des-reseaux-sociaux-pour-le-24-octobre-9D8cgrU5S5iiW14Sb9nMzQ"><b>France asked ISPs to prepare temporary DNS blocks for major social platforms</b></a>
 <br><br>
-59 points and 54 comments on the Hacker News front page · darkhorizons.com
+61 points and 41 comments on the Hacker News front page · blast-info.fr
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 9h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 10h ago</sub><br>
+<a href="https://dev.to/debashish_ghosal/three-times-my-test-failed-and-the-llm-was-right-43l2"><b>Three Times My Test Failed and the LLM Was Right</b></a>
+<br><br>
+A test fails, and the reflex is: the code is wrong. Debug the code, fix the code, move on. That...
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 16h ago</sub><br>
 <a href="https://dev.to/gde/from-ancient-epigraphy-to-3d-proteins-building-plugins-skills-mcp-sidecars-in-google-antigravity-4l1m"><b>From Ancient Epigraphy to 3D Proteins: Building Plugins, Skills &amp; MCP Sidecars in Google…</b></a>
 <br><br>
 Reverse-engineering Google Antigravity's Science Plugin (v1.3.1) with an open-source 3D WebGL Biomolecular Studio, 5 multi-skill pipelines, and 3 custom plugins.
-</td>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 10h ago</sub><br>
-<a href="https://dev.to/dj29/im-not-on-the-dev-team-i-still-debugged-their-missing-badges-from-public-code-and-my-first-test-18oo"><b>I'm Not on the DEV Team. I Still Debugged Their Missing Badges From Public Code. (And My First…</b></a>
-<br><br>
-I’m not on the DEV team. I don’t have an admin panel, production database access, or internal Slack....
 </td>
 </tr>
 <tr>
@@ -70,7 +70,7 @@ I’m not on the DEV team. I don’t have an admin panel, production database ac
 Volker Dusch of the PHP Foundation explains how the two critical PHP RCE vulnerabilities were found, fixed, and disclosed, plus the leak and the broken embargo.
 </td>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 2d ago</sub><br>
 <a href="https://laravel-news.com/decide-with-jev-turn-ai-answers-into-decisions-with-php-rules?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Decide with Jev: Turn AI Answers into Decisions with PHP Rules</b></a>
 <br><br>
 Jev can answer three questions about a draft, but the model should not decide what happens next. In episode 3 of Decide with Jev, we write a small PHP class that turns those answers into…
@@ -78,7 +78,7 @@ Jev can answer three questions about a draft, but the model should not decide wh
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 1d ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 2d ago</sub><br>
 <a href="https://stackoverflow.blog/2026/10/23/rumors-of-the-saas-demise-are-greatly-exaggerated/"><b>Rumors of the SaaS demise are greatly exaggerated</b></a>
 <br><br>
 Recorded on the floor of LDX3, Ryan chats with Nivia Henry, an engineering leader most recently at Netflix, about the reality of the supposed SaaS apocalypse, the complex calculus of the…
@@ -120,7 +120,7 @@ How we used Partial Prefetching and a coding agent to improve navigation across 
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 25 Oct 2026 11:38 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 25 Oct 2026 18:24 WIB.</sub>
 
 <!-- NEWS:END -->
 
