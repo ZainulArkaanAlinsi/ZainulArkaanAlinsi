@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=74b9fe4edd" />
-  <img src="./assets/activity-light.svg?v=0211677645" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=f95a5594a5" />
+  <img src="./assets/activity-light.svg?v=5d3c52dd68" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=b5aacd1907" />
-  <img src="./assets/news-light.svg?v=5d534a03a5" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=c93e39d8c4" />
+  <img src="./assets/news-light.svg?v=ec9e979463" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,35 +36,35 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 42m ago</sub><br>
-<a href="https://twitter.com/mike64_t/status/2114150399406202896"><b>Samsung running a TensorFlow lite model on 960x540 image to track you</b></a>
+<sub><code>HN</code>&nbsp; 1h ago</sub><br>
+<a href="https://bigwhalehunting.com/workforce/"><b>Show HN: I put employees inside S&amp;P 500 market-cap bubbles</b></a>
 <br><br>
-7 points and 1 comment on the Hacker News front page · twitter.com
+56 points and 16 comments on the Hacker News front page · bigwhalehunting.com
 </td>
 <td width="50%" valign="top">
 <sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://www.blast-info.fr/articles/2026/information-exclusive-blast-le-premier-ministre-a-prepare-la-coupure-des-reseaux-sociaux-pour-le-24-octobre-9D8cgrU5S5iiW14Sb9nMzQ"><b>France asked ISPs to prepare temporary DNS blocks for major social platforms</b></a>
+<a href="https://www.tylerhogge.com/blog/a-few-thoughts-on-intensity/"><b>A few thoughts on intensity</b></a>
 <br><br>
-61 points and 41 comments on the Hacker News front page · blast-info.fr
+19 points and 4 comments on the Hacker News front page · tylerhogge.com
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 10h ago</sub><br>
-<a href="https://dev.to/debashish_ghosal/three-times-my-test-failed-and-the-llm-was-right-43l2"><b>Three Times My Test Failed and the LLM Was Right</b></a>
+<sub><code>DEV</code>&nbsp; 4h ago</sub><br>
+<a href="https://dev.to/gde/postmortem-the-tuesday-our-ai-bill-had-no-owner-34pd"><b>Postmortem: The Tuesday Our AI Bill Had No Owner</b></a>
 <br><br>
-A test fails, and the reflex is: the code is wrong. Debug the code, fix the code, move on. That...
+I've read a lot of postmortems. The best ones aren't about blame. They're about the gap between what...
 </td>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 16h ago</sub><br>
-<a href="https://dev.to/gde/from-ancient-epigraphy-to-3d-proteins-building-plugins-skills-mcp-sidecars-in-google-antigravity-4l1m"><b>From Ancient Epigraphy to 3D Proteins: Building Plugins, Skills &amp; MCP Sidecars in Google…</b></a>
+<sub><code>DEV</code>&nbsp; 9h ago</sub><br>
+<a href="https://dev.to/georgekobaidze/i-earned-a-seat-at-github-universe-itll-stay-empty-and-thats-not-fair-3d7k"><b>I Earned a Seat at GitHub Universe. It'll Stay Empty, and That's Not Fair</b></a>
 <br><br>
-Reverse-engineering Google Antigravity's Science Plugin (v1.3.1) with an open-source 3D WebGL Biomolecular Studio, 5 multi-skill pipelines, and 3 custom plugins.
+Why Am I Writing This? I'm writing this to show how unfair the world we live in can be,...
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 2d ago</sub><br>
 <a href="https://laravel-news.com/volker-dusch-php-rce-disclosure?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Volker Dusch on the PHP RCE Vulnerabilities and Disclosure</b></a>
 <br><br>
 Volker Dusch of the PHP Foundation explains how the two critical PHP RCE vulnerabilities were found, fixed, and disclosed, plus the leak and the broken embargo.
@@ -106,13 +106,13 @@ Over time, knowledge has been passed down in various forms. Before writing was i
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 3d ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 4d ago</sub><br>
 <a href="https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/"><b>The bridge to agent-scale Git infrastructure</b></a>
 <br><br>
 We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently.
 </td>
 <td width="50%" valign="top">
-<sub><code>NEXT.JS</code>&nbsp; 8d ago</sub><br>
+<sub><code>NEXT.JS</code>&nbsp; 9d ago</sub><br>
 <a href="https://nextjs.org/blog/improving-navigation-experience-in-v0-with-nextjs-16-4"><b>Improving navigation experience in v0 with Next.js 16.4</b></a>
 <br><br>
 How we used Partial Prefetching and a coding agent to improve navigation across v0 with Next.js 16.4.
@@ -120,7 +120,7 @@ How we used Partial Prefetching and a coding agent to improve navigation across 
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 25 Oct 2026 18:24 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 25 Oct 2026 23:15 WIB.</sub>
 
 <!-- NEWS:END -->
 
