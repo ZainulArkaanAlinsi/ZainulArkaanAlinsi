@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=423032ec30" />
-  <img src="./assets/activity-light.svg?v=926b54aaf8" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=7b5e7a67ad" />
+  <img src="./assets/activity-light.svg?v=7b149b9532" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=d58c900f66" />
-  <img src="./assets/news-light.svg?v=2c47df5c52" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=37819068a4" />
+  <img src="./assets/news-light.svg?v=de11d03443" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,91 +36,91 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 59m ago</sub><br>
-<a href="https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector"><b>No Signs of AI Payoff Outside the Tech Sector</b></a>
+<sub><code>HN</code>&nbsp; 42m ago</sub><br>
+<a href="https://github.com/slee-persis/GVS5H"><b>Five Qwen3.8-27B models outperform Fable 5 Using GVS5H Harness</b></a>
 <br><br>
-158 points and 110 comments on the Hacker News front page · apollo.com
+19 points and 1 comment on the Hacker News front page · github.com
 </td>
 <td width="50%" valign="top">
 <sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://missileer.watch"><b>Listen and read USA nuclear forces Emergency Action Messages, heard on 11175 kHz</b></a>
+<a href="https://www.darkhorizons.com/xbox-turns-down-netflix-500-million-offer/"><b>Xbox Turns Down Netflix $500M Offer</b></a>
 <br><br>
-35 points and 18 comments on the Hacker News front page · missileer.watch
+59 points and 54 comments on the Hacker News front page · darkhorizons.com
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 2h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 9h ago</sub><br>
+<a href="https://dev.to/gde/from-ancient-epigraphy-to-3d-proteins-building-plugins-skills-mcp-sidecars-in-google-antigravity-4l1m"><b>From Ancient Epigraphy to 3D Proteins: Building Plugins, Skills &amp; MCP Sidecars in Google…</b></a>
+<br><br>
+Reverse-engineering Google Antigravity's Science Plugin (v1.3.1) with an open-source 3D WebGL Biomolecular Studio, 5 multi-skill pipelines, and 3 custom plugins.
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 10h ago</sub><br>
 <a href="https://dev.to/dj29/im-not-on-the-dev-team-i-still-debugged-their-missing-badges-from-public-code-and-my-first-test-18oo"><b>I'm Not on the DEV Team. I Still Debugged Their Missing Badges From Public Code. (And My First…</b></a>
 <br><br>
 I’m not on the DEV team. I don’t have an admin panel, production database access, or internal Slack....
 </td>
-<td width="50%" valign="top">
-<sub><code>LOBSTERS</code>&nbsp; 2h ago</sub><br>
-<a href="https://www.linkedin.com/posts/robertseacord_balloting-has-completed-for-c26-unfortunately-activity-7519795140887035918-5PWL"><b>Balloting has completed for C++26. Unfortunately it was Disapproved/</b></a>
-<br><br>
-tl;dr: it looks like C++ 26 got turned down by the national bodies (afaik unprecedented) Comments
-</td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 12h ago</sub><br>
-<a href="https://dev.to/sbis04/sloth-reads-an-open-model-reads-my-read-later-pile-overnight-then-reads-me-the-good-ones-3o14"><b>Sloth Reads: an open model reads my read-later pile overnight, then reads me the good ones</b></a>
-<br><br>
-This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady ...
-</td>
 <td width="50%" valign="top">
 <sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
 <a href="https://laravel-news.com/volker-dusch-php-rce-disclosure?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Volker Dusch on the PHP RCE Vulnerabilities and Disclosure</b></a>
 <br><br>
 Volker Dusch of the PHP Foundation explains how the two critical PHP RCE vulnerabilities were found, fixed, and disclosed, plus the leak and the broken embargo.
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
 <a href="https://laravel-news.com/decide-with-jev-turn-ai-answers-into-decisions-with-php-rules?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Decide with Jev: Turn AI Answers into Decisions with PHP Rules</b></a>
 <br><br>
 Jev can answer three questions about a draft, but the model should not decide what happens next. In episode 3 of Decide with Jev, we write a small PHP class that turns those answers into…
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <sub><code>STACKOVERFLOW</code>&nbsp; 1d ago</sub><br>
 <a href="https://stackoverflow.blog/2026/10/23/rumors-of-the-saas-demise-are-greatly-exaggerated/"><b>Rumors of the SaaS demise are greatly exaggerated</b></a>
 <br><br>
 Recorded on the floor of LDX3, Ryan chats with Nivia Henry, an engineering leader most recently at Netflix, about the reality of the supposed SaaS apocalypse, the complex calculus of the…
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 2d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/learn-model-context-protocol-mcp-security/"><b>Learn Model Context Protocol (MCP) Security</b></a>
 <br><br>
 MCP bridges the gap between your AI agents and your external tools, allowing them to send Discord messages, read your emails, and interact with your environment. But this massive leap in…
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <sub><code>GITHUB</code>&nbsp; 2d ago</sub><br>
 <a href="https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/"><b>How bug bounty sharpens one researcher’s security skills</b></a>
 <br><br>
 As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers.
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <sub><code>FREECODECAMP</code>&nbsp; 3d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/what-is-model-distillation-a-guide-for-developers/"><b>What Is Model Distillation? A Guide for Developers</b></a>
 <br><br>
 Over time, knowledge has been passed down in various forms. Before writing was invented in ancient Mesopotamia (modern-day Iraq), laws, history, myths, songs, and other information were all…
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <sub><code>GITHUB</code>&nbsp; 3d ago</sub><br>
 <a href="https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/"><b>The bridge to agent-scale Git infrastructure</b></a>
 <br><br>
 We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently.
 </td>
+<td width="50%" valign="top">
+<sub><code>NEXT.JS</code>&nbsp; 8d ago</sub><br>
+<a href="https://nextjs.org/blog/improving-navigation-experience-in-v0-with-nextjs-16-4"><b>Improving navigation experience in v0 with Next.js 16.4</b></a>
+<br><br>
+How we used Partial Prefetching and a coding agent to improve navigation across v0 with Next.js 16.4.
+</td>
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Lobsters · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 25 Oct 2026 03:46 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 25 Oct 2026 11:38 WIB.</sub>
 
 <!-- NEWS:END -->
 
