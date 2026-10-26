@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=26057a07b4" />
-  <img src="./assets/activity-light.svg?v=4bb8fe6541" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=c480926e26" />
+  <img src="./assets/activity-light.svg?v=6f1223cadf" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=a7b8afeee7" />
-  <img src="./assets/news-light.svg?v=3d071f61e6" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=cd3bc59048" />
+  <img src="./assets/news-light.svg?v=b10de7f14d" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,30 +36,30 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 52m ago</sub><br>
-<a href="https://fred.stlouisfed.org/series/W270RE1A156NBEA"><b>US Wages Share of GDI at 75 Year Low</b></a>
+<sub><code>HN</code>&nbsp; 26m ago</sub><br>
+<a href="https://danielmiessler.com/blog/writing-is-closer-to-thought-than-code"><b>Writing Is Closer to Thought Than Code</b></a>
 <br><br>
-12 points and 2 comments on the Hacker News front page · fred.stlouisfed.org
+3 points and 0 comments on the Hacker News front page · danielmiessler.com
 </td>
 <td width="50%" valign="top">
 <sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://exhibits.stanford.edu/menuez/browse/next-computer-inc?per_page=96&amp;sort=pub_year_isi+asc%2C+title_sort+asc&amp;view=masonry"><b>Behind the scenes at the NeXT Computer office</b></a>
+<a href="https://typemill.net/knowledge-hub/tasks-as-code"><b>Tasks as Code: Move Your Tickets into the Repository</b></a>
 <br><br>
-17 points and 6 comments on the Hacker News front page · exhibits.stanford.edu
+8 points and 7 comments on the Hacker News front page · typemill.net
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 5h ago</sub><br>
-<a href="https://dev.to/javz/slowth-money-a-local-ai-agent-for-your-financial-goals-2ki2"><b>Slowth Money: a local AI agent for your financial goals</b></a>
+<sub><code>DEV</code>&nbsp; 2h ago</sub><br>
+<a href="https://dev.to/remdore/how-long-a-serverless-function-stays-warm-on-digitalocean-59d7"><b>How long a serverless function stays warm on DigitalOcean</b></a>
 <br><br>
-This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady ...
+Every serverless platform has cold starts, and every write-up about them gives you a number for how...
 </td>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 10h ago</sub><br>
-<a href="https://dev.to/hemapriya_kanagala/dev-pet-corner-3-show-us-your-pets-35n"><b>🐾 DEV Pet Corner #3: Show Us Your Pets!</b></a>
+<sub><code>DEV</code>&nbsp; 8h ago</sub><br>
+<a href="https://dev.to/dannwaneri/i-never-rewatch-what-i-save-so-a-night-shift-turned-56-videos-into-notes-3na5"><b>I never rewatch what I save, so a night shift turned 56 videos into notes</b></a>
 <br><br>
-TL;DR DEV Pet Corner is back for another Sunday! It's a weekly series where we take a little break...
+This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady ...
 </td>
 </tr>
 <tr>
@@ -70,7 +70,7 @@ TL;DR DEV Pet Corner is back for another Sunday! It's a weekly series where we t
 Volker Dusch of the PHP Foundation explains how the two critical PHP RCE vulnerabilities were found, fixed, and disclosed, plus the leak and the broken embargo.
 </td>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 2d ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 3d ago</sub><br>
 <a href="https://laravel-news.com/decide-with-jev-turn-ai-answers-into-decisions-with-php-rules?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Decide with Jev: Turn AI Answers into Decisions with PHP Rules</b></a>
 <br><br>
 Jev can answer three questions about a draft, but the model should not decide what happens next. In episode 3 of Decide with Jev, we write a small PHP class that turns those answers into…
@@ -78,7 +78,7 @@ Jev can answer three questions about a draft, but the model should not decide wh
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 2d ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 3d ago</sub><br>
 <a href="https://stackoverflow.blog/2026/10/23/rumors-of-the-saas-demise-are-greatly-exaggerated/"><b>Rumors of the SaaS demise are greatly exaggerated</b></a>
 <br><br>
 Recorded on the floor of LDX3, Ryan chats with Nivia Henry, an engineering leader most recently at Netflix, about the reality of the supposed SaaS apocalypse, the complex calculus of the…
@@ -120,7 +120,7 @@ How we used Partial Prefetching and a coding agent to improve navigation across 
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 26 Oct 2026 11:43 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 26 Oct 2026 19:58 WIB.</sub>
 
 <!-- NEWS:END -->
 
