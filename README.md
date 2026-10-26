@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=c480926e26" />
-  <img src="./assets/activity-light.svg?v=6f1223cadf" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=81ff434d18" />
+  <img src="./assets/activity-light.svg?v=db35cda46e" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=cd3bc59048" />
-  <img src="./assets/news-light.svg?v=b10de7f14d" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=612f5c9e22" />
+  <img src="./assets/news-light.svg?v=d720a9f9e6" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,83 +36,83 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 26m ago</sub><br>
-<a href="https://danielmiessler.com/blog/writing-is-closer-to-thought-than-code"><b>Writing Is Closer to Thought Than Code</b></a>
+<sub><code>HN</code>&nbsp; 1h ago</sub><br>
+<a href="https://openai.com/index/building-scientific-understanding-with-academic-communities/"><b>Working with academic communities to build scientific understanding</b></a>
 <br><br>
-3 points and 0 comments on the Hacker News front page · danielmiessler.com
+116 points and 20 comments on the Hacker News front page · openai.com
 </td>
 <td width="50%" valign="top">
 <sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://typemill.net/knowledge-hub/tasks-as-code"><b>Tasks as Code: Move Your Tickets into the Repository</b></a>
+<a href="https://corridorkey.com/"><b>CorridorKey 2.0</b></a>
 <br><br>
-8 points and 7 comments on the Hacker News front page · typemill.net
+66 points and 6 comments on the Hacker News front page · corridorkey.com
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 2h ago</sub><br>
-<a href="https://dev.to/remdore/how-long-a-serverless-function-stays-warm-on-digitalocean-59d7"><b>How long a serverless function stays warm on DigitalOcean</b></a>
+<sub><code>DEV</code>&nbsp; 5h ago</sub><br>
+<a href="https://dev.to/devengers/doors-i-walked-through-to-reach-dev-5294"><b>Doors I Walked Through to Reach DEV</b></a>
 <br><br>
-Every serverless platform has cold starts, and every write-up about them gives you a number for how...
+Table of Contents Knock, Knock: The First Domino The Numbers and a Plot Twist How Did I...
 </td>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 8h ago</sub><br>
-<a href="https://dev.to/dannwaneri/i-never-rewatch-what-i-save-so-a-night-shift-turned-56-videos-into-notes-3na5"><b>I never rewatch what I save, so a night shift turned 56 videos into notes</b></a>
+<sub><code>DEV</code>&nbsp; 6h ago</sub><br>
+<a href="https://dev.to/he4rt/nao-precisa-ser-popular-pra-compartilhar-minha-historia-ate-berlim-1hbc"><b>Não precisa ser popular pra compartilhar: minha história até Berlim</b></a>
 <br><br>
-This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady ...
+Hoje não venho escrever algo técnico ou teórico. Hoje vou contar pra vocês como a menina criada nas...
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 2d ago</sub><br>
-<a href="https://laravel-news.com/volker-dusch-php-rce-disclosure?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Volker Dusch on the PHP RCE Vulnerabilities and Disclosure</b></a>
+<sub><code>LARAVEL</code>&nbsp; 8h ago</sub><br>
+<a href="https://laravel-news.com/mastering-laravel-testing-course?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Mastering Laravel Testing: A Video Course on Laravel Tests</b></a>
 <br><br>
-Volker Dusch of the PHP Foundation explains how the two critical PHP RCE vulnerabilities were found, fixed, and disclosed, plus the leak and the broken embargo.
+Mastering Laravel Testing is a video course from Joel Clermont on feature tests, mocks, policies, and form validation. Presale pricing ends November 20.
 </td>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 3d ago</sub><br>
-<a href="https://laravel-news.com/decide-with-jev-turn-ai-answers-into-decisions-with-php-rules?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Decide with Jev: Turn AI Answers into Decisions with PHP Rules</b></a>
+<sub><code>FREECODECAMP</code>&nbsp; 8h ago</sub><br>
+<a href="https://www.freecodecamp.org/news/how-noise-cancelling-headphones-work/"><b>How Noise-Cancelling Headphones Actually Remove Sound in Real Time</b></a>
 <br><br>
-Jev can answer three questions about a draft, but the model should not decide what happens next. In episode 3 of Decide with Jev, we write a small PHP class that turns those answers into…
+A noisy flight can make it difficult to enjoy a podcast or listen to music without turning up your volume super high. Much of that disturbance comes from the steady rumble of the engines…
 </td>
 </tr>
 <tr>
+<td width="50%" valign="top">
+<sub><code>LARAVEL</code>&nbsp; 20h ago</sub><br>
+<a href="https://laravel-news.com/nativephp-mobile-security-advisories?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>NativePHP Mobile Security Advisories: Update to 4.6.1</b></a>
+<br><br>
+NativePHP published seven security advisories for its mobile package, plus rebuilt PHP binaries for this week's PHP CVEs. Update to 4.6.1 or 3.3.11 and rebuild.
+</td>
 <td width="50%" valign="top">
 <sub><code>STACKOVERFLOW</code>&nbsp; 3d ago</sub><br>
 <a href="https://stackoverflow.blog/2026/10/23/rumors-of-the-saas-demise-are-greatly-exaggerated/"><b>Rumors of the SaaS demise are greatly exaggerated</b></a>
 <br><br>
 Recorded on the floor of LDX3, Ryan chats with Nivia Henry, an engineering leader most recently at Netflix, about the reality of the supposed SaaS apocalypse, the complex calculus of the…
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <sub><code>FREECODECAMP</code>&nbsp; 3d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/learn-model-context-protocol-mcp-security/"><b>Learn Model Context Protocol (MCP) Security</b></a>
 <br><br>
 MCP bridges the gap between your AI agents and your external tools, allowing them to send Discord messages, read your emails, and interact with your environment. But this massive leap in…
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 3d ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 4d ago</sub><br>
 <a href="https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/"><b>How bug bounty sharpens one researcher’s security skills</b></a>
 <br><br>
 As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers.
 </td>
-<td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 4d ago</sub><br>
-<a href="https://www.freecodecamp.org/news/what-is-model-distillation-a-guide-for-developers/"><b>What Is Model Distillation? A Guide for Developers</b></a>
-<br><br>
-Over time, knowledge has been passed down in various forms. Before writing was invented in ancient Mesopotamia (modern-day Iraq), laws, history, myths, songs, and other information were all…
-</td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 4d ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 5d ago</sub><br>
 <a href="https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/"><b>The bridge to agent-scale Git infrastructure</b></a>
 <br><br>
 We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently.
 </td>
 <td width="50%" valign="top">
-<sub><code>NEXT.JS</code>&nbsp; 9d ago</sub><br>
+<sub><code>NEXT.JS</code>&nbsp; 10d ago</sub><br>
 <a href="https://nextjs.org/blog/improving-navigation-experience-in-v0-with-nextjs-16-4"><b>Improving navigation experience in v0 with Next.js 16.4</b></a>
 <br><br>
 How we used Partial Prefetching and a coding agent to improve navigation across v0 with Next.js 16.4.
@@ -120,13 +120,13 @@ How we used Partial Prefetching and a coding agent to improve navigation across 
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 26 Oct 2026 19:58 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 27 Oct 2026 05:38 WIB.</sub>
 
 <!-- NEWS:END -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20261026" />
-  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261026" width="100%" alt="A snake eating this year's contribution squares" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20261027" />
+  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261027" width="100%" alt="A snake eating this year's contribution squares" />
 </picture>
 
 <picture>
