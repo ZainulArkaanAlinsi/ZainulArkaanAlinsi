@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=1a308c58b6" />
-  <img src="./assets/activity-light.svg?v=cfadc4e98d" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=26057a07b4" />
+  <img src="./assets/activity-light.svg?v=4bb8fe6541" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=fe8d7765be" />
-  <img src="./assets/news-light.svg?v=ac0e6f26e2" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=a7b8afeee7" />
+  <img src="./assets/news-light.svg?v=3d071f61e6" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,30 +36,30 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://armincat.com/articles/eunice-is-almost-here"><b>Eunice is almost here (William Gibson, Agency)</b></a>
+<sub><code>HN</code>&nbsp; 52m ago</sub><br>
+<a href="https://fred.stlouisfed.org/series/W270RE1A156NBEA"><b>US Wages Share of GDI at 75 Year Low</b></a>
 <br><br>
-20 points and 14 comments on the Hacker News front page · armincat.com
+12 points and 2 comments on the Hacker News front page · fred.stlouisfed.org
 </td>
 <td width="50%" valign="top">
 <sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://arstechnica.com/health/2026/10/personalized-mrna-cancer-vaccine-cut-melanoma-death-recurrence-by-42/"><b>Moderna and Merck say their mRNA cancer vaccine cut death, recurrence by 42%</b></a>
+<a href="https://exhibits.stanford.edu/menuez/browse/next-computer-inc?per_page=96&amp;sort=pub_year_isi+asc%2C+title_sort+asc&amp;view=masonry"><b>Behind the scenes at the NeXT Computer office</b></a>
 <br><br>
-59 points and 10 comments on the Hacker News front page · arstechnica.com
+17 points and 6 comments on the Hacker News front page · exhibits.stanford.edu
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 2h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 5h ago</sub><br>
+<a href="https://dev.to/javz/slowth-money-a-local-ai-agent-for-your-financial-goals-2ki2"><b>Slowth Money: a local AI agent for your financial goals</b></a>
+<br><br>
+This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady ...
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 10h ago</sub><br>
 <a href="https://dev.to/hemapriya_kanagala/dev-pet-corner-3-show-us-your-pets-35n"><b>🐾 DEV Pet Corner #3: Show Us Your Pets!</b></a>
 <br><br>
 TL;DR DEV Pet Corner is back for another Sunday! It's a weekly series where we take a little break...
-</td>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 4h ago</sub><br>
-<a href="https://dev.to/advikdivekar/a-small-not-so-smart-model-went-from-10-to-996-at-reading-property-deeds-for-115-and-it-says-490k"><b>A small, not-so-smart model went from 10% to 99.6% at reading property deeds for $1.15, and it…</b></a>
-<br><br>
-This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady N 86°29'...
 </td>
 </tr>
 <tr>
@@ -84,7 +84,7 @@ Jev can answer three questions about a draft, but the model should not decide wh
 Recorded on the floor of LDX3, Ryan chats with Nivia Henry, an engineering leader most recently at Netflix, about the reality of the supposed SaaS apocalypse, the complex calculus of the…
 </td>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 2d ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 3d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/learn-model-context-protocol-mcp-security/"><b>Learn Model Context Protocol (MCP) Security</b></a>
 <br><br>
 MCP bridges the gap between your AI agents and your external tools, allowing them to send Discord messages, read your emails, and interact with your environment. But this massive leap in…
@@ -120,7 +120,7 @@ How we used Partial Prefetching and a coding agent to improve navigation across 
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 26 Oct 2026 03:49 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 26 Oct 2026 11:43 WIB.</sub>
 
 <!-- NEWS:END -->
 
