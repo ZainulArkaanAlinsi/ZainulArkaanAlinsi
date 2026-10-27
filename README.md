@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=7d0fbb49ee" />
-  <img src="./assets/activity-light.svg?v=9367a6b210" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=4929ac3230" />
+  <img src="./assets/activity-light.svg?v=c490958165" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=23e437f1b9" />
-  <img src="./assets/news-light.svg?v=4c6b84b8b9" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=06d8c45876" />
+  <img src="./assets/news-light.svg?v=bfdef6a5ea" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,66 +36,66 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 13m ago</sub><br>
-<a href="https://www.reuters.com/world/americas/brazil-wonders-where-earth-is-flavio-bolsonaro-2026-10-27/"><b>Brazil's Flavio Bolsonaro headed to US, sources say</b></a>
+<sub><code>HN</code>&nbsp; 52m ago</sub><br>
+<a href="https://oxidt.com/blog/one-year-of-dioxus-fullstack-in-production-the-good-the-painful"><b>One year of Dioxus fullstack in production: the good, the painful</b></a>
 <br><br>
-7 points and 0 comments on the Hacker News front page · reuters.com
+12 points and 8 comments on the Hacker News front page · oxidt.com
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 54m ago</sub><br>
-<a href="https://www.liquid.ai/blog/lfm3"><b>Introducing LFM3: Every Modality for Specialized Intelligence</b></a>
+<sub><code>HN</code>&nbsp; 1h ago</sub><br>
+<a href="https://www.anthropic.com/research/early-progress-drug-development"><b>Early progress on accelerating drug development with Claude</b></a>
 <br><br>
-16 points and 5 comments on the Hacker News front page · liquid.ai
+46 points and 31 comments on the Hacker News front page · anthropic.com
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 1h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 4h ago</sub><br>
+<a href="https://www.freecodecamp.org/news/how-to-build-passkey-authentication-with-webauthn-next-js-and-nestjs/"><b>How to Build Passkey Authentication with WebAuthn, Next.js and NestJS</b></a>
+<br><br>
+Passwords are a pain for both users and service providers․ Users often find it difficult to remember passwords, and the risk of phishing and password reuse across multiple websites is high…
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 5h ago</sub><br>
 <a href="https://dev.to/xulingfeng/stratagems-32-the-ai-logged-a-withdrawal-p-took-it-as-proof-2jo2"><b>Stratagems #32: The AI Logged a Withdrawal. P Took It as Proof.</b></a>
 <br><br>
 Make empty what is already empty. Let doubt breed inside doubt. — The 36 Stratagems, The Empty Fort...
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 1h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 5h ago</sub><br>
 <a href="https://dev.to/devteam/your-dev-posts-have-a-beautiful-new-share-card-4be8"><b>Your DEV posts have a beautiful new share card ✨</b></a>
 <br><br>
 The image that shows up when you share a DEV post just got a brand-new look! I got to work on...
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 10h ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 14h ago</sub><br>
 <a href="https://stackoverflow.blog/2026/10/27/elevators-toasters-and-the-birth-of-java/"><b>Elevators, toasters, and the birth of Java</b></a>
 <br><br>
 Ryan sits down with James Gosling, creator of Java at Sun Microsystems, to talk about the early networking friction that drove the need for interconnectedness, the stringent reliability…
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 18h ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 22h ago</sub><br>
 <a href="https://laravel-news.com/filament-5-8-0?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Deferred Schema Loading in Filament v5.8</b></a>
 <br><br>
 Filament v5.8 adds deferLoading() for sections, tabs, wizards, and repeater items, plus session-persisted table grouping and lifecycle hooks in traits.
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 20h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-to-build-a-simple-data-analyzer-in-python-with-pandas/"><b>How to Build a Simple Data Analyzer in Python with Pandas</b></a>
 <br><br>
 Data analysis might sound complicated when you first encounter it. You might imagine large databases, advanced mathematics, and complicated machine learning algorithms. But many useful data…
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
 <a href="https://laravel-news.com/mastering-laravel-testing-course?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Mastering Laravel Testing: A Video Course on Laravel Tests</b></a>
 <br><br>
 Mastering Laravel Testing is a video course from Joel Clermont on feature tests, mocks, policies, and form validation. Presale pricing ends November 20.
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
-<a href="https://www.freecodecamp.org/news/how-noise-cancelling-headphones-work/"><b>How Noise-Cancelling Headphones Actually Remove Sound in Real Time</b></a>
-<br><br>
-A noisy flight can make it difficult to enjoy a podcast or listen to music without turning up your volume super high. Much of that disturbance comes from the steady rumble of the engines…
 </td>
 <td width="50%" valign="top">
 <sub><code>STACKOVERFLOW</code>&nbsp; 4d ago</sub><br>
@@ -120,7 +120,7 @@ We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-r
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 28 Oct 2026 00:59 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 28 Oct 2026 05:12 WIB.</sub>
 
 <!-- NEWS:END -->
 
