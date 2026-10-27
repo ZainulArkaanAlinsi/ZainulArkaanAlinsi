@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=062b01bac9" />
-  <img src="./assets/activity-light.svg?v=701341554d" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=7d0fbb49ee" />
+  <img src="./assets/activity-light.svg?v=9367a6b210" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=3257840ee4" />
-  <img src="./assets/news-light.svg?v=c9f66c516e" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=23e437f1b9" />
+  <img src="./assets/news-light.svg?v=4c6b84b8b9" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,66 +36,66 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 37m ago</sub><br>
-<a href="https://www.bitlog.com/2026/10/27/software-may-be-getting-worse-but-it-used-to-be-horrible/"><b>Software may be getting worse, but it used to be horrible</b></a>
+<sub><code>HN</code>&nbsp; 13m ago</sub><br>
+<a href="https://www.reuters.com/world/americas/brazil-wonders-where-earth-is-flavio-bolsonaro-2026-10-27/"><b>Brazil's Flavio Bolsonaro headed to US, sources say</b></a>
 <br><br>
-34 points and 11 comments on the Hacker News front page · bitlog.com
+7 points and 0 comments on the Hacker News front page · reuters.com
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 50m ago</sub><br>
-<a href="https://lwn.net/SubscriberLink/1102102/0c00e4d550f25f8c/"><b>Python's experimental JIT to be removed</b></a>
+<sub><code>HN</code>&nbsp; 54m ago</sub><br>
+<a href="https://www.liquid.ai/blog/lfm3"><b>Introducing LFM3: Every Modality for Specialized Intelligence</b></a>
 <br><br>
-8 points and 0 comments on the Hacker News front page · lwn.net
+16 points and 5 comments on the Hacker News front page · liquid.ai
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 4h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 1h ago</sub><br>
+<a href="https://dev.to/xulingfeng/stratagems-32-the-ai-logged-a-withdrawal-p-took-it-as-proof-2jo2"><b>Stratagems #32: The AI Logged a Withdrawal. P Took It as Proof.</b></a>
+<br><br>
+Make empty what is already empty. Let doubt breed inside doubt. — The 36 Stratagems, The Empty Fort...
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 1h ago</sub><br>
+<a href="https://dev.to/devteam/your-dev-posts-have-a-beautiful-new-share-card-4be8"><b>Your DEV posts have a beautiful new share card ✨</b></a>
+<br><br>
+The image that shows up when you share a DEV post just got a brand-new look! I got to work on...
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>STACKOVERFLOW</code>&nbsp; 10h ago</sub><br>
 <a href="https://stackoverflow.blog/2026/10/27/elevators-toasters-and-the-birth-of-java/"><b>Elevators, toasters, and the birth of Java</b></a>
 <br><br>
 Ryan sits down with James Gosling, creator of Java at Sun Microsystems, to talk about the early networking friction that drove the need for interconnectedness, the stringent reliability…
 </td>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 14h ago</sub><br>
-<a href="https://dev.to/chrisvasqm/how-i-finally-understood-the-liskov-substitution-principle-19ek"><b>How I finally understood the Liskov Substitution Principle</b></a>
+<sub><code>LARAVEL</code>&nbsp; 18h ago</sub><br>
+<a href="https://laravel-news.com/filament-5-8-0?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Deferred Schema Loading in Filament v5.8</b></a>
 <br><br>
-The Intro Halfway through SOLID! We are at the L, the one with the scary name: the Liskov...
+Filament v5.8 adds deferLoading() for sections, tabs, wizards, and repeater items, plus session-persisted table grouping and lifecycle hooks in traits.
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 14h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 20h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-to-build-a-simple-data-analyzer-in-python-with-pandas/"><b>How to Build a Simple Data Analyzer in Python with Pandas</b></a>
 <br><br>
 Data analysis might sound complicated when you first encounter it. You might imagine large databases, advanced mathematics, and complicated machine learning algorithms. But many useful data…
 </td>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 14h ago</sub><br>
-<a href="https://dev.to/cloudinary/calavera-cabina-a-tribute-app-for-dia-de-muertos-1bko"><b>Calavera Cabina: a tribute app for Día de Muertos</b></a>
-<br><br>
-This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the Machine ...
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 21h ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
 <a href="https://laravel-news.com/mastering-laravel-testing-course?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Mastering Laravel Testing: A Video Course on Laravel Tests</b></a>
 <br><br>
 Mastering Laravel Testing is a video course from Joel Clermont on feature tests, mocks, policies, and form validation. Presale pricing ends November 20.
 </td>
-<td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 22h ago</sub><br>
-<a href="https://www.freecodecamp.org/news/how-noise-cancelling-headphones-work/"><b>How Noise-Cancelling Headphones Actually Remove Sound in Real Time</b></a>
-<br><br>
-A noisy flight can make it difficult to enjoy a podcast or listen to music without turning up your volume super high. Much of that disturbance comes from the steady rumble of the engines…
-</td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
-<a href="https://laravel-news.com/nativephp-mobile-security-advisories?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>NativePHP Mobile Security Advisories: Update to 4.6.1</b></a>
+<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
+<a href="https://www.freecodecamp.org/news/how-noise-cancelling-headphones-work/"><b>How Noise-Cancelling Headphones Actually Remove Sound in Real Time</b></a>
 <br><br>
-NativePHP published seven security advisories for its mobile package, plus rebuilt PHP binaries for this week's PHP CVEs. Update to 4.6.1 or 3.3.11 and rebuild.
+A noisy flight can make it difficult to enjoy a podcast or listen to music without turning up your volume super high. Much of that disturbance comes from the steady rumble of the engines…
 </td>
 <td width="50%" valign="top">
 <sub><code>STACKOVERFLOW</code>&nbsp; 4d ago</sub><br>
@@ -106,13 +106,13 @@ Recorded on the floor of LDX3, Ryan chats with Nivia Henry, an engineering leade
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 4d ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 5d ago</sub><br>
 <a href="https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/"><b>How bug bounty sharpens one researcher’s security skills</b></a>
 <br><br>
 As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers.
 </td>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 5d ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 6d ago</sub><br>
 <a href="https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/"><b>The bridge to agent-scale Git infrastructure</b></a>
 <br><br>
 We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently.
@@ -120,13 +120,13 @@ We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-r
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 27 Oct 2026 19:08 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 28 Oct 2026 00:59 WIB.</sub>
 
 <!-- NEWS:END -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20261027" />
-  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261027" width="100%" alt="A snake eating this year's contribution squares" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20261028" />
+  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261028" width="100%" alt="A snake eating this year's contribution squares" />
 </picture>
 
 <picture>
