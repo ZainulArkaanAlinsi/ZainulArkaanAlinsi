@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=1f07f81b28" />
-  <img src="./assets/activity-light.svg?v=e3b7d1c924" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=062b01bac9" />
+  <img src="./assets/activity-light.svg?v=701341554d" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=71dbae0730" />
-  <img src="./assets/news-light.svg?v=fedff2ca5e" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=3257840ee4" />
+  <img src="./assets/news-light.svg?v=c9f66c516e" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,41 +36,41 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; just now</sub><br>
+<sub><code>HN</code>&nbsp; 37m ago</sub><br>
+<a href="https://www.bitlog.com/2026/10/27/software-may-be-getting-worse-but-it-used-to-be-horrible/"><b>Software may be getting worse, but it used to be horrible</b></a>
+<br><br>
+34 points and 11 comments on the Hacker News front page · bitlog.com
+</td>
+<td width="50%" valign="top">
+<sub><code>HN</code>&nbsp; 50m ago</sub><br>
+<a href="https://lwn.net/SubscriberLink/1102102/0c00e4d550f25f8c/"><b>Python's experimental JIT to be removed</b></a>
+<br><br>
+8 points and 0 comments on the Hacker News front page · lwn.net
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>STACKOVERFLOW</code>&nbsp; 4h ago</sub><br>
 <a href="https://stackoverflow.blog/2026/10/27/elevators-toasters-and-the-birth-of-java/"><b>Elevators, toasters, and the birth of Java</b></a>
 <br><br>
 Ryan sits down with James Gosling, creator of Java at Sun Microsystems, to talk about the early networking friction that drove the need for interconnectedness, the stringent reliability…
 </td>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 22m ago</sub><br>
-<a href="https://dev.to/smtahosin/graphql-isnt-magic-how-asts-resolvers-and-dataloaders-actually-work-under-the-hood-17gp"><b>GraphQL Isn't Magic: How ASTs, Resolvers, and DataLoaders Actually Work Under the Hood</b></a>
+<sub><code>DEV</code>&nbsp; 14h ago</sub><br>
+<a href="https://dev.to/chrisvasqm/how-i-finally-understood-the-liskov-substitution-principle-19ek"><b>How I finally understood the Liskov Substitution Principle</b></a>
 <br><br>
-A visual, 10-minute deep dive into GraphQL query execution internals. Learn how GraphQL parses ASTs, executes recursive resolver trees, why naive resolvers trigger the N+1 database trap…
+The Intro Halfway through SOLID! We are at the L, the one with the scary name: the Liskov...
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 3h ago</sub><br>
-<a href="https://github.com/otya128/winevdm"><b>16-bit Windows (Windows 1.x, 2.x, 3.0, 3.1, etc.) on 64-bit Windows</b></a>
-<br><br>
-51 points and 3 comments on the Hacker News front page · github.com
-</td>
-<td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 6h ago</sub><br>
-<a href="https://blog.cloudflare.com/kv-cache-exposure-remediation/"><b>Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)</b></a>
-<br><br>
-101 points and 32 comments on the Hacker News front page · blog.cloudflare.com
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 7h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 14h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-to-build-a-simple-data-analyzer-in-python-with-pandas/"><b>How to Build a Simple Data Analyzer in Python with Pandas</b></a>
 <br><br>
 Data analysis might sound complicated when you first encounter it. You might imagine large databases, advanced mathematics, and complicated machine learning algorithms. But many useful data…
 </td>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 7h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 14h ago</sub><br>
 <a href="https://dev.to/cloudinary/calavera-cabina-a-tribute-app-for-dia-de-muertos-1bko"><b>Calavera Cabina: a tribute app for Día de Muertos</b></a>
 <br><br>
 This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the Machine ...
@@ -78,13 +78,13 @@ This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghos
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 14h ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 21h ago</sub><br>
 <a href="https://laravel-news.com/mastering-laravel-testing-course?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Mastering Laravel Testing: A Video Course on Laravel Tests</b></a>
 <br><br>
 Mastering Laravel Testing is a video course from Joel Clermont on feature tests, mocks, policies, and form validation. Presale pricing ends November 20.
 </td>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 15h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 22h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-noise-cancelling-headphones-work/"><b>How Noise-Cancelling Headphones Actually Remove Sound in Real Time</b></a>
 <br><br>
 A noisy flight can make it difficult to enjoy a podcast or listen to music without turning up your volume super high. Much of that disturbance comes from the steady rumble of the engines…
@@ -98,7 +98,7 @@ A noisy flight can make it difficult to enjoy a podcast or listen to music witho
 NativePHP published seven security advisories for its mobile package, plus rebuilt PHP binaries for this week's PHP CVEs. Update to 4.6.1 or 3.3.11 and rebuild.
 </td>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 3d ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 4d ago</sub><br>
 <a href="https://stackoverflow.blog/2026/10/23/rumors-of-the-saas-demise-are-greatly-exaggerated/"><b>Rumors of the SaaS demise are greatly exaggerated</b></a>
 <br><br>
 Recorded on the floor of LDX3, Ryan chats with Nivia Henry, an engineering leader most recently at Netflix, about the reality of the supposed SaaS apocalypse, the complex calculus of the…
@@ -120,7 +120,7 @@ We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-r
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 27 Oct 2026 12:01 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 27 Oct 2026 19:08 WIB.</sub>
 
 <!-- NEWS:END -->
 
