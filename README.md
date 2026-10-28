@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=38acae9f09" />
-  <img src="./assets/activity-light.svg?v=e18d5faf76" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=3c7da6fc87" />
+  <img src="./assets/activity-light.svg?v=07b8fcf7f6" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=e3f6d941be" />
-  <img src="./assets/news-light.svg?v=8f7a1fb076" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=70db33d65e" />
+  <img src="./assets/news-light.svg?v=aacda31a79" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,41 +36,41 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 3h ago</sub><br>
-<a href="https://lexifina.com/blog/git-for-the-us-code"><b>Git for US Legislation</b></a>
+<sub><code>HN</code>&nbsp; 57m ago</sub><br>
+<a href="https://www.reuters.com/business/media-telecom/amazon-signs-1157-billion-deal-satellite-firm-globalstar-challenge-starlink-2026-04-14/1157-billion-deal-satellite-firm-globalstar-challenge-starlink-2026-04-14/"><b>Amazon to buy satellite firm Globalstar in $11.57B deal</b></a>
 <br><br>
-147 points and 68 comments on the Hacker News front page · lexifina.com
+50 points and 14 comments on the Hacker News front page · reuters.com
 </td>
 <td width="50%" valign="top">
-<sub><code>LOBSTERS</code>&nbsp; 4h ago</sub><br>
-<a href="https://lobste.rs/s/87iesc/reminder_lobsters_nyc_meetup_tomorrow_5"><b>Reminder: Lobsters NYC Meetup Tomorrow 5:30 at Walker's</b></a>
+<sub><code>HN</code>&nbsp; 1h ago</sub><br>
+<a href="https://support.apple.com/en-us/149555"><b>About the compromised eMudhra intermediate CAs</b></a>
 <br><br>
-Follow up on: https://lobste.rs/s/73ozwc/lobsters_nyc_meetup_on_28th_october Under &quot;Alex&quot;. Feel free to come a bit later or earlier. I'll write here updating if we move etc. Walker's is by…
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 5h ago</sub><br>
-<a href="https://dev.to/amananandrai/101-indian-monuments-modelled-in-the-browser-g4f"><b>From Code to Culture: Building 101 Indian Monuments in 3D</b></a>
-<br><br>
-101 Indian Monuments, Modelled in the Browser India's heritage has always fascinated me....
-</td>
-<td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 5h ago</sub><br>
-<a href="https://github.com/maharmstone/moxnox"><b>Moxnox 1.0: NT-Like, POSIX-Compatible OS Running Atop Btrfs</b></a>
-<br><br>
-42 points and 8 comments on the Hacker News front page · github.com
+28 points and 16 comments on the Hacker News front page · support.apple.com
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>NEXT.JS</code>&nbsp; 11h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 7h ago</sub><br>
+<a href="https://dev.to/james_anderson_h/not-the-end-but-a-shift-how-ai-is-pushing-computer-science-toward-deeper-engineering-47mk"><b>Not the End, but a Shift: How AI Is Pushing Computer Science Toward Deeper Engineering</b></a>
+<br><br>
+If you're studying computer science right now, or you just graduated, you've probably heard some...
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 8h ago</sub><br>
+<a href="https://dev.to/annavi11arrea1/lessons-learned-wifi-server-disaster-16oc"><b>Lessons Learned: Wifi Server Disaster</b></a>
+<br><br>
+So there I was, figuring out how to set up all my social media for branded automated posting....
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>NEXT.JS</code>&nbsp; 18h ago</sub><br>
 <a href="https://nextjs.org/blog/upcoming-nextjs-security-release-november-2026"><b>Upcoming Next.js November Security Release</b></a>
 <br><br>
 Next.js is preparing a scheduled November security release for November 3, 2026.
 </td>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 11h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 19h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-to-build-passkey-authentication-with-webauthn-next-js-and-nestjs/"><b>How to Build Passkey Authentication with WebAuthn, Next.js and NestJS</b></a>
 <br><br>
 Passwords are a pain for both users and service providers․ Users often find it difficult to remember passwords, and the risk of phishing and password reuse across multiple websites is high…
@@ -78,49 +78,49 @@ Passwords are a pain for both users and service providers․ Users often find it
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 12h ago</sub><br>
-<a href="https://dev.to/xulingfeng/stratagems-32-the-ai-logged-a-withdrawal-p-took-it-as-proof-2jo2"><b>Stratagems #32: The AI Logged a Withdrawal. P Took It as Proof.</b></a>
-<br><br>
-Make empty what is already empty. Let doubt breed inside doubt. — The 36 Stratagems, The Empty Fort...
-</td>
-<td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 21h ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 1d ago</sub><br>
 <a href="https://stackoverflow.blog/2026/10/27/elevators-toasters-and-the-birth-of-java/"><b>Elevators, toasters, and the birth of Java</b></a>
 <br><br>
 Ryan sits down with James Gosling, creator of Java at Sun Microsystems, to talk about the early networking friction that drove the need for interconnectedness, the stringent reliability…
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
 <a href="https://laravel-news.com/filament-5-8-0?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Deferred Schema Loading in Filament v5.8</b></a>
 <br><br>
 Filament v5.8 adds deferLoading() for sections, tabs, wizards, and repeater items, plus session-persisted table grouping and lifecycle hooks in traits.
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-to-build-a-simple-data-analyzer-in-python-with-pandas/"><b>How to Build a Simple Data Analyzer in Python with Pandas</b></a>
 <br><br>
 Data analysis might sound complicated when you first encounter it. You might imagine large databases, advanced mathematics, and complicated machine learning algorithms. But many useful data…
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
 <a href="https://laravel-news.com/mastering-laravel-testing-course?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Mastering Laravel Testing: A Video Course on Laravel Tests</b></a>
 <br><br>
 Mastering Laravel Testing is a video course from Joel Clermont on feature tests, mocks, policies, and form validation. Presale pricing ends November 20.
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 4d ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 5d ago</sub><br>
 <a href="https://stackoverflow.blog/2026/10/23/rumors-of-the-saas-demise-are-greatly-exaggerated/"><b>Rumors of the SaaS demise are greatly exaggerated</b></a>
 <br><br>
 Recorded on the floor of LDX3, Ryan chats with Nivia Henry, an engineering leader most recently at Netflix, about the reality of the supposed SaaS apocalypse, the complex calculus of the…
 </td>
+<td width="50%" valign="top">
+<sub><code>GITHUB</code>&nbsp; 5d ago</sub><br>
+<a href="https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/"><b>How bug bounty sharpens one researcher’s security skills</b></a>
+<br><br>
+As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers.
+</td>
 </tr>
 </table>
 
-<sub>Sources: Hacker News · dev.to · Laravel News · Next.js · Lobsters · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 28 Oct 2026 12:39 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 28 Oct 2026 19:51 WIB.</sub>
 
 <!-- NEWS:END -->
 
