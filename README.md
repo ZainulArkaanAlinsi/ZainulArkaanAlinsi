@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=3c7da6fc87" />
-  <img src="./assets/activity-light.svg?v=07b8fcf7f6" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=318e035948" />
+  <img src="./assets/activity-light.svg?v=d7e3d3bae5" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=70db33d65e" />
-  <img src="./assets/news-light.svg?v=aacda31a79" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=96a4f6094b" />
+  <img src="./assets/news-light.svg?v=33d35ed976" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,97 +36,97 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 57m ago</sub><br>
-<a href="https://www.reuters.com/business/media-telecom/amazon-signs-1157-billion-deal-satellite-firm-globalstar-challenge-starlink-2026-04-14/1157-billion-deal-satellite-firm-globalstar-challenge-starlink-2026-04-14/"><b>Amazon to buy satellite firm Globalstar in $11.57B deal</b></a>
+<sub><code>HN</code>&nbsp; 1h ago</sub><br>
+<a href="https://formlabs.com/products/form-studio-1-basic-founders-edition/"><b>Formlabs Studio 1 $699 Resin Printer</b></a>
 <br><br>
-50 points and 14 comments on the Hacker News front page · reuters.com
+56 points and 54 comments on the Hacker News front page · formlabs.com
 </td>
 <td width="50%" valign="top">
 <sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://support.apple.com/en-us/149555"><b>About the compromised eMudhra intermediate CAs</b></a>
+<a href="https://www.wired.com/story/massive-leak-exposes-41000-homeland-security-workers-including-undercover-ice-agents/"><b>Leak Exposes 41,000 Homeland Security Workers–Including Undercover ICE Agents</b></a>
 <br><br>
-28 points and 16 comments on the Hacker News front page · support.apple.com
+141 points and 45 comments on the Hacker News front page · wired.com
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 7h ago</sub><br>
-<a href="https://dev.to/james_anderson_h/not-the-end-but-a-shift-how-ai-is-pushing-computer-science-toward-deeper-engineering-47mk"><b>Not the End, but a Shift: How AI Is Pushing Computer Science Toward Deeper Engineering</b></a>
+<sub><code>NEXT.JS</code>&nbsp; 2h ago</sub><br>
+<a href="https://nextjs.org/blog/ship-less-javascript-with-ai"><b>Ship less JavaScript in Next.js with your AI agent</b></a>
 <br><br>
-If you're studying computer science right now, or you just graduated, you've probably heard some...
+Optimize your Next.js app's bundles with the next-bundle-optimizer agent skill, or explore them yourself with new Bundle Analyzer tools.
 </td>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 8h ago</sub><br>
-<a href="https://dev.to/annavi11arrea1/lessons-learned-wifi-server-disaster-16oc"><b>Lessons Learned: Wifi Server Disaster</b></a>
+<sub><code>GITHUB</code>&nbsp; 6h ago</sub><br>
+<a href="https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/"><b>GitHub Universe 2026: Evolving every layer of the stack</b></a>
 <br><br>
-So there I was, figuring out how to set up all my social media for branded automated posting....
+Today, we laid out our vision for GitHub as the most comprehensive, end-to-end software delivery system in the world.
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>NEXT.JS</code>&nbsp; 18h ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 6h ago</sub><br>
+<a href="https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/"><b>Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents</b></a>
+<br><br>
+See how a record year of growth reached every industry, every field, and every kind of builder in the 2026 Octoverse report.
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 6h ago</sub><br>
+<a href="https://dev.to/gde/accuracy-vs-speed-gemma-4-e2b-quantization-tradeoffs-bf16-to-q2k-aea"><b>Accuracy vs Speed: Gemma 4 E2B Quantization Tradeoffs, BF16 to Q2_K</b></a>
+<br><br>
+Gemma 4 E2B quantized from BF16 to Q2_K on one Tesla T4, every rung asked the same 250 GSM8K questions, and each answer buried at the rung where it first goes wrong. Q5_K_M and above hold…
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 6h ago</sub><br>
+<a href="https://dev.to/maximsaplin/mercury-3-when-ai-is-fast-enough-to-stay-in-the-loop-3oe5"><b>Mercury 3: When AI Is Fast Enough to Stay in the Loop</b></a>
+<br><br>
+My MSI Claw had a controller problem. I gave Mercury 3 SSH access and described it. About 20 seconds...
+</td>
+<td width="50%" valign="top">
+<sub><code>STACKOVERFLOW</code>&nbsp; 7h ago</sub><br>
+<a href="https://stackoverflow.blog/2026/10/28/delivering-controlled-and-concentrated-context/"><b>Delivering controlled and concentrated context</b></a>
+<br><br>
+Check out the new features and capabilities now available in Stack Internal and Stack Internal Community. Try Stack Internal for free by visiting stackinternal.com.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>LARAVEL</code>&nbsp; 23h ago</sub><br>
+<a href="https://laravel-news.com/laravel-13-39-0?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Scheduled Session Garbage Collection in Laravel 13.39</b></a>
+<br><br>
+Laravel 13.39 adds a session:garbage-collect command for scheduled session cleanup, keyless models with #[Table(key: false)], and durations on JobAttempted.
+</td>
+<td width="50%" valign="top">
+<sub><code>NEXT.JS</code>&nbsp; 1d ago</sub><br>
 <a href="https://nextjs.org/blog/upcoming-nextjs-security-release-november-2026"><b>Upcoming Next.js November Security Release</b></a>
 <br><br>
 Next.js is preparing a scheduled November security release for November 3, 2026.
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 19h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-to-build-passkey-authentication-with-webauthn-next-js-and-nestjs/"><b>How to Build Passkey Authentication with WebAuthn, Next.js and NestJS</b></a>
 <br><br>
 Passwords are a pain for both users and service providers․ Users often find it difficult to remember passwords, and the risk of phishing and password reuse across multiple websites is high…
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <sub><code>STACKOVERFLOW</code>&nbsp; 1d ago</sub><br>
 <a href="https://stackoverflow.blog/2026/10/27/elevators-toasters-and-the-birth-of-java/"><b>Elevators, toasters, and the birth of Java</b></a>
 <br><br>
 Ryan sits down with James Gosling, creator of Java at Sun Microsystems, to talk about the early networking friction that drove the need for interconnectedness, the stringent reliability…
 </td>
-<td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
-<a href="https://laravel-news.com/filament-5-8-0?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Deferred Schema Loading in Filament v5.8</b></a>
-<br><br>
-Filament v5.8 adds deferLoading() for sections, tabs, wizards, and repeater items, plus session-persisted table grouping and lifecycle hooks in traits.
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
-<a href="https://www.freecodecamp.org/news/how-to-build-a-simple-data-analyzer-in-python-with-pandas/"><b>How to Build a Simple Data Analyzer in Python with Pandas</b></a>
-<br><br>
-Data analysis might sound complicated when you first encounter it. You might imagine large databases, advanced mathematics, and complicated machine learning algorithms. But many useful data…
-</td>
-<td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
-<a href="https://laravel-news.com/mastering-laravel-testing-course?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Mastering Laravel Testing: A Video Course on Laravel Tests</b></a>
-<br><br>
-Mastering Laravel Testing is a video course from Joel Clermont on feature tests, mocks, policies, and form validation. Presale pricing ends November 20.
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 5d ago</sub><br>
-<a href="https://stackoverflow.blog/2026/10/23/rumors-of-the-saas-demise-are-greatly-exaggerated/"><b>Rumors of the SaaS demise are greatly exaggerated</b></a>
-<br><br>
-Recorded on the floor of LDX3, Ryan chats with Nivia Henry, an engineering leader most recently at Netflix, about the reality of the supposed SaaS apocalypse, the complex calculus of the…
-</td>
-<td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 5d ago</sub><br>
-<a href="https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/"><b>How bug bounty sharpens one researcher’s security skills</b></a>
-<br><br>
-As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers.
-</td>
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 28 Oct 2026 19:51 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 29 Oct 2026 05:33 WIB.</sub>
 
 <!-- NEWS:END -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20261028" />
-  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261028" width="100%" alt="A snake eating this year's contribution squares" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20261029" />
+  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261029" width="100%" alt="A snake eating this year's contribution squares" />
 </picture>
 
 <picture>
