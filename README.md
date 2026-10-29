@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=318e035948" />
-  <img src="./assets/activity-light.svg?v=d7e3d3bae5" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=dcd03ec413" />
+  <img src="./assets/activity-light.svg?v=26ec65a6a3" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=96a4f6094b" />
-  <img src="./assets/news-light.svg?v=33d35ed976" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=2f62d14e2c" />
+  <img src="./assets/news-light.svg?v=3965e850d2" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,27 +36,41 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://formlabs.com/products/form-studio-1-basic-founders-edition/"><b>Formlabs Studio 1 $699 Resin Printer</b></a>
+<sub><code>LOBSTERS</code>&nbsp; 1h ago</sub><br>
+<a href="https://shiftleft.com/mirrors/www.hpl.hp.com/techreports/2009/HPL-2009-20.pdf"><b>ACLs don’t (2009)</b></a>
 <br><br>
-56 points and 54 comments on the Hacker News front page · formlabs.com
+The ACL model is unable to make correct access decisions for interactions involving more than two principals, since required information is not retained across message sends. Though this…
 </td>
 <td width="50%" valign="top">
 <sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://www.wired.com/story/massive-leak-exposes-41000-homeland-security-workers-including-undercover-ice-agents/"><b>Leak Exposes 41,000 Homeland Security Workers–Including Undercover ICE Agents</b></a>
+<a href="https://www.reuters.com/legal/government/zillow-pay-2125-million-settle-class-action-over-failed-real-estate-venture-2026-10-28/"><b>Zillow to pay $212.5M to settle class action for real estate venture</b></a>
 <br><br>
-141 points and 45 comments on the Hacker News front page · wired.com
+24 points and 4 comments on the Hacker News front page · reuters.com
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>NEXT.JS</code>&nbsp; 2h ago</sub><br>
+<sub><code>HN</code>&nbsp; 2h ago</sub><br>
+<a href="https://www.cnn.com/2026/10/28/sport/live-news/game-5-world-series"><b>The Milwaukee Brewers win the first World Series title in franchise history</b></a>
+<br><br>
+61 points and 23 comments on the Hacker News front page · cnn.com
+</td>
+<td width="50%" valign="top">
+<sub><code>FREECODECAMP</code>&nbsp; 8h ago</sub><br>
+<a href="https://www.freecodecamp.org/news/how-to-build-a-command-line-weather-app-with-python/"><b>How to Build a Command-Line Weather App with Python</b></a>
+<br><br>
+After doing a few basic Python projects, I got a bit bored of programs that just take input and print something back. I wanted to make something that actually gets data from the internet…
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>NEXT.JS</code>&nbsp; 9h ago</sub><br>
 <a href="https://nextjs.org/blog/ship-less-javascript-with-ai"><b>Ship less JavaScript in Next.js with your AI agent</b></a>
 <br><br>
 Optimize your Next.js app's bundles with the next-bundle-optimizer agent skill, or explore them yourself with new Bundle Analyzer tools.
 </td>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 6h ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 13h ago</sub><br>
 <a href="https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/"><b>GitHub Universe 2026: Evolving every layer of the stack</b></a>
 <br><br>
 Today, we laid out our vision for GitHub as the most comprehensive, end-to-end software delivery system in the world.
@@ -64,13 +78,13 @@ Today, we laid out our vision for GitHub as the most comprehensive, end-to-end s
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 6h ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 13h ago</sub><br>
 <a href="https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/"><b>Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents</b></a>
 <br><br>
 See how a record year of growth reached every industry, every field, and every kind of builder in the 2026 Octoverse report.
 </td>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 6h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 13h ago</sub><br>
 <a href="https://dev.to/gde/accuracy-vs-speed-gemma-4-e2b-quantization-tradeoffs-bf16-to-q2k-aea"><b>Accuracy vs Speed: Gemma 4 E2B Quantization Tradeoffs, BF16 to Q2_K</b></a>
 <br><br>
 Gemma 4 E2B quantized from BF16 to Q2_K on one Tesla T4, every rung asked the same 250 GSM8K questions, and each answer buried at the rung where it first goes wrong. Q5_K_M and above hold…
@@ -78,13 +92,13 @@ Gemma 4 E2B quantized from BF16 to Q2_K on one Tesla T4, every rung asked the sa
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 6h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 14h ago</sub><br>
 <a href="https://dev.to/maximsaplin/mercury-3-when-ai-is-fast-enough-to-stay-in-the-loop-3oe5"><b>Mercury 3: When AI Is Fast Enough to Stay in the Loop</b></a>
 <br><br>
 My MSI Claw had a controller problem. I gave Mercury 3 SSH access and described it. About 20 seconds...
 </td>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 7h ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 14h ago</sub><br>
 <a href="https://stackoverflow.blog/2026/10/28/delivering-controlled-and-concentrated-context/"><b>Delivering controlled and concentrated context</b></a>
 <br><br>
 Check out the new features and capabilities now available in Stack Internal and Stack Internal Community. Try Stack Internal for free by visiting stackinternal.com.
@@ -92,7 +106,7 @@ Check out the new features and capabilities now available in Stack Internal and 
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 23h ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
 <a href="https://laravel-news.com/laravel-13-39-0?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Scheduled Session Garbage Collection in Laravel 13.39</b></a>
 <br><br>
 Laravel 13.39 adds a session:garbage-collect command for scheduled session cleanup, keyless models with #[Table(key: false)], and durations on JobAttempted.
@@ -104,23 +118,9 @@ Laravel 13.39 adds a session:garbage-collect command for scheduled session clean
 Next.js is preparing a scheduled November security release for November 3, 2026.
 </td>
 </tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
-<a href="https://www.freecodecamp.org/news/how-to-build-passkey-authentication-with-webauthn-next-js-and-nestjs/"><b>How to Build Passkey Authentication with WebAuthn, Next.js and NestJS</b></a>
-<br><br>
-Passwords are a pain for both users and service providers․ Users often find it difficult to remember passwords, and the risk of phishing and password reuse across multiple websites is high…
-</td>
-<td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 1d ago</sub><br>
-<a href="https://stackoverflow.blog/2026/10/27/elevators-toasters-and-the-birth-of-java/"><b>Elevators, toasters, and the birth of Java</b></a>
-<br><br>
-Ryan sits down with James Gosling, creator of Java at Sun Microsystems, to talk about the early networking friction that drove the need for interconnectedness, the stringent reliability…
-</td>
-</tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 29 Oct 2026 05:33 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · Lobsters · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 29 Oct 2026 12:45 WIB.</sub>
 
 <!-- NEWS:END -->
 
