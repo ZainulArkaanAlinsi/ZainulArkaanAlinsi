@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=1a80fc19f4" />
-  <img src="./assets/activity-light.svg?v=5fe7b0d575" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=7af9ff2c7e" />
+  <img src="./assets/activity-light.svg?v=098b1fe42b" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=95c1be184a" />
-  <img src="./assets/news-light.svg?v=e085d5fa6b" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=3e2ff4d0ce" />
+  <img src="./assets/news-light.svg?v=ddc0c35e56" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,27 +36,41 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 13m ago</sub><br>
-<a href="https://stackoverflow.blog/2026/10/29/the-reports-of-stack-overflow-s-death-are-greatly-exaggerated/"><b>The reports of Stack Overflow's death are greatly exaggerated</b></a>
+<sub><code>STACKOVERFLOW</code>&nbsp; just now</sub><br>
+<a href="https://stackoverflow.blog/2026/10/30/it-s-ok-that-computers-are-sometimes-better-than-us/"><b>It’s ok that computers are (sometimes) better than us</b></a>
 <br><br>
-I’ve seen the recent predictions about Stack Overflow’s demise. They make for compelling headlines, but they confuse a change in how people access knowledge with the disappearance of the…
+Ryan is joined by Charity Majors, co-founder and CTO at Honeycomb, for a conversation about applying the concept of immutable infrastructure to software development to treat code like…
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 29m ago</sub><br>
-<a href="https://claremontreviewofbooks.com/the-great-american-rascal/"><b>The Great American Rascal: Tom Sawyer at 150</b></a>
+<sub><code>HN</code>&nbsp; 3h ago</sub><br>
+<a href="https://www.penligent.ai/hackinglabs/cve-2026-98432/"><b>CVE-2026-98432: Linux TCP Use-After-Free Risk and Patch Validation</b></a>
 <br><br>
-8 points and 0 comments on the Hacker News front page · claremontreviewofbooks.com
+36 points and 27 comments on the Hacker News front page · penligent.ai
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 31m ago</sub><br>
-<a href="https://chengela.substack.com/p/should-a-medical-diagnosis-reshape"><b>Should a medical diagnosis reshape the past? (2025)</b></a>
+<sub><code>HN</code>&nbsp; 3h ago</sub><br>
+<a href="https://github.com/Millillion/lasm"><b>Show HN: Lasm – Write formally verified webapps in Lean for Node/serverless/edge</b></a>
 <br><br>
-3 points and 0 comments on the Hacker News front page · chengela.substack.com
+Lasm has been my dream for a good part of 2026. I firmly believe that formal verification is the next evolution of software engineering and programming languages. This next wave will…
 </td>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 1h ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 7h ago</sub><br>
+<a href="https://stackoverflow.blog/2026/10/29/the-reports-of-stack-overflow-s-death-are-greatly-exaggerated/"><b>The reports of Stack Overflow's death are greatly exaggerated</b></a>
+<br><br>
+I’ve seen the recent predictions about Stack Overflow’s demise. They make for compelling headlines, but they confuse a change in how people access knowledge with the disappearance of the…
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>FREECODECAMP</code>&nbsp; 7h ago</sub><br>
+<a href="https://www.freecodecamp.org/news/ai-search-visibility/"><b>How AI-Powered Search Works: A Guide for Devs on AI Visibility</b></a>
+<br><br>
+Searched worked in a familiar way for decades: you'd type in your query, get back a list of pages, and choose one to click on. Behind the scenes, Google would find the pages it thought you…
+</td>
+<td width="50%" valign="top">
+<sub><code>FREECODECAMP</code>&nbsp; 8h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/learn-real-world-penetration-testing-hands-on-ethical-hacking-crash-course/"><b>Learn Real-World Penetration Testing: Hands-On Ethical Hacking Crash Course</b></a>
 <br><br>
 Understanding how malicious actors infiltrate networks is the first step to building resilient infrastructure. To help developers and aspiring security analysts learn the fundamentals of…
@@ -64,27 +78,13 @@ Understanding how malicious actors infiltrate networks is the first step to buil
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>LOBSTERS</code>&nbsp; 1h ago</sub><br>
-<a href="https://lobste.rs/s/dsrruj/london_meetup"><b>London meetup</b></a>
-<br><br>
-Hi everyone, I recently saw a post about an NYC lobsters meetup, and am wondering how many people here could make it to a London meetup. If more than a couple of people here are based in…
-</td>
-<td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 1h ago</sub><br>
-<a href="https://www.freecodecamp.org/news/high-speed-decision-pipelines-jev-and-prefill-only-inference-from-scratch/"><b>High-Speed Decision Pipelines Jev and Prefill-Only Inference from Scratch</b></a>
-<br><br>
-Autoregressive token generation is notoriously slow and memory-intensive, especially when you only need a model to make a structured classification or routing decision rather than write out…
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 2h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 9h ago</sub><br>
 <a href="https://dev.to/sylwia-lask/yes-0-no-javascript-isnt-broken-14ob"><b>Yes, {} + [] = 0. No, JavaScript Isn’t Broken</b></a>
 <br><br>
 JavaScript is a legendary programming language. Created in the mid-1990s in just 10 days, it was born...
 </td>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 5h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 12h ago</sub><br>
 <a href="https://dev.to/minhlong2605/im-the-last-mail-carrier-in-the-land-of-the-dead-an-open-weight-model-writes-all-the-mail-2cal"><b>💀I'm the last mail carrier in the land of the dead. An open-weight model writes all the mail.</b></a>
 <br><br>
 This is a submission for the Hacktoberfest Open-Source AI Challenge: Week 4: Ghost in the...
@@ -92,7 +92,7 @@ This is a submission for the Hacktoberfest Open-Source AI Challenge: Week 4: Gho
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 18h ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
 <a href="https://laravel-news.com/pollora-wordpress-laravel?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Pollora: Run WordPress Inside a Laravel Application</b></a>
 <br><br>
 Pollora runs WordPress inside Laravel, with Route::wp() routing on conditional tags, Blade themes, and PHP attributes for post types and hooks.
@@ -106,21 +106,21 @@ Optimize your Next.js app's bundles with the next-bundle-optimizer agent skill, 
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 1d ago</sub><br>
-<a href="https://stackoverflow.blog/2026/10/28/a-json-schema-is-not-an-ai-governance-layer/"><b>A JSON schema Is not an AI governance layer</b></a>
-<br><br>
-The AI governance argument is happening one layer above the code that actually stops your agent.
-</td>
-<td width="50%" valign="top">
 <sub><code>GITHUB</code>&nbsp; 1d ago</sub><br>
 <a href="https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/"><b>GitHub Universe 2026: Evolving every layer of the stack</b></a>
 <br><br>
 Today, we laid out our vision for GitHub as the most comprehensive, end-to-end software delivery system in the world.
 </td>
+<td width="50%" valign="top">
+<sub><code>GITHUB</code>&nbsp; 1d ago</sub><br>
+<a href="https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/"><b>Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents</b></a>
+<br><br>
+See how a record year of growth reached every industry, every field, and every kind of builder in the 2026 Octoverse report.
+</td>
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · Lobsters · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 30 Oct 2026 05:43 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 30 Oct 2026 12:44 WIB.</sub>
 
 <!-- NEWS:END -->
 
