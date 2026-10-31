@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=8c1e09233d" />
-  <img src="./assets/activity-light.svg?v=928746eaf2" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=8e659efe2e" />
+  <img src="./assets/activity-light.svg?v=d042fa5c83" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=2e6b753863" />
-  <img src="./assets/news-light.svg?v=b2104d9e29" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=e99365737b" />
+  <img src="./assets/news-light.svg?v=87bbfe0396" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,41 +36,41 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 47m ago</sub><br>
-<a href="https://www.firezone.dev/blog/introducing-sanstun"><b>Sanstun: A sans-IO, parallel-friendly WireGuard implementation in Rust</b></a>
+<sub><code>HN</code>&nbsp; 2h ago</sub><br>
+<a href="https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5"><b>OpenAI raises less than half of $30B target</b></a>
 <br><br>
-5 points and 0 comments on the Hacker News front page · firezone.dev
+86 points and 49 comments on the Hacker News front page · wsj.com
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://www.otwstatus.org"><b>Archive of our own (AO3) hacked</b></a>
+<sub><code>HN</code>&nbsp; 2h ago</sub><br>
+<a href="https://news.ycombinator.com/item?id=50312756"><b>Tell HN: Scribd Breached</b></a>
 <br><br>
-8 points and 0 comments on the Hacker News front page · otwstatus.org
+Not seeing anything posted about this anywhere, received on Monday, 26th of Oct 2026: Subject: Notice of Security Incident This notice is being sent on behalf of Scribd, Inc., the parent…
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 3h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 8h ago</sub><br>
+<a href="https://dev.to/thetylern/how-i-made-yet-another-project-during-a-global-teen-hackathon-with-prizes-38hc"><b>How I Made Yet Another Project During a Global Teen Hackathon with Prizes</b></a>
+<br><br>
+Just over two weeks ago, I made an article here on DEV about how I made an action video game with the...
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 10h ago</sub><br>
 <a href="https://dev.to/amananandrai/i-built-101-indian-monuments-in-the-browser-using-only-code-no-3d-models-3000"><b>I Built 101 Indian Monuments in the Browser Using Only Code (No 3D Models)</b></a>
 <br><br>
 There isn't a single 3D model file on this site. Every one of these 101 monuments, from the Taj...
 </td>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 6h ago</sub><br>
-<a href="https://dev.to/nathan_tarbert/my-open-source-project-is-brand-new-and-already-has-contributors-heres-what-i-did-3fb4"><b>My open source project is brand new and already has contributors. Here's what I did.</b></a>
-<br><br>
-In the spirit of Hacktoberfest, with it being the last day of October, I wanted to share my story...
-</td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 8h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 15h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-to-detect-financial-fraud-patterns-with-knowledge-graphs-a-production-guide/"><b>How to Detect Financial Fraud Patterns with Knowledge Graphs: A Production Guide</b></a>
 <br><br>
 Most anti-fraud architectures in enterprise payment workflows evaluate transactions in isolation. When an invoice arrives, an automated rules engine checks it against static thresholds. It…
 </td>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 14h ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 21h ago</sub><br>
 <a href="https://stackoverflow.blog/2026/10/30/it-s-ok-that-computers-are-sometimes-better-than-us/"><b>It’s ok that computers are (sometimes) better than us</b></a>
 <br><br>
 Ryan is joined by Charity Majors, co-founder and CTO at Honeycomb, for a conversation about applying the concept of immutable infrastructure to software development to treat code like…
@@ -78,13 +78,13 @@ Ryan is joined by Charity Majors, co-founder and CTO at Honeycomb, for a convers
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 23h ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
 <a href="https://laravel-news.com/laravel-delete-expired-sessions?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Delete Expired Sessions in Laravel With a Scheduled Command</b></a>
 <br><br>
 Schedule session:garbage-collect to delete expired Laravel database and file sessions, and turn off the session lottery that runs cleanup in web requests.
 </td>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 23h ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 1d ago</sub><br>
 <a href="https://stackoverflow.blog/2026/10/29/the-reports-of-stack-overflow-s-death-are-greatly-exaggerated/"><b>The reports of Stack Overflow's death are greatly exaggerated</b></a>
 <br><br>
 I’ve seen the recent predictions about Stack Overflow’s demise. They make for compelling headlines, but they confuse a change in how people access knowledge with the disappearance of the…
@@ -98,7 +98,7 @@ I’ve seen the recent predictions about Stack Overflow’s demise. They make fo
 Searched worked in a familiar way for decades: you'd type in your query, get back a list of pages, and choose one to click on. Behind the scenes, Google would find the pages it thought you…
 </td>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 2d ago</sub><br>
 <a href="https://laravel-news.com/pollora-wordpress-laravel?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Pollora: Run WordPress Inside a Laravel Application</b></a>
 <br><br>
 Pollora runs WordPress inside Laravel, with Route::wp() routing on conditional tags, Blade themes, and PHP attributes for post types and hooks.
@@ -120,7 +120,7 @@ Today, we laid out our vision for GitHub as the most comprehensive, end-to-end s
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 31 Oct 2026 05:17 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 31 Oct 2026 12:37 WIB.</sub>
 
 <!-- NEWS:END -->
 
