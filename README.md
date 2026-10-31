@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=5583092d2a" />
-  <img src="./assets/activity-light.svg?v=6e995aca44" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=3e617dead2" />
+  <img src="./assets/activity-light.svg?v=eac2b7152f" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=36fda39684" />
-  <img src="./assets/news-light.svg?v=45991cc90a" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=75b92f6b86" />
+  <img src="./assets/news-light.svg?v=5ebd5b98a2" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,35 +36,35 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 55m ago</sub><br>
-<a href="https://www.assemblee-nationale.fr/dyn/17/comptes-rendus/seance/session-ordinaire-de-2026-2027/premiere-seance-du-vendredi-30-octobre-2026"><b>French lawmakers approved a tax of €0.055 for every gigabyte of internet traffic</b></a>
+<sub><code>HN</code>&nbsp; 23m ago</sub><br>
+<a href="https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering"><b>Anthropic takes steps to block Claude from reverse-engineering video games</b></a>
 <br><br>
-63 points and 59 comments on the Hacker News front page · assemblee-nationale.fr
+10 points and 3 comments on the Hacker News front page · mashable.com
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://en.wikipedia.org/wiki/Shiny_object_syndrome"><b>Shiny Object Syndrome</b></a>
+<sub><code>HN</code>&nbsp; 35m ago</sub><br>
+<a href="https://www.pgdp.net/c/"><b>Distributed Proofreaders</b></a>
 <br><br>
-19 points and 9 comments on the Hacker News front page · en.wikipedia.org
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 5h ago</sub><br>
-<a href="https://dev.to/kakeroth/i-held-a-seance-for-31-dead-websites-the-most-honest-ghost-said-that-never-made-it-into-my-html-2fj"><b>I held a séance for 31 dead websites. The most honest ghost said &quot;that never made it into my…</b></a>
-<br><br>
-This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the Machine In...
-</td>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 10h ago</sub><br>
-<a href="https://dev.to/gnomeman4201/same-evidence-different-judgment-a-small-experiment-on-implied-conclusions-and-evidence-ordering-ndg"><b>Same Evidence, Different Judgment? A Small Experiment on Implied Conclusions and Evidence…</b></a>
-<br><br>
-GnomeMan4201 · Study: composed-inference-ordering-v1.1 · Collected October 31, 2026 UTC What I ran:...
+4 points and 0 comments on the Hacker News front page · pgdp.net
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 22h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 1h ago</sub><br>
+<a href="https://dev.to/sizzlebop/i-retested-my-moe-offloading-benchmarks-some-of-my-conclusions-changed-6f4"><b>I Retested My MoE Offloading Benchmarks. Some of My Conclusions Changed.</b></a>
+<br><br>
+A follow-up to my original 16GB GPU experiment, this time with consistent quantization, repeated...
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 2h ago</sub><br>
+<a href="https://dev.to/aws-builders/desert-hours-mapping-when-transit-disappears-with-amazon-location-service-26m6"><b>Desert Hours: Mapping When Transit Disappears With Amazon Location Service</b></a>
+<br><br>
+An hourly map of who can walk to scheduled transit in Mercer County, NJ, built with Amazon Location Service isolines and transit routing, S3 and CloudFront.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-to-detect-financial-fraud-patterns-with-knowledge-graphs-a-production-guide/"><b>How to Detect Financial Fraud Patterns with Knowledge Graphs: A Production Guide</b></a>
 <br><br>
 Most anti-fraud architectures in enterprise payment workflows evaluate transactions in isolation. When an invoice arrives, an automated rules engine checks it against static thresholds. It…
@@ -106,13 +106,13 @@ Pollora runs WordPress inside Laravel, with Route::wp() routing on conditional t
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>NEXT.JS</code>&nbsp; 2d ago</sub><br>
+<sub><code>NEXT.JS</code>&nbsp; 3d ago</sub><br>
 <a href="https://nextjs.org/blog/ship-less-javascript-with-ai"><b>Ship less JavaScript in Next.js with your AI agent</b></a>
 <br><br>
 Optimize your Next.js app's bundles with the next-bundle-optimizer agent skill, or explore them yourself with new Bundle Analyzer tools.
 </td>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 2d ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 3d ago</sub><br>
 <a href="https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/"><b>GitHub Universe 2026: Evolving every layer of the stack</b></a>
 <br><br>
 Today, we laid out our vision for GitHub as the most comprehensive, end-to-end software delivery system in the world.
@@ -120,13 +120,13 @@ Today, we laid out our vision for GitHub as the most comprehensive, end-to-end s
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 31 Oct 2026 19:24 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 01 Nov 2026 04:31 WIB.</sub>
 
 <!-- NEWS:END -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20261031" />
-  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261031" width="100%" alt="A snake eating this year's contribution squares" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20261101" />
+  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261101" width="100%" alt="A snake eating this year's contribution squares" />
 </picture>
 
 <picture>
