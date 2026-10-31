@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=8e659efe2e" />
-  <img src="./assets/activity-light.svg?v=d042fa5c83" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=5583092d2a" />
+  <img src="./assets/activity-light.svg?v=6e995aca44" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=e99365737b" />
-  <img src="./assets/news-light.svg?v=87bbfe0396" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=36fda39684" />
+  <img src="./assets/news-light.svg?v=45991cc90a" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,41 +36,41 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 2h ago</sub><br>
-<a href="https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5"><b>OpenAI raises less than half of $30B target</b></a>
+<sub><code>HN</code>&nbsp; 55m ago</sub><br>
+<a href="https://www.assemblee-nationale.fr/dyn/17/comptes-rendus/seance/session-ordinaire-de-2026-2027/premiere-seance-du-vendredi-30-octobre-2026"><b>French lawmakers approved a tax of €0.055 for every gigabyte of internet traffic</b></a>
 <br><br>
-86 points and 49 comments on the Hacker News front page · wsj.com
+63 points and 59 comments on the Hacker News front page · assemblee-nationale.fr
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 2h ago</sub><br>
-<a href="https://news.ycombinator.com/item?id=50312756"><b>Tell HN: Scribd Breached</b></a>
+<sub><code>HN</code>&nbsp; 1h ago</sub><br>
+<a href="https://en.wikipedia.org/wiki/Shiny_object_syndrome"><b>Shiny Object Syndrome</b></a>
 <br><br>
-Not seeing anything posted about this anywhere, received on Monday, 26th of Oct 2026: Subject: Notice of Security Incident This notice is being sent on behalf of Scribd, Inc., the parent…
+19 points and 9 comments on the Hacker News front page · en.wikipedia.org
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 8h ago</sub><br>
-<a href="https://dev.to/thetylern/how-i-made-yet-another-project-during-a-global-teen-hackathon-with-prizes-38hc"><b>How I Made Yet Another Project During a Global Teen Hackathon with Prizes</b></a>
+<sub><code>DEV</code>&nbsp; 5h ago</sub><br>
+<a href="https://dev.to/kakeroth/i-held-a-seance-for-31-dead-websites-the-most-honest-ghost-said-that-never-made-it-into-my-html-2fj"><b>I held a séance for 31 dead websites. The most honest ghost said &quot;that never made it into my…</b></a>
 <br><br>
-Just over two weeks ago, I made an article here on DEV about how I made an action video game with the...
+This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the Machine In...
 </td>
 <td width="50%" valign="top">
 <sub><code>DEV</code>&nbsp; 10h ago</sub><br>
-<a href="https://dev.to/amananandrai/i-built-101-indian-monuments-in-the-browser-using-only-code-no-3d-models-3000"><b>I Built 101 Indian Monuments in the Browser Using Only Code (No 3D Models)</b></a>
+<a href="https://dev.to/gnomeman4201/same-evidence-different-judgment-a-small-experiment-on-implied-conclusions-and-evidence-ordering-ndg"><b>Same Evidence, Different Judgment? A Small Experiment on Implied Conclusions and Evidence…</b></a>
 <br><br>
-There isn't a single 3D model file on this site. Every one of these 101 monuments, from the Taj...
+GnomeMan4201 · Study: composed-inference-ordering-v1.1 · Collected October 31, 2026 UTC What I ran:...
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 15h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 22h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-to-detect-financial-fraud-patterns-with-knowledge-graphs-a-production-guide/"><b>How to Detect Financial Fraud Patterns with Knowledge Graphs: A Production Guide</b></a>
 <br><br>
 Most anti-fraud architectures in enterprise payment workflows evaluate transactions in isolation. When an invoice arrives, an automated rules engine checks it against static thresholds. It…
 </td>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 21h ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 1d ago</sub><br>
 <a href="https://stackoverflow.blog/2026/10/30/it-s-ok-that-computers-are-sometimes-better-than-us/"><b>It’s ok that computers are (sometimes) better than us</b></a>
 <br><br>
 Ryan is joined by Charity Majors, co-founder and CTO at Honeycomb, for a conversation about applying the concept of immutable infrastructure to software development to treat code like…
@@ -120,7 +120,7 @@ Today, we laid out our vision for GitHub as the most comprehensive, end-to-end s
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 31 Oct 2026 12:37 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 31 Oct 2026 19:24 WIB.</sub>
 
 <!-- NEWS:END -->
 
