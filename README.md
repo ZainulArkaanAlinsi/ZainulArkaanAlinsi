@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=2b4487c0ef" />
-  <img src="./assets/activity-light.svg?v=b71c538dd4" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=b6f1163dec" />
+  <img src="./assets/activity-light.svg?v=704d916588" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=aaf9448986" />
-  <img src="./assets/news-light.svg?v=c7e2289ca3" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=575c4df860" />
+  <img src="./assets/news-light.svg?v=d844ccd80f" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,91 +36,91 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 16m ago</sub><br>
-<a href="https://outerzone.co.uk/plans.asp?cat=Engines"><b>Model Aero Engines Free Manufacturable Plans/Blueprints</b></a>
+<sub><code>HN</code>&nbsp; 34m ago</sub><br>
+<a href="https://www.cnn.com/2026/10/30/business/ai-stocks-bonds-debt"><b>The question we should all be asking about AI</b></a>
 <br><br>
-3 points and 0 comments on the Hacker News front page · outerzone.co.uk
+4 points and 0 comments on the Hacker News front page · cnn.com
 </td>
 <td width="50%" valign="top">
-<sub><code>LOBSTERS</code>&nbsp; 1h ago</sub><br>
-<a href="https://dl.acm.org/doi/10.1145/857076.857077"><b>A brief history of just-in-time (2003)</b></a>
+<sub><code>HN</code>&nbsp; 2h ago</sub><br>
+<a href="https://noyb.eu/en/noyb-win-french-electronics-retailer-fnac-darty-fined-eu7-million"><b>noyb win: French electronics retailer Fnac Darty fined €7M</b></a>
 <br><br>
-PDF Software systems have been using &quot;just-in-time&quot; compilation (JIT) techniques since the 1960s. Broadly, JIT compilation includes any translation performed dynamically, after a program…
+24 points and 3 comments on the Hacker News front page · noyb.eu
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 3h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 6h ago</sub><br>
+<a href="https://dev.to/anchildress1/gravespeaker-giving-the-person-behind-the-headstone-a-voice-329e"><b>Gravespeaker: Giving the Person Behind the Headstone a Voice</b></a>
+<br><br>
+This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the...
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 10h ago</sub><br>
 <a href="https://dev.to/nazar-boyko/here-lies-my-toaster-1nmm"><b>Here Lies My Toaster</b></a>
 <br><br>
 This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the Machine ...
 </td>
-<td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 3h ago</sub><br>
-<a href="https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/"><b>Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing</b></a>
-<br><br>
-58 points and 23 comments on the Hacker News front page · jetstream.security
-</td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 7h ago</sub><br>
-<a href="https://dev.to/rajan_mishra_a9f78ad216b4/ofrenda-the-ghost-in-the-machine-an-offering-to-abandoned-software-pk2"><b>🕯️ Ofrenda: The Ghost in the Machine — An Offering to Abandoned Software</b></a>
-<br><br>
-This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the Machine ...
-</td>
 <td width="50%" valign="top">
 <sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-to-detect-financial-fraud-patterns-with-knowledge-graphs-a-production-guide/"><b>How to Detect Financial Fraud Patterns with Knowledge Graphs: A Production Guide</b></a>
 <br><br>
 Most anti-fraud architectures in enterprise payment workflows evaluate transactions in isolation. When an invoice arrives, an automated rules engine checks it against static thresholds. It…
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 1d ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 2d ago</sub><br>
 <a href="https://stackoverflow.blog/2026/10/30/it-s-ok-that-computers-are-sometimes-better-than-us/"><b>It’s ok that computers are (sometimes) better than us</b></a>
 <br><br>
 Ryan is joined by Charity Majors, co-founder and CTO at Honeycomb, for a conversation about applying the concept of immutable infrastructure to software development to treat code like…
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <sub><code>LARAVEL</code>&nbsp; 2d ago</sub><br>
 <a href="https://laravel-news.com/laravel-delete-expired-sessions?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Delete Expired Sessions in Laravel With a Scheduled Command</b></a>
 <br><br>
 Schedule session:garbage-collect to delete expired Laravel database and file sessions, and turn off the session lottery that runs cleanup in web requests.
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <sub><code>STACKOVERFLOW</code>&nbsp; 2d ago</sub><br>
 <a href="https://stackoverflow.blog/2026/10/29/the-reports-of-stack-overflow-s-death-are-greatly-exaggerated/"><b>The reports of Stack Overflow's death are greatly exaggerated</b></a>
 <br><br>
 I’ve seen the recent predictions about Stack Overflow’s demise. They make for compelling headlines, but they confuse a change in how people access knowledge with the disappearance of the…
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <sub><code>FREECODECAMP</code>&nbsp; 2d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/ai-search-visibility/"><b>How AI-Powered Search Works: A Guide for Devs on AI Visibility</b></a>
 <br><br>
 Searched worked in a familiar way for decades: you'd type in your query, get back a list of pages, and choose one to click on. Behind the scenes, Google would find the pages it thought you…
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <sub><code>LARAVEL</code>&nbsp; 3d ago</sub><br>
 <a href="https://laravel-news.com/pollora-wordpress-laravel?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Pollora: Run WordPress Inside a Laravel Application</b></a>
 <br><br>
 Pollora runs WordPress inside Laravel, with Route::wp() routing on conditional tags, Blade themes, and PHP attributes for post types and hooks.
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <sub><code>NEXT.JS</code>&nbsp; 3d ago</sub><br>
 <a href="https://nextjs.org/blog/ship-less-javascript-with-ai"><b>Ship less JavaScript in Next.js with your AI agent</b></a>
 <br><br>
 Optimize your Next.js app's bundles with the next-bundle-optimizer agent skill, or explore them yourself with new Bundle Analyzer tools.
 </td>
+<td width="50%" valign="top">
+<sub><code>GITHUB</code>&nbsp; 3d ago</sub><br>
+<a href="https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/"><b>GitHub Universe 2026: Evolving every layer of the stack</b></a>
+<br><br>
+Today, we laid out our vision for GitHub as the most comprehensive, end-to-end software delivery system in the world.
+</td>
 </tr>
 </table>
 
-<sub>Sources: Hacker News · dev.to · Laravel News · Next.js · Lobsters · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 01 Nov 2026 12:59 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 01 Nov 2026 20:19 WIB.</sub>
 
 <!-- NEWS:END -->
 
