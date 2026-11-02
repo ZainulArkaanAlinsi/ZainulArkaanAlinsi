@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=6be34aa093" />
-  <img src="./assets/activity-light.svg?v=287c90fa14" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=95f5d73b15" />
+  <img src="./assets/activity-light.svg?v=1d6b36adbd" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=fcab0b1cc8" />
-  <img src="./assets/news-light.svg?v=4b697d17f6" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=7ff8f6281a" />
+  <img src="./assets/news-light.svg?v=d93b0beb74" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,27 +36,27 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 23m ago</sub><br>
+<sub><code>HN</code>&nbsp; 3h ago</sub><br>
+<a href="https://fosscomics.com/posts/13.%20BSD%20Unix%20Part%203%20-%20The%20Beginning%20of%20BSD%20Unix/"><b>F/OSS Comics #13: BSD Unix, Part 3 – The Beginning of BSD Unix</b></a>
+<br><br>
+62 points and 5 comments on the Hacker News front page · fosscomics.com
+</td>
+<td width="50%" valign="top">
+<sub><code>HN</code>&nbsp; 4h ago</sub><br>
+<a href="https://www.eurogamer.net/ai-fan-wikis-errors-complicating-games-culture"><b>AI fan wikis riddled with errors are muddying the waters of games culture</b></a>
+<br><br>
+59 points and 31 comments on the Hacker News front page · eurogamer.net
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>GITHUB</code>&nbsp; 8h ago</sub><br>
 <a href="https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift/"><b>Game Off 2026: The theme is SHIFT</b></a>
 <br><br>
 GitHub’s annual month-long game jam is back for its 14th year! This November, make a game inspired by the theme SHIFT. Change gears, swap perspectives, bend reality, or just press a certain…
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 39m ago</sub><br>
-<a href="https://asymco.com/2026/11/01/the-last-consumer-company/"><b>Apple captures 50% of consumer revenue of the top half of the S&amp;P 500</b></a>
-<br><br>
-55 points and 29 comments on the Hacker News front page · asymco.com
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://www.doctorwhonews.net/2026/11/john_leeson_1943_2026.html"><b>John Leeson (the voice of K9) has died</b></a>
-<br><br>
-15 points and 1 comment on the Hacker News front page · doctorwhonews.net
-</td>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 4h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 12h ago</sub><br>
 <a href="https://dev.to/hemapriya_kanagala/dev-pet-corner-4-show-us-your-pets-55jh"><b>🐾 DEV Pet Corner #4: Show Us Your Pets!</b></a>
 <br><br>
 TL;DR DEV Pet Corner is back for another Sunday! It's a weekly series where we take a little break...
@@ -64,10 +64,10 @@ TL;DR DEV Pet Corner is back for another Sunday! It's a weekly series where we t
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 15h ago</sub><br>
-<a href="https://dev.to/anchildress1/gravespeaker-giving-the-person-behind-the-headstone-a-voice-329e"><b>Gravespeaker: Giving the Person Behind the Headstone a Voice</b></a>
+<sub><code>DEV</code>&nbsp; 17h ago</sub><br>
+<a href="https://dev.to/chet103cc/i-grepped-for-ts-ignore-and-found-zero-then-i-grepped-for-the-cast-nobody-bans-723"><b>I grepped for @ts-ignore and found zero. Then I grepped for the cast nobody bans</b></a>
 <br><br>
-This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the...
+Every TypeScript team has a rule about @ts-ignore. Ours does too, and it works: zero occurrences...
 </td>
 <td width="50%" valign="top">
 <sub><code>FREECODECAMP</code>&nbsp; 2d ago</sub><br>
@@ -84,7 +84,7 @@ Most anti-fraud architectures in enterprise payment workflows evaluate transacti
 Ryan is joined by Charity Majors, co-founder and CTO at Honeycomb, for a conversation about applying the concept of immutable infrastructure to software development to treat code like…
 </td>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 2d ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 3d ago</sub><br>
 <a href="https://laravel-news.com/laravel-delete-expired-sessions?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Delete Expired Sessions in Laravel With a Scheduled Command</b></a>
 <br><br>
 Schedule session:garbage-collect to delete expired Laravel database and file sessions, and turn off the session lottery that runs cleanup in web requests.
@@ -92,7 +92,7 @@ Schedule session:garbage-collect to delete expired Laravel database and file ses
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 2d ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 3d ago</sub><br>
 <a href="https://stackoverflow.blog/2026/10/29/the-reports-of-stack-overflow-s-death-are-greatly-exaggerated/"><b>The reports of Stack Overflow's death are greatly exaggerated</b></a>
 <br><br>
 I’ve seen the recent predictions about Stack Overflow’s demise. They make for compelling headlines, but they confuse a change in how people access knowledge with the disappearance of the…
@@ -106,7 +106,7 @@ Searched worked in a familiar way for decades: you'd type in your query, get bac
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 3d ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 4d ago</sub><br>
 <a href="https://laravel-news.com/pollora-wordpress-laravel?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Pollora: Run WordPress Inside a Laravel Application</b></a>
 <br><br>
 Pollora runs WordPress inside Laravel, with Route::wp() routing on conditional tags, Blade themes, and PHP attributes for post types and hooks.
@@ -120,7 +120,7 @@ Optimize your Next.js app's bundles with the next-bundle-optimizer agent skill, 
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 02 Nov 2026 04:59 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 02 Nov 2026 12:58 WIB.</sub>
 
 <!-- NEWS:END -->
 
