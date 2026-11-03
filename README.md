@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=b6b167f89d" />
-  <img src="./assets/activity-light.svg?v=2d50dc7803" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=ebfdb7b39c" />
+  <img src="./assets/activity-light.svg?v=5155b61fd6" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=d475b542f7" />
-  <img src="./assets/news-light.svg?v=091b814cc7" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=f691d1c74b" />
+  <img src="./assets/news-light.svg?v=4afda30067" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,80 +36,80 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 47m ago</sub><br>
-<a href="https://finance.yahoo.com/markets/article/the-intel-stock-collapse-is-getting-worse--and-the-37-trillion-chip-rout-is-spreading-212154947.html"><b>Intel stock collapse worsens as $3.5T chip rout spreads</b></a>
+<sub><code>DEV</code>&nbsp; 10m ago</sub><br>
+<a href="https://dev.to/devteam/top-7-featured-dev-posts-of-the-week-cio"><b>Top 7 Featured DEV Posts of the Week</b></a>
 <br><br>
-20 points and 3 comments on the Hacker News front page · finance.yahoo.com
+Welcome to this week's Top 7, where the DEV editorial team handpicks their favorite posts from the...
+</td>
+<td width="50%" valign="top">
+<sub><code>LOBSTERS</code>&nbsp; 47m ago</sub><br>
+<a href="https://en.opensuse.org/Release_announcement_16.1"><b>openSUSE Leap 16.1</b></a>
+<br><br>
+This is the first minor release in the Leap 16 series and with this release, openSUSE’s immutable server distribution, Leap Micro, becomes part of Leap itself through a new Immutable Mode…
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>HN</code>&nbsp; 1h ago</sub><br>
+<a href="https://kvittas.app"><b>Show HN: Kvittas, an Expense Splitting App</b></a>
+<br><br>
+I built this to replace Cost Split, which I've used for several years and always thought was great but lacking in the UI. No account required.
 </td>
 <td width="50%" valign="top">
 <sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://news.ycombinator.com/item?id=50345712"><b>WorkOS reports security breach</b></a>
+<a href="https://getbema.app/"><b>Show HN: Bema: Work messaging built for humans</b></a>
 <br><br>
-It's not on their website or Trust center yet, but we received the following breach notification from WorkOS: We are writing to notify you of a data security incident that we detected on…
+Hi HN! I'm Ben, the founder of Bema. I've been frustrated with the current state of work messaging software for a while now, and I've heard similar complaints from friends and coworkers…
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 <sub><code>DEV</code>&nbsp; 3h ago</sub><br>
-<a href="https://dev.to/gde/gemma-4-in-rust-on-torchtpu-a-native-tpu-rig-with-pyo3-and-mcp-47j1"><b>Gemma 4 in Rust on TorchTPU: A Native TPU Rig With PyO3 and MCP</b></a>
+<a href="https://dev.to/alexgeorgiev17/fastapi-01620-fixes-a-required-checkbox-that-was-never-actually-required-5boc"><b>FastAPI 0.162.0 fixes a required checkbox that was never actually required</b></a>
 <br><br>
-Gemma 4 E2B with the model in Rust, served from a TPU v5e-1 VM through PyO3 and a C++ shim over ATen, with no tch and no pinned PyTorch, an OpenAI endpoint, an MCP server and a local chat…
+FastAPI 0.162.0 stopped silently turning every omitted boolean form field into False, including ones declared Form(...) as required. I measured the before and after on four field shapes…
 </td>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 3h ago</sub><br>
-<a href="https://dev.to/amananandrai/i-built-llm-explained-43-interactive-pages-that-take-you-from-tokens-to-ai-agents-2n37"><b>I Built LLM Explained: 43 Interactive Pages That Take You From Tokens to AI Agents</b></a>
+<sub><code>STACKOVERFLOW</code>&nbsp; 5h ago</sub><br>
+<a href="https://stackoverflow.blog/2026/11/03/oh-your-agents-need-oauth2-too/"><b>Oh, your agents need OAuth2, too</b></a>
 <br><br>
-I kept running into the same problem while learning about large language models. I'd read a blog...
+Recorded at LDX3 by LeadDev, Ryan chats with Dan Moore, Senior Director of CIAM Strategy and Identity Standards at FusionAuth, about adapting established OAuth2 protocols for the agentic…
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>LOBSTERS</code>&nbsp; 4h ago</sub><br>
-<a href="https://www.usenix.org/publications/login/oct15/bender"><b>An Introduction to Bε-trees and Write-Optimization</b></a>
+<sub><code>LARAVEL</code>&nbsp; 10h ago</sub><br>
+<a href="https://laravel-news.com/composer-2-11?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Cooldown Dependency Policy now in Composer 2.11</b></a>
 <br><br>
-This is the underlying tech of the recently posted GEFS: https://lobste.rs/s/zjjvbo/work_on_gefs_good_enough_file_system_for Comments
+Composer 2.11 can hold back newly published package versions for a set period before installing them. It also ships six security fixes and faster resolution.
 </td>
 <td width="50%" valign="top">
 <sub><code>LARAVEL</code>&nbsp; 10h ago</sub><br>
-<a href="https://laravel-news.com/maileroo-laravel-email-testing?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Email Sending and Testing for Laravel in One Account</b></a>
+<a href="https://laravel-news.com/inertia-3-11-0?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Live Props for Real-Time Updates in Inertia.js v3.11</b></a>
 <br><br>
-Send real mail from Laravel and catch test emails in one Maileroo account: SMTP sink, spam and dark-mode checks, and automated tests in CI.
+Inertia.js v3.11 adds live props, which reload a page prop when a broadcast event arrives, with Laravel Echo, Reverb, Pusher, and Action Cable transports.
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
-<a href="https://laravel-news.com/pie-1-5?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>PIE 1.5 Changes PHP Extension Installs in CI</b></a>
-<br><br>
-PIE 1.5 requires explicit extension package choices in CI. See how to update a Laravel project's Redis install and skip development extensions.
-</td>
 <td width="50%" valign="top">
 <sub><code>GITHUB</code>&nbsp; 1d ago</sub><br>
 <a href="https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift/"><b>Game Off 2026: The theme is SHIFT</b></a>
 <br><br>
 GitHub’s annual month-long game jam is back for its 14th year! This November, make a game inspired by the theme SHIFT. Change gears, swap perspectives, bend reality, or just press a certain…
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 3d ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 4d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-to-detect-financial-fraud-patterns-with-knowledge-graphs-a-production-guide/"><b>How to Detect Financial Fraud Patterns with Knowledge Graphs: A Production Guide</b></a>
 <br><br>
 Most anti-fraud architectures in enterprise payment workflows evaluate transactions in isolation. When an invoice arrives, an automated rules engine checks it against static thresholds. It…
-</td>
-<td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 3d ago</sub><br>
-<a href="https://stackoverflow.blog/2026/10/30/it-s-ok-that-computers-are-sometimes-better-than-us/"><b>It’s ok that computers are (sometimes) better than us</b></a>
-<br><br>
-Ryan is joined by Charity Majors, co-founder and CTO at Honeycomb, for a conversation about applying the concept of immutable infrastructure to software development to treat code like…
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 <sub><code>STACKOVERFLOW</code>&nbsp; 4d ago</sub><br>
-<a href="https://stackoverflow.blog/2026/10/29/the-reports-of-stack-overflow-s-death-are-greatly-exaggerated/"><b>The reports of Stack Overflow's death are greatly exaggerated</b></a>
+<a href="https://stackoverflow.blog/2026/10/30/it-s-ok-that-computers-are-sometimes-better-than-us/"><b>It’s ok that computers are (sometimes) better than us</b></a>
 <br><br>
-I’ve seen the recent predictions about Stack Overflow’s demise. They make for compelling headlines, but they confuse a change in how people access knowledge with the disappearance of the…
+Ryan is joined by Charity Majors, co-founder and CTO at Honeycomb, for a conversation about applying the concept of immutable infrastructure to software development to treat code like…
 </td>
 <td width="50%" valign="top">
 <sub><code>FREECODECAMP</code>&nbsp; 4d ago</sub><br>
@@ -120,7 +120,7 @@ Searched worked in a familiar way for decades: you'd type in your query, get bac
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Lobsters · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 03 Nov 2026 07:56 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Lobsters · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 03 Nov 2026 21:09 WIB.</sub>
 
 <!-- NEWS:END -->
 
