@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=72866ff21e" />
-  <img src="./assets/activity-light.svg?v=1ec537713b" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=b6b167f89d" />
+  <img src="./assets/activity-light.svg?v=2d50dc7803" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=493da5c347" />
-  <img src="./assets/news-light.svg?v=7a3f711f5b" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=d475b542f7" />
+  <img src="./assets/news-light.svg?v=091b814cc7" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,27 +36,41 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 45m ago</sub><br>
-<a href="https://www.quora.com/Why-are-Soviet-mathematics-physics-textbooks-so-insanely-hardcore-in-comparison-to-US-textbooks/answer/Scott-Miller-307?share=1"><b>Why are Soviet math textbooks so hardcore in comparison to US textbooks? (2017)</b></a>
+<sub><code>HN</code>&nbsp; 47m ago</sub><br>
+<a href="https://finance.yahoo.com/markets/article/the-intel-stock-collapse-is-getting-worse--and-the-37-trillion-chip-rout-is-spreading-212154947.html"><b>Intel stock collapse worsens as $3.5T chip rout spreads</b></a>
 <br><br>
-43 points and 33 comments on the Hacker News front page · quora.com
+20 points and 3 comments on the Hacker News front page · finance.yahoo.com
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 52m ago</sub><br>
-<a href="https://academic.oup.com/biomedgerontology/article/81/10/glag208/8769491?login=false"><b>Napping Characteristics and Incident Dementia</b></a>
+<sub><code>HN</code>&nbsp; 1h ago</sub><br>
+<a href="https://news.ycombinator.com/item?id=50345712"><b>WorkOS reports security breach</b></a>
 <br><br>
-6 points and 1 comment on the Hacker News front page · academic.oup.com
+It's not on their website or Trust center yet, but we received the following breach notification from WorkOS: We are writing to notify you of a data security incident that we detected on…
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 53m ago</sub><br>
-<a href="https://dev.to/gde/gemma-4-in-rust-on-torchtpu-hands-on-with-colab-44hi"><b>Gemma 4 in Rust on TorchTPU: Hands On With Colab</b></a>
+<sub><code>DEV</code>&nbsp; 3h ago</sub><br>
+<a href="https://dev.to/gde/gemma-4-in-rust-on-torchtpu-a-native-tpu-rig-with-pyo3-and-mcp-47j1"><b>Gemma 4 in Rust on TorchTPU: A Native TPU Rig With PyO3 and MCP</b></a>
 <br><br>
-A Rust crate reads the checkpoint, runs all 35 layers of Gemma 4 E2B and drives the decode loop on one TPU v5e chip in Colab, with every operation a TorchTPU kernel and the same tokens as…
+Gemma 4 E2B with the model in Rust, served from a TPU v5e-1 VM through PyO3 and a C++ shim over ATen, with no tch and no pinned PyTorch, an OpenAI endpoint, an MCP server and a local chat…
 </td>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 1h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 3h ago</sub><br>
+<a href="https://dev.to/amananandrai/i-built-llm-explained-43-interactive-pages-that-take-you-from-tokens-to-ai-agents-2n37"><b>I Built LLM Explained: 43 Interactive Pages That Take You From Tokens to AI Agents</b></a>
+<br><br>
+I kept running into the same problem while learning about large language models. I'd read a blog...
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>LOBSTERS</code>&nbsp; 4h ago</sub><br>
+<a href="https://www.usenix.org/publications/login/oct15/bender"><b>An Introduction to Bε-trees and Write-Optimization</b></a>
+<br><br>
+This is the underlying tech of the recently posted GEFS: https://lobste.rs/s/zjjvbo/work_on_gefs_good_enough_file_system_for Comments
+</td>
+<td width="50%" valign="top">
+<sub><code>LARAVEL</code>&nbsp; 10h ago</sub><br>
 <a href="https://laravel-news.com/maileroo-laravel-email-testing?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Email Sending and Testing for Laravel in One Account</b></a>
 <br><br>
 Send real mail from Laravel and catch test emails in one Maileroo account: SMTP sink, spam and dark-mode checks, and automated tests in CI.
@@ -64,69 +78,55 @@ Send real mail from Laravel and catch test emails in one Maileroo account: SMTP 
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 4h ago</sub><br>
-<a href="https://dev.to/shubhradev/does-abortsignal-cancel-a-nodejs-database-query-4-drivers-tested-al0"><b>Does AbortSignal Cancel a Node.js Database Query? 4 Drivers Tested</b></a>
-<br><br>
-I let 12 Node.js clients walk away from their database queries on a 4-connection pool. The abandoned...
-</td>
-<td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 15h ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
 <a href="https://laravel-news.com/pie-1-5?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>PIE 1.5 Changes PHP Extension Installs in CI</b></a>
 <br><br>
 PIE 1.5 requires explicit extension package choices in CI. See how to update a Laravel project's Redis install and skip development extensions.
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 18h ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 1d ago</sub><br>
 <a href="https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift/"><b>Game Off 2026: The theme is SHIFT</b></a>
 <br><br>
 GitHub’s annual month-long game jam is back for its 14th year! This November, make a game inspired by the theme SHIFT. Change gears, swap perspectives, bend reality, or just press a certain…
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <sub><code>FREECODECAMP</code>&nbsp; 3d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-to-detect-financial-fraud-patterns-with-knowledge-graphs-a-production-guide/"><b>How to Detect Financial Fraud Patterns with Knowledge Graphs: A Production Guide</b></a>
 <br><br>
 Most anti-fraud architectures in enterprise payment workflows evaluate transactions in isolation. When an invoice arrives, an automated rules engine checks it against static thresholds. It…
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <sub><code>STACKOVERFLOW</code>&nbsp; 3d ago</sub><br>
 <a href="https://stackoverflow.blog/2026/10/30/it-s-ok-that-computers-are-sometimes-better-than-us/"><b>It’s ok that computers are (sometimes) better than us</b></a>
 <br><br>
 Ryan is joined by Charity Majors, co-founder and CTO at Honeycomb, for a conversation about applying the concept of immutable infrastructure to software development to treat code like…
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 3d ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 4d ago</sub><br>
 <a href="https://stackoverflow.blog/2026/10/29/the-reports-of-stack-overflow-s-death-are-greatly-exaggerated/"><b>The reports of Stack Overflow's death are greatly exaggerated</b></a>
 <br><br>
 I’ve seen the recent predictions about Stack Overflow’s demise. They make for compelling headlines, but they confuse a change in how people access knowledge with the disappearance of the…
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 3d ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 4d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/ai-search-visibility/"><b>How AI-Powered Search Works: A Guide for Devs on AI Visibility</b></a>
 <br><br>
 Searched worked in a familiar way for decades: you'd type in your query, get back a list of pages, and choose one to click on. Behind the scenes, Google would find the pages it thought you…
 </td>
-<td width="50%" valign="top">
-<sub><code>NEXT.JS</code>&nbsp; 4d ago</sub><br>
-<a href="https://nextjs.org/blog/ship-less-javascript-with-ai"><b>Ship less JavaScript in Next.js with your AI agent</b></a>
-<br><br>
-Optimize your Next.js app's bundles with the next-bundle-optimizer agent skill, or explore them yourself with new Bundle Analyzer tools.
-</td>
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 02 Nov 2026 22:46 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Lobsters · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 03 Nov 2026 07:56 WIB.</sub>
 
 <!-- NEWS:END -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20261102" />
-  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261102" width="100%" alt="A snake eating this year's contribution squares" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20261103" />
+  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261103" width="100%" alt="A snake eating this year's contribution squares" />
 </picture>
 
 <picture>
