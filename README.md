@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=e1f060645c" />
-  <img src="./assets/activity-light.svg?v=b20ce3f321" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=f0e2bac9a4" />
+  <img src="./assets/activity-light.svg?v=92f7868b57" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=6efe35f3f4" />
-  <img src="./assets/news-light.svg?v=9d691ff1f7" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=68ffacebae" />
+  <img src="./assets/news-light.svg?v=a974192949" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,41 +36,41 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 16m ago</sub><br>
-<a href="https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates"><b>US midterm elections 2026 live updates: Democrats win Senate control and edge</b></a>
+<sub><code>HN</code>&nbsp; 12m ago</sub><br>
+<a href="https://www.semafor.com/article/11/04/2026/us-voters-roundly-reject-data-centers-in-ballot-measures"><b>US voters roundly reject data centers in ballot measures</b></a>
 <br><br>
-12 points and 0 comments on the Hacker News front page · theguardian.com
+4 points and 0 comments on the Hacker News front page · semafor.com
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 2h ago</sub><br>
-<a href="https://mrdoob.github.io/codevember-2026/01/"><b>Jelly Sheet</b></a>
+<sub><code>HN</code>&nbsp; 28m ago</sub><br>
+<a href="https://www.youtube.com/watch?v=WxaRn8kX2eI"><b>Jaron Lanier on parallels between AI and social media</b></a>
 <br><br>
-63 points and 11 comments on the Hacker News front page · mrdoob.github.io
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 7h ago</sub><br>
-<a href="https://dev.to/devteam/thats-a-wrap-on-hacktoberfest-2026-148k"><b>That's a Wrap on Hacktoberfest 2026! 🎃👻</b></a>
-<br><br>
-Hacktoberfest 2026 wrapped up on October 31st! Thank you to everyone who built, hosted, mentored,...
-</td>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 9h ago</sub><br>
-<a href="https://dev.to/maame-codes/lets-see-where-you-code-147"><b>Let's see where you code!</b></a>
-<br><br>
-I’ve been writing a lot about AWS lately, so let’s take a breather. This is my little corner of the...
+6 points and 0 comments on the Hacker News front page · youtube.com
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 11h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 3h ago</sub><br>
+<a href="https://dev.to/wasp/after-5-years-wasp-10-is-coming-a-6-month-plan-for-our-full-stack-js-framework-4hlf"><b>After 5 years, Wasp 1.0 is coming: a 6-month plan for our full-stack JS framework</b></a>
+<br><br>
+The time has come: Wasp 1.0 is now officially in the works! ETA: ~6 months. Even though still...
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 6h ago</sub><br>
+<a href="https://dev.to/sylwia-lask/were-building-ai-to-replace-ourselves-whats-the-plan-4oll"><b>We're Building AI to Replace Ourselves. What's the Plan?</b></a>
+<br><br>
+Weren't we supposed to be replaced by AI by now? Or at least work less? AI agents were supposed to...
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>FREECODECAMP</code>&nbsp; 19h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/fix-common-technical-seo-issues/"><b>How to Find and Fix Common Technical SEO Issues on Your Website</b></a>
 <br><br>
 Let's say you've built a website. You've invested in the design, bought a domain, and so on. But a website isn't only what you see on the screen. A lot happens behind the scenes. You have…
 </td>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 11h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 19h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-to-automate-docker-image-creation-for-postgres-using-shell/"><b>How to Automate Docker Image Creation for Postgres Using Shell Commands</b></a>
 <br><br>
 If you have certain lines of code that repeat over and over again in a project, there's a pretty standard solution for it: using a function. But what about when you have the same project…
@@ -78,13 +78,13 @@ If you have certain lines of code that repeat over and over again in a project, 
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>NEXT.JS</code>&nbsp; 12h ago</sub><br>
+<sub><code>NEXT.JS</code>&nbsp; 20h ago</sub><br>
 <a href="https://nextjs.org/blog/november-2026-security-release"><b>November 2026 Security Release</b></a>
 <br><br>
 The November 2026 security release for Next.js is now available
 </td>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 14h ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 22h ago</sub><br>
 <a href="https://github.blog/open-source/maintainers/arnis-turns-any-place-on-earth-into-a-minecraft-world/"><b>Arnis turns any place on Earth into a Minecraft world</b></a>
 <br><br>
 Louis Erbkamm built the first prototype in his free time. Now GitHub Copilot helps him maintain it alone.
@@ -92,7 +92,7 @@ Louis Erbkamm built the first prototype in his free time. Now GitHub Copilot hel
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 21h ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 1d ago</sub><br>
 <a href="https://stackoverflow.blog/2026/11/03/oh-your-agents-need-oauth2-too/"><b>Oh, your agents need OAuth2, too</b></a>
 <br><br>
 Recorded at LDX3 by LeadDev, Ryan chats with Dan Moore, Senior Director of CIAM Strategy and Identity Standards at FusionAuth, about adapting established OAuth2 protocols for the agentic…
@@ -120,7 +120,7 @@ GitHub’s annual month-long game jam is back for its 14th year! This November, 
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 04 Nov 2026 13:16 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 04 Nov 2026 21:39 WIB.</sub>
 
 <!-- NEWS:END -->
 
