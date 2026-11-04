@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=be41c25a5a" />
-  <img src="./assets/activity-light.svg?v=1ad84043fb" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=e1f060645c" />
+  <img src="./assets/activity-light.svg?v=b20ce3f321" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=0a8bf2da1b" />
-  <img src="./assets/news-light.svg?v=d68238bfaf" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=6efe35f3f4" />
+  <img src="./assets/news-light.svg?v=9d691ff1f7" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,91 +36,91 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>LOBSTERS</code>&nbsp; 15m ago</sub><br>
-<a href="https://antonz.org/go-concurrency/"><b>Gist of Go: Concurrency</b></a>
+<sub><code>HN</code>&nbsp; 16m ago</sub><br>
+<a href="https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates"><b>US midterm elections 2026 live updates: Democrats win Senate control and edge</b></a>
 <br><br>
-This seems like a well executed mini-course on concurrency in Go. I'd love to hear where it might be out of date or otherwise steering me wrong, as well as pointers to other good resources…
+12 points and 0 comments on the Hacker News front page · theguardian.com
 </td>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 52m ago</sub><br>
+<sub><code>HN</code>&nbsp; 2h ago</sub><br>
+<a href="https://mrdoob.github.io/codevember-2026/01/"><b>Jelly Sheet</b></a>
+<br><br>
+63 points and 11 comments on the Hacker News front page · mrdoob.github.io
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 7h ago</sub><br>
 <a href="https://dev.to/devteam/thats-a-wrap-on-hacktoberfest-2026-148k"><b>That's a Wrap on Hacktoberfest 2026! 🎃👻</b></a>
 <br><br>
 Hacktoberfest 2026 wrapped up on October 31st! Thank you to everyone who built, hosted, mentored,...
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://www.interdb.jp/pg/index.html"><b>The Internals of PostgreSQL</b></a>
-<br><br>
-42 points and 1 comment on the Hacker News front page · interdb.jp
-</td>
-<td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://arxiv.org/abs/2605.29713"><b>The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer</b></a>
-<br><br>
-116 points and 12 comments on the Hacker News front page · arxiv.org
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 3h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 9h ago</sub><br>
 <a href="https://dev.to/maame-codes/lets-see-where-you-code-147"><b>Let's see where you code!</b></a>
 <br><br>
 I’ve been writing a lot about AWS lately, so let’s take a breather. This is my little corner of the...
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 4h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 11h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/fix-common-technical-seo-issues/"><b>How to Find and Fix Common Technical SEO Issues on Your Website</b></a>
 <br><br>
 Let's say you've built a website. You've invested in the design, bought a domain, and so on. But a website isn't only what you see on the screen. A lot happens behind the scenes. You have…
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 4h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 11h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-to-automate-docker-image-creation-for-postgres-using-shell/"><b>How to Automate Docker Image Creation for Postgres Using Shell Commands</b></a>
 <br><br>
 If you have certain lines of code that repeat over and over again in a project, there's a pretty standard solution for it: using a function. But what about when you have the same project…
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
-<sub><code>NEXT.JS</code>&nbsp; 5h ago</sub><br>
+<sub><code>NEXT.JS</code>&nbsp; 12h ago</sub><br>
 <a href="https://nextjs.org/blog/november-2026-security-release"><b>November 2026 Security Release</b></a>
 <br><br>
 The November 2026 security release for Next.js is now available
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 7h ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 14h ago</sub><br>
 <a href="https://github.blog/open-source/maintainers/arnis-turns-any-place-on-earth-into-a-minecraft-world/"><b>Arnis turns any place on Earth into a Minecraft world</b></a>
 <br><br>
 Louis Erbkamm built the first prototype in his free time. Now GitHub Copilot helps him maintain it alone.
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 14h ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 21h ago</sub><br>
 <a href="https://stackoverflow.blog/2026/11/03/oh-your-agents-need-oauth2-too/"><b>Oh, your agents need OAuth2, too</b></a>
 <br><br>
 Recorded at LDX3 by LeadDev, Ryan chats with Dan Moore, Senior Director of CIAM Strategy and Identity Standards at FusionAuth, about adapting established OAuth2 protocols for the agentic…
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 20h ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
 <a href="https://laravel-news.com/composer-2-11?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Cooldown Dependency Policy now in Composer 2.11</b></a>
 <br><br>
 Composer 2.11 can hold back newly published package versions for a set period before installing them. It also ships six security fixes and faster resolution.
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 20h ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
 <a href="https://laravel-news.com/inertia-3-11-0?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Live Props for Real-Time Updates in Inertia.js v3.11</b></a>
 <br><br>
 Inertia.js v3.11 adds live props, which reload a page prop when a broadcast event arrives, with Laravel Echo, Reverb, Pusher, and Action Cable transports.
 </td>
+<td width="50%" valign="top">
+<sub><code>GITHUB</code>&nbsp; 2d ago</sub><br>
+<a href="https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift/"><b>Game Off 2026: The theme is SHIFT</b></a>
+<br><br>
+GitHub’s annual month-long game jam is back for its 14th year! This November, make a game inspired by the theme SHIFT. Change gears, swap perspectives, bend reality, or just press a certain…
+</td>
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · Lobsters · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 04 Nov 2026 06:20 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 04 Nov 2026 13:16 WIB.</sub>
 
 <!-- NEWS:END -->
 
