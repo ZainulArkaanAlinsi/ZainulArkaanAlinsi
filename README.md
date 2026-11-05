@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=5343a326d8" />
-  <img src="./assets/activity-light.svg?v=3a5e5af77c" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=d338511ad7" />
+  <img src="./assets/activity-light.svg?v=0e773ca08d" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=c24938ca34" />
-  <img src="./assets/news-light.svg?v=7a256190ac" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=0bd7fd05dc" />
+  <img src="./assets/news-light.svg?v=b6701feca6" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,27 +36,41 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 37m ago</sub><br>
-<a href="https://blog.samaltman.com/successful-people"><b>Successful People (2013)</b></a>
+<sub><code>HN</code>&nbsp; 55m ago</sub><br>
+<a href="https://www.altera.com/newsroom/agilex-2x"><b>Altera Announces Agilex 2X, a Complete FPGA and SoC Portfolio</b></a>
 <br><br>
-6 points and 5 comments on the Hacker News front page · blog.samaltman.com
+7 points and 1 comment on the Hacker News front page · altera.com
 </td>
 <td width="50%" valign="top">
 <sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://www.argmin.net/p/less-popular-than-coal"><b>Less Popular Than Coal</b></a>
+<a href="https://markblah.github.io/lemmings/"><b>Lemmings CSS Animation</b></a>
 <br><br>
-14 points and 1 comment on the Hacker News front page · argmin.net
+44 points and 4 comments on the Hacker News front page · markblah.github.io
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 1h ago</sub><br>
-<a href="https://dev.to/devteam/join-the-presage-smartspectra-sdk-challenge-3000-in-prizes-across-10-winners-1370"><b>Join the Presage SmartSpectra SDK Challenge: $3,000 in Prizes Across 10 Winners!</b></a>
+<sub><code>DEV</code>&nbsp; 6h ago</sub><br>
+<a href="https://dev.to/gde/crows-moths-and-makefiles-how-300-megabytes-of-crow-dna-explains-why-a-20-kilobyte-scar-file-36a"><b>Crows, Moths, and Makefiles: How 300 Megabytes of Crow DNA Explains Why a 20-Kilobyte Scar File…</b></a>
 <br><br>
-We're excited to announce our newest challenge with Presage! The Presage SmartSpectra SDK Challenge...
+Why do New Caledonian crows bend wire into hooks with zero training while a trillion-parameter LLM flies straight into the same production bug zapper? How Anthony Zador's Genomic Bottleneck…
 </td>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 4h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 7h ago</sub><br>
+<a href="https://dev.to/gde/gemma-4-e2b-in-jax-on-one-tpu-v5e-bf16-or-4-bit-python-or-rust-and-how-it-stands-against-vllm-j72"><b>Gemma 4 E2B in JAX on One TPU v5e: bf16 or 4-Bit, Python or Rust, and How It Stands Against vLLM</b></a>
+<br><br>
+Gemma 4 E2B served three ways on one Cloud TPU v5e chip: a pure-JAX engine in Python, the same graph written in Rust and compiled by the libtpu that JAX loads, and vLLM, all timed by one…
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>FREECODECAMP</code>&nbsp; 9h ago</sub><br>
+<a href="https://www.freecodecamp.org/news/captcha-farm-attack/"><b>What a CAPTCHA Farm Attack Actually Looks Like</b></a>
+<br><br>
+CAPTCHAs are something most of us have come across while browsing the internet. Sometimes we're asked to identify traffic lights in pictures, solve a small puzzle, or simply tick a box to…
+</td>
+<td width="50%" valign="top">
+<sub><code>FREECODECAMP</code>&nbsp; 11h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/introducing-socrates-and-the-new-freecodecamp-forum/"><b>Introducing Socrates and the New freeCodeCamp Forum</b></a>
 <br><br>
 freeCodeCamp just turned 12 years old. And so did our beloved forum. And today I'm thrilled to say that the forum is now focused on discussions rather than Q&amp;A. This is thanks to Socrates…
@@ -64,38 +78,24 @@ freeCodeCamp just turned 12 years old. And so did our beloved forum. And today I
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 4h ago</sub><br>
-<a href="https://dev.to/ayoub_hammoudi/mandatory-user-verification-on-dev-is-a-scam-heres-how-to-spot-it-in-30-seconds-1594"><b>&quot;Mandatory user verification&quot; on DEV is a scam. Here's how to spot it in 30 seconds.</b></a>
-<br><br>
-If you got tagged by &quot;Support Bot&quot; on DEV, don't click. It took one look at the profile: The name...
-</td>
-<td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 7h ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 14h ago</sub><br>
 <a href="https://stackoverflow.blog/2026/11/04/your-net-parallel-loop-can-become-serial-in-a-one-cpu-container/"><b>Your .NET parallel loop can become serial in a one-CPU container</b></a>
 <br><br>
 CPU-based defaults can leave an I/O-heavy loop processing one record at a time. Raising the limit helps, but each downstream service still needs a concurrency budget it can handle.
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 23h ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
 <a href="https://laravel-news.com/flock-laravel-local-development?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Flock: A Free, Native Herd Alternative for Laravel</b></a>
 <br><br>
 Flock is a free, open source local dev app for Laravel that runs PHP, Node, databases, mail, and HTTPS natively on macOS, Windows, and Linux.
 </td>
-<td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 23h ago</sub><br>
-<a href="https://laravel-news.com/laravel-13-40-0?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Slow Job Alerts and Replica Commit IDs in Laravel 13.40</b></a>
-<br><br>
-Laravel 13.40 adds callbacks for slow queue jobs and scheduled tasks, commit IDs to check read replica lag, and insertBefore() and insertAfter() for middleware.
-</td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
-<a href="https://www.freecodecamp.org/news/fix-common-technical-seo-issues/"><b>How to Find and Fix Common Technical SEO Issues on Your Website</b></a>
+<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
+<a href="https://laravel-news.com/laravel-13-40-0?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Slow Job Alerts and Replica Commit IDs in Laravel 13.40</b></a>
 <br><br>
-Let's say you've built a website. You've invested in the design, bought a domain, and so on. But a website isn't only what you see on the screen. A lot happens behind the scenes. You have…
+Laravel 13.40 adds callbacks for slow queue jobs and scheduled tasks, commit IDs to check read replica lag, and insertBefore() and insertAfter() for middleware.
 </td>
 <td width="50%" valign="top">
 <sub><code>NEXT.JS</code>&nbsp; 1d ago</sub><br>
@@ -120,7 +120,7 @@ Recorded at LDX3 by LeadDev, Ryan chats with Dan Moore, Senior Director of CIAM 
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 05 Nov 2026 06:38 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 05 Nov 2026 13:42 WIB.</sub>
 
 <!-- NEWS:END -->
 
