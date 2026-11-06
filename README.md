@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=e4beb8ab45" />
-  <img src="./assets/activity-light.svg?v=d42503ccac" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=1b51bd0624" />
+  <img src="./assets/activity-light.svg?v=adbabb3fb2" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=05f334535c" />
-  <img src="./assets/news-light.svg?v=d6af6e7f29" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=d5219a41a4" />
+  <img src="./assets/news-light.svg?v=c14b6da9c2" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,83 +36,83 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; just now</sub><br>
+<sub><code>HN</code>&nbsp; 1h ago</sub><br>
+<a href="https://halfnarp.events.ccc.de"><b>40C3 halfnarp – Submit talk preferences to aid scheduling</b></a>
+<br><br>
+7 points and 0 comments on the Hacker News front page · halfnarp.events.ccc.de
+</td>
+<td width="50%" valign="top">
+<sub><code>HN</code>&nbsp; 1h ago</sub><br>
+<a href="https://scotthelme.co.uk/we-know-15-579-websites-are-infected-how-do-we-tell-them/"><b>We know 15k websites are infected. how do we tell them?</b></a>
+<br><br>
+42 points and 28 comments on the Hacker News front page · scotthelme.co.uk
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>LARAVEL</code>&nbsp; 2h ago</sub><br>
+<a href="https://laravel-news.com/phpstorm-2026-3?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>PhpStorm 2026.3 Adds an Agent Workspace and PHP 8.6 Support</b></a>
+<br><br>
+PhpStorm 2026.3 adds PHP 8.6 support, new Laravel inspections, a Processes tab for queue workers, and Air, a workspace for coding agents.
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 2h ago</sub><br>
+<a href="https://dev.to/gde/one-word-two-gpus-why-gemma-4-answers-the-same-question-differently-on-a-laptop-and-a-tesla-t4-1dj2"><b>One Word, Two GPUs: Why Gemma 4 Answers the Same Question Differently on a Laptop and a Tesla T4</b></a>
+<br><br>
+Same GGUF file, same llama.cpp build, greedy decoding, and a GTX 1650 Ti answers $20 where a Tesla T4 answers 2000. One GSM8K question followed down to the word where the two cards part…
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>FREECODECAMP</code>&nbsp; 3h ago</sub><br>
+<a href="https://www.freecodecamp.org/news/godot-4-roguelike-course-build-a-complete-top-down-action-game/"><b>Godot 4 Roguelike Course – Build a Complete Top-Down Action Game</b></a>
+<br><br>
+A top-down action roguelite only works when combat feels sharp, rooms feel connected, and every run asks you to trade power for risk. Godot 4 has the tools for that, but most tutorials stop…
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 5h ago</sub><br>
+<a href="https://dev.to/devteam/what-was-your-win-this-week-28dh"><b>What was your win this week?</b></a>
+<br><br>
+👋👋👋👋 Looking back on your week -- what was something you're proud of? All wins count -- big or small...
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>STACKOVERFLOW</code>&nbsp; 10h ago</sub><br>
 <a href="https://stackoverflow.blog/2026/11/06/welcome-to-life-in-the-chip-age/"><b>Welcome to life in the chip age</b></a>
 <br><br>
 Ryan sits down with Rakesh Kumar, professor of computer engineering at the University of Illinois Urbana-Champaign, about the astounding complexity of manufacturing modern semiconductors…
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 2h ago</sub><br>
-<a href="https://jamesyu.org/science-fiction-predictions-of-ai/"><b>How accurately did science fiction stories predict AI?</b></a>
+<sub><code>LARAVEL</code>&nbsp; 14h ago</sub><br>
+<a href="https://laravel-news.com/laravel-middleware-insert-before-after?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Insert Middleware Before or After Existing Laravel Middleware</b></a>
 <br><br>
-25 points and 26 comments on the Hacker News front page · jamesyu.org
+Laravel 13.40 adds insertBefore() and insertAfter() to place middleware next to built-in ones like TrustProxies and StartSession without redefining the stack.
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 2h ago</sub><br>
-<a href="https://thereader.mitpress.mit.edu/from-linux-to-wikipedia-how-volunteers-build-the-internet/"><b>From Linux to Wikipedia: How Volunteers Build the Internet</b></a>
-<br><br>
-18 points and 2 comments on the Hacker News front page · thereader.mitpress.mit.edu
-</td>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 5h ago</sub><br>
-<a href="https://dev.to/xulingfeng/an-ai-testing-presentation-became-the-final-push-for-organizational-change-at-my-company-12ag"><b>An AI Testing Presentation Became the Final Push for Organizational Change at My Company</b></a>
-<br><br>
-From a multi-agent testing experiment to a broader discussion about how engineering teams should...
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 9h ago</sub><br>
-<a href="https://dev.to/devteam/congrats-to-the-kaggle-benchmarking-challenge-winners-2moh"><b>Congrats to the Kaggle Benchmarking Challenge Winners!</b></a>
-<br><br>
-A few weeks ago we teamed up with Kaggle to ask a deceptively simple question: how do you actually...
-</td>
-<td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 10h ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 22h ago</sub><br>
 <a href="https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/"><b>Inside GitHub’s new Git storage architecture</b></a>
 <br><br>
 GitHub's new Git storage architecture is built so thousands of agents can push to a single repository at once. Here's how it works.
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 13h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-to-use-shadcn-ui-in-react-native-applications-full-handbook/"><b>How to Use shadcn/ui in React Native Applications [Full Handbook]</b></a>
 <br><br>
 If you've built a couple of React Native apps, the following probably feels familiar. You start with a colors.ts file and a simple Button component. Everything looks fine at first. Then the…
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 14h ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 1d ago</sub><br>
 <a href="https://github.blog/open-source/maintainers/accessibility-statements-now-have-a-home-on-github/"><b>Accessibility statements now have a home on GitHub</b></a>
 <br><br>
 GitHub now highlights ACCESSIBILITY.md files and helps maintainers document accessibility goals, known barriers, supported environments, contributor expectations, and reporting processes.
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 16h ago</sub><br>
-<a href="https://laravel-news.com/laravel-herd-2?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Laravel Herd 2: Coding Agents, Workspaces, and Cloud Deploys</b></a>
-<br><br>
-Laravel Herd 2.0 adds Herd Studio for running coding agents on local sites, git workspaces for parallel work, and Laravel Cloud deploys.
-</td>
-<td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
-<a href="https://laravel-news.com/laravel-strict-request-input?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Strict Request Input Casting in Laravel</b></a>
-<br><br>
-Laravel 13.40 adds a strict flag to the request integer(), boolean(), float(), and string() helpers, so bad input returns your default instead of 0 or an error.
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
-<a href="https://www.freecodecamp.org/news/captcha-farm-attack/"><b>What a CAPTCHA Farm Attack Actually Looks Like</b></a>
-<br><br>
-CAPTCHAs are something most of us have come across while browsing the internet. Sometimes we're asked to identify traffic lights in pictures, solve a small puzzle, or simply tick a box to…
-</td>
-<td width="50%" valign="top">
-<sub><code>NEXT.JS</code>&nbsp; 2d ago</sub><br>
+<sub><code>NEXT.JS</code>&nbsp; 3d ago</sub><br>
 <a href="https://nextjs.org/blog/november-2026-security-release"><b>November 2026 Security Release</b></a>
 <br><br>
 The November 2026 security release for Next.js is now available
@@ -120,13 +120,13 @@ The November 2026 security release for Next.js is now available
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 06 Nov 2026 13:40 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 07 Nov 2026 02:22 WIB.</sub>
 
 <!-- NEWS:END -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20261106" />
-  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261106" width="100%" alt="A snake eating this year's contribution squares" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20261107" />
+  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261107" width="100%" alt="A snake eating this year's contribution squares" />
 </picture>
 
 <picture>
