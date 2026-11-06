@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=ce3f34da13" />
-  <img src="./assets/activity-light.svg?v=55afe9cbac" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=e4beb8ab45" />
+  <img src="./assets/activity-light.svg?v=d42503ccac" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=b469efc29b" />
-  <img src="./assets/news-light.svg?v=ec10ba5694" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=05f334535c" />
+  <img src="./assets/news-light.svg?v=d6af6e7f29" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,27 +36,55 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://archive.org/details/howtoliewithstat00huff"><b>How to Lie With Statistics (1954)</b></a>
+<sub><code>STACKOVERFLOW</code>&nbsp; just now</sub><br>
+<a href="https://stackoverflow.blog/2026/11/06/welcome-to-life-in-the-chip-age/"><b>Welcome to life in the chip age</b></a>
 <br><br>
-33 points and 4 comments on the Hacker News front page · archive.org
+Ryan sits down with Rakesh Kumar, professor of computer engineering at the University of Illinois Urbana-Champaign, about the astounding complexity of manufacturing modern semiconductors…
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://engineering.fb.com/2026/10/06/production-engineering/nts-authenticated-time-at-meta/"><b>NTS: Authenticated Time at Meta</b></a>
+<sub><code>HN</code>&nbsp; 2h ago</sub><br>
+<a href="https://jamesyu.org/science-fiction-predictions-of-ai/"><b>How accurately did science fiction stories predict AI?</b></a>
 <br><br>
-10 points and 3 comments on the Hacker News front page · engineering.fb.com
+25 points and 26 comments on the Hacker News front page · jamesyu.org
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 2h ago</sub><br>
+<sub><code>HN</code>&nbsp; 2h ago</sub><br>
+<a href="https://thereader.mitpress.mit.edu/from-linux-to-wikipedia-how-volunteers-build-the-internet/"><b>From Linux to Wikipedia: How Volunteers Build the Internet</b></a>
+<br><br>
+18 points and 2 comments on the Hacker News front page · thereader.mitpress.mit.edu
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 5h ago</sub><br>
+<a href="https://dev.to/xulingfeng/an-ai-testing-presentation-became-the-final-push-for-organizational-change-at-my-company-12ag"><b>An AI Testing Presentation Became the Final Push for Organizational Change at My Company</b></a>
+<br><br>
+From a multi-agent testing experiment to a broader discussion about how engineering teams should...
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 9h ago</sub><br>
+<a href="https://dev.to/devteam/congrats-to-the-kaggle-benchmarking-challenge-winners-2moh"><b>Congrats to the Kaggle Benchmarking Challenge Winners!</b></a>
+<br><br>
+A few weeks ago we teamed up with Kaggle to ask a deceptively simple question: how do you actually...
+</td>
+<td width="50%" valign="top">
+<sub><code>GITHUB</code>&nbsp; 10h ago</sub><br>
+<a href="https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/"><b>Inside GitHub’s new Git storage architecture</b></a>
+<br><br>
+GitHub's new Git storage architecture is built so thousands of agents can push to a single repository at once. Here's how it works.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>FREECODECAMP</code>&nbsp; 13h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-to-use-shadcn-ui-in-react-native-applications-full-handbook/"><b>How to Use shadcn/ui in React Native Applications [Full Handbook]</b></a>
 <br><br>
 If you've built a couple of React Native apps, the following probably feels familiar. You start with a colors.ts file and a simple Button component. Everything looks fine at first. Then the…
 </td>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 3h ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 14h ago</sub><br>
 <a href="https://github.blog/open-source/maintainers/accessibility-statements-now-have-a-home-on-github/"><b>Accessibility statements now have a home on GitHub</b></a>
 <br><br>
 GitHub now highlights ACCESSIBILITY.md files and helps maintainers document accessibility goals, known barriers, supported environments, contributor expectations, and reporting processes.
@@ -64,27 +92,13 @@ GitHub now highlights ACCESSIBILITY.md files and helps maintainers document acce
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 5h ago</sub><br>
-<a href="https://dev.to/kenwalger/plan-stamping-for-software-4ein"><b>Plan Stamping, for Software</b></a>
-<br><br>
-Other professions worked out what a signature has to mean. We're about to need their answer. A few...
-</td>
-<td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 5h ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 16h ago</sub><br>
 <a href="https://laravel-news.com/laravel-herd-2?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Laravel Herd 2: Coding Agents, Workspaces, and Cloud Deploys</b></a>
 <br><br>
 Laravel Herd 2.0 adds Herd Studio for running coding agents on local sites, git workspaces for parallel work, and Laravel Cloud deploys.
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 8h ago</sub><br>
-<a href="https://dev.to/dannwaneri/dont-write-markdown-files-for-your-coding-agent-write-scripts-j00"><b>Don't Write Markdown Files for Your Coding Agent. Write Scripts.</b></a>
-<br><br>
-If you want agents to do what you want, you need to learn how to box them into deterministic actions....
-</td>
-<td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 18h ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
 <a href="https://laravel-news.com/laravel-strict-request-input?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Strict Request Input Casting in Laravel</b></a>
 <br><br>
 Laravel 13.40 adds a strict flag to the request integer(), boolean(), float(), and string() helpers, so bad input returns your default instead of 0 or an error.
@@ -92,35 +106,21 @@ Laravel 13.40 adds a strict flag to the request integer(), boolean(), float(), a
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 22h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/captcha-farm-attack/"><b>What a CAPTCHA Farm Attack Actually Looks Like</b></a>
 <br><br>
 CAPTCHAs are something most of us have come across while browsing the internet. Sometimes we're asked to identify traffic lights in pictures, solve a small puzzle, or simply tick a box to…
 </td>
-<td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 1d ago</sub><br>
-<a href="https://stackoverflow.blog/2026/11/04/your-net-parallel-loop-can-become-serial-in-a-one-cpu-container/"><b>Your .NET parallel loop can become serial in a one-CPU container</b></a>
-<br><br>
-CPU-based defaults can leave an I/O-heavy loop processing one record at a time. Raising the limit helps, but each downstream service still needs a concurrency budget it can handle.
-</td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <sub><code>NEXT.JS</code>&nbsp; 2d ago</sub><br>
 <a href="https://nextjs.org/blog/november-2026-security-release"><b>November 2026 Security Release</b></a>
 <br><br>
 The November 2026 security release for Next.js is now available
 </td>
-<td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 2d ago</sub><br>
-<a href="https://github.blog/open-source/maintainers/arnis-turns-any-place-on-earth-into-a-minecraft-world/"><b>Arnis turns any place on Earth into a Minecraft world</b></a>
-<br><br>
-Louis Erbkamm built the first prototype in his free time. Now GitHub Copilot helps him maintain it alone.
-</td>
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 06 Nov 2026 02:55 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 06 Nov 2026 13:40 WIB.</sub>
 
 <!-- NEWS:END -->
 
