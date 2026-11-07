@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=1b51bd0624" />
-  <img src="./assets/activity-light.svg?v=adbabb3fb2" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=5fa8f78d37" />
+  <img src="./assets/activity-light.svg?v=b2e4a7a2d3" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=d5219a41a4" />
-  <img src="./assets/news-light.svg?v=c14b6da9c2" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=a34a1789d4" />
+  <img src="./assets/news-light.svg?v=e243e22c19" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -37,54 +37,68 @@
 <tr>
 <td width="50%" valign="top">
 <sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://halfnarp.events.ccc.de"><b>40C3 halfnarp – Submit talk preferences to aid scheduling</b></a>
+<a href="https://www.science.org/content/article/barbarian-tribe-s-mythic-origin-story-true-ancient-dna-reveals"><b>A barbarian tribe's mythic origin story is true, ancient DNA reveals</b></a>
 <br><br>
-7 points and 0 comments on the Hacker News front page · halfnarp.events.ccc.de
+9 points and 1 comment on the Hacker News front page · science.org
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://scotthelme.co.uk/we-know-15-579-websites-are-infected-how-do-we-tell-them/"><b>We know 15k websites are infected. how do we tell them?</b></a>
+<sub><code>HN</code>&nbsp; 2h ago</sub><br>
+<a href="https://app.artifactbin.dev/@vivek/AQTt2H-did-prediction-markets-predict-the-midterms"><b>Show HN: Did prediction markets do any predicting this midterms?</b></a>
 <br><br>
-42 points and 28 comments on the Hacker News front page · scotthelme.co.uk
+I've heard so much about how prediction markets are the guiding light in this dark world. But when put head to head against polls or Nate Silver's FLIPR model, they are really a wash…
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 2h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 6h ago</sub><br>
+<a href="https://dev.to/gde/being-doing-having-why-50-years-of-senior-craft-lives-in-context-not-code-29dl"><b>Being, Doing, Having: Why 50 Years of Senior Craft Lives in Context, Not Code</b></a>
+<br><br>
+Why does standard AI code generation try to jump straight to 'Have' without the proper 'Be'? How ladder rungs, the 'Null-State' couch flash, and stand-up comedy explain what separates…
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 7h ago</sub><br>
+<a href="https://dev.to/devteam/an-update-on-the-hacktoberfest-open-source-ai-challenge-ghost-in-the-machine-winners-44bp"><b>An Update on the Hacktoberfest Open-Source AI Challenge: Ghost in the Machine Winners</b></a>
+<br><br>
+Hey all, we have a quick update for everyone who participated in the Hacktoberfest Open-Source AI...
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>GITHUB</code>&nbsp; 7h ago</sub><br>
+<a href="https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/"><b>Beyond code generation: A developer’s guide to agentic engineering</b></a>
+<br><br>
+Writing code got faster. The work around it didn't. See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot, and what work still needs your…
+</td>
+<td width="50%" valign="top">
+<sub><code>FREECODECAMP</code>&nbsp; 10h ago</sub><br>
+<a href="https://www.freecodecamp.org/news/build-pdf-storyboard-generator-javascript/"><b>How to Build a PDF Storyboard Generator Using JavaScript</b></a>
+<br><br>
+PDF files are commonly used to share presentations, scripts, reports, lesson materials, comic pages, and other visual documents. But reviewing a long PDF page by page can take time…
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>LARAVEL</code>&nbsp; 12h ago</sub><br>
 <a href="https://laravel-news.com/phpstorm-2026-3?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>PhpStorm 2026.3 Adds an Agent Workspace and PHP 8.6 Support</b></a>
 <br><br>
 PhpStorm 2026.3 adds PHP 8.6 support, new Laravel inspections, a Processes tab for queue workers, and Air, a workspace for coding agents.
 </td>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 2h ago</sub><br>
-<a href="https://dev.to/gde/one-word-two-gpus-why-gemma-4-answers-the-same-question-differently-on-a-laptop-and-a-tesla-t4-1dj2"><b>One Word, Two GPUs: Why Gemma 4 Answers the Same Question Differently on a Laptop and a Tesla T4</b></a>
-<br><br>
-Same GGUF file, same llama.cpp build, greedy decoding, and a GTX 1650 Ti answers $20 where a Tesla T4 answers 2000. One GSM8K question followed down to the word where the two cards part…
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 3h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 13h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/godot-4-roguelike-course-build-a-complete-top-down-action-game/"><b>Godot 4 Roguelike Course – Build a Complete Top-Down Action Game</b></a>
 <br><br>
 A top-down action roguelite only works when combat feels sharp, rooms feel connected, and every run asks you to trade power for risk. Godot 4 has the tools for that, but most tutorials stop…
 </td>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 5h ago</sub><br>
-<a href="https://dev.to/devteam/what-was-your-win-this-week-28dh"><b>What was your win this week?</b></a>
-<br><br>
-👋👋👋👋 Looking back on your week -- what was something you're proud of? All wins count -- big or small...
-</td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 10h ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 21h ago</sub><br>
 <a href="https://stackoverflow.blog/2026/11/06/welcome-to-life-in-the-chip-age/"><b>Welcome to life in the chip age</b></a>
 <br><br>
 Ryan sits down with Rakesh Kumar, professor of computer engineering at the University of Illinois Urbana-Champaign, about the astounding complexity of manufacturing modern semiconductors…
 </td>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 14h ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
 <a href="https://laravel-news.com/laravel-middleware-insert-before-after?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Insert Middleware Before or After Existing Laravel Middleware</b></a>
 <br><br>
 Laravel 13.40 adds insertBefore() and insertAfter() to place middleware next to built-in ones like TrustProxies and StartSession without redefining the stack.
@@ -92,24 +106,10 @@ Laravel 13.40 adds insertBefore() and insertAfter() to place middleware next to 
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 22h ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 1d ago</sub><br>
 <a href="https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/"><b>Inside GitHub’s new Git storage architecture</b></a>
 <br><br>
 GitHub's new Git storage architecture is built so thousands of agents can push to a single repository at once. Here's how it works.
-</td>
-<td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
-<a href="https://www.freecodecamp.org/news/how-to-use-shadcn-ui-in-react-native-applications-full-handbook/"><b>How to Use shadcn/ui in React Native Applications [Full Handbook]</b></a>
-<br><br>
-If you've built a couple of React Native apps, the following probably feels familiar. You start with a colors.ts file and a simple Button component. Everything looks fine at first. Then the…
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 1d ago</sub><br>
-<a href="https://github.blog/open-source/maintainers/accessibility-statements-now-have-a-home-on-github/"><b>Accessibility statements now have a home on GitHub</b></a>
-<br><br>
-GitHub now highlights ACCESSIBILITY.md files and helps maintainers document accessibility goals, known barriers, supported environments, contributor expectations, and reporting processes.
 </td>
 <td width="50%" valign="top">
 <sub><code>NEXT.JS</code>&nbsp; 3d ago</sub><br>
@@ -120,7 +120,7 @@ The November 2026 security release for Next.js is now available
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 07 Nov 2026 02:22 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 07 Nov 2026 12:55 WIB.</sub>
 
 <!-- NEWS:END -->
 
