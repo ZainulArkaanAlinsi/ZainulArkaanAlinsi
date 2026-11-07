@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=5fa8f78d37" />
-  <img src="./assets/activity-light.svg?v=b2e4a7a2d3" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=7eb21864b5" />
+  <img src="./assets/activity-light.svg?v=e15e19346c" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=a34a1789d4" />
-  <img src="./assets/news-light.svg?v=e243e22c19" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=34fcfd0908" />
+  <img src="./assets/news-light.svg?v=ff6cc91ce5" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -37,90 +37,90 @@
 <tr>
 <td width="50%" valign="top">
 <sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://www.science.org/content/article/barbarian-tribe-s-mythic-origin-story-true-ancient-dna-reveals"><b>A barbarian tribe's mythic origin story is true, ancient DNA reveals</b></a>
+<a href="https://www.windowslatest.com/2026/11/06/every-windows-11-app-should-kill-electron-and-discord-just-showed-why-no-starting-screen-and-70-less-ram-even-with-two-accounts-signed-in/"><b>Every Windows 11 app should kill Electron, and Discord just showed why</b></a>
 <br><br>
-9 points and 1 comment on the Hacker News front page · science.org
+27 points and 15 comments on the Hacker News front page · windowslatest.com
 </td>
 <td width="50%" valign="top">
 <sub><code>HN</code>&nbsp; 2h ago</sub><br>
-<a href="https://app.artifactbin.dev/@vivek/AQTt2H-did-prediction-markets-predict-the-midterms"><b>Show HN: Did prediction markets do any predicting this midterms?</b></a>
+<a href="https://uploadyourram.org"><b>Upload Your RAM</b></a>
 <br><br>
-I've heard so much about how prediction markets are the guiding light in this dark world. But when put head to head against polls or Nate Silver's FLIPR model, they are really a wash…
+146 points and 93 comments on the Hacker News front page · uploadyourram.org
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 6h ago</sub><br>
-<a href="https://dev.to/gde/being-doing-having-why-50-years-of-senior-craft-lives-in-context-not-code-29dl"><b>Being, Doing, Having: Why 50 Years of Senior Craft Lives in Context, Not Code</b></a>
+<sub><code>LOBSTERS</code>&nbsp; 3h ago</sub><br>
+<a href="https://lobste.rs/s/ipplhe/how_are_you_dealing_with_all_negative_side"><b>How are you dealing with all the negative side effects of AI on the web?</b></a>
 <br><br>
-Why does standard AI code generation try to jump straight to 'Have' without the proper 'Be'? How ladder rungs, the 'Null-State' couch flash, and stand-up comedy explain what separates…
+It seems to me that the AI hype killed the web for good, but not for the reasons we immediately associate with it. Search engines now rank links full of slop at the top, which ironically…
 </td>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 7h ago</sub><br>
-<a href="https://dev.to/devteam/an-update-on-the-hacktoberfest-open-source-ai-challenge-ghost-in-the-machine-winners-44bp"><b>An Update on the Hacktoberfest Open-Source AI Challenge: Ghost in the Machine Winners</b></a>
+<sub><code>DEV</code>&nbsp; 5h ago</sub><br>
+<a href="https://dev.to/gde/building-railpulse-ai-deploying-an-open-source-railway-dispatch-agent-with-gemma-and-google-cloud-2b9g"><b>Building RailPulse AI: Deploying an Open-Source Railway Dispatch Agent with Gemma and Google…</b></a>
 <br><br>
-Hey all, we have a quick update for everyone who participated in the Hacktoberfest Open-Source AI...
+Author: Robina Mirbahar AI/ML Google Developer Expert (GDE) | Google Cloud Champion Innovator GitHub...
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 7h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 8h ago</sub><br>
+<a href="https://dev.to/akhourianmolkumar/windows-wont-let-you-own-winshifts-so-i-hooked-the-keyboard-in-python-248c"><b>Windows won't let you own Win+Shift+S. So I hooked the keyboard in Python.</b></a>
+<br><br>
+I wanted one small thing: press Win+Shift+S and get my own screenshot tool instead of Snipping...
+</td>
+<td width="50%" valign="top">
+<sub><code>GITHUB</code>&nbsp; 14h ago</sub><br>
 <a href="https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/"><b>Beyond code generation: A developer’s guide to agentic engineering</b></a>
 <br><br>
 Writing code got faster. The work around it didn't. See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot, and what work still needs your…
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 10h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 17h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/build-pdf-storyboard-generator-javascript/"><b>How to Build a PDF Storyboard Generator Using JavaScript</b></a>
 <br><br>
 PDF files are commonly used to share presentations, scripts, reports, lesson materials, comic pages, and other visual documents. But reviewing a long PDF page by page can take time…
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 12h ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 19h ago</sub><br>
 <a href="https://laravel-news.com/phpstorm-2026-3?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>PhpStorm 2026.3 Adds an Agent Workspace and PHP 8.6 Support</b></a>
 <br><br>
 PhpStorm 2026.3 adds PHP 8.6 support, new Laravel inspections, a Processes tab for queue workers, and Air, a workspace for coding agents.
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 13h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 20h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/godot-4-roguelike-course-build-a-complete-top-down-action-game/"><b>Godot 4 Roguelike Course – Build a Complete Top-Down Action Game</b></a>
 <br><br>
 A top-down action roguelite only works when combat feels sharp, rooms feel connected, and every run asks you to trade power for risk. Godot 4 has the tools for that, but most tutorials stop…
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 21h ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 1d ago</sub><br>
 <a href="https://stackoverflow.blog/2026/11/06/welcome-to-life-in-the-chip-age/"><b>Welcome to life in the chip age</b></a>
 <br><br>
 Ryan sits down with Rakesh Kumar, professor of computer engineering at the University of Illinois Urbana-Champaign, about the astounding complexity of manufacturing modern semiconductors…
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
 <a href="https://laravel-news.com/laravel-middleware-insert-before-after?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Insert Middleware Before or After Existing Laravel Middleware</b></a>
 <br><br>
 Laravel 13.40 adds insertBefore() and insertAfter() to place middleware next to built-in ones like TrustProxies and StartSession without redefining the stack.
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <sub><code>GITHUB</code>&nbsp; 1d ago</sub><br>
 <a href="https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/"><b>Inside GitHub’s new Git storage architecture</b></a>
 <br><br>
 GitHub's new Git storage architecture is built so thousands of agents can push to a single repository at once. Here's how it works.
 </td>
-<td width="50%" valign="top">
-<sub><code>NEXT.JS</code>&nbsp; 3d ago</sub><br>
-<a href="https://nextjs.org/blog/november-2026-security-release"><b>November 2026 Security Release</b></a>
-<br><br>
-The November 2026 security release for Next.js is now available
-</td>
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 07 Nov 2026 12:55 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Lobsters · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 07 Nov 2026 19:57 WIB.</sub>
 
 <!-- NEWS:END -->
 
