@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=7eb21864b5" />
-  <img src="./assets/activity-light.svg?v=e15e19346c" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=075293c5c1" />
+  <img src="./assets/activity-light.svg?v=af394896a9" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=34fcfd0908" />
-  <img src="./assets/news-light.svg?v=ff6cc91ce5" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=c8415b6569" />
+  <img src="./assets/news-light.svg?v=877f2d5f2f" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,97 +36,97 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://www.windowslatest.com/2026/11/06/every-windows-11-app-should-kill-electron-and-discord-just-showed-why-no-starting-screen-and-70-less-ram-even-with-two-accounts-signed-in/"><b>Every Windows 11 app should kill Electron, and Discord just showed why</b></a>
+<sub><code>HN</code>&nbsp; 37m ago</sub><br>
+<a href="https://mattlakeman.org/2021/07/27/shadow-of-the-sun/"><b>Shadow of the Sun</b></a>
 <br><br>
-27 points and 15 comments on the Hacker News front page · windowslatest.com
+4 points and 2 comments on the Hacker News front page · mattlakeman.org
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 2h ago</sub><br>
-<a href="https://uploadyourram.org"><b>Upload Your RAM</b></a>
+<sub><code>HN</code>&nbsp; 39m ago</sub><br>
+<a href="https://wherewerewe.app/"><b>Show HN: Where Were We</b></a>
 <br><br>
-146 points and 93 comments on the Hacker News front page · uploadyourram.org
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>LOBSTERS</code>&nbsp; 3h ago</sub><br>
-<a href="https://lobste.rs/s/ipplhe/how_are_you_dealing_with_all_negative_side"><b>How are you dealing with all the negative side effects of AI on the web?</b></a>
-<br><br>
-It seems to me that the AI hype killed the web for good, but not for the reasons we immediately associate with it. Search engines now rank links full of slop at the top, which ironically…
-</td>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 5h ago</sub><br>
-<a href="https://dev.to/gde/building-railpulse-ai-deploying-an-open-source-railway-dispatch-agent-with-gemma-and-google-cloud-2b9g"><b>Building RailPulse AI: Deploying an Open-Source Railway Dispatch Agent with Gemma and Google…</b></a>
-<br><br>
-Author: Robina Mirbahar AI/ML Google Developer Expert (GDE) | Google Cloud Champion Innovator GitHub...
+A little web game I made as an anniversary present for my wife. Upload vacation photos and make them into a game. WWW uses EXIF to determine where and when the photo was taken. This is then…
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 8h ago</sub><br>
-<a href="https://dev.to/akhourianmolkumar/windows-wont-let-you-own-winshifts-so-i-hooked-the-keyboard-in-python-248c"><b>Windows won't let you own Win+Shift+S. So I hooked the keyboard in Python.</b></a>
+<sub><code>DEV</code>&nbsp; 1h ago</sub><br>
+<a href="https://dev.to/sizzlebop/i-never-thought-id-be-a-programmer-yet-here-i-am-21in"><b>I Never Thought I'd Be a Programmer. Yet Here I Am.</b></a>
 <br><br>
-I wanted one small thing: press Win+Shift+S and get my own screenshot tool instead of Snipping...
+Here I am sitting at home on a rainy Saturday, so I thought I'd share my story. It's nothing special,...
 </td>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 14h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 6h ago</sub><br>
+<a href="https://dev.to/taqui/ubuntu-core-desktop-is-coming-in-2704-and-it-kills-sudo-apt-but-maybe-that-is-the-point-3dp1"><b>Ubuntu Core Desktop Is Coming in 27.04 - And It Kills sudo apt (But Maybe That Is the Point?)</b></a>
+<br><br>
+I can't believe I'm saying this, but Ubuntu might be about to change for good. Not a new wallpaper...
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>GITHUB</code>&nbsp; 23h ago</sub><br>
 <a href="https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/"><b>Beyond code generation: A developer’s guide to agentic engineering</b></a>
 <br><br>
 Writing code got faster. The work around it didn't. See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot, and what work still needs your…
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 17h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/build-pdf-storyboard-generator-javascript/"><b>How to Build a PDF Storyboard Generator Using JavaScript</b></a>
 <br><br>
 PDF files are commonly used to share presentations, scripts, reports, lesson materials, comic pages, and other visual documents. But reviewing a long PDF page by page can take time…
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 19h ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
 <a href="https://laravel-news.com/phpstorm-2026-3?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>PhpStorm 2026.3 Adds an Agent Workspace and PHP 8.6 Support</b></a>
 <br><br>
 PhpStorm 2026.3 adds PHP 8.6 support, new Laravel inspections, a Processes tab for queue workers, and Air, a workspace for coding agents.
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 20h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/godot-4-roguelike-course-build-a-complete-top-down-action-game/"><b>Godot 4 Roguelike Course – Build a Complete Top-Down Action Game</b></a>
 <br><br>
 A top-down action roguelite only works when combat feels sharp, rooms feel connected, and every run asks you to trade power for risk. Godot 4 has the tools for that, but most tutorials stop…
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <sub><code>STACKOVERFLOW</code>&nbsp; 1d ago</sub><br>
 <a href="https://stackoverflow.blog/2026/11/06/welcome-to-life-in-the-chip-age/"><b>Welcome to life in the chip age</b></a>
 <br><br>
 Ryan sits down with Rakesh Kumar, professor of computer engineering at the University of Illinois Urbana-Champaign, about the astounding complexity of manufacturing modern semiconductors…
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
 <a href="https://laravel-news.com/laravel-middleware-insert-before-after?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Insert Middleware Before or After Existing Laravel Middleware</b></a>
 <br><br>
 Laravel 13.40 adds insertBefore() and insertAfter() to place middleware next to built-in ones like TrustProxies and StartSession without redefining the stack.
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 1d ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 2d ago</sub><br>
 <a href="https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/"><b>Inside GitHub’s new Git storage architecture</b></a>
 <br><br>
 GitHub's new Git storage architecture is built so thousands of agents can push to a single repository at once. Here's how it works.
 </td>
+<td width="50%" valign="top">
+<sub><code>NEXT.JS</code>&nbsp; 4d ago</sub><br>
+<a href="https://nextjs.org/blog/november-2026-security-release"><b>November 2026 Security Release</b></a>
+<br><br>
+The November 2026 security release for Next.js is now available
+</td>
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Lobsters · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 07 Nov 2026 19:57 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 08 Nov 2026 04:48 WIB.</sub>
 
 <!-- NEWS:END -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20261107" />
-  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261107" width="100%" alt="A snake eating this year's contribution squares" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20261108" />
+  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261108" width="100%" alt="A snake eating this year's contribution squares" />
 </picture>
 
 <picture>
