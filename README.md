@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=a753444ce9" />
-  <img src="./assets/activity-light.svg?v=2d65a0678c" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=e781d3bdb9" />
+  <img src="./assets/activity-light.svg?v=535343c94a" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=509fb85ce2" />
-  <img src="./assets/news-light.svg?v=0632e35c4b" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=f76f311902" />
+  <img src="./assets/news-light.svg?v=e3fcb1ff23" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,30 +36,30 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://imagesco.com/articles/kirlian/kirlian-photography.html"><b>Kirlian Photography: Building Your Own Equipment</b></a>
+<sub><code>HN</code>&nbsp; 13m ago</sub><br>
+<a href="https://www.theatlantic.com/culture/2026/11/middle-grade-reading-male-protagonists/689285/"><b>A lack of male protagonists is making it harder to get young boys into books</b></a>
 <br><br>
-11 points and 2 comments on the Hacker News front page · imagesco.com
+3 points and 2 comments on the Hacker News front page · theatlantic.com
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 2h ago</sub><br>
-<a href="https://caleb.software/posts/claude-to-pi.html"><b>Goodbye Claude, Hello Pi</b></a>
+<sub><code>HN</code>&nbsp; 1h ago</sub><br>
+<a href="https://www.polso.info/why-i-will-not-be-using-llms-coding"><b>I will not be using LLMs in my coding</b></a>
 <br><br>
-77 points and 37 comments on the Hacker News front page · caleb.software
+29 points and 14 comments on the Hacker News front page · polso.info
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 8h ago</sub><br>
-<a href="https://dev.to/gde/stop-asking-llms-to-do-math-client-side-functions-in-flutter-genui-with-blocsignals-23bh"><b>Stop Asking LLMs to Do Math: Client-Side Functions in Flutter GenUI with bloc_signals</b></a>
+<sub><code>DEV</code>&nbsp; 2h ago</sub><br>
+<a href="https://dev.to/alexgeorgiev17/redis-812-rc1s-roaring-bitmap-type-shrinks-a-sparse-bitmap-from-24mb-to-239kb-5bll"><b>Redis 8.12-rc1's roaring bitmap type shrinks a sparse bitmap from 24MB to 239KB</b></a>
 <br><br>
-Why Andrew 'Red' Brogdon's insight on client-side functions is critical for Generative UI—and how bloc_signals_genui turns catalog functions into 0ms synchronous reactive signals.
+I measured Redis 8.12-rc1's new roaring bitmap type: a 200-million-bit sparse bitmap dropped from 24MB to 239KB and BITCOUNT got about 14 times faster, but a dense bitmap came out slightly…
 </td>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 9h ago</sub><br>
-<a href="https://dev.to/sizzlebop/i-never-thought-id-be-a-programmer-yet-here-i-am-21in"><b>I Never Thought I'd Be a Programmer. Yet Here I Am.</b></a>
+<sub><code>DEV</code>&nbsp; 5h ago</sub><br>
+<a href="https://dev.to/taqui/dont-write-more-prompts-install-these-10-trending-skills-instead-3lpc"><b>Don't Write More Prompts. Install These 10 Trending 'Skills' Instead</b></a>
 <br><br>
-Here I am sitting at home on a rainy Saturday, so I thought I'd share my story. It's nothing special,...
+I found 10 trending skills on GitHub that can boost your agent power a lot, and I had to test them...
 </td>
 </tr>
 <tr>
@@ -92,7 +92,7 @@ A top-down action roguelite only works when combat feels sharp, rooms feel conne
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 1d ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 2d ago</sub><br>
 <a href="https://stackoverflow.blog/2026/11/06/welcome-to-life-in-the-chip-age/"><b>Welcome to life in the chip age</b></a>
 <br><br>
 Ryan sits down with Rakesh Kumar, professor of computer engineering at the University of Illinois Urbana-Champaign, about the astounding complexity of manufacturing modern semiconductors…
@@ -120,7 +120,7 @@ The November 2026 security release for Next.js is now available
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 08 Nov 2026 12:57 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 08 Nov 2026 20:21 WIB.</sub>
 
 <!-- NEWS:END -->
 
