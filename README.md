@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=075293c5c1" />
-  <img src="./assets/activity-light.svg?v=af394896a9" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=a753444ce9" />
+  <img src="./assets/activity-light.svg?v=2d65a0678c" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=c8415b6569" />
-  <img src="./assets/news-light.svg?v=877f2d5f2f" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=509fb85ce2" />
+  <img src="./assets/news-light.svg?v=0632e35c4b" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,35 +36,35 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 37m ago</sub><br>
-<a href="https://mattlakeman.org/2021/07/27/shadow-of-the-sun/"><b>Shadow of the Sun</b></a>
+<sub><code>HN</code>&nbsp; 1h ago</sub><br>
+<a href="https://imagesco.com/articles/kirlian/kirlian-photography.html"><b>Kirlian Photography: Building Your Own Equipment</b></a>
 <br><br>
-4 points and 2 comments on the Hacker News front page · mattlakeman.org
+11 points and 2 comments on the Hacker News front page · imagesco.com
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 39m ago</sub><br>
-<a href="https://wherewerewe.app/"><b>Show HN: Where Were We</b></a>
+<sub><code>HN</code>&nbsp; 2h ago</sub><br>
+<a href="https://caleb.software/posts/claude-to-pi.html"><b>Goodbye Claude, Hello Pi</b></a>
 <br><br>
-A little web game I made as an anniversary present for my wife. Upload vacation photos and make them into a game. WWW uses EXIF to determine where and when the photo was taken. This is then…
+77 points and 37 comments on the Hacker News front page · caleb.software
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 1h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 8h ago</sub><br>
+<a href="https://dev.to/gde/stop-asking-llms-to-do-math-client-side-functions-in-flutter-genui-with-blocsignals-23bh"><b>Stop Asking LLMs to Do Math: Client-Side Functions in Flutter GenUI with bloc_signals</b></a>
+<br><br>
+Why Andrew 'Red' Brogdon's insight on client-side functions is critical for Generative UI—and how bloc_signals_genui turns catalog functions into 0ms synchronous reactive signals.
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 9h ago</sub><br>
 <a href="https://dev.to/sizzlebop/i-never-thought-id-be-a-programmer-yet-here-i-am-21in"><b>I Never Thought I'd Be a Programmer. Yet Here I Am.</b></a>
 <br><br>
 Here I am sitting at home on a rainy Saturday, so I thought I'd share my story. It's nothing special,...
 </td>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 6h ago</sub><br>
-<a href="https://dev.to/taqui/ubuntu-core-desktop-is-coming-in-2704-and-it-kills-sudo-apt-but-maybe-that-is-the-point-3dp1"><b>Ubuntu Core Desktop Is Coming in 27.04 - And It Kills sudo apt (But Maybe That Is the Point?)</b></a>
-<br><br>
-I can't believe I'm saying this, but Ubuntu might be about to change for good. Not a new wallpaper...
-</td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 23h ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 1d ago</sub><br>
 <a href="https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/"><b>Beyond code generation: A developer’s guide to agentic engineering</b></a>
 <br><br>
 Writing code got faster. The work around it didn't. See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot, and what work still needs your…
@@ -98,7 +98,7 @@ A top-down action roguelite only works when combat feels sharp, rooms feel conne
 Ryan sits down with Rakesh Kumar, professor of computer engineering at the University of Illinois Urbana-Champaign, about the astounding complexity of manufacturing modern semiconductors…
 </td>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 2d ago</sub><br>
 <a href="https://laravel-news.com/laravel-middleware-insert-before-after?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Insert Middleware Before or After Existing Laravel Middleware</b></a>
 <br><br>
 Laravel 13.40 adds insertBefore() and insertAfter() to place middleware next to built-in ones like TrustProxies and StartSession without redefining the stack.
@@ -120,7 +120,7 @@ The November 2026 security release for Next.js is now available
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 08 Nov 2026 04:48 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 08 Nov 2026 12:57 WIB.</sub>
 
 <!-- NEWS:END -->
 
