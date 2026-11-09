@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=e499d98da9" />
-  <img src="./assets/activity-light.svg?v=2d2ce25aa1" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=eb721490ab" />
+  <img src="./assets/activity-light.svg?v=2423fa5de3" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=2ef254467c" />
-  <img src="./assets/news-light.svg?v=131a206b18" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=0459de5be8" />
+  <img src="./assets/news-light.svg?v=90ef03083e" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,35 +36,35 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 41m ago</sub><br>
-<a href="https://news.ycombinator.com/item?id=50417407"><b>Ask HN: What are you working on? (November 2026)</b></a>
+<sub><code>HN</code>&nbsp; 52m ago</sub><br>
+<a href="https://www.stork.ai/newsletter/2026-11-08-apple-capped-engineers-at-a-200-daily-ai-budget#story-1"><b>Apple capped engineers at a $200 daily AI budget</b></a>
 <br><br>
-What are you working on? What have you been curious about lately?
+12 points and 8 comments on the Hacker News front page · stork.ai
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors"><b>Nvidia Board of Directors Is Investigating Jensen Huang</b></a>
+<sub><code>HN</code>&nbsp; 2h ago</sub><br>
+<a href="https://blog.zortax.de/posts/a-critique-of-gpui"><b>A Critique of GPUI</b></a>
 <br><br>
-207 points and 158 comments on the Hacker News front page · nvidianews.nvidia.com
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 3h ago</sub><br>
-<a href="https://dev.to/georgekobaidze/engines-off-my-2026-hackathon-run-is-over-2ho8"><b>Engine Off: My 2026 Hackathon Run Is Over</b></a>
-<br><br>
-There's a moment after a race when you turn the engine off and everything goes quiet. That's where I...
-</td>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 5h ago</sub><br>
-<a href="https://dev.to/hemapriya_kanagala/dev-pet-corner-5-show-us-your-pets-dao"><b>🐾 DEV Pet Corner #5: Show Us Your Pets!</b></a>
-<br><br>
-TL;DR DEV Pet Corner is back for another Sunday! It's a weekly series where we take a little break...
+55 points and 23 comments on the Hacker News front page · blog.zortax.de
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 1d ago</sub><br>
+<sub><code>DEV</code>&nbsp; 10h ago</sub><br>
+<a href="https://dev.to/gde/mobile-data-on-android-17-and-a-49-kernel-google-fi-on-the-pixel-3a-4cdc"><b>Mobile Data on Android 17 and a 4.9 Kernel: Google Fi on the Pixel 3a</b></a>
+<br><br>
+LineageOS 24.0 on the Pixel 3a gets mobile data from a Google Fi data-only SIM after four fixes: mobile data on by default, a Fi APN, VoLTE in the carrier settings and a close_range()…
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 11h ago</sub><br>
+<a href="https://dev.to/gde/six-serving-engines-one-8-gb-gpu-gemma-4-e2b-on-an-rtx-3050-ad7"><b>Six Serving Engines, One 8 GB GPU: Gemma 4 E2B on an RTX 3050</b></a>
+<br><br>
+llama.cpp, vLLM, SGLang, mistral.rs, a plain PyTorch engine and LiteRT-LM serve the same 4-bit Gemma 4 E2B on one 8 GB RTX 3050, measured with the same prompts, the same load sweep and the…
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>GITHUB</code>&nbsp; 2d ago</sub><br>
 <a href="https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/"><b>Beyond code generation: A developer’s guide to agentic engineering</b></a>
 <br><br>
 Writing code got faster. The work around it didn't. See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot, and what work still needs your…
@@ -98,7 +98,7 @@ A top-down action roguelite only works when combat feels sharp, rooms feel conne
 Ryan sits down with Rakesh Kumar, professor of computer engineering at the University of Illinois Urbana-Champaign, about the astounding complexity of manufacturing modern semiconductors…
 </td>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 2d ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 3d ago</sub><br>
 <a href="https://laravel-news.com/laravel-middleware-insert-before-after?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Insert Middleware Before or After Existing Laravel Middleware</b></a>
 <br><br>
 Laravel 13.40 adds insertBefore() and insertAfter() to place middleware next to built-in ones like TrustProxies and StartSession without redefining the stack.
@@ -120,7 +120,7 @@ The November 2026 security release for Next.js is now available
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 09 Nov 2026 05:01 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 09 Nov 2026 13:22 WIB.</sub>
 
 <!-- NEWS:END -->
 
