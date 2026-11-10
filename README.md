@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=b3fa653de1" />
-  <img src="./assets/activity-light.svg?v=fe10c2f767" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=8185bb96ea" />
+  <img src="./assets/activity-light.svg?v=79dc83e565" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=e5f23d33a8" />
-  <img src="./assets/news-light.svg?v=e9b41e6765" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=b513bf91cf" />
+  <img src="./assets/news-light.svg?v=62ed2db2a5" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,97 +36,97 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; just now</sub><br>
+<sub><code>LOBSTERS</code>&nbsp; 1h ago</sub><br>
+<a href="https://danielbmarkham.com/blog/thoughts-on-ai-coding"><b>Thoughts on AI Coding</b></a>
+<br><br>
+This is a commentary on the future of programming as a job. It is written by someone who grew up alongside the rise of personal computers. Comments
+</td>
+<td width="50%" valign="top">
+<sub><code>HN</code>&nbsp; 1h ago</sub><br>
+<a href="https://starlink.com/mini-2"><b>Starlink Mini 2</b></a>
+<br><br>
+89 points and 61 comments on the Hacker News front page · starlink.com
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>HN</code>&nbsp; 1h ago</sub><br>
+<a href="https://openai.com/index/ai-effect-on-freelance-work"><b>Work at the Frontier: AI's effect on freelance work</b></a>
+<br><br>
+20 points and 9 comments on the Hacker News front page · openai.com
+</td>
+<td width="50%" valign="top">
+<sub><code>GITHUB</code>&nbsp; 1h ago</sub><br>
+<a href="https://github.blog/open-source/git/git-security-vulnerabilities-announced-7/"><b>Git security vulnerabilities announced</b></a>
+<br><br>
+Git is releasing updates addressing six security vulnerabilities affecting recursive clones, reference handling, merges, binary patches, and imports. Here is what users need to know.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>FREECODECAMP</code>&nbsp; 3h ago</sub><br>
+<a href="https://www.freecodecamp.org/news/learn-agentic-coding-with-codex-ai-coding-agents/"><b>Learn Agentic Coding with Codex &amp; AI Coding Agents</b></a>
+<br><br>
+AI coding agents such as Codex read your codebase, edit multiple files, and run commands and tests while they work through larger tasks with you. In Codex, an AGENTS.md file holds…
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 5h ago</sub><br>
+<a href="https://dev.to/devteam/top-7-featured-dev-posts-of-the-week-432g"><b>Top 7 Featured DEV Posts of the Week</b></a>
+<br><br>
+Welcome to this week's Top 7, where the DEV editorial team handpicks their favorite posts from the...
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>LARAVEL</code>&nbsp; 6h ago</sub><br>
+<a href="https://laravel-news.com/laravel-rest-api-3?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Laravel Rest Api 3.0: Typed Fields, Metrics, and OpenAPI Docs</b></a>
+<br><br>
+Laravel Rest Api 3.0 rebuilds the package around typed fields, adds metric endpoints and write confirmations, and documents your API with Scramble.
+</td>
+<td width="50%" valign="top">
+<sub><code>FREECODECAMP</code>&nbsp; 6h ago</sub><br>
+<a href="https://www.freecodecamp.org/news/how-file-transfer-services-work/"><b>What Happens When You Upload a Large File &amp; Generate a Temporary Download Link</b></a>
+<br><br>
+Sending a 5 GB video file might seem simple. You select the file, click Upload, wait for the progress bar to finish, and share a link with someone. But there are several things happening in…
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 10h ago</sub><br>
+<a href="https://dev.to/hadil/i-used-gp-grid-to-build-a-react-food-festival-app-with-advanced-data-grid-features-3l22"><b>I Used gp-grid to Build a React Food Festival App with Advanced Data Grid Features</b></a>
+<br><br>
+I had already explored gp-grid's features and capabilities, and I wrote gp-grid: A Free, Open-Source...
+</td>
+<td width="50%" valign="top">
+<sub><code>STACKOVERFLOW</code>&nbsp; 11h ago</sub><br>
 <a href="https://stackoverflow.blog/2026/11/10/customer-support-is-the-gnarliest-ai-problem/"><b>Customer support is the gnarliest AI problem</b></a>
 <br><br>
 Ryan chats with Ahmad Al-Dahle, CTO at Airbnb, about deploying multi-party AI agents to tackle the uniquely gnarly problem of customer support, how a moving target of rigorous evaluations…
 </td>
-<td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/"><b>Amazon saves millions by replacing Sonnet 4.6 with Strands Decider</b></a>
-<br><br>
-85 points and 18 comments on the Hacker News front page · strandsagents.com
-</td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://alok.blog/luddite/"><b>Mathematicians Are Like Luddites</b></a>
+<sub><code>LARAVEL</code>&nbsp; 21h ago</sub><br>
+<a href="https://laravel-news.com/mozex-laravel-searchable?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Search Polymorphic Relations and Filament Tables With Laravel Searchable</b></a>
 <br><br>
-10 points and 0 comments on the Hacker News front page · alok.blog
+Laravel Searchable adds Eloquent search across polymorphic relations and separate database connections, with relevance ranking for Filament tables.
 </td>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 8h ago</sub><br>
-<a href="https://dev.to/maame-codes/how-did-you-end-up-in-tech-and-are-you-staying-4l9b"><b>How did you end up in tech, and are you staying?</b></a>
-<br><br>
-Last week you showed me where you code. This week I want to know how you ended up there in the first...
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 12h ago</sub><br>
-<a href="https://dev.to/ndcodes/day-82-a-password-removed-and-a-copy-that-stayed-put-35jd"><b>Day 82: A Password Removed and a Copy That Stayed Put</b></a>
-<br><br>
-Day 82 of DevOps, Day 32 of Azure. Both tasks today returned a cheerful single word that meant less...
-</td>
-<td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
-<a href="https://laravel-news.com/inertia-live-props-laravel-reverb?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Real-Time Inertia Props With Laravel Reverb</b></a>
-<br><br>
-Update Inertia page props in real time with live props and Laravel Reverb. Broadcast an event, and every open page reloads the prop without polling.
-</td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <sub><code>GITHUB</code>&nbsp; 3d ago</sub><br>
 <a href="https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/"><b>Beyond code generation: A developer’s guide to agentic engineering</b></a>
 <br><br>
 Writing code got faster. The work around it didn't. See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot, and what work still needs your…
 </td>
-<td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 3d ago</sub><br>
-<a href="https://www.freecodecamp.org/news/build-pdf-storyboard-generator-javascript/"><b>How to Build a PDF Storyboard Generator Using JavaScript</b></a>
-<br><br>
-PDF files are commonly used to share presentations, scripts, reports, lesson materials, comic pages, and other visual documents. But reviewing a long PDF page by page can take time…
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 3d ago</sub><br>
-<a href="https://laravel-news.com/phpstorm-2026-3?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>PhpStorm 2026.3 Adds an Agent Workspace and PHP 8.6 Support</b></a>
-<br><br>
-PhpStorm 2026.3 adds PHP 8.6 support, new Laravel inspections, a Processes tab for queue workers, and Air, a workspace for coding agents.
-</td>
-<td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 3d ago</sub><br>
-<a href="https://www.freecodecamp.org/news/godot-4-roguelike-course-build-a-complete-top-down-action-game/"><b>Godot 4 Roguelike Course – Build a Complete Top-Down Action Game</b></a>
-<br><br>
-A top-down action roguelite only works when combat feels sharp, rooms feel connected, and every run asks you to trade power for risk. Godot 4 has the tools for that, but most tutorials stop…
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 4d ago</sub><br>
-<a href="https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/"><b>Inside GitHub’s new Git storage architecture</b></a>
-<br><br>
-GitHub's new Git storage architecture is built so thousands of agents can push to a single repository at once. Here's how it works.
-</td>
-<td width="50%" valign="top">
-<sub><code>NEXT.JS</code>&nbsp; 6d ago</sub><br>
-<a href="https://nextjs.org/blog/november-2026-security-release"><b>November 2026 Security Release</b></a>
-<br><br>
-The November 2026 security release for Next.js is now available
-</td>
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 10 Nov 2026 14:15 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Lobsters · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 11 Nov 2026 02:42 WIB.</sub>
 
 <!-- NEWS:END -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20261110" />
-  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261110" width="100%" alt="A snake eating this year's contribution squares" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20261111" />
+  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261111" width="100%" alt="A snake eating this year's contribution squares" />
 </picture>
 
 <picture>
