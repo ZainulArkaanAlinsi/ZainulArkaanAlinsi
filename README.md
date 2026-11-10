@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=f6625ebe87" />
-  <img src="./assets/activity-light.svg?v=82b80dc184" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=b3fa653de1" />
+  <img src="./assets/activity-light.svg?v=fe10c2f767" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=b7e073f75d" />
-  <img src="./assets/news-light.svg?v=a306aeeb5d" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=e5f23d33a8" />
+  <img src="./assets/news-light.svg?v=e9b41e6765" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,72 +36,72 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://sentra.io/blog/breaches/inside-the-qubole-supply-chain-attack"><b>Supply chain attack on Qubole customers</b></a>
+<sub><code>STACKOVERFLOW</code>&nbsp; just now</sub><br>
+<a href="https://stackoverflow.blog/2026/11/10/customer-support-is-the-gnarliest-ai-problem/"><b>Customer support is the gnarliest AI problem</b></a>
 <br><br>
-9 points and 3 comments on the Hacker News front page · sentra.io
+Ryan chats with Ahmad Al-Dahle, CTO at Airbnb, about deploying multi-party AI agents to tackle the uniquely gnarly problem of customer support, how a moving target of rigorous evaluations…
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 2h ago</sub><br>
-<a href="https://artificialanalysis.ai/models/claude-fable-5-2"><b>Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far</b></a>
+<sub><code>HN</code>&nbsp; 1h ago</sub><br>
+<a href="https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/"><b>Amazon saves millions by replacing Sonnet 4.6 with Strands Decider</b></a>
 <br><br>
-143 points and 75 comments on the Hacker News front page · artificialanalysis.ai
+85 points and 18 comments on the Hacker News front page · strandsagents.com
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 3h ago</sub><br>
+<sub><code>HN</code>&nbsp; 1h ago</sub><br>
+<a href="https://alok.blog/luddite/"><b>Mathematicians Are Like Luddites</b></a>
+<br><br>
+10 points and 0 comments on the Hacker News front page · alok.blog
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 8h ago</sub><br>
+<a href="https://dev.to/maame-codes/how-did-you-end-up-in-tech-and-are-you-staying-4l9b"><b>How did you end up in tech, and are you staying?</b></a>
+<br><br>
+Last week you showed me where you code. This week I want to know how you ended up there in the first...
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 12h ago</sub><br>
 <a href="https://dev.to/ndcodes/day-82-a-password-removed-and-a-copy-that-stayed-put-35jd"><b>Day 82: A Password Removed and a Copy That Stayed Put</b></a>
 <br><br>
 Day 82 of DevOps, Day 32 of Azure. Both tasks today returned a cheerful single word that meant less...
 </td>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 5h ago</sub><br>
-<a href="https://dev.to/gde/porting-gemma-4-e2b-to-sglang-jax-on-one-cloud-tpu-v5e-5e9l"><b>Porting Gemma 4 E2B to SGLang-JAX on One Cloud TPU v5e</b></a>
-<br><br>
-SGLang-JAX serves the Gemma 4 31B and 26B A4B on TPU and fails to load E2B. A two-file patch adds per-layer embeddings, shared K/V and the double-wide MLP; on one flex-start v5e-1 it then…
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 19h ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
 <a href="https://laravel-news.com/inertia-live-props-laravel-reverb?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Real-Time Inertia Props With Laravel Reverb</b></a>
 <br><br>
 Update Inertia page props in real time with live props and Laravel Reverb. Broadcast an event, and every open page reloads the prop without polling.
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <sub><code>GITHUB</code>&nbsp; 3d ago</sub><br>
 <a href="https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/"><b>Beyond code generation: A developer’s guide to agentic engineering</b></a>
 <br><br>
 Writing code got faster. The work around it didn't. See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot, and what work still needs your…
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <sub><code>FREECODECAMP</code>&nbsp; 3d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/build-pdf-storyboard-generator-javascript/"><b>How to Build a PDF Storyboard Generator Using JavaScript</b></a>
 <br><br>
 PDF files are commonly used to share presentations, scripts, reports, lesson materials, comic pages, and other visual documents. But reviewing a long PDF page by page can take time…
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <sub><code>LARAVEL</code>&nbsp; 3d ago</sub><br>
 <a href="https://laravel-news.com/phpstorm-2026-3?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>PhpStorm 2026.3 Adds an Agent Workspace and PHP 8.6 Support</b></a>
 <br><br>
 PhpStorm 2026.3 adds PHP 8.6 support, new Laravel inspections, a Processes tab for queue workers, and Air, a workspace for coding agents.
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <sub><code>FREECODECAMP</code>&nbsp; 3d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/godot-4-roguelike-course-build-a-complete-top-down-action-game/"><b>Godot 4 Roguelike Course – Build a Complete Top-Down Action Game</b></a>
 <br><br>
 A top-down action roguelite only works when combat feels sharp, rooms feel connected, and every run asks you to trade power for risk. Godot 4 has the tools for that, but most tutorials stop…
-</td>
-<td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 3d ago</sub><br>
-<a href="https://stackoverflow.blog/2026/11/06/welcome-to-life-in-the-chip-age/"><b>Welcome to life in the chip age</b></a>
-<br><br>
-Ryan sits down with Rakesh Kumar, professor of computer engineering at the University of Illinois Urbana-Champaign, about the astounding complexity of manufacturing modern semiconductors…
 </td>
 </tr>
 <tr>
@@ -120,7 +120,7 @@ The November 2026 security release for Next.js is now available
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 10 Nov 2026 05:18 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 10 Nov 2026 14:15 WIB.</sub>
 
 <!-- NEWS:END -->
 
