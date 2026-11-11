@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=7e303acc9f" />
-  <img src="./assets/activity-light.svg?v=839d8f9dc8" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=4716097f33" />
+  <img src="./assets/activity-light.svg?v=ac6a9bcb8d" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=679980359b" />
-  <img src="./assets/news-light.svg?v=22ac9e42f2" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=823b805cc4" />
+  <img src="./assets/news-light.svg?v=d85bfdda27" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,91 +36,91 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 46m ago</sub><br>
-<a href="https://github.com/gmkurtzer/ginux"><b>Greg Kurtzer's Ginux is now a userspace kernel</b></a>
+<sub><code>HN</code>&nbsp; 24m ago</sub><br>
+<a href="https://www.theverge.com/tech/1012372/tv-privacy-acr-questions"><b>I asked every TV manufacturer 17 questions about how they spy on you</b></a>
 <br><br>
-14 points and 1 comment on the Hacker News front page · github.com
+9 points and 3 comments on the Hacker News front page · theverge.com
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 24m ago</sub><br>
+<a href="https://dev.to/smtahosin/youre-spawning-goroutines-wrong-the-visual-architecture-guide-that-fixes-go-concurrency-forever-1he0"><b>You're Spawning Goroutines Wrong: The Visual Architecture Guide That Fixes Go Concurrency…</b></a>
+<br><br>
+A visual, 10-minute deep dive into Go runtime architecture. Learn how the GMP scheduler coordinates work-stealing, how 2KB contiguous stacks grow and shrink, how the internal hchan ring…
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>LOBSTERS</code>&nbsp; 1h ago</sub><br>
+<a href="https://lobste.rs/s/nld6x3/what_are_some_no_ai_apps_companies"><b>What are some &quot;No AI&quot; apps/companies/resources you know of?</b></a>
+<br><br>
+Hey everyone I'm wondering if there's any useful/helpful list of apps, companies, or resources in general that avoid AI (they don't have to be vocally or openly &quot;anti&quot;, but at least…
 </td>
 <td width="50%" valign="top">
 <sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://gatezh.com/posts/macos-secure-enclave-ssh-keys/"><b>Protecting SSH Keys with macOS Secure Enclave</b></a>
+<a href="https://blog.mozilla.org/security/2026/11/10/open-research-stronger-privacy-making-firefox-users-harder-to-fingerprint/"><b>Open research, stronger privacy: Making Firefox users harder to fingerprint</b></a>
 <br><br>
-55 points and 13 comments on the Hacker News front page · gatezh.com
+19 points and 0 comments on the Hacker News front page · blog.mozilla.org
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 4h ago</sub><br>
-<a href="https://dev.to/dailycontext/ask-more-of-your-ui-2nf7"><b>Ask More of Your UI</b></a>
+<sub><code>DEV</code>&nbsp; 2h ago</sub><br>
+<a href="https://dev.to/necoz/ai-can-write-code-but-the-magic-of-a-first-project-is-unmatched-30c4"><b>AI can write code, but the magic of a first project is unmatched! 🗽</b></a>
 <br><br>
-In my last post, I wrote about moving Forem’s performance and maintenance work into autonomous loops...
+Namaste dev community! 👋 Today, I’m sharing a very special project of mine. It's a web page...
 </td>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 7h ago</sub><br>
-<a href="https://dev.to/m4rri4nne/detecting-flaky-tests-and-finding-their-root-causes-with-strands-agents-and-gemini-4kan"><b>Detecting Flaky Tests and Finding Their Root Causes with Strands Agents and Gemini</b></a>
-<br><br>
-A few years ago (three years at most), one of the biggest challenges QA Engineers faced was: how do...
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 12h ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 20h ago</sub><br>
 <a href="https://github.blog/open-source/git/git-security-vulnerabilities-announced-7/"><b>Git security vulnerabilities announced</b></a>
 <br><br>
 Git is releasing updates addressing six security vulnerabilities affecting recursive clones, reference handling, merges, binary patches, and imports. Here is what users need to know.
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 14h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 22h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/learn-agentic-coding-with-codex-ai-coding-agents/"><b>Learn Agentic Coding with Codex &amp; AI Coding Agents</b></a>
 <br><br>
 AI coding agents such as Codex read your codebase, edit multiple files, and run commands and tests while they work through larger tasks with you. In Codex, an AGENTS.md file holds…
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 16h ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
 <a href="https://laravel-news.com/laravel-rest-api-3?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Laravel Rest Api 3.0: Typed Fields, Metrics, and OpenAPI Docs</b></a>
 <br><br>
 Laravel Rest Api 3.0 rebuilds the package around typed fields, adds metric endpoints and write confirmations, and documents your API with Scramble.
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 16h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-file-transfer-services-work/"><b>What Happens When You Upload a Large File &amp; Generate a Temporary Download Link</b></a>
 <br><br>
 Sending a 5 GB video file might seem simple. You select the file, click Upload, wait for the progress bar to finish, and share a link with someone. But there are several things happening in…
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 21h ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 1d ago</sub><br>
 <a href="https://stackoverflow.blog/2026/11/10/customer-support-is-the-gnarliest-ai-problem/"><b>Customer support is the gnarliest AI problem</b></a>
 <br><br>
 Ryan chats with Ahmad Al-Dahle, CTO at Airbnb, about deploying multi-party AI agents to tackle the uniquely gnarly problem of customer support, how a moving target of rigorous evaluations…
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
 <a href="https://laravel-news.com/mozex-laravel-searchable?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Search Polymorphic Relations and Filament Tables With Laravel Searchable</b></a>
 <br><br>
 Laravel Searchable adds Eloquent search across polymorphic relations and separate database connections, with relevance ranking for Filament tables.
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <sub><code>GITHUB</code>&nbsp; 4d ago</sub><br>
 <a href="https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/"><b>Beyond code generation: A developer’s guide to agentic engineering</b></a>
 <br><br>
 Writing code got faster. The work around it didn't. See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot, and what work still needs your…
 </td>
-<td width="50%" valign="top">
-<sub><code>NEXT.JS</code>&nbsp; 7d ago</sub><br>
-<a href="https://nextjs.org/blog/november-2026-security-release"><b>November 2026 Security Release</b></a>
-<br><br>
-The November 2026 security release for Next.js is now available
-</td>
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 11 Nov 2026 13:12 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Lobsters · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 11 Nov 2026 21:20 WIB.</sub>
 
 <!-- NEWS:END -->
 
