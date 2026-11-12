@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=b5e4af18ac" />
-  <img src="./assets/activity-light.svg?v=e10ad79e64" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=f4458087c3" />
+  <img src="./assets/activity-light.svg?v=293a2009b5" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=ddb51c2e14" />
-  <img src="./assets/news-light.svg?v=cad87f0289" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=8058730e1d" />
+  <img src="./assets/news-light.svg?v=824c5f1e78" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,30 +36,30 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://github.com/tylertms/Stela"><b>A general purpose Apple Silicon layer for x86-64 PCs</b></a>
+<sub><code>HN</code>&nbsp; 45m ago</sub><br>
+<a href="https://www.postgresql.org/about/news/postgresql-187-1712-1616-1520-1425-and-19-rc-2-released-3442/"><b>PostgreSQL 18.7, 17.12, 16.16, 15.20, 14.25, and 19 RC 2 Released</b></a>
 <br><br>
-26 points and 9 comments on the Hacker News front page · github.com
+12 points and 0 comments on the Hacker News front page · postgresql.org
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 2h ago</sub><br>
-<a href="https://twitter.com/watcherguru/status/2120645607866188008"><b>Nvidia prepares to fire CEO Jensen Huang, WSJ reports</b></a>
+<sub><code>HN</code>&nbsp; 51m ago</sub><br>
+<a href="https://www.moddb.com/mods/openq4/downloads/openq4-0141-windows-x64"><b>Abandoned Quake 4 expansion finished by modders and now playable</b></a>
 <br><br>
-198 points and 120 comments on the Hacker News front page · twitter.com
+24 points and 4 comments on the Hacker News front page · moddb.com
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 <sub><code>DEV</code>&nbsp; 3h ago</sub><br>
-<a href="https://dev.to/dailycontext/your-agent-needs-a-schema-not-a-better-prompt-53bm"><b>Your Agent Needs a Schema, Not a Better Prompt</b></a>
+<a href="https://dev.to/necoz/a-10-years-old-developer-who-has-become-a-devto-trusted-member-49c8"><b>A 10 years old developer who has become a DEV.to Trusted Member! 😱</b></a>
 <br><br>
-The failure nobody demos The agent demo always works. The customer asks for a refund, the...
+I still can't believe it! I just noticed the Trusted Member badge on my DEV.to profile, and I'm...
 </td>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 7h ago</sub><br>
-<a href="https://dev.to/necoz/meet-type-tune-give-your-typescript-types-a-better-home-1p6l"><b>Meet type-tune! 🦀 Give Your TypeScript Types a Better Home! 😸</b></a>
+<sub><code>DEV</code>&nbsp; 4h ago</sub><br>
+<a href="https://dev.to/alexgeorgiev17/clickhouse-2610s-string-filter-during-scan-cuts-a-selective-like-querys-memory-25-fold-228j"><b>ClickHouse 26.10's string filter during scan cuts a selective LIKE query's memory 25-fold</b></a>
 <br><br>
-Hoi hoi! 👋 I'm @nyaomaru, a frontend engineer who is actually allergic to crabs! 🙀🦀 Today, I have...
+I benchmarked ClickHouse 26.10's new apply_string_filters_during_scan setting against 26.9: a selective LIKE query's peak memory dropped from 37.6MB to 1.5MB, but a plain WHERE equality got…
 </td>
 </tr>
 <tr>
@@ -84,7 +84,7 @@ Git is releasing updates addressing six security vulnerabilities affecting recur
 AI coding agents such as Codex read your codebase, edit multiple files, and run commands and tests while they work through larger tasks with you. In Codex, an AGENTS.md file holds…
 </td>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 2d ago</sub><br>
 <a href="https://laravel-news.com/laravel-rest-api-3?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Laravel Rest Api 3.0: Typed Fields, Metrics, and OpenAPI Docs</b></a>
 <br><br>
 Laravel Rest Api 3.0 rebuilds the package around typed fields, adds metric endpoints and write confirmations, and documents your API with Scramble.
@@ -92,13 +92,13 @@ Laravel Rest Api 3.0 rebuilds the package around typed fields, adds metric endpo
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 2d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-file-transfer-services-work/"><b>What Happens When You Upload a Large File &amp; Generate a Temporary Download Link</b></a>
 <br><br>
 Sending a 5 GB video file might seem simple. You select the file, click Upload, wait for the progress bar to finish, and share a link with someone. But there are several things happening in…
 </td>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 1d ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 2d ago</sub><br>
 <a href="https://stackoverflow.blog/2026/11/10/customer-support-is-the-gnarliest-ai-problem/"><b>Customer support is the gnarliest AI problem</b></a>
 <br><br>
 Ryan chats with Ahmad Al-Dahle, CTO at Airbnb, about deploying multi-party AI agents to tackle the uniquely gnarly problem of customer support, how a moving target of rigorous evaluations…
@@ -120,7 +120,7 @@ The November 2026 security release for Next.js is now available
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 12 Nov 2026 07:40 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 12 Nov 2026 22:10 WIB.</sub>
 
 <!-- NEWS:END -->
 
