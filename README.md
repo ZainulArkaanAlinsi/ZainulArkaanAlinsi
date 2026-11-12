@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=f4458087c3" />
-  <img src="./assets/activity-light.svg?v=293a2009b5" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=6374de161a" />
+  <img src="./assets/activity-light.svg?v=93cade32f2" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=8058730e1d" />
-  <img src="./assets/news-light.svg?v=824c5f1e78" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=df668ae4fb" />
+  <img src="./assets/news-light.svg?v=aee50dae92" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,58 +36,72 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 45m ago</sub><br>
-<a href="https://www.postgresql.org/about/news/postgresql-187-1712-1616-1520-1425-and-19-rc-2-released-3442/"><b>PostgreSQL 18.7, 17.12, 16.16, 15.20, 14.25, and 19 RC 2 Released</b></a>
+<sub><code>HN</code>&nbsp; 28m ago</sub><br>
+<a href="https://www.economist.com/leaders/2026/11/12/why-you-should-expect-an-ai-crash"><b>Why You Should Expect an AI Crash</b></a>
 <br><br>
-12 points and 0 comments on the Hacker News front page · postgresql.org
+15 points and 1 comment on the Hacker News front page · economist.com
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 51m ago</sub><br>
-<a href="https://www.moddb.com/mods/openq4/downloads/openq4-0141-windows-x64"><b>Abandoned Quake 4 expansion finished by modders and now playable</b></a>
+<sub><code>GITHUB</code>&nbsp; 42m ago</sub><br>
+<a href="https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/"><b>Build once, run on any agent: A practical guide to agent skills</b></a>
 <br><br>
-24 points and 4 comments on the Hacker News front page · moddb.com
+Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them.
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 3h ago</sub><br>
-<a href="https://dev.to/necoz/a-10-years-old-developer-who-has-become-a-devto-trusted-member-49c8"><b>A 10 years old developer who has become a DEV.to Trusted Member! 😱</b></a>
+<sub><code>HN</code>&nbsp; 1h ago</sub><br>
+<a href="https://unemploymentlabs.com/checkpoint-forensics"><b>Chinese frontier AI models carry the fingerprint of export-controlled GPUs</b></a>
 <br><br>
-I still can't believe it! I just noticed the Trusted Member badge on my DEV.to profile, and I'm...
+80 points and 18 comments on the Hacker News front page · unemploymentlabs.com
 </td>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 4h ago</sub><br>
-<a href="https://dev.to/alexgeorgiev17/clickhouse-2610s-string-filter-during-scan-cuts-a-selective-like-querys-memory-25-fold-228j"><b>ClickHouse 26.10's string filter during scan cuts a selective LIKE query's memory 25-fold</b></a>
+<sub><code>DEV</code>&nbsp; 5h ago</sub><br>
+<a href="https://blog.mlh.com/can-you-merge-at-agent-speed-4m67"><b>Can you merge at agent speed?</b></a>
 <br><br>
-I benchmarked ClickHouse 26.10's new apply_string_filters_during_scan setting against 26.9: a selective LIKE query's peak memory dropped from 37.6MB to 1.5MB, but a plain WHERE equality got…
+Major League Hacking and Entire are teaming up for a year of hackathons, DEV Challenges, and a new...
 </td>
 </tr>
 <tr>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 7h ago</sub><br>
+<a href="https://dev.to/necoz/your-mcp-servers-are-silently-draining-your-context-window-the-hidden-cost-of-tool-heavy-ai-agents-fkl"><b>Your MCP Servers Are Silently Draining Your Context Window: The Hidden Cost of Tool-Heavy AI…</b></a>
+<br><br>
+Why attaching dozens of Model Context Protocol (MCP) tools degrades LLM reasoning, inflates API bills, and how small, focused TypeScript micro-tools fix the problem.
+</td>
+<td width="50%" valign="top">
+<sub><code>STACKOVERFLOW</code>&nbsp; 7h ago</sub><br>
+<a href="https://stackoverflow.blog/2026/11/12/how-do-you-hire-a-human-q-and-a-with-tom-harvey-stack-overflow-technical-recruiter/"><b>How do you hire a human? Q&amp;A with Tom Harvey, Stack Overflow technical recruiter</b></a>
+<br><br>
+Everybody's resume is perfect now, so how do you find the perfect teammate?
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
+<a href="https://laravel-news.com/laravel-read-replica-commit-ids?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Laravel Read Replicas: Check if a Replica Has Caught Up</b></a>
+<br><br>
+Laravel 13.40 adds commit IDs to MySQL, MariaDB, and PostgreSQL connections, so you can check whether a read replica has a write before you read from it.
+</td>
 <td width="50%" valign="top">
 <sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
 <a href="https://laravel-news.com/laravel-13-42-0?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>UUID Request Input and Migration Failure Events in Laravel 13.42</b></a>
 <br><br>
 Laravel 13.42 adds uuid() and ulid() input helpers, a MigrationFailed event, skip reasons for scheduled tasks, and Uri::origin() for comparing URL origins.
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 1d ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 2d ago</sub><br>
 <a href="https://github.blog/open-source/git/git-security-vulnerabilities-announced-7/"><b>Git security vulnerabilities announced</b></a>
 <br><br>
 Git is releasing updates addressing six security vulnerabilities affecting recursive clones, reference handling, merges, binary patches, and imports. Here is what users need to know.
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 2d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/learn-agentic-coding-with-codex-ai-coding-agents/"><b>Learn Agentic Coding with Codex &amp; AI Coding Agents</b></a>
 <br><br>
 AI coding agents such as Codex read your codebase, edit multiple files, and run commands and tests while they work through larger tasks with you. In Codex, an AGENTS.md file holds…
-</td>
-<td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 2d ago</sub><br>
-<a href="https://laravel-news.com/laravel-rest-api-3?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Laravel Rest Api 3.0: Typed Fields, Metrics, and OpenAPI Docs</b></a>
-<br><br>
-Laravel Rest Api 3.0 rebuilds the package around typed fields, adds metric endpoints and write confirmations, and documents your API with Scramble.
 </td>
 </tr>
 <tr>
@@ -104,29 +118,15 @@ Sending a 5 GB video file might seem simple. You select the file, click Upload, 
 Ryan chats with Ahmad Al-Dahle, CTO at Airbnb, about deploying multi-party AI agents to tackle the uniquely gnarly problem of customer support, how a moving target of rigorous evaluations…
 </td>
 </tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 5d ago</sub><br>
-<a href="https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/"><b>Beyond code generation: A developer’s guide to agentic engineering</b></a>
-<br><br>
-Writing code got faster. The work around it didn't. See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot, and what work still needs your…
-</td>
-<td width="50%" valign="top">
-<sub><code>NEXT.JS</code>&nbsp; 8d ago</sub><br>
-<a href="https://nextjs.org/blog/november-2026-security-release"><b>November 2026 Security Release</b></a>
-<br><br>
-The November 2026 security release for Next.js is now available
-</td>
-</tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 12 Nov 2026 22:10 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 13 Nov 2026 06:36 WIB.</sub>
 
 <!-- NEWS:END -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20261112" />
-  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261112" width="100%" alt="A snake eating this year's contribution squares" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20261113" />
+  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261113" width="100%" alt="A snake eating this year's contribution squares" />
 </picture>
 
 <picture>
