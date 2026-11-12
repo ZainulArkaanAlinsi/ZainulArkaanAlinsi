@@ -22,13 +22,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=4716097f33" />
-  <img src="./assets/activity-light.svg?v=ac6a9bcb8d" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=b5e4af18ac" />
+  <img src="./assets/activity-light.svg?v=e10ad79e64" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=823b805cc4" />
-  <img src="./assets/news-light.svg?v=d85bfdda27" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=ddb51c2e14" />
+  <img src="./assets/news-light.svg?v=cad87f0289" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 </picture>
 
 <!-- NEWS:START -->
@@ -36,41 +36,41 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 24m ago</sub><br>
-<a href="https://www.theverge.com/tech/1012372/tv-privacy-acr-questions"><b>I asked every TV manufacturer 17 questions about how they spy on you</b></a>
-<br><br>
-9 points and 3 comments on the Hacker News front page · theverge.com
-</td>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 24m ago</sub><br>
-<a href="https://dev.to/smtahosin/youre-spawning-goroutines-wrong-the-visual-architecture-guide-that-fixes-go-concurrency-forever-1he0"><b>You're Spawning Goroutines Wrong: The Visual Architecture Guide That Fixes Go Concurrency…</b></a>
-<br><br>
-A visual, 10-minute deep dive into Go runtime architecture. Learn how the GMP scheduler coordinates work-stealing, how 2KB contiguous stacks grow and shrink, how the internal hchan ring…
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>LOBSTERS</code>&nbsp; 1h ago</sub><br>
-<a href="https://lobste.rs/s/nld6x3/what_are_some_no_ai_apps_companies"><b>What are some &quot;No AI&quot; apps/companies/resources you know of?</b></a>
-<br><br>
-Hey everyone I'm wondering if there's any useful/helpful list of apps, companies, or resources in general that avoid AI (they don't have to be vocally or openly &quot;anti&quot;, but at least…
-</td>
-<td width="50%" valign="top">
 <sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://blog.mozilla.org/security/2026/11/10/open-research-stronger-privacy-making-firefox-users-harder-to-fingerprint/"><b>Open research, stronger privacy: Making Firefox users harder to fingerprint</b></a>
+<a href="https://github.com/tylertms/Stela"><b>A general purpose Apple Silicon layer for x86-64 PCs</b></a>
 <br><br>
-19 points and 0 comments on the Hacker News front page · blog.mozilla.org
+26 points and 9 comments on the Hacker News front page · github.com
+</td>
+<td width="50%" valign="top">
+<sub><code>HN</code>&nbsp; 2h ago</sub><br>
+<a href="https://twitter.com/watcherguru/status/2120645607866188008"><b>Nvidia prepares to fire CEO Jensen Huang, WSJ reports</b></a>
+<br><br>
+198 points and 120 comments on the Hacker News front page · twitter.com
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 2h ago</sub><br>
-<a href="https://dev.to/necoz/ai-can-write-code-but-the-magic-of-a-first-project-is-unmatched-30c4"><b>AI can write code, but the magic of a first project is unmatched! 🗽</b></a>
+<sub><code>DEV</code>&nbsp; 3h ago</sub><br>
+<a href="https://dev.to/dailycontext/your-agent-needs-a-schema-not-a-better-prompt-53bm"><b>Your Agent Needs a Schema, Not a Better Prompt</b></a>
 <br><br>
-Namaste dev community! 👋 Today, I’m sharing a very special project of mine. It's a web page...
+The failure nobody demos The agent demo always works. The customer asks for a refund, the...
 </td>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 20h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 7h ago</sub><br>
+<a href="https://dev.to/necoz/meet-type-tune-give-your-typescript-types-a-better-home-1p6l"><b>Meet type-tune! 🦀 Give Your TypeScript Types a Better Home! 😸</b></a>
+<br><br>
+Hoi hoi! 👋 I'm @nyaomaru, a frontend engineer who is actually allergic to crabs! 🙀🦀 Today, I have...
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
+<a href="https://laravel-news.com/laravel-13-42-0?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>UUID Request Input and Migration Failure Events in Laravel 13.42</b></a>
+<br><br>
+Laravel 13.42 adds uuid() and ulid() input helpers, a MigrationFailed event, skip reasons for scheduled tasks, and Uri::origin() for comparing URL origins.
+</td>
+<td width="50%" valign="top">
+<sub><code>GITHUB</code>&nbsp; 1d ago</sub><br>
 <a href="https://github.blog/open-source/git/git-security-vulnerabilities-announced-7/"><b>Git security vulnerabilities announced</b></a>
 <br><br>
 Git is releasing updates addressing six security vulnerabilities affecting recursive clones, reference handling, merges, binary patches, and imports. Here is what users need to know.
@@ -78,7 +78,7 @@ Git is releasing updates addressing six security vulnerabilities affecting recur
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 22h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/learn-agentic-coding-with-codex-ai-coding-agents/"><b>Learn Agentic Coding with Codex &amp; AI Coding Agents</b></a>
 <br><br>
 AI coding agents such as Codex read your codebase, edit multiple files, and run commands and tests while they work through larger tasks with you. In Codex, an AGENTS.md file holds…
@@ -106,27 +106,27 @@ Ryan chats with Ahmad Al-Dahle, CTO at Airbnb, about deploying multi-party AI ag
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
-<a href="https://laravel-news.com/mozex-laravel-searchable?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Search Polymorphic Relations and Filament Tables With Laravel Searchable</b></a>
-<br><br>
-Laravel Searchable adds Eloquent search across polymorphic relations and separate database connections, with relevance ranking for Filament tables.
-</td>
-<td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 4d ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 5d ago</sub><br>
 <a href="https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/"><b>Beyond code generation: A developer’s guide to agentic engineering</b></a>
 <br><br>
 Writing code got faster. The work around it didn't. See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot, and what work still needs your…
 </td>
+<td width="50%" valign="top">
+<sub><code>NEXT.JS</code>&nbsp; 8d ago</sub><br>
+<a href="https://nextjs.org/blog/november-2026-security-release"><b>November 2026 Security Release</b></a>
+<br><br>
+The November 2026 security release for Next.js is now available
+</td>
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Lobsters · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 11 Nov 2026 21:20 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 12 Nov 2026 07:40 WIB.</sub>
 
 <!-- NEWS:END -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20261111" />
-  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261111" width="100%" alt="A snake eating this year's contribution squares" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20261112" />
+  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261112" width="100%" alt="A snake eating this year's contribution squares" />
 </picture>
 
 <picture>
