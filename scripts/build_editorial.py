@@ -16,6 +16,7 @@ The serif and mono faces are the subsets already embedded in hero.svg
 (scripts/art/fonts.css). Motion is CSS only; every element is visible without it.
 """
 import base64
+import math
 import datetime as dt
 import os
 import sys
@@ -27,17 +28,18 @@ from theme import ASSETS, THEMES
 from build_panels import BLURB, FACTS, NAME, PATHS, STACK, brand
 
 ART = Path(__file__).parent / "art"
-FONTS = (ART / "fonts.css").read_text(encoding="utf-8")
+FONTS = (ART / "jakarta.css").read_text(encoding="utf-8")   # Plus Jakarta Sans 400/600/800, OFL
 
 NAVY, SAND, SAGE, TERRA, GREY, IVORY = "#0D1B2A", "#E8DCC4", "#A7B89A", "#E07A5F", "#D1D5DB", "#F5F1E8"
 DEEP = "#08121C"                      # the darkest navy, for wells that carry logos
 W = 1200
-SANS = "-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif"
+SANS = "Jak,-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif"
 
 CSS = (FONTS
-       + ".s{font-family:Serif,Georgia,serif}.si{font-family:SerifI,Georgia,serif;font-style:italic}"
-       ".m{font-family:Mono,ui-monospace,Consolas,monospace}"
-       f".cap{{font-family:Mono,ui-monospace,monospace;font-size:12px;letter-spacing:2.6px;fill:{SAND}}}"
+       + f"text{{font-family:{SANS}}}"
+       ".s{font-weight:600;letter-spacing:-.5px}.si{font-weight:400}.m{font-weight:500}"
+       ".n{font-weight:800;letter-spacing:-1.5px;font-variant-numeric:tabular-nums lining-nums}"
+       f".cap{{font-size:12px;font-weight:700;letter-spacing:2.2px;fill:{SAND}}}"
        "@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}.blink{animation:blink 1.1s steps(1) infinite}"
        "@keyframes reachL{0%,100%{transform:translateX(0)}50%{transform:translateX(10px)}}"
        "@keyframes reachR{0%,100%{transform:translateX(0)}50%{transform:translateX(-10px)}}"
@@ -78,7 +80,10 @@ def doc(h, body, label, seed=0, w=W):
     return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" width="{w}" height="{h}" role="img"'
             f' aria-label="{escape(label)}"><title>{escape(label)}</title><style>{CSS}</style>'
             f'<defs><filter id="bk" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="70"/></filter>'
-            f'<filter id="glow" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="7"/></filter></defs>'
+            f'<filter id="glow" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="7"/></filter>'
+            f'<filter id="lift" x="-30%" y="-30%" width="160%" height="170%">'
+            f'<feDropShadow dx="0" dy="22" stdDeviation="16" flood-color="#000" flood-opacity=".55"/></filter>'
+            f'<filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter></defs>'
             f'{backdrop(w, h, seed)}{body}</svg>')
 
 
@@ -160,7 +165,7 @@ def about():
                   t(64, y0 + 104, NAME, "s", 56, IVORY),
                   t(64, y0 + 146, "full-stack developer, student at IDN.", "si", 27, SAND)]
     for i, ln in enumerate(BLURB):
-        text_layer.append(t(650, y0 + 84 + i * 32, ln.replace("I'm", "I’m"), "s", 21, GREY))
+        text_layer.append(t(620, y0 + 84 + i * 30, ln.replace("I'm", "I’m"), "si", 17.5, GREY))
     fy = y0 + 214
     text_layer.append(hair(64, fy - 30, W - 64, fy - 30))
     for i, (key, val) in enumerate(FACTS):
@@ -177,10 +182,19 @@ CARD_W, CARD_H = 300, 384
 
 
 def card(cx, top, angle, title, items, edge, delay=0.0):
+    """A physical card: lifted by a soft shadow, a few pixels thick, rim catching the light."""
     x, cy = cx - CARD_W / 2, top + CARD_H / 2
+    side = shade_hex(edge, .62)
     g = [f'<g class="bob" style="animation-delay:{delay}s"><g transform="rotate({angle} {cx:.1f} {cy:.1f})">',
+         f'<g filter="url(#lift)"><rect x="{x - 8:.1f}" y="{top - 8:.1f}" width="{CARD_W + 16}" height="{CARD_H + 22}"'
+         f' rx="26" fill="{side}"/></g>',                                     # body + thickness
          f'<rect x="{x - 8:.1f}" y="{top - 8:.1f}" width="{CARD_W + 16}" height="{CARD_H + 16}" rx="26" fill="{edge}"/>',
+         f'<rect x="{x - 2:.1f}" y="{top - 7:.1f}" width="{CARD_W + 4}" height="2" rx="1" fill="#FFFFFF" opacity=".55"/>',
          f'<rect x="{x:.1f}" y="{top:.1f}" width="{CARD_W}" height="{CARD_H}" rx="18" fill="{DEEP}"/>',
+         f'<rect x="{x + .5:.1f}" y="{top + .5:.1f}" width="{CARD_W - 1}" height="{CARD_H - 1}" rx="18" fill="none"'
+         f' stroke="#000" stroke-opacity=".45"/>',                            # inner bevel
+         f'<polygon points="{x:.1f},{top + 30:.1f} {x + 120:.1f},{top:.1f} {x + 190:.1f},{top:.1f} {x:.1f},{top + 120:.1f}"'
+         f' fill="#FFFFFF" opacity=".035"/>',                                 # a flat glint across the face
          cap(x + 24, top + 40, title, fill=edge),
          cap(x + CARD_W - 24, top + 40, f"{len(items):02d}", "end", GREY),
          f'<line x1="{x + 24:.1f}" y1="{top + 56:.1f}" x2="{x + CARD_W - 24:.1f}" y2="{top + 56:.1f}"'
@@ -189,11 +203,16 @@ def card(cx, top, angle, title, items, edge, delay=0.0):
     for i, (slug, label) in enumerate(items):
         gx = x + 24 + (i % 3) * cw + cw / 2
         gy = top + 78 + (i // 3) * rh
+        g.append(f'<rect x="{gx - 25:.1f}" y="{gy - 10:.1f}" width="50" height="50" rx="13" fill="#FFFFFF" opacity=".05"/>')
         g.append(logo(slug, gx - 15, gy, 30))
-        g.append(f'<text x="{gx:.1f}" y="{gy + 50:.1f}" font-family="{SANS}" font-size="12.5" fill="{GREY}"'
+        g.append(f'<text x="{gx:.1f}" y="{gy + 58:.1f}" font-size="12.5" font-weight="600" fill="{GREY}"'
                  f' text-anchor="middle">{esc(label)}</text>')
     g.append("</g></g>")
     return "".join(g)
+
+
+def shade_hex(c, k):
+    return "#%02X%02X%02X" % tuple(max(0, min(255, round(int(c[i:i + 2], 16) * k))) for i in (1, 3, 5))
 
 
 def stack():
@@ -204,17 +223,23 @@ def stack():
     body = [card(cx - 318, 104, -8, groups[0][0], groups[0][1], SAND, 0),
             card(cx + 318, 104, 8, groups[2][0], groups[2][1], TERRA, -1.6),
             card(cx, 46, 0, groups[1][0], groups[1][1], SAGE, -3.2),
-            # the folder: frosted glass over the cards
-            f'<path d="M{fx} {fy + 24} q0 -24 24 -24 h190 q14 0 24 12 l18 22 h{fw - 276} q24 0 24 24 v{fh - 46}'
-            f' q0 24 -24 24 h-{fw - 48} q-24 0 -24 -24 z" fill="#3B4A5C" opacity=".72"/>',
+            # the folder: a contact shadow on the plate, the back sheet with its tab, then frosted glass
+            f'<ellipse cx="{cx}" cy="{fy + fh + 30}" rx="{fw / 2 - 10}" ry="18" fill="#000" opacity=".55" filter="url(#soft)"/>',
+            f'<g filter="url(#lift)"><path d="M{fx} {fy + 24} q0 -24 24 -24 h190 q14 0 24 12 l18 22 h{fw - 276} q24 0 24 24'
+            f' v{fh - 46} q0 24 -24 24 h-{fw - 48} q-24 0 -24 -24 z" fill="#2B3B4F"/></g>',
+            f'<path d="M{fx + 24} {fy + 1} h188" stroke="#FFFFFF" stroke-opacity=".25"/>',
             pane(fx, fy + 34, fw, fh - 10, 24, .16),
+            f'<rect x="{fx}" y="{fy + fh + 14}" width="{fw}" height="10" rx="5" fill="#000" opacity=".25"/>',
             t(fx + 30, fy + 26, "*TECHSTACK.", "m", 15, IVORY),
             t(fx + 30, fy + 96, "the tools I reach for", "si", 30, IVORY),
             t(fx + 30, fy + 130, "web · mobile · data", "m", 14, SAND),
+            f'<circle cx="{fx + fw - 62}" cy="{fy + fh - 48}" r="38" fill="#000" opacity=".35" filter="url(#soft)"/>',
             f'<circle cx="{fx + fw - 62}" cy="{fy + fh - 54}" r="38" fill="{TERRA}"/>',
+            f'<path d="M{fx + fw - 92} {fy + fh - 66} a34 34 0 0 1 30 -22" stroke="#FFFFFF" stroke-opacity=".45"'
+            f' stroke-width="3" fill="none" stroke-linecap="round"/>',
             f'<path d="M{fx + fw - 76} {fy + fh - 40} l26 -26 M{fx + fw - 72} {fy + fh - 66} h22 v22" stroke="{IVORY}"'
             f' stroke-width="7" fill="none" stroke-linecap="square"/>',
-            f'<text x="{cx}" y="{fy + fh + 128}" font-family="{SANS}" font-size="92" font-weight="600" fill="{IVORY}"'
+            f'<text x="{cx}" y="{fy + fh + 128}" font-family="{SANS}" font-size="96" font-weight="800" fill="{IVORY}"'
             f' text-anchor="middle" letter-spacing="-1">TECH STACK</text>',
             pane(cx - 118, fy + fh + 154, 236, 46, 23, .12),
             t(cx, fy + fh + 184, f"{total} tools · 2026", "m", 16, SAND, "middle")]
@@ -254,14 +279,7 @@ def activity(created, recent, all_days, stamp, today):
             ("Longest streak", str(longest), "days", GREY),
             ("Best day", str(best_n), best_txt, IVORY)]
 
-    weeks = recent["weeks"]
-    cell, gap = 15, 5
-    gw = len(weeks) * (cell + gap) - gap
-    gx, gy = (W - gw) / 2, 284
-    ly = gy + 7 * (cell + gap) + 60
-    h = ly + 52
-
-    body = [dot_defs(), pane(24, 16, W - 48, h - 32, 30, .07),
+    body = ["", "",
             cap(64, 62, "Fig. 03 — Contributions"), cap(W - 64, 62, f"synced {stamp}", "end", GREY),
             hair(64, 80, W - 64, 80)]
     cw = (W - 128) / len(cols)
@@ -270,31 +288,80 @@ def activity(created, recent, all_days, stamp, today):
         if i:
             body.append(hair(x - 14, 104, x - 14, 222))
         body.append(cap(x, 122, k, fill=GREY))
-        body.append(t(x, 190, v, "s", 64, col))
+        body.append(t(x, 190, v, "n", 60, col))
         body.append(t(x, 216, sub, "m", 13, GREY))
     body.append(hair(64, 254, W - 64, 254))
-
-    last = None
+    weeks = recent["weeks"]
+    S = 18.0
+    WX, WY, DX, DY = S * .96, 0.0, -S * .46, S * .62          # weeks run flat to the right, weekdays toward you
+    n = len(weeks)
+    ox = 64 + 7 * -DX + 26
+    top_y = 300
+    peak = max([d["contributionCount"] for d in days] + [1])
+    tall = lambda c: 0 if not c else 7 + math.log1p(c) / math.log1p(peak) * 92
+    oy = 254 + 92 + 70
+    P = lambda w, d, z=0: (ox + w * WX + d * DX, oy + w * WY + d * DY - z)
+    poly = lambda pts, fill, extra="": (f'<polygon points="{" ".join(f"{a:.1f},{b:.1f}" for a, b in pts)}"'
+                                       f' fill="{fill}"{extra}/>')
+    w1, d1 = n + .3, 7.3
+    plate = 16
+    H_ = lambda pts: [(a, b + plate) for a, b in pts]
+    corners = [P(-.3, -.3), P(w1, -.3), P(w1, d1), P(-.3, d1)]
+    world = [f'<ellipse cx="{(corners[0][0] + corners[2][0]) / 2:.0f}" cy="{corners[2][1] + plate + 24:.0f}"'
+             f' rx="{(corners[1][0] - corners[3][0]) / 2:.0f}" ry="22" fill="#000" opacity=".5" filter="url(#soft)"/>',
+             poly([corners[3], corners[2], H_([corners[2]])[0], H_([corners[3]])[0]], "#16263A"),     # front edge
+             poly([corners[2], corners[1], H_([corners[1]])[0], H_([corners[2]])[0]], "#0F1D2C"),     # right edge
+             poly(corners, IVORY, ' opacity=".07"'),
+             poly(corners, "none", f' stroke="{IVORY}" stroke-opacity=".28"')]
+    tiles, towers = [], []
+    today = None
     for wi, wk in enumerate(weeks):
-        for d in wk["contributionDays"]:
-            x, y = gx + wi * (cell + gap), gy + d["weekday"] * (cell + gap)
-            body.append(f'<rect x="{x:.1f}" y="{y:.1f}" width="{cell}" height="{cell}"'
-                        f' fill="url(#d{LEVEL.get(d["contributionLevel"], 0)})"/>')
-            last = (x, y)
+        for dd in wk["contributionDays"]:
+            d = dd["weekday"]
+            c = dd["contributionCount"]
+            lv = LEVEL.get(dd["contributionLevel"], 0)
+            a, b, e = .1, .86, .86
+            base = [P(wi + a, d + a), P(wi + e, d + a), P(wi + e, d + e), P(wi + a, d + e)]
+            if not c:
+                tiles.append(poly(base, IVORY, ' opacity=".06"'))
+            else:
+                z = tall(c)
+                topc = SAND if lv == 4 else {1: "#6F8266", 2: "#8A9E7E", 3: SAGE}.get(lv, SAGE)
+                topf = [(x_, y_ - z) for x_, y_ in base]
+                towers.append((d, wi, "".join([
+                    poly([base[3], base[2], topf[2], topf[3]], shade_hex(topc, .70)),   # front
+                    poly([base[2], base[1], topf[1], topf[2]], shade_hex(topc, .52)),   # right
+                    poly(topf, topc)])))
+            today = (wi, d, c)
+    towers.sort()                                             # far rows first, then left to right
+    world += tiles + [t_ for _, _, t_ in towers]
+    if today:
+        wi, d, c = today
+        mx, my = P(wi + .48, d + .48, tall(c) + 18)
+        world.append(f'<g class="bob"><path d="M{mx - 7:.1f} {my - 16:.1f} h14 l-7 10 z" fill="{TERRA}"/></g>')
+        world.append(t(mx, my - 24, "today", "m", 12, TERRA, "middle", ' font-weight="700"'))
+    if best_d:                                                # flag the best day over its tower
+        for wi, wk in enumerate(weeks):
+            for dd in wk["contributionDays"]:
+                if dd["date"] == best_d:
+                    bx, by = P(wi + .48, dd["weekday"] + .48, tall(dd["contributionCount"]) + 14)
+                    world.append(f'<line x1="{bx:.1f}" y1="{by:.1f}" x2="{bx:.1f}" y2="{by - 26:.1f}" stroke="{SAND}"/>')
+                    world.append(pane(bx - 70, by - 56, 140, 30, 15, .12))
+                    world.append(t(bx, by - 36, f"best day · {best_n}", "m", 12.5, SAND, "middle", ' font-weight="700"'))
+    for wi, wk in enumerate(weeks):
         first = dt.date.fromisoformat(wk["contributionDays"][0]["date"])
-        if first.day <= 7 and wi < len(weeks) - 2:
-            body.append(cap(gx + wi * (cell + gap), gy + 7 * (cell + gap) + 22, first.strftime("%b"), fill=GREY))
-    if last:
-        body.append(f'<rect class="blink" x="{last[0] - 3:.1f}" y="{last[1] - 3:.1f}" width="{cell + 6}"'
-                    f' height="{cell + 6}" fill="none" stroke="{TERRA}" stroke-width="2"/>')
+        if first.day <= 7 and wi < n - 2:
+            lx_, ly_ = P(wi, d1 + .5)
+            world.append(cap(lx_, ly_ + plate + 18, first.strftime("%b"), fill=GREY))
     for i, lab in enumerate(("Mon", "Wed", "Fri")):
-        body.append(cap(gx - 12, gy + (1 + 2 * i) * (cell + gap) + 12, lab, "end", GREY))
-    body.append(cap(64, ly, f"{recent['totalContributions']:,} contributions in the last year", fill=GREY))
-    lx = W - 64 - 5 * 24 - 54
-    body.append(cap(lx - 10, ly, "less", "end", GREY))
-    for lv in range(5):
-        body.append(f'<rect x="{lx + lv * 24}" y="{ly - 14}" width="{cell}" height="{cell}" fill="url(#d{lv})"/>')
-    body.append(cap(W - 64, ly, "more", "end", GREY))
+        lx_, ly_ = P(-.6, 1 + 2 * i + .5)
+        world.append(cap(lx_, ly_ + 4, lab, "end", GREY))
+    body += world
+    ly = max(y_ for _, y_ in corners) + plate + 70
+    h = ly + 52
+    body[1] = pane(24, 16, W - 48, h - 32, 30, .07)
+    body.append(cap(64, ly, f"{recent['totalContributions']:,} contributions in the last year · taller = busier day",
+                    fill=GREY))
     return doc(h, "".join(body), f"Contributions: {total:,} total, current streak {cur} days, longest {longest}, "
                                   f"best day {best_n}.", seed=3)
 

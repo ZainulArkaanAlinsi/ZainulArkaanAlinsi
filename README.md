@@ -2,19 +2,19 @@
 
 <img src="./assets/hero.svg?v=a4f4d2f398" width="100%" alt="Zainul Arkaan Alinsi — full-stack developer, student at IDN Boarding School" />
 
-<a href="https://instagram.com/zainarilbre"><img src="./assets/link-instagram-dark.svg?v=950c2098d7" width="25%" alt="Instagram" /></a><a href="https://linkedin.com/in/zainul-arkaan-3bb51731a"><img src="./assets/link-linkedin-dark.svg?v=de87fa533b" width="25%" alt="LinkedIn" /></a><a href="https://www.youtube.com/@zainarilbre"><img src="./assets/link-youtube-dark.svg?v=5463e81688" width="25%" alt="YouTube" /></a><a href="mailto:zainaril13@gmail.com"><img src="./assets/link-gmail-dark.svg?v=d6a42b2b8f" width="25%" alt="Email" /></a>
+<a href="https://instagram.com/zainarilbre"><img src="./assets/link-instagram-dark.svg?v=c05fd45d16" width="25%" alt="Instagram" /></a><a href="https://linkedin.com/in/zainul-arkaan-3bb51731a"><img src="./assets/link-linkedin-dark.svg?v=9495158336" width="25%" alt="LinkedIn" /></a><a href="https://www.youtube.com/@zainarilbre"><img src="./assets/link-youtube-dark.svg?v=5fd3eb275c" width="25%" alt="YouTube" /></a><a href="mailto:zainaril13@gmail.com"><img src="./assets/link-gmail-dark.svg?v=d3c27e7a14" width="25%" alt="Email" /></a>
 
 </div>
 
-<img src="./assets/about-dark.svg?v=5791214687" width="100%" alt="About me — Zainul Arkaan Alinsi, full-stack developer and student at IDN Boarding School. Builds full-stack web apps with PHP, Laravel, Next.js and Tailwind CSS, and is learning Flutter for mobile." />
+<img src="./assets/about-dark.svg?v=01f3efac98" width="100%" alt="About me — Zainul Arkaan Alinsi, full-stack developer and student at IDN Boarding School. Builds full-stack web apps with PHP, Laravel, Next.js and Tailwind CSS, and is learning Flutter for mobile." />
 
-<img src="./assets/stack-dark.svg?v=a1efa32c22" width="100%" alt="Tech stack — languages: PHP, TypeScript, JavaScript, Dart, Java, HTML5, CSS. Frameworks: Laravel, Next.js, React, Vue, Tailwind, Alpine, Flutter, Node.js. Tools: MySQL, SQLite, Firebase, Vercel, Git, GitHub, Figma, Postman." />
+<img src="./assets/stack-dark.svg?v=0ef797a3f1" width="100%" alt="Tech stack — languages: PHP, TypeScript, JavaScript, Dart, Java, HTML5, CSS. Frameworks: Laravel, Next.js, React, Vue, Tailwind, Alpine, Flutter, Node.js. Tools: MySQL, SQLite, Firebase, Vercel, Git, GitHub, Figma, Postman." />
 
-<img src="./assets/activity-dark.svg?v=19e3fb500c" width="100%" alt="Contributions — total, last twelve months, current and longest streak, best day, and a dithered map of the past year." />
+<img src="./assets/activity-dark.svg?v=5d540b1af2" width="100%" alt="Contributions — total, last twelve months, current and longest streak, best day, and a dithered map of the past year." />
 
-<img src="./assets/commits-dark.svg?v=c84f7b0905" width="100%" alt="Commit log — the latest pushes to public repositories, newest first, refreshed automatically." />
+<img src="./assets/commits-dark.svg?v=dbb38598cd" width="100%" alt="Commit log — the latest pushes to public repositories, newest first, refreshed automatically." />
 
-<img src="./assets/news-dark.svg?v=a4938aa637" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+<img src="./assets/news-dark.svg?v=14d015c232" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 
 <!-- NEWS:START -->
 
@@ -24,13 +24,13 @@
 <sub><code>HN</code>&nbsp; 3h ago</sub><br>
 <a href="https://monkeyisland.pages.dev/"><b>Monkey Island: all 13 versions side by side</b></a>
 <br><br>
-16 points and 2 comments on the Hacker News front page · monkeyisland.pages.dev
+24 points and 2 comments on the Hacker News front page · monkeyisland.pages.dev
 </td>
 <td width="50%" valign="top">
 <sub><code>HN</code>&nbsp; 5h ago</sub><br>
 <a href="https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus"><b>Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs</b></a>
 <br><br>
-429 points and 232 comments on the Hacker News front page · techpowerup.com
+448 points and 247 comments on the Hacker News front page · techpowerup.com
 </td>
 </tr>
 <tr>
@@ -105,7 +105,7 @@ Laravel 13.40 adds commit IDs to MySQL, MariaDB, and PostgreSQL connections, so 
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 14 Nov 2026 15:02 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 14 Nov 2026 15:19 WIB.</sub>
 
 <!-- NEWS:END -->
 
@@ -114,4 +114,4 @@ Laravel 13.40 adds commit IDs to MySQL, MariaDB, and PostgreSQL connections, so 
   <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261114" width="100%" alt="A snake eating this year's contribution squares" />
 </picture>
 
-<img src="./assets/footer-dark.svg?v=ed6a31f943" width="100%" alt="Thanks for stopping by" />
+<img src="./assets/footer-dark.svg?v=46385c42c0" width="100%" alt="Thanks for stopping by" />
