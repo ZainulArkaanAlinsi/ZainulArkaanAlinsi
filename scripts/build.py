@@ -65,6 +65,12 @@ def main():
         elif run("build_activity.py"):
             failures.append("activity: generator failed")
 
+    # Player bar + commit log. A failed fetch keeps the panel already committed, so
+    # this is reported but never blocks the rest of the page from refreshing.
+    if "--skip-hud" not in sys.argv and "--skip-activity" not in sys.argv:
+        if run("build_hud.py"):
+            print("WARNING hud: kept the existing panels (see log above)", file=sys.stderr)
+
     if "--skip-news" not in sys.argv and run("build_news.py"):
         failures.append("news: generator failed")
 

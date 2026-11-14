@@ -4,12 +4,17 @@
 
 <br/>
 
-<a href="https://instagram.com/zainarilbre"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/link-instagram-dark.svg?v=f3addd504b" /><img src="./assets/link-instagram-light.svg?v=16f0f466d7" alt="Instagram" height="44" /></picture></a>
-<a href="https://linkedin.com/in/zainul-arkaan-3bb51731a"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/link-linkedin-dark.svg?v=2b77820548" /><img src="./assets/link-linkedin-light.svg?v=b87bd175ff" alt="LinkedIn" height="44" /></picture></a>
-<a href="https://www.youtube.com/@zainarilbre"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/link-youtube-dark.svg?v=8c201a4965" /><img src="./assets/link-youtube-light.svg?v=3fb517bf55" alt="YouTube" height="44" /></picture></a>
-<a href="mailto:zainaril13@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/link-gmail-dark.svg?v=6b1db3c68d" /><img src="./assets/link-gmail-light.svg?v=9a416c3dee" alt="Email" height="44" /></picture></a>
+<a href="https://instagram.com/zainarilbre"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/link-instagram-dark.svg?v=16cba22a5f" /><img src="./assets/link-instagram-light.svg?v=d7708d509e" alt="Instagram" height="104" /></picture></a>
+<a href="https://linkedin.com/in/zainul-arkaan-3bb51731a"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/link-linkedin-dark.svg?v=80193708c0" /><img src="./assets/link-linkedin-light.svg?v=905731bd37" alt="LinkedIn" height="104" /></picture></a>
+<a href="https://www.youtube.com/@zainarilbre"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/link-youtube-dark.svg?v=22186d8ba1" /><img src="./assets/link-youtube-light.svg?v=d2ae8c8a84" alt="YouTube" height="104" /></picture></a>
+<a href="mailto:zainaril13@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/link-gmail-dark.svg?v=d26f86c2aa" /><img src="./assets/link-gmail-light.svg?v=3589747274" alt="Email" height="104" /></picture></a>
 
 </div>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/player-dark.svg?v=278d19700e" />
+  <img src="./assets/player-light.svg?v=0eefc83adb" width="100%" alt="Player stats — hearts show the current contribution streak and the experience bar shows contributions toward the next level, 100 contributions per level." />
+</picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/about-dark.svg?v=055250ffed" />
@@ -24,6 +29,11 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=c2fc4ee6a4" />
   <img src="./assets/activity-light.svg?v=50efc1bf6f" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/commits-dark.svg?v=d769e316db" />
+  <img src="./assets/commits-light.svg?v=4e69e9f88f" width="100%" alt="Commit log — the latest pushes to public repositories, newest first, refreshed automatically." />
 </picture>
 
 <picture>

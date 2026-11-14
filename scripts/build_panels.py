@@ -47,15 +47,56 @@ def heading(t, label, x, y, sub=None, px=3):
     return "".join(out)
 
 
-# ------------------------------------------------------------------ link chips
-def link_chip(t, slug, label, accent):
-    w, h = 184, 48
-    body = [rect(0, 0, w, h, fill=t["bg"]),
-            glass(f"lk{slug}", 2, 2, w - 4, h - 4, t, r=12, glows=[(.18, .5, 52, accent)]),
-            rect(14, 15, 3, 18, fill=t[accent]),
-            icon(slug, 28, 14, 20, t["ink"], .92),
-            text(60, h / 2 + 4.5, label, 13, t["ink"], weight=500)]
-    return svg_doc(w, h, "".join(body), label=label)
+# --------------------------------------------------------------- hotbar slots
+# Each link is one inventory slot with a Minecraft-style tooltip underneath. The
+# white selection frame walks across the four slots like scrolling a hotbar; each
+# slot owns its own delay, so they stay in step without sharing one image.
+SLOT = 76
+SLOT_W, SLOT_H = 150, 128
+SLOT_CSS = ("@keyframes sel{0%{opacity:1}23%{opacity:0}100%{opacity:0}}"
+            ".sel{opacity:0;animation:sel 6s steps(1) infinite}"
+            "@keyframes lift{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}"
+            ".lift{animation:lift 6s steps(2) infinite}"
+            "@media (prefers-reduced-motion:reduce){.sel,.lift{animation:none}}")
+TIP_BG, TIP_INK = "#140F1E", "#FFFFFF"
+
+
+def link_chip(t, slug, label, accent, idx=0):
+    dark = t["px_shadow"] > .3
+    face = mix(t["bg"], t["ink"], .14 if dark else .07)
+    recess_lo = mix(face, "#000000", .55 if dark else .20)        # top and left: in shadow
+    recess_hi = mix(face, "#FFFFFF", .22 if dark else .90)        # bottom and right: lit
+    edge = shade(face, .25)
+    sx, sy = (SLOT_W - SLOT) // 2, 10
+    delay = f"{idx * 1.5:.1f}s"
+
+    slot = [rect(sx - 2, sy - 2, SLOT + 4, SLOT + 4, fill=edge),
+            rect(sx, sy, SLOT, SLOT, fill=face),
+            rect(sx, sy, SLOT, 4, fill=recess_lo), rect(sx, sy, 4, SLOT, fill=recess_lo),
+            rect(sx, sy + SLOT - 4, SLOT, 4, fill=recess_hi), rect(sx + SLOT - 4, sy, 4, SLOT, fill=recess_hi),
+            rect(sx + SLOT - 4, sy, 4, 4, fill=face), rect(sx, sy + SLOT - 4, 4, 4, fill=face)]
+    ix, iy = (SLOT_W - 38) / 2, sy + (SLOT - 38) / 2
+    item = (f'<g class="lift" style="animation-delay:{delay}">'
+            + icon(slug, ix + 3, iy + 3, 38, t["shadow"], .38 if dark else .16)      # item shadow
+            + icon(slug, ix, iy, 38, brand(t, slug, face)) + "</g>")
+
+    frame = (f'<g class="sel" style="animation-delay:{delay}" fill="none">'
+             f'<rect x="{sx - 7}" y="{sy - 7}" width="{SLOT + 14}" height="{SLOT + 14}" stroke="#000" stroke-width="5" opacity=".75"/>'
+             f'<rect x="{sx - 6}" y="{sy - 6}" width="{SLOT + 12}" height="{SLOT + 12}" stroke="{t["ink"]}" stroke-width="3"/>'
+             + "".join(rect(cx_, cy_, 6, 6, fill=t[accent]) for cx_, cy_ in
+                       ((sx - 9, sy - 9), (sx + SLOT + 3, sy - 9), (sx - 9, sy + SLOT + 3), (sx + SLOT + 3, sy + SLOT + 3)))
+             + "</g>")
+
+    px = 2
+    tw = pixel_width(label, px) + 22
+    tx, ty = (SLOT_W - tw) / 2, sy + SLOT + 12
+    tip = [rect(tx, ty, tw, 26, fill=t[accent]),
+           rect(tx + 2, ty + 2, tw - 4, 22, fill=TIP_BG),
+           pixel_text(label, tx + 11, ty + 6, px, TIP_INK, shadow="#000000", shadow_op=.6)]
+
+    body = ['<g shape-rendering="crispEdges">', rect(0, 0, SLOT_W, SLOT_H, fill=t["bg"]),
+            "".join(slot), item, frame, "".join(tip), "</g>"]
+    return svg_doc(SLOT_W, SLOT_H, "".join(body), label=label, css=SLOT_CSS)
 
 
 # ---------------------------------------------------------------- about panel
@@ -256,9 +297,9 @@ def build():
     ASSETS.mkdir(parents=True, exist_ok=True)
     made = []
     for name, tokens in THEMES.items():
-        for slug, label, accent in LINKS:
+        for idx, (slug, label, accent) in enumerate(LINKS):
             p = ASSETS / f"link-{slug}-{name}.svg"
-            p.write_text(link_chip(tokens, slug, label, accent), encoding="utf-8")
+            p.write_text(link_chip(tokens, slug, label, accent, idx), encoding="utf-8")
             made.append(p.name)
         for fn, base in ((about, "about"), (stack_panel, "stack")):
             p = ASSETS / f"{base}-{name}.svg"
