@@ -211,13 +211,14 @@ def player(t, total, streak, stamp):
 
 # -------------------------------------------------------------------- commit log
 LOG_CSS = (
-    "@keyframes rin{from{opacity:0;transform:translateX(-14px)}to{opacity:1;transform:translateX(0)}}"
-    ".r{animation:rin .45s steps(5) both}"
+    # rows stay visible; a highlight scans down them like new chat lines arriving
+    "@keyframes flash{0%{opacity:.16}8%{opacity:.04}100%{opacity:.04}}"
+    ".flash{animation:flash 6s steps(3) infinite}"
     "@keyframes bob{0%,100%{opacity:1}50%{opacity:.15}}"
     ".bob{animation:bob 1.1s steps(1) infinite}"
     "@keyframes pop{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}"
     ".pop{animation:pop 2.4s steps(2) infinite}"
-    "@media (prefers-reduced-motion:reduce){.r,.bob,.pop{animation:none}}")
+    "@media (prefers-reduced-motion:reduce){.flash,.bob,.pop{animation:none}}")
 COL_TIME = PAD + 36
 COL_TAG = COL_TIME + 110
 COL_REPO = COL_TAG + 124          # widest tag chip is "REFACTOR" = 110px
@@ -256,7 +257,8 @@ def commits(t, rows, pushes, stamp):
         stamp_txt = r["at"].astimezone(TZ).strftime("%d %b %H:%M").lstrip("0")
         tag = r["tag"].upper()
         tw = pixel_width(tag, 2) + 16
-        row = [rect(PAD + 20, y, W - PAD * 2 - 40, 32, fill=t["ink"], op=.04),
+        row = [rect(PAD + 20, y, W - PAD * 2 - 40, 32, fill=t["ink"], op=.04,
+                    extra=f' class="flash" style="animation-delay:{i * .5:.1f}s"'),
                rect(PAD + 20, y, 3, 32, fill=col),
                text(COL_TIME, y + 20, stamp_txt, 12, t["muted"]),
                rect(COL_TAG, y + 5, tw, 22, fill=col, op=.18),
@@ -267,7 +269,7 @@ def commits(t, rows, pushes, stamp):
             row.append(text(COL_MSG, y + 20, r["text"], 12.5, t["muted"]))
         if r["new"]:
             row.append(f'<g class="bob">{pixel_text("NEW", W - PAD - 28 - pixel_width("NEW", 2) - 8, y + 9, 2, t["green"], shadow=t["shadow"], shadow_op=t["px_shadow"] * .6)}</g>')
-        body.append(f'<g class="r" style="animation-delay:{i * .3:.2f}s">{"".join(row)}</g>')
+        body.append("".join(row))
 
     py = y0 + 112 + max(len(rows), 1) * 38 + 12
     body.append(text(COL_TIME, py + 14, "> awaiting next push", 12.5, t["green"], weight=600))
@@ -284,18 +286,6 @@ def main():
     stamp = now.astimezone(TZ).strftime("%d %b %Y %H:%M WIB")
     failed = False
 
-    # --- player: needs the same GraphQL contribution data as the activity world
-    try:
-        _, recent, all_days = fetch()
-        total = sum(all_days.values())
-        cur, _, _, _ = streaks(all_days, now.astimezone(TZ).date())
-        for name, tokens in THEMES.items():
-            (ASSETS / f"player-{name}.svg").write_text(player(tokens, total, cur, stamp), encoding="utf-8")
-            print("wrote", f"player-{name}.svg", f"(total {total}, streak {cur})")
-    except Exception as e:                                           # keep the old panel, say why
-        failed = True
-        print(f"player: kept existing panel ({e})", file=sys.stderr)
-
     # --- commit log: public data only; a hiccup keeps whatever is already committed
     try:
         hide = os.environ.get("PROFILE_LOG_HIDE_REPOS", "").split(",")
@@ -311,8 +301,6 @@ def main():
 
     # first run with no network must not leave the README pointing at nothing
     for name, tokens in THEMES.items():
-        if not (ASSETS / f"player-{name}.svg").exists():
-            (ASSETS / f"player-{name}.svg").write_text(player(tokens, 0, 0, "offline"), encoding="utf-8")
         if not (ASSETS / f"commits-{name}.svg").exists():
             (ASSETS / f"commits-{name}.svg").write_text(commits(tokens, [], 0, "offline"), encoding="utf-8")
     return 0 if not failed else 1

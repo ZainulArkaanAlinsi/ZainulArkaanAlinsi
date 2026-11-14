@@ -301,17 +301,12 @@ def build():
             p = ASSETS / f"link-{slug}-{name}.svg"
             p.write_text(link_chip(tokens, slug, label, accent, idx), encoding="utf-8")
             made.append(p.name)
-        for fn, base in ((about, "about"), (stack_panel, "stack")):
-            p = ASSETS / f"{base}-{name}.svg"
-            p.write_text(fn(tokens), encoding="utf-8")
-            made.append(p.name)
         p = ASSETS / f"news-{name}.svg"
         if not p.exists():                     # build_news.py owns this once it has real counts
             p.write_text(news_header(tokens), encoding="utf-8")
             made.append(p.name)
-        p = ASSETS / f"footer-{name}.svg"
-        p.write_text(footer(tokens), encoding="utf-8")
-        made.append(p.name)
+    from build_editorial import build_static       # about, stack, footer: monochrome editorial
+    made += build_static()
     return made
 
 

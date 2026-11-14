@@ -422,6 +422,7 @@ if __name__ == "__main__":
     ASSETS.mkdir(parents=True, exist_ok=True)
     created, recent, all_days = fetch()
     stamp = dt.datetime.now(TZ).strftime("%d %b %Y %H:%M WIB")
-    for name in THEMES:
-        (ASSETS / f"activity-{name}.svg").write_text(render(name, created, recent, all_days, stamp), encoding="utf-8")
-        print("wrote", f"activity-{name}.svg")
+    from build_editorial import activity
+    today = dt.datetime.now(TZ).date()
+    (ASSETS / "activity-dark.svg").write_text(activity(created, recent, all_days, stamp, today), encoding="utf-8")
+    print("wrote activity-dark.svg")

@@ -11,29 +11,15 @@
 
 </div>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/player-dark.svg?v=19e511066f" />
-  <img src="./assets/player-light.svg?v=2ada30a714" width="100%" alt="Player stats — hearts show the current contribution streak and the experience bar shows contributions toward the next level, 100 contributions per level." />
-</picture>
+<img src="./assets/about-dark.svg?v=173f840c25" width="100%" alt="About me — Zainul Arkaan Alinsi, full-stack developer and student at IDN Boarding School. Builds full-stack web apps with PHP, Laravel, Next.js and Tailwind CSS, and is learning Flutter for mobile." />
+
+<img src="./assets/stack-dark.svg?v=7b619d60a3" width="100%" alt="Tech stack — languages: PHP, TypeScript, JavaScript, Dart, Java, HTML5, CSS. Frameworks: Laravel, Next.js, React, Vue, Tailwind, Alpine, Flutter, Node.js. Tools: MySQL, SQLite, Firebase, Vercel, Git, GitHub, Figma, Postman." />
+
+<img src="./assets/activity-dark.svg?v=3f37a90a23" width="100%" alt="Contributions — total, last twelve months, current and longest streak, best day, and a dithered map of the past year." />
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/about-dark.svg?v=055250ffed" />
-  <img src="./assets/about-light.svg?v=0a156532b7" width="100%" alt="About me — Zainul Arkaan Alinsi, full-stack developer and student at IDN Boarding School. Builds full-stack web apps with PHP, Laravel, Next.js and Tailwind CSS, and is learning Flutter for mobile." />
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-dark.svg?v=d9e109cea8" />
-  <img src="./assets/stack-light.svg?v=482977eaad" width="100%" alt="Tech stack — languages: PHP, TypeScript, JavaScript, Dart, Java, HTML5, CSS. Frameworks: Laravel, Next.js, React, Vue, Tailwind, Alpine, Flutter, Node.js. Tools: MySQL, SQLite, Firebase, Vercel, Git, GitHub, Figma, Postman." />
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=c158eb5845" />
-  <img src="./assets/activity-light.svg?v=ec1a7cdfbf" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/commits-dark.svg?v=11ab93171d" />
-  <img src="./assets/commits-light.svg?v=b50dd29694" width="100%" alt="Commit log — the latest pushes to public repositories, newest first, refreshed automatically." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/commits-dark.svg?v=1b5fcf5fc6" />
+  <img src="./assets/commits-light.svg?v=839a319147" width="100%" alt="Commit log — the latest pushes to public repositories, newest first, refreshed automatically." />
 </picture>
 
 <picture>
@@ -139,7 +125,4 @@ Laravel 13.40 adds commit IDs to MySQL, MariaDB, and PostgreSQL connections, so 
   <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261114" width="100%" alt="A snake eating this year's contribution squares" />
 </picture>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/footer-dark.svg?v=91632fdb8c" />
-  <img src="./assets/footer-light.svg?v=d3b14912ed" width="100%" alt="Thanks for stopping by" />
-</picture>
+<img src="./assets/footer-dark.svg?v=ef48e0ce23" width="100%" alt="Thanks for stopping by" />
