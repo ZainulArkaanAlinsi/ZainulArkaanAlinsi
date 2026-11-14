@@ -1,20 +1,20 @@
 <div align="center">
 
-<img src="./assets/hero.svg?v=77e80da5ef" width="100%" alt="Zainul Arkaan Alinsi — full-stack developer, student at IDN Boarding School" />
+<img src="./assets/hero.svg?v=a4f4d2f398" width="100%" alt="Zainul Arkaan Alinsi — full-stack developer, student at IDN Boarding School" />
 
-<a href="https://instagram.com/zainarilbre"><img src="./assets/link-instagram-dark.svg?v=ca54bc4f81" width="25%" alt="Instagram" /></a><a href="https://linkedin.com/in/zainul-arkaan-3bb51731a"><img src="./assets/link-linkedin-dark.svg?v=b3182a9f4d" width="25%" alt="LinkedIn" /></a><a href="https://www.youtube.com/@zainarilbre"><img src="./assets/link-youtube-dark.svg?v=0386769ba9" width="25%" alt="YouTube" /></a><a href="mailto:zainaril13@gmail.com"><img src="./assets/link-gmail-dark.svg?v=e867173aa7" width="25%" alt="Email" /></a>
+<a href="https://instagram.com/zainarilbre"><img src="./assets/link-instagram-dark.svg?v=950c2098d7" width="25%" alt="Instagram" /></a><a href="https://linkedin.com/in/zainul-arkaan-3bb51731a"><img src="./assets/link-linkedin-dark.svg?v=de87fa533b" width="25%" alt="LinkedIn" /></a><a href="https://www.youtube.com/@zainarilbre"><img src="./assets/link-youtube-dark.svg?v=5463e81688" width="25%" alt="YouTube" /></a><a href="mailto:zainaril13@gmail.com"><img src="./assets/link-gmail-dark.svg?v=d6a42b2b8f" width="25%" alt="Email" /></a>
 
 </div>
 
-<img src="./assets/about-dark.svg?v=87cdd31290" width="100%" alt="About me — Zainul Arkaan Alinsi, full-stack developer and student at IDN Boarding School. Builds full-stack web apps with PHP, Laravel, Next.js and Tailwind CSS, and is learning Flutter for mobile." />
+<img src="./assets/about-dark.svg?v=5791214687" width="100%" alt="About me — Zainul Arkaan Alinsi, full-stack developer and student at IDN Boarding School. Builds full-stack web apps with PHP, Laravel, Next.js and Tailwind CSS, and is learning Flutter for mobile." />
 
-<img src="./assets/stack-dark.svg?v=134eb22641" width="100%" alt="Tech stack — languages: PHP, TypeScript, JavaScript, Dart, Java, HTML5, CSS. Frameworks: Laravel, Next.js, React, Vue, Tailwind, Alpine, Flutter, Node.js. Tools: MySQL, SQLite, Firebase, Vercel, Git, GitHub, Figma, Postman." />
+<img src="./assets/stack-dark.svg?v=a1efa32c22" width="100%" alt="Tech stack — languages: PHP, TypeScript, JavaScript, Dart, Java, HTML5, CSS. Frameworks: Laravel, Next.js, React, Vue, Tailwind, Alpine, Flutter, Node.js. Tools: MySQL, SQLite, Firebase, Vercel, Git, GitHub, Figma, Postman." />
 
-<img src="./assets/activity-dark.svg?v=4abbab163f" width="100%" alt="Contributions — total, last twelve months, current and longest streak, best day, and a dithered map of the past year." />
+<img src="./assets/activity-dark.svg?v=fa6ebf0328" width="100%" alt="Contributions — total, last twelve months, current and longest streak, best day, and a dithered map of the past year." />
 
-<img src="./assets/commits-dark.svg?v=8e4f43e589" width="100%" alt="Commit log — the latest pushes to public repositories, newest first, refreshed automatically." />
+<img src="./assets/commits-dark.svg?v=62270a785c" width="100%" alt="Commit log — the latest pushes to public repositories, newest first, refreshed automatically." />
 
-<img src="./assets/news-dark.svg?v=4f73d42e49" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+<img src="./assets/news-dark.svg?v=68f88bbff4" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 
 <!-- NEWS:START -->
 
@@ -105,7 +105,7 @@ Laravel 13.40 adds commit IDs to MySQL, MariaDB, and PostgreSQL connections, so 
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 14 Nov 2026 14:56 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 14 Nov 2026 14:59 WIB.</sub>
 
 <!-- NEWS:END -->
 
@@ -114,4 +114,4 @@ Laravel 13.40 adds commit IDs to MySQL, MariaDB, and PostgreSQL connections, so 
   <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261114" width="100%" alt="A snake eating this year's contribution squares" />
 </picture>
 
-<img src="./assets/footer-dark.svg?v=2f5bf7ca45" width="100%" alt="Thanks for stopping by" />
+<img src="./assets/footer-dark.svg?v=ed6a31f943" width="100%" alt="Thanks for stopping by" />

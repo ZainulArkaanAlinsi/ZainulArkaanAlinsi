@@ -62,17 +62,8 @@ LIGHTS = (TERRA, SAGE, SAND, "#4A6A8A")
 
 
 def backdrop(w, h, seed=0):
-    """Navy plate with three or four soft lights blurred into it — the 'photo' behind the glass."""
-    out = [f'<rect width="{w}" height="{h}" fill="{NAVY}"/>', '<g filter="url(#bk)" class="drift">']
-    for i in range(4):
-        k = (seed * 7 + i * 3) % 11
-        cx = w * ((.12 + .27 * i + .05 * k) % 1.0)
-        cy = h * (.25 + .5 * (((seed + i) * 37) % 100) / 100)
-        r = min(w, h) * (.32 + .04 * (k % 4))
-        out.append(f'<circle cx="{cx:.0f}" cy="{cy:.0f}" r="{r:.0f}" fill="{LIGHTS[(i + seed) % 4]}"'
-                   f' opacity="{.55 if i % 2 == 0 else .4}"/>')
-    out.append("</g>")
-    return "".join(out)
+    """A flat navy plate. Glass reads best on one calm solid colour, so no blurred lights."""
+    return f'<rect width="{w}" height="{h}" fill="{NAVY}"/>'
 
 
 def pane(x, y, w, h, r=26, op=.08):

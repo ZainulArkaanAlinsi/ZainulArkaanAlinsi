@@ -39,7 +39,7 @@
   <clipPath id="gc0"><rect x="40" y="216.2" width="520" height="64.8"/></clipPath><clipPath id="gc1"><rect x="40" y="403.4" width="520" height="50.4"/></clipPath>
 <filter id="bk" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="70"/></filter></defs>
 
-<rect width="1200" height="720" fill="#0D1B2A"/><g filter="url(#bk)" class="drift"><circle cx="444" cy="392" r="259" fill="#4A6A8A" opacity="0.55"/><circle cx="948" cy="526" r="230" fill="#E07A5F" opacity="0.4"/><circle cx="792" cy="299" r="230" fill="#A7B89A" opacity="0.55"/><circle cx="96" cy="432" r="317" fill="#E8DCC4" opacity="0.4"/></g><rect x="590" y="24" width="586" height="620" rx="30" fill="#F5F1E8" opacity=".07"/><rect x="590.5" y="24.5" width="585" height="619" rx="30" fill="none" stroke="#F5F1E8" stroke-opacity=".26"/>
+<rect width="1200" height="720" fill="#0D1B2A"/><rect x="590" y="24" width="586" height="620" rx="30" fill="#F5F1E8" opacity=".07"/><rect x="590.5" y="24.5" width="585" height="619" rx="30" fill="none" stroke="#F5F1E8" stroke-opacity=".26"/>
 
 <!-- ============ portrait card ============ -->
 <rect x="40" y="40" width="520" height="590" rx="4" fill="#0d0d0d" stroke="#3E4F63"/>
