@@ -7,7 +7,7 @@ reference therefore carries ?v=<content hash>: the URL changes exactly when the
 bytes change, which busts the proxy without churning the README on no-op runs.
 
     GITHUB_TOKEN=... python scripts/build.py            # everything
-    python scripts/build.py --skip-activity --skip-news # offline subset
+    python scripts/build.py --skip-activity --skip-log --skip-news # offline subset
 """
 import datetime as dt
 import hashlib
@@ -64,6 +64,12 @@ def main():
             failures.append("activity: GITHUB_TOKEN is not set")
         elif run("build_activity.py"):
             failures.append("activity: generator failed")
+
+    if "--skip-log" not in sys.argv:
+        if not os.environ.get("GITHUB_TOKEN"):
+            failures.append("log: GITHUB_TOKEN is not set")
+        elif run("build_log.py"):
+            failures.append("log: generator failed")
 
     if "--skip-news" not in sys.argv and run("build_news.py"):
         failures.append("news: generator failed")

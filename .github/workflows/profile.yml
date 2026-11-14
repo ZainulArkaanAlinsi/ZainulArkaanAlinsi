@@ -1,16 +1,19 @@
 name: profile
 
 on:
-  schedule:
-    - cron: "17 */6 * * *" # every six hours, off the hour so it is not queued with everyone else
-  workflow_dispatch:
+  # Every push to main refreshes the page, so a new commit shows up in the
+  # commit log and the voxel world right away. The bot's own commit is pushed
+  # with GITHUB_TOKEN, which never triggers another run, so this cannot loop.
   push:
     branches: [main]
-    # Never re-trigger on the commit this workflow makes itself.
-    paths:
-      - "scripts/**"
-      - "tests/**"
-      - ".github/workflows/profile.yml"
+  # Pushes to your other repos are picked up on the hourly run (off the hour so
+  # it is not queued behind everyone else's :00 jobs) ...
+  schedule:
+    - cron: "17 * * * *"
+  # ... or instantly, if another repo sends a repository_dispatch (see docs/refresh-from-other-repos.md).
+  repository_dispatch:
+    types: [profile-refresh]
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -31,6 +34,9 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
+      - name: Install renderer dependencies
+        run: pip install pillow==12.3.0 numpy==2.5.3
 
       - name: Test
         run: python -m unittest discover -s tests -v

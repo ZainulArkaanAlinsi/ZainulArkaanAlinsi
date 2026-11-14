@@ -20,7 +20,7 @@ import xml.etree.ElementTree as ET
 from email.utils import parsedate_to_datetime
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from theme import ASSETS, THEMES
+from theme import ASSETS
 
 ROOT = ASSETS.parent
 README = ROOT / "README.md"
@@ -304,9 +304,8 @@ def main():
         return
     README.write_text(splice(text, block), encoding="utf-8")
     from build_panels import news_header
-    for name, tokens in THEMES.items():
-        (ASSETS / f"news-{name}.svg").write_text(
-            news_header(tokens, stamp, len(items) if len(items) >= MIN_OK else 0), encoding="utf-8")
+    (ASSETS / "news.svg").write_text(news_header(stamp, len(items) if len(items) >= MIN_OK else 0),
+                                     encoding="utf-8")
     print("README news block updated", file=sys.stderr)
 
 
