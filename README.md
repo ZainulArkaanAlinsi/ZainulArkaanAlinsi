@@ -10,27 +10,27 @@
 
 <img src="./assets/stack-dark.svg?v=0ef797a3f1" width="100%" alt="Tech stack — languages: PHP, TypeScript, JavaScript, Dart, Java, HTML5, CSS. Frameworks: Laravel, Next.js, React, Vue, Tailwind, Alpine, Flutter, Node.js. Tools: MySQL, SQLite, Firebase, Vercel, Git, GitHub, Figma, Postman." />
 
-<img src="./assets/activity-dark.svg?v=5d540b1af2" width="100%" alt="Contributions — total, last twelve months, current and longest streak, best day, and a dithered map of the past year." />
+<img src="./assets/activity-dark.svg?v=d2b4c1af6e" width="100%" alt="Contributions — total, last twelve months, current and longest streak, best day, and a dithered map of the past year." />
 
-<img src="./assets/commits-dark.svg?v=dbb38598cd" width="100%" alt="Commit log — the latest pushes to public repositories, newest first, refreshed automatically." />
+<img src="./assets/commits-dark.svg?v=94757ecf93" width="100%" alt="Commit log — the latest pushes to public repositories, newest first, refreshed automatically." />
 
-<img src="./assets/news-dark.svg?v=14d015c232" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+<img src="./assets/news-dark.svg?v=bbe1b66efd" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 
 <!-- NEWS:START -->
 
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 3h ago</sub><br>
+<sub><code>HN</code>&nbsp; 4h ago</sub><br>
 <a href="https://monkeyisland.pages.dev/"><b>Monkey Island: all 13 versions side by side</b></a>
 <br><br>
-24 points and 2 comments on the Hacker News front page · monkeyisland.pages.dev
+35 points and 4 comments on the Hacker News front page · monkeyisland.pages.dev
 </td>
 <td width="50%" valign="top">
 <sub><code>HN</code>&nbsp; 5h ago</sub><br>
 <a href="https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus"><b>Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs</b></a>
 <br><br>
-448 points and 247 comments on the Hacker News front page · techpowerup.com
+470 points and 266 comments on the Hacker News front page · techpowerup.com
 </td>
 </tr>
 <tr>
@@ -41,7 +41,7 @@
 The Gemini Decisions API scores a fixed set of answers in one pass and returns probabilities. An ADK triage agent built on it, a 48-ticket benchmark against Gemini 3.8 Flash, Gemini 4…
 </td>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 13h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 14h ago</sub><br>
 <a href="https://dev.to/devengers/dev-opportunity-radar-25-120k-atlassian-hackathon-mlh-fellowship-and-insead-ai-founder-sprint-m96"><b>Dev Opportunity Radar #25: $120K+ Atlassian Hackathon, MLH Fellowship, and INSEAD AI Founder…</b></a>
 <br><br>
 TL;DR Welcome back to Dev Opportunity Radar! 💙 This is a weekly series where I share...
@@ -49,7 +49,7 @@ TL;DR Welcome back to Dev Opportunity Radar! 💙 This is a weekly series where 
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 14h ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 15h ago</sub><br>
 <a href="https://stackoverflow.blog/2026/11/13/your-coding-agent-shouldn-t-grade-its-own-homework/"><b>Your coding agent shouldn't grade its own homework</b></a>
 <br><br>
 AI coding agents can now write design docs, mock up frontends, and implement entire projects end to end. But can they be trusted to verify that their own code actually works?
@@ -63,7 +63,7 @@ Coding agents now write code faster than most CI pipelines can check it. In Apri
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 20h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 21h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/schema-drift-vs-semantic-drift-in-data-pipelines/"><b>Schema Drift vs. Semantic Drift in Data Pipelines</b></a>
 <br><br>
 When a column is removed from a source database or dataset, the next pipeline run usually fails, making the problem easy to detect. But when a field keeps the same name and data type but…
@@ -105,7 +105,7 @@ Laravel 13.40 adds commit IDs to MySQL, MariaDB, and PostgreSQL connections, so 
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 14 Nov 2026 15:19 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 14 Nov 2026 15:33 WIB.</sub>
 
 <!-- NEWS:END -->
 
