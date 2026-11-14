@@ -10,63 +10,63 @@
 
 <img src="./assets/stack-dark.svg?v=0ef797a3f1" width="100%" alt="Tech stack — languages: PHP, TypeScript, JavaScript, Dart, Java, HTML5, CSS. Frameworks: Laravel, Next.js, React, Vue, Tailwind, Alpine, Flutter, Node.js. Tools: MySQL, SQLite, Firebase, Vercel, Git, GitHub, Figma, Postman." />
 
-<img src="./assets/activity-dark.svg?v=62b7b58012" width="100%" alt="Contributions — total, last twelve months, current and longest streak, best day, and a dithered map of the past year." />
+<img src="./assets/activity-dark.svg?v=86b1ce02c3" width="100%" alt="Contributions — total, last twelve months, current and longest streak, best day, and a dithered map of the past year." />
 
-<img src="./assets/commits-dark.svg?v=5b86929396" width="100%" alt="Commit log — the latest pushes to public repositories, newest first, refreshed automatically." />
+<img src="./assets/commits-dark.svg?v=39340675bc" width="100%" alt="Commit log — the latest pushes to public repositories, newest first, refreshed automatically." />
 
-<img src="./assets/news-dark.svg?v=d280a2677a" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+<img src="./assets/news-dark.svg?v=83ffe5bb06" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 
 <!-- NEWS:START -->
 
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 15m ago</sub><br>
-<a href="https://www.crissyfield.de/research/lovable-en/"><b>Lovable apps expose passport details and more than 200K private messages</b></a>
+<sub><code>HN</code>&nbsp; 59m ago</sub><br>
+<a href="https://x.com/i/broadcasts/2brajgZlOKRMka"><b>SpaceX Catches the Starship to end Flight 15</b></a>
 <br><br>
-10 points and 0 comments on the Hacker News front page · crissyfield.de
+278 points and 144 comments on the Hacker News front page · x.com
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://karboosx.net/post/5j7jdDM3/how-to-create-your-own-decentralized-messenger-protocol"><b>How to Create Your Own Decentralized Messenger Protocol</b></a>
+<sub><code>HN</code>&nbsp; 2h ago</sub><br>
+<a href="https://www.thedartmouth.com/article/2026/11/gandhi-fagell-guarini-will-not-admit-math-ph-d-cohort-this-year"><b>Dartmouth (Guarini) will not admit math PhD cohort this year</b></a>
 <br><br>
-6 points and 0 comments on the Hacker News front page · karboosx.net
+47 points and 11 comments on the Hacker News front page · thedartmouth.com
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 <sub><code>DEV</code>&nbsp; 5h ago</sub><br>
+<a href="https://dev.to/amananandrai/avengers-doomsday-is-5-weeks-away-so-i-built-hexagon-readme-badges-what-are-you-building-32d6"><b>Avengers: Doomsday is 5 weeks away, so I built hexagon README badges. What are you building?</b></a>
+<br><br>
+Marvel fans of DEV, show me your Doomsday-hype side projects. Mine is a tiny Vercel service that makes glowing, Avengers-themed hexagon badges.
+</td>
+<td width="50%" valign="top">
+<sub><code>FREECODECAMP</code>&nbsp; 6h ago</sub><br>
+<a href="https://www.freecodecamp.org/news/build-and-train-a-glm-53-flash-model-from-scratch-with-python/"><b>Build and Train a GLM-5.3-Flash Model From Scratch with Python</b></a>
+<br><br>
+GLM-5.3-Flash combines linear and sparse attention, a mixture-of-experts design, and manifold constrained hyperconnections. A scaled-down version with 25 million parameters can be built in…
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 9h ago</sub><br>
 <a href="https://dev.to/alexgeorgiev17/nginx-131s-jsonset-directive-rejects-a-bad-webhook-payload-about-13-times-faster-than-forwarding-3b00"><b>nginx 1.31's json_set directive rejects a bad webhook payload about 13 times faster than…</b></a>
 <br><br>
 I measured nginx 1.31's new native JSON parser against a Python backend doing the same validation: roughly 13x faster per-request rejection at low concurrency, half a backend's request…
 </td>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 18h ago</sub><br>
-<a href="https://dev.to/gde/benchmarking-the-gemini-decisions-api-l31"><b>Benchmarking the Gemini Decisions API</b></a>
-<br><br>
-The Gemini Decisions API scores a fixed set of answers in one pass and returns probabilities. An ADK triage agent built on it, a 48-ticket benchmark against Gemini 3.8 Flash, Gemini 4…
-</td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <sub><code>STACKOVERFLOW</code>&nbsp; 1d ago</sub><br>
 <a href="https://stackoverflow.blog/2026/11/13/your-coding-agent-shouldn-t-grade-its-own-homework/"><b>Your coding agent shouldn't grade its own homework</b></a>
 <br><br>
 AI coding agents can now write design docs, mock up frontends, and implement entire projects end to end. But can they be trusted to verify that their own code actually works?
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/speed-up-ci-in-the-age-of-ai-written-code/"><b>How to Speed Up CI in the Age of AI-Written Code</b></a>
 <br><br>
 Coding agents now write code faster than most CI pipelines can check it. In April 2026, GitHub COO Kyle Daigle said that his platform was handling 275 million commits a week, on pace for 14…
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
-<a href="https://www.freecodecamp.org/news/schema-drift-vs-semantic-drift-in-data-pipelines/"><b>Schema Drift vs. Semantic Drift in Data Pipelines</b></a>
-<br><br>
-When a column is removed from a source database or dataset, the next pipeline run usually fails, making the problem easy to detect. But when a field keeps the same name and data type but…
 </td>
 <td width="50%" valign="top">
 <sub><code>STACKOVERFLOW</code>&nbsp; 1d ago</sub><br>
@@ -105,7 +105,7 @@ Laravel 13.40 adds commit IDs to MySQL, MariaDB, and PostgreSQL connections, so 
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 15 Nov 2026 00:58 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 15 Nov 2026 05:21 WIB.</sub>
 
 <!-- NEWS:END -->
 
