@@ -1,14 +1,16 @@
-"""Shared design system for the profile assets.
+"""Pixel Terminal: the shared design system for every profile asset.
 
-Three visual languages, one grammar:
+One grammar, three sources:
 
-  liquid glass  translucent panels lit from behind by a blurred colour field
-  computer UI   window chrome, monospace, corner ticks, status bars
-  Minecraft     hard 2px bevels, voxel blocks, 5x7 pixel type with a drop shadow
+  terminal     monospace captions, prompts, status lines, hairline grids
+  Minecraft    hard square bevels, inventory slots, hotbar, XP bar, 5x7 pixel type
+  voxel world  isometric blocks under one light: top lit, left half shade, right dark
 
-Rules: five accents, flat fills only, no gradients. Every tint used anywhere is
-derived from one of those five (or from the ink) by mixing toward the canvas, so
-the palette never quietly grows.
+Rules: no rounded corners, no gradients, no blur. Every surface is a flat fill with a
+1px black outline and a 3px bevel (light edge top-left, dark edge bottom-right).
+Accents are a fixed set of six; every tint is mixed from them or from the ink, so
+the palette never quietly grows. Outside the panels the canvas is transparent, so
+GitHub's own page colour shows through and the panels read as windows on it.
 """
 from html import escape
 from pathlib import Path
@@ -17,23 +19,30 @@ ROOT = Path(__file__).resolve().parent.parent
 ASSETS = ROOT / "assets"
 
 # --------------------------------------------------------------------- palette
+# bg = the panel surface everything is drawn on (and mixed toward).
 THEMES = {
     "dark": {
-        "bg": "#0A0A0A", "line": "#262B33", "ink": "#E8EDF2", "muted": "#8A93A1",
-        "blue": "#6E9BE8", "green": "#5BC98D", "amber": "#DFA94A", "red": "#DE6B7C", "violet": "#A88AE4",
-        "glass": "#FFFFFF", "shadow": "#000000", "pane": "#FFFFFF", "pane_op": .045,
-        "glass_rim": .10, "spec": .26, "glow": .12, "grid": .05, "px_shadow": .45,
-        "ramp": (.45, 1.00),
+        "bg": "#16181D", "hi": "#2E323B", "lo": "#07080A", "edge": "#000000",
+        "slot": "#0D0E11", "slot_hi": "#262931", "slot_lo": "#030304",
+        "line": "#2A2E36", "ink": "#EEF0F3", "muted": "#9AA2AE",
+        "green": "#62D26F", "blue": "#5C9BFF", "gold": "#F2C14E", "red": "#E9566A",
+        "violet": "#B48CFF", "diamond": "#4FE0D2", "amber": "#F2C14E",
+        "xp": "#7CE04A", "splash": "#FFFF55",
+        "shadow": "#000000", "px_shadow": .55, "grid": .06,
+        "ramp": (.45, 1.00), "dark": True,
     },
     "light": {
-        "bg": "#FFFFFF", "line": "#D9DEE5", "ink": "#1B1F24", "muted": "#5A626E",
-        "blue": "#3A6ED0", "green": "#1F9E63", "amber": "#B37D14", "red": "#C94357", "violet": "#7A52C7",
-        "glass": "#FFFFFF", "shadow": "#1B1F24", "pane": "#1B1F24", "pane_op": .035,
-        "glass_rim": .55, "spec": .95, "glow": .10, "grid": .06, "px_shadow": .16,
-        "ramp": (.80, 1.55),
+        "bg": "#C6C6C6", "hi": "#FFFFFF", "lo": "#555555", "edge": "#000000",
+        "slot": "#DCDCDC", "slot_hi": "#FFFFFF", "slot_lo": "#373737",
+        "line": "#A4A4A4", "ink": "#262626", "muted": "#454545",
+        "green": "#2C8A3A", "blue": "#2F5FC2", "gold": "#9A6A00", "red": "#B3263A",
+        "violet": "#6B43B8", "diamond": "#137F76", "amber": "#9A6A00",
+        "xp": "#3E9E1B", "splash": "#7A6A00",
+        "shadow": "#3F3F3F", "px_shadow": .30, "grid": .10,
+        "ramp": (.70, 1.45), "dark": False,
     },
 }
-ACCENTS = ("blue", "green", "amber", "red", "violet")
+ACCENTS = ("green", "blue", "gold", "red", "violet", "diamond")
 
 MONO = "ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace"
 SANS = "-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif"
@@ -103,39 +112,93 @@ def line(x1, y1, x2, y2, stroke, sw=1, op=None, extra=""):
             f' stroke="{stroke}" stroke-width="{sw}"{o}{extra}/>')
 
 
-# ---------------------------------------------------------------- liquid glass
-def glass(uid, x, y, w, h, t, r=16, glows=(), rim=True):
-    """A frosted pane: blurred colour field clipped behind a translucent sheet.
+# ------------------------------------------------------------- Minecraft GUI
+def bevel(x, y, w, h, t, b=3, hi=None, lo=None):
+    """The two L-shaped edges that make a flat rect read as raised (or, with hi
+    and lo swapped, sunken)."""
+    hi, lo = hi or t["hi"], lo or t["lo"]
+    return (f'<path d="M{x} {y + h}V{y}H{x + w}v{b}H{x + b}V{y + h}Z" fill="{hi}"/>'
+            f'<path d="M{x + w} {y}V{y + h}H{x}v{-b}H{x + w - b}V{y}Z" fill="{lo}"/>')
 
-    glows: (fx, fy, radius, colour) in 0..1 panel coordinates.
-    """
-    out = [f'<clipPath id="{uid}"><rect x="{x:.1f}" y="{y:.1f}" width="{w:.1f}" height="{h:.1f}" rx="{r}"/></clipPath>']
-    out.append(rect(x, y, w, h, fill=t["bg"], r=r))
-    if glows:
-        out.append(f'<g clip-path="url(#{uid})" filter="url(#blur)">')
-        for fx, fy, fr, col in glows:
-            out.append(f'<circle cx="{x + w * fx:.1f}" cy="{y + h * fy:.1f}" r="{fr:.1f}"'
-                       f' fill="{t[col] if col in t else col}" opacity="{t["glow"]}"/>')
-        out.append("</g>")
-    out.append(rect(x, y, w, h, fill=t["pane"], r=r, op=t["pane_op"]))
-    if rim:
-        out.append(rect(x + .5, y + .5, w - 1, h - 1, r=r, stroke=t["glass"], op=t["glass_rim"]))
-        out.append(rect(x + .5, y + .5, w - 1, h - 1, r=r, stroke=t["line"], op=.9))
-        # specular sliver along the top edge
-        out.append(f'<path d="M{x + r:.1f} {y + .8:.1f} H{x + w - r:.1f}" stroke="{t["glass"]}"'
-                   f' stroke-width="1.2" opacity="{t["spec"]}" fill="none" stroke-linecap="round"/>')
+
+def panel(x, y, w, h, t, fill=None, b=3, outline=True):
+    """A raised GUI window: black outline, bevel, flat face."""
+    out = []
+    if outline:
+        out.append(rect(x - 2, y - 2, w + 4, h + 4, fill=t["edge"]))
+    out.append(rect(x, y, w, h, fill=fill or t["bg"]))
+    out.append(bevel(x, y, w, h, t, b))
     return "".join(out)
 
 
-BLUR_DEF = '<filter id="blur" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="62"/></filter>'
+def slot(x, y, w, h, t, fill=None, b=2):
+    """An inventory slot: sunken, darker than the panel."""
+    return (rect(x, y, w, h, fill=fill or t["slot"])
+            + bevel(x, y, w, h, t, b, hi=t["slot_lo"], lo=t["slot_hi"]))
 
 
-# ------------------------------------------------------------------ registration
-def ticks(x, y, w, h, colour, size=9, sw=1.2, op=.55):
-    """Corner registration marks — the hero's motif, carried down the page."""
-    d = (f"M{x} {y + size}V{y}H{x + size} M{x + w - size} {y}H{x + w}V{y + size} "
-         f"M{x + w} {y + h - size}V{y + h}H{x + w - size} M{x + size} {y + h}H{x}V{y + h - size}")
-    return f'<path d="{d}" stroke="{colour}" stroke-width="{sw}" fill="none" opacity="{op}"/>'
+def selector(x, y, s, colour="#FFFFFF", op=1.0, extra=""):
+    """The hotbar selection frame: a 3px square ring sitting 3px outside a slot."""
+    o = f' opacity="{op}"' if op < 1 else ""
+    d = (f"M{x - 4} {y - 4}h{s + 8}v{s + 8}h{-(s + 8)}Z"
+         f"M{x - 1} {y - 1}v{s + 2}h{s + 2}v{-(s + 2)}Z")
+    return f'<path d="{d}" fill="{colour}" fill-rule="evenodd"{o}{extra}/>'
+
+
+def titlebar(x, y, w, t, title, right="", accent="green"):
+    """The window's top strip: three pixel lamps, a prompt-style path, a status."""
+    out = [rect(x + 3, y + 3, w - 6, 26, fill=mix(t["bg"], t["lo"], .35))]
+    for i, c in enumerate(("red", "gold", "green")):
+        out.append(rect(x + 14 + i * 14, y + 12, 8, 8, fill=t[c]))
+        out.append(rect(x + 14 + i * 14, y + 12, 8, 2, fill="#FFFFFF", op=.35))
+    out.append(text(x + 66, y + 20.5, title, 11.5, t["muted"]))
+    if right:
+        out.append(text(x + w - 14, y + 20.5, right, 11.5, t["muted"], anchor="end"))
+    out.append(rect(x + 3, y + 29, w - 6, 2, fill=t["lo"], op=.8))
+    return "".join(out)
+
+
+def window(x, y, w, h, t, title, right="", accent="green"):
+    return panel(x, y, w, h, t) + titlebar(x, y, w, t, title, right, accent) + dither(x + 3, y + 31, w - 6, h - 34, t)
+
+
+def dither(x, y, w, h, t, step=6):
+    """A faint pixel grid on the panel face — the terminal's hairline grid, made
+    of dots so it reads as texture rather than lines."""
+    pid = f"dt{int(x)}{int(y)}{int(w)}"
+    c = t["ink"]
+    return (f'<pattern id="{pid}" width="{step}" height="{step}" patternUnits="userSpaceOnUse"'
+            f' x="{x}" y="{y}"><rect width="1" height="1" fill="{c}"/></pattern>'
+            f'<rect x="{x}" y="{y}" width="{w}" height="{h}" fill="url(#{pid})" opacity="{t["grid"] * .6:.3f}"/>')
+
+
+def splash(x, y, s, t, size=15, rot=-18):
+    """Minecraft's title-screen splash: yellow, tilted, gently pulsing."""
+    return (f'<g transform="translate({x:.1f},{y:.1f}) rotate({rot})">'
+            f'<g class="splash">'
+            f'{text(1.5, 1.5, s, size, mix(t["splash"], "#000000", .75), anchor="middle", weight=700)}'
+            f'{text(0, 0, s, size, t["splash"], anchor="middle", weight=700)}'
+            f'</g></g>')
+
+
+SPLASH_CSS = ("@keyframes splash{0%,100%{transform:scale(1)}50%{transform:scale(1.08)}}"
+              ".splash{animation:splash .9s ease-in-out infinite;transform-box:fill-box;transform-origin:center}")
+
+
+def heart(x, y, k, fill, t, empty=False):
+    """A 9x9 pixel heart at k px per pixel."""
+    rows = ["011000110", "111101111", "111111111", "111111111", "011111110",
+            "001111100", "000111000", "000010000"]
+    out = []
+    for ry, row in enumerate(rows):
+        for rx, c in enumerate(row):
+            if c == "1":
+                out.append(f'<rect x="{x + rx * k:.1f}" y="{y + ry * k:.1f}" width="{k}" height="{k}"/>')
+    body = "".join(out)
+    if empty:
+        return f'<g fill="{t["slot"]}">{body}</g>'
+    hl = f'<rect x="{x + 2 * k:.1f}" y="{y + 1 * k:.1f}" width="{k}" height="{k}" fill="#FFFFFF" opacity=".7"/>'
+    return f'<g fill="{fill}">{body}</g>' + hl
 
 
 # ------------------------------------------------------------------ pixel type
@@ -231,26 +294,16 @@ def pixel_width(s, px, track=1):
 
 
 # ------------------------------------------------------------ document scaffold
+BASE_CSS = "@media (prefers-reduced-motion:reduce){*{animation:none!important}}"
+
+
 def svg_doc(w, h, body, defs="", label="", css=""):
     return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" width="{w}" height="{h}"'
             f' role="img" aria-label="{escape(label or "profile panel")}">'
             f'<title>{escape(label or "profile panel")}</title>'
-            f'<defs>{BLUR_DEF}{defs}</defs>'
-            + (f"<style>{css}</style>" if css else "")
+            + (f'<defs>{defs}</defs>' if defs else "")
+            + f"<style>{css}{BASE_CSS}</style>"
             + body + "</svg>")
-
-
-# ---------------------------------------------------------------------- output
-def write(name, dark_body, light_body=None):
-    ASSETS.mkdir(parents=True, exist_ok=True)
-    (ASSETS / f"{name}-dark.svg").write_text(dark_body, encoding="utf-8")
-    if light_body is not None:
-        (ASSETS / f"{name}-light.svg").write_text(light_body, encoding="utf-8")
-
-
-def each_theme(fn):
-    """Render fn(theme_name, tokens) once per colour scheme and write both files."""
-    return {name: fn(name, tokens) for name, tokens in THEMES.items()}
 
 
 # ------------------------------------------------------------------ isometric

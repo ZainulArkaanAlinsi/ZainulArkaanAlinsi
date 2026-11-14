@@ -4,32 +4,43 @@
 
 <br/>
 
-<a href="https://instagram.com/zainarilbre"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/link-instagram-dark.svg?v=f3addd504b" /><img src="./assets/link-instagram-light.svg?v=16f0f466d7" alt="Instagram" height="44" /></picture></a>
-<a href="https://linkedin.com/in/zainul-arkaan-3bb51731a"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/link-linkedin-dark.svg?v=2b77820548" /><img src="./assets/link-linkedin-light.svg?v=b87bd175ff" alt="LinkedIn" height="44" /></picture></a>
-<a href="https://www.youtube.com/@zainarilbre"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/link-youtube-dark.svg?v=8c201a4965" /><img src="./assets/link-youtube-light.svg?v=3fb517bf55" alt="YouTube" height="44" /></picture></a>
-<a href="mailto:zainaril13@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/link-gmail-dark.svg?v=6b1db3c68d" /><img src="./assets/link-gmail-light.svg?v=9a416c3dee" alt="Email" height="44" /></picture></a>
+<a href="https://instagram.com/zainarilbre"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/link-instagram-dark.svg?v=435471b09e" /><img src="./assets/link-instagram-light.svg?v=761078d222" alt="Instagram" height="64" /></picture></a>
+<a href="https://linkedin.com/in/zainul-arkaan-3bb51731a"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/link-linkedin-dark.svg?v=fbcedd0b7b" /><img src="./assets/link-linkedin-light.svg?v=657c25f07e" alt="LinkedIn" height="64" /></picture></a>
+<a href="https://www.youtube.com/@zainarilbre"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/link-youtube-dark.svg?v=7772ac906d" /><img src="./assets/link-youtube-light.svg?v=8be870bee6" alt="YouTube" height="64" /></picture></a>
+<a href="mailto:zainaril13@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/link-gmail-dark.svg?v=8e1467c45c" /><img src="./assets/link-gmail-light.svg?v=fd4d18d4e2" alt="Email" height="64" /></picture></a>
 
 </div>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/about-dark.svg?v=055250ffed" />
-  <img src="./assets/about-light.svg?v=0a156532b7" width="100%" alt="About me — Zainul Arkaan Alinsi, full-stack developer and student at IDN Boarding School. Builds full-stack web apps with PHP, Laravel, Next.js and Tailwind CSS, and is learning Flutter for mobile." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/hud-dark.svg?v=d374a92905" />
+  <img src="./assets/hud-light.svg?v=495262f148" width="100%" alt="HUD — level from lifetime contributions, hearts for the current streak, emeralds for the last ten days, and a hotbar of the main stack: Laravel, Next.js, PHP, TypeScript, React, Tailwind CSS, Flutter, MySQL, Git." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-dark.svg?v=d9e109cea8" />
-  <img src="./assets/stack-light.svg?v=482977eaad" width="100%" alt="Tech stack — languages: PHP, TypeScript, JavaScript, Dart, Java, HTML5, CSS. Frameworks: Laravel, Next.js, React, Vue, Tailwind, Alpine, Flutter, Node.js. Tools: MySQL, SQLite, Firebase, Vercel, Git, GitHub, Figma, Postman." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/about-dark.svg?v=7b3ae687fc" />
+  <img src="./assets/about-light.svg?v=5bcdc613c9" width="100%" alt="About me — Zainul Arkaan Alinsi, full-stack developer and student at IDN Boarding School. Builds full-stack web apps with PHP, Laravel, Next.js and Tailwind CSS, and is learning Flutter for mobile." />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-dark.svg?v=5dc53cdc71" />
+  <img src="./assets/stack-light.svg?v=27aeb340dd" width="100%" alt="Inventory — languages: PHP, TypeScript, JavaScript, Dart, Java, HTML5, CSS. Frameworks: Laravel, Next.js, React, Vue, Tailwind, Alpine, Flutter, Node.js. Tools: MySQL, SQLite, Firebase, Vercel, Git, GitHub, Figma, Postman." />
 </picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=ff5fe2934c" />
-  <img src="./assets/activity-light.svg?v=ae1a597417" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel render of the last twelve months of contributions." />
+  <img src="./assets/activity-light.svg?v=ae1a597417" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel world of the last twelve months of contributions." />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=3bc5f3592c" />
-  <img src="./assets/news-light.svg?v=edf1db287c" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/log-dark.svg?v=691a58db85" />
+  <img src="./assets/log-light.svg?v=d34ea07838" width="100%" alt="Commit log — the latest commits across public repositories, newest one announced as an advancement, refreshed on every push." />
 </picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=f7b4efe6c3" />
+  <img src="./assets/news-light.svg?v=2b897a9519" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+</picture>
+
 
 <!-- NEWS:START -->
 
@@ -130,6 +141,6 @@ Laravel 13.40 adds commit IDs to MySQL, MariaDB, and PostgreSQL connections, so 
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/footer-dark.svg?v=91632fdb8c" />
-  <img src="./assets/footer-light.svg?v=d3b14912ed" width="100%" alt="Thanks for stopping by" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/footer-dark.svg?v=446285a290" />
+  <img src="./assets/footer-light.svg?v=d1f00a980d" width="100%" alt="Thanks for stopping by" />
 </picture>
