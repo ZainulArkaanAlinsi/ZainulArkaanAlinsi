@@ -35,6 +35,9 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Install renderer dependencies
+        run: pip install pillow==12.3.0 numpy==2.5.3
+
       - name: Test
         run: python -m unittest discover -s tests -v
 

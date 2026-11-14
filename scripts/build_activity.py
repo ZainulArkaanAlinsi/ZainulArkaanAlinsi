@@ -1,51 +1,39 @@
-"""GitHub activity panel: glass stat cards + an isometric voxel contribution world.
+"""Contribution World + Player Stats.
 
-Every contribution day is a tower of blocks coloured by GitHub's own contribution
-level, standing on a floating chunk of ground — grass, dirt, stone, a few ores.
-Clouds drift over the back row and today's column gets a beacon.
+Contribution World: every day of the last twelve months is a tower of textured
+blocks on a floating chunk of ground, cut like a Minecraft chunk: grass, dirt,
+stone with ores, bedrock. Taller tower = busier day; the block type steps up
+with GitHub's own contribution level. Day sky in light mode, night in dark.
+
+Player Stats: the numbers, as a Minecraft GUI card: hearts for the current
+streak, an XP bar whose level comes from lifetime contributions, and a stat
+list with a block icon per row.
 
     GITHUB_TOKEN=... python scripts/build_activity.py
+    PROFILE_FIXTURE=fixture.json python scripts/build_activity.py   # offline
 """
 import datetime as dt
 import json
 import math
 import os
+import random
 import sys
 import urllib.request
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from theme import (ASSETS, MONO, THEMES, Iso, heart, line, mix, panel, pixel_text, pixel_width, poly,
-                   ramp, rect, selector, shade, slot, svg_doc, text, window)
+import mc  # noqa: E402
+from gui import (AQUA, HALF, LABEL, W, YELLOW, card_frame, chip, heart, inset, label, mc_pixel, mc_text,  # noqa: E402
+                 pixel_text, pixel_width, rect, svg)
+from PIL import Image, ImageChops, ImageDraw  # noqa: E402
 
 LOGIN = os.environ.get("PROFILE_LOGIN", "ZainulArkaanAlinsi")
 TZ = dt.timezone(dt.timedelta(hours=7))  # WIB
 LEVELS = ["NONE", "FIRST_QUARTILE", "SECOND_QUARTILE", "THIRD_QUARTILE", "FOURTH_QUARTILE"]
-
-W = 1200
-PAD = 34
-S = 19.0                      # cell size
-WEEK = (S * .94, S * .155)    # weeks run right, drifting gently down
-DAY = (-S * .44, S * .640)    # weekdays run toward the viewer
-BLOCK = S * .50               # one voxel of height
-MAX_BLOCKS = 9
-PLINTH = 34                   # how deep the chunk of ground is cut
+MATERIAL = [None, "grass", "planks", "gold_block", "emerald_block"]
+MATERIAL_NAME = ["", "grass", "planks", "gold", "emerald"]
 
 CAL = ("contributionCalendar{ totalContributions weeks{ contributionDays{"
        " date weekday contributionCount contributionLevel } } }")
-
-CSS = ("@keyframes bob{0%,100%{opacity:1}50%{opacity:.35}}"
-       "@keyframes beam{0%,100%{opacity:.9}50%{opacity:.45}}"
-       "@keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}"
-       "@keyframes tw{0%,100%{opacity:1}50%{opacity:.2}}"
-       ".tw{animation:tw 3s ease-in-out infinite}"
-       "@keyframes drift{0%,100%{transform:translateX(0)}50%{transform:translateX(34px)}}"
-       ".bob{animation:bob 2.6s ease-in-out infinite}"
-       ".beam{animation:beam 2.2s ease-in-out infinite}"
-       ".fl{animation:fl 3.4s ease-in-out infinite}"
-       ".drift{animation:drift 22s ease-in-out infinite}"
-       "@keyframes rise{0%{transform:translateY(-46px);opacity:0}60%{opacity:1}100%{transform:none;opacity:1}}"
-       ".rise{animation:rise .7s cubic-bezier(.2,1.3,.4,1) both}")
-
 
 # ------------------------------------------------------------------------ data
 def gql(query, **variables):
@@ -106,172 +94,26 @@ def short(d):
     return f"{d.strftime('%b')} {d.day}" if d else ""
 
 
-# -------------------------------------------------------------------- geometry
-def pt(w, d, ox, oy, h=0.0):
-    return ox + w * WEEK[0] + d * DAY[0], oy + w * WEEK[1] + d * DAY[1] - h
+# ------------------------------------------------------------------- the world
+SC = 2                                   # raster scale: rendered at 2x, shown at 1x
+EX = (19.4, 3.1)                         # one week to the right, drifting down
+EY = (-8.6, 11.2)                        # one weekday toward the viewer
+EZ = 15.0                                # one block up
+MAX_BLOCKS = 7
+SLAB = 3.6                               # blocks of ground under the surface
+
+SKY = {"dark": ((9, 13, 33), (32, 46, 82)), "light": ((104, 152, 255), (196, 220, 255))}
+CSS = ("@keyframes tw{0%,100%{opacity:1}50%{opacity:.15}}.tw{animation:tw 2.8s steps(3) infinite}"
+       "@keyframes drift{0%{transform:translateX(0)}100%{transform:translateX(90px)}}"
+       ".drift{animation:drift 40s linear infinite alternate}"
+       "@keyframes beam{0%,100%{opacity:.95}50%{opacity:.55}}.beam{animation:beam 1.6s ease-in-out infinite}"
+       "@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}"
+       ".bob{animation:bob 2s ease-in-out infinite}")
 
 
-def prism(a, b, c, e, z0, z1, ox, oy, top, left, right):
-    """Box over the footprint [a,c] x [b,e] from height z0 to z1 (px): the three
-    faces this camera can see, flat-shaded."""
-    P = lambda u, v, z: pt(u, v, ox, oy, z)
-    return "".join([
-        poly([P(a, e, z0), P(c, e, z0), P(c, e, z1), P(a, e, z1)], left),
-        poly([P(c, b, z0), P(c, e, z0), P(c, e, z1), P(c, b, z1)], right),
-        poly([P(a, b, z1), P(c, b, z1), P(c, e, z1), P(a, e, z1)], top),
-    ])
-
-
-def tower(w, d, ox, oy, n_blocks, col, t, gap=.07):
-    """One day: a column of blocks in its level colour, seams between the blocks,
-    a lit rim on the cap and a little ambient occlusion where it meets the ground."""
-    a, b, c, e = w + gap, d + gap, w + 1 - gap, d + 1 - gap
-    h = n_blocks * BLOCK
-    P = lambda u, v, z: pt(u, v, ox, oy, z)
-    top = mix(col, "#FFFFFF", .10) if t["dark"] else col
-    parts = [prism(a, b, c, e, 0, h, ox, oy, top, shade(col, .80), shade(col, .58))]
-    # contact shadow at the foot of the column
-    ao = min(BLOCK * .8, h)
-    parts.append(poly([P(a, e, 0), P(c, e, 0), P(c, b, 0), P(c, b, ao), P(c, e, ao), P(a, e, ao)],
-                      t["shadow"], ' opacity=".22"'))
-    if n_blocks > 1:
-        seg = []
-        for i in range(1, n_blocks):
-            z = i * BLOCK
-            p0, p1, p2 = P(a, e, z), P(c, e, z), P(c, b, z)
-            seg.append(f"M{p0[0]:.1f} {p0[1]:.1f}L{p1[0]:.1f} {p1[1]:.1f}L{p2[0]:.1f} {p2[1]:.1f}")
-        parts.append(f'<path d="{"".join(seg)}" stroke="{t["shadow"]}" stroke-width=".8"'
-                     f' opacity=".32" fill="none"/>')
-    # lit rim along the two near edges of the cap
-    r0, r1, r2 = P(a, e, h), P(c, e, h), P(c, b, h)
-    parts.append(f'<path d="M{r0[0]:.1f} {r0[1]:.1f}L{r1[0]:.1f} {r1[1]:.1f}L{r2[0]:.1f} {r2[1]:.1f}"'
-                 f' stroke="{mix(col, "#FFFFFF", .5)}" stroke-width=".9" opacity=".75" fill="none"/>')
-    # two pixel flecks on the cap, deterministic — texture, not noise
-    seed = (int(w) * 7 + int(d) * 13) % 5
-    for k, (fu, fv) in enumerate(((.24, .30), (.62, .66), (.44, .18), (.70, .34), (.30, .62))[seed:seed + 2]):
-        u0, v0 = a + (c - a) * fu, b + (e - b) * fv
-        u1, v1 = u0 + (c - a) * .17, v0 + (e - b) * .17
-        parts.append(poly([P(u0, v0, h), P(u1, v0, h), P(u1, v1, h), P(u0, v1, h)],
-                          shade(col, 1.16 if k else .84)))
-    return "".join(parts)
-
-
-def cast(w, d, ox, oy, t, n_blocks, gap=.07):
-    """A footprint cast down-right, longer for taller towers, so they stand on
-    the ground instead of hovering over it."""
-    a, b, c, e = w + gap, d + gap, w + 1 - gap, d + 1 - gap
-    k = 3 + n_blocks * 1.1
-    pts = [pt(a, b, ox, oy), pt(c, b, ox, oy), pt(c, e, ox, oy), pt(a, e, ox, oy)]
-    return poly([(x + k, y + k * .55) for x, y in pts], t["shadow"], ' opacity=".20"')
-
-
-def chip(cx, y, label, t, fg, size=11.5):
-    """A label that has to stay readable over whatever towers are behind it."""
-    w = len(label) * size * .601 + 18
-    return ("".join([
-        rect(cx - w / 2 - 2, y - size - 5, w + 4, size + 15, fill=t["edge"]),
-        rect(cx - w / 2, y - size - 3, w, size + 11, fill=t["bg"]),
-        rect(cx - w / 2, y - size - 3, w, 2, fill=fg),
-        text(cx, y, label, size, fg, anchor="middle", weight=600),
-    ]))
-
-
-def chunk(t, ox, oy, w0, w1, d0, d1, ground):
-    """The slab the world sits on, cut like a Minecraft chunk: a grass lip, a
-    band of dirt, stone underneath with a few ores showing on the cut faces."""
-    P = lambda u, v, z=0: pt(u, v, ox, oy, z)
-    grass = mix(t["bg"], t["green"], .55)
-    dirt = mix(t["bg"], t["amber"], .42)
-    stone = mix(t["bg"], t["ink"], .30)
-    bands = ((0, 5, grass), (5, 15, dirt), (15, PLINTH, stone))
-    out = [poly([P(w0, d0), P(w1, d0), P(w1, d1), P(w0, d1)], ground)]
-    for z0, z1, col in bands:
-        out.append(poly([P(w0, d1, -z0), P(w1, d1, -z0), P(w1, d1, -z1), P(w0, d1, -z1)], shade(col, .78)))
-        out.append(poly([P(w1, d0, -z0), P(w1, d1, -z0), P(w1, d1, -z1), P(w1, d0, -z1)], shade(col, .56)))
-    # ores: fixed positions along the front cut, so every rebuild looks the same
-    ores = ("amber", "blue", "red", "green", "violet")
-    for i in range(26):
-        u = w0 + 1.2 + ((i * 37) % 97) / 97 * (w1 - w0 - 2.4)
-        z = 18 + (i * 11) % 13
-        col = mix(t[ores[i % len(ores)]], t["bg"], .10)
-        out.append(poly([P(u, d1, -z), P(u + .28, d1, -z), P(u + .28, d1, -z - 3), P(u, d1, -z - 3)], col))
-    for i in range(4):
-        v = d0 + 1 + i * 1.7
-        z = 19 + (i * 7) % 11
-        col = shade(t[ores[(i + 2) % len(ores)]], .8)
-        out.append(poly([P(w1, v, -z), P(w1, v + .5, -z), P(w1, v + .5, -z - 3), P(w1, v, -z - 3)], col))
-    # the very bottom edge in bedrock black
-    out.append(poly([P(w0, d1, -PLINTH + 3), P(w1, d1, -PLINTH + 3), P(w1, d1, -PLINTH), P(w0, d1, -PLINTH)],
-                    t["shadow"], ' opacity=".35"'))
-    return "".join(out)
-
-
-def cloud(t, ox, oy, cells, w, d, z):
-    """A flat voxel cloud floating at height z over cell (w, d)."""
-    dark = t["dark"]
-    top = "#FFFFFF" if dark else "#FFFFFF"
-    side = mix("#FFFFFF", t["bg"], .35 if dark else .12)
-    cells = sorted(cells, key=lambda c: (c[0] + c[1], c[1]))
-    body = "".join(prism(w + cw, d + cd, w + cw + 1, d + cd + 1, z, z + 7, ox, oy, top, side, shade(side, .9))
-                   for cw, cd in cells)
-    return f'<g opacity="{.20 if dark else .95}">{body}</g>'
-
-
-# --------------------------------------------------------------------- drawing
-def stat_cards(t, stats, y, accents):
-    gap = 14
-    cw = (W - 8 - gap * (len(stats) - 1)) / len(stats)
-    ch = 112
-    out = []
-    for i, (value, name, sub) in enumerate(stats):
-        x = 4 + (cw + gap) * i
-        col = accents[i % len(accents)]
-        out.append(panel(x, y, cw, ch, t))
-        out.append(rect(x + 3, y + 3, cw - 6, 4, fill=t[col]))
-        out.append(text(x + 16, y + 30, name.upper(), 10.5, t["muted"], weight=700, ls="1.4"))
-        out.append(pixel_text(value, x + 16, y + 42, 4, t["ink"], shadow=t["shadow"], shadow_op=t["px_shadow"]))
-        out.append(text(x + 16, y + 96, sub, 11.5, t["muted"]))
-        # an item slot holding one floating block per card
-        sx, sy = x + cw - 58, y + 34
-        out.append(slot(sx, sy, 44, 44, t))
-        iso = Iso(sx + 22, sy + 15, 10)
-        out.append(f'<g class="fl" style="animation-delay:{-i * .6:.1f}s">'
-                   + iso.box(-.5, -.5, 0, 1, 1, 1, t[col], top=mix(t[col], "#FFFFFF", .25)) + "</g>")
-    return "".join(out), ch
-
-
-def window_chrome(t, x, y, w, h, title, right, accent):
-    return window(x, y, w, h, t, title, right, accent)
-
-
-def render(theme, created, recent, all_days, stamp):
-    t = THEMES[theme]
-    cells = ramp(t, "green")
-    ground = mix(t["bg"], t["green"], .09 if t["dark"] else .07)
-    today = dt.datetime.now(TZ).date()
-    cur, cur_range, longest, best_range = streaks(all_days, today)
-    weeks = recent["weeks"]
-    n = len(weeks)
-    days = [(w, d["weekday"], d) for w, wk in enumerate(weeks) for d in wk["contributionDays"]]
-    peak = max(days, key=lambda x: x[2]["contributionCount"])
-    top = max(1, peak[2]["contributionCount"])
-    latest = max(d["date"] for _, _, d in days)
-    active = sum(1 for _, _, d in days if d["contributionCount"])
-
-    y = 4
-    stats = [
-        (f"{sum(all_days.values()):,}", "Total", f"since {dt.date.fromisoformat(created[:10]).strftime('%b %Y')}"),
-        (f"{recent['totalContributions']:,}", "Last 12 months", f"{active} active days"),
-        (f"{cur}", "Current streak", f"{short(cur_range[0])} - {short(cur_range[1])}" if cur else "start one today"),
-        (f"{longest}", "Longest streak", f"{short(best_range[0])} - {short(best_range[1])}"),
-        (f"{top}", "Best day", short(peak[2]["date"])),
-    ]
-    cards, ch = stat_cards(t, stats, y, ACCENT_ORDER)
-    y += ch + 18
-
-    # ---- the world -------------------------------------------------------
-    # One 137-commit day against a median of four made every other tower a stub, so
-    # height is a log scale normalised to the 90th percentile rather than the peak.
+def heights(days):
+    """Log-scaled tower heights, normalised to the 90th percentile so one huge
+    day does not flatten every other one."""
     busy = sorted(d["contributionCount"] for _, _, d in days if d["contributionCount"])
     ref = max(3, busy[int(len(busy) * .9)] if busy else 3)
 
@@ -279,148 +121,193 @@ def render(theme, created, recent, all_days, stamp):
         if not cnt:
             return 0
         return 1 + round(min(1.0, math.log1p(cnt) / math.log1p(ref)) * (MAX_BLOCKS - 1))
+    return stack
 
-    # Reserve exactly enough sky for the header band: no tower may reach into it.
-    sky = y + 58 + 52                       # heading + subtitle + best-day callout
-    ox = PAD + 120
-    oy = max(y + 120, sky + max(stack(d["contributionCount"]) * BLOCK - (w * WEEK[1] + wd * DAY[1])
-                                for w, wd, d in days))
-    w0, w1, d0, d1 = -.55, n + .55, -.55, 7.55
-    month_base = pt(n - 3.5, d1, ox, oy)[1] + PLINTH + 19
-    win_h = int(max(pt(w1, d1, ox, oy)[1] + PLINTH + 18, month_base) - y + 26)
-    H = int(y + win_h + 6)
 
-    body = [cards]
-    body.append(window_chrome(t, 4, y, W - 8, win_h,
-                              "~/contributions --last 12mo --render iso", f"synced {stamp}", "green"))
+def sky(theme, w, h):
+    top, bot = SKY[theme]
+    a = Image.new("RGB", (w, h))
+    px = ImageDraw.Draw(a)
+    for y in range(h):
+        t = (y / h) ** 1.2
+        px.line([(0, y), (w, y)], fill=tuple(round(top[i] + (bot[i] - top[i]) * t) for i in range(3)))
+    return a.convert("RGBA")
 
-    head_y = y + 58
-    body.append(pixel_text("CONTRIBUTION WORLD", PAD + 6, head_y - 16, 4, t["ink"],
-                           shadow=t["shadow"], shadow_op=t["px_shadow"]))
-    body.append(text(PAD + 6, head_y + 26, f"{recent['totalContributions']:,} contributions · "
-                                            f"{active} active days · taller stack = busier day",
-                     11.5, t["muted"]))
 
-    # legend as the same blocks the world is built from
-    lx = W - PAD - 176
-    body.append(text(lx - 16, head_y + 6, "less", 11, t["muted"], anchor="end"))
-    for i, c in enumerate([ground] + cells[1:]):
-        iso = Iso(lx + i * 26, head_y + 1, 8)
-        body.append(iso.box(-.5, -.5, -.4, 1, 1, .4 + i * .35, c if i else mix(t["bg"], t["ink"], .16)))
-    body.append(text(lx + len(cells) * 26 - 6, head_y + 6, "more", 11, t["muted"]))
-
-    # ---- sky: clouds drifting over the back row by day, stars at night
-    if t["dark"]:
-        stars = []
-        for i in range(34):
-            sx = PAD + 70 + ((i * 131) % 1000) * .98
-            sy = sky - 18 + ((i * 53) % 71) * 1.1
-            wb = (sx - ox) / WEEK[0]                          # the back edge under this star
-            if sy > pt(wb, d0, ox, oy)[1] - 16 or sy < sky - 20 or (sx < PAD + 470 and sy < sky + 4):
-                continue
-            size = 2 if i % 4 else 3
-            stars.append(f'<rect class="tw" style="animation-delay:{-(i * .37) % 3:.2f}s" x="{sx:.0f}"'
-                         f' y="{sy:.0f}" width="{size}" height="{size}" fill="{t["ink"]}"'
-                         f' opacity="{.35 + (i % 3) * .2:.2f}"/>')
-        body.append("".join(stars))
+def sun_or_moon(img, theme, x, y, s):
+    d = ImageDraw.Draw(img)
+    if theme == "light":
+        d.rectangle([x, y, x + s, y + s], fill=(255, 247, 170))
+        d.rectangle([x + s * .2, y + s * .2, x + s * .8, y + s * .8], fill=(255, 255, 222))
     else:
-        for cw_, cells_, dur in ((14, ((0, 0), (1, 0), (2, 0), (1, 1), (2, 1), (3, 1)), 22),
-                                 (32, ((0, 0), (1, 0), (1, 1), (2, 1)), 28)):
-            z = max(18, pt(cw_, -4.5, ox, oy)[1] - (sky + 40))
-            body.append(f'<g class="drift" style="animation-duration:{dur}s">'
-                        f'{cloud(t, ox, oy, cells_, cw_, -4.5, z)}</g>')
+        d.rectangle([x, y, x + s, y + s], fill=(226, 228, 214))
+        q = s / 8
+        for cx, cy, r in ((2, 2, 1), (5, 4, 1.5), (3, 5.5, 1)):
+            d.rectangle([x + cx * q, y + cy * q, x + (cx + r) * q, y + (cy + r) * q], fill=(178, 182, 170))
 
-    # ---- the ground: a floating chunk with the calendar scored into its top
-    lo = pt(w0, d1, ox, oy)[0], pt(w1, d0, ox, oy)[0]
-    cx_, cy_ = (lo[0] + lo[1]) / 2, pt(w1, d1, ox, oy)[1] - 6
-    body.append(f'<ellipse cx="{cx_:.1f}" cy="{cy_:.1f}" rx="{(lo[1] - lo[0]) * .46:.1f}" ry="26"'
-                f' fill="#000000" opacity="{.30 if t["dark"] else .12}"/>')
-    body.append(chunk(t, ox, oy, w0, w1, d0, d1, ground))
-    weekly, monthly, last = [], [], None
+
+def render_world(theme, weeks, stack, sky_h):
+    """The raster: sky, chunk, shadows, towers. Returns (image, camera, size)."""
+    n = len(weeks)
+    ox = 70 + 7 * -EY[0]                                  # leftmost point of the near edge sits at x=70
+    oy = sky_h + MAX_BLOCKS * EZ
+    w_px = W
+    h_px = int(oy + n * EX[1] + 7 * EY[1] + SLAB * EZ + 46)
+    img = sky(theme, w_px * SC, h_px * SC)
+    cam = mc.Cam(ox * SC, oy * SC, (EX[0] * SC, EX[1] * SC), (EY[0] * SC, EY[1] * SC), EZ * SC)
+
+    # stars or sun/moon (twinkling stars are overlaid in SVG)
+    sun_or_moon(img, theme, (W - 190) * SC, 30 * SC, 34 * SC)
+
+    # ground: one grass top per day cell, the chunk's cut faces, ores, bedrock
+    rng = random.Random(7)
+    for w in range(n):
+        for d in range(7):
+            cam.block(img, w, d, -1, "grass", faces=())
+    for w in range(n):                                    # front cut face, top to bottom
+        for z, kind in ((-1, "grass"), (-2, "dirt"), (-3, "stone"), (-4, "stone")):
+            k = kind
+            if kind == "stone" and rng.random() < .16:
+                k = rng.choice(("emerald_ore", "stone", "stone"))
+            if kind == "stone" and rng.random() < .07:
+                k = "diamond_ore"
+            cam.block(img, w, 6, z, k, top=False, faces=("front",))
+    for d in range(7):                                    # right cut face
+        for z, kind in ((-1, "grass"), (-2, "dirt"), (-3, "stone"), (-4, "stone")):
+            k = "gold_ore" if kind == "stone" and rng.random() < .12 else kind
+            cam.block(img, n - 1, d, z, k, top=False, faces=("right",))
+    # bedrock lip along the bottom
+    for w in range(n):
+        cam.block(img, w, 6, -4.5, "bedrock", dz=.5, top=False, faces=("front",))
+    for d in range(7):
+        cam.block(img, n - 1, d, -4.5, "bedrock", dz=.5, top=False, faces=("right",))
+
+    # grid seams on the grass, so the calendar still reads as days
+    seams = Image.new("RGBA", img.size, (0, 0, 0, 0))
+    sd = ImageDraw.Draw(seams)
     for w in range(n + 1):
-        a, b = pt(w, d0, ox, oy), pt(w, d1, ox, oy)
-        seg = f"M{a[0]:.1f} {a[1]:.1f}L{b[0]:.1f} {b[1]:.1f}"
-        month = dt.date.fromisoformat(weeks[min(w, n - 1)]["contributionDays"][0]["date"]).month
-        (monthly if month != last and w < n else weekly).append(seg)
-        if w < n:
-            last = month
+        sd.line([cam.p(w, 0), cam.p(w, 7)], fill=(0, 0, 0, 34), width=SC)
     for d in range(8):
-        a, b = pt(w0, d, ox, oy), pt(w1, d, ox, oy)
-        weekly.append(f"M{a[0]:.1f} {a[1]:.1f}L{b[0]:.1f} {b[1]:.1f}")
-    body.append(f'<path d="{"".join(weekly)}" stroke="{t["ink"]}" stroke-width=".5"'
-                f' opacity="{t["grid"] * 1.2:.3f}" fill="none"/>')
-    body.append(f'<path d="{"".join(monthly)}" stroke="{t["ink"]}" stroke-width=".8"'
-                f' opacity="{t["grid"] * 2.8:.3f}" fill="none"/>')
+        sd.line([cam.p(0, d), cam.p(n, d)], fill=(0, 0, 0, 34), width=SC)
+    img.alpha_composite(seams)
 
-    # ---- towers, painter's order: far to near
-    lit = [(w, wd, day) for w, wd, day in days if day["contributionCount"]]
-    body.extend(cast(w, wd, ox, oy, t, stack(day["contributionCount"])) for w, wd, day in lit)
-    beacon = peak_top = None
-    for w, wd, day in sorted(lit, key=lambda x: (x[0] + x[1], x[1])):
-        blocks = stack(day["contributionCount"])
-        col = cells[LEVELS.index(day["contributionLevel"])]
-        body.append(f'<g class="rise" style="animation-delay:{.2 + w * .02:.2f}s">'
-                    f'{tower(w, wd, ox, oy, blocks, col, t)}</g>')
-        if day["date"] == latest:
-            beacon = (w, wd, blocks)
-        if day["date"] == peak[2]["date"]:
-            peak_top = pt(w + .5, wd + .5, ox, oy, blocks * BLOCK)
+    # shadows: every tower casts one down-right, merged into a single layer
+    cells = [(w, wd, stack(day["contributionCount"]), day) for w, wk in enumerate(weeks)
+             for day in wk["contributionDays"] for wd in [day["weekday"]] if day["contributionCount"]]
+    sh = Image.new("L", img.size, 0)
+    shd = ImageDraw.Draw(sh)
+    for w, d, hgt, _ in cells:
+        L = .55 + hgt * .32                               # shadow length in cells
+        quad = [cam.p(w, d), cam.p(w + 1, d), cam.p(w + 1 + L, d + 1 + L * .35), cam.p(w + L, d + 1 + L * .35),
+                cam.p(w, d + 1)]
+        shd.polygon(quad, fill=110)
+    # keep shadows on the ground
+    ground = Image.new("L", img.size, 0)
+    ImageDraw.Draw(ground).polygon([cam.p(0, 0), cam.p(n, 0), cam.p(n, 7), cam.p(0, 7)], fill=255)
+    sh = ImageChops.multiply(sh, ground)
+    dark = Image.new("RGBA", img.size, (8, 14, 4, 255))
+    dark.putalpha(sh)
+    img.alpha_composite(dark)
 
-    # Markers go on last, above every tower, each on its own backing plate.
-    if beacon:
-        w, wd, blocks = beacon
-        bx, by = pt(w + .5, wd + .5, ox, oy, blocks * BLOCK)
-        beam = max(52, by - (sky + 34))
-        g = t["green"]
-        body.append(f'<g class="beam">'
-                    f'<rect x="{bx - 9:.1f}" y="{by - beam:.1f}" width="18" height="{beam:.1f}" fill="{g}"'
-                    f' opacity=".10" filter="url(#glow)"/>'
-                    f'<rect x="{bx - 4:.1f}" y="{by - beam:.1f}" width="8" height="{beam:.1f}" fill="{g}" opacity=".28"/>'
-                    f'<rect x="{bx - 1.5:.1f}" y="{by - beam:.1f}" width="3" height="{beam:.1f}" fill="{g}" opacity=".95"/>'
-                    f'</g>')
-        iso = Iso(bx, by - beam - 4, 6)
-        body.append(iso.box(-.5, -.5, 0, 1, 1, 1, g, top=mix(g, "#FFFFFF", .35)))
-        body.append(chip(min(max(bx, PAD + 60), W - PAD - 60), by - beam - 20, "today", t, t["green"], 10.5))
+    # towers, far to near
+    for w, d, hgt, day in sorted(cells, key=lambda c: (c[0] + c[1], c[1])):
+        mat = MATERIAL[LEVELS.index(day["contributionLevel"])] or "grass"
+        for z in range(hgt):
+            kind = mat
+            if mat == "grass" and z < hgt - 1:
+                kind = "dirt"
+            ao = .78 + .22 * min(1, (z + 1) / 2)          # a little ambient occlusion at the foot
+            cam.block(img, w, d, z, kind, ao=ao, top=(z == hgt - 1))
+    return img, cam, (w_px, h_px)
 
-    if peak_top:
-        px, py = peak_top
-        ly = max(sky + 12, py - 46)                    # never climb into the window header
-        if ly < py - 18:
-            body.append(line(px, py - 6, px, ly + 8, t["amber"], 1.2, .9))
-            body.append(f'<circle cx="{px:.1f}" cy="{py - 4:.1f}" r="3" fill="{t["amber"]}"/>')
-        body.append(chip(min(max(px, PAD + 150), W - PAD - 150), ly,
-                         f"best day · {top} on {short(peak[2]['date'])}", t, t["amber"]))
 
-    # ---- axis labels, hugging the slab
+def render(theme, created, recent, all_days, stamp):
+    weeks = recent["weeks"]
+    n = len(weeks)
+    days = [(w, d["weekday"], d) for w, wk in enumerate(weeks) for d in wk["contributionDays"]]
+    stack = heights(days)
+    peak = max(days, key=lambda x: x[2]["contributionCount"])
+    latest = max(d["date"] for _, _, d in days)
+    active = sum(1 for _, _, d in days if d["contributionCount"])
+    sky_h = 96
+    img, cam, (w_px, h_px) = render_world(theme, weeks, stack, sky_h)
+    P = lambda u, v, z=0: (cam.p(u, v, z)[0] / SC, cam.p(u, v, z)[1] / SC)
+
+    body = [mc.image(mc.png_uri(img.convert("RGB"), 192), 0, 0, w_px, h_px)]
+    # stars / clouds
+    rng = random.Random(3)
+    if theme == "dark":
+        for i in range(46):
+            x, y = rng.randrange(20, W - 20), rng.randrange(8, sky_h + 70)
+            if P(min(n, max(0, (x - 70) / EX[0])), 0)[1] - MAX_BLOCKS * EZ < y and x > 60:
+                continue
+            s = 2 if i % 3 else 3
+            cls = ' class="tw"' if i % 4 == 0 else ""
+            body.append(f'<rect{cls} x="{x}" y="{y}" width="{s}" height="{s}" fill="#FFFFFF"'
+                        f' opacity="{.45 + (i % 3) * .2:.2f}" style="animation-delay:{-i * .37 % 2.8:.2f}s"/>')
+    else:
+        for cx, cy, cw in ((600, 34, 150), (330, 132, 120), (880, 150, 170)):
+            body.append(f'<g class="drift" style="animation-delay:{-cx / 20:.0f}s" opacity=".92">'
+                        f'<rect x="{cx}" y="{cy}" width="{cw}" height="18" fill="#FFFFFF"/>'
+                        f'<rect x="{cx + cw * .2:.0f}" y="{cy - 12}" width="{cw * .45:.0f}" height="12" fill="#FFFFFF"/>'
+                        f'<rect x="{cx}" y="{cy + 18}" width="{cw}" height="5" fill="#DDE6F5"/></g>')
+
+    # title over the sky
+    body.append(mc_pixel("CONTRIBUTION WORLD", 28, 22, 4))
+    body.append(mc_text(28, 74, f"{recent['totalContributions']:,} contributions · {active} active days"
+                        f" · taller = busier · synced {stamp}", 12.5, "#FFFFFF"))
+    # legend
+    lx = W - 420
+    leg = []
+    for i, (m, nm) in enumerate(zip(MATERIAL[1:], MATERIAL_NAME[1:])):
+        ic = mc.icon(m, 56)
+        leg.append(mc.image(mc.png_uri(ic), lx + i * 84, 88, 28, 28))
+        leg.append(mc_text(lx + i * 84 + 32, 108, nm, 11, "#FFFFFF"))
+    body.append(mc_text(lx - 10, 108, "less", 11, "#FFFFFF", "end"))
+    body.append("".join(leg))
+    body.append(mc_text(lx + 3 * 84 + 94, 108, "more", 11, "#FFFFFF"))
+
+    # month labels painted on the dirt band of the front cut
     last = None
     for w, wk in enumerate(weeks):
         first = dt.date.fromisoformat(wk["contributionDays"][0]["date"])
         if first.month != last and w < n - 2:
-            x, yy = pt(w + .5, d1, ox, oy)
-            body.append(text(x, yy + PLINTH + 19, first.strftime("%b").upper(), 10, t["muted"],
-                             anchor="middle", ls=".6"))
+            x, y = P(w + .2, 7, -1.62)
+            body.append(mc_text(x, y, first.strftime("%b").upper(), 11, "#FFFFFF", weight=700))
             last = first.month
-    for d, name in ((1, "MON"), (3, "WED"), (5, "FRI")):
-        x, yy = pt(w0, d + .5, ox, oy)
-        body.append(text(x - 10, yy + 4, name, 10, t["muted"], anchor="end", ls=".6"))
+    for d, nm in ((1, "MON"), (3, "WED"), (5, "FRI")):
+        x, y = P(0, d + .75, 0)
+        body.append(mc_text(x - 8, y, nm, 10.5, "#FFFFFF", "end", 700))
 
-    # ---- world plaque, in the slab's shadow
-    plq_y = y + win_h - 54
-    for i, (k, v) in enumerate((("SEED", LOGIN.lower()), ("BIOME", f"commits · {n}w x 7d"))):
-        body.append(text(PAD + 22, plq_y + i * 16, k, 9.5, t["muted"], weight=600, ls="1.2"))
-        body.append(text(PAD + 74, plq_y + i * 16, v, 10.5, t["ink"]))
-    defs = '<filter id="glow" x="-200%" y="-10%" width="500%" height="120%"><feGaussianBlur stdDeviation="5"/></filter>'
-    return svg_doc(W, H, "".join(body), defs=defs,
-                   label=(f"GitHub activity: {sum(all_days.values()):,} contributions, "
-                          f"current streak {cur} days, longest {longest} days, synced {stamp}"),
-                   css=CSS)
+    # today's beacon and the best-day marker
+    for w, wd, day in days:
+        if day["date"] == latest:
+            bx, by = P(w + .5, wd + .5, stack(day["contributionCount"]))
+            top = 30
+            body.append(f'<g class="beam"><rect x="{bx - 7:.1f}" y="{top}" width="14" height="{by - top:.1f}"'
+                        f' fill="#9FFFF2" opacity=".18"/><rect x="{bx - 2.5:.1f}" y="{top}" width="5"'
+                        f' height="{by - top:.1f}" fill="#DFFFFB" opacity=".85"/></g>')
+            body.append(f'<g class="bob">{chip(min(bx, W - 70), top + 6, "today", AQUA, 12)}</g>')
+        if day["date"] == peak[2]["date"]:
+            px_, py_ = P(w + .5, wd + .5, stack(day["contributionCount"]))
+            lbl = f"best day · {day['contributionCount']} on {short(day['date'])}"
+            ly = max(sky_h + 34, py_ - 40)
+            body.append(f'<rect x="{px_ - 1:.1f}" y="{ly:.1f}" width="2" height="{py_ - ly - 2:.1f}" fill="{YELLOW}"/>')
+            body.append(chip(min(max(px_, 150), W - 150), ly, lbl, YELLOW, 12))
+
+    # plaque
+    body.append(mc_text(28, h_px - 34, f"seed  {LOGIN.lower()}", 11, "#FFFFFF"))
+    body.append(mc_text(28, h_px - 18, f"biome commits · {n}w × 7d", 11, "#FFFFFF"))
+    frame = ('<rect x="1" y="1" width="{0}" height="{1}" fill="none" stroke="#000" stroke-width="2"/>'
+             .format(w_px - 2, h_px - 2))
+    return svg(w_px, h_px, "".join(body) + frame, css=CSS,
+               label=(f"Contribution world: {recent['totalContributions']:,} contributions over the last 12 months,"
+                      f" {active} active days, best day {peak[2]['contributionCount']} on {short(peak[2]['date'])}"))
 
 
-# ------------------------------------------------------------------------- HUD
-HOTBAR = [("laravel", "Laravel"), ("nextdotjs", "Next.js"), ("php", "PHP"), ("typescript", "TypeScript"),
-          ("react", "React"), ("tailwindcss", "Tailwind CSS"), ("flutter", "Flutter"), ("mysql", "MySQL"),
-          ("git", "Git")]
+# ------------------------------------------------------------- player stats card
 XP_PER = 5          # level L needs XP_PER * L^2 contributions
+STATS_H = 500
 
 
 def level(total):
@@ -429,128 +316,77 @@ def level(total):
     return lv, (total - lo) / (hi - lo), hi - total
 
 
-def gem(x, y, k, fill, t, on=True):
-    """A 7x7 pixel emerald: one per recent day, lit if that day had commits."""
-    rows = ["0011100", "0111110", "1111111", "1111111", "1111111", "0111110", "0011100"]
-    cells = "".join(f'<rect x="{x + c * k:.1f}" y="{y + r * k:.1f}" width="{k}" height="{k}"/>'
-                    for r, row in enumerate(rows) for c, v in enumerate(row) if v == "1")
-    if not on:
-        return f'<g fill="{t["slot"]}" stroke="{t["edge"]}" stroke-width=".4">{cells}</g>'
-    return (f'<g fill="{fill}">{cells}</g>'
-            f'<rect x="{x + 2 * k:.1f}" y="{y + 1 * k:.1f}" width="{k * 2}" height="{k}" fill="#FFFFFF" opacity=".6"/>')
+STATS_CSS = ("@keyframes xp{from{transform:scaleX(0)}to{transform:scaleX(1)}}"
+             ".xp{animation:xp 1.8s .3s cubic-bezier(.2,.9,.3,1) both;transform-box:fill-box;transform-origin:left}"
+             "@keyframes beat{0%,100%{transform:scale(1)}10%{transform:scale(1.2)}20%{transform:scale(1)}}"
+             ".beat{animation:beat 1.2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}")
 
 
-HUD_CSS = ("@keyframes xp{from{transform:scaleX(0)}to{transform:scaleX(1)}}"
-           ".xp{animation:xp 1.6s .3s cubic-bezier(.2,.9,.3,1) both;transform-box:fill-box;transform-origin:left}"
-           "@keyframes beat{0%,100%{transform:scale(1)}12%{transform:scale(1.18)}24%{transform:scale(1)}}"
-           ".beat{animation:beat 1.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}")
-
-
-def hud(theme, created, recent, all_days, stamp):
-    """The page's heads-up display: F3 debug text either side, and in the middle
-    hearts (current streak), emeralds (the last ten days), the XP bar (level from
-    lifetime contributions) and a hotbar whose selection walks the main stack."""
-    import build_panels as BP
-    t = THEMES[theme]
+def stats_card(created, recent, all_days):
     today = dt.datetime.now(TZ).date()
-    cur, _, longest, _ = streaks(all_days, today)
+    cur, cur_range, longest, best_range = streaks(all_days, today)
     total = sum(all_days.values())
     lv, frac, need = level(total)
-    H = 178
-    s, step = 50, 54
-    bw = step * 9 + 6
-    bx, by = (W - bw) / 2, 104
-    out = []
-
-    # F3 debug columns
     days = [d for wk in recent["weeks"] for d in wk["contributionDays"]]
     active = sum(1 for d in days if d["contributionCount"])
     peak = max(days, key=lambda d: d["contributionCount"])
-    left = [("profile.exe", "pixel-terminal"), ("level", f"{lv} ({frac * 100:.0f}%)"),
-            ("xp", f"{total:,} contributions"), ("streak", f"{cur}d now / {longest}d best"),
-            ("seed", LOGIN.lower())]
-    right = [("biome", "full-stack"), ("facing", "Laravel / Next.js"), ("learning", "Flutter, Dart"),
-             ("12mo", f"{recent['totalContributions']:,} in {active} days"),
-             ("best", f"{peak['contributionCount']} on {short(peak['date'])}")]
-    for col, rows in ((0, left), (1, right)):
-        for i, (k, v) in enumerate(rows):
-            line_ = f"{k}: {v}"
-            w = len(line_) * 7.2 + 12
-            y = 12 + i * 26
-            x = 4 if col == 0 else W - 4 - w
-            out.append(rect(x, y, w, 21, fill="#000000", op=.55 if t["dark"] else .80))
-            out.append(text(x + 6, y + 15, k + ":", 12, "#9AA2AE"))
-            out.append(text(x + 6 + (len(k) + 2) * 7.2, y + 15, v, 12, "#FFFFFF"))
-    out.append(text(4, H - 8, f"synced {stamp}", 11, t["muted"]))
-    out.append(text(W - 4, H - 8, "F3 to hide debug", 11, t["muted"], anchor="end"))
+    w, h = HALF, STATS_H
+    out = [card_frame(w, h), label(24, 38, "Player Statistics")]
 
-    # held-item name, swapped in step with the selector
-    dur = len(HOTBAR) * 1.4
-    for i, (_, label) in enumerate(HOTBAR):
-        n = len(HOTBAR)
-        if i == 0:
-            anim = f'values="1;0" keyTimes="0;{1 / n:.4f}"'
-        else:
-            anim = f'values="0;1;0" keyTimes="0;{i / n:.4f};{(i + 1) / n:.4f}"'
-        out.append(f'<g opacity="{1 if i == 0 else 0}">'
-                   + text(W / 2 + 1.5, 20 + 1.5, label, 14, "#000000", anchor="middle", weight=700, extra=' opacity=".5"')
-                   + text(W / 2, 20, label, 14, t["ink"], anchor="middle", weight=700)
-                   + f'<animate attributeName="opacity" {anim} calcMode="discrete" dur="{dur:.1f}s"'
-                     f' repeatCount="indefinite"/></g>')
-
-    # hearts (streak) and emeralds (last ten days)
+    # hearts = current streak (one per day, ten max), the last one beats
     for i in range(10):
         full = i < min(cur, 10)
-        h = heart(bx + i * 22, 38, 2.2, t["red"], t, empty=not full)
-        out.append(f'<g class="beat" style="animation-delay:{i * .06:.2f}s">{h}</g>' if full and cur <= 3 or (full and i == min(cur, 10) - 1)
-                   else h)
-    recent10 = [all_days.get((today - dt.timedelta(days=k)).isoformat(), 0) for k in range(9, -1, -1)]
-    for i, c in enumerate(recent10):
-        out.append(gem(bx + bw - 10 * 22 + i * 22 + 2, 39, 2.4, t["green"], t, on=bool(c)))
-    out.append(text(bx, 74, f"streak {cur}d", 10.5, t["muted"]))
-    out.append(text(bx + bw, 74, "last 10 days", 10.5, t["muted"], anchor="end"))
+        hh = heart(26 + i * 26, 56, 3, full)
+        out.append(f'<g class="beat">{hh}</g>' if full and i == min(cur, 10) - 1 else hh)
+    out.append(label(w - 24, 72, f"streak {cur}d", 13, LABEL, "end"))
 
-    # XP bar + level number
-    xy = 84
-    out.append(rect(bx - 2, xy - 2, bw + 4, 12, fill=t["edge"]))
-    out.append(rect(bx, xy, bw, 8, fill=t["slot"]))
-    out.append(rect(bx, xy, bw * max(frac, .01), 8, fill=t["xp"], extra=' class="xp"'))
-    out.append(rect(bx, xy, bw * max(frac, .01), 2, fill="#FFFFFF", op=.35, extra=' class="xp"'))
-    for k in range(1, 18):                                   # the bar's segment notches
-        out.append(rect(bx + bw * k / 18, xy, 2, 8, fill=t["edge"], op=.55))
+    # XP bar + level
+    bx, by, bw = 26, 124, w - 52
+    out.append(rect(bx - 2, by - 2, bw + 4, 14, "#000000"))
+    out.append(rect(bx, by, bw, 10, "#2B2B2B"))
+    out.append(rect(bx, by, bw * max(frac, .01), 10, "#7EFC20", extra=' class="xp"'))
+    out.append(rect(bx, by, bw * max(frac, .01), 3, "#C8FF8C", extra=' class="xp"'))
+    for k in range(1, 18):
+        out.append(rect(bx + bw * k / 18, by, 2, 10, "#000000", .5))
     lvs = str(lv)
     lw = pixel_width(lvs, 3)
-    lx = (W - lw) / 2
     for dx, dy in ((-3, 0), (3, 0), (0, -3), (0, 3)):
-        out.append(pixel_text(lvs, lx + dx, xy - 26 + dy, 3, "#000000"))
-    out.append(pixel_text(lvs, lx, xy - 26, 3, t["xp"]))
-    out.append(text(W / 2, xy + 62 + s + 2, f"LVL {lv} · {need:,} xp to LVL {lv + 1} · 1 xp = 1 contribution",
-                    11, t["muted"], anchor="middle"))
+        out.append(pixel_text(lvs, (w - lw) / 2 + dx, by - 30 + dy, 3, "#000000"))
+    out.append(pixel_text(lvs, (w - lw) / 2, by - 30, 3, "#80FF20"))
+    out.append(label(w / 2, by + 34, f"level {lv} · {need:,} xp to level {lv + 1} · 1 xp = 1 contribution",
+                     11.5, LABEL, "middle", 400))
 
-    # hotbar
-    out.append(panel(bx, by, bw, s + 8, t))
-    pos = []
-    for i, (slug, _) in enumerate(HOTBAR):
-        sx = bx + 4 + i * step + 2
-        pos.append(sx)
-        out.append(slot(sx, by + 4, s, s, t))
-        out.append(BP.icon(slug, sx + 11, by + 15, 28, BP.brand(t, slug, t["slot"])))
-    vals = ";".join(f"{p:.0f} {by + 4}" for p in pos)
-    out.append(f'<g>{selector(0, 0, s, "#FFFFFF")}'
-               f'<animateTransform attributeName="transform" type="translate" values="{vals}"'
-               f' calcMode="discrete" dur="{dur:.1f}s" repeatCount="indefinite"/></g>')
-    return svg_doc(W, H, "".join(out), css=HUD_CSS,
-                   label=(f"HUD: level {lv} from {total:,} lifetime contributions, current streak {cur} days, "
-                          f"hotbar of {', '.join(l for _, l in HOTBAR)}"))
+    # the stat list, like the game's Statistics screen
+    rows = [("grass", "Total contributions", f"{total:,}",
+             f"since {dt.date.fromisoformat(created[:10]).strftime('%b %Y')}"),
+            ("planks", "Last 12 months", f"{recent['totalContributions']:,}", f"{active} active days"),
+            ("gold_block", "Current streak", f"{cur} days",
+             f"{short(cur_range[0])} – {short(cur_range[1])}" if cur else "start one today"),
+            ("emerald_block", "Longest streak", f"{longest} days",
+             f"{short(best_range[0])} – {short(best_range[1])}"),
+            ("diamond_block", "Best day", f"{peak['contributionCount']}", short(peak["date"]))]
+    y0 = 192
+    out.append(inset(18, y0 - 8, w - 36, len(rows) * 56 + 12, "#8B8B8B"))
+    for i, (blk, name, val, sub) in enumerate(rows):
+        y = y0 + i * 56
+        if i % 2:
+            out.append(rect(20, y - 4, w - 40, 56, "#000000", .06))
+        out.append(mc.image(mc.png_uri(mc.icon(blk, 80)), 32, y + 4, 40, 40))
+        out.append(mc_text(86, y + 22, name, 15, "#FFFFFF", weight=700))
+        out.append(mc_text(86, y + 42, sub, 12, "#E0E0E0"))
+        out.append(mc_text(w - 36, y + 34, val, 22, YELLOW, "end", 700))
+    return svg(w, h, "".join(out), css=STATS_CSS,
+               label=(f"Player statistics: level {lv}, {total:,} lifetime contributions, current streak {cur} days,"
+                      f" longest {longest} days, best day {peak['contributionCount']}"))
 
-
-ACCENT_ORDER = ("green", "blue", "gold", "violet", "red")
 
 if __name__ == "__main__":
+    from theme import ASSETS
     ASSETS.mkdir(parents=True, exist_ok=True)
     created, recent, all_days = fetch()
     stamp = dt.datetime.now(TZ).strftime("%d %b %Y %H:%M WIB")
-    for name in THEMES:
-        (ASSETS / f"activity-{name}.svg").write_text(render(name, created, recent, all_days, stamp), encoding="utf-8")
-        (ASSETS / f"hud-{name}.svg").write_text(hud(name, created, recent, all_days, stamp), encoding="utf-8")
-        print("wrote", f"activity-{name}.svg", f"hud-{name}.svg")
+    for name in ("dark", "light"):
+        (ASSETS / f"world-{name}.svg").write_text(render(name, created, recent, all_days, stamp), encoding="utf-8")
+        print("wrote", f"world-{name}.svg")
+    (ASSETS / "stats.svg").write_text(stats_card(created, recent, all_days), encoding="utf-8")
+    print("wrote stats.svg")

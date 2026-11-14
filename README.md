@@ -1,46 +1,31 @@
 <div align="center">
 
-<img src="./assets/hero.svg?v=b6762a700d" width="100%" alt="Zainul Arkaan Alinsi — full-stack developer, student at IDN Boarding School" />
+<img src="./assets/title.svg?v=3913fb26ae" width="100%" alt="Zainul Arkaan Alinsi — Full-stack developer, student at IDN Boarding School. Title screen: a stone logo over a block landscape, with the splash text Laravel + Next.js!" />
+
+<a href="https://github.com/ZainulArkaanAlinsi?tab=repositories"><img src="./assets/btn-github.svg?v=97be349b4a" width="65%" alt="Repositories" /></a>
+<br/>
+<a href="https://instagram.com/zainarilbre"><img src="./assets/btn-instagram.svg?v=18cabe4b41" width="32%" alt="Instagram" /></a>
+<a href="https://linkedin.com/in/zainul-arkaan-3bb51731a"><img src="./assets/btn-linkedin.svg?v=469031c5b6" width="32%" alt="LinkedIn" /></a>
+<br/>
+<a href="https://www.youtube.com/@zainarilbre"><img src="./assets/btn-youtube.svg?v=017bf625b0" width="32%" alt="YouTube" /></a>
+<a href="mailto:zainaril13@gmail.com"><img src="./assets/btn-gmail.svg?v=e70e7bf1be" width="32%" alt="Email" /></a>
 
 <br/>
 
-<a href="https://instagram.com/zainarilbre"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/link-instagram-dark.svg?v=435471b09e" /><img src="./assets/link-instagram-light.svg?v=761078d222" alt="Instagram" height="64" /></picture></a>
-<a href="https://linkedin.com/in/zainul-arkaan-3bb51731a"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/link-linkedin-dark.svg?v=fbcedd0b7b" /><img src="./assets/link-linkedin-light.svg?v=657c25f07e" alt="LinkedIn" height="64" /></picture></a>
-<a href="https://www.youtube.com/@zainarilbre"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/link-youtube-dark.svg?v=7772ac906d" /><img src="./assets/link-youtube-light.svg?v=8be870bee6" alt="YouTube" height="64" /></picture></a>
-<a href="mailto:zainaril13@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/link-gmail-dark.svg?v=8e1467c45c" /><img src="./assets/link-gmail-light.svg?v=fd4d18d4e2" alt="Email" height="64" /></picture></a>
+<img src="./assets/book.svg?v=7358257c45" width="49%" alt="About me, as a Book and Quill page — Zainul Arkaan Alinsi, full-stack developer and student at IDN Boarding School. Builds web apps with PHP, Laravel, Next.js and Tailwind CSS, learning Flutter and Dart. Editor VS Code, timezone WIB." />
+<img src="./assets/stats.svg?v=fc52e9e800" width="49%" alt="Player statistics — level from lifetime contributions, hearts for the current streak, total contributions, last 12 months, current and longest streak, best day." />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/world-dark.svg?v=b615ec811b" />
+  <img src="./assets/world-light.svg?v=b615ec811b" width="100%" alt="Contribution world — every day of the last twelve months as a tower of textured blocks: grass, planks, gold and emerald for rising activity, on a floating chunk of ground." />
+</picture>
+
+<img src="./assets/inventory.svg?v=65611876f2" width="49%" alt="Inventory — languages: PHP, TypeScript, JavaScript, Dart, Java, HTML5, CSS. Frameworks: Laravel, Next.js, React, Vue, Tailwind, Alpine, Flutter, Node.js. Tools: MySQL, SQLite, Firebase, Vercel, Git, GitHub, Figma, Postman. Crafting: Laravel + Next.js + Tailwind + MySQL = full-stack app." />
+<img src="./assets/chat.svg?v=1d9c9fc579" width="49%" alt="Commit log — the latest commits across public repositories as in-game chat, the newest announced as an advancement, refreshed on every push." />
+
+<img src="./assets/news.svg?v=fdec11dffe" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 
 </div>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/hud-dark.svg?v=d374a92905" />
-  <img src="./assets/hud-light.svg?v=495262f148" width="100%" alt="HUD — level from lifetime contributions, hearts for the current streak, emeralds for the last ten days, and a hotbar of the main stack: Laravel, Next.js, PHP, TypeScript, React, Tailwind CSS, Flutter, MySQL, Git." />
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/about-dark.svg?v=7b3ae687fc" />
-  <img src="./assets/about-light.svg?v=5bcdc613c9" width="100%" alt="About me — Zainul Arkaan Alinsi, full-stack developer and student at IDN Boarding School. Builds full-stack web apps with PHP, Laravel, Next.js and Tailwind CSS, and is learning Flutter for mobile." />
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-dark.svg?v=5dc53cdc71" />
-  <img src="./assets/stack-light.svg?v=27aeb340dd" width="100%" alt="Inventory — languages: PHP, TypeScript, JavaScript, Dart, Java, HTML5, CSS. Frameworks: Laravel, Next.js, React, Vue, Tailwind, Alpine, Flutter, Node.js. Tools: MySQL, SQLite, Firebase, Vercel, Git, GitHub, Figma, Postman." />
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg?v=ff5fe2934c" />
-  <img src="./assets/activity-light.svg?v=ae1a597417" width="100%" alt="GitHub activity — contribution totals, current and longest streak, and an isometric voxel world of the last twelve months of contributions." />
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/log-dark.svg?v=691a58db85" />
-  <img src="./assets/log-light.svg?v=d34ea07838" width="100%" alt="Commit log — the latest commits across public repositories, newest one announced as an advancement, refreshed on every push." />
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/news-dark.svg?v=f7b4efe6c3" />
-  <img src="./assets/news-light.svg?v=2b897a9519" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
-</picture>
-
 
 <!-- NEWS:START -->
 
@@ -140,7 +125,4 @@ Laravel 13.40 adds commit IDs to MySQL, MariaDB, and PostgreSQL connections, so 
   <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261114" width="100%" alt="A snake eating this year's contribution squares" />
 </picture>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/footer-dark.svg?v=446285a290" />
-  <img src="./assets/footer-light.svg?v=d1f00a980d" width="100%" alt="Thanks for stopping by" />
-</picture>
+<img src="./assets/footer.svg?v=04526e58af" width="100%" alt="Thanks for stopping by — saving world..." />

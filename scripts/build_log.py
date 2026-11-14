@@ -17,12 +17,16 @@ import sys
 import urllib.request
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from theme import (ASSETS, THEMES, Iso, mix, panel, pixel_text, rect, slot, svg_doc, text, window)
+import numpy as np  # noqa: E402
+from PIL import Image  # noqa: E402
+
+import mc  # noqa: E402
+from build_panels import CARD_H  # noqa: E402
+from gui import AQUA, GOLD, GRAY, GREEN, HALF, RED, YELLOW, mc_pixel, mc_text, rect, svg  # noqa: E402
+from theme import ASSETS  # noqa: E402
 
 LOGIN = os.environ.get("PROFILE_LOGIN", "ZainulArkaanAlinsi")
 TZ = dt.timezone(dt.timedelta(hours=7))  # WIB
-W = 1200
-LINES = 7
 SKIP = ("chore: refresh profile assets",)   # the bot's own commits on this repo
 
 QUERY = """query($login:String!,$id:ID!){ user(login:$login){
@@ -83,100 +87,79 @@ def trim(s, n):
 
 
 def kind(message):
-    """Conventional-commit prefix -> the accent its chat tag uses."""
+    """Conventional-commit prefix -> the game's chat colour for it."""
     head = message.split(":", 1)[0].split("(", 1)[0].lower() if ":" in message else ""
-    return {"feat": "green", "fix": "red", "style": "violet", "docs": "blue", "refactor": "diamond",
-            "chore": "gold", "test": "blue", "perf": "diamond", "init": "gold"}.get(head, "muted")
+    return {"feat": GREEN, "fix": RED, "style": "#FF55FF", "docs": AQUA, "refactor": AQUA,
+            "chore": GOLD, "test": AQUA, "perf": AQUA, "init": GOLD}.get(head, "#FFFFFF")
 
 
-CSS = ("@keyframes toast{0%{transform:translateX(460px)}100%{transform:none}}"
+CSS = ("@keyframes toast{0%{transform:translateX(360px)}100%{transform:none}}"
        ".toast{animation:toast .8s .4s cubic-bezier(.2,1.1,.3,1) both}"
-       "@keyframes shine{0%,80%{transform:translateX(-120px)}100%{transform:translateX(480px)}}"
-       ".shine{animation:shine 5s 1.4s linear infinite}"
-       "@keyframes line{from{opacity:0;transform:translateX(-14px)}to{opacity:1;transform:none}}"
-       ".ln{animation:line .45s ease-out both}"
+       "@keyframes line{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}"
+       ".ln{animation:line .4s ease-out both}"
        "@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}"
        ".blink{animation:blink 1.05s steps(1) infinite}")
 
 CH = 7.22    # advance of one 12px monospace character
+LINES = 6
 
 
-def render(theme, commits, stamp):
-    t = THEMES[theme]
-    shown = commits[:LINES][::-1]                       # chat reads oldest at top, newest at the bottom
-    top, row = 156, 34
-    h = top + row * LINES + 66
-    out = [window(4, 4, W - 8, h, t, "~/commits --tail -f", f"live · synced {stamp}", "gold")]
-    out.append(text(40, 66, "$", 12, t["green"], weight=700)
-               + text(54, 66, "git log --all-repos --author=me", 12, t["muted"]))
-    out.append(pixel_text("COMMIT LOG", 40, 80, 5, t["ink"], shadow=t["shadow"], shadow_op=t["px_shadow"]))
-    repos = len({c["repo"] for c in commits})
-    out.append(text(40, 138, f"every push lands here · {len(commits)} recent commits across {repos} repos",
-                    12, t["muted"]))
+def backdrop(w, h):
+    from build_panels import panorama
+    img = mc.blur(panorama(w + 20, h, seed=29), 5)
+    return Image.fromarray((np.asarray(img, float) * .5).astype(np.uint8)).crop((0, 0, w * 2, h * 2))
 
-    # chat lines
-    cx, cw = 32, W - 64
+
+def render(commits, stamp):
+    w, h = HALF, CARD_H
+    out = [mc.image(mc.png_uri(backdrop(w, h), 128), 0, 0, w, h)]
+    out.append(mc_pixel("COMMIT LOG", 20, 22, 3))
+    out.append(mc_text(20, 64, f"{len(commits)} recent commits · {len({c['repo'] for c in commits})} repos", 12, "#E6E6E6"))
+    out.append(mc_text(20, 82, f"synced {stamp}", 11, "#E6E6E6"))
+
+    # chat, newest at the bottom, the way the game scrolls it
+    shown = commits[:LINES][::-1]
+    row = 44
+    top = h - 58 - row * len(shown)
+    cols = int((w - 48) / CH)
     for i, c in enumerate(shown):
         y = top + i * row
-        when = local(c["date"])
         newest = i == len(shown) - 1
-        delay = .9 + i * .18
-        stamp_s = f"[{when.strftime('%d %b %H:%M')}]"
-        name = "<zainul>"
-        tag = c["repo"]
-        stats = f"+{c['additions']:,} -{c['deletions']:,}"
-        used = len(stamp_s) + 1 + len(name) + 1 + len(tag) + 2 + 2 + len(stats) + 2
-        msg = trim(c["message"], int(cw / CH) - used - 2)
-        bg = (rect(cx, y, cw, row - 6, fill="#000000", op=.45 if t["dark"] else .80)
-              + (rect(cx, y, 3, row - 6, fill=t["gold"]) if newest else ""))
-        x = cx + 12
-        parts = [text(x, y + 19, stamp_s, 12, "#8B93A0")]
-        x += (len(stamp_s) + 1) * CH
-        parts.append(text(x, y + 19, name, 12, "#7CE04A", weight=700))
-        x += (len(name) + 1) * CH
-        lang = c.get("color") or "#F2C14E"
-        parts.append(rect(x, y + 9, 10, 10, fill=lang) + rect(x, y + 9, 10, 2, fill="#FFFFFF", op=.4))
-        x += 16
-        parts.append(text(x, y + 19, tag, 12, "#F2C14E", weight=700))
-        x += (len(tag) + 1) * CH
-        k = kind(c["message"])
-        colour = "#FFFFFF" if k == "muted" else THEMES["dark"][k]
-        parts.append(text(x, y + 19, msg, 12, colour if k != "muted" else "#EEF0F3"))
-        sx = cx + cw - 12
-        dele = f"-{c['deletions']:,}"
-        parts.append(text(sx, y + 19, dele, 12, "#FF8A9A", anchor="end"))
-        parts.append(text(sx - (len(dele) + 1) * CH, y + 19, f"+{c['additions']:,}", 12, "#7CE04A", anchor="end"))
-        out.append(f'<g class="ln" style="animation-delay:{delay:.2f}s">{bg}{"".join(parts)}</g>')
+        name = "<zainul> "
+        msg = trim(c["message"], cols - len(name))
+        meta = (f"  {c['repo']} · {c['oid']} · +{c['additions']:,} -{c['deletions']:,} · "
+                f"{local(c['date']).strftime('%d %b %H:%M')}")
+        g = [rect(12, y, w - 24, row - 2, "#000000", .5)]
+        if newest:
+            g.append(rect(12, y, 3, row - 2, YELLOW))
+        g.append(mc_text(22, y + 18, name, 12, "#FFFFFF"))
+        g.append(mc_text(22 + len(name) * CH, y + 18, msg, 12, kind(c["message"])))
+        g.append(mc_text(22, y + 35, trim(meta, cols), 11, GRAY))
+        out.append(f'<g class="ln" style="animation-delay:{.9 + i * .2:.2f}s">{"".join(g)}</g>')
 
-    # chat input bar
-    iy = top + row * LINES + 8
-    out.append(rect(cx, iy, cw, 30, fill="#000000", op=.55 if t["dark"] else .85))
-    out.append(text(cx + 12, iy + 20, "> git push origin main", 12, "#EEF0F3"))
-    out.append(rect(cx + 12 + 22 * CH + 4, iy + 9, 7, 13, fill="#EEF0F3", extra=' class="blink"'))
-    out.append(text(cx + cw - 12, iy + 20, "auto-refreshed by GitHub Actions", 11, "#8B93A0", anchor="end"))
+    # the chat input line
+    iy = h - 44
+    out.append(rect(12, iy, w - 24, 30, "#000000", .62))
+    out.append(mc_text(22, iy + 20, "> git push origin main", 12, "#FFFFFF"))
+    out.append(rect(22 + 22 * CH + 4, iy + 9, 7, 13, "#FFFFFF", extra=' class="blink"'))
 
     # advancement toast for the newest commit
     if commits:
         c = commits[0]
-        tw_, th = 440, 78
-        tx, ty = W - 4 - 32 - tw_, 52
-        lang = c.get("color") or t["gold"]
-        iso = Iso(tx + 39, ty + 35, 13)
-        toast = [panel(tx, ty, tw_, th, THEMES["dark"], fill="#212121"),
-                 slot(tx + 14, ty + 14, 50, 50, THEMES["dark"]),
-                 iso.box(-.5, -.5, 0, 1, 1, 1, lang, top=mix(lang, "#FFFFFF", .3)),
-                 text(tx + 78, ty + 30, "Advancement Made!", 13, "#F2C14E", weight=700),
-                 text(tx + 78, ty + 52, trim(c["message"], 44), 12.5, "#FFFFFF"),
-                 text(tx + 78, ty + 68, f"{c['repo']} · {c['oid']} · {local(c['date']).strftime('%d %b %H:%M')}",
-                      10.5, "#9AA2AE"),
-                 f'<clipPath id="tc{theme}"><rect x="{tx}" y="{ty}" width="{tw_}" height="{th}"/></clipPath>'
-                 f'<g clip-path="url(#tc{theme})"><g class="shine">'
-                 f'<polygon points="{tx},{ty} {tx + 40},{ty} {tx + 10},{ty + th} {tx - 30},{ty + th}"'
-                 f' fill="#FFFFFF" opacity=".10"/></g></g>']
+        tw_, th = 300, 64
+        tx, ty = w - 14 - tw_, 16
+        lang = c.get("color") or "#F2C14E"
+        toast = [rect(tx, ty, tw_, th, "#000000"), rect(tx + 2, ty + 2, tw_ - 4, th - 4, "#212121"),
+                 rect(tx + 2, ty + 2, tw_ - 4, 2, "#555555"),
+                 mc.image(mc.png_uri(mc.icon("emerald_block", 64)), tx + 12, ty + 14, 36, 36),
+                 mc_text(tx + 58, ty + 24, "Advancement Made!", 13, YELLOW, weight=700),
+                 mc_text(tx + 58, ty + 44, trim(c["message"], 32), 12, "#FFFFFF"),
+                 rect(tx + tw_ - 14, ty + 8, 6, 6, lang)]
         out.append(f'<g class="toast">{"".join(toast)}</g>')
+    out.append(f'<rect x="1" y="1" width="{w - 2}" height="{h - 2}" fill="none" stroke="#000" stroke-width="2"/>')
     newest = commits[0]["message"] if commits else "no commits yet"
-    return svg_doc(W, h + 8, "".join(out), css=CSS,
-                   label=f"Commit log: latest commit '{newest}', plus the {min(len(commits), LINES)} most recent commits")
+    return svg(w, h, "".join(out), css=CSS,
+               label=f"Commit log: latest commit '{newest}', plus the {min(len(commits), LINES)} most recent commits")
 
 
 def main():
@@ -188,9 +171,8 @@ def main():
         print("log: no commits found; keeping the existing log", file=sys.stderr)
         return 0
     stamp = dt.datetime.now(TZ).strftime("%d %b %Y %H:%M WIB")
-    for name in THEMES:
-        (ASSETS / f"log-{name}.svg").write_text(render(name, commits, stamp), encoding="utf-8")
-        print("wrote", f"log-{name}.svg")
+    (ASSETS / "chat.svg").write_text(render(commits, stamp), encoding="utf-8")
+    print("wrote chat.svg")
     return 0
 
 

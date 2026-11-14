@@ -1,4 +1,4 @@
-"""Every renderer, both themes, from fixture data: well-formed SVG, honest labels."""
+"""Every renderer, from fixture data: well-formed SVG, honest labels."""
 import datetime as dt
 import pathlib
 import sys
@@ -13,32 +13,50 @@ import build_activity as A  # noqa: E402
 import build_log as L  # noqa: E402
 import build_panels as P  # noqa: E402
 import fixtures  # noqa: E402
-from theme import THEMES  # noqa: E402
+import mc  # noqa: E402
 
 
 def parse(svg):
     return ET.fromstring(svg)
 
 
+class Textures(unittest.TestCase):
+    def test_every_texture_is_16x16_rgb_and_deterministic(self):
+        for name in mc.TEX:
+            a = mc.TEX[name]()
+            self.assertEqual(a.shape, (16, 16, 3), name)
+            self.assertTrue((a == mc.TEX[name]()).all(), name)
+
+    def test_every_block_names_known_textures(self):
+        for kind, faces in mc.BLOCKS.items():
+            for f in faces:
+                self.assertIn(f, mc.TEX, kind)
+
+
 class Panels(unittest.TestCase):
-    def test_every_static_panel_parses_in_both_themes(self):
-        for t in THEMES.values():
-            for fn in (P.about, P.stack_panel, P.footer, P.news_header):
-                parse(fn(t))
-            for i, (slug, label, sub, _) in enumerate(P.LINKS, 1):
-                parse(P.link_chip(t, slug, label, sub, i))
-            parse(P.loading(t, "The HUD", "~/hud"))
+    def test_static_panels_parse(self):
+        for svg in (P.title(), P.book(), P.inventory(), P.footer(), P.news_header("now", 12),
+                    P.loading(590, 500, "Player statistics")):
+            parse(svg)
+        for slug, lab, _ in P.LINKS:
+            parse(P.button(slug, lab))
+
+    def test_inventory_lists_every_stack_item(self):
+        svg = P.inventory()
+        for items in P.STACK.values():
+            for _, lab in items:
+                self.assertIn(lab, svg)
 
 
 class Activity(unittest.TestCase):
     def setUp(self):
         d = fixtures.activity(today=dt.datetime.now(A.TZ).date())
-        self.args = (d["created"], d["recent"], d["all_days"], "14 Nov 2026 02:39 WIB")
+        self.d = d
 
-    def test_world_and_hud_parse(self):
-        for name in THEMES:
-            parse(A.render(name, *self.args))
-            parse(A.hud(name, *self.args))
+    def test_world_and_stats_parse(self):
+        for theme in ("dark", "light"):
+            parse(A.render(theme, self.d["created"], self.d["recent"], self.d["all_days"], "now"))
+        parse(A.stats_card(self.d["created"], self.d["recent"], self.d["all_days"]))
 
     def test_level_curve(self):
         self.assertEqual(A.level(0)[0], 0)
@@ -47,17 +65,22 @@ class Activity(unittest.TestCase):
         self.assertTrue(0 <= frac < 1)
         self.assertEqual(need, A.XP_PER * 23 ** 2 - 2595)
 
+    def test_heights_are_bounded(self):
+        days = [(w, d["weekday"], d) for w, wk in enumerate(self.d["recent"]["weeks"]) for d in wk["contributionDays"]]
+        stack = A.heights(days)
+        self.assertEqual(stack(0), 0)
+        self.assertEqual(stack(10 ** 6), A.MAX_BLOCKS)
+
 
 class Log(unittest.TestCase):
     def test_render_parses_and_names_the_newest_commit(self):
         commits = fixtures.commits()
-        for name in THEMES:
-            svg = L.render(name, commits, "now")
-            parse(svg)
-            self.assertIn(commits[0]["message"][:30], svg)
+        svg = L.render(commits, "now")
+        parse(svg)
+        self.assertIn(commits[0]["message"][:20], svg)
 
     def test_empty_log_still_renders(self):
-        parse(L.render("dark", [], "now"))
+        parse(L.render([], "now"))
 
     def test_flatten_sorts_newest_first_and_drops_bot_commits(self):
         node = lambda m, d: {"oid": "a" * 40, "messageHeadline": m, "committedDate": d, "additions": 1,
@@ -78,14 +101,9 @@ class Log(unittest.TestCase):
     def test_markup_in_a_commit_message_is_escaped(self):
         c = fixtures.commits()
         c[0]["message"] = "feat: <script>alert(1)</script> & more"
-        svg = L.render("dark", c, "now")
+        svg = L.render(c, "now")
         parse(svg)
         self.assertNotIn("<script>", svg)
-
-    def test_kind_reads_conventional_prefixes(self):
-        self.assertEqual(L.kind("feat(ui): x"), "green")
-        self.assertEqual(L.kind("fix: y"), "red")
-        self.assertEqual(L.kind("plain message"), "muted")
 
 
 if __name__ == "__main__":

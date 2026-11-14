@@ -1,28 +1,40 @@
-"""Static panels: hotbar link slots, the about window, the stack inventory, the
-news header and the footer. No network, no API — run it any time:
+"""Static panels, drawn the way the game draws them. No network, no API:
 
     python scripts/build_panels.py
+
+  title.svg         the title screen: blurred block panorama, stone logo, splash
+  btn-*.svg         menu buttons (the profile's links)
+  book.svg          About me, as a Book & Quill page with a painting of me
+  inventory.svg     the tech stack as a survival inventory, with a crafting grid
+  news.svg          the news header, on the options-screen dirt
+  footer.svg        "Saving world..."
 """
+import base64
+import io
 import json
 import os
+import random
+import re
 import sys
 
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from theme import (ASSETS, SANS, SPLASH_CSS, THEMES, Iso, mix, panel, pixel_text, pixel_width, rect, rgb,
-                   selector, shade, slot, splash, svg_doc, text, window)
+import numpy as np
+from PIL import Image, ImageDraw
 
-W = 1200
-X0, WW = 4, W - 8            # panels sit 4px in so their 2px outline is never clipped
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import mc  # noqa: E402
+from gui import (AQUA, GRAY, HALF, LABEL, SPLASH_CSS, W, YELLOW, inset, label, mc_pixel, mc_text,  # noqa: E402
+                 pixel_width, rect, selector, slot, splash, svg, text, tooltip, window)
+from theme import ASSETS, FONT5, SANS, rgb  # noqa: E402
+
 ICONS = json.loads((ASSETS.parent / "scripts" / "icons.json").read_text())
 PATHS, STACK = ICONS["paths"], ICONS["stack"]
+CARD_H = 500                                  # every half-width card shares this height
 
-LINKS = [("instagram", "Instagram", "@zainarilbre", "red"),
-         ("linkedin", "LinkedIn", "zainul-arkaan", "blue"),
-         ("youtube", "YouTube", "@zainarilbre", "red"),
-         ("gmail", "Email", "say hello", "gold")]
-
-BLINK_CSS = ("@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}"
-             ".blink{animation:blink 1.05s steps(1) infinite}")
+LINKS = [("instagram", "Instagram", "https://instagram.com/zainarilbre"),
+         ("linkedin", "LinkedIn", "https://linkedin.com/in/zainul-arkaan-3bb51731a"),
+         ("youtube", "YouTube", "https://www.youtube.com/@zainarilbre"),
+         ("gmail", "Email", "mailto:zainaril13@gmail.com"),
+         ("github", "Repositories", "https://github.com/ZainulArkaanAlinsi?tab=repositories")]
 
 
 def icon(slug, x, y, size, fill, op=1.0):
@@ -32,276 +44,378 @@ def icon(slug, x, y, size, fill, op=1.0):
             f'<path d="{PATHS[slug]}"/></g>')
 
 
-def heading(t, label, x, y, px=4, colour=None):
-    return pixel_text(label, x, y, px, colour or t["ink"], shadow=t["shadow"], shadow_op=t["px_shadow"])
-
-
-def prompt(t, x, y, cmd, size=12):
-    """A terminal prompt line with a blinking block cursor after it."""
-    w = len(cmd) * size * .6
-    return (text(x, y, "$", size, t["green"], weight=700)
-            + text(x + size * 1.2, y, cmd, size, t["muted"])
-            + rect(x + size * 1.2 + w + 4, y - size + 2, size * .55, size, fill=t["green"], extra=' class="blink"'))
-
-
-# ---------------------------------------------------------------- brand colour
 BRAND = {
     "php": "#777BB4", "typescript": "#3178C6", "javascript": "#F7DF1E", "dart": "#0175C2",
     "openjdk": "#E76F00", "html5": "#E34F26", "css": "#663399", "laravel": "#FF2D20",
-    "nextdotjs": None, "react": "#61DAFB", "vuedotjs": "#4FC08D", "tailwindcss": "#06B6D4",
-    "alpinedotjs": "#8BC0D0", "flutter": "#02569B", "nodedotjs": "#5FA04E", "mysql": "#4479A1",
-    "sqlite": "#003B57", "firebase": "#DD2C00", "vercel": None, "git": "#F05032",
-    "github": None, "figma": "#F24E1E", "postman": "#FF6C37",
-    "instagram": "#E4405F", "linkedin": "#0A66C2", "youtube": "#FF0000", "gmail": "#EA4335",
+    "nextdotjs": "#FFFFFF", "react": "#61DAFB", "vuedotjs": "#4FC08D", "tailwindcss": "#06B6D4",
+    "alpinedotjs": "#8BC0D0", "flutter": "#47C5FB", "nodedotjs": "#5FA04E", "mysql": "#4479A1",
+    "sqlite": "#4FA3D1", "firebase": "#FFCA28", "vercel": "#FFFFFF", "git": "#F05032",
+    "github": "#FFFFFF", "figma": "#F24E1E", "postman": "#FF6C37",
 }
-BADGES = {"javascript"}
+CATEGORY = {"languages": "Language", "frameworks": "Framework", "tools": "Tool"}
 
 
-def lum(c):
-    def ch(v):
-        v /= 255
-        return v / 12.92 if v <= .04045 else ((v + .055) / 1.055) ** 2.4
-    r, g, b = (ch(v) for v in rgb(c))
-    return .2126 * r + .7152 * g + .0722 * b
+def item(slug, x, y, s):
+    """A stack logo drawn as an item: its brand colour, a dark under-shadow so it
+    sits on the grey slot like a sprite does."""
+    c = BRAND.get(slug, "#FFFFFF")
+    k = s * .06
+    return icon(slug, x + k, y + k, s, "#000000", .45) + icon(slug, x, y, s, c)
 
 
-def contrast(a, b):
-    la, lb = sorted((lum(a), lum(b)), reverse=True)
-    return (la + .05) / (lb + .05)
+# ----------------------------------------------------------------- dirt screens
+def dirt_bg(w, h, k=.32):
+    """The options-screen background: dirt, darkened, at 4px per texel."""
+    return mc.tile("dirt", w * 2, h * 2, scale=8, k=k)
 
 
-def brand(t, slug, face):
-    """The logo in its own colour, nudged toward the ink until it clears 3:1 on
-    the slot it sits in."""
-    c = BRAND.get(slug) or t["ink"]
-    if slug in BADGES:
-        return c
-    k = 0
-    while contrast(c, face) < 3.0 and k < 10:
-        c = mix(c, t["ink"], .2)
-        k += 1
-    return c
+# ---------------------------------------------------------------- title screen
+def panorama(w, h, seed=11):
+    """A side-on slice of terrain at 2x: sky, hills, trees, caves, ores."""
+    B = 72                                              # block size at 2x
+    cols, rows = w * 2 // B + 2, h * 2 // B + 2
+    rng = random.Random(seed)
+    img = Image.new("RGB", (cols * B, rows * B))
+    d = ImageDraw.Draw(img)
+    top, bot = (120, 167, 255), (200, 222, 255)
+    for y in range(rows * B):
+        t = y / (rows * B)
+        d.line([(0, y), (cols * B, y)], fill=tuple(round(top[i] + (bot[i] - top[i]) * t) for i in range(3)))
+    surf = []
+    hgt = rows * .58
+    for x in range(cols):
+        hgt += rng.choice((-1, 0, 0, 0, 1)) * .9
+        hgt = min(max(hgt, rows * .45), rows * .72)
+        surf.append(int(hgt))
+    tiles = {}
+
+    def put(cx, cy, name, k=1.0):
+        key = (name, k)
+        if key not in tiles:
+            tiles[key] = Image.fromarray(mc.shade_arr(mc.tex(name), k)).resize((B, B), Image.NEAREST)
+        img.paste(tiles[key], (cx * B, cy * B))
+    for x, s in enumerate(surf):
+        for y in range(s, rows):
+            depth = y - s
+            if depth == 0:
+                put(x, y, "grass_side")
+            elif depth < 3:
+                put(x, y, "dirt")
+            else:
+                r = rng.random()
+                name = ("diamond_ore" if r < .03 else "emerald_ore" if r < .07 else "gold_ore" if r < .11
+                        else "redstone_ore" if r < .14 else "stone")
+                put(x, y, name, .9 - min(.35, depth * .04))
+    for x in range(2, cols - 2, 1):                     # trees
+        if rng.random() < .22 and surf[x] == surf[x - 1]:
+            s = surf[x]
+            for k in range(1, 5):
+                put(x, s - k, "log_side")
+            for dx in (-2, -1, 0, 1, 2):
+                for dy in (4, 5):
+                    put(x + dx, s - dy - 1, "leaves")
+            for dx in (-1, 0, 1):
+                put(x + dx, s - 7, "leaves")
+    return img.crop((0, 0, w * 2, h * 2))
 
 
-# ------------------------------------------------------------- hotbar link slots
-def link_chip(t, slug, label, sub, key):
-    w, h = 214, 64
-    s = 48
-    body = [panel(4, 4, w - 8, h - 8, t),
-            slot(12, 8, s, s, t),
-            icon(slug, 12 + (s - 26) / 2, 8 + (s - 26) / 2, 26, brand(t, slug, t["slot"])),
-            text(12 + s - 3, 8 + s - 4, str(key), 11, t["ink"], anchor="end", weight=700),
-            pixel_text(label, 72, 17, 2, t["ink"], shadow=t["shadow"], shadow_op=t["px_shadow"]),
-            text(72, 46, sub, 11.5, t["muted"])]
-    return svg_doc(w, h, "".join(body), label=f"{label}: {sub}")
+def logo(s, px):
+    """The stone logo: bitmap letters filled with cobblestone, lit from the
+    top, extruded downward and outlined in black. Returns an RGBA image."""
+    cols = len(s) * 6 - 1
+    mask = np.zeros((7, cols), bool)
+    for i, ch in enumerate(s):
+        for ry, row in enumerate(FONT5.get(ch, FONT5[" "]).split()):
+            for rx, v in enumerate(row):
+                if v == "1":
+                    mask[ry, i * 6 + rx] = True
+    dep = int(px * .8)
+    o = int(px * .22)
+    W_, H_ = cols * px + 2 * o, 7 * px + dep + 2 * o
+    img = Image.new("RGBA", (W_, H_), (0, 0, 0, 0))
+    m = Image.fromarray((mask * 255).astype(np.uint8)).resize((cols * px, 7 * px), Image.NEAREST)
+    stone = mc.tile("cobble", cols * px, 7 * px, scale=max(2, px // 6)).convert("RGBA")
+    # vertical light: brighter top rows, darker bottom
+    grad = np.linspace(1.25, .78, 7 * px)[:, None, None]
+    st = np.clip(np.asarray(stone, float)[:, :, :3] * grad, 0, 255).astype(np.uint8)
+    stone = Image.fromarray(st).convert("RGBA")
+    side = Image.new("RGBA", m.size, (52, 52, 52, 255))
+    outline = Image.new("RGBA", m.size, (0, 0, 0, 255))
+    for dy in range(dep + o, -1, -1):                  # outline under everything
+        for dx in (-o, 0, o):
+            img.paste(outline, (o + dx, o + dy - o), m)
+    for dy in range(dep, 0, -1):                        # extrusion
+        k = 60 + int(40 * (1 - dy / dep))
+        side = Image.new("RGBA", m.size, (k, k, k, 255))
+        img.paste(side, (o, o + dy), m)
+    img.paste(stone, (o, o), m)
+    return img
 
 
-# ---------------------------------------------------------------- about window
-# Plain words, the ones the bio already uses. No invented status lines.
-NAME = "Zainul Arkaan Alinsi"
-ROLE = "FULL-STACK DEVELOPER · IDN BOARDING SCHOOL"
-BLURB = [
-    "I build full-stack web apps with PHP, Laravel, Next.js and",
-    "Tailwind CSS, and I'm learning Flutter so I can take the same",
-    "work to mobile. I like efficient code that people actually use.",
-]
-FACTS = [("Building", "Web apps", "green"), ("Learning", "Flutter, Dart", "blue"),
-         ("Editor", "VS Code", "violet"), ("Timezone", "WIB, UTC+7", "gold")]
-
-ABOUT_CSS = (
-    "@keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}"
-    "@keyframes sh{0%,100%{transform:scale(1)}50%{transform:scale(.86)}}"
-    "@keyframes bob{0%,100%{opacity:1}50%{opacity:.15}}"
-    ".fl{animation:fl 4.5s ease-in-out infinite}"
-    ".sh{animation:sh 4.5s ease-in-out infinite;transform-box:fill-box;transform-origin:center}"
-    ".bob{animation:bob 1.1s steps(1) infinite}" + BLINK_CSS + SPLASH_CSS)
+TITLE_CSS = SPLASH_CSS + ("@keyframes pan{0%{transform:translateX(0)}100%{transform:translateX(-60px)}}"
+                          ".pan{animation:pan 30s ease-in-out infinite alternate}")
 
 
-def island(t, cx, cy, k):
-    """A floating voxel island with a desk on it. Painter's order, far to near."""
-    iso = Iso(cx, cy, k)
-    dark = t["dark"]
-    grass = t["green"] if dark else mix(t["green"], "#FFFFFF", .15)
-    leaf = shade(grass, .82)
-    dirt = "#8A5A33" if dark else "#7A4E2B"
-    stone = "#6B6F78" if dark else "#7E7E7E"
-    wood = "#B88A4E"
-    metal = "#4A4F5A" if dark else "#5B5B5B"
-    out = [iso.box(.7, .7, -2.1, 1.6, 1.6, .9, stone),
-           iso.box(.3, .3, -1.2, 2.4, 2.4, .8, dirt),
-           iso.box(0, 0, -.4, 3, 3, .4, dirt, top=grass)]
-    for (u, v) in ((.3, .4), (2.5, 2.3), (.4, 2.4), (1.5, 2.65), (2.65, 1.5)):
-        out.append(iso.box(u, v, 0, .2, .2, .06, shade(grass, 1.18)))
-    out += [iso.box(2.3, .4, 0, .3, .3, 1.1, shade(wood, .7)),
-            iso.box(1.9, 0, 1.0, 1.1, 1.1, .9, leaf),
-            iso.box(2.1, .2, 1.9, .7, .7, .45, shade(leaf, 1.1))]
-    for u, v in ((.35, 1.05), (1.95, 1.05), (.35, 1.9), (1.95, 1.9)):
-        out.append(iso.box(u, v, 0, .14, .14, .62, wood))
-    out += [iso.box(.25, .95, .62, 1.95, 1.15, .12, wood),
-            iso.box(1.0, 1.15, .74, .42, .3, .06, metal),
-            iso.box(1.14, 1.22, .8, .14, .1, .36, metal),
-            iso.box(.45, 1.1, 1.08, 1.55, .12, .95, metal)]
-    m = iso.face_matrix("left", .45, 1.1, 1.08, 1.55, .12, .95)
-    code = [(.10, .16, .28, "violet"), (.42, .16, .22, "ink"), (.16, .31, .40, "blue"),
-            (.16, .46, .24, "green"), (.44, .46, .30, "gold"), (.10, .61, .20, "violet"),
-            (.16, .76, .42, "diamond")]
-    lines = "".join(f'<rect x="{x:.2f}" y="{y:.2f}" width="{w:.2f}" height=".07" fill="{THEMES["dark"][c]}"/>'
-                    for x, y, w, c in code)
-    out.append(f'<g transform="{m}"><rect x=".05" y=".07" width=".9" height=".86" fill="#0B0F14"/>{lines}'
-               f'<rect class="bob" x=".62" y=".74" width=".04" height=".11" fill="{THEMES["dark"]["green"]}"/></g>')
-    out += [iso.box(.6, 1.55, .74, 1.0, .32, .05, mix(metal, "#000000", .2)),
-            iso.box(1.75, 1.62, .74, .24, .24, .24, t["red"])]
-    return "".join(out)
+def title():
+    h = 470
+    bg = mc.blur(panorama(W + 80, h), 6)
+    arr = np.asarray(bg, float) * .78
+    bg = Image.fromarray(arr.astype(np.uint8))
+    lg = logo("ZAINUL ARKAAN", 26)
+    lw, lh = lg.size[0] / 2, lg.size[1] / 2
+    lx, ly = (W - lw) / 2, 74
+    body = [f'<g class="pan">{mc.image(mc.png_uri(bg, 160), 0, 0, W + 80, h)}</g>',
+            mc.image(mc.png_uri(lg, 64), lx, ly, lw, lh)]
+    ed = "FULL-STACK EDITION"
+    ew = pixel_width(ed, 3)
+    ey = ly + lh + 10
+    body.append(rect((W - ew) / 2 - 14, ey - 9, ew + 28, 21 + 18, "#000000", .55))
+    body.append(mc_pixel(ed, (W - ew) / 2, ey, 3, "#FFFFFF"))
+    body.append(splash(lx + lw - 40, ly + lh - 6, "Laravel + Next.js!", 20, -20))
+    body.append(mc_text(W / 2, ey + 74, "Full-stack developer · Student at IDN Boarding School", 18, "#FFFFFF",
+                        "middle", 700, SANS))
+    body.append(mc_text(W / 2, ey + 102, "I build web apps with PHP, Laravel, Next.js & Tailwind — and I'm learning"
+                        " Flutter.", 14.5, "#E8E8E8", "middle", 400, SANS))
+    body.append(mc_text(14, h - 14, "Zainul Arkaan Alinsi · v2026", 13, "#FFFFFF"))
+    body.append(mc_text(W - 14, h - 14, "WIB (UTC+7) · Indonesia", 13, "#FFFFFF", "end"))
+    body.append('<rect x="1" y="1" width="1198" height="{0}" fill="none" stroke="#000" stroke-width="2"/>'.format(h - 2))
+    return svg(W, h, "".join(body), css=TITLE_CSS,
+               label="Zainul Arkaan Alinsi — Full-stack developer, student at IDN Boarding School")
 
 
-def about(t):
-    h = 368
-    x = X0 + 40
-    body = [window(X0, 4, WW, h, t, "~/about.md", "zainul@idn:~", "green"),
-            prompt(t, x, 64, "whoami"),
-            heading(t, "ABOUT ME", x, 82, px=5),
-            text(x, 150, NAME, 27, t["ink"], weight=700, font=SANS),
-            pixel_text(ROLE, x, 170, 2, t["green"])]
+# ------------------------------------------------------------------- buttons
+def button(slug, lab, w=380, h=48):
+    tex = mc.tile("stone", w * 2, h * 2, scale=6, k=.62)
+    body = [rect(0, 0, w, h, "#000000"),
+            mc.image(mc.png_uri(tex, 32), 2, 2, w - 4, h - 4),
+            rect(2, 2, w - 4, 3, "#FFFFFF", .32), rect(2, 2, 3, h - 4, "#FFFFFF", .22),
+            rect(2, h - 6, w - 4, 4, "#000000", .38), rect(w - 5, 2, 3, h - 4, "#000000", .3),
+            icon(slug, 18, (h - 22) / 2, 22, "#FFFFFF", .95),
+            mc_text(w / 2 + 10, h / 2 + 6, lab, 17, "#FFFFFF", "middle", 700, SANS)]
+    return svg(w, h, "".join(body), label=lab)
+
+
+# ----------------------------------------------------------------- book & quill
+BLURB = ["I build full-stack web apps with PHP,", "Laravel, Next.js and Tailwind CSS, and",
+         "I'm learning Flutter so I can take the", "same work to mobile. I like efficient",
+         "code that people actually use."]
+FACTS = [("Building", "Web apps"), ("Learning", "Flutter, Dart"), ("Editor", "VS Code"),
+         ("Timezone", "WIB, UTC+7")]
+INK = "#2A1E12"
+
+
+def painting():
+    """The ASCII portrait from the hero, re-cut as a low-res painting with a
+    warm palette, in an oak frame. Falls back to a plain canvas if it's gone."""
+    src = ASSETS / "hero.svg"
+    m = re.search(r'href="data:image/png;base64,([^"]+)"', src.read_text()) if src.exists() else None
+    W_, H_ = 40, 46
+    if m:
+        im = Image.open(io.BytesIO(base64.b64decode(m.group(1)))).convert("L")
+        im = im.crop((150, 40, im.width - 150, int(im.height * .86)))
+        im = im.resize((W_, H_), Image.BOX)
+        a = np.asarray(im, float)
+        a = (a - a.min()) / max(1, a.max() - a.min())
+    else:
+        a = np.full((H_, W_), .3)
+    pal = np.array([(38, 28, 24), (74, 52, 40), (118, 84, 58), (164, 120, 80), (206, 164, 112), (238, 210, 160)])
+    idx = np.clip((a ** .8) * (len(pal) - .01), 0, len(pal) - 1).astype(int)
+    canvas = Image.fromarray(pal[idx].astype(np.uint8))
+    frame = Image.new("RGB", (W_ + 4, H_ + 4))
+    frame.paste(Image.fromarray(mc.tex("planks")).resize((W_ + 4, H_ + 4), Image.NEAREST))
+    frame.paste(canvas, (2, 2))
+    return frame.resize(((W_ + 4) * 4, (H_ + 4) * 4), Image.NEAREST)
+
+
+def book():
+    w, h = HALF, CARD_H
+    rng = random.Random(5)
+    pg = Image.new("RGB", (w * 2, h * 2), (243, 233, 210))
+    d = ImageDraw.Draw(pg)
+    for _ in range(2600):
+        x, y = rng.randrange(w * 2), rng.randrange(h * 2)
+        c = rng.choice(((236, 224, 198), (248, 240, 220), (229, 216, 188)))
+        d.rectangle([x, y, x + 3, y + 3], fill=c)
+    body = [rect(0, 0, w, h, "#000000"),
+            rect(2, 2, w - 4, h - 4, "#6B4A2B"),                         # leather cover
+            mc.image(mc.png_uri(pg, 24), 12, 10, w - 30, h - 22),        # the page
+            rect(w - 18, 10, 6, h - 22, "#C9B48E"),                      # page edges
+            rect(w - 12, 12, 2, h - 24, "#A88F66")]
+    body.append(text(w - 36, 40, "Page 1 of 1", 13, INK, "end"))
+    p = painting()
+    pw, ph = p.size[0] / 1.45, p.size[1] / 1.45
+    body.append(mc.image(mc.png_uri(p, 64), 34, 30, pw, ph))
+    tx = 34 + pw + 24
+    body.append(text(tx, 76, "About me", 13, "#7A5C3A", weight=700))
+    body.append(text(tx, 108, "Zainul Arkaan", 24, INK, weight=700, font=SANS))
+    body.append(text(tx, 136, "Alinsi", 24, INK, weight=700, font=SANS))
+    body.append(text(tx, 168, "Full-stack developer", 14, "#3A5A1E", weight=700))
+    body.append(text(tx, 188, "Student @ IDN Boarding School", 13, INK))
+    for i, (k, v) in enumerate(FACTS):
+        y = 222 + i * 22
+        body.append(text(tx, y, f"{k}:", 13, "#7A5C3A", weight=700) + text(tx + 92, y, v, 13, INK))
     for i, ln in enumerate(BLURB):
-        body.append(text(x, 218 + i * 24, ln, 15, t["ink"], font=SANS))
-    # facts as four inventory slots
-    fy = h - 66
-    for i, (k, v, c) in enumerate(FACTS):
-        fx = x + i * 160
-        body.append(slot(fx, fy, 148, 50, t))
-        body.append(rect(fx + 2, fy + 2, 4, 46, fill=t[c]))
-        body.append(text(fx + 16, fy + 20, k.upper(), 10, t["muted"], weight=700, ls="1.4"))
-        body.append(text(fx + 16, fy + 39, v, 14, t["ink"], weight=600, font=SANS))
-    # the one 3D object, in a sunken viewport, with a splash on top
-    vx, vy, vw, vh = W - X0 - 372, 48, 340, h - 64
-    body.append(slot(vx, vy, vw, vh, t, fill=mix(t["slot"], t["blue"], .10) if t["dark"] else "#9DB6DA"))
-    for i in range(14):                                   # stars / dust in the viewport
-        sx, sy = vx + 18 + (i * 97) % (vw - 36), vy + 16 + (i * 53) % 110
-        body.append(rect(sx, sy, 2 + i % 2, 2 + i % 2, fill=t["ink"], op=.25 + (i % 3) * .15,
-                         extra=' class="bob"' if i % 4 == 0 else ""))
-    ix = vx + vw / 2 - 2
-    body.append(f'<ellipse class="sh" cx="{ix:.1f}" cy="{vy + vh - 26:.1f}" rx="88" ry="9"'
-                f' fill="#000000" opacity="{.35 if t["dark"] else .18}"/>')
-    body.append(f'<g class="fl">{island(t, ix, vy + 70, 30)}</g>')
-    body.append(splash(vx + 96, vy + 40, "Laravel + Next.js!", t, 14, -14))
-    return svg_doc(W, h + 8, "".join(body), css=ABOUT_CSS,
-                   label="About Zainul Arkaan Alinsi: " + " ".join(BLURB))
+        body.append(text(34, 336 + i * 24, ln, 15, INK, font=SANS))
+    body.append(text(w - 36, h - 30, "— signed by zainul", 12.5, "#7A5C3A", "end"))
+    return svg(w, h, "".join(body), label="About Zainul Arkaan Alinsi: " + " ".join(BLURB))
 
 
-# --------------------------------------------------------------- stack inventory
-SLOT, SGAP = 72, 14
+# ------------------------------------------------------------------ inventory
+INV_CSS = ""
 
 
-def stack_panel(t):
-    x = X0 + 40
-    gx = x + 196
-    top = 128
-    row = SLOT + 40
-    body = [prompt(t, x, 64, "ls ~/inventory --all"),
-            heading(t, "INVENTORY", x, 82, px=5),
-            text(W - X0 - 40, 106, f"{sum(len(v) for v in STACK.values())} items equipped", 12,
-                 t["muted"], anchor="end")]
-    order = []
-    for r, (name, items) in enumerate(STACK.items()):
-        y = top + r * row
-        body.append(pixel_text(name.upper(), x, y + 22, 2, t["ink"], shadow=t["shadow"],
-                               shadow_op=t["px_shadow"]))
-        body.append(text(x, y + 56, f"{len(items)} items", 12, t["muted"]))
-        for i, (slug, label) in enumerate(items):
-            sx = gx + i * (SLOT + SGAP)
-            order.append((sx, y))
-            body.append(slot(sx, y, SLOT, SLOT, t))
-            body.append(icon(slug, sx + (SLOT - 34) / 2, y + (SLOT - 34) / 2, 34, brand(t, slug, t["slot"])))
-            body.append(text(sx + SLOT / 2, y + SLOT + 18, label, 11.5, t["ink"], anchor="middle", weight=500,
-                             font=SANS))
-    # the selection frame hops slot to slot, like scrolling the hotbar
-    vals = ";".join(f"{sx:.0f} {sy:.0f}" for sx, sy in order)
-    body.append(f'<g>{selector(0, 0, SLOT, "#FFFFFF" if t["dark"] else "#FFFFFF")}'
-                f'<animateTransform attributeName="transform" type="translate" values="{vals}"'
-                f' calcMode="discrete" dur="{len(order) * .8:.1f}s" repeatCount="indefinite"/></g>')
-    h = int(top + row * len(STACK) + 6)
-    head = window(X0, 4, WW, h, t, "~/inventory", "[E] to close", "violet")
-    return svg_doc(W, h + 8, head + "".join(body), css=BLINK_CSS,
-                   label="Tech stack: " + ", ".join(lab for items in STACK.values() for _, lab in items))
+def island_img():
+    """A tiny floating island for the inventory's preview box."""
+    img = Image.new("RGBA", (300, 300), (0, 0, 0, 0))
+    k = 30
+    cam = mc.Cam(150, 66, (k * .87, k * .5), (-k * .87, k * .5), k)
+    plan = [(u, v) for u in range(3) for v in range(3)]
+    for u, v in plan:
+        if (u + v) >= 1:
+            cam.block(img, u, v, -2, "stone")
+    for u, v in plan:
+        cam.block(img, u, v, -1, "dirt")
+    for u, v in plan:
+        cam.block(img, u, v, 0, "grass")
+    for z in range(1, 4):
+        cam.block(img, 0, 0, z, "log")
+    for u in range(-1, 2):
+        for v in range(-1, 2):
+            cam.block(img, u, v, 4, "leaves")
+    cam.block(img, 0, 0, 5, "leaves")
+    cam.block(img, 2, 1, 1, "bookshelf")
+    cam.block(img, 1, 2, 1, "planks")
+    return img
 
 
-# ----------------------------------------------------------------- news header
-def news_header(t, stamp="", count=0):
-    h = 118
-    x = X0 + 40
-    sub = (f"{count} stories pulled straight from the source feeds, newest first" if count
-           else "pulled straight from the source feeds, newest first")
-    body = [window(X0, 4, WW, h, t, "~/feed --topic programming", f"refreshed {stamp}" if stamp else "", "red"),
-            heading(t, "DEV NEWS", x, 52, px=4),
-            text(x, 104, sub, 12, t["muted"]),
-            slot(W - X0 - 92, 46, 56, 56, t),
-            icon("rss", W - X0 - 92 + 14, 60, 28, brand(t, "rss", t["slot"]) if "rss" in BRAND else t["gold"])]
-    return svg_doc(W, h + 8, "".join(body), css=BLINK_CSS, label="Developer news, refreshed automatically")
+def inventory():
+    w, h = HALF, CARD_H
+    s, gx = 54, (HALF - 9 * 54) / 2
+    out = [window(2, 2, w - 4, h - 4)]
+    # top: preview box with the island, and a 2x2 crafting grid
+    out.append(inset(gx, 22, 196, 186, "#000000"))
+    out.append(rect(gx + 2, 24, 192, 182, "#1B2238"))
+    for i in range(16):
+        out.append(rect(gx + 12 + (i * 53) % 176, 32 + (i * 37) % 120, 2, 2, "#FFFFFF", .5))
+    out.append(mc.image(mc.png_uri(island_img(), 96), gx + 8, 26, 180, 180))
+    cx, cy = gx + 250, 56
+    out.append(label(cx, 42, "Crafting"))
+    recipe = ["laravel", "nextdotjs", "tailwindcss", "mysql"]
+    for i, slug in enumerate(recipe):
+        x, y = cx + (i % 2) * s, cy + (i // 2) * s
+        out.append(slot(x, y, s))
+        out.append(item(slug, x + 11, y + 11, 32))
+    ax = cx + 2 * s + 16
+    out.append(f'<path d="M{ax} {cy + s - 6}h28v-10l18 16-18 16v-10h-28z" fill="#8B8B8B"/>')
+    rx = ax + 62
+    out.append(slot(rx - 6, cy + s - 33, s + 12))
+    out.append(mc.image(mc.png_uri(mc.icon("bookshelf", 96)), rx + 4, cy + s - 22, 44, 44))
+    out.append(text(rx + s / 2, cy + s + 50, "full-stack app", 12, LABEL, "middle", 700))
+    # main grid 9x3, then the hotbar
+    out.append(label(gx, 238, "Inventory"))
+    items = [(slug, lab, cat) for cat, its in STACK.items() for slug, lab in its]
+    pos = []
+    for i in range(27):
+        x, y = gx + (i % 9) * s, 248 + (i // 9) * s
+        out.append(slot(x, y, s))
+        if i < len(items):
+            out.append(item(items[i][0], x + 11, y + 11, 32))
+            pos.append((x, y, items[i]))
+    hot = ["laravel", "nextdotjs", "php", "typescript", "react", "tailwindcss", "flutter", "mysql", "git"]
+    hy = 248 + 3 * s + 12
+    for i, slug in enumerate(hot):
+        x = gx + i * s
+        out.append(slot(x, hy, s))
+        out.append(item(slug, x + 11, hy + 11, 32))
+    out.append(text(gx + 9 * s, 238, f"{len(items)} items", 12, LABEL, "end"))
+    # cursor + tooltip walking the grid
+    n, step = len(pos), 1.1
+    dur = n * step
+    for i, (x, y, (slug, lab, cat)) in enumerate(pos):
+        vals = "1;0" if i == 0 else "0;1;0"
+        kt = f"0;{1 / n:.4f}" if i == 0 else f"0;{i / n:.4f};{(i + 1) / n:.4f}"
+        tw_ = max(len(lab) * 9.2, len(CATEGORY[cat]) * 7.4) + 26
+        tx = min(x + s - 6, w - 10 - tw_)
+        ty = y - 34
+        g = (rect(x + 2, y + 2, s - 4, s - 4, "#FFFFFF", .45)
+             + tooltip(tx, ty, tw_, 46)
+             + mc_text(tx + 12, ty + 20, lab, 14, "#FFFFFF", weight=700)
+             + text(tx + 12, ty + 37, CATEGORY[cat], 11.5, "#5555FF", extra=' font-style="italic"'))
+        out.append(f'<g opacity="{1 if i == 0 else 0}">{g}<animate attributeName="opacity" values="{vals}"'
+                   f' keyTimes="{kt}" calcMode="discrete" dur="{dur:.1f}s" repeatCount="indefinite"/></g>')
+    hv = ";".join(f"{gx + i * s:.0f} {hy}" for i in range(9))
+    out.append(f'<g>{selector(0, 0, s)}<animateTransform attributeName="transform" type="translate"'
+               f' values="{hv}" calcMode="discrete" dur="{9 * 1.4:.1f}s" repeatCount="indefinite"/></g>')
+    return svg(w, h, "".join(out), css=INV_CSS,
+               label="Inventory: " + ", ".join(lab for _, lab, _ in items))
 
 
-# ---------------------------------------------------------------------- footer
-FOOT_CSS = SPLASH_CSS + ("@keyframes hop{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}"
-                         ".hop{animation:hop 2.4s ease-in-out infinite}")
+# ----------------------------------------------------------- news header, footer
+def news_header(stamp="", count=0):
+    h = 120
+    body = [mc.image(mc.png_uri(dirt_bg(W, h), 32), 0, 0, W, h),
+            rect(0, 0, W, h, "#000000", .15)]
+    t = "DEV NEWS"
+    body.append(mc_pixel(t, (W - pixel_width(t, 5)) / 2, 22, 5))
+    sub = (f"{count} stories, pulled straight from the source feeds" if count else
+           "pulled straight from the source feeds, newest first")
+    body.append(mc_text(W / 2, 88, sub + (f" · refreshed {stamp}" if stamp else ""), 13, GRAY, "middle"))
+    body.append('<rect x="1" y="1" width="1198" height="118" fill="none" stroke="#000" stroke-width="2"/>')
+    return svg(W, h, "".join(body), label="Developer news, refreshed automatically")
 
 
-def grass_row(t, x, y, n, k=13):
-    out = []
-    dark = t["dark"]
-    grass = t["green"] if dark else mix(t["green"], "#FFFFFF", .15)
-    for i in range(n):
-        iso = Iso(x + i * k * 2, y, k)
-        top = grass if i % 3 else shade(grass, 1.12)
-        body = iso.box(-.5, -.5, 0, 1, 1, 1, "#8A5A33" if dark else "#7A4E2B", top=top)
-        out.append(f'<g class="hop" style="animation-delay:{-i * .3:.1f}s">{body}</g>')
-    return "".join(out)
+FOOT_CSS = ("@keyframes save{0%{transform:scaleX(0)}70%,100%{transform:scaleX(1)}}"
+            ".save{animation:save 6s ease-out infinite;transform-box:fill-box;transform-origin:left}")
 
 
-def footer(t):
-    h = 112
-    msg, px = "THANKS FOR STOPPING BY", 4
-    body = [panel(X0, 4, WW, h, t),
-            grass_row(t, X0 + 44, 54, 4),
-            grass_row(t, W - X0 - 44 - 3 * 26, 54, 4),
-            pixel_text(msg, (W - pixel_width(msg, px)) / 2, 30, px, t["ink"],
-                       shadow=t["shadow"], shadow_op=t["px_shadow"]),
-            text(W / 2, 88, "every panel on this page is drawn by the python scripts in this repo",
-                 11.5, t["muted"], anchor="middle"),
-            splash(W / 2 + pixel_width(msg, px) / 2 + 62, 26, "git push!", t, 14, -16)]
-    return svg_doc(W, h + 8, "".join(body), css=FOOT_CSS, label="Thanks for stopping by")
+def footer():
+    h = 150
+    body = [mc.image(mc.png_uri(dirt_bg(W, h), 32), 0, 0, W, h)]
+    t = "THANKS FOR STOPPING BY"
+    body.append(mc_pixel(t, (W - pixel_width(t, 4)) / 2, 28, 4))
+    body.append(mc_text(W / 2, 86, "Saving world...", 15, "#FFFFFF", "middle"))
+    bw = 400
+    body.append(rect((W - bw) / 2 - 2, 98, bw + 4, 10, "#000000"))
+    body.append(rect((W - bw) / 2, 100, bw, 6, "#808080"))
+    body.append(rect((W - bw) / 2, 100, bw, 6, "#80FF80", extra=' class="save"'))
+    body.append(mc_text(W / 2, 134, "every panel on this page is rendered by the python scripts in this repo",
+                        12, GRAY, "middle"))
+    body.append('<rect x="1" y="1" width="1198" height="148" fill="none" stroke="#000" stroke-width="2"/>')
+    return svg(W, h, "".join(body), css=FOOT_CSS, label="Thanks for stopping by")
 
 
 # ------------------------------------------------------------------ placeholder
-def loading(t, title, path, h=150):
-    """Shown only until the first real sync writes the panel: says so, invents nothing."""
-    msg, px = "LOADING WORLD...", 4
-    body = [window(X0, 4, WW, h, t, path, "waiting for first sync", "gold"),
-            pixel_text(msg, (W - pixel_width(msg, px)) / 2, 62, px, t["ink"], shadow=t["shadow"],
-                       shadow_op=t["px_shadow"]),
-            text(W / 2, 118, f"{title} appears after the next GitHub Actions run", 12, t["muted"], anchor="middle")]
-    return svg_doc(W, h + 8, "".join(body), label=f"{title}: waiting for the first sync")
+def loading(w, h, what):
+    """Shown only until the first real sync writes the panel."""
+    body = [mc.image(mc.png_uri(dirt_bg(w, h), 32), 0, 0, w, h)]
+    body.append(mc_text(w / 2, h / 2 - 8, "Loading terrain...", 18, "#FFFFFF", "middle", 700))
+    body.append(mc_text(w / 2, h / 2 + 20, f"{what} appears after the next GitHub Actions run", 12.5, GRAY,
+                        "middle"))
+    body.append(f'<rect x="1" y="1" width="{w - 2}" height="{h - 2}" fill="none" stroke="#000" stroke-width="2"/>')
+    return svg(w, h, "".join(body), label=f"{what}: waiting for the first sync")
 
 
 # ----------------------------------------------------------------------- build
 def build():
     ASSETS.mkdir(parents=True, exist_ok=True)
-    made = []
-    for name, tokens in THEMES.items():
-        for i, (slug, label, sub, _) in enumerate(LINKS, 1):
-            p = ASSETS / f"link-{slug}-{name}.svg"
-            p.write_text(link_chip(tokens, slug, label, sub, i), encoding="utf-8")
-            made.append(p.name)
-        for fn, base in ((about, "about"), (stack_panel, "stack"), (news_header, "news"), (footer, "footer")):
-            p = ASSETS / f"{base}-{name}.svg"
-            if base == "news" and p.exists() and "--force-news" not in sys.argv:
-                continue                       # build_news.py owns this once it has real counts
-            p.write_text(fn(tokens), encoding="utf-8")
-            made.append(p.name)
-        for base, title, path in (("hud", "The HUD", "~/hud"), ("log", "The commit log", "~/commits --tail -f")):
-            p = ASSETS / f"{base}-{name}.svg"
-            if not p.exists():                 # build_activity.py / build_log.py own these after that
-                p.write_text(loading(tokens, title, path), encoding="utf-8")
-                made.append(p.name)
-    return made
+    made = {}
+    made["title.svg"] = title()
+    for slug, lab, _ in LINKS:
+        made[f"btn-{slug}.svg"] = button(slug, lab, 780 if slug == "github" else 380)
+    made["book.svg"] = book()
+    made["inventory.svg"] = inventory()
+    made["footer.svg"] = footer()
+    if not (ASSETS / "news.svg").exists() or "--force-news" in sys.argv:
+        made["news.svg"] = news_header()
+    for name, (w, h, what) in {"stats.svg": (HALF, CARD_H, "Player statistics"),
+                               "chat.svg": (HALF, CARD_H, "The commit log"),
+                               "world-dark.svg": (W, 560, "The contribution world"),
+                               "world-light.svg": (W, 560, "The contribution world")}.items():
+        if not (ASSETS / name).exists():
+            made[name] = loading(w, h, what)
+    for name, body in made.items():
+        (ASSETS / name).write_text(body, encoding="utf-8")
+    return list(made)
 
 
 if __name__ == "__main__":
