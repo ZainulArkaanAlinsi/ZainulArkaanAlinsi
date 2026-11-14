@@ -35,14 +35,14 @@ class Textures(unittest.TestCase):
 
 class Panels(unittest.TestCase):
     def test_static_panels_parse(self):
-        for svg in (P.title(), P.book(), P.inventory(), P.footer(), P.news_header("now", 12),
-                    P.loading(590, 500, "Player statistics")):
+        for svg in (P.intro(), P.about(), P.stack(), P.footer(), P.news_header("now", 12),
+                    P.loading(590, 540, "Player stats")):
             parse(svg)
-        for slug, lab, _ in P.LINKS:
-            parse(P.button(slug, lab))
+        for slug, lab, _, fill in P.LINKS:
+            parse(P.button(slug, lab, fill))
 
-    def test_inventory_lists_every_stack_item(self):
-        svg = P.inventory()
+    def test_stack_lists_every_item(self):
+        svg = P.stack()
         for items in P.STACK.values():
             for _, lab in items:
                 self.assertIn(lab, svg)
@@ -50,12 +50,10 @@ class Panels(unittest.TestCase):
 
 class Activity(unittest.TestCase):
     def setUp(self):
-        d = fixtures.activity(today=dt.datetime.now(A.TZ).date())
-        self.d = d
+        self.d = fixtures.activity(today=dt.datetime.now(A.TZ).date())
 
-    def test_world_and_stats_parse(self):
-        for theme in ("dark", "light"):
-            parse(A.render(theme, self.d["created"], self.d["recent"], self.d["all_days"], "now"))
+    def test_calendar_and_stats_parse(self):
+        parse(A.calendar(self.d["created"], self.d["recent"], self.d["all_days"], "now"))
         parse(A.stats_card(self.d["created"], self.d["recent"], self.d["all_days"]))
 
     def test_level_curve(self):
@@ -65,11 +63,9 @@ class Activity(unittest.TestCase):
         self.assertTrue(0 <= frac < 1)
         self.assertEqual(need, A.XP_PER * 23 ** 2 - 2595)
 
-    def test_heights_are_bounded(self):
-        days = [(w, d["weekday"], d) for w, wk in enumerate(self.d["recent"]["weeks"]) for d in wk["contributionDays"]]
-        stack = A.heights(days)
-        self.assertEqual(stack(0), 0)
-        self.assertEqual(stack(10 ** 6), A.MAX_BLOCKS)
+    def test_every_level_has_a_block_face(self):
+        for name in A.FACE[1:]:
+            self.assertIn(name, mc.TEX)
 
 
 class Log(unittest.TestCase):
@@ -97,6 +93,12 @@ class Log(unittest.TestCase):
 
     def test_only_public_repositories_are_queried(self):
         self.assertIn("privacy:PUBLIC", L.QUERY)
+
+    def test_conventional_prefix_becomes_a_tag(self):
+        self.assertEqual(L.kind("feat(ui): x")[0], "FEAT")
+        self.assertEqual(L.kind("plain message")[0], "COMMIT")
+        self.assertEqual(L.body_of("fix: rounding"), "rounding")
+        self.assertEqual(L.body_of("plain: message"), "plain: message")
 
     def test_markup_in_a_commit_message_is_escaped(self):
         c = fixtures.commits()

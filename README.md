@@ -1,29 +1,22 @@
 <div align="center">
 
-<img src="./assets/title.svg?v=3913fb26ae" width="100%" alt="Zainul Arkaan Alinsi — Full-stack developer, student at IDN Boarding School. Title screen: a stone logo over a block landscape, with the splash text Laravel + Next.js!" />
+<img src="./assets/intro.svg?v=27f28e6277" width="100%" alt="Zainul Arkaan Alinsi — full-stack developer, student at IDN Boarding School. Builds web apps with PHP, Laravel, Next.js and Tailwind, learning Flutter." />
 
-<a href="https://github.com/ZainulArkaanAlinsi?tab=repositories"><img src="./assets/btn-github.svg?v=97be349b4a" width="65%" alt="Repositories" /></a>
-<br/>
-<a href="https://instagram.com/zainarilbre"><img src="./assets/btn-instagram.svg?v=18cabe4b41" width="32%" alt="Instagram" /></a>
-<a href="https://linkedin.com/in/zainul-arkaan-3bb51731a"><img src="./assets/btn-linkedin.svg?v=469031c5b6" width="32%" alt="LinkedIn" /></a>
-<br/>
-<a href="https://www.youtube.com/@zainarilbre"><img src="./assets/btn-youtube.svg?v=017bf625b0" width="32%" alt="YouTube" /></a>
-<a href="mailto:zainaril13@gmail.com"><img src="./assets/btn-gmail.svg?v=e70e7bf1be" width="32%" alt="Email" /></a>
+<a href="https://github.com/ZainulArkaanAlinsi?tab=repositories"><img src="./assets/btn-github.svg?v=a1b22d3acd" width="19%" alt="GitHub" /></a>
+<a href="https://instagram.com/zainarilbre"><img src="./assets/btn-instagram.svg?v=303c0f8e4c" width="19%" alt="Instagram" /></a>
+<a href="https://linkedin.com/in/zainul-arkaan-3bb51731a"><img src="./assets/btn-linkedin.svg?v=65baa2d5fc" width="19%" alt="LinkedIn" /></a>
+<a href="https://www.youtube.com/@zainarilbre"><img src="./assets/btn-youtube.svg?v=0580230331" width="19%" alt="YouTube" /></a>
+<a href="mailto:zainaril13@gmail.com"><img src="./assets/btn-gmail.svg?v=3352f98c4d" width="19%" alt="Email" /></a>
 
-<br/>
+<img src="./assets/about.svg?v=d2ea8149df" width="49%" alt="About me — builds full-stack web apps with PHP, Laravel, Next.js and Tailwind CSS, learning Flutter and Dart. Editor VS Code, timezone WIB (UTC+7)." />
+<img src="./assets/stats.svg?v=323b3cb986" width="49%" alt="Player stats — level from lifetime contributions, XP bar, hearts for the current streak, total contributions, last 12 months, current and longest streak." />
 
-<img src="./assets/book.svg?v=7358257c45" width="49%" alt="About me, as a Book and Quill page — Zainul Arkaan Alinsi, full-stack developer and student at IDN Boarding School. Builds web apps with PHP, Laravel, Next.js and Tailwind CSS, learning Flutter and Dart. Editor VS Code, timezone WIB." />
-<img src="./assets/stats.svg?v=fc52e9e800" width="49%" alt="Player statistics — level from lifetime contributions, hearts for the current streak, total contributions, last 12 months, current and longest streak, best day." />
+<img src="./assets/calendar.svg?v=c0eba805d8" width="100%" alt="Contribution calendar — the last twelve months, each active day drawn as a Minecraft block: grass, planks, gold and emerald as activity rises." />
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/world-dark.svg?v=b615ec811b" />
-  <img src="./assets/world-light.svg?v=b615ec811b" width="100%" alt="Contribution world — every day of the last twelve months as a tower of textured blocks: grass, planks, gold and emerald for rising activity, on a floating chunk of ground." />
-</picture>
+<img src="./assets/stack.svg?v=19a6532d98" width="49%" alt="Tech stack — languages: PHP, TypeScript, JavaScript, Dart, Java, HTML5, CSS. Frameworks: Laravel, Next.js, React, Vue, Tailwind, Alpine, Flutter, Node.js. Tools: MySQL, SQLite, Firebase, Vercel, Git, GitHub, Figma, Postman." />
+<img src="./assets/log.svg?v=cf89e874cb" width="49%" alt="Commit log — the latest commits across public repositories, newest first, refreshed on every push." />
 
-<img src="./assets/inventory.svg?v=65611876f2" width="49%" alt="Inventory — languages: PHP, TypeScript, JavaScript, Dart, Java, HTML5, CSS. Frameworks: Laravel, Next.js, React, Vue, Tailwind, Alpine, Flutter, Node.js. Tools: MySQL, SQLite, Firebase, Vercel, Git, GitHub, Figma, Postman. Crafting: Laravel + Next.js + Tailwind + MySQL = full-stack app." />
-<img src="./assets/chat.svg?v=1d9c9fc579" width="49%" alt="Commit log — the latest commits across public repositories as in-game chat, the newest announced as an advancement, refreshed on every push." />
-
-<img src="./assets/news.svg?v=fdec11dffe" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+<img src="./assets/news.svg?v=f86fd71738" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 
 </div>
 
@@ -125,4 +118,4 @@ Laravel 13.40 adds commit IDs to MySQL, MariaDB, and PostgreSQL connections, so 
   <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261114" width="100%" alt="A snake eating this year's contribution squares" />
 </picture>
 
-<img src="./assets/footer.svg?v=04526e58af" width="100%" alt="Thanks for stopping by — saving world..." />
+<img src="./assets/footer.svg?v=7f5bf62f72" width="100%" alt="Thanks for stopping by" />
