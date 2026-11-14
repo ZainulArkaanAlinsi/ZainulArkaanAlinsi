@@ -292,17 +292,17 @@ def main():
         show = os.environ.get("PROFILE_LOG_MESSAGES", "1") != "0"
         rows, pushes = build_rows(fetch_events(token), lambda r, s: fetch_message(r, s, token), now,
                                   hide_repos=hide, show_messages=show)
-        for name, tokens in THEMES.items():
-            (ASSETS / f"commits-{name}.svg").write_text(commits(tokens, rows, pushes, stamp), encoding="utf-8")
-            print("wrote", f"commits-{name}.svg", f"({len(rows)} rows, {pushes} pushes/{LOG_DAYS}d)")
+        from build_editorial import commits as glass_commits
+        (ASSETS / "commits-dark.svg").write_text(glass_commits(rows, pushes, stamp), encoding="utf-8")
+        print("wrote commits-dark.svg", f"({len(rows)} rows, {pushes} pushes/{LOG_DAYS}d)")
     except Exception as e:
         failed = True
         print(f"commits: kept existing panel ({e})", file=sys.stderr)
 
     # first run with no network must not leave the README pointing at nothing
-    for name, tokens in THEMES.items():
-        if not (ASSETS / f"commits-{name}.svg").exists():
-            (ASSETS / f"commits-{name}.svg").write_text(commits(tokens, [], 0, "offline"), encoding="utf-8")
+    if not (ASSETS / "commits-dark.svg").exists():
+        from build_editorial import commits as glass_commits
+        (ASSETS / "commits-dark.svg").write_text(glass_commits([], 0, "offline"), encoding="utf-8")
     return 0 if not failed else 1
 
 

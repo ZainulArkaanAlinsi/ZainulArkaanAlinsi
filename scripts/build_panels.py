@@ -62,6 +62,11 @@ TIP_BG, TIP_INK = "#140F1E", "#FFFFFF"
 
 
 def link_chip(t, slug, label, accent, idx=0):
+    from build_editorial import link
+    return link(slug, label, idx)
+
+
+def _old_link_chip(t, slug, label, accent, idx=0):
     dark = t["px_shadow"] > .3
     face = mix(t["bg"], t["ink"], .14 if dark else .07)
     recess_lo = mix(face, "#000000", .55 if dark else .20)        # top and left: in shadow
@@ -264,6 +269,11 @@ def stack_panel(t):
 
 # ----------------------------------------------------------------- news header
 def news_header(t, stamp="", count=0):
+    from build_editorial import news
+    return news(stamp, count)
+
+
+def _old_news_header(t, stamp="", count=0):
     h = 116
     body = [rect(0, 0, W, h + PAD, fill=t["bg"]),
             chrome(t, PAD, 8, W - PAD * 2, h, "~/feed --topic programming",
@@ -297,7 +307,7 @@ def build():
     ASSETS.mkdir(parents=True, exist_ok=True)
     made = []
     for name, tokens in THEMES.items():
-        for idx, (slug, label, accent) in enumerate(LINKS):
+        for idx, (slug, label, accent) in enumerate(LINKS if name == "dark" else ()):
             p = ASSETS / f"link-{slug}-{name}.svg"
             p.write_text(link_chip(tokens, slug, label, accent, idx), encoding="utf-8")
             made.append(p.name)

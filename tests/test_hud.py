@@ -116,7 +116,8 @@ class Rows(unittest.TestCase):
 class Svg(unittest.TestCase):
     def check(self, svg):
         root = ET.fromstring(svg)                       # well-formed
-        self.assertIsNone(re.search(r"(?<![a-z])(nan|inf)(?![a-z])", svg.lower()))   # a bad float in a coordinate
+        geometry = re.sub(r"<style>.*?</style>|base64,[A-Za-z0-9+/=]+", "", svg, flags=re.S)  # fonts/images aren't coordinates
+        self.assertIsNone(re.search(r"(?<![a-z])(nan|inf)(?![a-z])", geometry.lower()))   # a bad float in a coordinate
         self.assertTrue(root.attrib["viewBox"])
         return root
 

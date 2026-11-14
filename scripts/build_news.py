@@ -304,7 +304,7 @@ def main():
         return
     README.write_text(splice(text, block), encoding="utf-8")
     from build_panels import news_header
-    for name, tokens in THEMES.items():
+    for name, tokens in ((n, tk) for n, tk in THEMES.items() if n == "dark"):
         (ASSETS / f"news-{name}.svg").write_text(
             news_header(tokens, stamp, len(items) if len(items) >= MIN_OK else 0), encoding="utf-8")
     print("README news block updated", file=sys.stderr)

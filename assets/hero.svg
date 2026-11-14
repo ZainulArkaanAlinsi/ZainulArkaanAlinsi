@@ -4,13 +4,13 @@
 .m{font-family:Mono,ui-monospace,Consolas,monospace}
 .s{font-family:Serif,Georgia,serif}
 .si{font-family:SerifI,Georgia,serif;font-style:italic}
-.cap{font-family:Mono,ui-monospace,monospace;font-size:11px;letter-spacing:2.6px;fill:#a3a3a3}
+.cap{font-family:Mono,ui-monospace,monospace;font-size:11px;letter-spacing:2.6px;fill:#D1D5DB}
 @media (prefers-reduced-motion:reduce){*{animation:none!important}}
 
 .draw{stroke-dasharray:120 400;animation:draw 5s cubic-bezier(.6,0,.3,1) infinite}
 @keyframes draw{from{stroke-dashoffset:520}to{stroke-dashoffset:0}}
 .shine{animation:shine 6s ease-in-out infinite}
-@keyframes shine{0%,100%{fill:#fafafa}50%{fill:#8a8a8a}}
+@keyframes shine{0%,100%{fill:#F5F1E8}50%{fill:#E8DCC4}}
 .sweep{animation:sweep 7s cubic-bezier(.45,0,.2,1) infinite}
 @keyframes sweep{0%{transform:translateY(-260px)}60%,100%{transform:translateY(850px)}}
 .g1{animation:gl 7s steps(1) 3s infinite}.g2{animation:gl 9s steps(1) 5.4s infinite}
@@ -37,12 +37,12 @@
   <clipPath id="tk"><rect x="0" y="668" width="1200" height="52"/></clipPath>
   <path id="ring" d="M1106,70 m-40,0 a40,40 0 1,1 80,0 a40,40 0 1,1 -80,0"/>
   <clipPath id="gc0"><rect x="40" y="216.2" width="520" height="64.8"/></clipPath><clipPath id="gc1"><rect x="40" y="403.4" width="520" height="50.4"/></clipPath>
-</defs>
+<filter id="bk" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="70"/></filter></defs>
 
-<rect width="1200" height="720" fill="#0a0a0a"/>
+<rect width="1200" height="720" fill="#0D1B2A"/><g filter="url(#bk)" class="drift"><circle cx="444" cy="392" r="259" fill="#4A6A8A" opacity="0.55"/><circle cx="948" cy="526" r="230" fill="#E07A5F" opacity="0.4"/><circle cx="792" cy="299" r="230" fill="#A7B89A" opacity="0.55"/><circle cx="96" cy="432" r="317" fill="#E8DCC4" opacity="0.4"/></g><rect x="590" y="24" width="586" height="620" rx="30" fill="#F5F1E8" opacity=".07"/><rect x="590.5" y="24.5" width="585" height="619" rx="30" fill="none" stroke="#F5F1E8" stroke-opacity=".26"/>
 
 <!-- ============ portrait card ============ -->
-<rect x="40" y="40" width="520" height="590" rx="4" fill="#0d0d0d" stroke="#262626"/>
+<rect x="40" y="40" width="520" height="590" rx="4" fill="#0d0d0d" stroke="#3E4F63"/>
 <g clip-path="url(#card)">
   <g clip-path="url(#intro)">
     <use href="#ascii"/>
@@ -50,48 +50,48 @@
   </g>
   <rect class="sweep" x="40" y="40" width="520" height="200" fill="url(#band)" opacity=".08"/>
   <rect x="40" y="40" width="520" height="590" fill="url(#vig)"/>
-  <rect x="40" y="40" width="520" height="1.5" fill="#fafafa" opacity=".3" class="sweep line"/>
+  <rect x="40" y="40" width="520" height="1.5" fill="#F5F1E8" opacity=".3" class="sweep line"/>
 </g>
-<g stroke="#fafafa" stroke-width="1.2" fill="none">
+<g stroke="#F5F1E8" stroke-width="1.2" fill="none">
   <path d="M28,40 h8 M40,28 v8"/>
   <path d="M572,40 h-8 M560,28 v8"/>
   <path d="M28,630 h8 M40,642 v-8"/>
   <path d="M572,630 h-8 M560,642 v-8"/>
 </g>
-<text x="58" y="68" class="cap" fill="#fafafa">FIG. 01</text>
+<text x="58" y="68" class="cap" fill="#F5F1E8">FIG. 01</text>
 <text x="542" y="68" class="cap" text-anchor="end">ASCII · B/W · 120×81</text>
 <g transform="translate(58,608)">
-  <circle cx="4" cy="-4" r="3.5" fill="#fafafa" class="pulse"/>
-  <text x="16" y="0" class="cap" fill="#fafafa">LIVE RENDER</text>
+  <circle cx="4" cy="-4" r="3.5" fill="#F5F1E8" class="pulse"/>
+  <text x="16" y="0" class="cap" fill="#F5F1E8">LIVE RENDER</text>
 </g>
 <text x="542" y="608" class="cap" text-anchor="end">ZAINUL / 2026</text>
 
 <!-- ============ editorial side ============ -->
 <g >
-  <text x="620" y="66" class="cap" fill="#fafafa">PORTFOLIO — VOL. 2026</text>
+  <text x="620" y="66" class="cap" fill="#F5F1E8">PORTFOLIO — VOL. 2026</text>
   <text x="950" y="66" class="cap">N° 001</text>
 </g>
-<line x1="620" y1="88" x2="1020" y2="88" stroke="#262626"/>
-<line x1="620" y1="88" x2="1020" y2="88" stroke="#fafafa" class="draw"/>
+<line x1="620" y1="88" x2="1020" y2="88" stroke="#3E4F63"/>
+<line x1="620" y1="88" x2="1020" y2="88" stroke="#F5F1E8" class="draw"/>
 
 <g >
-  <circle cx="1106" cy="70" r="52" fill="#0a0a0a" stroke="#262626"/>
-  <g class="spin"><text class="m" font-size="7.4" letter-spacing="1.25" fill="#a3a3a3"><textPath href="#ring" xlink:href="#ring">OPEN FOR COLLABORATION · 2026 · </textPath></text></g>
-  <text x="1106" y="80" text-anchor="middle" class="si" font-size="28" fill="#fafafa">za</text>
+  <circle cx="1106" cy="70" r="52" fill="#0D1B2A" stroke="#3E4F63"/>
+  <g class="spin"><text class="m" font-size="7.4" letter-spacing="1.25" fill="#D1D5DB"><textPath href="#ring" xlink:href="#ring">OPEN FOR COLLABORATION · 2026 · </textPath></text></g>
+  <text x="1106" y="80" text-anchor="middle" class="si" font-size="28" fill="#F5F1E8">za</text>
 </g>
 
-<g clip-path="url(#n1)"><text x="616" y="222" class="s" font-size="96" fill="#fafafa" letter-spacing="-1.5">Zainul Arkaan</text></g>
-<g clip-path="url(#n2)"><text x="618" y="313" class="si" font-size="96" fill="#fafafa" letter-spacing="-1">Alinsi<tspan fill="#525252" class="shine">.</tspan></text></g>
+<g clip-path="url(#n1)"><text x="616" y="222" class="s" font-size="96" fill="#F5F1E8" letter-spacing="-1.5">Zainul Arkaan</text></g>
+<g clip-path="url(#n2)"><text x="618" y="313" class="si" font-size="96" fill="#F5F1E8" letter-spacing="-1">Alinsi<tspan fill="#8A97A6" class="shine">.</tspan></text></g>
 
 <g >
-  <text x="620" y="378" class="m" font-size="13" letter-spacing="3" fill="#fafafa">FULL-STACK DEVELOPER</text>
-  <text x="882" y="378" class="m" font-size="13" letter-spacing="3" fill="#525252">—  STUDENT @ IDN</text>
+  <text x="620" y="378" class="m" font-size="13" letter-spacing="3" fill="#F5F1E8">FULL-STACK DEVELOPER</text>
+  <text x="882" y="378" class="m" font-size="13" letter-spacing="3" fill="#8A97A6">—  STUDENT @ IDN</text>
 </g>
-<text x="620" y="428" class="s" font-size="24" fill="#a3a3a3">Crafting efficient, thoughtful web and mobile</text><text x="620" y="458" class="s" font-size="24" fill="#a3a3a3">experiences with Laravel, Next.js and Flutter —</text><text x="620" y="488" class="s" font-size="24" fill="#a3a3a3">turning clean code into real-world impact.</text>
-<line x1="620" y1="522" x2="1160" y2="522" stroke="#262626"/>
-<g class=""><text x="620" y="552" class="cap">FOCUS</text><text x="620" y="586" class="s" font-size="27" fill="#fafafa">Full-stack web</text></g><g class=""><text x="800" y="552" class="cap">MOBILE</text><text x="800" y="586" class="s" font-size="27" fill="#fafafa">Flutter</text></g><g class=""><text x="980" y="552" class="cap">BASED IN</text><text x="980" y="586" class="s" font-size="27" fill="#fafafa">Indonesia</text></g>
+<text x="620" y="428" class="s" font-size="24" fill="#D1D5DB">Crafting efficient, thoughtful web and mobile</text><text x="620" y="458" class="s" font-size="24" fill="#D1D5DB">experiences with Laravel, Next.js and Flutter —</text><text x="620" y="488" class="s" font-size="24" fill="#D1D5DB">turning clean code into real-world impact.</text>
+<line x1="620" y1="522" x2="1160" y2="522" stroke="#3E4F63"/>
+<g class=""><text x="620" y="552" class="cap">FOCUS</text><text x="620" y="586" class="s" font-size="27" fill="#F5F1E8">Full-stack web</text></g><g class=""><text x="800" y="552" class="cap">MOBILE</text><text x="800" y="586" class="s" font-size="27" fill="#F5F1E8">Flutter</text></g><g class=""><text x="980" y="552" class="cap">BASED IN</text><text x="980" y="586" class="s" font-size="27" fill="#F5F1E8">Indonesia</text></g>
 
 <!-- ============ ticker ============ -->
-<line x1="0" y1="668" x2="1200" y2="668" stroke="#262626"/>
-<g clip-path="url(#tk)"><g transform="translate(0,699)"><g class="tick"><text class="m" font-size="12" letter-spacing="2.2" fill="#a3a3a3" style="white-space:pre">PHP   ·   LARAVEL   ·   NEXT.JS   ·   TAILWIND CSS   ·   FLUTTER   ·   TYPESCRIPT   ·   REACT   ·   DART   ·   MYSQL   ·   FIREBASE   ·   PHP   ·   LARAVEL   ·   NEXT.JS   ·   TAILWIND CSS   ·   FLUTTER   ·   TYPESCRIPT   ·   REACT   ·   DART   ·   MYSQL   ·   FIREBASE   ·   PHP   ·   LARAVEL   ·   NEXT.JS   ·   TAILWIND CSS   ·   FLUTTER   ·   TYPESCRIPT   ·   REACT   ·   DART   ·   MYSQL   ·   FIREBASE   ·   </text></g></g></g>
+<line x1="0" y1="668" x2="1200" y2="668" stroke="#3E4F63"/>
+<g clip-path="url(#tk)"><g transform="translate(0,699)"><g class="tick"><text class="m" font-size="12" letter-spacing="2.2" fill="#D1D5DB" style="white-space:pre">PHP   ·   LARAVEL   ·   NEXT.JS   ·   TAILWIND CSS   ·   FLUTTER   ·   TYPESCRIPT   ·   REACT   ·   DART   ·   MYSQL   ·   FIREBASE   ·   PHP   ·   LARAVEL   ·   NEXT.JS   ·   TAILWIND CSS   ·   FLUTTER   ·   TYPESCRIPT   ·   REACT   ·   DART   ·   MYSQL   ·   FIREBASE   ·   PHP   ·   LARAVEL   ·   NEXT.JS   ·   TAILWIND CSS   ·   FLUTTER   ·   TYPESCRIPT   ·   REACT   ·   DART   ·   MYSQL   ·   FIREBASE   ·   </text></g></g></g>
 </svg>
