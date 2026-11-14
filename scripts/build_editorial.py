@@ -98,18 +98,18 @@ def about():
             f' style="image-rendering:pixelated" preserveAspectRatio="none"/></mask>',
             f'<clipPath id="cl"><rect x="0" y="0" width="{split:.1f}" height="{ah:.1f}"/></clipPath>',
             f'<clipPath id="cr"><rect x="{split:.1f}" y="0" width="{W - split:.1f}" height="{ah:.1f}"/></clipPath>',
-            f'<g class="rl"><g clip-path="url(#cl)"><rect width="{W}" height="{ah:.1f}" fill="url(#g)" mask="url(#hm)"/></g></g>',
-            f'<g class="rr"><g clip-path="url(#cr)"><rect width="{W}" height="{ah:.1f}" fill="url(#g)" mask="url(#hm)"/></g></g>',
+            f'<g class="rl"><g clip-path="url(#cl)"><rect width="{W}" height="{ah:.1f}" fill="{INK}" mask="url(#hm)"/></g></g>',
+            f'<g class="rr"><g clip-path="url(#cr)"><rect width="{W}" height="{ah:.1f}" fill="{INK}" mask="url(#hm)"/></g></g>',
             f'<rect class="pulse" x="{wx:.1f}" y="{wy:.1f}" width="{ww:.1f}" height="{wh:.1f}" fill="none"'
-            f' stroke="{VIOLET}" stroke-width="8" filter="url(#glow)"/>',
+            f' stroke="{INK}" stroke-width="8" filter="url(#glow)"/>',
             f'<rect x="{wx:.1f}" y="{wy:.1f}" width="{ww:.1f}" height="{wh:.1f}" fill="none" stroke="{INK}" stroke-width="4"/>',
             f'<rect x="{wx:.1f}" y="{wy:.1f}" width="{ww:.1f}" height="26" fill="{INK}"/>',
             t(wx + 12, wy + 18, "ABOUT_ME.EXE", "m", 14, BG, extra=' font-weight="700" letter-spacing="1"'),
             "".join(f'<rect x="{wx + ww - 22 - i * 22:.1f}" y="{wy + 6}" width="14" height="14" fill="none"'
                     f' stroke="{BG}" stroke-width="2.5"/>' for i in range(3)),
             t(X(392), wy + 56, "> hi, i'm zainul", "m", 15, INK),
-            t(X(392), wy + 80, "> welcome in", "m", 15, CYAN),
-            f'<rect class="blink" x="{X(392) + 120:.1f}" y="{wy + 67:.1f}" width="9" height="16" fill="{CYAN}"/>']
+            t(X(392), wy + 80, "> welcome in", "m", 15, MUTED),
+            f'<rect class="blink" x="{X(392) + 120:.1f}" y="{wy + 67:.1f}" width="9" height="16" fill="{INK}"/>']
 
     y0 = ah + 28
     body += [hair(60, y0, W - 60, y0),

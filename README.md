@@ -11,7 +11,7 @@
 
 </div>
 
-<img src="./assets/about-dark.svg?v=173f840c25" width="100%" alt="About me — Zainul Arkaan Alinsi, full-stack developer and student at IDN Boarding School. Builds full-stack web apps with PHP, Laravel, Next.js and Tailwind CSS, and is learning Flutter for mobile." />
+<img src="./assets/about-dark.svg?v=3faabe9dd4" width="100%" alt="About me — Zainul Arkaan Alinsi, full-stack developer and student at IDN Boarding School. Builds full-stack web apps with PHP, Laravel, Next.js and Tailwind CSS, and is learning Flutter for mobile." />
 
 <img src="./assets/stack-dark.svg?v=7b619d60a3" width="100%" alt="Tech stack — languages: PHP, TypeScript, JavaScript, Dart, Java, HTML5, CSS. Frameworks: Laravel, Next.js, React, Vue, Tailwind, Alpine, Flutter, Node.js. Tools: MySQL, SQLite, Firebase, Vercel, Git, GitHub, Figma, Postman." />
 
