@@ -10,52 +10,52 @@
 
 <img src="./assets/stack-dark.svg?v=0ef797a3f1" width="100%" alt="Tech stack — languages: PHP, TypeScript, JavaScript, Dart, Java, HTML5, CSS. Frameworks: Laravel, Next.js, React, Vue, Tailwind, Alpine, Flutter, Node.js. Tools: MySQL, SQLite, Firebase, Vercel, Git, GitHub, Figma, Postman." />
 
-<img src="./assets/activity-dark.svg?v=d2b4c1af6e" width="100%" alt="Contributions — total, last twelve months, current and longest streak, best day, and a dithered map of the past year." />
+<img src="./assets/activity-dark.svg?v=62b7b58012" width="100%" alt="Contributions — total, last twelve months, current and longest streak, best day, and a dithered map of the past year." />
 
-<img src="./assets/commits-dark.svg?v=94757ecf93" width="100%" alt="Commit log — the latest pushes to public repositories, newest first, refreshed automatically." />
+<img src="./assets/commits-dark.svg?v=5b86929396" width="100%" alt="Commit log — the latest pushes to public repositories, newest first, refreshed automatically." />
 
-<img src="./assets/news-dark.svg?v=bbe1b66efd" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+<img src="./assets/news-dark.svg?v=d280a2677a" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 
 <!-- NEWS:START -->
 
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 4h ago</sub><br>
-<a href="https://monkeyisland.pages.dev/"><b>Monkey Island: all 13 versions side by side</b></a>
+<sub><code>HN</code>&nbsp; 15m ago</sub><br>
+<a href="https://www.crissyfield.de/research/lovable-en/"><b>Lovable apps expose passport details and more than 200K private messages</b></a>
 <br><br>
-35 points and 4 comments on the Hacker News front page · monkeyisland.pages.dev
+10 points and 0 comments on the Hacker News front page · crissyfield.de
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 5h ago</sub><br>
-<a href="https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus"><b>Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs</b></a>
+<sub><code>HN</code>&nbsp; 1h ago</sub><br>
+<a href="https://karboosx.net/post/5j7jdDM3/how-to-create-your-own-decentralized-messenger-protocol"><b>How to Create Your Own Decentralized Messenger Protocol</b></a>
 <br><br>
-470 points and 266 comments on the Hacker News front page · techpowerup.com
+6 points and 0 comments on the Hacker News front page · karboosx.net
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 8h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 5h ago</sub><br>
+<a href="https://dev.to/alexgeorgiev17/nginx-131s-jsonset-directive-rejects-a-bad-webhook-payload-about-13-times-faster-than-forwarding-3b00"><b>nginx 1.31's json_set directive rejects a bad webhook payload about 13 times faster than…</b></a>
+<br><br>
+I measured nginx 1.31's new native JSON parser against a Python backend doing the same validation: roughly 13x faster per-request rejection at low concurrency, half a backend's request…
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 18h ago</sub><br>
 <a href="https://dev.to/gde/benchmarking-the-gemini-decisions-api-l31"><b>Benchmarking the Gemini Decisions API</b></a>
 <br><br>
 The Gemini Decisions API scores a fixed set of answers in one pass and returns probabilities. An ADK triage agent built on it, a 48-ticket benchmark against Gemini 3.8 Flash, Gemini 4…
 </td>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 14h ago</sub><br>
-<a href="https://dev.to/devengers/dev-opportunity-radar-25-120k-atlassian-hackathon-mlh-fellowship-and-insead-ai-founder-sprint-m96"><b>Dev Opportunity Radar #25: $120K+ Atlassian Hackathon, MLH Fellowship, and INSEAD AI Founder…</b></a>
-<br><br>
-TL;DR Welcome back to Dev Opportunity Radar! 💙 This is a weekly series where I share...
-</td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 15h ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 1d ago</sub><br>
 <a href="https://stackoverflow.blog/2026/11/13/your-coding-agent-shouldn-t-grade-its-own-homework/"><b>Your coding agent shouldn't grade its own homework</b></a>
 <br><br>
 AI coding agents can now write design docs, mock up frontends, and implement entire projects end to end. But can they be trusted to verify that their own code actually works?
 </td>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 19h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/speed-up-ci-in-the-age-of-ai-written-code/"><b>How to Speed Up CI in the Age of AI-Written Code</b></a>
 <br><br>
 Coding agents now write code faster than most CI pipelines can check it. In April 2026, GitHub COO Kyle Daigle said that his platform was handling 275 million commits a week, on pace for 14…
@@ -63,13 +63,13 @@ Coding agents now write code faster than most CI pipelines can check it. In Apri
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 21h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/schema-drift-vs-semantic-drift-in-data-pipelines/"><b>Schema Drift vs. Semantic Drift in Data Pipelines</b></a>
 <br><br>
 When a column is removed from a source database or dataset, the next pipeline run usually fails, making the problem easy to detect. But when a field keeps the same name and data type but…
 </td>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 23h ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 1d ago</sub><br>
 <a href="https://stackoverflow.blog/2026/11/13/agentic-doesn-t-find-pages-it-assembles-answers/"><b>Agentic search doesn't find pages, it assembles answers</b></a>
 <br><br>
 Ryan sits down with Jeff Wang, co-founder at EXA, to talk about the huge scale required to support trillions of agentic searches, the technical complexities of building custom embeddings…
@@ -105,13 +105,13 @@ Laravel 13.40 adds commit IDs to MySQL, MariaDB, and PostgreSQL connections, so 
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 14 Nov 2026 15:33 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 15 Nov 2026 00:58 WIB.</sub>
 
 <!-- NEWS:END -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20261114" />
-  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261114" width="100%" alt="A snake eating this year's contribution squares" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20261115" />
+  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261115" width="100%" alt="A snake eating this year's contribution squares" />
 </picture>
 
 <img src="./assets/footer-dark.svg?v=46385c42c0" width="100%" alt="Thanks for stopping by" />
