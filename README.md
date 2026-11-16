@@ -10,41 +10,41 @@
 
 <img src="./assets/stack-dark.svg?v=0ef797a3f1" width="100%" alt="Tech stack — languages: PHP, TypeScript, JavaScript, Dart, Java, HTML5, CSS. Frameworks: Laravel, Next.js, React, Vue, Tailwind, Alpine, Flutter, Node.js. Tools: MySQL, SQLite, Firebase, Vercel, Git, GitHub, Figma, Postman." />
 
-<img src="./assets/activity-dark.svg?v=adfc7dafa6" width="100%" alt="Contributions — total, last twelve months, current and longest streak, best day, and a dithered map of the past year." />
+<img src="./assets/activity-dark.svg?v=65a38e125f" width="100%" alt="Contributions — total, last twelve months, current and longest streak, best day, and a dithered map of the past year." />
 
-<img src="./assets/commits-dark.svg?v=164deab1fc" width="100%" alt="Commit log — the latest pushes to public repositories, newest first, refreshed automatically." />
+<img src="./assets/commits-dark.svg?v=39b30cd22d" width="100%" alt="Commit log — the latest pushes to public repositories, newest first, refreshed automatically." />
 
-<img src="./assets/news-dark.svg?v=5a2d4c5c13" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+<img src="./assets/news-dark.svg?v=8b6c18e86b" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 
 <!-- NEWS:START -->
 
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 26m ago</sub><br>
-<a href="https://www.youtube.com/watch?v=7_JF3etiAv8"><b>A short explainer on how El Niño works [video]</b></a>
+<sub><code>HN</code>&nbsp; 33m ago</sub><br>
+<a href="https://pub.cba.mit.edu/863.26/site/"><b>How to Make Almost Anything</b></a>
 <br><br>
-13 points and 0 comments on the Hacker News front page · youtube.com
+8 points and 0 comments on the Hacker News front page · pub.cba.mit.edu
 </td>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 41m ago</sub><br>
-<a href="https://dev.to/aws-builders/zombie-sweep-a-daily-serverless-hunt-for-unused-aws-resources-1ph1"><b>Zombie Sweep: A Daily Serverless Hunt for Unused AWS Resources</b></a>
+<sub><code>HN</code>&nbsp; 1h ago</sub><br>
+<a href="https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1154101"><b>Debian Becomes Unresponsive after 6.1.0-55 Kernel Update</b></a>
 <br><br>
-A Step Functions sweep of every enabled region that runs zombiescan's checks beside Compute Optimizer's idle recommendations, stores findings in DynamoDB and publishes a priced report to S3…
+33 points and 0 comments on the Hacker News front page · bugs.debian.org
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 55m ago</sub><br>
-<a href="https://www.nytimes.com/2026/11/15/science/birdbrain-crows-birds-research-decision.html"><b>'Birdbrain' Is a Misnomer. Crows Make Decisions Faster Than We Can</b></a>
+<sub><code>DEV</code>&nbsp; 10h ago</sub><br>
+<a href="https://dev.to/gnomeman4201/correcting-897-fake-followers-what-my-own-follower-data-actually-shows-f1p"><b>Correcting &quot;897 Fake Followers&quot;: What My Own Follower Data Actually Shows</b></a>
 <br><br>
-16 points and 4 comments on the Hacker News front page · nytimes.com
+TL;DR Three central claims in my May 2026 post &quot;Found 897 Fake Followers on DEV.to&quot; do not...
 </td>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 2h ago</sub><br>
-<a href="https://dev.to/hemapriya_kanagala/dev-pet-corner-6-show-us-your-pets-2gd3"><b>🐾 DEV Pet Corner #6: Show Us Your Pets!</b></a>
+<sub><code>DEV</code>&nbsp; 12h ago</sub><br>
+<a href="https://dev.to/aws-builders/zombie-sweep-a-daily-serverless-hunt-for-unused-aws-resources-1ph1"><b>Zombie Sweep: A Daily Serverless Hunt for Unused AWS Resources</b></a>
 <br><br>
-TL;DR DEV Pet Corner is back for another Sunday! It's a weekly series where we take a little break...
+A Step Functions sweep of every enabled region that runs zombiescan's checks beside Compute Optimizer's idle recommendations, stores findings in DynamoDB and publishes a priced report to S3…
 </td>
 </tr>
 <tr>
@@ -77,13 +77,13 @@ Ryan sits down with Jeff Wang, co-founder at EXA, to talk about the huge scale r
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 2d ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 3d ago</sub><br>
 <a href="https://github.blog/news-insights/company-news/github-availability-report-october-2026/"><b>GitHub availability report: October 2026</b></a>
 <br><br>
 In October, we experienced eight incidents that resulted in degraded performance across GitHub services.
 </td>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 2d ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 3d ago</sub><br>
 <a href="https://laravel-news.com/laravel-ai-sdk-1-4?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Laravel AI SDK 1.4 Lets Agents Recover From Tool Failures</b></a>
 <br><br>
 Laravel AI SDK 1.4 sends tool exceptions back to the model instead of ending the run, and lets agent fakes resume tool approvals in tests.
@@ -91,13 +91,13 @@ Laravel AI SDK 1.4 sends tool exceptions back to the model instead of ending the
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 2d ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 3d ago</sub><br>
 <a href="https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/"><b>Build once, run on any agent: A practical guide to agent skills</b></a>
 <br><br>
 Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them.
 </td>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 3d ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 4d ago</sub><br>
 <a href="https://laravel-news.com/laravel-read-replica-commit-ids?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Laravel Read Replicas: Check if a Replica Has Caught Up</b></a>
 <br><br>
 Laravel 13.40 adds commit IDs to MySQL, MariaDB, and PostgreSQL connections, so you can check whether a read replica has a write before you read from it.
@@ -105,7 +105,7 @@ Laravel 13.40 adds commit IDs to MySQL, MariaDB, and PostgreSQL connections, so 
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 16 Nov 2026 01:49 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 16 Nov 2026 13:24 WIB.</sub>
 
 <!-- NEWS:END -->
 
