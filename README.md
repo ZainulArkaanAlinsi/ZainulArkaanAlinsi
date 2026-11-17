@@ -10,108 +10,108 @@
 
 <img src="./assets/stack-dark.svg?v=0ef797a3f1" width="100%" alt="Tech stack — languages: PHP, TypeScript, JavaScript, Dart, Java, HTML5, CSS. Frameworks: Laravel, Next.js, React, Vue, Tailwind, Alpine, Flutter, Node.js. Tools: MySQL, SQLite, Firebase, Vercel, Git, GitHub, Figma, Postman." />
 
-<img src="./assets/activity-dark.svg?v=57430047d7" width="100%" alt="Contributions — total, last twelve months, current and longest streak, best day, and a dithered map of the past year." />
+<img src="./assets/activity-dark.svg?v=ae3bcc33e0" width="100%" alt="Contributions — total, last twelve months, current and longest streak, best day, and a dithered map of the past year." />
 
-<img src="./assets/commits-dark.svg?v=6000288102" width="100%" alt="Commit log — the latest pushes to public repositories, newest first, refreshed automatically." />
+<img src="./assets/commits-dark.svg?v=179b76c7c6" width="100%" alt="Commit log — the latest pushes to public repositories, newest first, refreshed automatically." />
 
-<img src="./assets/news-dark.svg?v=b6ae5b68ba" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+<img src="./assets/news-dark.svg?v=b65ff7e178" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 
 <!-- NEWS:START -->
 
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; just now</sub><br>
+<sub><code>HN</code>&nbsp; 51m ago</sub><br>
+<a href="https://browser.engineering/"><b>Web Browser Engineering</b></a>
+<br><br>
+37 points and 4 comments on the Hacker News front page · browser.engineering
+</td>
+<td width="50%" valign="top">
+<sub><code>NEXT.JS</code>&nbsp; 52m ago</sub><br>
+<a href="https://nextjs.org/blog/how-were-using-ai-to-make-nextjs-more-secure"><b>How we're using AI to make Next.js more secure</b></a>
+<br><br>
+Why you're seeing more Next.js security advisories, and what we're doing about it.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>HN</code>&nbsp; 1h ago</sub><br>
+<a href="https://github.com/jquery/jquery/releases/tag/4.1.0"><b>jQuery 4.1.0</b></a>
+<br><br>
+81 points and 35 comments on the Hacker News front page · github.com
+</td>
+<td width="50%" valign="top">
+<sub><code>GITHUB</code>&nbsp; 2h ago</sub><br>
+<a href="https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/"><b>Maintainers don’t need more AI bug reports. They need fixes.</b></a>
+<br><br>
+In the Codename MDASH pilot, GitHub and Microsoft turned thousands of raw AI findings into 99 checked, private reports with suggested fixes for six widely used open source projects…
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>GITHUB</code>&nbsp; 2h ago</sub><br>
+<a href="https://github.blog/engineering/engineering-principles/building-the-agent-host-protocol-for-sessions-that-continue-across-devices/"><b>Building the Agent Host Protocol for sessions that continue across devices</b></a>
+<br><br>
+Discover how we built the open Agent Host Protocol to keep your agent sessions accessible across editors, apps, phones, and the cloud.
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 2h ago</sub><br>
+<a href="https://dev.to/ndcodes/day-85-one-direction-and-two-halves-5cic"><b>Day 85: A Task That Always Changes and Two Halves</b></a>
+<br><br>
+Day 85 of DevOps, Day 35 of Azure. Both tasks today reported a state that is a word rather than a...
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 5h ago</sub><br>
+<a href="https://dev.to/aws-builders/ai-agents-open-17-million-pull-requests-a-month-i-built-a-gate-that-rejects-the-ones-that-lie-46n7"><b>AI agents open 17 million pull requests a month. I built a gate that rejects the ones that lie.</b></a>
+<br><br>
+AI agents now open pull requests on their own. I gave Amazon Nova Pro a real GitHub bug, then built a deterministic Python gate that rejects it when it cannot prove the fix. No model grades…
+</td>
+<td width="50%" valign="top">
+<sub><code>STACKOVERFLOW</code>&nbsp; 12h ago</sub><br>
 <a href="https://stackoverflow.blog/2026/11/17/coding-tricks-that-built-doom-and-quake/"><b>The pioneering coding tricks that built Doom and Quake</b></a>
 <br><br>
 Ryan chats with John Romero, creator of the WAD file and the video game Doom, about the self-modifying code and blitting techniques that made Wolfenstein run so fast on early PCs, the…
 </td>
-<td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 4h ago</sub><br>
-<a href="https://github.com/yocontra/pulsar"><b>Show HN: Pulsar – cross-harness agent to agent communication and messaging</b></a>
-<br><br>
-10 points and 0 comments on the Hacker News front page · github.com
-</td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 5h ago</sub><br>
-<a href="https://github.com/localixai/tokendoctor"><b>Tokendoctor – See what your Claude Code use overpays</b></a>
-<br><br>
-20 points and 8 comments on the Hacker News front page · github.com
-</td>
-<td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 7h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 20h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/build-nlp-pipeline-python-therapy-notes/"><b>How to Build an NLP Pipeline in Python to Analyze Therapy Progress Notes</b></a>
 <br><br>
 Therapy progress notes are written records of what happened during a therapy session. They may include what a client said, what the therapist observed, the topics discussed, and plans for…
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 7h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 20h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-to-build-a-translator-with-chrome-s-built-in-ai/"><b>How to Build a Translator with Chrome’s Built-In AI</b></a>
 <br><br>
 Most translation features work the same way. The user types text, your app sends it to a translation API, and the API sends a translation back. That works, but every request adds cost and…
 </td>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 11h ago</sub><br>
-<a href="https://dev.to/smtahosin/your-100-lighthouse-a11y-score-is-a-lie-the-visual-architecture-guide-to-the-browser-50l7"><b>Your 100% Lighthouse A11y Score Is a Lie: The Visual Architecture Guide to the Browser…</b></a>
-<br><br>
-A visual, 10-minute deep dive into web accessibility architecture. Learn how browsers construct the Accessibility Tree from the DOM, why custom ARIA divs create more errors than native…
-</td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 13h ago</sub><br>
-<a href="https://dev.to/gde/high-or-low-thinking-gemini-4-and-gemma-4-on-hard-math-cost-first-3091"><b>High or Low Thinking? Gemini 4 and Gemma 4 on Hard Math, Cost First</b></a>
+<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
+<a href="https://laravel-news.com/durable-workflow-laravel?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Durable Workflow: Long-Running Workflows for Laravel</b></a>
 <br><br>
-Seven models on the 15 problems of AIME 2025 I at their lowest and highest thinking settings, under a hard budget. The top setting cost 2.6 to 4.8 times as much on every paid model…
+Durable Workflow runs long-running Laravel workflows on your own database, queues, and cache. Learn how it records progress and coordinates background work.
 </td>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 3d ago</sub><br>
+<sub><code>STACKOVERFLOW</code>&nbsp; 4d ago</sub><br>
 <a href="https://stackoverflow.blog/2026/11/13/your-coding-agent-shouldn-t-grade-its-own-homework/"><b>Your coding agent shouldn't grade its own homework</b></a>
 <br><br>
 AI coding agents can now write design docs, mock up frontends, and implement entire projects end to end. But can they be trusted to verify that their own code actually works?
 </td>
 </tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 4d ago</sub><br>
-<a href="https://github.blog/news-insights/company-news/github-availability-report-october-2026/"><b>GitHub availability report: October 2026</b></a>
-<br><br>
-In October, we experienced eight incidents that resulted in degraded performance across GitHub services.
-</td>
-<td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 4d ago</sub><br>
-<a href="https://laravel-news.com/laravel-session-replay?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Session Replay for Laravel: Self-Hosted Browser Recordings</b></a>
-<br><br>
-Session Replay records browser sessions in your Laravel app with rrweb, stores them on your own disk, and marks errors and failed Livewire requests.
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 4d ago</sub><br>
-<a href="https://laravel-news.com/laravel-ai-sdk-1-4?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Laravel AI SDK 1.4 Lets Agents Recover From Tool Failures</b></a>
-<br><br>
-Laravel AI SDK 1.4 sends tool exceptions back to the model instead of ending the run, and lets agent fakes resume tool approvals in tests.
-</td>
-<td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 4d ago</sub><br>
-<a href="https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/"><b>Build once, run on any agent: A practical guide to agent skills</b></a>
-<br><br>
-Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them.
-</td>
-</tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 17 Nov 2026 14:52 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 18 Nov 2026 03:52 WIB.</sub>
 
 <!-- NEWS:END -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20261117" />
-  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261117" width="100%" alt="A snake eating this year's contribution squares" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20261118" />
+  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261118" width="100%" alt="A snake eating this year's contribution squares" />
 </picture>
 
 <img src="./assets/footer-dark.svg?v=46385c42c0" width="100%" alt="Thanks for stopping by" />
