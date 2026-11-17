@@ -10,38 +10,52 @@
 
 <img src="./assets/stack-dark.svg?v=0ef797a3f1" width="100%" alt="Tech stack — languages: PHP, TypeScript, JavaScript, Dart, Java, HTML5, CSS. Frameworks: Laravel, Next.js, React, Vue, Tailwind, Alpine, Flutter, Node.js. Tools: MySQL, SQLite, Firebase, Vercel, Git, GitHub, Figma, Postman." />
 
-<img src="./assets/activity-dark.svg?v=cd296829fe" width="100%" alt="Contributions — total, last twelve months, current and longest streak, best day, and a dithered map of the past year." />
+<img src="./assets/activity-dark.svg?v=57430047d7" width="100%" alt="Contributions — total, last twelve months, current and longest streak, best day, and a dithered map of the past year." />
 
-<img src="./assets/commits-dark.svg?v=83e435de14" width="100%" alt="Commit log — the latest pushes to public repositories, newest first, refreshed automatically." />
+<img src="./assets/commits-dark.svg?v=6000288102" width="100%" alt="Commit log — the latest pushes to public repositories, newest first, refreshed automatically." />
 
-<img src="./assets/news-dark.svg?v=ff230a8cee" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+<img src="./assets/news-dark.svg?v=b6ae5b68ba" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 
 <!-- NEWS:START -->
 
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 11m ago</sub><br>
-<a href="https://www.spamhaus.org/sender-guidelines/"><b>Spamhaus new email sender requirements in November</b></a>
+<sub><code>STACKOVERFLOW</code>&nbsp; just now</sub><br>
+<a href="https://stackoverflow.blog/2026/11/17/coding-tricks-that-built-doom-and-quake/"><b>The pioneering coding tricks that built Doom and Quake</b></a>
 <br><br>
-3 points and 0 comments on the Hacker News front page · spamhaus.org
+Ryan chats with John Romero, creator of the WAD file and the video game Doom, about the self-modifying code and blitting techniques that made Wolfenstein run so fast on early PCs, the…
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 26m ago</sub><br>
-<a href="https://www.bugmenot.com/"><b>BugMeNot Has Closed</b></a>
+<sub><code>HN</code>&nbsp; 4h ago</sub><br>
+<a href="https://github.com/yocontra/pulsar"><b>Show HN: Pulsar – cross-harness agent to agent communication and messaging</b></a>
 <br><br>
-51 points and 24 comments on the Hacker News front page · bugmenot.com
+10 points and 0 comments on the Hacker News front page · github.com
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>LOBSTERS</code>&nbsp; 50m ago</sub><br>
-<a href="https://maxanti.com"><b>Maxanti - A logic puzzle</b></a>
+<sub><code>HN</code>&nbsp; 5h ago</sub><br>
+<a href="https://github.com/localixai/tokendoctor"><b>Tokendoctor – See what your Claude Code use overpays</b></a>
 <br><br>
-I vibecoded a puzzle game for a math professor friend of mine as a birthday present. He seemed to like it, so I am sharing it with all you guys as well. My friend enjoy figuring things out…
+20 points and 8 comments on the Hacker News front page · github.com
 </td>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 1h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 7h ago</sub><br>
+<a href="https://www.freecodecamp.org/news/build-nlp-pipeline-python-therapy-notes/"><b>How to Build an NLP Pipeline in Python to Analyze Therapy Progress Notes</b></a>
+<br><br>
+Therapy progress notes are written records of what happened during a therapy session. They may include what a client said, what the therapist observed, the topics discussed, and plans for…
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>FREECODECAMP</code>&nbsp; 7h ago</sub><br>
+<a href="https://www.freecodecamp.org/news/how-to-build-a-translator-with-chrome-s-built-in-ai/"><b>How to Build a Translator with Chrome’s Built-In AI</b></a>
+<br><br>
+Most translation features work the same way. The user types text, your app sends it to a translation API, and the API sends a translation back. That works, but every request adds cost and…
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 11h ago</sub><br>
 <a href="https://dev.to/smtahosin/your-100-lighthouse-a11y-score-is-a-lie-the-visual-architecture-guide-to-the-browser-50l7"><b>Your 100% Lighthouse A11y Score Is a Lie: The Visual Architecture Guide to the Browser…</b></a>
 <br><br>
 A visual, 10-minute deep dive into web accessibility architecture. Learn how browsers construct the Accessibility Tree from the DOM, why custom ARIA divs create more errors than native…
@@ -49,24 +63,10 @@ A visual, 10-minute deep dive into web accessibility architecture. Learn how bro
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>LOBSTERS</code>&nbsp; 2h ago</sub><br>
-<a href="https://yashgarg.dev/posts/where-did-the-ack-go/"><b>Where did the ACK go?</b></a>
-<br><br>
-Breaking things with JioFiber, SIP and Asterisk. Comments
-</td>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 4h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 13h ago</sub><br>
 <a href="https://dev.to/gde/high-or-low-thinking-gemini-4-and-gemma-4-on-hard-math-cost-first-3091"><b>High or Low Thinking? Gemini 4 and Gemma 4 on Hard Math, Cost First</b></a>
 <br><br>
 Seven models on the 15 problems of AIME 2025 I at their lowest and highest thinking settings, under a hard budget. The top setting cost 2.6 to 4.8 times as much on every paid model…
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 2d ago</sub><br>
-<a href="https://www.freecodecamp.org/news/build-and-train-a-glm-53-flash-model-from-scratch-with-python/"><b>Build and Train a GLM-5.3-Flash Model From Scratch with Python</b></a>
-<br><br>
-GLM-5.3-Flash combines linear and sparse attention, a mixture-of-experts design, and manifold constrained hyperconnections. A scaled-down version with 25 million parameters can be built in…
 </td>
 <td width="50%" valign="top">
 <sub><code>STACKOVERFLOW</code>&nbsp; 3d ago</sub><br>
@@ -77,35 +77,35 @@ AI coding agents can now write design docs, mock up frontends, and implement ent
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 3d ago</sub><br>
-<a href="https://www.freecodecamp.org/news/speed-up-ci-in-the-age-of-ai-written-code/"><b>How to Speed Up CI in the Age of AI-Written Code</b></a>
-<br><br>
-Coding agents now write code faster than most CI pipelines can check it. In April 2026, GitHub COO Kyle Daigle said that his platform was handling 275 million commits a week, on pace for 14…
-</td>
-<td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 3d ago</sub><br>
-<a href="https://stackoverflow.blog/2026/11/13/agentic-doesn-t-find-pages-it-assembles-answers/"><b>Agentic search doesn't find pages, it assembles answers</b></a>
-<br><br>
-Ryan sits down with Jeff Wang, co-founder at EXA, to talk about the huge scale required to support trillions of agentic searches, the technical complexities of building custom embeddings…
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 3d ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 4d ago</sub><br>
 <a href="https://github.blog/news-insights/company-news/github-availability-report-october-2026/"><b>GitHub availability report: October 2026</b></a>
 <br><br>
 In October, we experienced eight incidents that resulted in degraded performance across GitHub services.
 </td>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 3d ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 4d ago</sub><br>
 <a href="https://laravel-news.com/laravel-session-replay?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Session Replay for Laravel: Self-Hosted Browser Recordings</b></a>
 <br><br>
 Session Replay records browser sessions in your Laravel app with rrweb, stores them on your own disk, and marks errors and failed Livewire requests.
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>LARAVEL</code>&nbsp; 4d ago</sub><br>
+<a href="https://laravel-news.com/laravel-ai-sdk-1-4?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Laravel AI SDK 1.4 Lets Agents Recover From Tool Failures</b></a>
+<br><br>
+Laravel AI SDK 1.4 sends tool exceptions back to the model instead of ending the run, and lets agent fakes resume tool approvals in tests.
+</td>
+<td width="50%" valign="top">
+<sub><code>GITHUB</code>&nbsp; 4d ago</sub><br>
+<a href="https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/"><b>Build once, run on any agent: A practical guide to agent skills</b></a>
+<br><br>
+Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them.
+</td>
+</tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Lobsters · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 17 Nov 2026 04:59 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 17 Nov 2026 14:52 WIB.</sub>
 
 <!-- NEWS:END -->
 
