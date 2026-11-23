@@ -10,49 +10,35 @@
 
 <img src="./assets/stack-dark.svg?v=0ef797a3f1" width="100%" alt="Tech stack — languages: PHP, TypeScript, JavaScript, Dart, Java, HTML5, CSS. Frameworks: Laravel, Next.js, React, Vue, Tailwind, Alpine, Flutter, Node.js. Tools: MySQL, SQLite, Firebase, Vercel, Git, GitHub, Figma, Postman." />
 
-<img src="./assets/activity-dark.svg?v=5ed08468c5" width="100%" alt="Contributions — total, last twelve months, current and longest streak, best day, and a dithered map of the past year." />
+<img src="./assets/activity-dark.svg?v=c7fd1dfd5d" width="100%" alt="Contributions — total, last twelve months, current and longest streak, best day, and a dithered map of the past year." />
 
-<img src="./assets/commits-dark.svg?v=fe3e2ee333" width="100%" alt="Commit log — the latest pushes to public repositories, newest first, refreshed automatically." />
+<img src="./assets/commits-dark.svg?v=bbd714b813" width="100%" alt="Commit log — the latest pushes to public repositories, newest first, refreshed automatically." />
 
-<img src="./assets/news-dark.svg?v=872937793b" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+<img src="./assets/news-dark.svg?v=7015fb80f1" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 
 <!-- NEWS:START -->
 
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 25m ago</sub><br>
-<a href="https://www.niemanlab.org/2026/11/a-government-that-gets-it-canada-recommits-to-federal-funding-for-news/"><b>&quot;A government that 'gets it'&quot;: Canada recommits to federal funding for news</b></a>
+<sub><code>HN</code>&nbsp; 2h ago</sub><br>
+<a href="https://micjm.com/blog/yes-17m-lines-of-lean-is-a-lot/"><b>Yes, 17M lines of Lean is a lot</b></a>
 <br><br>
-40 points and 6 comments on the Hacker News front page · niemanlab.org
+17 points and 17 comments on the Hacker News front page · micjm.com
 </td>
 <td width="50%" valign="top">
-<sub><code>LOBSTERS</code>&nbsp; 1h ago</sub><br>
-<a href="https://meshcoveragecalculator.lalala.ing/"><b>Calculate radio link placement and node amount for your city's mesh network</b></a>
+<sub><code>DEV</code>&nbsp; 2h ago</sub><br>
+<a href="https://dev.to/dannwaneri/wrist-vs-camera-can-i-trust-a-camera-pulse-on-my-own-laptop-4g3o"><b>Wrist vs Camera: Can I Trust a Camera Pulse on My Own Laptop?</b></a>
 <br><br>
-FSPL + Delta-Bullington based local-first WASM radio mesh network calculator with the end goal of making calls over mesh networks possible without pissing off anybody in the process (yes…
+This is a submission for the Presage SmartSpectra SDK Challenge What I Built My laptop...
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 2h ago</sub><br>
-<a href="https://openai.com/index/perplexity-and-intelligence/"><b>Perplexity and Intelligence</b></a>
-<br><br>
-226 points and 161 comments on the Hacker News front page · openai.com
-</td>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 4h ago</sub><br>
+<sub><code>DEV</code>&nbsp; 16h ago</sub><br>
 <a href="https://dev.to/amananandrai/monuments-of-india-part-4-100-new-monuments-from-harappan-dholavira-to-the-chenab-rail-bridge-3n6p"><b>Monuments of India, Part 4: 100 New Monuments, from Harappan Dholavira to the Chenab Rail Bridge</b></a>
 <br><br>
 In Part 3 the work was about depth: sixteen statues sculpted again from photographs, a rebuilt Mysore...
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 6h ago</sub><br>
-<a href="https://dev.to/necoz/necoz-is-building-a-new-house-all-cats-follow-me-530n"><b>Necoz Is Building a New House!! 🛸 All Cats, Follow Me!! 🐈🚀</b></a>
-<br><br>
-Hoi hoi! 😸 Last week, we successfully abducted 28 cats! 🛸🐈 But there was one tiny problem WHERE...
 </td>
 <td width="50%" valign="top">
 <sub><code>FREECODECAMP</code>&nbsp; 2d ago</sub><br>
@@ -83,7 +69,7 @@ PHP 8.6 is out with partial function application, a clamp() function, a Duration
 Ryan sits down with Alex Spinelli, Senior Vice President of AI and Developer Platforms at Arm, for a conversation about bringing ML capabilities to edge devices, adapting software tools to…
 </td>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 2d ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 3d ago</sub><br>
 <a href="https://laravel-news.com/pgjumbo-postgresql-client?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>pgjumbo: A PostgreSQL Client for macOS, Windows, and Linux</b></a>
 <br><br>
 pgjumbo is a new free PostgreSQL client that shows the rows, triggers, and cascades a write will touch, and lets you rehearse it before you commit.
@@ -91,7 +77,7 @@ pgjumbo is a new free PostgreSQL client that shows the rows, triggers, and casca
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 2d ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 3d ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-to-generate-synthetic-healthcare-data-using-synthea-a-hands-on-tutorial/"><b>How to Generate Synthetic Healthcare Data Using Synthea: A Hands On Tutorial</b></a>
 <br><br>
 Healthcare generates huge amounts of data every day, from patient visits and lab results to diagnoses, medications, and medical imaging. For developers and data engineers building…
@@ -103,9 +89,23 @@ Healthcare generates huge amounts of data every day, from patient visits and lab
 Introducing Replica and the Open Source Accessibility Framework, new open source projects for collaboration and inclusion.
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>NEXT.JS</code>&nbsp; 5d ago</sub><br>
+<a href="https://nextjs.org/blog/how-were-using-ai-to-make-nextjs-more-secure"><b>How we're using AI to make Next.js more secure</b></a>
+<br><br>
+Why you're seeing more Next.js security advisories, and what we're doing about it.
+</td>
+<td width="50%" valign="top">
+<sub><code>GITHUB</code>&nbsp; 5d ago</sub><br>
+<a href="https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/"><b>Maintainers don’t need more AI bug reports. They need fixes.</b></a>
+<br><br>
+In the Codename MDASH pilot, GitHub and Microsoft turned thousands of raw AI findings into 99 checked, private reports with suggested fixes for six widely used open source projects…
+</td>
+</tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Lobsters · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 23 Nov 2026 02:35 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 23 Nov 2026 14:33 WIB.</sub>
 
 <!-- NEWS:END -->
 
