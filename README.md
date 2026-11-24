@@ -10,38 +10,52 @@
 
 <img src="./assets/stack-dark.svg?v=0ef797a3f1" width="100%" alt="Tech stack — languages: PHP, TypeScript, JavaScript, Dart, Java, HTML5, CSS. Frameworks: Laravel, Next.js, React, Vue, Tailwind, Alpine, Flutter, Node.js. Tools: MySQL, SQLite, Firebase, Vercel, Git, GitHub, Figma, Postman." />
 
-<img src="./assets/activity-dark.svg?v=53fb8434c6" width="100%" alt="Contributions — total, last twelve months, current and longest streak, best day, and a dithered map of the past year." />
+<img src="./assets/activity-dark.svg?v=9acb357a22" width="100%" alt="Contributions — total, last twelve months, current and longest streak, best day, and a dithered map of the past year." />
 
-<img src="./assets/commits-dark.svg?v=65cede48b7" width="100%" alt="Commit log — the latest pushes to public repositories, newest first, refreshed automatically." />
+<img src="./assets/commits-dark.svg?v=f4d6a0d956" width="100%" alt="Commit log — the latest pushes to public repositories, newest first, refreshed automatically." />
 
-<img src="./assets/news-dark.svg?v=7fef63dc75" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+<img src="./assets/news-dark.svg?v=fa9a9cda84" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 
 <!-- NEWS:START -->
 
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 48m ago</sub><br>
-<a href="https://viktorkrapivin.com/blog/nano5g-priv-prvd"><b>Freeing the iPod Nano 5G</b></a>
+<sub><code>STACKOVERFLOW</code>&nbsp; 1h ago</sub><br>
+<a href="https://stackoverflow.blog/2026/11/24/agent-swarms-need-more-than-a-message-board/"><b>Agent swarms need more than a message board</b></a>
 <br><br>
-4 points and 1 comment on the Hacker News front page · viktorkrapivin.com
+Agent swarms are really distributed systems problems in disguise.
 </td>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 5h ago</sub><br>
-<a href="https://dev.to/amananandrai/blobasaur-and-the-4th-cross-way-how-zerodhas-35-person-tech-team-keeps-shipping-open-source-39o9"><b>Blobasaur and the 4th Cross way: how Zerodha's ~35-person tech team keeps shipping open source</b></a>
+<sub><code>DEV</code>&nbsp; 2h ago</sub><br>
+<a href="https://dev.to/thethirdcup/the-third-cup-after-everything-has-a-name-2b14"><b>The Third Cup: After Everything Has a Name</b></a>
 <br><br>
-TL;DR: Zerodha just open-sourced Blobasaur, a sharded blob server written in Rust. It speaks the...
+Names didn't create the world. They connected us to it. It was three in the afternoon. The café...
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 6h ago</sub><br>
-<a href="https://dev.to/aws-heroes/rent-the-job-own-the-life-12g3"><b>Rent the Job. Own the Life.</b></a>
+<sub><code>HN</code>&nbsp; 3h ago</sub><br>
+<a href="https://fzakaria.com/2026/11/23/2035-came-early"><b>2035 Came Early</b></a>
 <br><br>
-I own a house. I've also rented a lot of apartments. I treated them very differently. In my...
+183 points and 31 comments on the Hacker News front page · fzakaria.com
 </td>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 8h ago</sub><br>
+<sub><code>HN</code>&nbsp; 4h ago</sub><br>
+<a href="https://www.phoronix.com/review/amd-epyc-9006-7601"><b>AMD EPYC Zen 6 vs. Zen 1 Performance: 12.1x Geo Mean in Less Than 10 Years</b></a>
+<br><br>
+76 points and 29 comments on the Hacker News front page · phoronix.com
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 14h ago</sub><br>
+<a href="https://dev.to/googlecloud/why-millions-of-agents-dont-need-millions-of-vms-on-agent-substrate-2ech"><b>Why millions of agents don't need millions of VMs on Agent Substrate</b></a>
+<br><br>
+How stateful agent harnesses run, suspend, and wake in under a second on Agent Substrate 1.0, from one VM to millions of actors.
+</td>
+<td width="50%" valign="top">
+<sub><code>FREECODECAMP</code>&nbsp; 18h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-to-use-the-github-cli-with-github-actions/"><b>How to Use the GitHub CLI with GitHub Actions</b></a>
 <br><br>
 GitHub CLI is a command-line tool that lets you manage GitHub's web features right in your local terminal. You can manage repositories, issues, pull requests, and automation workflows…
@@ -49,13 +63,13 @@ GitHub CLI is a command-line tool that lets you manage GitHub's web features rig
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 8h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 18h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-to-standardize-mlops-reporting-and-evaluation-using-an-open-source-python-package/"><b>How to Standardize MLOps Reporting and Evaluation using an Open Source Python Package</b></a>
 <br><br>
 Working on machine learning projects in production can be a bit challenging. If you've built models in real-world environments, you know how quickly things get complicated once you step…
 </td>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 9h ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 19h ago</sub><br>
 <a href="https://laravel-news.com/laravel-black-friday-deals-2026?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Laravel Black Friday and Cyber Monday Deals 2026</b></a>
 <br><br>
 Save on Laravel courses, packages, AI tools, and domains this Black Friday and Cyber Monday, with discount codes and sale dates for every 2026 deal.
@@ -63,7 +77,7 @@ Save on Laravel courses, packages, AI tools, and domains this Black Friday and C
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 10h ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 20h ago</sub><br>
 <a href="https://laravel-news.com/unlearn-dev-black-friday?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Black Friday: Learn the habits behind AI workflows that work</b></a>
 <br><br>
 Unlearn.dev teaches you to plan, build, review and ship real features with AI agents, and for Black Friday only it's 50% off.
@@ -77,35 +91,21 @@ Go from vibe coding to generating clean, maintainable code
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 3d ago</sub><br>
-<a href="https://stackoverflow.blog/2026/11/20/trying-to-get-our-arms-around-ai-efficiency/"><b>Trying to get our Arms around AI efficiency</b></a>
-<br><br>
-Ryan sits down with Alex Spinelli, Senior Vice President of AI and Developer Platforms at Arm, for a conversation about bringing ML capabilities to edge devices, adapting software tools to…
-</td>
-<td width="50%" valign="top">
 <sub><code>GITHUB</code>&nbsp; 4d ago</sub><br>
 <a href="https://github.blog/open-source/maintainers/the-best-things-in-open-source-are-built-together/"><b>The best things in open source are built together</b></a>
 <br><br>
 Introducing Replica and the Open Source Accessibility Framework, new open source projects for collaboration and inclusion.
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <sub><code>NEXT.JS</code>&nbsp; 6d ago</sub><br>
 <a href="https://nextjs.org/blog/how-were-using-ai-to-make-nextjs-more-secure"><b>How we're using AI to make Next.js more secure</b></a>
 <br><br>
 Why you're seeing more Next.js security advisories, and what we're doing about it.
 </td>
-<td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 6d ago</sub><br>
-<a href="https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/"><b>Maintainers don’t need more AI bug reports. They need fixes.</b></a>
-<br><br>
-In the Codename MDASH pilot, GitHub and Microsoft turned thousands of raw AI findings into 99 checked, private reports with suggested fixes for six widely used open source projects…
-</td>
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 24 Nov 2026 06:51 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 24 Nov 2026 16:51 WIB.</sub>
 
 <!-- NEWS:END -->
 
