@@ -10,69 +10,69 @@
 
 <img src="./assets/stack-dark.svg?v=0ef797a3f1" width="100%" alt="Tech stack — languages: PHP, TypeScript, JavaScript, Dart, Java, HTML5, CSS. Frameworks: Laravel, Next.js, React, Vue, Tailwind, Alpine, Flutter, Node.js. Tools: MySQL, SQLite, Firebase, Vercel, Git, GitHub, Figma, Postman." />
 
-<img src="./assets/activity-dark.svg?v=432e9f08a2" width="100%" alt="Contributions — total, last twelve months, current and longest streak, best day, and a dithered map of the past year." />
+<img src="./assets/activity-dark.svg?v=1b2552f4b0" width="100%" alt="Contributions — total, last twelve months, current and longest streak, best day, and a dithered map of the past year." />
 
-<img src="./assets/commits-dark.svg?v=4e66342916" width="100%" alt="Commit log — the latest pushes to public repositories, newest first, refreshed automatically." />
+<img src="./assets/commits-dark.svg?v=082ab48960" width="100%" alt="Commit log — the latest pushes to public repositories, newest first, refreshed automatically." />
 
-<img src="./assets/news-dark.svg?v=573238306a" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+<img src="./assets/news-dark.svg?v=b7b39c7359" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 
 <!-- NEWS:START -->
 
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>LOBSTERS</code>&nbsp; 23m ago</sub><br>
-<a href="https://inside.java/2025/01/28/jvm-start-up/"><b>A Deep Dive into JVM Start-up (2025)</b></a>
+<sub><code>LOBSTERS</code>&nbsp; 1h ago</sub><br>
+<a href="https://rustfoundation.org/media/needles-haystacks-and-numbers-between-0-and-1/"><b>Needles, Haystacks, and Numbers Between 0 and 1</b></a>
 <br><br>
 <i>No summary in this feed — open the link for the full story.</i>
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 38m ago</sub><br>
-<a href="https://www.ed.ac.uk/news/heart-attack-and-stroke-risk-detectable-decades-in-advance"><b>Heart attack and stroke risk detectable decades in advance</b></a>
+<sub><code>HN</code>&nbsp; 2h ago</sub><br>
+<a href="https://bexx.io/post/swift-death-of-statelessness/"><b>Swift Death of Statelessness</b></a>
 <br><br>
-16 points and 0 comments on the Hacker News front page · ed.ac.uk
+6 points and 0 comments on the Hacker News front page · bexx.io
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://apnews.com/article/cia-cyberattack-unclassified-system-bfa6d3b02e3b0e2779dfb613c900bd77"><b>An unclassified CIA system was breached in a cyberattack</b></a>
+<sub><code>HN</code>&nbsp; 3h ago</sub><br>
+<a href="https://gpu-demo-gallery.pages.dev/"><b>Show HN: Old Nvidia and ATI tech demos, running again in the browser</b></a>
 <br><br>
-41 points and 11 comments on the Hacker News front page · apnews.com
+77 points and 15 comments on the Hacker News front page · gpu-demo-gallery.pages.dev
 </td>
 <td width="50%" valign="top">
 <sub><code>DEV</code>&nbsp; 4h ago</sub><br>
-<a href="https://dev.to/aws/i-let-claude-code-create-my-aws-account-12gb"><b>I Let Claude Code Create My AWS Account</b></a>
+<a href="https://dev.to/necoz/lazy-senior-dev-mode-made-my-app-smaller-was-it-better-90i"><b>Lazy Senior Dev Mode Made My App Smaller. Was It Better?</b></a>
 <br><br>
-Every time I've helped someone start on AWS, the same thing happens. They're keen, they have an idea,...
+Raise your hand if you've been curious about Ponytail. 🙋 Same spec, same model, same prompt. One...
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 5h ago</sub><br>
-<a href="https://dev.to/necoz/why-your-ai-release-notes-hallucinate-the-why-vs-what-problem-in-git-history-5ch0"><b>Why Your AI Release Notes Hallucinate: The &quot;Why vs What&quot; Problem in Git History</b></a>
+<sub><code>FREECODECAMP</code>&nbsp; 8h ago</sub><br>
+<a href="https://www.freecodecamp.org/news/how-to-set-up-and-customize-light-and-dark-mode-in-shadcn-with-next-js/"><b>How to Set Up and Customize Light and Dark Mode in shadcn with Next.js</b></a>
 <br><br>
-Passing raw git diffs to LLMs produces plausible but hallucinated changelogs. Here is why extracting the real &quot;why&quot; requires linked issues and counterfactual evals.
+If you've created a Next.js project with shadcn/ui recently, there's a good chance dark mode is already set up. I noticed this while looking through a fresh project. I opened…
 </td>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 6h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 9h ago</sub><br>
+<a href="https://www.freecodecamp.org/news/how-phishing-attacks-work/"><b>How Phishing Attacks Actually Work (And How Developers Can Spot Them)</b></a>
+<br><br>
+Phishing attacks are getting harder to recognize. And no, it isn't just because hackers have become better at hiding spelling mistakes. Some phishing emails now look almost identical to…
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 12h ago</sub><br>
+<a href="https://dev.to/gde/install-and-use-the-google-workspace-cli-gwscli-on-linux-from-curl-to-agent-skills-12dm"><b>Install and Use the Google Workspace CLI: gwscli on Linux, From curl to Agent Skills</b></a>
+<br><br>
+A step by step guide to the generally available Google Workspace CLI: one-line install, command discovery across nine Workspace services, incremental OAuth sign-in, JSON output, and the…
+</td>
+<td width="50%" valign="top">
+<sub><code>GITHUB</code>&nbsp; 16h ago</sub><br>
 <a href="https://github.blog/news-insights/company-news/these-are-the-gifts-developers-will-actually-want/"><b>These are the gifts developers will actually want</b></a>
 <br><br>
 The developer you're shopping for hasn’t shared their holiday wish list with you yet? Check out these gifts, plus our Black Friday discount all week long.
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 6h ago</sub><br>
-<a href="https://www.freecodecamp.org/news/pass-the-microsoft-azure-ai-fundamentals-ai-901-certification-exam/"><b>Pass the Microsoft Azure AI Fundamentals (AI-901) Certification Exam</b></a>
-<br><br>
-The Microsoft Azure AI Fundamentals (AI-901) is an entry-level certification that covers AI concepts, Microsoft Foundry, and a set of Azure AI services. It replaces the AI-900, and its exam…
-</td>
-<td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 1d ago</sub><br>
-<a href="https://www.freecodecamp.org/news/how-to-use-the-github-cli-with-github-actions/"><b>How to Use the GitHub CLI with GitHub Actions</b></a>
-<br><br>
-GitHub CLI is a command-line tool that lets you manage GitHub's web features right in your local terminal. You can manage repositories, issues, pull requests, and automation workflows…
 </td>
 </tr>
 <tr>
@@ -105,7 +105,7 @@ Why you're seeing more Next.js security advisories, and what we're doing about i
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · Lobsters · freeCodeCamp. Refreshed automatically — last run 25 Nov 2026 05:29 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · Lobsters · freeCodeCamp. Refreshed automatically — last run 25 Nov 2026 15:28 WIB.</sub>
 
 <!-- NEWS:END -->
 
