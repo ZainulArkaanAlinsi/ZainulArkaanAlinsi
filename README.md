@@ -10,94 +10,94 @@
 
 <img src="./assets/stack-dark.svg?v=0ef797a3f1" width="100%" alt="Tech stack — languages: PHP, TypeScript, JavaScript, Dart, Java, HTML5, CSS. Frameworks: Laravel, Next.js, React, Vue, Tailwind, Alpine, Flutter, Node.js. Tools: MySQL, SQLite, Firebase, Vercel, Git, GitHub, Figma, Postman." />
 
-<img src="./assets/activity-dark.svg?v=1b2552f4b0" width="100%" alt="Contributions — total, last twelve months, current and longest streak, best day, and a dithered map of the past year." />
+<img src="./assets/activity-dark.svg?v=4aad002ed1" width="100%" alt="Contributions — total, last twelve months, current and longest streak, best day, and a dithered map of the past year." />
 
-<img src="./assets/commits-dark.svg?v=082ab48960" width="100%" alt="Commit log — the latest pushes to public repositories, newest first, refreshed automatically." />
+<img src="./assets/commits-dark.svg?v=23a4c12e65" width="100%" alt="Commit log — the latest pushes to public repositories, newest first, refreshed automatically." />
 
-<img src="./assets/news-dark.svg?v=b7b39c7359" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+<img src="./assets/news-dark.svg?v=fcdc855c01" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 
 <!-- NEWS:START -->
 
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>LOBSTERS</code>&nbsp; 1h ago</sub><br>
-<a href="https://rustfoundation.org/media/needles-haystacks-and-numbers-between-0-and-1/"><b>Needles, Haystacks, and Numbers Between 0 and 1</b></a>
+<sub><code>HN</code>&nbsp; 44m ago</sub><br>
+<a href="https://dalewen.substack.com/p/why-are-climate-activists-so-against"><b>Why are climate activists so against nuclear?</b></a>
+<br><br>
+10 points and 8 comments on the Hacker News front page · dalewen.substack.com
+</td>
+<td width="50%" valign="top">
+<sub><code>LOBSTERS</code>&nbsp; 52m ago</sub><br>
+<a href="https://bbogovich.github.io/mockitdown/demos/"><b>mockitdown examples - user-interface mockup language like SwiftUI</b></a>
 <br><br>
 <i>No summary in this feed — open the link for the full story.</i>
 </td>
-<td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 2h ago</sub><br>
-<a href="https://bexx.io/post/swift-death-of-statelessness/"><b>Swift Death of Statelessness</b></a>
-<br><br>
-6 points and 0 comments on the Hacker News front page · bexx.io
-</td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 3h ago</sub><br>
-<a href="https://gpu-demo-gallery.pages.dev/"><b>Show HN: Old Nvidia and ATI tech demos, running again in the browser</b></a>
+<sub><code>HN</code>&nbsp; 2h ago</sub><br>
+<a href="https://scottaaronson.blog/?p=10379"><b>Holy shit holy shit holy shit holy shit: The magnitude of what’s now happening</b></a>
 <br><br>
-77 points and 15 comments on the Hacker News front page · gpu-demo-gallery.pages.dev
+See also The matrix multiplication exponent is nine fourths [pdf] - https://news.ycombinator.com/item?id=50637220
 </td>
 <td width="50%" valign="top">
 <sub><code>DEV</code>&nbsp; 4h ago</sub><br>
-<a href="https://dev.to/necoz/lazy-senior-dev-mode-made-my-app-smaller-was-it-better-90i"><b>Lazy Senior Dev Mode Made My App Smaller. Was It Better?</b></a>
+<a href="https://dev.to/amananandrai/are-blogs-still-worth-writing-when-agents-do-the-reading-4eg0"><b>Are Blogs Still Worth Writing When Agents Do the Reading?</b></a>
 <br><br>
-Raise your hand if you've been curious about Ponytail. 🙋 Same spec, same model, same prompt. One...
+I started writing on DEV in 2020 and stayed active in the community for about three years. Then LLMs...
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 8h ago</sub><br>
+<sub><code>GITHUB</code>&nbsp; 5h ago</sub><br>
+<a href="https://github.blog/news-insights/company-news/art-of-play-in-the-age-of-ai/"><b>Art of play in the age of AI</b></a>
+<br><br>
+Now that code ships faster than ever, you have more time to spend on projects just for the fun of it. Here's what we can learn through that process as developers.
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 6h ago</sub><br>
+<a href="https://dev.to/hemapriya_kanagala/i-built-my-first-multi-agent-system-on-aws-and-it-was-easier-than-i-expected-58c2"><b>I Built My First Multi-Agent System on AWS, and It Was Easier Than I Expected</b></a>
+<br><br>
+TL;DR I recently completed the final project of Udacity's Future AWS Agent Engineer Nanodegree...
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>GITHUB</code>&nbsp; 6h ago</sub><br>
+<a href="https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization/"><b>How to choose the next safe step in application modernization</b></a>
+<br><br>
+Learn how to assess a legacy application, choose a bounded modernization step, and reuse the method with a GitHub Copilot agent skill.
+</td>
+<td width="50%" valign="top">
+<sub><code>FREECODECAMP</code>&nbsp; 21h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-to-set-up-and-customize-light-and-dark-mode-in-shadcn-with-next-js/"><b>How to Set Up and Customize Light and Dark Mode in shadcn with Next.js</b></a>
 <br><br>
 If you've created a Next.js project with shadcn/ui recently, there's a good chance dark mode is already set up. I noticed this while looking through a fresh project. I opened…
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
-<sub><code>FREECODECAMP</code>&nbsp; 9h ago</sub><br>
+<sub><code>FREECODECAMP</code>&nbsp; 23h ago</sub><br>
 <a href="https://www.freecodecamp.org/news/how-phishing-attacks-work/"><b>How Phishing Attacks Actually Work (And How Developers Can Spot Them)</b></a>
 <br><br>
 Phishing attacks are getting harder to recognize. And no, it isn't just because hackers have become better at hiding spelling mistakes. Some phishing emails now look almost identical to…
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 12h ago</sub><br>
-<a href="https://dev.to/gde/install-and-use-the-google-workspace-cli-gwscli-on-linux-from-curl-to-agent-skills-12dm"><b>Install and Use the Google Workspace CLI: gwscli on Linux, From curl to Agent Skills</b></a>
+<sub><code>LARAVEL</code>&nbsp; 23h ago</sub><br>
+<a href="https://laravel-news.com/laravel-13-44-0?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Form Request Model Lookups and PHP 8.6 Support in Laravel 13.44</b></a>
 <br><br>
-A step by step guide to the generally available Google Workspace CLI: one-line install, command discovery across nine Workspace services, incremental OAuth sign-in, JSON output, and the…
-</td>
-<td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 16h ago</sub><br>
-<a href="https://github.blog/news-insights/company-news/these-are-the-gifts-developers-will-actually-want/"><b>These are the gifts developers will actually want</b></a>
-<br><br>
-The developer you're shopping for hasn’t shared their holiday wish list with you yet? Check out these gifts, plus our Black Friday discount all week long.
+Laravel 13.44 adds model() helpers to form requests, alerts for long-running transactions, lockForNoKeyUpdate() for PostgreSQL, and PHP 8.6 support.
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
-<a href="https://laravel-news.com/laravel-black-friday-deals-2026?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Laravel Black Friday and Cyber Monday Deals 2026</b></a>
-<br><br>
-Save on Laravel courses, packages, AI tools, and domains this Black Friday and Cyber Monday, with discount codes and sale dates for every 2026 deal.
-</td>
-<td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 2d ago</sub><br>
 <a href="https://laravel-news.com/unlearn-dev-black-friday?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Black Friday: Learn the habits behind AI workflows that work</b></a>
 <br><br>
 Unlearn.dev teaches you to plan, build, review and ship real features with AI agents, and for Black Friday only it's 50% off.
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 5d ago</sub><br>
-<a href="https://github.blog/open-source/maintainers/the-best-things-in-open-source-are-built-together/"><b>The best things in open source are built together</b></a>
-<br><br>
-Introducing Replica and the Open Source Accessibility Framework, new open source projects for collaboration and inclusion.
-</td>
-<td width="50%" valign="top">
-<sub><code>NEXT.JS</code>&nbsp; 7d ago</sub><br>
+<sub><code>NEXT.JS</code>&nbsp; 8d ago</sub><br>
 <a href="https://nextjs.org/blog/how-were-using-ai-to-make-nextjs-more-secure"><b>How we're using AI to make Next.js more secure</b></a>
 <br><br>
 Why you're seeing more Next.js security advisories, and what we're doing about it.
@@ -105,13 +105,13 @@ Why you're seeing more Next.js security advisories, and what we're doing about i
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · Lobsters · freeCodeCamp. Refreshed automatically — last run 25 Nov 2026 15:28 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · Lobsters · freeCodeCamp. Refreshed automatically — last run 26 Nov 2026 04:39 WIB.</sub>
 
 <!-- NEWS:END -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20261125" />
-  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261125" width="100%" alt="A snake eating this year's contribution squares" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake-dark.svg?v=20261126" />
+  <img src="https://raw.githubusercontent.com/ZainulArkaanAlinsi/ZainulArkaanAlinsi/output/github-snake.svg?v=20261126" width="100%" alt="A snake eating this year's contribution squares" />
 </picture>
 
 <img src="./assets/footer-dark.svg?v=46385c42c0" width="100%" alt="Thanks for stopping by" />
