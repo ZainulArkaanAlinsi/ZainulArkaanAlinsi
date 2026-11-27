@@ -10,55 +10,55 @@
 
 <img src="./assets/stack-dark.svg?v=0ef797a3f1" width="100%" alt="Tech stack — languages: PHP, TypeScript, JavaScript, Dart, Java, HTML5, CSS. Frameworks: Laravel, Next.js, React, Vue, Tailwind, Alpine, Flutter, Node.js. Tools: MySQL, SQLite, Firebase, Vercel, Git, GitHub, Figma, Postman." />
 
-<img src="./assets/activity-dark.svg?v=bddf8e05cb" width="100%" alt="Contributions — total, last twelve months, current and longest streak, best day, and a dithered map of the past year." />
+<img src="./assets/activity-dark.svg?v=8035f23d01" width="100%" alt="Contributions — total, last twelve months, current and longest streak, best day, and a dithered map of the past year." />
 
-<img src="./assets/commits-dark.svg?v=b9004cc087" width="100%" alt="Commit log — the latest pushes to public repositories, newest first, refreshed automatically." />
+<img src="./assets/commits-dark.svg?v=7818dfcb6d" width="100%" alt="Commit log — the latest pushes to public repositories, newest first, refreshed automatically." />
 
-<img src="./assets/news-dark.svg?v=ec44a2331a" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+<img src="./assets/news-dark.svg?v=f9a5ab24ce" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 
 <!-- NEWS:START -->
 
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>LOBSTERS</code>&nbsp; 5m ago</sub><br>
-<a href="https://amit.prasad.me/blog/ambiguous-errors"><b>Ambiguous Errors Are the Mind Killer</b></a>
+<sub><code>STACKOVERFLOW</code>&nbsp; just now</sub><br>
+<a href="https://stackoverflow.blog/2026/11/27/sandboxes-secure-inference-and-rogue-agents/"><b>Sandboxes, secure inference, and keeping agents from going rogue</b></a>
 <br><br>
-<i>No summary in this feed — open the link for the full story.</i>
+At We Are Developers, Ryan talks with Daytona CEO and cofounder Ivan Burazin about agent sandboxes and Blackbox AI CTO and cofounder Richard Risk about encrypted inference.
 </td>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 20m ago</sub><br>
-<a href="https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan/"><b>The greatest architect you've never heard of is in Pakistan</b></a>
+<sub><code>HN</code>&nbsp; 1h ago</sub><br>
+<a href="https://arstechnica.com/gadgets/2026/11/ladybirds-new-alpha-shows-theres-life-beyond-chromium/"><b>Ladybird browser's first downloadable alpha is surprisingly capable</b></a>
 <br><br>
-3 points and 0 comments on the Hacker News front page · worksinprogress.co
+34 points and 19 comments on the Hacker News front page · arstechnica.com
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 <sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://karpathy.ai/usaciv/"><b>The USA as a Civilizations-esque map</b></a>
+<a href="https://construct22.com/"><b>The group chat where your AI talks behind your back</b></a>
 <br><br>
-63 points and 43 comments on the Hacker News front page · karpathy.ai
+105 points and 32 comments on the Hacker News front page · construct22.com
 </td>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 6h ago</sub><br>
-<a href="https://laravel-news.com/pun-php-toolchain?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Pun: Format, Lint, and Analyze PHP With One Rust Binary</b></a>
+<sub><code>DEV</code>&nbsp; 14h ago</sub><br>
+<a href="https://dev.to/gde/benchmarking-gemma-4-e2b-with-long-contexts-1jb9"><b>Benchmarking Gemma 4 E2B with Long Contexts</b></a>
 <br><br>
-Pun is a Rust binary in public beta that formats, lints, and analyzes PHP 8.3+ code, installs Composer packages, and reads one pun.toml config file.
+Gemma 4 E2B loses most of a long document: as served on an 8 GB RTX 3050 it found 52 of 80 hidden facts at 16k tokens and 14 at 32k. Thinking on helps and still leaves it short. Keep its…
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 8h ago</sub><br>
-<a href="https://dev.to/amananandrai/from-a-feed-full-of-fable-52-demos-to-a-20-episode-indian-epic-how-i-built-the-eighteen-days-14mm"><b>From a feed full of Fable 5.2 demos to a 20-episode Indian epic: how I built &quot;The Eighteen Days&quot;</b></a>
+<sub><code>DEV</code>&nbsp; 14h ago</sub><br>
+<a href="https://dev.to/copyleftdev/before-you-trust-the-canary-plant-a-bug-1k5a"><b>Before You Trust the Canary, Plant a Bug</b></a>
 <br><br>
-कर्मण्येवाधिकारस्ते मा फलेषु कदाचन। मा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि॥ You have a right to...
+Part 2 of The Art of the Canary in the Age of AI. Still no new agent results. This one is...
 </td>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 9h ago</sub><br>
-<a href="https://dev.to/necoz/why-cant-we-just-include-functionsc-in-mainc-1a73"><b>Why Can't We Just #include &quot;functions.c&quot; in &quot;main.c&quot;? 🤔</b></a>
+<sub><code>LARAVEL</code>&nbsp; 17h ago</sub><br>
+<a href="https://laravel-news.com/pun-php-toolchain?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Pun: Format, Lint, and Analyze PHP With One Rust Binary</b></a>
 <br><br>
-Suppose we have two files. functions.c: #include void greet(void) { ...
+Pun is a Rust binary in public beta that formats, lints, and analyzes PHP 8.3+ code, installs Composer packages, and reads one pun.toml config file.
 </td>
 </tr>
 <tr>
@@ -91,7 +91,7 @@ Learn how to assess a legacy application, choose a bounded modernization step, a
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 2d ago</sub><br>
 <a href="https://laravel-news.com/laravel-13-44-0?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Form Request Model Lookups and PHP 8.6 Support in Laravel 13.44</b></a>
 <br><br>
 Laravel 13.44 adds model() helpers to form requests, alerts for long-running transactions, lockForNoKeyUpdate() for PostgreSQL, and PHP 8.6 support.
@@ -105,7 +105,7 @@ Why you're seeing more Next.js security advisories, and what we're doing about i
 </tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · Lobsters · freeCodeCamp. Refreshed automatically — last run 27 Nov 2026 04:28 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 27 Nov 2026 15:25 WIB.</sub>
 
 <!-- NEWS:END -->
 
