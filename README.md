@@ -10,52 +10,66 @@
 
 <img src="./assets/stack-dark.svg?v=0ef797a3f1" width="100%" alt="Tech stack — languages: PHP, TypeScript, JavaScript, Dart, Java, HTML5, CSS. Frameworks: Laravel, Next.js, React, Vue, Tailwind, Alpine, Flutter, Node.js. Tools: MySQL, SQLite, Firebase, Vercel, Git, GitHub, Figma, Postman." />
 
-<img src="./assets/activity-dark.svg?v=5539721303" width="100%" alt="Contributions — total, last twelve months, current and longest streak, best day, and a dithered map of the past year." />
+<img src="./assets/activity-dark.svg?v=a067ed5d16" width="100%" alt="Contributions — total, last twelve months, current and longest streak, best day, and a dithered map of the past year." />
 
-<img src="./assets/commits-dark.svg?v=f3c2d3829a" width="100%" alt="Commit log — the latest pushes to public repositories, newest first, refreshed automatically." />
+<img src="./assets/commits-dark.svg?v=1c34de88e3" width="100%" alt="Commit log — the latest pushes to public repositories, newest first, refreshed automatically." />
 
-<img src="./assets/news-dark.svg?v=83d76b527b" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
+<img src="./assets/news-dark.svg?v=866381b354" width="100%" alt="Dev news — developer headlines refreshed automatically from public feeds." />
 
 <!-- NEWS:START -->
 
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 49m ago</sub><br>
-<a href="https://www.theguardian.com/books/2026/nov/27/careless-people-author-sarah-wynn-williams-the-silence-is-mine-it-doesnt-have-to-be-yours"><b>I am scared: Careless People – Sarah Wynn-Williams on living under a gag order</b></a>
-<br><br>
-25 points and 1 comment on the Hacker News front page · theguardian.com
-</td>
-<td width="50%" valign="top">
-<sub><code>HN</code>&nbsp; 1h ago</sub><br>
-<a href="https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform"><b>States sue SpaceX to stop Grok from generating child sex images, revenge porn</b></a>
-<br><br>
-69 points and 29 comments on the Hacker News front page · oag.state.va.us
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
 <sub><code>DEV</code>&nbsp; 2h ago</sub><br>
-<a href="https://dev.to/devengers/dev-opportunity-radar-27-400k-google-ai-competition-vercel-x-ai-accelerator-and-fully-funded-1jl2"><b>Dev Opportunity Radar #27: $400K Google AI Competition, Vercel X AI Accelerator, and Fully…</b></a>
+<a href="https://dev.to/thethirdcup/i-opened-my-diary-to-solve-his-problem-he-didnt-expect-what-he-saw-4ici"><b>I Opened My Diary to Solve His Problem. He Didn't Expect What He Saw.</b></a>
 <br><br>
-TL;DR Welcome back to Dev Opportunity Radar! This is a weekly series where I share opportunities,...
+&quot;We write to taste life twice, in the moment and in retrospect.&quot; — Anaïs Nin I was wondering...
 </td>
 <td width="50%" valign="top">
-<sub><code>DEV</code>&nbsp; 4h ago</sub><br>
-<a href="https://dev.to/gde/zero-repeat-regressions-the-golden-metric-the-future-of-agentic-trust-4857"><b>Zero Repeat Regressions: The Golden Metric &amp; The Future of Agentic Trust</b></a>
+<sub><code>HN</code>&nbsp; 4h ago</sub><br>
+<a href="https://unkernel.dev"><b>Unkernel: Real Linux kernel, compiled to WebAssembly</b></a>
 <br><br>
-Why we don't code by majority vote, opening our 375-ticket empirical ledger (including what broke), Barry Boehm's $1 : $500 : $25,000 token defect curve, the 4-Layer Verification Stack that…
+180 points and 24 comments on the Hacker News front page · unkernel.dev
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub><code>STACKOVERFLOW</code>&nbsp; 12h ago</sub><br>
+<sub><code>HN</code>&nbsp; 5h ago</sub><br>
+<a href="https://forums.atariage.com/topic/394894-atari-homebrew-awards-cancelled/"><b>Atari Homebrew Awards Cancelled</b></a>
+<br><br>
+177 points and 174 comments on the Hacker News front page · forums.atariage.com
+</td>
+<td width="50%" valign="top">
+<sub><code>LOBSTERS</code>&nbsp; 7h ago</sub><br>
+<a href="https://research.vu.nl/files/447013431/afroozehphdthesis%20-%2069280d90f0bfd.pdf"><b>FastLanes: Next-gen File Format</b></a>
+<br><br>
+performance because this format optimizes SIMD support etc. Comments
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>LOBSTERS</code>&nbsp; 7h ago</sub><br>
+<a href="https://www.bestinclassiosapp.com/"><b>A Best-in-Class iOS App: The Book Series</b></a>
+<br><br>
+Author announced the books are now free to download. Comments
+</td>
+<td width="50%" valign="top">
+<sub><code>DEV</code>&nbsp; 10h ago</sub><br>
+<a href="https://dev.to/aws-builders/porting-an-adk-research-and-judge-loop-to-strands-on-bedrock-agentcore-with-a2a-1x-209j"><b>Porting an ADK Research and Judge Loop to Strands on Bedrock AgentCore, With A2A 1.x</b></a>
+<br><br>
+A three-agent researcher, judge and course builder moved from Google ADK to Strands Agents on Amazon Bedrock: Nova Web Grounding for search, a Strands graph for the loop, AgentCore Runtime…
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub><code>STACKOVERFLOW</code>&nbsp; 23h ago</sub><br>
 <a href="https://stackoverflow.blog/2026/11/27/sandboxes-secure-inference-and-rogue-agents/"><b>Sandboxes, secure inference, and keeping agents from going rogue</b></a>
 <br><br>
 At We Are Developers, Ryan talks with Daytona CEO and cofounder Ivan Burazin about agent sandboxes and Blackbox AI CTO and cofounder Richard Risk about encrypted inference.
 </td>
 <td width="50%" valign="top">
-<sub><code>LARAVEL</code>&nbsp; 15h ago</sub><br>
+<sub><code>LARAVEL</code>&nbsp; 1d ago</sub><br>
 <a href="https://laravel-news.com/laravel-autobuilder?utm_medium=feed&amp;utm_source=feedpress.me&amp;utm_campaign=Feed%3A+laravelnews"><b>Laravel AutoBuilder: Build Visual Automation Workflows</b></a>
 <br><br>
 Laravel AutoBuilder adds a visual workflow editor to your app. Connect Eloquent events, conditions, and actions, then extend it with custom PHP bricks.
@@ -89,23 +103,9 @@ When you're learning AWS, Amazon S3 is one of the services you're likely to come
 Now that code ships faster than ever, you have more time to spend on projects just for the fun of it. Here's what we can learn through that process as developers.
 </td>
 </tr>
-<tr>
-<td width="50%" valign="top">
-<sub><code>GITHUB</code>&nbsp; 2d ago</sub><br>
-<a href="https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization/"><b>How to choose the next safe step in application modernization</b></a>
-<br><br>
-Learn how to assess a legacy application, choose a bounded modernization step, and reuse the method with a GitHub Copilot agent skill.
-</td>
-<td width="50%" valign="top">
-<sub><code>NEXT.JS</code>&nbsp; 10d ago</sub><br>
-<a href="https://nextjs.org/blog/how-were-using-ai-to-make-nextjs-more-secure"><b>How we're using AI to make Next.js more secure</b></a>
-<br><br>
-Why you're seeing more Next.js security advisories, and what we're doing about it.
-</td>
-</tr>
 </table>
 
-<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Next.js · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 28 Nov 2026 04:14 WIB.</sub>
+<sub>Sources: Hacker News · GitHub Blog · dev.to · Laravel News · Lobsters · freeCodeCamp · Stack Overflow Blog. Refreshed automatically — last run 28 Nov 2026 14:44 WIB.</sub>
 
 <!-- NEWS:END -->
 
